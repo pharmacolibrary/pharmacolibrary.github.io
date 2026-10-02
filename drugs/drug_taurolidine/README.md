@@ -1,0 +1,94 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B05C&quot;,&quot;href&quot;:&quot;atc/B05C.md&quot;},{&quot;label&quot;:&quot;taurolidine&quot;}]"></div>
+
+# taurolidine
+
+- **generic name:** taurolidine
+- **ATC codes:** `B05CA05`
+- **DrugBank:** [DB12473](https://go.drugbank.com/drugs/DB12473) · **PubChem:** [CID 29566](https://pubchem.ncbi.nlm.nih.gov/compound/29566)
+- **molar mass:** 284.35 g/mol (C7H16N4O4S2) — DrugBank
+- **groups:** approved, investigational
+
+## About
+
+**Description.** Taurolidine is an antimicrobial used for the prevention of catheter-related infections. It is a derivative of the amino acid [taurine].
+
+It was first synthesized in the 1970s and was originally used as a prophylactic against intraperitoneal bacterial infections in patients with peritonitis.[A263217] In November 2023, a catheter lock solution of taurolidine in combination with [heparin] - marketed as Defencath - received FDA approval under the Limited Population Pathway for Antibacterial and Antifungal Drugs (LPAD pathway) for the prevention of catheter-related bloodstream infections in a limited and specific patient population.[L50092]
+
+**Indication.** Taurolidine is indicated in combination with [heparin] to reduce the incidence of catheter-related bloodstream infections (CRBSI) in adult patients with kidney failure receiving chronic hemodialysis (HD) through a central venous catheter (CVC).[L49081]
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-19 10:09 | 3:08 | 0/0/0 | 3/0/0 | 0/0/0 | 118,717/3,396 | ollama / qwen3.8:27b-mtp-q8_0 | 6 | 0/6 | 6/0 | 0 |
+
+## popPK records
+
+_not available_
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">extracted</span> | [Chromik_2010_apoptotic_cells](drugs/drug_taurolidine/pd_Chromik_2010_apoptotic_cells.md) | name ← Taurolidine · inhibition effect | — | Chromik AM et al., Comparative analysis of cell death indu…, Journal of experimental & c… (2010) | [10.1186/1756-9966-29-21](https://doi.org/10.1186/1756-9966-29-21) |
+| <span class="pk-badge pk-badge--green">extracted</span> | [Chromik_2010_necrotic_cells](drugs/drug_taurolidine/pd_Chromik_2010_necrotic_cells.md) | name ← Taurolidine · inhibition effect | — | Chromik AM et al., Comparative analysis of cell death indu…, Journal of experimental & c… (2010) | [10.1186/1756-9966-29-21](https://doi.org/10.1186/1756-9966-29-21) |
+| <span class="pk-badge pk-badge--green">extracted</span> | [Chromik_2010_viable_cells](drugs/drug_taurolidine/pd_Chromik_2010_viable_cells.md) | name ← Taurolidine · inhibition effect | — | Chromik AM et al., Comparative analysis of cell death indu…, Journal of experimental & c… (2010) | [10.1186/1756-9966-29-21](https://doi.org/10.1186/1756-9966-29-21) |
+| <span class="pk-badge pk-badge--green">extracted</span> | [Eschenburg_2014_unknown](drugs/drug_taurolidine/pd_Eschenburg_2014_unknown.md) | Caspase-9 activity ← Taurolidine · inhibition effect | — | Eschenburg G et al., Taurolidine cooperates with antineoplas…, Genes & cancer (2014) | [10.18632/genesandcancer.36](https://doi.org/10.18632/genesandcancer.36) |
+| <span class="pk-badge pk-badge--green">extracted</span> | [Lv_2023_Inhibition_rate_of_influenza_virus_H5N1](drugs/drug_taurolidine/pd_Lv_2023_Inhibition_rate_of_influenza_virus_H5N1.md) | name ← Taurolidine · direct Emax (saturable) effect | — | Lv C et al., Taurolidine improved protection against…, Virologica Sinica (2023) | [10.1016/j.virs.2022.11.010](https://doi.org/10.1016/j.virs.2022.11.010) |
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 32 matched, 25 returned
+- **screened:** 1  ·  **relevant:** 1
+- **records:** 0  ·  extracted 0  ·  needs_review 0  ·  rejected 0  ·  stale 0
+- **scholar-agent fallback query used:** True
+
+## Full text wanted
+
+_2 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Stendel_2007.pdf` | Stendel R et al., Pharmacokinetics of taurolidine followi…, Clinical pharmacokinetics (2007) | popPK | 9 | [10.2165/00003088-200746060-00005](https://doi.org/10.2165/00003088-200746060-00005) | [17518510](https://pubmed.ncbi.nlm.nih.gov/17518510) | The paper is a PK study of taurolidine in humans, but the evidence text only provides qualitative descriptions (e.g., "markedly higher" volume of distribution) and in-vitro ratios, lacking specific numeric PK parameter values like CL, V, or half-life. |
+| `Gong_2007.pdf` | Gong L et al., The pharmacokinetics of taurolidine met…, Journal of clinical pharmac… (2007) | popPK | 8 | [10.1177/0091270007299929](https://doi.org/10.1177/0091270007299929) | [17395893](https://pubmed.ncbi.nlm.nih.gov/17395893) | The paper reports a PK study of taurolidine metabolites in humans, but the specific numeric parameter values (CL, V, t1/2) are not present in the provided text, which only contains qualitative descriptions. |
+
+<sub>queue written 2026-09-19T10:08:32.985196+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Braumann_2004 | irrelevant | 0 | 0 | The paper is a mechanistic in-vitro study on protein synthesis inhibition and does not report any pharmacokinetic parameters for taurolidine. |
+| popPK | Chromik_2010 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study on cell death induction and does not report any pharmacokinetic parameters for taurolidine. |
+| popPK | Darnowski_2004 | irrelevant | 0 | 0 | The paper is a mechanistic and antineoplastic study focusing on cytotoxicity and apoptosis, with no pharmacokinetic parameters reported. |
+| popPK | Dofferhoff_1993 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of endotoxin binding and TNF production, not a pharmacokinetic study, and reports no disposition parameters for taurolidine. |
+| PD | Dofferhoff_1993 | not_relevant | 1 | 0 | The paper mentions taurolidine qualitatively as preventing TNF rise via endotoxin neutralization but provides no numeric concentration-effect data, dose-response curve, or PD parameters for taurolidine. |
+| popPK | Eschenburg_2014 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study on neuroblastoma cell lines and does not report pharmacokinetic parameters for taurolidine. |
+| popPK | Gong_2007 | relevant | 8 | 2 | The paper reports a PK study of taurolidine metabolites in humans, but the specific numeric parameter values (CL, V, t1/2) are not present in the provided text, which only contains qualitative descriptions. |
+| popPK | Görtz_1997 | irrelevant | 0 | 0 | The paper is a clinical outcome study on intra-abdominal infections and does not report any pharmacokinetic parameters for taurolidine. |
+| popPK | Huang_2022 | irrelevant | 0 | 0 | The paper is a mechanistic immunology study focusing on autophagy and sepsis protection, containing no pharmacokinetic parameters (CL, V, etc.) for taurolidine. |
+| popPK | Lv_2023 | irrelevant | 0 | 0 | The paper is an in-vitro and in-vivo mechanistic study on antiviral activity and signaling pathways, reporting no pharmacokinetic parameters for taurolidine. |
+| popPK | Martinotti_2011 | irrelevant | 0 | 0 | The study is an in-vitro cytotoxicity screening of drug combinations and does not report any pharmacokinetic parameters for taurolidine. |
+| popPK | Nguyen_2024 | irrelevant | 0 | 0 | The paper is a clinical review of taurolidine as a catheter lock solution and explicitly states that limited pharmacokinetic data are available, providing no quantitative PK parameters. |
+| PD | Nguyen_2024 | not_relevant | 1 | 0 | The text is a review/summary that explicitly states limited PK/PD data are available and only reports clinical efficacy (risk reduction) without any numeric concentration-effect or dose-response parameters. |
+| popPK | Nici_2004 | irrelevant | 0 | 0 | The study is an in-vitro and in-vivo efficacy/toxicology study reporting IC50 and tumor reduction, not a pharmacokinetic study with disposition parameters. |
+| popPK | Rimann_2014 | irrelevant | 0 | 0 | The study is an in vitro mechanistic/cytotoxicity assay (IC50) and does not report pharmacokinetic parameters for taurolidine. |
+| popPK | Rodak_2005 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study focusing on cytotoxicity and apoptosis mechanisms, reporting no pharmacokinetic parameters. |
+| popPK | Savarese_2024 | irrelevant | 0 | 0 | The study is a clinical feasibility trial for catheter lock therapy and does not report any pharmacokinetic parameters for taurolidine. |
+| popPK | Schubert_2020 | irrelevant | 0 | 0 | The study is an in-vitro/ex-vivo feasibility study on foam-based drug delivery and cytotoxicity, reporting no pharmacokinetic parameters (CL, V, etc.) for taurolidine. |
+| PD | Schubert_2020 | not_relevant | 2 | 1 | The paper reports qualitative cytotoxicity comparisons and penetration depths for a foam carrier but does not provide numeric concentration-effect curves or PD parameters (e.g., EC50, Emax) for taurolidine. |
+| popPK | Shrayer_2003 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study on melanoma cells reporting IC50 and apoptosis data, not a pharmacokinetic study with disposition parameters. |
+| popPK | Stendel_2003 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study investigating apoptosis in cell lines and does not report any pharmacokinetic parameters. |
+| popPK | Stendel_2007 | relevant | 9 | 2 | The paper is a PK study of taurolidine in humans, but the evidence text only provides qualitative descriptions (e.g., "markedly higher" volume of distribution) and in-vitro ratios, lacking specific numeric PK parameter values like CL, V, or half-life. |
+| popPK | Wouters_2022 | irrelevant | 0 | 0 | The study investigates the immunological effects of taurolidine on leukocytes and does not report any pharmacokinetic parameters. |
+| popPK | unknown_2010 | irrelevant | 0 | 0 | no_text gate: only 133 chars of text extracted (&lt; 400) |
+| PD | unknown_2010 | not_relevant | 0 | 0 | The provided text is only a citation header for a conference abstract and contains no data, results, or PD parameters. |
+
+---
+<sub>Generated by `docs.py` (scholarv2)</sub>

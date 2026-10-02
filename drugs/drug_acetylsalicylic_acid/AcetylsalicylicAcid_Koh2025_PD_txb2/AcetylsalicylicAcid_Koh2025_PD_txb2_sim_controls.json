@@ -1,0 +1,22 @@
+[
+ {
+  "key": "E0",
+  "label": "Baseline E0",
+  "unit": "μg/L",
+  "scale": 1000000.0000000002,
+  "min": 0.2,
+  "max": 3,
+  "step": 0.05,
+  "mult": true
+ },
+ {
+  "key": "stop_time",
+  "label": "Exposure range",
+  "unit": "mol/L",
+  "scale": 0.9999999999999999,
+  "min": 0.0036,
+  "max": 0.18,
+  "step": 0.00036,
+  "sim": true
+ }
+]

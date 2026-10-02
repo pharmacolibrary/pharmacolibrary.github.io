@@ -1,0 +1,92 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B03X&quot;,&quot;href&quot;:&quot;atc/B03X.md&quot;},{&quot;label&quot;:&quot;daprodustat&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Daprodustat_Mahar2024_reference&quot;,&quot;label&quot;:&quot;Mahar_2024_reference&quot;,&quot;href&quot;:&quot;drugs/drug_daprodustat/Daprodustat_Mahar2024_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+
+# daprodustat
+
+- **generic name:** daprodustat
+- **ATC codes:** `B03XA07`
+- **DrugBank:** [DB11682](https://go.drugbank.com/drugs/DB11682) · **PubChem:** [CID 91617630](https://pubchem.ncbi.nlm.nih.gov/compound/91617630)
+- **molar mass:** 393.44 g/mol (C19H27N3O6) — DrugBank
+- **groups:** approved, investigational
+
+## About
+
+**Description.** Daprodustat is a small-molecule hypoxia-inducible factor (HIF) prolyl hydroxylase (PHD) inhibitor that was developed by GSK.[A254167,A254162] Patients with CKD cannot induce erythropoietin (EPO) production in response to hypoxia or anemia. As a potent inhibitor of PHD1, PHD2 and PHD3 (≥ 1000-fold selectivity), daprodustat stabilizes cellular HIF1α and HIF2α and the induces erythropoiesis.[A254157] A phase 3 clinical trial (NCT02879305) found that in patients with CKD undergoing dialysis, daprodustat was non-inferior to erythropoiesis-stimulating agents regarding the change in the hemoglobin level from baseline and cardiovascular outcomes.[A254172]
+
+In June 2020, daprodustat was first approved in Japan for the treatment of renal anemia.[A254157] On October 2022, the FDA Cardiovascular and Renal Drugs Advisory Committee (CRDAC) supported that the benefit of treatment with daprodustat outweighs the risks for adult dialysis patients with anemia of CKD but not for non-dialysis patients with anemia of CKD.[L43857] On February 1, 2023, daprodustat was fully approved by the FDA as the first oral treatment for anemia caused by chronic kidney disease in patients on dialysis.[L44963] The drug is currently under EMA review.
+
+**Indication.** Daprodustat is a hypoxia-inducible factor prolyl hydroxylase (HIF PH) inhibitor indicated for the treatment of anemia due to chronic kidney disease in adults who have been receiving dialysis for at least four months.[L44958]
+
+The US prescribing information for daprodustat indicates that the drug was not shown to improve quality of life, fatigue, or patient well-being. It is not advised to be used as a substitute for transfusion in patients requiring immediate correction
+of anemia. It is also not indicated in patients not on dialysis.[L44958]
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-19 00:49 | 2:22 | 1/0/0 | 1/0/0 | 0/0/0 | 95,953/2,358 | ollama / qwen3.8:27b-mtp-q8_0 | 2 | 0/2 | 2/0 | 0 |
+
+## popPK records
+
+| status | detail | model | model structure | params | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.375). The first reading is what the record holds.">cross-check: disputed</span><br><sub>blocking: T6_deviations</sub><br><sub>route_to: `engineer`</sub> | [Mahar_2024_reference](drugs/drug_daprodustat/Daprodustat_Mahar2024_reference.md) | ▶ model + simulator | 1-compartment, oral | 4 | Mahar KM et al., Integrated Population Pharmacokinetics…, Clinical pharmacokinetics (2024) | [10.1007/s40262-024-01417-9](https://doi.org/10.1007/s40262-024-01417-9) |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.0). The first reading is what the record holds.">cross-check: disputed</span> | [Bailey_2019_hemoglobin](drugs/drug_daprodustat/pd_Bailey_2019_hemoglobin.md) | name ← daprodustat · direct Emax (saturable) effect | — | Bailey CK et al., A randomized, 29-day, dose-ranging, eff…, BMC nephrology (2019) | [10.1186/s12882-019-1547-z](https://doi.org/10.1186/s12882-019-1547-z) |
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=daprodustat) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| absorption | blood-brain barrier | `ABCG2` substrate | DrugBank actor |
+| absorption | liver | `ABCG2` substrate | DrugBank actor |
+| absorption | mammary gland | `ABCG2` substrate | DrugBank actor |
+| absorption | small intestine | `ABCG2` substrate | DrugBank actor |
+| absorption | testis | `ABCG2` substrate | DrugBank actor |
+| metabolism | liver | `CYP2C8` inhibitor/substrate, `CYP3A4` substrate, `SLCO1B1` inhibitor, `SLCO1B3` inhibitor | DrugBank actor |
+| metabolism | small intestine | `CYP3A4` substrate | DrugBank actor |
+| excretion | bile duct | <sub>“…daprodustat, 74% of the radioactivity was recovered in the feces, and 21% of the radioacti…”</sub> | prose |
+| excretion | kidney | `SLC22A6` substrate, `SLC22A8` substrate | DrugBank actor |
+
+<sub>Actors without a tissue in the table: EGLN1 (inhibitor), EGLN2 (inhibitor), EGLN3 (inhibitor).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 4 matched, 4 returned
+- **screened:** 1  ·  **relevant:** 1
+- **records:** 1  ·  extracted 0  ·  needs_review 1  ·  rejected 0  ·  stale 0
+- **scholar-agent fallback query used:** not captured
+
+## Full text wanted
+
+_2 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Mahar_2024.pdf` | Mahar KM et al., Integrated Population Pharmacokinetics…, Clinical pharmacokinetics (2024) | popPK | 10 | [10.1007/s40262-024-01417-9](https://doi.org/10.1007/s40262-024-01417-9) | [39259485](https://pubmed.ncbi.nlm.nih.gov/39259485) | The paper is a population pharmacokinetic study of daprodustat that explicitly reports quantitative parameters such as oral clearance (24.6 L/h) and volume of distribution (26.9 L) in the text. |
+| `Janssens_2021.pdf` | Janssens LK et al., Sensing an Oxygen Sensor: Development a…, Analytical chemistry (2021) | pd | 4 | [10.1021/acs.analchem.1c02923](https://doi.org/10.1021/acs.analchem.1c02923) | [34677954](https://www.ncbi.nlm.nih.gov/pubmed/34677954) | metadata signals extractable PD data (EC50) |
+
+<sub>queue written 2026-09-19T00:47:08.582465+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Bailey_2019 | relevant | 4 | 8 | The paper reports standard non-compartmental PK parameters (Cmax, AUC, t1/2) for daprodustat in Table S5, but lacks compartmental model parameters (CL, V, Q) required for population PK extraction. |
+| popPK | Janssens_2021 | irrelevant | 0 | 0 | The paper describes an in-vitro mechanistic assay for HIF heterodimerization and reports potency (EC50) data, not pharmacokinetic disposition parameters. |
+| popPK | Mahar_2026 | relevant | 8 | 2 | The paper describes a population PK model for daprodustat and reports specific covariate effects (e.g., 42% reduction in clearance with clopidogrel), but the primary numeric parameter estimates (CL, V, Q, ka) are not explicitly listed in the provided text. |
+
+---
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-09-19 00:47 UTC</sub>

@@ -1,0 +1,102 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;L01C&quot;,&quot;href&quot;:&quot;atc/L01C.md&quot;},{&quot;label&quot;:&quot;docetaxel&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Docetaxel_Wang2024_reference&quot;,&quot;label&quot;:&quot;Wang_2024_reference&quot;,&quot;href&quot;:&quot;drugs/drug_docetaxel/Docetaxel_Wang2024_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+
+# docetaxel
+
+- **generic name:** docetaxel
+- **ATC codes:** `L01CD02`
+- **DrugBank:** [DB01248](https://go.drugbank.com/drugs/DB01248) · **PubChem:** [CID 148124](https://pubchem.ncbi.nlm.nih.gov/compound/148124)
+- **molar mass:** 807.8792 g/mol (C43H53NO14) — DrugBank
+- **groups:** approved, investigational
+
+## About
+
+**Description.** Docetaxel is a clinically well established anti-mitotic chemotherapy medication used for the treatment of different types of cancer, including breast, ovarian, and non-small cell lung cancer. Docetaxel is a complex diterpenoid molecule and a semisynthetic analogue of [paclitaxel].[A259676,L46466] Docetaxel reversibly binds to microtubulin with high affinity in a 1:1 stoichiometric ratio, allowing it to prevent cell division and promote to cell death.[A259676] Compared to paclitaxel, docetaxel is two times more potent as an inhibitor of microtubule depolymerization. Docetaxel binds to microtubules but does not interact with dimeric tubulin.[A259671]
+
+The use of docetaxel may lead to udesired outcomes such as hepatic impairment, hematologic effects, enterocolitis and neutropenic colitis, hypersensitivity reactions, fluid retention, second primary malignancies, embryo-fetal toxicity, and tumor lysis syndrome.[L46466] Docetaxel was approved by the FDA in 1996 and is available in solution for injection for intravenous or parenteral administration.[A259676]
+
+**Indication.** Docetaxel is indicated as a single agent for the treatment of locally advanced or metastatic breast cancer after chemotherapy failure; and with doxorubicin and cyclophosphamide as adjuvant treatment of operable node-positive BC. It is also indicated as a single agent for locally advanced or metastatic non-small cell lung cancer (NSCLC) after platinum therapy failure; and with cisplatin for unresectable, locally advanced or metastatic untreated NSCLC. For the treatment of metastatic castration-resistant prostate cancer, docetaxel is indicated with prednisone. Docetaxel is also indicated with cisplatin and fluorouracil for untreated, advanced gastric adenocarcinoma, including the gastroesophageal junction, and with cisplatin and fluorouracil for induction treatment of locally advanced squamous cell carcinoma of the head and neck (SCCHN).[L46466]
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-15 09:17 | 4:28 | 0/0/1 | 0/0/0 | 0/0/0 | 35,982/11,019 | ollama / qwen3.8:27b-mtp-q8_0 | 1 | 0/1 | 1/0 | 0 |
+
+## popPK records
+
+| status | detail | model | model structure | params | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--orange">needs review</span><br><sub>blocking: C6_cl_magnitude failed (ratio None)</sub><br><sub>route_to: `human_review`</sub> | [Wang_2024_reference](drugs/drug_docetaxel/Docetaxel_Wang2024_reference.md) | — | 1-compartment (no model) | 2 | Wang D et al., Oral docetaxel plus encequidar - A phar…, Journal of pharmacokinetics… (2024) | [10.1007/s10928-024-09913-y](https://doi.org/10.1007/s10928-024-09913-y) |
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=docetaxel) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| absorption | blood-brain barrier | `ABCB1` substrate, `ABCG2` substrate | DrugBank actor |
+| absorption | kidney | `ABCB1` substrate | DrugBank actor |
+| absorption | liver | `ABCB1` substrate, `ABCG2` substrate | DrugBank actor |
+| absorption | mammary gland | `ABCG2` substrate | DrugBank actor |
+| absorption | placenta | `ABCB1` substrate | DrugBank actor |
+| absorption | small intestine | `ABCB1` substrate, `ABCG2` substrate | DrugBank actor |
+| absorption | testis | `ABCB1` substrate, `ABCG2` substrate | DrugBank actor |
+| distribution | blood-brain barrier | `ABCC1` substrate | DrugBank actor |
+| distribution | lung | `ABCC1` substrate | DrugBank actor |
+| metabolism | kidney | `CYP3A5` substrate, `SLC22A7` substrate | DrugBank actor |
+| metabolism | liver | `CYP3A4` inhibitor/substrate, `CYP3A5` substrate, `CYP3A7` substrate, `SLC22A7` substrate, `SLCO1B3` substrate | DrugBank actor |
+| metabolism | lung | `CYP1B1` binder | DrugBank actor |
+| metabolism | skin | `CYP1B1` binder | DrugBank actor |
+| metabolism | small intestine | `CYP3A4` inhibitor/substrate, `CYP3A5` substrate | DrugBank actor |
+| excretion | bile duct | <sub>“…Docetaxel was eliminated in urine and feces following oxidative metabolism of the tert-but…”</sub> | prose |
+| excretion | kidney | `ABCC2` substrate | DrugBank actor |
+| excretion | liver | `ABCC2` substrate | DrugBank actor |
+| excretion | small intestine | `ABCC2` substrate | DrugBank actor |
+
+<sub>Actors without a tissue in the table: ABCC10 (substrate), BCL2 (unknown), NR1I2 (binder), TUBB1 (inhibitor).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 139 matched, 20 returned
+- **screened:** 3  ·  **relevant:** 3
+- **records:** 1  ·  extracted 0  ·  needs_review 1  ·  rejected 0  ·  stale 0
+- **scholar-agent fallback query used:** not captured
+
+## Full text wanted
+
+_5 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Bruno_2001.pdf` | Bruno R et al., Population pharmacokinetics and pharmac…, Investigational new drugs (2001) | popPK | 10 | [10.1023/a:1010687017717](https://doi.org/10.1023/a:1010687017717) | [11392450](https://pubmed.ncbi.nlm.nih.gov/11392450) | The paper is a definitive population PK study for docetaxel, but the specific numeric parameter values (CL, V, etc.) are not present in the provided abstract text, only a relative change in clearance. |
+| `Wei_2022.pdf` | Wei J et al., Docetaxel population pharmacokinetic mo…, Annals of translational med… (2022) | popPK | 10 | [10.21037/atm-22-2619](https://doi.org/10.21037/atm-22-2619) | [35845493](https://pubmed.ncbi.nlm.nih.gov/35845493) | The paper describes a population PK study for docetaxel, but the specific numeric parameter values (CL, V, etc.) are not present in the provided abstract text. |
+| `Bruno_1993.pdf` | Bruno R et al., Pharmacokinetics and metabolism of Taxo…, Cancer surveys (1993) | popPK | 9 | not captured | [7907950](https://pubmed.ncbi.nlm.nih.gov/7907950) | The text explicitly reports quantitative disposition parameters for docetaxel in humans, including a terminal half-life of 12 hours and plasma clearance of 21 l/hr/m2. |
+| `Clarke_1999.pdf` | Clarke SJ et al., Clinical pharmacokinetics of docetaxel, Clinical pharmacokinetics (1999) | popPK | 9 | [10.2165/00003088-199936020-00002](https://doi.org/10.2165/00003088-199936020-00002) | [10092957](https://pubmed.ncbi.nlm.nih.gov/10092957) | The text explicitly reports quantitative disposition parameters for docetaxel, including half-lives (4.5 min, 38.3 min, 12.2 h), volume of distribution (74 L/m2), and clearance (22 L/h/m2). |
+| `Bruno_1997.pdf` | Bruno R et al., Pharmacokinetic and pharmacodynamic pro…, American journal of health-… (1997) | popPK | 8 | [10.1093/ajhp/54.suppl_2.S16](https://doi.org/10.1093/ajhp/54.suppl_2.S16) | [9435928](https://pubmed.ncbi.nlm.nih.gov/9435928) | The paper describes a population PK model for docetaxel but the provided evidence contains only qualitative descriptions and no specific numeric parameter values (e.g., CL, V, Q). |
+
+<sub>queue written 2026-09-15T20:01:52.307701+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Bruno_1997 | relevant | 8 | 0 | The paper describes a population PK model for docetaxel but the provided evidence contains only qualitative descriptions and no specific numeric parameter values (e.g., CL, V, Q). |
+| popPK | Bruno_2001 | relevant | 10 | 2 | The paper is a definitive population PK study for docetaxel, but the specific numeric parameter values (CL, V, etc.) are not present in the provided abstract text, only a relative change in clearance. |
+| popPK | Davies_2012 | irrelevant | 0 | 0 | The study focuses on the preclinical pharmacology of AZD5363, with docetaxel serving only as a comparator agent in combination studies without reporting its PK parameters. |
+| PD | Davies_2012 | not_relevant | 0 | 0 | The paper focuses on the pharmacology of AZD5363 and only qualitatively mentions its enhancement of docetaxel activity without providing any exposure-response or dose-response data for docetaxel. |
+| popPK | Friberg_2002 | irrelevant | 2 | 0 | The paper focuses on a pharmacodynamic model of myelosuppression and does not report quantitative pharmacokinetic disposition parameters (CL, V, etc.) for docetaxel. |
+| popPK | Kenmotsu_2015 | irrelevant | 2 | 0 | The paper is a review discussing dose differences and qualitative PK relationships (e.g., clearance correlates) without reporting specific quantitative PK parameter values (CL, V, etc.) for docetaxel. |
+| popPK | Petitcollin_2021 | irrelevant | 0 | 0 | The study focuses on the pharmacokinetics of trastuzumab and bevacizumab, with docetaxel serving only as a co-administered chemotherapy agent without reported PK parameters. |
+| PD | Petitcollin_2021 | not_relevant | 0 | 0 | The paper studies the PK/PD of trastuzumab and bevacizumab, not docetaxel, and explicitly states that no relationship between exposure and clinical response was found. |
+| popPK | Strother_2008 | irrelevant | 2 | 0 | The paper is a review of docetaxel development and does not report original quantitative pharmacokinetic parameter values in the provided evidence. |
+| popPK | Wei_2022 | relevant | 10 | 0 | The paper describes a population PK study for docetaxel, but the specific numeric parameter values (CL, V, etc.) are not present in the provided abstract text. |
+
+---
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-09-15 09:16 UTC</sub>

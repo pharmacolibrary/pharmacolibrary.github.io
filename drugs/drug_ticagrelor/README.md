@@ -1,0 +1,114 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B01A&quot;,&quot;href&quot;:&quot;atc/B01A.md&quot;},{&quot;label&quot;:&quot;ticagrelor&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ticagrelor_Henrich2021_reference&quot;,&quot;label&quot;:&quot;Henrich_2021_reference&quot;,&quot;href&quot;:&quot;drugs/drug_ticagrelor/Ticagrelor_Henrich2021_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ticagrelor_strand2019_reference&quot;,&quot;label&quot;:&quot;\u00c5strand_2019_reference&quot;,&quot;href&quot;:&quot;drugs/drug_ticagrelor/Ticagrelor_strand2019_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ticagrelor_Kathman2022_reference&quot;,&quot;label&quot;:&quot;Kathman_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_ticagrelor/Ticagrelor_Kathman2022_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+
+# ticagrelor
+
+- **generic name:** ticagrelor
+- **ATC codes:** `B01AC24`
+- **DrugBank:** [DB08816](https://go.drugbank.com/drugs/DB08816) · **PubChem:** [CID 9871419](https://pubchem.ncbi.nlm.nih.gov/compound/9871419)
+- **molar mass:** 522.568 g/mol (C23H28F2N6O4S) — DrugBank
+- **groups:** approved, investigational
+
+## About
+
+**Description.** Ticagrelor, or AZD6140, was first described in the literature in 2003.[A204170,A2903] Ticagrelor is an ADP derivative developed for its P2Y<sub>12</sub> receptor antagonism.[A2903] Unlike [clopidogrel], ticagrelor is not a prodrug.[A2903] It is marketed by Astra Zeneca as Brilinta in the US[L14201] and Brilique or Possia in the EU,[L14207].
+
+Ticagrelor was granted EMA approval on 3 December 2010.[L14207]
+Ticagrelor was granted FDA approval on 20 July 2011.[L14201]
+
+**Indication.** Ticagrelor is indicated to reduce the risk of cardiovascular death, myocardial infarction, and stroke in patients with acute coronary syndrome or a history of myocardial infarction.[L14201] Ticagrelor is also indicated to reduce the risk of a first myocardial infarction or stroke in high risk patients with coronary artery disease.[L14201]
+
+## Molecules and molar masses
+
+> The molar mass each model uses to convert mass to molar concentration and to form a metabolite molecule for molecule. Looked up, never estimated: DrugBank for the drug, the paper's own value or the PubChem entry matched to the paper's name for a metabolite.
+
+| molecule | role | molar mass (g/mol) | formula | source | PubChem | records |
+|---|---|---|---|---|---|---|
+| ticagrelor | parent | 522.568 | C23H28F2N6O4S | DrugBank | [9871419](https://pubchem.ncbi.nlm.nih.gov/compound/9871419) | Henrich_2021, Kathman_2022, Åstrand_2019 |
+| AR-C124910XX | metabolite | 478.518 | C21H24F2N6O3S | PubChem | [49846084](https://pubchem.ncbi.nlm.nih.gov/compound/49846084) | Åstrand_2019 |
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-26 20:39 | 1:16 | 2/1/0 | 1/2/0 | 0/0/0 | 25,556/1,000 | ollama / qwen3.8:27b-mtp-q8_0 | 13 | 1/6 | 7/0 | 0 |
+
+## popPK records
+
+| status | detail | model | model structure | params | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">reviewed — candidate</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.545). The first reading is what the record holds.">cross-check: disputed</span> | [Henrich_2021_reference](drugs/drug_ticagrelor/Ticagrelor_Henrich2021_reference.md) | ▶ model + simulator | 2-compartment, oral | 5 | Henrich A et al., Pharmacokinetic/pharmacodynamic modelin…, CPT: pharmacometrics & syst… (2021) | [10.1002/psp4.12641](https://doi.org/10.1002/psp4.12641) |
+| <span class="pk-badge pk-badge--orange">needs review</span><br><sub>caveat: the record defines covariate effects (weight on clearance, renal function …) but the engineer simulated only…</sub><br><sub>blocking: T3_param_coverage</sub><br><sub>route_to: `engineer`</sub> | [Åstrand_2019_reference](drugs/drug_ticagrelor/Ticagrelor_strand2019_reference.md) | ▶ model + simulator | parent 2-cmt + 1 metabolite (2-cmt) | 12 (+1 cov.) | Åstrand M et al., Pharmacokinetic-pharmacodynamic modelli…, British journal of clinical… (2019) | [10.1111/bcp.13812](https://doi.org/10.1111/bcp.13812) |
+| <span class="pk-badge pk-badge--red">rejected</span><br><sub>blocking: no distribution volume and no clearance/elimination — not a compartmental popPK…</sub><br><sub>blocking: C5 dimension mismatch on a structural parameter</sub><br><sub>route_to: `human_review`</sub> | [Kathman_2022_reference](drugs/drug_ticagrelor/Ticagrelor_Kathman2022_reference.md) | — | parent + metabolite (no model) | 1 (+5 cov.) | Kathman SJ et al., Population pharmacokinetic-pharmacodyna…, CPT: pharmacometrics & syst… (2022) | [10.1002/psp4.12734](https://doi.org/10.1002/psp4.12734) |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--red">rejected</span> | [Henrich_2021_PRU](drugs/drug_ticagrelor/pd_Henrich_2021_PRU.md) | Platelet reactivity units ← selatogrel, active metabolite of clopidogrel, active metabolite of prasugrel, ticagrelor, active metabolite of ticagrelor · direct sigmoid Emax (Hill) effect | — | Henrich A et al., Pharmacokinetic/pharmacodynamic modelin…, CPT: pharmacometrics & syst… (2021) | [10.1002/psp4.12641](https://doi.org/10.1002/psp4.12641) |
+| <span class="pk-badge pk-badge--red">rejected</span> | [Kathman_2022_LTA](drugs/drug_ticagrelor/pd_Kathman_2022_LTA.md) | LTA ← uncomplexed ticagrelor and uncomplexed ticagrelor active metabolite · direct sigmoid Emax (Hill) effect | — | Kathman SJ et al., Population pharmacokinetic-pharmacodyna…, CPT: pharmacometrics & syst… (2022) | [10.1002/psp4.12734](https://doi.org/10.1002/psp4.12734) |
+| <span class="pk-badge pk-badge--red">rejected</span> | [Kathman_2022_PRU](drugs/drug_ticagrelor/pd_Kathman_2022_PRU.md) | PRU ← uncomplexed ticagrelor and uncomplexed ticagrelor active metabolite · direct sigmoid Emax (Hill) effect | — | Kathman SJ et al., Population pharmacokinetic-pharmacodyna…, CPT: pharmacometrics & syst… (2022) | [10.1002/psp4.12734](https://doi.org/10.1002/psp4.12734) |
+| <span class="pk-badge pk-badge--red">rejected</span> | [Kathman_2022_VASP](drugs/drug_ticagrelor/pd_Kathman_2022_VASP.md) | VASP ← uncomplexed ticagrelor and uncomplexed ticagrelor active metabolite · direct sigmoid Emax (Hill) effect | — | Kathman SJ et al., Population pharmacokinetic-pharmacodyna…, CPT: pharmacometrics & syst… (2022) | [10.1002/psp4.12734](https://doi.org/10.1002/psp4.12734) |
+| <span class="pk-badge pk-badge--red">rejected</span> | [Åstrand_2019_PRU](drugs/drug_ticagrelor/pd_strand_2019_PRU.md) | P2Y12 reaction units ← ticagrelor · direct sigmoid Emax (Hill) effect | ▶ model + simulator | Åstrand M et al., Pharmacokinetic-pharmacodynamic modelli…, British journal of clinical… (2019) | [10.1111/bcp.13812](https://doi.org/10.1111/bcp.13812) |
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=ticagrelor) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| absorption | blood-brain barrier | `ABCB1` inhibitor/substrate | DrugBank actor |
+| absorption | kidney | `ABCB1` inhibitor/substrate | DrugBank actor |
+| absorption | liver | `ABCB1` inhibitor/substrate | DrugBank actor |
+| absorption | placenta | `ABCB1` inhibitor/substrate | DrugBank actor |
+| absorption | small intestine | `ABCB1` inhibitor/substrate | DrugBank actor |
+| absorption | testis | `ABCB1` inhibitor/substrate | DrugBank actor |
+| distribution | blood | `ALB` binder | DrugBank actor |
+| metabolism | kidney | `CYP3A5` activator/substrate | DrugBank actor |
+| metabolism | liver | `CYP2B6` inducer, `CYP2C9` inducer/inhibitor, `CYP3A4` inhibitor/substrate, `CYP3A5` activator/substrate | DrugBank actor |
+| metabolism | small intestine | `CYP3A4` inhibitor/substrate, `CYP3A5` activator/substrate | DrugBank actor |
+| excretion | bile duct | <sub>“…A radiolabelled dose of ticagrelor is 57.8% recovered in feces and 26.5% recovered in urin…”</sub> | prose |
+| excretion | kidney | <sub>“…cagrelor is 57.8% recovered in feces and 26.5% recovered in urine.[A17595,L14201] Less tha…”</sub> | prose |
+
+<sub>Actors without a tissue in the table: P2RY12 (inhibitor).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 48 matched, 20 returned
+- **screened:** 4  ·  **relevant:** 4
+- **records:** 3  ·  extracted 1  ·  needs_review 1  ·  rejected 1  ·  stale 0
+- **scholar-agent fallback query used:** not captured
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Chen_2024 | irrelevant | 2 | 0 | This is a systematic review that summarizes and simulates existing models rather than reporting original quantitative PK parameter values for ticagrelor in the provided text. |
+| PD | Chen_2024 | not_relevant | 3 | 1 | The paper is a systematic review and simulation study that summarizes existing models but does not report original numeric PD parameters (e.g., Emax, EC50) or specific concentration-effect curves for ticagrelor in the provided text. |
+| popPK | Giacoppo_2025 | irrelevant | 0 | 0 | The paper is a clinical outcomes meta-analysis comparing antiplatelet therapies and does not report any pharmacokinetic parameters for ticagrelor. |
+| popPK | Henrich_2021 | irrelevant | 2 | 0 | The study focuses on the PK/PD of selatogrel, and ticagrelor is used only as a comparator with literature-based PK parameters, for which no specific numeric values are provided in the evidence. |
+| popPK | Infeld_2021 | irrelevant | 0 | 0 | The study focuses on platelet reactivity and pharmacodynamics, not pharmacokinetic parameters like clearance or volume. |
+| popPK | Lee_2018 | irrelevant | 2 | 3 | This is a systematic review that reports summary Cmax and AUC values from primary studies but does not provide the specific compartmental or population PK parameters (CL, V, Q, ka) required for extraction. |
+| PD | Lee_2018 | not_relevant | 3 | 2 | The paper is a systematic review that qualitatively summarizes PK and PD data from other studies but does not present a specific exposure-response model or derive numeric PD parameters (e.g., Emax, EC50) for ticagrelor. |
+| popPK | Liu_2018 | relevant | 10 | 0 | The paper describes a population PK study for ticagrelor, but the specific numeric parameter values (CL, V, etc.) are not present in the provided abstract text. |
+| popPK | Liu_2023 | relevant | 9 | 2 | The paper describes a population PK model for ticagrelor, but the specific numeric parameter values (CL, V, etc.) are not present in the provided evidence, only PD metrics and model structure descriptions. |
+| popPK | Liu_2023_2 | relevant | 9 | 0 | The paper describes a population pharmacokinetic model for ticagrelor, but the specific numeric parameter values (CL, V, etc.) are not present in the provided abstract/evidence. |
+| popPK | Liu_2024 | relevant | 10 | 2 | The study is a population PK analysis of ticagrelor, but only the absorption rate constant (0.67/h) is explicitly provided in the text, while other key parameters like clearance and volume are described qualitatively or implied to be in the full model not shown. |
+| popPK | Röshammar_2017 | irrelevant | 2 | 0 | The paper reports exposure-response relationships and median steady-state concentrations but does not provide quantitative pharmacokinetic disposition parameters (CL, V, ka, etc.) or a compartmental model for ticagrelor. |
+| popPK | Siller-Matula_2010 | irrelevant | 2 | 1 | The paper is a review article that summarizes pharmacokinetic properties of multiple drugs, including ticagrelor, but does not present original quantitative population-PK parameters (CL, V, Q) or compartmental models for ticagrelor. |
+| PD | Siller-Matula_2010 | not_relevant | 2 | 0 | The paper is a review article summarizing the pharmacology of various antiplatelet agents, including ticagrelor, but does not present original data, specific numeric PD parameters, or extractable concentration-effect curves for ticagrelor. |
+| popPK | Teng_2012 | irrelevant | 2 | 0 | The paper is a review summarizing the profile of ticagrelor and does not report original quantitative disposition parameters (CL, V, Q, ka) or compartmental model values. |
+| PD | Teng_2012 | not_relevant | 2 | 1 | The text is a qualitative review summarizing the PK/PD profile of ticagrelor without providing specific numeric PD parameters (e.g., Emax, EC50) or extractable concentration-effect curves. |
+| popPK | Teng_2015_2 | irrelevant | 2 | 3 | The paper is a review that summarizes pharmacokinetic parameters (tmax, t1/2, bioavailability) but does not report quantitative compartmental model parameters (CL, V, Q, ka) or population-PK estimates. |
+| PD | Teng_2015_2 | not_relevant | 4 | 2 | The paper is a review that references a sigmoid Emax model and includes a scatter plot of concentration vs. effect, but it does not provide the specific numeric PD parameters (Emax, EC50) or a detailed data table from which they can be derived. |
+| popPK | Valgimigli_2024 | irrelevant | 0 | 0 | The paper is a clinical meta-analysis of efficacy and safety outcomes, not a pharmacokinetic study, and contains no PK parameters for ticagrelor. |
+| popPK | Zhou_2025 | irrelevant | 0 | 0 | The paper is a clinical trial evaluating antiplatelet efficacy and safety outcomes, not a pharmacokinetic study, and contains no PK parameters for ticagrelor. |
+
+---
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-09-26 20:38 UTC</sub>

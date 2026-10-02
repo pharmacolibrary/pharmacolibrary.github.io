@@ -1,0 +1,92 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A06A&quot;,&quot;href&quot;:&quot;atc/A06A.md&quot;},{&quot;label&quot;:&quot;alvimopan&quot;}]"></div>
+
+# alvimopan
+
+- **generic name:** alvimopan
+- **ATC codes:** `A06AH02`
+- **DrugBank:** [DB06274](https://go.drugbank.com/drugs/DB06274) · **PubChem:** [CID 5488548](https://pubchem.ncbi.nlm.nih.gov/compound/5488548)
+- **molar mass:** 424.5326 g/mol (C25H32N2O4) — DrugBank
+- **groups:** approved, investigational
+
+## About
+
+**Description.** Alvimopan is a peripherally acting μ opioid antagonist. It is used to avoid postoperative ileus following small or large bowel resection and accelerates the gastrointestinal recovery period.
+
+**Indication.** Used to accelerate the time to upper and lower gastrointestinal recovery following partial large or small bowel resection surgery with primary anastomosis. Also investigated for use in the treatment of pain (acute or chronic).
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-18 14:52 | 2:41 | 0/0/0 | 0/0/0 | 0/0/0 | 33,082/2,124 | ollama / qwen3.8:27b-mtp-q8_0 | 1 | 0/1 | 1/0 | 0 |
+
+## popPK records
+
+_not available_
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=alvimopan) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| metabolism | small intestine | <sub>“…Alvimopan is primarily metabolized by intestinal flora to an active metabolite although it…”</sub> | prose |
+| excretion | bile duct | <sub>“…Biliary secretion was considered the primary pathway for alvimopan…”</sub> | prose |
+| excretion | kidney | <sub>“…abolite’ by gut microflora. Feces (via biliary excretion) & urine (35%)…”</sub> | prose |
+| excretion | small intestine | <sub>“…liary excretion were then hydrolyzed to its ‘metabolite’ by gut microflora. Feces (via bil…”</sub> | prose |
+
+<sub>Actors without a tissue in the table: OPRD1 (target), OPRK1 (target), OPRM1 (target).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 16 matched, 19 returned
+- **screened:** 0  ·  **relevant:** 0
+- **records:** 0  ·  extracted 0  ·  needs_review 0  ·  rejected 0  ·  stale 0
+- **scholar-agent fallback query used:** True
+
+## Full text wanted
+
+_2 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Foss_2008.pdf` | Foss JF et al., Pharmacokinetics of alvimopan and its m…, Clinical pharmacology and t… (2008) | popPK | 10 | [10.1038/sj.clpt.6100292](https://doi.org/10.1038/sj.clpt.6100292) | [17653140](https://pubmed.ncbi.nlm.nih.gov/17653140) | The paper describes a population PK model for alvimopan but the provided evidence contains only qualitative descriptions and relative percentage changes, lacking the specific numeric parameter values (CL, V, etc.). |
+| `Schmith_2010.pdf` | Schmith VD et al., The effects of a short course of antibi…, Journal of clinical pharmac… (2010) | popPK | 8 | [10.1177/0091270009347474](https://doi.org/10.1177/0091270009347474) | [19797535](https://pubmed.ncbi.nlm.nih.gov/19797535) | The study is a PK interaction study for alvimopan, but the evidence only provides relative changes (percentages) and lacks specific quantitative disposition parameters (CL, V, ka) or absolute concentration values. |
+
+<sub>queue written 2026-09-18T14:51:56.729184+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Anantharamu_2015 | irrelevant | 0 | 0 | The paper is a review focused on naloxegol, and alvimopan is only mentioned as a comparator/early drug without providing specific quantitative PK parameters for it. |
+| popPK | Armstrong_2013 | irrelevant | 0 | 0 | The study is a preclinical pharmacodynamic comparison where alvimopan serves only as a comparator agent, with no pharmacokinetic parameters reported. |
+| PD | Armstrong_2013 | not_relevant | 1 | 0 | The text is an abstract describing qualitative efficacy comparisons in preclinical models without reporting specific numeric PD parameters (e.g., ED50, IC50) or concentration-effect curves for alvimopan. |
+| popPK | Bream-Rouwenhorst_2009 | irrelevant | 1 | 0 | The paper is a clinical review of efficacy and safety that does not report original quantitative pharmacokinetic parameter values (e.g., CL, V, ka) for alvimopan. |
+| PD | Bream-Rouwenhorst_2009 | not_relevant | 1 | 0 | The text is a clinical review summarizing efficacy and safety outcomes without reporting specific pharmacokinetic data, concentration-effect curves, or numeric pharmacodynamic parameters (e.g., Emax, EC50). |
+| popPK | Foss_2008 | relevant | 10 | 0 | The paper describes a population PK model for alvimopan but the provided evidence contains only qualitative descriptions and relative percentage changes, lacking the specific numeric parameter values (CL, V, etc.). |
+| popPK | Holzer_2008 | irrelevant | 0 | 0 | The paper is a narrative review discussing the mechanism and clinical development of alvimopan, containing no original pharmacokinetic data or quantitative disposition parameters. |
+| PD | Holzer_2008 | not_relevant | 1 | 0 | The text is a qualitative review of the mechanism and clinical development of alvimopan, containing no numeric PD parameters, concentration-effect data, or dose-response curves. |
+| popPK | Holzer_2010 | irrelevant | 0 | 0 | The paper is a narrative review of opioid antagonists and does not report original quantitative pharmacokinetic parameters for alvimopan. |
+| popPK | Kraft_2008 | irrelevant | 0 | 0 | The paper is a review of methylnaltrexone for postoperative ileus and mentions alvimopan only as an approved comparator, providing no pharmacokinetic parameters for alvimopan. |
+| PD | Kraft_2008 | not_relevant | 0 | 0 | The text is a review of methylnaltrexone and only mentions alvimopan's approval without providing any pharmacodynamic data, exposure-response analysis, or numeric PD parameters. |
+| popPK | Leslie_2005 | irrelevant | 2 | 0 | The paper is a narrative review of alvimopan's pharmacology and clinical efficacy, and the provided evidence contains no quantitative pharmacokinetic parameter values (e.g., CL, V, ka). |
+| PD | Leslie_2005 | not_relevant | 1 | 0 | The text is a review article summarizing clinical efficacy and safety without providing specific numeric pharmacodynamic parameters (e.g., Emax, EC50) or exposure-response data. |
+| popPK | Mousavi_2023 | irrelevant | 1 | 0 | The paper is a narrative review of pharmacotherapy for opioid-induced bowel dysfunction and does not report original quantitative pharmacokinetic parameters for alvimopan. |
+| popPK | Neary_2005 | irrelevant | 1 | 0 | The paper is a review discussing clinical efficacy and receptor affinity (Ki) but does not report quantitative pharmacokinetic disposition parameters (CL, V, ka, etc.) for alvimopan. |
+| popPK | Power_2011 | irrelevant | 0 | 0 | The paper is a general review of analgesics that mentions alvimopan only as a clinical example without providing any pharmacokinetic data or quantitative disposition parameters. |
+| PD | Power_2011 | not_relevant | 1 | 0 | The text is a general review article that mentions alvimopan qualitatively but provides no numeric PD parameters, concentration-effect data, or dose-response analysis. |
+| popPK | Schmith_2010 | relevant | 8 | 2 | The study is a PK interaction study for alvimopan, but the evidence only provides relative changes (percentages) and lacks specific quantitative disposition parameters (CL, V, ka) or absolute concentration values. |
+| popPK | Tan_2007 | irrelevant | 0 | 0 | The paper is a clinical efficacy meta-analysis reporting hazard ratios for gastrointestinal endpoints, not a pharmacokinetic study with quantitative disposition parameters. |
+| popPK | Webster_2008 | irrelevant | 0 | 0 | The paper is a clinical efficacy study for opioid-induced bowel dysfunction and does not report any pharmacokinetic parameters for alvimopan. |
+| popPK | Wu_2025 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study on tramadol and its metabolite, using alvimopan only as a receptor antagonist probe, and reports no pharmacokinetic parameters for alvimopan. |
+| PD | Wu_2025 | not_relevant | 0 | 0 | The paper investigates the anti-cancer efficacy of tramadol and its metabolite O-desmethyltramadol, using alvimopan only as a mechanistic antagonist to rule out opioid receptor involvement; it does not report a pharmacodynamic or exposure-response relationship for alvimopan itself. |
+
+---
+<sub>Generated by `docs.py` (scholarv2)</sub>

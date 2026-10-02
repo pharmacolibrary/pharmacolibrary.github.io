@@ -1,0 +1,136 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N01A&quot;,&quot;href&quot;:&quot;atc/N01A.md&quot;},{&quot;label&quot;:&quot;alfentanil&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Alfentanil_Davis1986_reference&quot;,&quot;label&quot;:&quot;Davis_1986_reference&quot;,&quot;href&quot;:&quot;drugs/drug_alfentanil/Alfentanil_Davis1986_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Alfentanil_Vozeh1990_reference&quot;,&quot;label&quot;:&quot;Vozeh_1990_reference&quot;,&quot;href&quot;:&quot;drugs/drug_alfentanil/Alfentanil_Vozeh1990_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Alfentanil_MedinaAymerich2025_reference&quot;,&quot;label&quot;:&quot;Medina-Aymerich_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_alfentanil/Alfentanil_MedinaAymerich2025_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+
+# alfentanil
+
+- **generic name:** alfentanil
+- **ATC codes:** `N01AH02`
+- **DrugBank:** [DB00802](https://go.drugbank.com/drugs/DB00802) · **PubChem:** [CID 51263](https://pubchem.ncbi.nlm.nih.gov/compound/51263)
+- **molar mass:** 416.5172 g/mol (C21H32N6O3) — DrugBank
+- **groups:** approved, illicit, investigational
+
+## About
+
+**Description.** A short-acting opioid anesthetic and analgesic derivative of fentanyl. It produces an early peak analgesic effect and fast recovery of consciousness. Alfentanil is effective as an anesthetic during surgery, for supplementation of analgesia during surgical procedures, and as an analgesic for critically ill patients.
+
+**Indication.** For the management of postoperative pain and the maintenance of general anesthesia.
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| not captured | not captured | 2/1/0 | 1/1/0 | 0/0/9 | not captured | not captured | 39 | 34/0 | 11/28 | 0 |
+
+## popPK records
+
+| status | detail | model | model structure | params | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.5). The first reading is what the record holds.">cross-check: disputed</span><br><sub>blocking: T1_t_half_beta</sub><br><sub>blocking: T1_t_half_terminal</sub><br><sub>route_to: `scholar`</sub> | [Davis_1986_reference](drugs/drug_alfentanil/Alfentanil_Davis1986_reference.md) | ▶ model + simulator | 2-compartment, oral | 3 | Davis PJ et al., Clinical pharmacokinetics of the newer…, Clinical pharmacokinetics (1986) | [10.2165/00003088-198611010-00002](https://doi.org/10.2165/00003088-198611010-00002) |
+| <span class="pk-badge pk-badge--orange">built, not shipped</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span><br><sub>blocking: model_quarantined: Cl, Vd left at base-class defaults</sub><br><sub>route_to: `scholar`</sub> | [Vozeh_1990_reference](drugs/drug_alfentanil/Alfentanil_Vozeh1990_reference.md) | held back | 1-compartment, IV | 3 | Vozeh S et al., Evaluation of population (NONMEM) pharm…, Journal of pharmacokinetics… (1990) | [10.1007/BF01063558](https://doi.org/10.1007/BF01063558) |
+| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span><br><sub>blocking: no structural parameters extracted (nothing to build)</sub><br><sub>route_to: `human_review`</sub> | [Medina-Aymerich_2025_reference](drugs/drug_alfentanil/Alfentanil_MedinaAymerich2025_reference.md) | — | 1-compartment (no model) | 0 | Medina-Aymerich L et al., Population Pharmacokinetics of Alfentan…, Journal of clinical pharmac… (2025) | [10.1002/jcph.70044](https://doi.org/10.1002/jcph.70044) |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.5). The first reading is what the record holds.">cross-check: disputed</span> | [Bouillon_1999_PaCO2](drugs/drug_alfentanil/pd_Bouillon_1999_PaCO2.md) | arterial carbon dioxide pressure ← alfentanil · indirect response — drug inhibits the production of arterial carbon dioxide pressure | — | Bouillon T et al., Pharmacokinetic-pharmacodynamic modelin…, Anesthesiology (1999) | [10.1097/00000542-199907000-00023](https://doi.org/10.1097/00000542-199907000-00023) |
+| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.875). The first reading is what the record holds.">cross-check: disputed</span> | [Liou_2023_LOR](drugs/drug_alfentanil/pd_Liou_2023_LOR.md) | loss of response ← midazolam, alfentanil, propofol · direct sigmoid Emax (Hill) effect | — | Liou JY et al., Pharmacodynamic modeling of moderate se…, BMC pharmacology & toxicolo… (2023) | [10.1186/s40360-023-00642-5](https://doi.org/10.1186/s40360-023-00642-5) |
+
+## Pharmacogenomics (PGx)
+
+| status | gene | affects | mechanism | detail | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **OPRM1** | `Q321` · EC50 | target | [Ginosar_2009](drugs/drug_alfentanil/pgx_Ginosar_2009_OPRM1_Q321.md) | Ginosar Y et al., Mu-opioid receptor (A118G) single-nucle…, British journal of anaesthe… (2009) | [10.1093/bja/aep192](https://doi.org/10.1093/bja/aep192) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **CYP3A5** | `Q22` · CL | metabolism | [Klees_2005](drugs/drug_alfentanil/pgx_Klees_2005_CYP3A5_Q22.md) | Klees TM et al., Pharmacogenetic determinants of human l…, Anesthesiology (2005) | [10.1097/00000542-200503000-00012](https://doi.org/10.1097/00000542-200503000-00012) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.25). The first reading is what the record holds.">cross-check: disputed</span> | **OPRM1** | `Q100` — no parameter target — an association/risk finding, not a parameter shift | target | [Lilic_2024](drugs/drug_alfentanil/pgx_Lilic_2024_OPRM1_Q100.md) | Lilic J et al., The Impact of Opioid Receptor Gene Poly…, Pharmacogenomics and person… (2024) | [10.2147/PGPM.S443035](https://doi.org/10.2147/PGPM.S443035) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **CYP2D6** | `Q22` · CL | metabolism | [Lötsch_2004](drugs/drug_alfentanil/pgx_L_tsch_2004_CYP2D6_Q22.md) | Lötsch J et al., Genetic predictors of the clinical resp…, Clinical pharmacokinetics (2004) | [10.2165/00003088-200443140-00003](https://doi.org/10.2165/00003088-200443140-00003) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.25). The first reading is what the record holds.">cross-check: disputed</span> | **CYP2D6** | `Q305` · kfm | formation | [Lötsch_2004](drugs/drug_alfentanil/pgx_L_tsch_2004_CYP2D6_Q305.md) | Lötsch J et al., Genetic predictors of the clinical resp…, Clinical pharmacokinetics (2004) | [10.2165/00003088-200443140-00003](https://doi.org/10.2165/00003088-200443140-00003) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.25). The first reading is what the record holds.">cross-check: disputed</span> | **MDR1** | `Q22` · CL | transport | [Lötsch_2004](drugs/drug_alfentanil/pgx_L_tsch_2004_MDR1_Q22.md) | Lötsch J et al., Genetic predictors of the clinical resp…, Clinical pharmacokinetics (2004) | [10.2165/00003088-200443140-00003](https://doi.org/10.2165/00003088-200443140-00003) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **OPRM1** | `Q321` · EC50 | target | [Lötsch_2004](drugs/drug_alfentanil/pgx_L_tsch_2004_OPRM1_Q321.md) | Lötsch J et al., Genetic predictors of the clinical resp…, Clinical pharmacokinetics (2004) | [10.2165/00003088-200443140-00003](https://doi.org/10.2165/00003088-200443140-00003) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **OPRM1** | `Q321` · EC50 | target | [Lötsch_2005_2](drugs/drug_alfentanil/pgx_L_tsch_2005_2_OPRM1_Q321.md) | Lötsch (2005) | — |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **OPRM1** | `Q321` · EC50 | target | [Oertel_2008](drugs/drug_alfentanil/pgx_Oertel_2008_OPRM1_Q321.md) | Oertel BG et al., Differential opioid action on sensory a…, Clinical pharmacology and t… (2008) | [10.1038/sj.clpt.6100441](https://doi.org/10.1038/sj.clpt.6100441) |
+
+<details class="legend">
+<summary>What the PGx columns mean</summary>
+<table><thead><tr><th>column</th><th>what it holds</th></tr></thead><tbody><tr><td><code>gene</code></td><td>the gene whose variants the record is about. One record per gene, so a paper reporting several genes appears on several rows.</td></tr><tr><td><code>affects</code></td><td>the PK or PD parameter the genotype SHIFTS, as an ontology Q-code plus its name — Q22 = clearance, Q27 = CL/F (apparent clearance), Q32 = Cmax, Q88 = AUC, Q40 = Fab, Q321 = EC50, Q322 = IC50, Q305 = kfm. The record's per-phenotype theta is a multiplier ON that parameter: a poor-metaboliser theta shifts this value, it does not supply one. Two values are NOT parameters — Q100 (NIL) is an association or risk finding with no parameter target, and `safety` is an adverse-reaction risk such as an HLA allele. A PA… id instead of a Q-code marks a record derived from a ClinPGx/PharmGKB guideline lookup rather than read out of the paper.</td></tr><tr><td><code>mechanism</code></td><td>how the gene acts: metabolism, transport, target, formation, safety_allele, or unknown.</td></tr><tr><td><code>detail</code></td><td>the paper stem, linking to the full record page.</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>not captured</code></td><td>the field is absent from the KB artifact — nothing was recorded. This is NOT the same as zero or empty: the value is unknown, not measured to be nothing.</td></tr><tr><td><code>—</code></td><td>deliberately not shown: the column does not apply to this row.</td></tr><tr><td><code>not verified</code></td><td>the record is not in an accepted state (see the badge and the note above the table); the numbers are shown as extracted, not endorsed.</td></tr></tbody></table>
+</details>
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=alfentanil) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| absorption | blood-brain barrier | `ABCB1` inhibitor | DrugBank actor |
+| absorption | kidney | `ABCB1` inhibitor | DrugBank actor |
+| absorption | liver | `ABCB1` inhibitor | DrugBank actor |
+| absorption | placenta | `ABCB1` inhibitor | DrugBank actor |
+| absorption | small intestine | `ABCB1` inhibitor | DrugBank actor |
+| absorption | testis | `ABCB1` inhibitor | DrugBank actor |
+| distribution | blood | `ALB` unknown, `ORM1` unknown | DrugBank actor |
+| metabolism | brain | `CYP2D6` metabolism | paper PGx gene |
+| metabolism | kidney | `CYP3A5` metabolism/substrate | DrugBank actor |
+| metabolism | liver | `CYP2D6` metabolism, `CYP3A4` substrate, `CYP3A5` metabolism/substrate, `CYP3A7` substrate | DrugBank actor |
+| metabolism | small intestine | `CYP3A4` substrate, `CYP3A5` metabolism/substrate | DrugBank actor |
+| excretion | kidney | <sub>“…Only 1.0% of the dose is excreted as unchanged drug; urinary excretion is the major route…”</sub> | prose |
+
+<sub>Actors without a tissue in the table: MDR1 (transport), OPRM1 (target).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 466 matched, 87 returned
+- **screened:** 6  ·  **relevant:** 6
+- **records:** 3  ·  extracted 0  ·  needs_review 2  ·  rejected 1  ·  stale 0
+- **scholar-agent fallback query used:** not captured
+
+## Full text wanted
+
+_1 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Medina-Aymerich_2025.pdf` | Medina-Aymerich L et al., Population Pharmacokinetics of Alfentan…, Journal of clinical pharmac… (2025) | popPK | 10 | [10.1002/jcph.70044](https://doi.org/10.1002/jcph.70044) | [40377652](https://pubmed.ncbi.nlm.nih.gov/40377652) | The abstract explicitly reports a NONMEM-based population pharmacokinetic analysis of alfentanil in children, providing quantitative clearance parameters and model structure. |
+
+<sub>queue written 2026-07-22T06:01:43.134129+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| PGx | Angst_2010 | not_relevant | 0 | 0 | The paper describes a study protocol and feasibility results for estimating heritability of opioid response using twins, but does not report specific pharmacogenomic effects of gene variants on PK/PD parameters. |
+| PD | Beers_2004 | not_relevant | 1 | 0 | The text is a review of remifentanil pharmacokinetics and pharmacodynamics, mentioning alfentanil only for comparison; it does not report a population PD model or estimated parameters for alfentanil. |
+| PGx | Bodenham_1988 | not_relevant | 1 | 0 | The text explicitly states that the importance of pharmacogenetic differences remains to be elucidated and discusses only physiological factors (age, disease) affecting PK/PD. |
+| PGx | Cottrill_2021 | not_relevant | 2 | 1 | The paper reports genotype-phenotype classifications (e.g., poor metabolizer) based on literature for alfentanil metabolism via CYP3A4/5, but does not present original experimental data measuring actual pharmacokinetic or pharmacodynamic parameters of alfentanil in the study subjects. |
+| PD | Cox_1997 | not_relevant | 2 | 8 | The study reports individual PK/PD modeling (n=7) rather than population pharmacodynamic modeling, although it provides estimated PD parameters. |
+| PD | Egan_1995 | not_relevant | 2 | 1 | The paper is a review of remifentanil (not alfentanil) and focuses on pharmacokinetics; it mentions PD parameters like EC50 and t1/2ke0 as descriptive values rather than reporting a fitted population exposure-response model. |
+| PGx | Henthorn_1989 | not_relevant | 0 | 0 | no full text |
+| PGx | Hohmann_2016 | not_relevant | 2 | 1 | The text mentions alfentanil only as a probe drug for CYP3A phenotyping and does not report specific pharmacogenomic effects of gene variants on its PK/PD parameters. |
+| PD | Ing_2012 | not_relevant | 2 | 0 | This is a review article summarizing PK/PD concepts and literature for various opioids; it does not report original population PD modeling or estimated parameters for alfentanil. |
+| PGx | Lavrijsen_1988 | not_relevant | 0 | 0 | no full text |
+| PD | Lemmens_1994 | not_relevant | 2 | 8 | The paper focuses on trefentanil and uses alfentanil only as a comparator in a small crossover study (n=5) using individual subject modeling rather than population pharmacodynamic analysis. |
+| PD | Lemmens_1995 | not_relevant | 2 | 1 | The text is a narrative review summarizing pharmacokinetic and pharmacodynamic characteristics of opioids, citing literature values (e.g., Cp50) rather than reporting original population PD modeling or estimated parameters. |
+| PGx | Li_2020 | not_relevant | 0 | 0 | The paper focuses on voriconazole pharmacokinetics and its interaction with CYP3A4 substrates; alfentanil is only mentioned as a probe substrate for model validation of the drug-drug interaction, not as the primary subject of pharmacogenomic analysis. |
+| popPK | Liu_2024 | irrelevant | not captured | not captured | Alfentanil is only co-administered and influences the PK of NH600001, with no quantitative PK parameters reported for alfentanil itself. |
+| PD | Liu_2024 | not_relevant | 0 | 0 | The paper reports a population PK/PD model for NH600001, not alfentanil; alfentanil is only mentioned as a co-administered drug influencing NH600001 pharmacokinetics. |
+| PGx | Lv_2018 | not_relevant | 2 | 10 | The study investigates sufentanil, not alfentanil; although alfentanil is mentioned in the background as a CYP3A4 substrate, no data on alfentanil PK/PD parameters are reported. |
+| PD | Lötsch_2005 | not_relevant | 2 | 0 | The text is a review article describing general PK/PD modeling principles and citing historical studies, but it does not report new population PD model fitting or estimated parameters for alfentanil. |
+| popPK | Mertens_2004 | irrelevant | 2 | 0 | The study reports population pharmacokinetic parameters for propofol, with alfentanil serving only as a covariate/comparator drug. |
+| PGx | Meuldermans_1988 | not_relevant | 0 | 0 | no full text |
+| PGx | Miller_1995 | not_relevant | 0 | 0 | The study investigates pharmacogenomic effects on mivacurium metabolism, while alfentanil is only used as part of the background anesthesia regimen without any reported genetic interaction. |
+| PD | Minto_2000 | not_relevant | 2 | 1 | The paper proposes a response-surface methodology for drug interactions using previously published data and simulations, rather than reporting a new population pharmacodynamic model with estimated parameters from primary data. |
+| PD | Scholz_1996 | not_relevant | 2 | 1 | The text is a review article summarizing pharmacokinetic properties and clinical effects of opioids, but it does not report a new population pharmacodynamic model or estimated PD parameters for alfentanil. |
+| PD | Sneyd_2022 | not_relevant | 0 | 0 | The paper is an editorial discussing clinical strategies for remifentanil shortages and does not report any population pharmacodynamic modeling or exposure-response analysis for alfentanil. |
+| PD | Sundal_2020 | not_relevant | 0 | 0 | The text is a clinical case report discussing GHB withdrawal management and does not contain any population pharmacodynamic modeling or exposure-response analysis for alfentanil. |
+| PD | Vuyk_1997 | not_relevant | 2 | 1 | The text is a review article summarizing existing literature and simulation results rather than reporting a new primary study with estimated population PD parameters for alfentanil. |
+| PD | Willens_1993 | not_relevant | 0 | 0 | The paper is a general review of pharmacology and nursing care, not a primary research article reporting population PD modeling or exposure-response analysis. |
+| PGx | Yun_1992 | not_relevant | 0 | 0 | no full text |
+| PD | van_2020 | not_relevant | 2 | 1 | The paper is a review discussing utility functions and citing previous studies, but it does not report new population pharmacodynamic modeling or estimated PD parameters for alfentanil. |
+
+---
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-07-22 06:19 UTC</sub>

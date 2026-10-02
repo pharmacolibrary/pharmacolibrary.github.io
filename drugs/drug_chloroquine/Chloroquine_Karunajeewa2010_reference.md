@@ -1,0 +1,216 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;P01B&quot;,&quot;href&quot;:&quot;atc/P01B.md&quot;},{&quot;label&quot;:&quot;chloroquine&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/&quot;},{&quot;label&quot;:&quot;Karunajeewa_2010 \u00b7 reference&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Chloroquine_Chotsiri2022_reference&quot;,&quot;label&quot;:&quot;Chotsiri_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_Chotsiri2022_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Chloroquine_Karunajeewa2010_reference&quot;,&quot;label&quot;:&quot;Karunajeewa_2010_reference&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_Karunajeewa2010_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Chloroquine_Yao2021_reference&quot;,&quot;label&quot;:&quot;Yao_2021_reference&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_Yao2021_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Chloroquine_AbdRahman2020_plasma_samples&quot;,&quot;label&quot;:&quot;Abd-Rahman_2020_plasma_samples&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_AbdRahman2020_plasma_samples.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Chloroquine_AbdRahman2020_whole_blood_samples&quot;,&quot;label&quot;:&quot;Abd-Rahman_2020_whole_blood_samples&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_AbdRahman2020_whole_blood_samples.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+
+<div class="pk-tab-mark" data-tab="Information"></div>
+
+# chloroquine — `Chloroquine_Karunajeewa2010_reference`
+
+> ## <span class="pk-badge pk-badge--orange">built, not shipped</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.571). The first reading is what the record holds.">cross-check: disputed</span>
+
+<details class="legend">
+<summary>What the badges above mean</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+
+### Reviewer guidance
+
+**The chloroquine parent–metabolite model was quarantined because chloroquine's clearance had no extracted value, so a library placeholder was used instead of the reported 15.2% metabolic clearance.**
+
+The paper reports chloroquine's metabolic clearance to desethylchloroquine as 15.2% (a percentage, not an absolute clearance), and this unit could not be converted to SI, so the clearance parameter reached the model builder without a usable value and was left at a library default. The record also labels the relative bioavailability parameter with the verbatim label 'OFV' and the value 13462, which does not correspond to a bioavailability fraction. A second reader recorded no value for the 15.2% clearance and the 6707 L steady-state volume, and instead read a pregnancy effect on chloroquine clearance of 23, which this record lacks. The structure check also expected a parent–metabolite model with three compartments but the record describes a one-compartment structure. Extracted — chloroquine: Frel 1.35e+04, CL 15.2 %, V 6.71e+03 liters.
+
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of cq metabolic clearance to decq (cl m ) accounts for: this record has 15.2, the second reading none; it also differs on 2 more fields. That field shapes the model, so the record is marked disputed.
+
+<sub>reviewed by glm-5.3-flash</sub>
+
+## Citation
+Karunajeewa HA; Salman S; Mueller I; Baiwog F; Gomorrai S; Law I; et al. et al. (2010). Antimicrobial agents and chemotherapy 54
+  ·  DOI: [10.1128/AAC.01269-09](https://doi.org/10.1128/AAC.01269-09)
+
+## Model component
+<dbs-pgx drug="chloroquine" model-id="Chloroquine_Karunajeewa2010_reference" status="model_quarantined" stale="false" population="pregnant and nonpregnant Papua New Guinean women" measured-compound="chloroquine" parameterization="mechanistic" topology="parent_metabolite"></dbs-pgx>
+
+**Model structure:** 1-compartment, IV mammillary model — template `PK_1C`.  
+**Parameters:** 3 extracted.
+
+**Parameterization:** mechanistic.
+
+## Parameters
+> ⚠️ This record is not accepted (current status `model_quarantined`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
+
+| label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
+|---|---|---|---|---|---|---|---|---|---|---|
+| OFV | `Q87` · Frel | 13462 | not captured | not captured | not captured | not captured | llm (0.5) | tab_0:row2:col1, tab_0:row2:col2 | — | not captured |
+| CQ metabolic clearance to DECQ (CL M ) accounts for | `Q22` · CL | 15.2 | % | not captured | % | not captured | boundary (0.8) | Karunajeewa_2010:results_prose | — | not captured |
+| median steady-state volume of distribution (V SS /F) | `Q61` · V | 6707 | liters | 6.707 | L | not captured | boundary (0.8) | Karunajeewa_2010:discussion_prose | — | not captured |
+
+<details class="legend">
+<summary>Column legend — what each column means</summary>
+<table><thead><tr><th>column</th><th>what it holds</th></tr></thead><tbody><tr><td><code>label (paper)</code></td><td>the row or statistic label exactly as printed in the paper (label_verbatim) — never normalised, so it can be found in the PDF.</td></tr><tr><td><code>Q-code · name</code></td><td>the ontology parameter this label was matched to (Q22 = clearance, Q27 = CL/F, Q49 = ka, Q57 = half-life, …) and its canonical name. The Q-code, not the label, is what scoring and cross-paper merging use.</td></tr><tr><td><code>value</code></td><td>the estimate as reported in the paper.</td></tr><tr><td><code>unit</code></td><td>the unit as printed (unit_verbatim).</td></tr><tr><td><code>value_si</code></td><td>the value converted to the canonical unit. Empty when no conversion was possible — usually an unparseable or missing unit.</td></tr><tr><td><code>unit_canonical</code></td><td>the canonical unit for that Q-code, i.e. what value_si is expressed in.</td></tr><tr><td><code>RSE%</code></td><td>relative standard error of the estimate, when the paper reports one.</td></tr><tr><td><code>link</code></td><td>how the label was matched to the Q-code, with confidence. exact / boundary / fuzzy / tv_prefix / caption_compartment / special_case are deterministic string matches; llm, llm_confirmed, llm_corrected involved the model; review and review_gapfill come from the secondary review tier, the latter filling a parameter the primary extraction missed; boundary_relink is a corrected match.</td></tr><tr><td><code>source</code></td><td>where in the paper the number came from: colN = that column of the located table, other_prose = running text, review = the secondary tier, pgx = a pharmacogenomic record.</td></tr><tr><td><code>covariates</code></td><td>covariate effects attached to this parameter (e.g. weight on CL).</td></tr><tr><td><code>IIV</code></td><td>inter-individual variability reported for this parameter.</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>not captured</code></td><td>the field is absent from the KB artifact — nothing was recorded. This is NOT the same as zero or empty: the value is unknown, not measured to be nothing.</td></tr><tr><td><code>—</code></td><td>deliberately not shown: the column does not apply to this row.</td></tr><tr><td><code>not verified</code></td><td>the record is not in an accepted state (see the badge and the note above the table); the numbers are shown as extracted, not endorsed.</td></tr></tbody></table>
+</details>
+
+## Departures & gaps
+
+**Interpretation flags:**
+- salvaged Q22 ('CQ metabolic clearance to DECQ (CL M ) accounts for'=15.2) from results prose — parameter table was unreadable
+- salvaged Q61 ('median steady-state volume of distribution (V SS /F)'=6707) from results prose — parameter table was unreadable
+- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=chloroquine
+- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
+- status held at route_to_review — not promoted
+- unit re-normalised: V 'liters' now converts (value unchanged)
+
+**Extraction notes:**
+- unparsed cell tab_0:row1:col3 = 'Bootstrap replicates (n ϭ 1,000) (median ͓95% empirical CI e ͔)'
+- unparsed cell tab_0:row2:col3 = '13,442 ͓12,915-13,840͔'
+- unparsed cell tab_0:row4:col1 = '1.4 ͓17͔'
+- unparsed cell tab_0:row4:col2 = '1.4 ͓18͔'
+- unparsed cell tab_0:row4:col3 = '1.4 ͓1.0-2.0͔'
+- unparsed cell tab_0:row5:col1 = '34.1 ͓7͔'
+- unparsed cell tab_0:row5:col2 = '29.3 ͓6͔'
+- unparsed cell tab_0:row5:col3 = '29.4 ͓25.9-32.7͔'
+- unparsed cell tab_0:row6:col2 = '8.7 ͓23͔'
+- unparsed cell tab_0:row6:col3 = '8.7 ͓4.7-13.2͔'
+- unparsed cell tab_0:row7:col1 = '4,160 ͓7͔'
+- unparsed cell tab_0:row7:col2 = '4,220 ͓6͔'
+- unparsed cell tab_0:row7:col3 = '4,220 ͓3,727-4,713͔'
+- unparsed cell tab_0:row8:col2 = '221 ͓32͔'
+- unparsed cell tab_0:row8:col3 = '221 ͓77-347͔'
+- unparsed cell tab_0:row9:col1 = '20 ͓14͔'
+- unparsed cell tab_0:row9:col2 = '20 ͓13͔'
+- unparsed cell tab_0:row9:col3 = '20.1 ͓16.1-26.2͔'
+- unparsed cell tab_0:row10:col1 = '5,200 ͓10͔'
+- unparsed cell tab_0:row10:col2 = '5,190 ͓10͔'
+- unparsed cell tab_0:row10:col3 = '5,240 ͓4,380-6,460͔'
+- unparsed cell tab_0:row11:col1 = '9.2 ͓9͔'
+- unparsed cell tab_0:row11:col2 = '7.0 ͓7͔'
+- unparsed cell tab_0:row11:col3 = '7.0 ͓6.1-8.0͔'
+- unparsed cell tab_0:row12:col2 = '4.0 ͓16͔'
+- unparsed cell tab_0:row12:col3 = '4.0 ͓2.6-5.5͔'
+- unparsed cell tab_0:row13:col1 = '39.9 ͓10͔'
+- unparsed cell tab_0:row13:col2 = '40.0 ͓10͔'
+- unparsed cell tab_0:row13:col3 = '40.2 ͓33.0-47.7͔'
+- unparsed cell tab_0:row14:col1 = '3.6 ͓11͔'
+- unparsed cell tab_0:row14:col2 = '3.6 ͓10͔'
+- unparsed cell tab_0:row14:col3 = '3.6 ͓3.03-4.4͔'
+- unparsed cell tab_0:row15:col1 = '812 ͓17͔'
+- unparsed cell tab_0:row15:col2 = '840 ͓17͔'
+- unparsed cell tab_0:row15:col3 = '838 ͓610-1,130͔'
+- unparsed cell tab_0:row16:col1 = '33.5 ͓24͔'
+- unparsed cell tab_0:row16:col2 = '28.5 ͓24͔'
+- unparsed cell tab_0:row16:col3 = '27.8 ͓21.1-34.4͔'
+- unparsed cell tab_0:row17:col1 = '44.7 ͓20͔'
+- unparsed cell tab_0:row17:col2 = '40.1 ͓22͔'
+- unparsed cell tab_0:row17:col3 = '39.2 ͓30.6-48.3͔'
+- unparsed cell tab_0:row18:col1 = '48.6 ͓19͔'
+- unparsed cell tab_0:row18:col2 = '38.7 ͓20͔'
+- unparsed cell tab_0:row18:col3 = '38.1 ͓30.5-45.6͔'
+- unparsed cell tab_0:row19:col1 = '86.7 ͓25͔'
+- unparsed cell tab_0:row19:col2 = '87.9 ͓26͔'
+- unparsed cell tab_0:row19:col3 = '86.3 ͓64.4-108.6͔'
+- unparsed cell tab_0:row20:col1 = '62.4 ͓22͔'
+- unparsed cell tab_0:row20:col2 = '61.9 ͓22͔'
+- unparsed cell tab_0:row20:col3 = '61.8 ͓49.4-77.1͔'
+- unparsed cell tab_0:row22:col1 = '0.69 ͓24͔'
+- unparsed cell tab_0:row22:col2 = '0.63 ͓27͔'
+- unparsed cell tab_0:row22:col3 = '0.64 ͓0.44-0.79͔'
+- unparsed cell tab_0:row23:col1 = '0.86 ͓24͔'
+- unparsed cell tab_0:row23:col2 = '0.81 ͓26͔'
+- unparsed cell tab_0:row23:col3 = '0.82 ͓0.61-0.93͔'
+- unparsed cell tab_0:row24:col1 = '0.86 ͓20͔'
+- unparsed cell tab_0:row24:col2 = '0.88 ͓20͔'
+- unparsed cell tab_0:row24:col3 = '0.90 ͓0.80-0.98͔'
+- unparsed cell tab_0:row25:col1 = '40.6 ͓8͔'
+- unparsed cell tab_0:row25:col2 = '40.6 ͓8͔'
+- unparsed cell tab_0:row25:col3 = '40.5 ͓37.4-43.5͔'
+- unparsed cell tab_0:row26:col1 = '39.7 ͓7͔'
+- unparsed cell tab_0:row26:col2 = '39.7 ͓7͔'
+- unparsed cell tab_0:row26:col3 = '39.6 ͓37.1-42.2͔'
+
+## Validation
+
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
+first reading `qwen3.6:27b-q8_0` — the numbers on this page are its, whatever the readers say
+
+| second reader | verdict | agreement | disagreements |
+|---|---|---|---|
+| `gpt-oss:120b` | not confirmed | 0.571 (4/7 fields) | 3 |
+
+<details><summary>3 field(s) a reader read differently</summary>
+
+| second reader | field | first reading | second reading | agreement |
+|---|---|---|---|---|
+| `gpt-oss:120b` | `parameters[cq metabolic clearance to decq (cl m ) accounts for]` | 15.2 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[median steady-state volume of distribution]` | 6707 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[pregnancy related to cl cq]` | not captured | 23 | only_one_extracted |
+
+</details>
+
+<details class="legend">
+<summary>Cross-check legend</summary>
+<table><thead><tr><th>column</th><th>what it holds</th></tr></thead><tbody><tr><td><code>second reader</code></td><td>a model that re-read the paper independently, always from a different family than the first reading (scholarv2.secondary_for): a qwen primary is checked by gpt-oss:120b, a gpt-oss primary by qwen3.8:27b-mtp-q8_0 — two checkpoints of one family share their misreads, so agreement between them would mean little. A record can have several readers.</td></tr><tr><td><code>agreement</code></td><td>share of the compared fields that reader agreed on.</td></tr><tr><td><code>verdict</code></td><td>per reader: `confirmed` it agrees throughout · `partly confirmed` a non-structural field differs · `not confirmed` a structural one differs (clearance, a volume, ka, a lag) · `primary re-run` the first reading extracted nothing and was given one hinted retry.</td></tr><tr><td><code>combined</code></td><td>the record's verdict over ALL its readers: confirmed only when every reader that answered agrees, disputed as soon as one disagrees on a structural parameter. The most favourable reading is never taken — an extra reader must not be a way to find one that agrees.</td></tr><tr><td><code>kept</code></td><td>which reading the record holds. ALWAYS the first — a disagreement is a signal for a reviewer, never an automatic correction, so the numbers on this page are the first model's either way.</td></tr></tbody></table>
+</details>
+
+
+**Scholar closed-form checks:**
+
+| check | status | expected | obtained | ratio | tol | source |
+|---|---|---|---|---|---|---|
+| C0_has_structural_params | pass | not captured | 3 | not captured | not captured | not captured |
+| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 15.2 | not captured | not captured | ['Karunajeewa_2010:results_prose'] |
+| C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+
+**Reviewer per-scenario checks:**
+
+| check | scenario | status | expected | obtained | ratio | note |
+|---|---|---|---|---|---|---|
+| T0_analyte_identity | not captured | pass | not captured | not captured | not captured | V/CL labels are the drug's (or a metabolite's), no biomarker signal |
+| T2_covariates | not captured | skipped | not captured | not captured | not captured | no covariate effects in record |
+| T3_param_coverage | not captured | pass | 2 scholar param(s) emitted or defaulted | 2 covered | not captured | all structural parameters accounted for |
+| T3_topology_template | not captured | fail | parent_metabolite → PK_3M_9C* | PK_1C | not captured | engineer template must match the scholar topology |
+| T6_deviations | not captured | pass | not captured | all deviations documented+quantified | not captured | LLM adjudication → deterministic rule |
+| T1_cmax | reference | skipped | 79 | not captured | not captured | no simulated metric for this quantity (single reference sim) |
+| T1_cmax | reference | skipped | 75 | not captured | not captured | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 12.1 | not captured | not captured | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 9.8 | not captured | not captured | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 9 | not captured | not captured | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 15 | not captured | not captured | no simulated metric for this quantity (single reference sim) |
+| T1_tmax | reference | skipped | not captured | not captured | not captured | no simulated metric for this quantity (single reference sim) |
+
+<details class="legend">
+<summary>Check legend — what each column means</summary>
+<table><thead><tr><th>column</th><th>what it holds</th></tr></thead><tbody><tr><td><code>check</code></td><td>the check id. C0_has_structural_params = at least one numeric structural parameter; C0b_disposition_core = a volume OR a clearance/elimination term (neither means an exposure/outcome paper, not popPK — rejected); C0c_disposition_complete = BOTH a volume AND a clearance/elimination term, which is what the engineer needs to build (one without the other routes to review, never to the engineer); C1_half_life(_beta) = reported half-life against V and CL; C2_reference = covariate scenarios are sign-plausible; C3_cl_dose_auc = CL against dose/AUC; C4_auc_closed_form = AUC recomputed in closed form; C5_dimension_&lt;Qcode&gt; = the parameter's units carry the dimension its Q-code requires.</td></tr><tr><td><code>status</code></td><td>pass, fail, or skipped. A skipped check had nothing to compare — the paper did not report the input it needs — and is not evidence against the record. The scholar table lists only pass and fail; the reviewer table also shows skipped, with the reason in note.</td></tr><tr><td><code>expected</code></td><td>the value the check required, from the paper or from the ontology.</td></tr><tr><td><code>obtained</code></td><td>what the record actually yields.</td></tr><tr><td><code>ratio</code></td><td>obtained / expected, where the check is a numeric comparison.</td></tr><tr><td><code>tol</code></td><td>the tolerance the ratio had to fall within to pass.</td></tr><tr><td><code>source</code></td><td>the artifact the expected value was taken from.</td></tr><tr><td><code>scenario</code></td><td>reviewer table only — the covariate scenario the check was run under.</td></tr><tr><td><code>note</code></td><td>why a check was skipped, or how it was judged.</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>not captured</code></td><td>the field is absent from the KB artifact — nothing was recorded. This is NOT the same as zero or empty: the value is unknown, not measured to be nothing.</td></tr><tr><td><code>—</code></td><td>deliberately not shown: the column does not apply to this row.</td></tr><tr><td><code>not verified</code></td><td>the record is not in an accepted state (see the badge and the note above the table); the numbers are shown as extracted, not endorsed.</td></tr></tbody></table>
+</details>
+
+## Raw artifacts
+
+- scholar stages: `../../../knowledgebase/drugs/drug_chloroquine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Karunajeewa_2010` / `Karunajeewa_2010::reference`)
+- model: `../../../knowledgebase/drugs/drug_chloroquine/models/modelica/_needs_review/Chloroquine_Karunajeewa2010_reference.mo`
+- deviation: `../../../knowledgebase/drugs/drug_chloroquine/models/modelica/_needs_review/Chloroquine_Karunajeewa2010_reference.deviation.json`
+
+
+<div class="pk-tab-mark" data-tab="Models"></div>
+
+## Downloadable models
+
+<div class="pk-models-grid"><div class="pk-models-table">
+<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+</tbody></table>
+<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
+</div></div>
+
+<div class="pk-tab-mark" data-tab="Simulation"></div>
+
+_No web simulator for this record: its structure has no shared WebAssembly template. The FMI archive under **Models** carries its own compiled FMU._
+
+<div class="pk-tab-end"></div>
+
+---
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-07-15 11:06 UTC</sub>

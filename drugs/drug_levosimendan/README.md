@@ -1,0 +1,102 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01C&quot;,&quot;href&quot;:&quot;atc/C01C.md&quot;},{&quot;label&quot;:&quot;levosimendan&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Levosimendan_Bertin2025_reference&quot;,&quot;label&quot;:&quot;Bertin_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_levosimendan/Levosimendan_Bertin2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Levosimendan_Jonsson2003_reference&quot;,&quot;label&quot;:&quot;Jonsson_2003_reference&quot;,&quot;href&quot;:&quot;drugs/drug_levosimendan/Levosimendan_Jonsson2003_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Levosimendan_Bertin2026_reference&quot;,&quot;label&quot;:&quot;Bertin_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_levosimendan/Levosimendan_Bertin2026_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+
+# levosimendan
+
+- **generic name:** levosimendan
+- **ATC codes:** `C01CX08`
+- **DrugBank:** [DB00922](https://go.drugbank.com/drugs/DB00922) · **PubChem:** [CID 3033825](https://pubchem.ncbi.nlm.nih.gov/compound/3033825)
+- **molar mass:** 280.2847 g/mol (C14H12N6O) — DrugBank
+- **groups:** approved, investigational, withdrawn
+
+## About
+
+**Description.** Levosimendan increases calcium sensitivity to myocytes by binding to troponin C in a calcium dependent manner. This increases contractility without raising calcium levels. It also relaxes vascular smooth muscle by opening adenosine triphosphate sensitive potassium channels. Levosimendan is used to manage acutely decompensated congestive heart failure. Levosimendan is under investigation in clinical trial NCT00527059 (Renal Effects of Levosimendan in Patients Admitted With Acute Decompensated Heart Failure).
+
+**Indication.** For short term treatment of acutely decompensated severe chronic heart failure (CHF). Also being investigated for use/treatment in heart disease.
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-20 19:14 | 11:35 | 2/1/0 | 2/0/0 | 0/0/0 | 144,072/11,039 | ollama / qwen3.8:27b-mtp-q8_0 | 7 | 2/5 | 7/0 | 1 |
+
+## popPK records
+
+| status | detail | model | model structure | params | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">reviewed — candidate</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.5). The first reading is what the record holds.">cross-check: disputed</span> | [Bertin_2025_reference](drugs/drug_levosimendan/Levosimendan_Bertin2025_reference.md) | ▶ model + simulator | 1-compartment, IV | 2 | Bertin S et al., Pharmacokinetics of levosimendan in cri…, Frontiers in pediatrics (2025) | [10.3389/fped.2025.1542417](https://doi.org/10.3389/fped.2025.1542417) |
+| <span class="pk-badge pk-badge--green">reviewed — candidate</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (partly confirmed, agreement 0.667). The first reading is what the record holds.">cross-check: partial</span> | [Jonsson_2003_reference](drugs/drug_levosimendan/Levosimendan_Jonsson2003_reference.md) | ▶ model + simulator | 1-compartment, IV | 2 | Jonsson EN et al., Population pharmacokinetics of levosime…, British journal of clinical… (2003) | [10.1046/j.1365-2125.2003.01778.x](https://doi.org/10.1046/j.1365-2125.2003.01778.x) |
+| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.75). The first reading is what the record holds.">cross-check: disputed</span><br><sub>blocking: no structural parameters extracted (nothing to build)</sub><br><sub>route_to: `human_review`</sub> | [Bertin_2026_reference](drugs/drug_levosimendan/Levosimendan_Bertin2026_reference.md) | — | general linear (no model) | 0 | Bertin S et al., Population Pharmacokinetics of Levosime…, Clinical pharmacokinetics (2026) | [10.1007/s40262-025-01591-4](https://doi.org/10.1007/s40262-025-01591-4) |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.3). The first reading is what the record holds.">cross-check: disputed</span> | [Rump_1994_CF](drugs/drug_levosimendan/pd_Rump_1994_CF.md) | coronary flow ← levosimendan · direct Emax (saturable) effect | — | Rump AF et al., A quantitative comparison of functional…, British journal of pharmaco… (1994) | [10.1111/j.1476-5381.1994.tb13143.x](https://doi.org/10.1111/j.1476-5381.1994.tb13143.x) |
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.3). The first reading is what the record holds.">cross-check: disputed</span> | [Rump_1994_HR](drugs/drug_levosimendan/pd_Rump_1994_HR.md) | heart rate ← levosimendan · direct Emax (saturable) effect | — | Rump AF et al., A quantitative comparison of functional…, British journal of pharmaco… (1994) | [10.1111/j.1476-5381.1994.tb13143.x](https://doi.org/10.1111/j.1476-5381.1994.tb13143.x) |
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.3). The first reading is what the record holds.">cross-check: disputed</span> | [Rump_1994_LVP](drugs/drug_levosimendan/pd_Rump_1994_LVP.md) | left ventricular pressure ← levosimendan · direct Emax (saturable) effect | — | Rump AF et al., A quantitative comparison of functional…, British journal of pharmaco… (1994) | [10.1111/j.1476-5381.1994.tb13143.x](https://doi.org/10.1111/j.1476-5381.1994.tb13143.x) |
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.0). The first reading is what the record holds.">cross-check: partial</span> | [Rump_1994_NADH_fluorescence_area](drugs/drug_levosimendan/pd_Rump_1994_NADH_fluorescence_area.md) | ischaemic area ← levosimendan · direct Emax (saturable) effect | — | Rump AF et al., A quantitative comparison of functional…, British journal of pharmaco… (1994) | [10.1111/j.1476-5381.1994.tb13143.x](https://doi.org/10.1111/j.1476-5381.1994.tb13143.x) |
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.0). The first reading is what the record holds.">cross-check: partial</span> | [Rump_1994_ischaemic_area](drugs/drug_levosimendan/pd_Rump_1994_ischaemic_area.md) | name ← levosimendan · direct Emax (saturable) effect | — | Rump AF et al., A quantitative comparison of functional…, British journal of pharmaco… (1994) | [10.1111/j.1476-5381.1994.tb13143.x](https://doi.org/10.1111/j.1476-5381.1994.tb13143.x) |
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.267). The first reading is what the record holds.">cross-check: disputed</span> | [Wanderer_2022_unknown](drugs/drug_levosimendan/pd_Wanderer_2022_unknown.md) | vasorelaxation ← levosimendan · direct Emax (saturable) effect | ▶ model + simulator | Wanderer S et al., Levosimendan as a therapeutic strategy…, Journal of neurointerventio… (2022) | [10.1136/neurintsurg-2021-017504](https://doi.org/10.1136/neurintsurg-2021-017504) |
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=levosimendan) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+
+<sub>Actors without a tissue in the table: KCNJ11 (inducer), KCNJ8 (inducer), PDE3A (inhibitor), TNNC1 (potentiator).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 36 matched, 21 returned
+- **screened:** 3  ·  **relevant:** 3
+- **records:** 3  ·  extracted 2  ·  needs_review 0  ·  rejected 1  ·  stale 0
+- **scholar-agent fallback query used:** not captured
+
+## Full text wanted
+
+_4 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Bourgoin_2023.pdf` | Bourgoin P et al., Population Pharmacokinetics of Levosime…, Clinical pharmacokinetics (2023) | popPK | 10 | [10.1007/s40262-022-01199-y](https://doi.org/10.1007/s40262-022-01199-y) | [36631687](https://pubmed.ncbi.nlm.nih.gov/36631687) | The paper is a population PK study of levosimendan, but the specific numeric parameter values (CL, V, Q, etc.) are not present in the provided abstract text, only relative changes (e.g., 78% increase) are mentioned. |
+| `Jonsson_2003.pdf` | Jonsson EN et al., Population pharmacokinetics of levosime…, British journal of clinical… (2003) | popPK | 10 | [10.1046/j.1365-2125.2003.01778.x](https://doi.org/10.1046/j.1365-2125.2003.01778.x) | [12814448](https://pubmed.ncbi.nlm.nih.gov/12814448) | The paper reports a population PK model for levosimendan with explicit numeric values for clearance, central volume of distribution, and interindividual variability directly in the text. |
+| `Kaheinen_2006.pdf` | Kaheinen P et al., Positive inotropic effect of levosimend…, Basic & clinical pharmacolo… (2006) | pd | 4 | [10.1111/j.1742-7843.2006.pto_231.x](https://doi.org/10.1111/j.1742-7843.2006.pto_231.x) | [16433895](https://www.ncbi.nlm.nih.gov/pubmed/16433895) | metadata signals extractable PD data (EC50) |
+| `Antila_1998.pdf` | Antila S et al., The CYP3A4 inhibitor intraconazole does…, International journal of cl… (1998) | pgx | 7 | not captured | [9726699](https://www.ncbi.nlm.nih.gov/pubmed/9726699) | metadata signals extractable PGX data (CYP3A4, PK/PD-context) |
+
+<sub>queue written 2026-09-20T19:04:00.416525+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| PGx | Antila_1998 | not_relevant | 0 | 0 | The study investigates a drug-drug interaction (itraconazole) rather than a pharmacogenomic effect (gene variant/genotype). |
+| popPK | Antoniades_2009 | irrelevant | 2 | 3 | The paper is a review article that discusses pharmacokinetics qualitatively and cites general ranges (e.g., clearance 175-250 mL/h/kg) rather than reporting original quantitative population-PK parameter estimates from a specific study. |
+| popPK | Bourgoin_2023 | relevant | 10 | 2 | The paper is a population PK study of levosimendan, but the specific numeric parameter values (CL, V, Q, etc.) are not present in the provided abstract text, only relative changes (e.g., 78% increase) are mentioned. |
+| popPK | Bourgoin_2023_2 | irrelevant | 0 | 0 | no_text gate: extracted text is mostly non-alphabetic (garbled or binary) |
+| popPK | Brixius_2002 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of levosimendan's effect on myocardial contractility and does not report pharmacokinetic parameters. |
+| popPK | Ertuna_2016 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of vascular reactivity in isolated human arteries and veins, reporting no pharmacokinetic parameters. |
+| popPK | Kaheinen_2006 | irrelevant | 0 | 0 | no_text gate: only 158 chars of text extracted (&lt; 400) |
+| PD | Kaheinen_2006 | not_relevant | 0 | 0 | The paper focuses on the mechanistic correlation between inotropic effect and Ca2+ sensitization/PDE inhibition, not on quantitative pharmacodynamic modeling or exposure-response relationships. |
+| popPK | Konczalla_2016 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study on cerebral vasospasm and does not report any pharmacokinetic parameters for levosimendan. |
+| popPK | Kopustinskiene_2004 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of mitochondrial potassium flux and does not report pharmacokinetic parameters. |
+| popPK | Kortejärvi_2006 | irrelevant | 2 | 0 | The paper focuses on an in vitro-in vivo correlation (IVIVC) model for formulation development rather than reporting specific quantitative population pharmacokinetic parameters (CL, V, Q) for levosimendan, and no numeric PK values are present in the evidence. |
+| PGx | Lim_2019 | not_relevant | 0 | 0 | The paper focuses on predicting cancer cell line sensitivity to levosimendan using gene expression profiles, not on how specific genetic variants affect the drug's pharmacokinetic or pharmacodynamic parameters. |
+| popPK | Marcus_2026 | irrelevant | 0 | 0 | The study is a mechanistic investigation of microvascular perfusion and mitochondrial respiration in rats, not a pharmacokinetic study, and reports no disposition parameters (CL, V, etc.) for levosimendan. |
+| popPK | Pataricza_2000 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of vasorelaxing effects on isolated portal veins, reporting EC50 values rather than pharmacokinetic disposition parameters. |
+| popPK | Põder_2003 | irrelevant | 2 | 0 | The study focuses on pharmacodynamic endpoints (QS2i, blood pressure) and does not report quantitative pharmacokinetic parameters (CL, V, t1/2) for levosimendan in the provided evidence. |
+| popPK | Rump_1994 | irrelevant | 0 | 0 | The study is an in-vitro functional/pharmacodynamic investigation in isolated rabbit hearts, not a pharmacokinetic study, and reports no disposition parameters for levosimendan. |
+| popPK | Szilágyi_2004 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of pharmacodynamics (inotropy and PDE inhibition) in guinea pig hearts, not a pharmacokinetic study reporting disposition parameters. |
+| popPK | Wanderer_2022 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of vasorelaxation in rat basilar arteries and does not report any pharmacokinetic parameters (e.g., clearance, volume, half-life) for levosimendan. |
+
+---
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-09-20 19:04 UTC</sub>

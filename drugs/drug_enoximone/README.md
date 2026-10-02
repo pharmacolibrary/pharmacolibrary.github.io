@@ -1,0 +1,133 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01C&quot;,&quot;href&quot;:&quot;atc/C01C.md&quot;},{&quot;label&quot;:&quot;enoximone&quot;}]"></div>
+
+# enoximone
+
+- **generic name:** enoximone
+- **ATC codes:** `C01CE03`
+- **DrugBank:** [DB04880](https://go.drugbank.com/drugs/DB04880) · **PubChem:** [CID 53708](https://pubchem.ncbi.nlm.nih.gov/compound/53708)
+- **molar mass:** 248.301 g/mol (C12H12N2O2S) — DrugBank
+- **groups:** approved, investigational, withdrawn
+
+## About
+
+**Description.** Enoximone is a selective phosphodiesterase inhibitor with vasodilating and positive inotropic activity that does not cause changes in myocardial oxygen consumption. It is used in patients with congestive heart failure. Trials were halted in the U.S., but the drug is used in various countries.
+
+**Indication.** For the treatment of congestive heart failure.
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-20 18:04 | 4:17 | 0/0/0 | 0/0/0 | 0/0/0 | 80,276/4,714 | ollama / qwen3.8:27b-mtp-q8_0 | 2 | 0/2 | 2/0 | 0 |
+
+## popPK records
+
+_not available_
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=enoximone) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| metabolism | liver | <sub>“…Hepatic oxidation…”</sub> | prose |
+
+<sub>Actors without a tissue in the table: PDE3A (inhibitor).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 52 matched, 43 returned
+- **screened:** 1  ·  **relevant:** 0
+- **records:** 0  ·  extracted 0  ·  needs_review 0  ·  rejected 0  ·  stale 0
+- **scholar-agent fallback query used:** True
+
+## Full text wanted
+
+_9 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Smith_1991.pdf` | Smith NA et al., Clinical pharmacology of intravenous en…, American heart journal (1991) | popPK | 8 | [10.1016/0002-8703(91)90522-j](https://doi.org/10.1016/0002-8703(91)90522-j) | [1831585](https://pubmed.ncbi.nlm.nih.gov/1831585) | The study is a clinical PK/PD trial of enoximone, but the provided abstract lacks specific numeric PK parameter values (CL, V, t1/2), mentioning only qualitative observations of accumulation and half-life. |
+| `Li_1994.pdf` | Li Q et al., Effects of the new phosphodiesterase-II…, Journal of cardiovascular p… (1994) | pd | 5 | [10.1097/00005344-199407000-00021](https://doi.org/10.1097/00005344-199407000-00021) | [7521478](https://www.ncbi.nlm.nih.gov/pubmed/7521478) | metadata signals extractable PD data (EC50) |
+| `Parsons_1988.pdf` | Parsons WJ et al., The new cardiotonic agent sulmazole is…, Molecular pharmacology (1988) | pd | 5 | not captured | [3128727](https://www.ncbi.nlm.nih.gov/pubmed/3128727) | metadata signals extractable PD data (EC50) |
+| `Buerke_1997.pdf` | Buerke M et al., Phosphodiesterase inhibitors piroximone…, Thrombosis research (1997) | pd | 4 | [10.1016/s0049-3848(97)00221-1](https://doi.org/10.1016/s0049-3848(97)00221-1) | [9361363](https://www.ncbi.nlm.nih.gov/pubmed/9361363) | metadata signals extractable PD data (IC50) |
+| `Hall_1990.pdf` | Hall JA et al., Enoximone potentiates the positive inot…, Cardiology (1990) | pd | 4 | [10.1159/000174666](https://doi.org/10.1159/000174666) | [1979934](https://www.ncbi.nlm.nih.gov/pubmed/1979934) | metadata signals extractable PD data (Concentration-effect) |
+| `Masuoka_1990.pdf` | Masuoka H et al., Effects of amrinone and enoximone on th…, Journal of cardiovascular p… (1990) | pd | 4 | [10.1097/00005344-199002000-00018](https://doi.org/10.1097/00005344-199002000-00018) | [1689427](https://www.ncbi.nlm.nih.gov/pubmed/1689427) | metadata signals extractable PD data (IC50) |
+| `Rascón_2002.pdf` | Rascón A et al., Cloning and characterization of a cAMP-…, Proceedings of the National… (2002) | pd | 4 | [10.1073/pnas.002031599](https://doi.org/10.1073/pnas.002031599) | [11930017](https://www.ncbi.nlm.nih.gov/pubmed/11930017) | metadata signals extractable PD data (IC50) |
+| `Schneider_1992.pdf` | Schneider J et al., Cardiac effects of R 79595 and its isom…, Naunyn-Schmiedeberg's archi… (1992) | pd | 4 | [10.1007/BF00169014](https://doi.org/10.1007/BF00169014) | [1470228](https://www.ncbi.nlm.nih.gov/pubmed/1470228) | metadata signals extractable PD data (EC50) |
+| `Szilágyi_2005.pdf` | Szilágyi S et al., Two inotropes with different mechanisms…, Journal of cardiovascular p… (2005) | pd | 4 | [10.1097/01.fjc.0000175454.69116.9](https://doi.org/10.1097/01.fjc.0000175454.69116.9) | [16116344](https://www.ncbi.nlm.nih.gov/pubmed/16116344) | metadata signals extractable PD data (EC50) |
+
+<sub>queue written 2026-09-20T18:02:49.203681+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Belz_1988 | irrelevant | 2 | 0 | The abstract describes a PK/PD study but does not report any quantitative disposition parameters (CL, V, t1/2, etc.) for enoximone. |
+| popPK | Bethke_1992 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of phosphodiesterase inhibition and does not report pharmacokinetic parameters for enoximone. |
+| popPK | Birnbaum_1990 | irrelevant | 2 | 0 | The study reports plasma concentrations and hemodynamic effects but does not provide quantitative pharmacokinetic parameters such as clearance, volume of distribution, or half-life. |
+| PD | Birnbaum_1990 | not_relevant | 3 | 2 | The paper reports mean plasma concentrations and mean hemodynamic changes at specific time points but explicitly states the effect was not paralleled by concentration, providing no numeric PD parameters (Emax, EC50) or fitted concentration-effect curve. |
+| popPK | Birnbaum_1991 | irrelevant | 2 | 0 | The study reports hemodynamic effects and plasma concentrations but does not provide quantitative pharmacokinetic disposition parameters such as clearance, volume of distribution, or half-life. |
+| PD | Birnbaum_1991 | not_relevant | 3 | 2 | The study reports mean hemodynamic changes and plasma concentrations at specific time points but does not provide a concentration-effect curve, Emax/EC50 parameters, or a formal PK/PD model fit. |
+| popPK | Booker_2000 | irrelevant | 0 | 0 | no_text gate: only 37 chars of text extracted (&lt; 400) |
+| popPK | Breithaupt_1990 | irrelevant | 2 | 0 | The study reports pharmacodynamic effects and plasma concentrations but does not provide quantitative pharmacokinetic disposition parameters (CL, V, ka, t1/2) or a compartmental model for enoximone. |
+| popPK | Breithaupt_1991 | irrelevant | 2 | 0 | The study reports pharmacodynamic effects and plasma concentrations but does not provide quantitative pharmacokinetic disposition parameters (CL, V, ka, t1/2) or a compartmental model for enoximone. |
+| popPK | Buerke_1997 | irrelevant | 0 | 0 | no_text gate: only 103 chars of text extracted (&lt; 400) |
+| popPK | Endoh_1991 | irrelevant | 0 | 0 | The study focuses on the pharmacodynamics of pimobendan and its metabolite, mentioning enoximone only as a comparator for cyclic AMP elevation without providing any pharmacokinetic parameters. |
+| PD | Endoh_1991 | not_relevant | 0 | 0 | The paper focuses on the pharmacodynamics of pimobendan and its metabolite; enoximone is only mentioned qualitatively as a comparator for cAMP elevation without providing any numeric PD parameters or concentration-response data for it. |
+| popPK | Erbel_1987 | irrelevant | 1 | 0 | The study reports hemodynamic dose-response data (cardiac index, pressure) but contains no pharmacokinetic parameters (CL, V, t1/2) for enoximone. |
+| popPK | Gilbert_1987 | irrelevant | 0 | 0 | The study reports acute hemodynamic responses (cardiac index, pressures) rather than pharmacokinetic disposition parameters (CL, V, t1/2) for enoximone. |
+| PD | Gilbert_1987 | not_relevant | 3 | 2 | The study reports a dose-range analysis with mean hemodynamic changes but explicitly states that dose-response differences were not significant and provides no numeric PD parameters (e.g., EC50, Emax) or concentration-effect curves. |
+| popPK | Gilbert_1995 | irrelevant | 0 | 0 | The study focuses on pharmacologic and hemodynamic effects (in vitro and in vivo) rather than pharmacokinetic disposition parameters. |
+| popPK | Grossmann_1998 | irrelevant | 0 | 0 | The study is a pharmacodynamic assessment of venodilatory potency (ED50) and does not report any pharmacokinetic disposition parameters for enoximone. |
+| popPK | Hall_1990 | irrelevant | 0 | 0 | no_text gate: only 126 chars of text extracted (&lt; 400) |
+| popPK | Hsieh_1987 | irrelevant | 0 | 0 | The study is a pharmacodynamic/mechanistic investigation of inotropic effects and cyclic nucleotide levels in isolated tissue, reporting no pharmacokinetic parameters. |
+| PD | Hsieh_1987 | not_relevant | 4 | 2 | The paper describes a dose-response relationship qualitatively (dose-dependent inotropy, less steep than IBMX) but does not provide numeric PD parameters (Emax, EC50) or a quantitative effect-vs-dose curve in the provided text. |
+| popPK | Itoh_1991 | irrelevant | 0 | 0 | The study reports exercise tolerance and hemodynamic effects, not pharmacokinetic parameters. |
+| popPK | Itoh_1993 | irrelevant | 0 | 0 | The study is a mechanistic pharmacological investigation of vasorelaxation and phosphodiesterase inhibition, not a pharmacokinetic study, and reports no disposition parameters for enoximone. |
+| popPK | Lehtonen_2004 | irrelevant | 0 | 0 | The paper is a review discussing the general pharmacology of inotropic agents without reporting specific quantitative pharmacokinetic parameters for enoximone. |
+| PD | Lehtonen_2004 | not_relevant | 1 | 0 | The text is a qualitative review discussing the mechanisms and general pharmacokinetic properties of inotropic agents, including enoximone, but it does not report any specific numeric PD parameters, concentration-effect curves, or dose-response data. |
+| popPK | Lellouche_1988 | irrelevant | 2 | 0 | The study reports acute hemodynamic dose-response data (cardiac index, pressure) rather than quantitative pharmacokinetic disposition parameters (CL, V, t1/2) for enoximone. |
+| popPK | Li_1994 | irrelevant | 0 | 0 | no_text gate: only 118 chars of text extracted (&lt; 400) |
+| PD | Li_1994 | not_relevant | 0 | 0 | The paper investigates the effects of R80122, not enoximone. |
+| popPK | Mangieri_1999 | irrelevant | 0 | 0 | The study is a clinical trial assessing myocardial viability using enoximone as a diagnostic agent, and it does not report any pharmacokinetic parameters. |
+| PD | Mangieri_1999 | not_relevant | 2 | 1 | The study reports a fixed-dose clinical trial (0.75 mg/kg) and correlates wall motion scores with revascularization outcomes, but it does not provide concentration-effect data, dose-response curves, or numeric PD parameters (Emax, EC50) for enoximone. |
+| popPK | Masuoka_1990 | irrelevant | 0 | 0 | no_text gate: only 111 chars of text extracted (&lt; 400) |
+| PD | Masuoka_1990 | not_relevant | 0 | 0 | The paper investigates the biochemical mechanism of action (PDE inhibition) in tissue homogenates, not a pharmacodynamic exposure-response or dose-response relationship in a physiological or clinical context. |
+| popPK | Molter_1993 | irrelevant | 0 | 0 | The study focuses exclusively on pharmacodynamic effects (hemodynamics) and does not report any pharmacokinetic parameters such as clearance, volume, or half-life for enoximone. |
+| PD | Molter_1993 | not_relevant | 2 | 1 | The study reports qualitative hemodynamic changes (percentages) after a single fixed dose of enoximone but does not provide plasma concentration data or fit a concentration-effect model, making numeric PD parameters like Emax or EC50 unextractable. |
+| popPK | Parsons_1988 | irrelevant | 0 | 0 | no_text gate: only 127 chars of text extracted (&lt; 400) |
+| PD | Parsons_1988 | not_relevant | 0 | 0 | The text describes sulmazole, not enoximone, and contains no pharmacodynamic data or parameters. |
+| popPK | Rascón_2002 | irrelevant | 0 | 0 | no_text gate: only 99 chars of text extracted (&lt; 400) |
+| PD | Rascón_2002 | not_relevant | 0 | 0 | The paper focuses on the cloning and characterization of a phosphodiesterase enzyme from Trypanosoma brucei and does not contain any pharmacodynamic or exposure-response data for enoximone. |
+| popPK | Rocci_1987 | irrelevant | 1 | 0 | The paper is a review that mentions enoximone only as a compound under investigation without providing any quantitative pharmacokinetic parameter values. |
+| PD | Rocci_1987 | not_relevant | 1 | 0 | The text is a review abstract that qualitatively mentions enoximone is under investigation but provides no numeric PD parameters, concentration-effect data, or dose-response relationships. |
+| popPK | Romano_2023 | irrelevant | 0 | 0 | The study investigates the pharmacokinetics of nadroparin, not enoximone (which is only mentioned as a vasopressor/inodilator). |
+| PD | Romano_2023 | not_relevant | 0 | 0 | The paper reports a population pharmacokinetic (PK) model for nadroparin, not a pharmacodynamic (PD) or exposure-response model for enoximone; enoximone is only mentioned as a vasopressor covariate. |
+| popPK | Salmenperä_1996 | irrelevant | 0 | 0 | The study is an in-vitro pharmacological investigation of vasodilatory effects on human artery rings, not a pharmacokinetic study reporting disposition parameters for enoximone. |
+| popPK | Schneider_1992 | irrelevant | 0 | 0 | no_text gate: only 197 chars of text extracted (&lt; 400) |
+| PD | Schneider_1992 | not_relevant | 0 | 0 | The paper investigates R 79595 and its isomers, not enoximone. |
+| popPK | Smith_1991 | relevant | 8 | 2 | The study is a clinical PK/PD trial of enoximone, but the provided abstract lacks specific numeric PK parameter values (CL, V, t1/2), mentioning only qualitative observations of accumulation and half-life. |
+| popPK | Szilágyi_2005 | irrelevant | 0 | 0 | no_text gate: only 140 chars of text extracted (&lt; 400) |
+| PD | Szilágyi_2005 | not_relevant | 0 | 0 | The provided text is only the title of a paper and does not contain the full text, data, or numeric PD parameters required to assess the exposure-response relationship. |
+| popPK | Vernon_1991 | irrelevant | 0 | 0 | The paper is a review of pharmacological properties and therapeutic potential, not a primary pharmacokinetic study reporting quantitative disposition parameters. |
+| PD | Vernon_1991 | not_relevant | 1 | 0 | The text is a qualitative review summary that mentions pharmacodynamic properties and dosage tolerability but does not provide specific numeric PD parameters or concentration-effect data. |
+| popPK | Winkle_1990 | irrelevant | 2 | 0 | The study focuses on pharmacodynamics and haemodynamic effects, reporting only qualitative observations of non-linear accumulation without providing quantitative pharmacokinetic parameters like clearance or volume. |
+| popPK | Zausig_2006 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of cardiac function in isolated guinea pig hearts and does not report pharmacokinetic parameters for enoximone. |
+| popPK | Zipperle_1987 | irrelevant | 0 | 0 | The paper is a clinical efficacy study for congestive heart failure and does not report any pharmacokinetic parameters for enoximone. |
+| popPK | de_1992 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study reporting enzyme inhibition (IC50) values, not pharmacokinetic disposition parameters. |
+| popPK | unknown_1991 | irrelevant | 0 | 0 | no_text gate: only 109 chars of text extracted (&lt; 400) |
+| PD | unknown_1991 | not_relevant | 0 | 0 | The provided text is only a citation header for a conference abstract collection and contains no scientific content, data, or PD parameters. |
+| popPK | unknown_1994 | irrelevant | 0 | 0 | The paper is a collection of abstracts for various drugs (e.g., ethinylestradiol, procarbazine, acetylsalicylic acid) and does not contain a pharmacokinetic study for enoximone. |
+| PD | unknown_1994 | not_relevant | 0 | 0 | The provided text is only a title and file description for a conference abstract collection, containing no specific data, models, or numeric parameters for enoximone. |
+| popPK | unknown_2016 | irrelevant | 0 | 0 | no_text gate: only 40 chars of text extracted (&lt; 400) |
+| PD | unknown_2016 | not_relevant | 0 | 0 | The provided text is only a conference header and contains no data, analysis, or mention of enoximone pharmacodynamics. |
+
+---
+<sub>Generated by `docs.py` (scholarv2)</sub>

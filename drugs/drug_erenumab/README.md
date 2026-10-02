@@ -1,0 +1,139 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N02C&quot;,&quot;href&quot;:&quot;atc/N02C.md&quot;},{&quot;label&quot;:&quot;erenumab&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Erenumab_FiedlerKelly2019_reference&quot;,&quot;label&quot;:&quot;Fiedler-Kelly_2019_reference&quot;,&quot;href&quot;:&quot;drugs/drug_erenumab/Erenumab_FiedlerKelly2019_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Erenumab_Kielbasa2019_reference&quot;,&quot;label&quot;:&quot;Kielbasa_2019_reference&quot;,&quot;href&quot;:&quot;drugs/drug_erenumab/Erenumab_Kielbasa2019_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Erenumab_Vu2017_reference&quot;,&quot;label&quot;:&quot;Vu_2017_reference&quot;,&quot;href&quot;:&quot;drugs/drug_erenumab/Erenumab_Vu2017_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+
+# erenumab
+
+- **generic name:** erenumab
+- **ATC codes:** `N02CD01`
+- **DrugBank:** [DB14039](https://go.drugbank.com/drugs/DB14039) · **PubChem:** not captured
+- **groups:** approved, investigational
+
+## About
+
+**Description.** Erenumab (AMG-334) (INN; trade name Aimovig) is a human monoclonal antibody designed specifically to bind and antagonize the calcitonin gene-related peptide receptor (CGRPR) as a means to prevent migraines. Aimovig, as released and marketed by Novartis and Amgen, is in fact a novel therapeutic approach as the first and only FDA approved treatment specifically developed to prevent migraine by blocking the CGRP receptor, which is believed to play a critical role in migraine [L2823].
+
+In particular, erenumab-aooe is a human immunoglobulin G2 monoclonal antibody that has high affinity binding to the CGRP receptor [FDA Label]. The antibody is produced utlilizing recombinant DNA technology in Chinese hamster ovary cells [FDA Label]. It is composed of 2 heavy chains, each containing 456 amino acids, and 2 light chains of the lambda subclass, each containing 216 amino acids, with an approximate molecular weight of 150 kDa [FDA Label].
+
+**Indication.** Erenumab is indicated for the preventative treatment of migraine in adults [FDA Label].
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-21 05:00 | 13:38 | 2/1/0 | 3/0/0 | 0/0/1 | 336,409/20,596 | ollama / qwen3.8:27b-mtp-q8_0 | 17 | 2/15 | 17/0 | 0 |
+
+## popPK records
+
+| status | detail | model | model structure | params | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">reviewed — candidate</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.0). The first reading is what the record holds.">cross-check: partial</span> | [Fiedler-Kelly_2019_reference](drugs/drug_erenumab/Erenumab_FiedlerKelly2019_reference.md) | ▶ model + simulator | 1-compartment, IV | 2 | Fiedler-Kelly JB et al., Population pharmacokinetic modelling an…, British journal of clinical… (2019) | [10.1111/bcp.14096](https://doi.org/10.1111/bcp.14096) |
+| <span class="pk-badge pk-badge--green">reviewed — candidate</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.8). The first reading is what the record holds.">cross-check: disputed</span> | [Kielbasa_2019_reference](drugs/drug_erenumab/Erenumab_Kielbasa2019_reference.md) | ▶ model + simulator | 1-compartment, oral | 3 | Kielbasa W et al., A new era for migraine: Pharmacokinetic…, Cephalalgia : an internatio… (2019) | [10.1177/0333102419840780](https://doi.org/10.1177/0333102419840780) |
+| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (partly confirmed, agreement 0.929). The first reading is what the record holds.">cross-check: partial</span><br><sub>blocking: C5 dimension mismatch on a structural parameter</sub><br><sub>route_to: `human_review`</sub> | [Vu_2017_reference](drugs/drug_erenumab/Erenumab_Vu2017_reference.md) | — | 2-compartment (no model) | 8 | Vu T et al., Pharmacokinetic-Pharmacodynamic Relatio…, Pharmaceutical research (2017) | [10.1007/s11095-017-2183-6](https://doi.org/10.1007/s11095-017-2183-6) |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.0). The first reading is what the record holds.">cross-check: partial</span> | [Chan_2021_Dermal_blood_flow_DBF](drugs/drug_erenumab/pd_Chan_2021_Dermal_blood_flow_DBF.md) | name ← GDC-0334 · direct sigmoid Emax (Hill) effect | — | Chan P et al., Translational and pharmacokinetic-pharm…, Clinical and translational… (2021) | [10.1111/cts.13049](https://doi.org/10.1111/cts.13049) |
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.19). The first reading is what the record holds.">cross-check: disputed</span> | [Kielbasa_2019_free_CGRP](drugs/drug_erenumab/pd_Kielbasa_2019_free_CGRP.md) | free CGRP ← galcanezumab · target-mediated drug disposition | — | Kielbasa W et al., A new era for migraine: Pharmacokinetic…, Cephalalgia : an internatio… (2019) | [10.1177/0333102419840780](https://doi.org/10.1177/0333102419840780) |
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.0). The first reading is what the record holds.">cross-check: partial</span> | [Vu_2017_DBF](drugs/drug_erenumab/pd_Vu_2017_DBF.md) | dermal blood flow ← erenumab · direct sigmoid Emax (Hill) effect | — | Vu T et al., Pharmacokinetic-Pharmacodynamic Relatio…, Pharmaceutical research (2017) | [10.1007/s11095-017-2183-6](https://doi.org/10.1007/s11095-017-2183-6) |
+
+## Pharmacogenomics (PGx)
+
+| status | gene | affects | mechanism | detail | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **RAMP1** | `Q100` — no parameter target — an association/risk finding, not a parameter shift | target | [Zecca_2022](drugs/drug_erenumab/pgx_Zecca_2022_RAMP1_Q100.md) | Zecca C et al., Clinic and genetic predictors in respon…, European journal of neurolo… (2022) | [10.1111/ene.15236](https://doi.org/10.1111/ene.15236) |
+
+<details class="legend">
+<summary>What the PGx columns mean</summary>
+<table><thead><tr><th>column</th><th>what it holds</th></tr></thead><tbody><tr><td><code>gene</code></td><td>the gene whose variants the record is about. One record per gene, so a paper reporting several genes appears on several rows.</td></tr><tr><td><code>affects</code></td><td>the PK or PD parameter the genotype SHIFTS, as an ontology Q-code plus its name — Q22 = clearance, Q27 = CL/F (apparent clearance), Q32 = Cmax, Q88 = AUC, Q40 = Fab, Q321 = EC50, Q322 = IC50, Q305 = kfm. The record's per-phenotype theta is a multiplier ON that parameter: a poor-metaboliser theta shifts this value, it does not supply one. Two values are NOT parameters — Q100 (NIL) is an association or risk finding with no parameter target, and `safety` is an adverse-reaction risk such as an HLA allele. A PA… id instead of a Q-code marks a record derived from a ClinPGx/PharmGKB guideline lookup rather than read out of the paper.</td></tr><tr><td><code>mechanism</code></td><td>how the gene acts: metabolism, transport, target, formation, safety_allele, or unknown.</td></tr><tr><td><code>detail</code></td><td>the paper stem, linking to the full record page.</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>not captured</code></td><td>the field is absent from the KB artifact — nothing was recorded. This is NOT the same as zero or empty: the value is unknown, not measured to be nothing.</td></tr><tr><td><code>—</code></td><td>deliberately not shown: the column does not apply to this row.</td></tr><tr><td><code>not verified</code></td><td>the record is not in an accepted state (see the badge and the note above the table); the numbers are shown as extracted, not endorsed.</td></tr></tbody></table>
+</details>
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=erenumab) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| excretion | liver | <sub>“…ys: (a) a slow non-specific elimination pathway through the hepatic reticuloendothelial sy…”</sub> | prose |
+
+<sub>Actors without a tissue in the table: CALCRL (target), RAMP1 (target).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 40 matched, 38 returned
+- **screened:** 2  ·  **relevant:** 2
+- **records:** 3  ·  extracted 2  ·  needs_review 0  ·  rejected 1  ·  stale 0
+- **scholar-agent fallback query used:** True
+
+## Full text wanted
+
+_3 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Gupta_2025.pdf` | Gupta P et al., A Semi-Mechanistic Mathematical Model o…, Pharmaceutics (2025) | popPK | 8 | [10.3390/pharmaceutics17070845](https://doi.org/10.3390/pharmaceutics17070845) | [40733054](https://pubmed.ncbi.nlm.nih.gov/40733054) | The paper describes a population PK model for erenumab in rats, but the specific numeric parameter values are not present in the provided evidence. |
+| `Shen_2022.pdf` | Shen Q et al., Pharmacokinetics and Safety of Erenumab…, Clinical drug investigation (2022) | popPK | 8 | [10.1007/s40261-022-01171-5](https://doi.org/10.1007/s40261-022-01171-5) | [35727536](https://pubmed.ncbi.nlm.nih.gov/35727536) | The study reports non-compartmental PK parameters (Cmax, AUC) for erenumab, but lacks specific compartmental parameters like clearance (CL) or volume (V) in the provided text. |
+| `Garelja_2024.pdf` | Garelja ML et al., Pharmacological characterisation of ere…, British journal of pharmaco… (2024) | pd | 4 | [10.1111/bph.16218](https://doi.org/10.1111/bph.16218) | [37580864](https://www.ncbi.nlm.nih.gov/pubmed/37580864) | metadata signals extractable PD data (IC50) |
+
+<sub>queue written 2026-09-21T04:48:23.079935+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Al-Hassany_2023 | irrelevant | 0 | 0 | The paper is a clinical case report and review discussing dose-finding strategies and pharmacodynamic models, containing no quantitative pharmacokinetic parameters (CL, V, t1/2) for erenumab. |
+| PD | Al-Hassany_2023 | not_relevant | 3 | 2 | The paper is a review/commentary that references existing dose-response data (capsaicin model) but does not present new numeric PD parameters or a formal PK/PD model in the provided text. |
+| popPK | Bashour_2023 | irrelevant | 0 | 0 | The paper is a computational study on antibody developability landscapes and does not report pharmacokinetic parameters for erenumab. |
+| PD | Bashour_2023 | not_relevant | 0 | 0 | The paper focuses on computational analysis of antibody developability parameters (physicochemical properties) and does not contain any pharmacodynamic, exposure-response, or dose-response data for erenumab. |
+| popPK | Bashour_2024 | irrelevant | 0 | 0 | The paper is a computational study on antibody developability landscapes and does not report pharmacokinetic parameters for erenumab. |
+| PD | Bashour_2024 | not_relevant | 0 | 0 | The paper focuses on the biophysical and computational analysis of antibody developability parameters (physicochemical properties) and does not contain any pharmacokinetic, pharmacodynamic, or exposure-response data for erenumab or any other drug. |
+| popPK | Chan_2021 | irrelevant | 0 | 0 | The study reports pharmacokinetic parameters for GDC-0334 (a TRPA1 inhibitor), not erenumab. |
+| popPK | Chen_2023 | irrelevant | 0 | 0 | The paper focuses on psychometric modeling of the Migraine-Specific Quality-of-Life Questionnaire (MSQ) and does not report any pharmacokinetic parameters for erenumab. |
+| PD | Chen_2023 | not_relevant | 3 | 1 | The paper focuses on psychometric modeling (IRT) of a questionnaire and qualitative simulation of improvement, without reporting specific numeric exposure-response parameters (e.g., EC50, Emax) or a concentration-effect curve for erenumab. |
+| popPK | Di_2019 | irrelevant | 0 | 0 | The paper is a health economic analysis of utility values (EQ-5D) and does not report any pharmacokinetic parameters for erenumab. |
+| PD | Di_2019 | not_relevant | 2 | 1 | The paper models utility values as a function of clinical response (MMDs), not drug exposure or dose, and does not report pharmacodynamic parameters like Emax or EC50. |
+| popPK | Fiedler-Kelly_2019 | irrelevant | 0 | 0 | The paper reports population pharmacokinetic parameters for fremanezumab, not erenumab. |
+| PD | Fiedler-Kelly_2019 | not_relevant | 0 | 0 | The paper reports a population pharmacokinetic (PK) model for fremanezumab, not erenumab, and contains no pharmacodynamic (PD) or exposure-response analysis. |
+| popPK | Fiedler-Kelly_2020 | irrelevant | 0 | 0 | The study focuses on fremanezumab, not erenumab, and does not report quantitative PK parameters for the target drug. |
+| PD | Fiedler-Kelly_2020 | not_relevant | 0 | 0 | The paper reports exposure-response models for fremanezumab, not erenumab. |
+| popPK | Gallardo_2026 | irrelevant | 0 | 0 | The study focuses on neuroimaging and serum biomarkers for migraine diagnosis and does not report any pharmacokinetic parameters for erenumab. |
+| popPK | Garelja_2024 | irrelevant | 0 | 0 | The paper is an in-vitro pharmacological study characterizing receptor binding and antagonism (IC50, pKB), not a pharmacokinetic study reporting disposition parameters like clearance or volume. |
+| popPK | Giner-Soriano_2025 | irrelevant | 0 | 0 | The paper is a clinical trial protocol for migraine preventive drugs (propranolol, amitriptyline, flunarizine, topiramate) and does not report pharmacokinetic parameters for erenumab. |
+| PD | Giner-Soriano_2025 | not_relevant | 0 | 0 | The paper is a study protocol for a clinical trial comparing standard migraine preventives (propranolol, amitriptyline, flunarizine, topiramate) and does not involve erenumab or report any pharmacodynamic or exposure-response modeling. |
+| popPK | González-Hernández_2025 | irrelevant | 1 | 0 | The paper is a narrative review without original quantitative PK parameter values for erenumab. |
+| PD | González-Hernández_2025 | not_relevant | 2 | 1 | The paper is a narrative review that qualitatively discusses PK/PD characteristics of anti-CGRP therapies but does not report specific numeric PD parameters or extractable exposure-response curves for erenumab. |
+| popPK | Gupta_2025 | relevant | 8 | 0 | The paper describes a population PK model for erenumab in rats, but the specific numeric parameter values are not present in the provided evidence. |
+| PD | Gupta_2025 | not_relevant | 4 | 2 | The paper describes a semi-mechanistic PK/immunogenicity model for ADA formation and immune tolerance, not a pharmacodynamic exposure-response relationship for the drug's therapeutic effect (e.g., CGRP receptor inhibition), and specific numeric PD parameters for the drug effect are not reported. |
+| popPK | Iannone_2022 | irrelevant | 0 | 0 | The paper is a clinical study on the effectiveness of anti-CGRP antibodies on migraine symptoms and does not report any pharmacokinetic parameters for erenumab. |
+| PD | Iannone_2022 | not_relevant | 1 | 0 | The study reports qualitative clinical outcomes and symptom reduction percentages in a cohort but does not provide drug concentrations, dose levels, or numeric PD parameters (e.g., Emax, EC50) to establish an exposure-response relationship. |
+| popPK | Janković_2024 | irrelevant | 0 | 0 | The paper is a narrative review focusing on drug interactions and does not report original quantitative pharmacokinetic parameters for erenumab. |
+| PD | Janković_2024 | not_relevant | 1 | 0 | The paper is a narrative review focusing on drug interactions and provides no numeric PD parameters or concentration-effect curves for erenumab. |
+| popPK | Jordan_2023 | irrelevant | 0 | 0 | The paper is a systematic scoping review on breastfeeding and infant outcomes, not a pharmacokinetic study, and does not report quantitative PK parameters for erenumab. |
+| PD | Jordan_2023 | not_relevant | 0 | 0 | The paper is a systematic scoping review regarding breastfeeding and infant outcomes, containing no pharmacodynamic modeling or specific data for erenumab. |
+| popPK | Kamogawa_2026 | irrelevant | 0 | 0 | The paper is a clinical outcome study evaluating functional improvement in adolescents and does not report any pharmacokinetic parameters for erenumab. |
+| popPK | Karlsson_2026 | irrelevant | 0 | 0 | The study is a biomarker analysis (hs-CRP and TNF-α) and does not report any pharmacokinetic parameters for erenumab. |
+| popPK | Kielbasa_2019 | irrelevant | 1 | 0 | The paper is a review focused on galcanezumab, and while it mentions erenumab's half-life and bioavailability in a table, it does not report quantitative disposition parameters (CL, V, Q) or a compartmental model for erenumab as the subject drug. |
+| popPK | Liu_2021 | irrelevant | 0 | 0 | The paper focuses on the discovery of GLP-1 receptor antibodies and only mentions erenumab as an example of an approved GPCR antibody without providing any pharmacokinetic parameters for it. |
+| PD | Liu_2021 | not_relevant | 0 | 0 | The paper focuses on the discovery of novel GLP-1R antibodies (TB01-3, TB59-2) and does not report any pharmacodynamic or exposure-response data for erenumab. |
+| popPK | Martín-Yeves_2026 | irrelevant | 0 | 0 | The paper is a clinical effectiveness study comparing migraine outcomes and does not report any pharmacokinetic parameters for erenumab. |
+| popPK | Mattioli_2026 | irrelevant | 0 | 0 | The study is a retrospective real-world clinical outcome analysis of migraine efficacy and does not report any pharmacokinetic parameters for erenumab. |
+| popPK | Szkutnik-Fiedler_2020 | irrelevant | 2 | 3 | The paper is a review of multiple anti-migraine drugs, and while it mentions erenumab's half-life and bioavailability, it lacks the specific quantitative disposition parameters (CL, V, Q) or compartmental models required for population-PK extraction. |
+| PD | Szkutnik-Fiedler_2020 | not_relevant | 1 | 0 | The paper is a review of drug-drug interactions and general PK/PD concepts for migraine drugs, providing no specific numeric PD parameters or exposure-response data for erenumab. |
+| PGx | Szkutnik-Fiedler_2020 | not_relevant | 0 | 0 | The paper is a review of drug-drug and drug-food interactions, not pharmacogenomic effects of gene variants on PK/PD. |
+| popPK | Xu_2019 | irrelevant | 1 | 0 | The study evaluates the pharmacokinetics of oral contraceptives (ethinyl estradiol, norgestrel, norelgestromin) in the presence of erenumab, reporting no quantitative disposition parameters (CL, V, etc.) for erenumab itself. |
+| PD | Xu_2019 | not_relevant | 0 | 0 | The study evaluates pharmacokinetic drug-drug interactions and qualitative hormonal markers, but does not report a concentration-effect or dose-response model for erenumab with numeric PD parameters. |
+| popPK | Yang_2022 | irrelevant | 0 | 0 | The paper is a systematic review and meta-analysis of clinical efficacy and safety outcomes, not a pharmacokinetic study, and it does not report quantitative PK parameters like clearance or volume for erenumab. |
+| PD | Yang_2022 | not_relevant | 2 | 1 | The paper is a meta-analysis comparing fixed doses (70mg vs 140mg) and does not report concentration-effect relationships or numeric PD parameters like Emax or EC50. |
+| popPK | de_2018 | relevant | 10 | 0 | The paper is a Phase I PK study of erenumab, but the provided evidence contains only qualitative descriptions of the PK profile without specific numeric parameter values. |
+| popPK | unknown_2022 | irrelevant | 0 | 0 | no_text gate: only 75 chars of text extracted (&lt; 400) |
+| PD | unknown_2022 | not_relevant | 0 | 0 | The provided text is only a title of a conference abstract collection and contains no data, analysis, or parameters regarding erenumab pharmacodynamics. |
+
+---
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-09-21 04:48 UTC</sub>

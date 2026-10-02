@@ -1,0 +1,106 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N02A&quot;,&quot;href&quot;:&quot;atc/N02A.md&quot;},{&quot;label&quot;:&quot;butorphanol&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Butorphanol_Pypendop2021_reference&quot;,&quot;label&quot;:&quot;Pypendop_2021_reference&quot;,&quot;href&quot;:&quot;drugs/drug_butorphanol/Butorphanol_Pypendop2021_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Butorphanol_Knych2024_estimate&quot;,&quot;label&quot;:&quot;Knych_2024_estimate&quot;,&quot;href&quot;:&quot;drugs/drug_butorphanol/Butorphanol_Knych2024_estimate.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Butorphanol_Knych2024_shrinkage&quot;,&quot;label&quot;:&quot;Knych_2024_shrinkage&quot;,&quot;href&quot;:&quot;drugs/drug_butorphanol/Butorphanol_Knych2024_shrinkage.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Butorphanol_Saeed2026_reference&quot;,&quot;label&quot;:&quot;Saeed_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_butorphanol/Butorphanol_Saeed2026_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+
+# butorphanol
+
+- **generic name:** butorphanol
+- **ATC codes:** `N02AF01`
+- **DrugBank:** [DB00611](https://go.drugbank.com/drugs/DB00611) · **PubChem:** [CID 6916249](https://pubchem.ncbi.nlm.nih.gov/compound/6916249)
+- **molar mass:** 327.4605 g/mol (C21H29NO2) — DrugBank
+- **groups:** approved, illicit, investigational, vet_approved
+
+## About
+
+**Description.** A synthetic morphinan analgesic with narcotic antagonist action. It is used in the management of severe pain.
+
+**Indication.** For the relief of moderate to severe pain.
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-08-27 14:00 | 16:45 | 3/1/0 | 0/2/0 | 0/0/1 | 180,663/20,340 | ollama / qwen3.8:27b-mtp-q8_0 | 9 | 4/5 | 8/1 | 0 |
+
+## popPK records
+
+| status | detail | model | model structure | params | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">reviewed — candidate</span> | [Pypendop_2021_reference](drugs/drug_butorphanol/Butorphanol_Pypendop2021_reference.md) | ▶ model + simulator | 2-compartment, IV | 10 | Pypendop BH et al., Pharmacokinetics of butorphanol in male…, Journal of veterinary pharm… (2021) | [10.1111/jvp.13014](https://doi.org/10.1111/jvp.13014) |
+| <span class="pk-badge pk-badge--orange">needs review</span><br><sub>blocking: T1_cmax</sub><br><sub>blocking: T1_tmax</sub><br><sub>route_to: `scholar`</sub> | [Knych_2024_estimate](drugs/drug_butorphanol/Butorphanol_Knych2024_estimate.md) | ▶ model + simulator | 3-compartment, oral | 12 | Knych HK et al., Population pharmacokinetics of butorpha…, Journal of veterinary pharm… (2024) | [10.1111/jvp.13450](https://doi.org/10.1111/jvp.13450) |
+| <span class="pk-badge pk-badge--orange">needs review</span><br><sub>blocking: T1_cmax</sub><br><sub>blocking: T1_tmax</sub><br><sub>route_to: `scholar`</sub> | [Knych_2024_shrinkage](drugs/drug_butorphanol/Butorphanol_Knych2024_shrinkage.md) | ▶ model + simulator | 3-compartment, oral | 8 | Knych HK et al., Population pharmacokinetics of butorpha…, Journal of veterinary pharm… (2024) | [10.1111/jvp.13450](https://doi.org/10.1111/jvp.13450) |
+| <span class="pk-badge pk-badge--red">rejected</span><br><sub>blocking: no distribution volume and no clearance/elimination — not a compartmental popPK…</sub><br><sub>route_to: `human_review`</sub> | [Saeed_2026_reference](drugs/drug_butorphanol/Butorphanol_Saeed2026_reference.md) | — | 1-compartment (no model) | 1 (+1 cov.) | Saeed AM et al., Butorphanol Pharmacokinetics Across Spe…, CPT: pharmacometrics & syst… (2026) | [10.1002/psp4.70293](https://doi.org/10.1002/psp4.70293) |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--red">rejected</span> | [Guo_2023_unknown](drugs/drug_butorphanol/pd_Guo_2023_unknown.md) | awakening ← propofol · stimulation effect | — | Guo F et al., Efficacy and safety of propofol target-…, World journal of clinical c… (2023) | [10.12998/wjcc.v11.i3.610](https://doi.org/10.12998/wjcc.v11.i3.610) |
+| <span class="pk-badge pk-badge--red">rejected</span> | [Vandeputte_2020_betaarr2](drugs/drug_butorphanol/pd_Vandeputte_2020_betaarr2.md) | beta-arrestin2 recruitment ← unknown · direct Emax (saturable) effect | — | Vandeputte MM et al., In vitro functional characterization of…, Archives of toxicology (2020) | [10.1007/s00204-020-02855-7](https://doi.org/10.1007/s00204-020-02855-7) |
+| <span class="pk-badge pk-badge--red">rejected</span> | [Vandeputte_2020_mini_Gi](drugs/drug_butorphanol/pd_Vandeputte_2020_mini_Gi.md) | G protein (mini-Gi) recruitment ← unknown · direct Emax (saturable) effect | — | Vandeputte MM et al., In vitro functional characterization of…, Archives of toxicology (2020) | [10.1007/s00204-020-02855-7](https://doi.org/10.1007/s00204-020-02855-7) |
+
+## Pharmacogenomics (PGx)
+
+| status | gene | affects | mechanism | detail | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> | **ABCB1** | `Q100` — no parameter target — an association/risk finding, not a parameter shift | transport | [Nelson_2025](drugs/drug_butorphanol/pgx_Nelson_2025_ABCB1_Q100.md) | Nelson TS et al., Case Report: Adverse reaction to butorp…, Frontiers in veterinary sci… (2025) | [10.3389/fvets.2025.1603375](https://doi.org/10.3389/fvets.2025.1603375) |
+
+<details class="legend">
+<summary>What the PGx columns mean</summary>
+<table><thead><tr><th>column</th><th>what it holds</th></tr></thead><tbody><tr><td><code>gene</code></td><td>the gene whose variants the record is about. One record per gene, so a paper reporting several genes appears on several rows.</td></tr><tr><td><code>affects</code></td><td>the PK or PD parameter the genotype SHIFTS, as an ontology Q-code plus its name — Q22 = clearance, Q27 = CL/F (apparent clearance), Q32 = Cmax, Q88 = AUC, Q40 = Fab, Q321 = EC50, Q322 = IC50, Q305 = kfm. The record's per-phenotype theta is a multiplier ON that parameter: a poor-metaboliser theta shifts this value, it does not supply one. Two values are NOT parameters — Q100 (NIL) is an association or risk finding with no parameter target, and `safety` is an adverse-reaction risk such as an HLA allele. A PA… id instead of a Q-code marks a record derived from a ClinPGx/PharmGKB guideline lookup rather than read out of the paper.</td></tr><tr><td><code>mechanism</code></td><td>how the gene acts: metabolism, transport, target, formation, safety_allele, or unknown.</td></tr><tr><td><code>detail</code></td><td>the paper stem, linking to the full record page.</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>not captured</code></td><td>the field is absent from the KB artifact — nothing was recorded. This is NOT the same as zero or empty: the value is unknown, not measured to be nothing.</td></tr><tr><td><code>—</code></td><td>deliberately not shown: the column does not apply to this row.</td></tr><tr><td><code>not verified</code></td><td>the record is not in an accepted state (see the badge and the note above the table); the numbers are shown as extracted, not endorsed.</td></tr></tbody></table>
+</details>
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=butorphanol) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| absorption | blood-brain barrier | `ABCB1` transport | paper PGx gene |
+| absorption | kidney | `ABCB1` transport | paper PGx gene |
+| absorption | liver | `ABCB1` transport | paper PGx gene |
+| absorption | placenta | `ABCB1` transport | paper PGx gene |
+| absorption | skeletal muscle | <sub>“…Rapidly absorbed after intramuscular injection and peak plasma levels are reached in 20-40…”</sub> | prose |
+| absorption | small intestine | `ABCB1` transport | paper PGx gene |
+| absorption | testis | `ABCB1` transport | paper PGx gene |
+| metabolism | liver | <sub>“…Extensively metabolized in the liver. The pharmacological activity of butorphanol metaboli…”</sub> | prose |
+| excretion | bile duct | <sub>“…y metabolized in the liver. Elimination occurs by urine and fecal excretion.…”</sub> | prose |
+| excretion | kidney | <sub>“…extensively metabolized in the liver. Elimination occurs by urine and fecal excretion.…”</sub> | prose |
+| excretion | liver | <sub>“…Butorphanol is extensively metabolized in the liver. Elimination occurs by urine and fecal…”</sub> | prose |
+
+<sub>Actors without a tissue in the table: OPRD1 (target), OPRK1 (target), OPRM1 (target).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 27 matched, 25 returned
+- **screened:** 3  ·  **relevant:** 3
+- **records:** 4  ·  extracted 1  ·  needs_review 2  ·  rejected 1  ·  stale 0
+- **scholar-agent fallback query used:** not captured
+
+## Full text wanted
+
+_1 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Groenendaal_2008.pdf` | Groenendaal D et al., Pharmacokinetic/pharmacodynamic modelli…, European journal of pharmac… (2008) | pd | 5 | [10.1016/j.ejps.2008.03.003](https://doi.org/10.1016/j.ejps.2008.03.003) | [18467078](https://www.ncbi.nlm.nih.gov/pubmed/18467078) | metadata signals extractable PD data (pharmacodynamicmodel) |
+
+<sub>queue written 2026-08-27T13:49:10.327599+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Basler_2026 | irrelevant | 0 | 0 | The study focuses on ventilation distribution in alpacas using EIT, and butorphanol is only used as a sedative agent without any pharmacokinetic parameter reporting. |
+| popPK | Guo_2023 | irrelevant | 0 | 0 | The study is a clinical trial evaluating the efficacy of butorphanol as an adjunct to propofol for sedation, reporting no pharmacokinetic parameters (CL, V, etc.) for butorphanol. |
+| popPK | Su_2026 | irrelevant | 0 | 0 | The study is a clinical trial determining the EC50 of ropivacaine with butorphanol as an adjuvant, and it does not report any pharmacokinetic parameters (CL, V, ka, etc.) for butorphanol. |
+| popPK | Vandeputte_2020 | irrelevant | 0 | 0 | The study is an in-vitro pharmacological investigation of MOR receptor activation (EC50/Emax) and does not report any pharmacokinetic disposition parameters for butorphanol. |
+| PGx | Wen_2015 | not_relevant | 0 | 0 | The paper investigates butorphanol as an inhibitor of the ABCB1 transporter in leukemia cells, not the effect of a gene variant on butorphanol's pharmacokinetics or pharmacodynamics. |
+
+---
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-08-27 13:53 UTC</sub>

@@ -1,0 +1,101 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A02B&quot;,&quot;href&quot;:&quot;atc/A02B.md&quot;},{&quot;label&quot;:&quot;misoprostol&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Misoprostol_Vorontsova2022_reference&quot;,&quot;label&quot;:&quot;Vorontsova_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_misoprostol/Misoprostol_Vorontsova2022_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+
+# misoprostol
+
+- **generic name:** misoprostol
+- **ATC codes:** `A02BB01`, `G02AD06`, `M01AE56`
+- **DrugBank:** [DB00929](https://go.drugbank.com/drugs/DB00929) · **PubChem:** [CID 5282381](https://pubchem.ncbi.nlm.nih.gov/compound/5282381)
+- **molar mass:** 382.5341 g/mol (C22H38O5) — DrugBank
+- **groups:** approved, investigational
+
+## About
+
+**Description.** Misoprostol is a prostaglandin analog used to reduce the risk of NSAID related ulcers, manage miscarriages, prevent post partum hemorrhage, and also for first trimester abortions.[L7616,L7619,A181589,A181583,A181697] The stimulation of prostaglandin receptors in the stomach reduces gastric acid secretion, while stimulating these receptors in the uterus and cervix can increase the strength and frequency of contractions and decrease cervical tone.[A181586]
+
+Misoprostol was granted FDA approval on 27 December 1988.[L7616]
+
+**Indication.** Misoprostol is indicated as a tablet to reduce the risk of NSAID induced gastric ulcers but not duodenal ulcers in high risk patients.[L7616] Misoprostol is also formulated in combination with diclofenac to treat symptoms of osteoarthritis or rheumatoid arthritis in patients with a high risk of developing gastric ulcers.[L7619] Misoprostol is used off label for the management of miscarriages, prevention of post partum hemorrhage, and is also used alone or in combination with mifepristone in other countries for first trimester abortions.[A181589,A181583,A181697]
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-18 06:19 | 6:44 | 0/1/0 | 1/1/0 | 0/0/0 | 169,266/9,870 | ollama / qwen3.8:27b-mtp-q8_0 | 7 | 1/6 | 7/0 | 0 |
+
+## popPK records
+
+| status | detail | model | model structure | params | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--red">rejected</span><br><sub>blocking: C5 dimension mismatch on a structural parameter</sub><br><sub>route_to: `human_review`</sub> | [Vorontsova_2022_reference](drugs/drug_misoprostol/Misoprostol_Vorontsova2022_reference.md) | held back | 1-compartment, oral | 5 | Vorontsova Y et al., Pharmacokinetics of vaginal versus bucc…, Clinical and translational… (2022) | [10.1111/cts.13306](https://doi.org/10.1111/cts.13306) |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">extracted</span> | [Nazabal_2023_LC_neuron_firing_rate](drugs/drug_misoprostol/pd_Nazabal_2023_LC_neuron_firing_rate.md) | firing rate ← sulprostone · direct Emax (saturable) effect | — | Nazabal A et al., Inhibition of rat locus coeruleus neuro…, Frontiers in pharmacology (2023) | [10.3389/fphar.2023.1290605](https://doi.org/10.3389/fphar.2023.1290605) |
+| <span class="pk-badge pk-badge--red">rejected</span> | [Norel_1999_relaxation](drugs/drug_misoprostol/pd_Norel_1999_relaxation.md) | relaxation ← iloprost · direct Emax (saturable) effect | — | Norel X et al., Prostanoid receptors involved in the re…, British journal of pharmaco… (1999) | [10.1038/sj.bjp.0702392](https://doi.org/10.1038/sj.bjp.0702392) |
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=misoprostol) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| excretion | kidney | <sub>“…radiolabelled oral dose of misoprostol is recovered in the urine.[A181574,L7619]…”</sub> | prose |
+
+<sub>Actors without a tissue in the table: PTGER1 (target), PTGER2 (target), PTGER3 (target), PTGER4 (target), PTGIR (target).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 35 matched, 24 returned
+- **screened:** 1  ·  **relevant:** 1
+- **records:** 1  ·  extracted 0  ·  needs_review 0  ·  rejected 1  ·  stale 0
+- **scholar-agent fallback query used:** not captured
+
+## Full text wanted
+
+_1 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Morrison_2016.pdf` | Morrison JJ et al., In vitro contractile effects of agents…, European journal of pharmac… (2016) | pd | 5 | [10.1016/j.ejphar.2016.07.025](https://doi.org/10.1016/j.ejphar.2016.07.025) | [27423315](https://www.ncbi.nlm.nih.gov/pubmed/27423315) | metadata signals extractable PD data (EC50) |
+
+<sub>queue written 2026-09-18T06:14:03.896239+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Atuhairwe_2022 | irrelevant | 0 | 0 | The paper is a clinical trial assessing the effectiveness and safety of misoprostol for abortion, not a pharmacokinetic study, and contains no PK parameters. |
+| popPK | Atuhairwe_2022_2 | irrelevant | 0 | 0 | The paper is a mixed-methods study on patient acceptability of misoprostol for abortion care and does not report any pharmacokinetic parameters. |
+| popPK | Cleeve_2016 | irrelevant | 0 | 0 | The paper is a clinical trial assessing patient acceptability of misoprostol treatment and does not report any pharmacokinetic parameters. |
+| PGx | Del_2000 | not_relevant | 0 | 0 | The paper investigates the role of PGE2 receptor subtypes in chondrocyte differentiation and does not report any pharmacogenomic effects on the pharmacokinetics or pharmacodynamics of misoprostol. |
+| popPK | Gana_1989 | irrelevant | 0 | 0 | The study investigates ionic fluxes and blood flow in canine gastric mucosa (pharmacodynamics/mechanism) and does not report pharmacokinetic parameters for misoprostol. |
+| PGx | Heikinheimo_1997 | not_relevant | 0 | 0 | The paper discusses the pharmacokinetics of mifepristone and mentions misoprostol only as a combination therapy agent, without reporting any pharmacogenomic effects on misoprostol's PK or PD parameters. |
+| popPK | Holt_2019 | irrelevant | 0 | 0 | The paper is a structural homology modeling and docking study of EP4 receptors, not a pharmacokinetic study, and contains no disposition parameters for misoprostol. |
+| PD | Holt_2019 | not_relevant | 2 | 2 | The paper focuses on homology modeling and docking of EP4 receptors; while it cites EC50 values for various agonists (including misoprostol) to validate the model, it does not report a pharmacokinetic or pharmacodynamic exposure-response relationship or fit a PD model for misoprostol. |
+| popPK | Klingberg-Allvin_2015 | irrelevant | 0 | 0 | The paper is a clinical trial assessing the effectiveness and safety of misoprostol for incomplete abortion, not a pharmacokinetic study, and contains no PK parameters. |
+| PGx | Konopka_2016 | not_relevant | 2 | 5 | The paper investigates differential gene expression and oxidative markers in myometrial cells from different patient groups (spontaneous vs. non-spontaneous labor) in response to misoprostol, but it does not report a specific genetic variant (genotype) associated with a change in a standard PK or PD parameter of the drug itself. |
+| popPK | Larrea_2022 | irrelevant | 0 | 0 | The paper is a sociological study on abortion service utilization and does not report any pharmacokinetic parameters for misoprostol. |
+| popPK | Longrois_2012 | irrelevant | 0 | 0 | The study is a pharmacodynamic investigation of vascular tone in human intercostal arteries, not a pharmacokinetic study, and misoprostol is used only as a receptor agonist probe. |
+| popPK | Morrison_2016 | irrelevant | 0 | 0 | no_text gate: only 96 chars of text extracted (&lt; 400) |
+| PD | Morrison_2016 | not_relevant | 0 | 0 | The provided text is only the title of a paper and does not contain the full text, data, or numeric PD parameters required to assess the relationship. |
+| popPK | Nazabal_2023 | irrelevant | 0 | 0 | The study is an ex vivo electrophysiological pharmacology experiment measuring receptor potency (EC50) in brain slices, not a pharmacokinetic study reporting disposition parameters like clearance or volume. |
+| popPK | Norel_1999 | irrelevant | 0 | 0 | The study is an in-vitro pharmacological investigation of prostanoid receptors in human bronchial preparations, reporting potency (pD2) and efficacy (Emax) rather than pharmacokinetic disposition parameters. |
+| popPK | Qian_1994 | irrelevant | 0 | 0 | The study is an in-vitro pharmacological investigation of receptor-mediated contractile actions on isolated tissue, not a pharmacokinetic study reporting disposition parameters. |
+| popPK | Racké_1995 | irrelevant | 0 | 0 | The study is a mechanistic pharmacology investigation of noradrenaline release in rat stomach tissue and does not report any pharmacokinetic parameters for misoprostol. |
+| popPK | Sarkar_2002 | irrelevant | 0 | 0 | The paper is a review of mifepristone pharmacokinetics, and misoprostol is only mentioned as a co-administered agent without any PK parameters reported for it. |
+| PGx | Sheibani_2018 | not_relevant | 0 | 0 | The paper is a general safety review of labor induction agents and only mentions pharmacogenomics as a future possibility without reporting any specific genetic effects on misoprostol PK/PD. |
+| popPK | Talpain_1995 | irrelevant | 0 | 0 | The study is a mechanistic pharmacology investigation of PGE receptor subtypes in neutrophils and does not report any pharmacokinetic parameters for misoprostol. |
+| popPK | Wheeldon_1993 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study characterizing prostanoid receptors on neutrophils and does not report any pharmacokinetic parameters for misoprostol. |
+| PGx | Wing_2015 | not_relevant | 0 | 0 | The paper is a general review of labor induction agents and explicitly states that there are currently no pharmacogenomic findings affecting dosing for prostaglandins or oxytocin. |
+
+---
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-09-18 06:14 UTC</sub>

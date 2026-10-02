@@ -1,0 +1,112 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A03A&quot;,&quot;href&quot;:&quot;atc/A03A.md&quot;},{&quot;label&quot;:&quot;papaverine&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Papaverine_Ritschel1977_reference&quot;,&quot;label&quot;:&quot;Ritschel_1977_reference&quot;,&quot;href&quot;:&quot;drugs/drug_papaverine/Papaverine_Ritschel1977_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+
+# papaverine
+
+- **generic name:** papaverine
+- **ATC codes:** `A03AD01`, `G04BE02`
+- **DrugBank:** [DB01113](https://go.drugbank.com/drugs/DB01113) · **PubChem:** [CID 4680](https://pubchem.ncbi.nlm.nih.gov/compound/4680)
+- **molar mass:** 339.385 g/mol (C20H21NO4) — DrugBank
+- **groups:** approved, investigational
+
+## About
+
+**Description.** An alkaloid found in opium but not closely related to the other opium alkaloids in its structure or pharmacological actions. It is a direct-acting smooth muscle relaxant used in the treatment of impotence and as a vasodilator, especially for cerebral vasodilation. The mechanism of its pharmacological actions is not clear, but it apparently can inhibit phosphodiesterases and it may have direct actions on calcium channels.
+
+**Indication.** For the treatment of impotence and vasospasms.
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-26 09:33 | 2:07 | 0/0/1 | 2/0/0 | 0/0/0 | 21,523/7,016 | ollama / qwen3.8:27b-mtp-q8_0 | 6 | 1/5 | 5/1 | 0 |
+
+## popPK records
+
+| status | detail | model | model structure | params | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (partly confirmed, agreement 0.714). The first reading is what the record holds.">cross-check: partial</span><br><sub>blocking: disposition incomplete — only volume extracted — the engineer needs both; the m…</sub><br><sub>blocking: C5 dimensioned parameter(s) without a unit: Q61 — no SI value to build from</sub><br><sub>route_to: `human_review`</sub> | [Ritschel_1977_reference](drugs/drug_papaverine/Papaverine_Ritschel1977_reference.md) | — | 1-compartment (no model) | 1 | Ritschel WA et al., Pharmacokinetics of papaverine in man, International journal of cl… (1977) | — |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.267). The first reading is what the record holds.">cross-check: disputed</span> | [Rehman_2022_unknown](drugs/drug_papaverine/pd_Rehman_2022_unknown.md) | tracheal contraction ← fenchone · direct Emax (saturable) effect | — | Rehman (2022) | — |
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.0). The first reading is what the record holds.">cross-check: partial</span> | [Rehman_2022_2_inhibition_of_carbachol_induced_contraction](drugs/drug_papaverine/pd_Rehman_2022_2_inhibition_of_carbachol_induced_contraction.md) | name ← Balanites aegyptiaca methanolic extract · direct Emax (saturable) effect | — | Rehman (2022) | — |
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.0). The first reading is what the record holds.">cross-check: partial</span> | [Rehman_2022_2_inhibition_of_high_K_induced_contraction](drugs/drug_papaverine/pd_Rehman_2022_2_inhibition_of_high_K_induced_contraction.md) | name ← Balanites aegyptiaca methanolic extract · direct Emax (saturable) effect | — | Rehman (2022) | — |
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.0). The first reading is what the record holds.">cross-check: partial</span> | [Rehman_2022_2_percent_inhibition_of_diarrhea](drugs/drug_papaverine/pd_Rehman_2022_2_percent_inhibition_of_diarrhea.md) | name ← Balanites aegyptiaca methanolic extract · direct Emax (saturable) effect | — | Rehman (2022) | — |
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=papaverine) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+
+<sub>Actors without a tissue in the table: PDE10A (inhibitor), PDE4B (inhibitor), PDE4D (inhibitor), PDE5A (inhibitor).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 114 matched, 28 returned
+- **screened:** 1  ·  **relevant:** 1
+- **records:** 1  ·  extracted 0  ·  needs_review 1  ·  rejected 0  ·  stale 0
+- **scholar-agent fallback query used:** not captured
+
+## Full text wanted
+
+_6 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Kraus_1991.pdf` | Kraus C et al., Pharmacokinetics and bioavailability of…, Biopharmaceutics & drug dis… (1991) | popPK | 10 | [10.1002/bdd.2510120707](https://doi.org/10.1002/bdd.2510120707) | [1932615](https://pubmed.ncbi.nlm.nih.gov/1932615) | The study is a direct PK investigation of papaverine in dogs, but the specific numeric disposition parameters (CL, V, t1/2) are not listed in the provided evidence, only bioavailability percentages. |
+| `Shaaya_1992.pdf` | Shaaya AN et al., Pharmacokinetics and bioavailability of…, Methods and findings in exp… (1992) | popPK | 10 | not captured | [1513193](https://pubmed.ncbi.nlm.nih.gov/1513193) | The study is a PK study of papaverine in dogs, but the evidence only provides bioavailability percentages and model description, lacking specific numeric values for CL, V, or half-life. |
+| `Juhran_1975.pdf` | Juhran VW et al., [The pharmacokinetics of papaverine and…, Arzneimittel-Forschung (1975) | popPK | 9 | not captured | [1242319](https://pubmed.ncbi.nlm.nih.gov/1242319) | The study reports quantitative PK parameters (half-life, volume, absorption rate) for papaverine in beagles, but the specific numeric values are not present in the provided evidence text. |
+| `Ritschel_1977.pdf` | Ritschel WA et al., Pharmacokinetics of papaverine in man, International journal of cl… (1977) | popPK | 9 | not captured | [873666](https://pubmed.ncbi.nlm.nih.gov/873666) | The paper reports quantitative pharmacokinetic parameters for papaverine in humans, including half-life (1.5-2.2 hours) and volume of distribution (approx. 15% of body weight), derived from a two-compartment model. |
+| `Ritschel_1991.pdf` | Ritschel WA et al., Pharmacokinetics of papaverine HCl upon…, Methods and findings in exp… (1991) | popPK | 9 | not captured | [1870358](https://pubmed.ncbi.nlm.nih.gov/1870358) | The study is a relevant in vivo PK study of papaverine in dogs using a two-compartment model, but the specific numeric parameter values are not present in the provided evidence. |
+| `Hiraga_2001.pdf` | Hiraga H et al., Nitric oxide donor FK409 and 8-bromogua…, Fundamental & clinical phar… (2001) | pd | 4 | [10.1046/j.1472-8206.2001.00012.x](https://doi.org/10.1046/j.1472-8206.2001.00012.x) | [11468022](https://www.ncbi.nlm.nih.gov/pubmed/11468022) | metadata signals extractable PD data (Emax) |
+
+<sub>queue written 2026-09-26T09:31:36.227887+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| PGx | Dalpiaz_2018 | not_relevant | 0 | 0 | The paper discusses nasal delivery of antiviral drugs and mentions papaverine only as a general absorption enhancer, without reporting any pharmacogenomic effects on its PK or PD parameters. |
+| popPK | Emami_2020 | irrelevant | 0 | 0 | The study investigates the pharmacological mechanism of curcumin on smooth muscle, using papaverine only as a co-administered incubation agent to test for phosphodiesterase inhibition, and reports no pharmacokinetic parameters for papaverine. |
+| PD | Emami_2020 | not_relevant | 0 | 0 | The paper investigates the pharmacodynamics of curcumin, not papaverine; papaverine is only used as a tool compound in the experimental protocol. |
+| popPK | Fekri_2025 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of anticancer effects and does not report any pharmacokinetic parameters for papaverine. |
+| popPK | Hiraga_2001 | irrelevant | 0 | 0 | no_text gate: only 115 chars of text extracted (&lt; 400) |
+| PD | Hiraga_2001 | not_relevant | 0 | 0 | The paper focuses on nitric oxide donor FK409 and 8-bromoguanosine-cyclic monophosphate, not papaverine. |
+| popPK | Horgan_1991 | irrelevant | 0 | 0 | Papaverine is used only as a pharmacological inhibitor/comparator in a mechanistic study of endothelin-1, with no pharmacokinetic parameters reported. |
+| PD | Horgan_1991 | not_relevant | 1 | 0 | The paper reports a dose-response curve for endothelin-1 (ET-1), not papaverine; papaverine is only mentioned as a qualitative inhibitor at a single concentration. |
+| PGx | Iwase_2017 | not_relevant | 0 | 0 | The paper investigates the inhibitory effects of papaverine on CYP enzymes in vitro, not the effect of genetic variants on papaverine's pharmacokinetics or pharmacodynamics. |
+| PGx | Joshi_2001 | not_relevant | 0 | 0 | The study investigates the physiological effects of papaverine on cerebral blood flow in a small cohort without analyzing any genetic variants or pharmacogenomic factors. |
+| popPK | Juhran_1975 | relevant | 9 | 0 | The study reports quantitative PK parameters (half-life, volume, absorption rate) for papaverine in beagles, but the specific numeric values are not present in the provided evidence text. |
+| PGx | Jägestedt_2004 | not_relevant | 0 | 0 | The paper describes a case of serotonin syndrome due to drug interactions and mentions CYP2D6 involvement, but it does not report a specific pharmacogenomic effect (gene variant) on a PK or PD parameter of papaverine. |
+| popPK | Khan_2015 | irrelevant | 0 | 0 | The study investigates the bronchodilator activity of Vitex negundo, using papaverine only as a comparator agent in in-vitro mechanistic assays, with no pharmacokinetic parameters reported. |
+| PD | Khan_2015 | not_relevant | 0 | 0 | The paper studies the pharmacodynamics of Vitex negundo, using papaverine only as a qualitative reference standard; it does not report PD parameters for papaverine. |
+| popPK | Kraus_1991 | relevant | 10 | 2 | The study is a direct PK investigation of papaverine in dogs, but the specific numeric disposition parameters (CL, V, t1/2) are not listed in the provided evidence, only bioavailability percentages. |
+| popPK | Rahimi_2011 | irrelevant | 0 | 0 | The study is an in-vitro pharmacological investigation of vasodilation in isolated arteries, not a pharmacokinetic study, and reports no disposition parameters for papaverine. |
+| popPK | Rehman_2022 | irrelevant | 0 | 0 | The study is an ex vivo pharmacodynamic and in silico docking study on fenchone, where papaverine is used only as a comparator agent, and no pharmacokinetic parameters for papaverine are reported. |
+| popPK | Rehman_2022_2 | irrelevant | 0 | 0 | The study is a pharmacodynamic/mechanistic investigation of a plant extract where papaverine is used only as a positive control, and no pharmacokinetic parameters are reported. |
+| popPK | Ritschel_1991 | relevant | 9 | 0 | The study is a relevant in vivo PK study of papaverine in dogs using a two-compartment model, but the specific numeric parameter values are not present in the provided evidence. |
+| PGx | Salminen_2015 | not_relevant | 0 | 0 | The paper investigates the inhibitory potential of papaverine on CYP2C19 in vitro, but does not report any pharmacogenomic effects (gene variants) on the PK or PD of papaverine. |
+| PGx | Segarra_1999 | not_relevant | 0 | 0 | The study investigates the pharmacodynamic effects of papaverine on human penile vessels in vitro but does not report any pharmacogenomic effects (gene variants/genotypes) on PK or PD parameters. |
+| popPK | Shaaya_1992 | relevant | 10 | 2 | The study is a PK study of papaverine in dogs, but the evidence only provides bioavailability percentages and model description, lacking specific numeric values for CL, V, or half-life. |
+| PGx | Shamloul_2005 | not_relevant | 0 | 0 | The paper compares the efficacy of two drugs for erectile dysfunction but does not investigate any gene variants or pharmacogenomic effects on pharmacokinetic or pharmacodynamic parameters. |
+| popPK | Sliwiński_1996 | irrelevant | 0 | 0 | The study is an in-vitro pharmacological investigation of galanin on rat gastric muscle where papaverine is used only as a non-competitive antagonist/co-administered agent, with no pharmacokinetic parameters reported. |
+| PD | Sliwiński_1996 | not_relevant | 0 | 0 | The paper reports PD parameters (EC50, Hill coefficient) for galanin and its analogues, but papaverine is only used as a non-competitive antagonist to characterize the mechanism of galanin, with no specific PD model or numeric parameters reported for papaverine itself. |
+| PGx | Tarhan_2006 | not_relevant | 0 | 0 | The paper compares the efficacy and side effects of two drug treatments for erectile dysfunction but does not investigate the impact of genetic variants on pharmacokinetic or pharmacodynamic parameters. |
+| popPK | Wu_2006 | irrelevant | 0 | 0 | Papaverine is used only as an internal standard for the pharmacokinetic study of oxymatrine and matrine, not as the subject drug. |
+| popPK | Wójcicki_1979 | irrelevant | 1 | 0 | Papaverine is a co-administered agent used to study the pharmacokinetics of paracetamol, not the subject drug. |
+| popPK | dOelsnitz_2022 | irrelevant | 0 | 0 | The paper is a study on the directed evolution of biosensors for alkaloid detection and biosynthesis, not a pharmacokinetic study, and contains no disposition parameters for papaverine. |
+| PD | dOelsnitz_2022 | not_relevant | 0 | 0 | The paper focuses on the evolution of biosensors for alkaloids and reports binding affinities (EC50) for the sensor proteins, not pharmacodynamic exposure-response relationships for the drug papaverine in a biological system. |
+
+---
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-09-18 09:50 UTC</sub>

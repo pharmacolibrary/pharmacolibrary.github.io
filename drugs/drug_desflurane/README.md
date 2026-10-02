@@ -1,0 +1,79 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N01A&quot;,&quot;href&quot;:&quot;atc/N01A.md&quot;},{&quot;label&quot;:&quot;desflurane&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Desflurane_Hendrickx2006_reference&quot;,&quot;label&quot;:&quot;Hendrickx_2006_reference&quot;,&quot;href&quot;:&quot;drugs/drug_desflurane/Desflurane_Hendrickx2006_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+
+# desflurane
+
+- **generic name:** desflurane
+- **ATC codes:** `N01AB07`
+- **DrugBank:** [DB01189](https://go.drugbank.com/drugs/DB01189) · **PubChem:** [CID 42113](https://pubchem.ncbi.nlm.nih.gov/compound/42113)
+- **molar mass:** 168.0378 g/mol (C3H2F6O) — DrugBank
+- **groups:** approved, investigational
+
+## About
+
+**Description.** Desflurane, or I-653, a a volatile anesthetic that is more rapidly cleared and less metabolized than previous inhaled anesthetics such as [methoxyflurane], [sevoflurane], [enflurane], or [isoflurane].[A226390,A39015,A226893]. It was developed in the late 1980s out of a need for a more rapidly acting and rapidly cleared inhaled anesthetic.[A226883,A226888]
+
+Desflurane was granted FDA approval on 18 September 1992.[L30285]
+
+**Indication.** Desflurane is indicated for the induction and maintenance of anesthesia in adults, as well as the maintenance of anesthesia in pediatric patients.[L30285]
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| not captured | not captured | 0/1/0 | 0/0/0 | 0/0/0 | not captured | not captured | 15 | 2/0 | 6/0 | 0 |
+
+## popPK records
+
+| status | detail | model | model structure | params | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.5). The first reading is what the record holds.">cross-check: disputed</span><br><sub>blocking: no structural parameters extracted (nothing to build)</sub><br><sub>route_to: `human_review`</sub> | [Hendrickx_2006_reference](drugs/drug_desflurane/Desflurane_Hendrickx2006_reference.md) | — | 1-compartment (no model) | 0 | Hendrickx JF et al., Do distribution volumes and clearances…, BMC anesthesiology (2006) | [10.1186/1471-2253-6-7](https://doi.org/10.1186/1471-2253-6-7) |
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=desflurane) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| distribution | blood | `ALB` binder | DrugBank actor |
+| metabolism | liver | `CYP2E1` substrate | DrugBank actor |
+| excretion | kidney | <sub>“…of the metabolite trifluoroacetic acid is eliminated in the urine[A226385] and only 0.02%…”</sub> | prose |
+| excretion | lung | <sub>“…Initially, desflurane is rapidly eliminated from the lungs.[A226530] A small amount of the…”</sub> | prose |
+
+<sub>Actors without a tissue in the table: ATP2C1 (inhibitor), ATP5F1D (other/unknown), GABRA1 (positive allosteric modulator), GLRA1 (target), GRIA1 (target), KCNA1 (inducer), MT-ND1 (inhibitor).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 49 matched, 20 returned
+- **screened:** 2  ·  **relevant:** 5
+- **records:** 1  ·  extracted 0  ·  needs_review 0  ·  rejected 1  ·  stale 0
+- **scholar-agent fallback query used:** not captured
+
+## Full text wanted
+
+_3 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Wissing_2000.pdf` | Wissing H et al., Pharmacokinetics of inhaled anaesthetic…, British journal of anaesthe… (2000) | popPK | 10 | [10.1093/oxfordjournals.bja.a013467](https://doi.org/10.1093/oxfordjournals.bja.a013467) | [10823093](https://pubmed.ncbi.nlm.nih.gov/10823093) | The paper estimates and reports quantitative two-compartment pharmacokinetic parameters for desflurane in humans and analyzes their interindividual variability using population covariates. |
+| `Brosnan_2006.pdf` | Brosnan RJ et al., Pharmacokinetics of inhaled anesthetics…, American journal of veterin… (2006) | popPK | 9 | [10.2460/ajvr.67.10.1670](https://doi.org/10.2460/ajvr.67.10.1670) | [17014314](https://pubmed.ncbi.nlm.nih.gov/17014314) | The paper explicitly reports two-compartment model rate constants and elimination half-lives for desflurane washout in iguanas. |
+| `Hendrickx_2003.pdf` | Hendrickx JF et al., Isoflurane and desflurane uptake during…, Anesthesia and analgesia (2003) | popPK | 8 | [10.1097/00000539-200302000-00011](https://doi.org/10.1097/00000539-200302000-00011) | [12538177](https://pubmed.ncbi.nlm.nih.gov/12538177) | The study provides quantitative biexponential uptake equations with explicit rate constants and coefficients for desflurane disposition in human patients. |
+
+<sub>queue written 2026-07-18T03:05:28.305948+00:00 · relevance threshold 5</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Kreuer_2008 | irrelevant | not captured | not captured | The study focuses exclusively on pharmacodynamic modeling of EEG responses to end-tidal concentrations and does not report systemic pharmacokinetic disposition parameters for desflurane. |
+| popPK | Kreuer_2009 | irrelevant | not captured | not captured | The paper only reports pharmacodynamic effect-site equilibration (ke0) and dose-response parameters, lacking true pharmacokinetic disposition parameters like clearance or volume of distribution. |
+| popPK | Ngamprasertwong_2016 | irrelevant | not captured | not captured | Desflurane is only co-administered as part of the anesthetic regimen, while the study exclusively reports population pharmacokinetic parameters for propofol. |
+
+---
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-07-15 11:24 UTC</sub>

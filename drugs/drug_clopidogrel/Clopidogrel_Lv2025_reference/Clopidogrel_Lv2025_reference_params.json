@@ -1,0 +1,36 @@
+{
+ "model_id": "Clopidogrel_Lv2025_reference",
+ "molar_masses": {
+  "C_central": 0.321822
+ },
+ "note": "Values for the shared PK_2C.fmu. Vd/Vdp appear as VdPerKg/VdpPerKg because the template computes the absolute volume from body weight and FMI cannot set a calculated parameter.",
+ "observables": [
+  "C_central"
+ ],
+ "paper_doses_kind": "range",
+ "paper_doses_mg": [
+  50.0,
+  800.0
+ ],
+ "parameters": {
+  "Cl": 2.213888888888889e-05,
+  "F": 1.0,
+  "MM": 0.321822,
+  "VdPerKg": 0.001985714285714286,
+  "adminCount": 1.0,
+  "adminDuration": 600.0,
+  "adminMass": 5e-05,
+  "k12": 2.4780175859312547e-06,
+  "k21": 1.0900140646976088e-05,
+  "weight": 70.0
+ },
+ "reference_peak_times": {
+  "C_central": 660.0000000662062
+ },
+ "reference_peaks": {
+  "C_central": 0.00034132210766468833
+ },
+ "stop_time": 86400.0,
+ "template": "PK_2C",
+ "template_fmu": "PK_2C.fmu"
+}

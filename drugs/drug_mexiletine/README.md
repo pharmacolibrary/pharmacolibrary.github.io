@@ -1,0 +1,144 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01B&quot;,&quot;href&quot;:&quot;atc/C01B.md&quot;},{&quot;label&quot;:&quot;mexiletine&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Mexiletine_Vozeh1982_reference&quot;,&quot;label&quot;:&quot;Vozeh_1982_reference&quot;,&quot;href&quot;:&quot;drugs/drug_mexiletine/Mexiletine_Vozeh1982_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
+
+# mexiletine
+
+- **generic name:** mexiletine
+- **ATC codes:** `C01BB02`
+- **DrugBank:** [DB00379](https://go.drugbank.com/drugs/DB00379) · **PubChem:** [CID 4178](https://pubchem.ncbi.nlm.nih.gov/compound/4178)
+- **molar mass:** 179.2588 g/mol (C11H17NO) — DrugBank
+- **groups:** approved, investigational
+
+## About
+
+**Description.** Antiarrhythmic agent pharmacologically similar to lidocaine. It may have some anticonvulsant properties.
+
+**Indication.** For the treatment of ventricular tachycardia and symptomatic premature ventricular beats, and prevention of ventricular fibrillation.
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-20 16:33 | 5:40 | 1/0/0 | 0/1/0 | 0/0/9 | 134,597/7,651 | ollama / qwen3.8:27b-mtp-q8_0 | 19 | 8/11 | 17/2 | 0 |
+
+## popPK records
+
+| status | detail | model | model structure | params | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">reviewed — candidate</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.375). The first reading is what the record holds.">cross-check: disputed</span> | [Vozeh_1982_reference](drugs/drug_mexiletine/Mexiletine_Vozeh1982_reference.md) | ▶ model + simulator | 1-compartment, oral | 4 | Vozeh S et al., Population pharmacokinetic parameters i…, European journal of clinica… (1982) | [10.1007/BF00605996](https://doi.org/10.1007/BF00605996) |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.0). The first reading is what the record holds.">cross-check: disputed</span> | [Hong_1984_unknown](drugs/drug_mexiletine/pd_Hong_1984_unknown.md) | sperm motility ← quinidine, procainamide, mexiletine, labetalol, diltiazem · inhibition effect | — | Hong CY et al., Local anaesthetic effect of antiarrhyth…, British journal of clinical… (1984) | [10.1111/j.1365-2125.1984.tb02404.x](https://doi.org/10.1111/j.1365-2125.1984.tb02404.x) |
+
+## Pharmacogenomics (PGx)
+
+| status | gene | affects | mechanism | detail | citation | doi |
+|---|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.25). The first reading is what the record holds.">cross-check: partial</span> | **CYP2D6** | `Q22` · CL | metabolism | [Broly_1991](drugs/drug_mexiletine/pgx_Broly_1991_CYP2D6_Q22.md) | Broly F et al., The metabolism of mexiletine in relatio…, British journal of clinical… (1991) | [10.1111/j.1365-2125.1991.tb03931.x](https://doi.org/10.1111/j.1365-2125.1991.tb03931.x) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.25). The first reading is what the record holds.">cross-check: partial</span> | **SCN5A** | `Q100` — no parameter target — an association/risk finding, not a parameter shift | target | [Clancy_2007](drugs/drug_mexiletine/pgx_Clancy_2007_SCN5A_Q100.md) | Clancy CE et al., Pharmacogenetics and anti-arrhythmic dr…, American journal of physiol… (2007) | [10.1152/ajpheart.00312.2006](https://doi.org/10.1152/ajpheart.00312.2006) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **CYP1A2** | `Q22` · CL | metabolism | [Kanacher_2020](drugs/drug_mexiletine/pgx_Kanacher_2020_CYP1A2_Q22.md) | Kanacher T et al., A Physiologically-Based Pharmacokinetic…, Pharmaceutics (2020) | [10.3390/pharmaceutics12121191](https://doi.org/10.3390/pharmaceutics12121191) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **CYP2C19** | `Q22` · CL | metabolism | [Kanacher_2020](drugs/drug_mexiletine/pgx_Kanacher_2020_CYP2C19_Q22.md) | Kanacher T et al., A Physiologically-Based Pharmacokinetic…, Pharmaceutics (2020) | [10.3390/pharmaceutics12121191](https://doi.org/10.3390/pharmaceutics12121191) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **SCN5A** | `Q321` · EC50 | target | [Marras_2026](drugs/drug_mexiletine/pgx_Marras_2026_SCN5A_Q321.md) | Marras (2026) | — |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **SCN5A** | `Q321` · EC50 | target | [Marras_2026_2](drugs/drug_mexiletine/pgx_Marras_2026_2_SCN5A_Q321.md) | Marras (2026) | — |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **SCN5A** | `Q100` — no parameter target — an association/risk finding, not a parameter shift | target | [Okuwaki_2019](drugs/drug_mexiletine/pgx_Okuwaki_2019_SCN5A_Q100.md) | Okuwaki H et al., Mexiletine infusion challenge test for…, Journal of arrhythmia (2019) | [10.1002/joa3.12209](https://doi.org/10.1002/joa3.12209) |
+| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.25). The first reading is what the record holds.">cross-check: partial</span> | **CYP2D6** | `Q305` · kfm | metabolism | [Senda_2001](drugs/drug_mexiletine/pgx_Senda_2001_CYP2D6_Q305.md) | Senda C et al., Influence of the CYP2D6*10 allele on th…, British journal of clinical… (2001) | [10.1046/j.0306-5251.2001.01411.x](https://doi.org/10.1046/j.0306-5251.2001.01411.x) |
+
+<details class="legend">
+<summary>What the PGx columns mean</summary>
+<table><thead><tr><th>column</th><th>what it holds</th></tr></thead><tbody><tr><td><code>gene</code></td><td>the gene whose variants the record is about. One record per gene, so a paper reporting several genes appears on several rows.</td></tr><tr><td><code>affects</code></td><td>the PK or PD parameter the genotype SHIFTS, as an ontology Q-code plus its name — Q22 = clearance, Q27 = CL/F (apparent clearance), Q32 = Cmax, Q88 = AUC, Q40 = Fab, Q321 = EC50, Q322 = IC50, Q305 = kfm. The record's per-phenotype theta is a multiplier ON that parameter: a poor-metaboliser theta shifts this value, it does not supply one. Two values are NOT parameters — Q100 (NIL) is an association or risk finding with no parameter target, and `safety` is an adverse-reaction risk such as an HLA allele. A PA… id instead of a Q-code marks a record derived from a ClinPGx/PharmGKB guideline lookup rather than read out of the paper.</td></tr><tr><td><code>mechanism</code></td><td>how the gene acts: metabolism, transport, target, formation, safety_allele, or unknown.</td></tr><tr><td><code>detail</code></td><td>the paper stem, linking to the full record page.</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>not captured</code></td><td>the field is absent from the KB artifact — nothing was recorded. This is NOT the same as zero or empty: the value is unknown, not measured to be nothing.</td></tr><tr><td><code>—</code></td><td>deliberately not shown: the column does not apply to this row.</td></tr><tr><td><code>not verified</code></td><td>the record is not in an accepted state (see the badge and the note above the table); the numbers are shown as extracted, not endorsed.</td></tr></tbody></table>
+</details>
+
+## ADME sites
+
+Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=mexiletine) page (add drugs there; the set becomes a link).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| metabolism | brain | `CYP2D6` metabolism/substrate | DrugBank actor |
+| metabolism | liver | `CYP1A2` inhibitor/metabolism/substrate, `CYP2B6` substrate, `CYP2C19` metabolism, `CYP2D6` metabolism/substrate, `CYP2E1` substrate, `CYP3A4` substrate | DrugBank actor |
+| metabolism | small intestine | `CYP3A4` substrate | DrugBank actor |
+| excretion | kidney | <sub>“…Approximately 10% is excreted unchanged by the kidney. The urinary excretion of N-methylme…”</sub> | prose |
+
+<sub>Actors without a tissue in the table: AHR (target), SCN5A (inhibitor), SCN5A (target).</sub>
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 107 matched, 60 returned
+- **screened:** 16  ·  **relevant:** 3
+- **records:** 1  ·  extracted 1  ·  needs_review 0  ·  rejected 0  ·  stale 0
+- **scholar-agent fallback query used:** not captured
+
+## Full text wanted
+
+_14 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Häselbarth_1981.pdf` | Häselbarth V et al., Kinetics and bioavailability of mexilet…, Clinical pharmacology and t… (1981) | popPK | 10 | [10.1038/clpt.1981.103](https://doi.org/10.1038/clpt.1981.103) | [7226704](https://pubmed.ncbi.nlm.nih.gov/7226704) | The paper reports quantitative PK parameters (t1/2, Vd, CL) for mexiletine in healthy subjects with values explicitly present in the text. |
+| `Ohashi_1984.pdf` | Ohashi K et al., Pharmacokinetics and the antiarrhythmic…, Arzneimittel-Forschung (1984) | popPK | 10 | not captured | [6540110](https://pubmed.ncbi.nlm.nih.gov/6540110) | The paper reports quantitative pharmacokinetic parameters (half-life, volume of distribution, clearance) for mexiletine in humans, and the numeric values are explicitly present in the provided text. |
+| `Vozeh_1982.pdf` | Vozeh S et al., Population pharmacokinetic parameters i…, European journal of clinica… (1982) | popPK | 10 | [10.1007/BF00605996](https://doi.org/10.1007/BF00605996) | [7151850](https://pubmed.ncbi.nlm.nih.gov/7151850) | The paper reports quantitative population pharmacokinetic parameters (CL, Vd, ka) for mexiletine with specific numeric values and variability directly in the text. |
+| `Labbé_2000.pdf` | Labbé L et al., Pharmacokinetic and pharmacodynamic int…, Clinical pharmacology and t… (2000) | pgx | 8 | [10.1067/mcp.2000.108023](https://doi.org/10.1067/mcp.2000.108023) | [10945315](https://www.ncbi.nlm.nih.gov/pubmed/10945315) | metadata signals extractable PGX data (CYP2D6, PK/PD-context) |
+| `Otani_2003.pdf` | Otani M et al., Impact of CYP2D6*10 on mexiletine pharm…, European journal of clinica… (2003) | pgx | 8 | [10.1007/s00228-003-0656-5](https://doi.org/10.1007/s00228-003-0656-5) | [12937870](https://www.ncbi.nlm.nih.gov/pubmed/12937870) | metadata signals extractable PGX data (CYP2D6*10, PK/PD-context) |
+| `Hara_2005.pdf` | Hara Y et al., Inhibitory effects of psychotropic drug…, Xenobiotica; the fate of fo… (2005) | pgx | 7 | [10.1080/00498250500158134](https://doi.org/10.1080/00498250500158134) | [16192107](https://www.ncbi.nlm.nih.gov/pubmed/16192107) | metadata signals extractable PGX data (CYP1A2, PK/PD-context) |
+| `Konishi_1999.pdf` | Konishi H et al., Preferential inhibition of CYP1A enzyme…, European journal of drug me… (1999) | pgx | 7 | [10.1007/BF03190360](https://doi.org/10.1007/BF03190360) | [10510742](https://www.ncbi.nlm.nih.gov/pubmed/10510742) | metadata signals extractable PGX data (CYP1A, PK/PD-context) |
+| `Kusumoto_2001.pdf` | Kusumoto M et al., Effect of fluvoxamine on the pharmacoki…, Clinical pharmacology and t… (2001) | pgx | 7 | [10.1067/mcp.2001.113182](https://doi.org/10.1067/mcp.2001.113182) | [11240973](https://www.ncbi.nlm.nih.gov/pubmed/11240973) | metadata signals extractable PGX data (CYP1A2, PK/PD-context) |
+| `Labbé_1999.pdf` | Labbé L et al., Clinical pharmacokinetics of mexiletine, Clinical pharmacokinetics (1999) | pgx | 7 | [10.2165/00003088-199937050-00002](https://doi.org/10.2165/00003088-199937050-00002) | [10589372](https://www.ncbi.nlm.nih.gov/pubmed/10589372) | metadata signals extractable PGX data (CYP1A2, PK/PD-context) |
+| `Ueno_2002.pdf` | Ueno K et al., Evaluation of mexiletine clearance in a…, The Annals of pharmacothera… (2002) | pgx | 7 | [10.1345/aph.10188](https://doi.org/10.1345/aph.10188) | [11847941](https://www.ncbi.nlm.nih.gov/pubmed/11847941) | metadata signals extractable PGX data (CYP2D6, PK/PD-context) |
+| `Yonezawa_2002.pdf` | Yonezawa E et al., Lack of interaction between amiodarone…, Journal of clinical pharmac… (2002) | pgx | 7 | [10.1177/00912700222011265](https://doi.org/10.1177/00912700222011265) | [11865972](https://www.ncbi.nlm.nih.gov/pubmed/11865972) | metadata signals extractable PGX data (CYP2D6, PK/PD-context) |
+| `Brugnoni_2025.pdf` | Brugnoni R et al., Pharmacogenetic pilot study of CYP2D6 a…, Gene (2025) | pgx | 5 | [10.1016/j.gene.2025.149536](https://doi.org/10.1016/j.gene.2025.149536) | [40324568](https://www.ncbi.nlm.nih.gov/pubmed/40324568) | metadata signals extractable PGX data (CYP2D6) |
+| `Buchert_1992.pdf` | Buchert E et al., Clinical implications of variable antia…, Pharmacogenetics (1992) | pgx | 5 | [10.1097/00008571-199202000-00002](https://doi.org/10.1097/00008571-199202000-00002) | [1302039](https://www.ncbi.nlm.nih.gov/pubmed/1302039) | metadata signals extractable PGX data (CYP2D6) |
+| `Hanioka_2006.pdf` | Hanioka N et al., Catalytic roles of CYP2D6.10 and CYP2D6…, Biochemical pharmacology (2006) | pgx | 5 | [10.1016/j.bcp.2006.01.019](https://doi.org/10.1016/j.bcp.2006.01.019) | [16527257](https://www.ncbi.nlm.nih.gov/pubmed/16527257) | metadata signals extractable PGX data (CYP2D6) |
+
+<sub>queue written 2026-09-20T16:28:49.646606+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| PGx | Buchert_1992 | not_relevant | 2 | 0 | The text is a general introduction discussing the potential for pharmacogenomic prediction in antiarrhythmic drugs, including mexiletine, but does not report specific experimental data, effect sizes, or quantitative changes in PK/PD parameters for any genotype. |
+| PGx | Choules_2025 | not_relevant | 0 | 0 | The paper reports a drug-drug interaction (DDI) between fezolinetant and mexiletine, not a pharmacogenomic effect on mexiletine's PK/PD. |
+| popPK | Cros_2012 | irrelevant | 0 | 0 | The study is a cardiac safety assessment in dogs focusing on QRS prolongation and does not report pharmacokinetic parameters for mexiletine. |
+| PD | Cros_2012 | not_relevant | 2 | 1 | The study reports qualitative effects and small mean differences in QRS duration at specific time points, but does not provide a concentration-effect or dose-response model with numeric PD parameters (e.g., EC50, Emax) for mexiletine. |
+| popPK | Gualdani_2017 | irrelevant | 0 | 0 | The paper describes the electrophysiological properties of a mexiletine-derived compound (MC450) on hERG channels and does not report any pharmacokinetic parameters for mexiletine. |
+| PGx | Guo_2021 | not_relevant | 0 | 0 | The paper is a general review of CYP1A2 metabolism and regulation, mentioning mexiletine only as a substrate without reporting specific pharmacogenomic effects on its PK/PD parameters. |
+| PGx | Hara_2005 | not_relevant | 0 | 0 | The study investigates drug-drug interactions (inhibition by psychotropic drugs) in human liver microsomes, not the effect of genetic variants (pharmacogenomics) on mexiletine PK/PD. |
+| popPK | Hong_1984 | irrelevant | 0 | 0 | The study is an in-vitro pharmacological assay measuring sperm immobilization (local anesthetic effect) and does not report any pharmacokinetic parameters for mexiletine. |
+| PGx | Kanacher_2020 | not_relevant | 5 | 5 | The paper focuses on drug-drug interactions (DDI) and PBPK model development; while it mentions validation in patients with genetic polymorphisms, it does not report specific pharmacogenomic effect sizes or fitted parameters for mexiletine. |
+| popPK | Kohjitani_2003 | irrelevant | 0 | 0 | The study is a mechanistic investigation of mexiletine's effect on esophageal sphincter relaxation in rabbits, reporting pharmacodynamic parameters (EC50) rather than pharmacokinetic disposition parameters. |
+| PGx | Konishi_1999 | not_relevant | 0 | 0 | The paper reports in vitro enzyme inhibition by mexiletine but does not investigate the effect of genetic variants on mexiletine's PK or PD parameters. |
+| PGx | Kusumoto_2001 | not_relevant | 0 | 0 | The study investigates a drug-drug interaction (fluvoxamine) rather than a pharmacogenomic effect (gene variant/genotype). |
+| PGx | Lonsdale_2016 | not_relevant | 0 | 0 | The paper reports a computational QM/MM study of the metabolic mechanism of mexiletine by CYP1A2, not a pharmacogenomic study linking genetic variants to PK/PD parameters. |
+| PGx | Michaud_2021 | not_relevant | 2 | 0 | The paper is a mini-review discussing the concept of phenoconversion using mexiletine as a historical example, but it does not report specific pharmacogenomic effects on PK/PD parameters or provide quantitative data. |
+| PGx | Modoni_2020 | not_relevant | 0 | 0 | The paper reports clinical safety and efficacy outcomes of mexiletine in myotonia patients but does not analyze how specific gene variants affect the drug's pharmacokinetic or pharmacodynamic parameters. |
+| PGx | Momo_2010 | not_relevant | 0 | 0 | The study investigates a drug-drug interaction (CYP1A2 inhibition) rather than a pharmacogenomic effect (gene variant/genotype) on mexiletine or tizanidine. |
+| PGx | Nakajima_1998 | not_relevant | 0 | 0 | The study investigates the enzymatic role of CYP1A2 in mexiletine metabolism using in vitro systems (microsomes and B-lymphoblastoid cells) and does not report pharmacogenomic effects of specific gene variants on PK or PD parameters in humans. |
+| popPK | Okada_2021 | irrelevant | 0 | 0 | The study is an in-vitro and simulation study on chloroquine/hydroxychloroquine arrhythmias where mexiletine is used only as a comparator anti-arrhythmic agent, with no pharmacokinetic parameters reported for it. |
+| PD | Okada_2021 | not_relevant | 0 | 0 | The paper focuses on the pharmacodynamics of chloroquine and hydroxychloroquine; mexiletine is only mentioned qualitatively as an antiarrhythmic agent that prevents TdP in simulations, with no specific concentration-effect data or PD parameters reported for it. |
+| popPK | Risi_2025 | irrelevant | 0 | 0 | The study evaluates lamotrigine as the subject drug for myotonic dystrophy, with mexiletine mentioned only as a comparator or background context, and no pharmacokinetic parameters are reported. |
+| popPK | Ruijs_2022 | irrelevant | 1 | 0 | The study is a pharmacodynamic biomarker validation using mexiletine as a probe drug and does not report quantitative pharmacokinetic parameters (CL, V, etc.) in the provided text. |
+| popPK | Sauer_2025 | irrelevant | 0 | 0 | The study is a mechanistic electrophysiology and molecular docking investigation of empagliflozin and mexiletine as pharmacological chaperones, not a pharmacokinetic study, and reports no disposition parameters for mexiletine. |
+| PGx | Suzuki_2010 | not_relevant | 0 | 0 | The paper focuses on pediatric dose estimation based on physiological development (age, BSA, CYP activity) and does not report pharmacogenomic effects of specific gene variants on mexiletine PK/PD. |
+| popPK | Tsutsumi_2001 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of mitochondrial effects in rat myocytes and does not report pharmacokinetic parameters for mexiletine. |
+| popPK | Uenaka_1998 | irrelevant | 0 | 0 | The provided evidence contains only software metadata and no scientific content regarding mexiletine pharmacokinetics. |
+| PGx | Ueno_2002 | not_relevant | 0 | 0 | The paper evaluates mexiletine clearance in a Japanese population and mentions CYP2D6/CYP1A2 roles, but it does not report specific gene variant/genotype data or demonstrate a pharmacogenomic effect on PK parameters. |
+| PGx | Vandamme_1993 | not_relevant | 2 | 0 | The study reports in vitro stereoselective metabolism by CYP2D6 but does not report in vivo pharmacokinetic or pharmacodynamic parameters or specific genotype-based effect sizes. |
+| popPK | Vazzana_2007 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study of novel analogues on isolated heart tissues and does not report pharmacokinetic parameters for mexiletine. |
+| PD | Vazzana_2007 | not_relevant | 4 | 2 | The paper reports qualitative dose-dependent effects and mentions EC50 values for analogues, but does not provide numeric PD parameters or extractable concentration-effect curves for mexiletine itself. |
+| PGx | Vereb_2021 | not_relevant | 0 | 0 | The paper describes the clinical and genetic spectrum of non-dystrophic myotonias and mentions mexiletine usage, but it does not report any pharmacokinetic or pharmacodynamic parameters or genotype-drug interactions. |
+| popPK | Vivekanandam_2024 | irrelevant | 0 | 0 | The paper is a clinical efficacy trial comparing mexiletine and lamotrigine for myotonia and does not report any pharmacokinetic parameters or quantitative disposition data for mexiletine. |
+| popPK | Vozeh_1987 | irrelevant | 2 | 0 | The paper is a methodological sensitivity analysis using mexiletine as a simulation example, and no specific numeric PK parameter values for mexiletine are provided in the evidence. |
+| popPK | Whiting_1986 | irrelevant | 1 | 0 | The paper is a general review of population pharmacokinetics theory and mentions mexiletine only as an example of a drug analyzed with NONMEM, without providing any specific quantitative parameter values. |
+| popPK | Yonezawa_2002 | irrelevant | 0 | 0 | no_text gate: only 84 chars of text extracted (&lt; 400) |
+| PGx | Yonezawa_2002 | not_relevant | 0 | 0 | The paper investigates a drug-drug interaction between amiodarone and mexiletine, not a pharmacogenomic effect. |
+
+---
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-09-20 16:28 UTC</sub>

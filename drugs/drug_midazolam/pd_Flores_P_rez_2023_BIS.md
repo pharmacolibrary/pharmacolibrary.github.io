@@ -1,0 +1,152 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N05C&quot;,&quot;href&quot;:&quot;atc/N05C.md&quot;},{&quot;label&quot;:&quot;midazolam&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/&quot;},{&quot;label&quot;:&quot;Flores-P\u00e9rez_2023 \u00b7 PD Bispectral Index&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Midazolam_Bardol2025_reference&quot;,&quot;label&quot;:&quot;Bardol_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Bardol2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Bertin2026_reference&quot;,&quot;label&quot;:&quot;Bertin_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Bertin2026_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Burtin1994_mean_estimate_se_index_data_set&quot;,&quot;label&quot;:&quot;Burtin_1994_mean_estimate_se_index_data_set&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Burtin1994_mean_estimate_se_index_data_set.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Cavallaro2026_reference&quot;,&quot;label&quot;:&quot;Cavallaro_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Cavallaro2026_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Davis1986_reference&quot;,&quot;label&quot;:&quot;Davis_1986_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Davis1986_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Greenblatt1989_reference&quot;,&quot;label&quot;:&quot;Greenblatt_1989_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Greenblatt1989_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Hall1988_reference&quot;,&quot;label&quot;:&quot;Hall_1988_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Hall1988_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Jia2026_reference&quot;,&quot;label&quot;:&quot;Jia_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Jia2026_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Maitre1991_reference&quot;,&quot;label&quot;:&quot;Maitre_1991_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Maitre1991_reference.md&quot;,&quot;status&quot;:&quot;accepted (caveats)&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_McCann2025_reference&quot;,&quot;label&quot;:&quot;McCann_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_McCann2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Yalcin2022_reference&quot;,&quot;label&quot;:&quot;Yalcin_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Yalcin2022_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Gupta2023_reference&quot;,&quot;label&quot;:&quot;Gupta_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Gupta2023_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Hostler2010_reference&quot;,&quot;label&quot;:&quot;Hostler_2010_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Hostler2010_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Kos2020_reference&quot;,&quot;label&quot;:&quot;Kos_2020_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Kos2020_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Lammers2015_reference&quot;,&quot;label&quot;:&quot;Lammers_2015_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Lammers2015_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Persson1987_reference&quot;,&quot;label&quot;:&quot;Persson_1987_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Persson1987_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Sathe2021_reference&quot;,&quot;label&quot;:&quot;Sathe_2021_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Sathe2021_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Tolia1991_clausen_et_al_9&quot;,&quot;label&quot;:&quot;Tolia_1991_clausen_et_al_9&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Tolia1991_clausen_et_al_9.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Tolia1991_payne_et_al_6&quot;,&quot;label&quot;:&quot;Tolia_1991_payne_et_al_6&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Tolia1991_payne_et_al_6.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Tolia1991_pentik_inen_et_al_9&quot;,&quot;label&quot;:&quot;Tolia_1991_pentik_inen_et_al_9&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Tolia1991_pentik_inen_et_al_9.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Tolia1991_present_study&quot;,&quot;label&quot;:&quot;Tolia_1991_present_study&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Tolia1991_present_study.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Tolia1991_salonen_et_al_5&quot;,&quot;label&quot;:&quot;Tolia_1991_salonen_et_al_5&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Tolia1991_salonen_et_al_5.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Seng2014_base&quot;,&quot;label&quot;:&quot;Seng_2014_base&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Seng2014_base.md&quot;,&quot;status&quot;:&quot;not simulated&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Seng2014_final&quot;,&quot;label&quot;:&quot;Seng_2014_final&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Seng2014_final.md&quot;,&quot;status&quot;:&quot;not simulated&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Aarons1991_reference&quot;,&quot;label&quot;:&quot;Aarons_1991_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Aarons1991_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Brown1993_i_v_bolus&quot;,&quot;label&quot;:&quot;Brown_1993_i_v_bolus&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Brown1993_i_v_bolus.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Brown1993_i_v_infusion&quot;,&quot;label&quot;:&quot;Brown_1993_i_v_infusion&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Brown1993_i_v_infusion.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Burtin1994_mean_estimate_se_whole_data_set&quot;,&quot;label&quot;:&quot;Burtin_1994_mean_estimate_se_whole_data_set&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Burtin1994_mean_estimate_se_whole_data_set.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Collins2025_reference&quot;,&quot;label&quot;:&quot;Collins_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Collins2025_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_FloresPrez2023_reference&quot;,&quot;label&quot;:&quot;Flores-P\u00e9rez_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_FloresPrez2023_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Gibbons2015_reference&quot;,&quot;label&quot;:&quot;Gibbons_2015_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Gibbons2015_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Guo2020_reference&quot;,&quot;label&quot;:&quot;Guo_2020_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Guo2020_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Lee2016_reference&quot;,&quot;label&quot;:&quot;Lee_2016_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Lee2016_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Smeets2022_reference&quot;,&quot;label&quot;:&quot;Smeets_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Smeets2022_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Walzer2012_arithmetic_mean_a_cv&quot;,&quot;label&quot;:&quot;Walzer_2012_arithmetic_mean_a_cv&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Walzer2012_arithmetic_mean_a_cv.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Walzer2012_arithmetic_mean_a_cv_drug_cocktail_b_cl&quot;,&quot;label&quot;:&quot;Walzer_2012_arithmetic_mean_a_cv_drug_cocktail_b_clobazam_drug_cocktail_b_alone_on_on_day_19_day_1&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Walzer2012_arithmetic_mean_a_cv_drug_cocktail_b_cl.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Walzer2012_arithmetic_mean_cv&quot;,&quot;label&quot;:&quot;Walzer_2012_arithmetic_mean_cv&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Walzer2012_arithmetic_mean_cv.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Walzer2012_geometric_mean_ratio&quot;,&quot;label&quot;:&quot;Walzer_2012_geometric_mean_ratio&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Walzer2012_geometric_mean_ratio.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Midazolam_Zhou2014_reference&quot;,&quot;label&quot;:&quot;Zhou_2014_reference&quot;,&quot;href&quot;:&quot;drugs/drug_midazolam/Midazolam_Zhou2014_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-tab-mark" data-tab="Information"></div>
+
+# Bispectral Index — PD  <span class="pk-badge pk-badge--green">accepted (caveats)</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.571). The first reading is what the record holds.">cross-check: disputed</span>
+
+<details class="legend">
+<summary>What the badges above mean</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## What this record describes
+
+**As extracted:** Midazolam (concentrations from this paper's PK model) drives Bispectral Index (in unknown): direct sigmoid Emax (Hill) effect.
+
+**Model:** A simulatable model was generated — see the **Models** and **Simulation** tabs.
+
+> Midazolam plasma concentrations (converted to effect-site concentrations Ce via an effect compartment to collapse the clockwise hysteresis) inhibit the Bispectral Index according to an Imax model: E = E0 × (1 − Imax·Ce/(Ce+IC50)). The paper reports E0 = 57.63, Imax = 0.088 (maximal fraction of inhibition), and IC50 = 13.57 ng/mL; no Hill exponent (γ) value is given, and no kin/kout or ke0 values are stated.
+>
+> <sub>in the paper's terms — summarised by glm-5.3-flash from the paper's text; not checked by a person</sub>
+
+- **paper:** `Flores-Pérez_2023`
+- **model family:** `sigmoid_emax`
+- **driver:** `pk_record`
+- **tier:** population
+- **effect:** inhibition/unknown
+
+## Citation
+Flores-Pérez C; Moreno-Rocha LA; Chávez-Pacheco JL; Noguez-Méndez NA; Flores-Pérez J; Ortiz-Marmolejo D; et al. et al. (2023). Pharmaceutics 15
+  ·  DOI: [10.3390/pharmaceutics15112565](https://doi.org/10.3390/pharmaceutics15112565)
+
+## Parameters
+| role | label (paper) | Q-code · name | value | unit | value_si | link | source |
+|---|---|---|---|---|---|---|---|
+| PD (effect) | E0 — Value | `Q324` · not captured | 57.63 | not captured | not captured | exact (not captured) | pharmaceutics-15-02565-t003:row1:col1 |
+| PD (effect) | E0 — RSE (%) | `Q324` · not captured | 2.17 | not captured | not captured | exact (not captured) | pharmaceutics-15-02565-t003:row1:col2 |
+| PD (effect) | E0 — RSE (%) | `Q324` · not captured | 2.17 | not captured | not captured | exact (not captured) | pharmaceutics-15-02565-t003:row1:col3 |
+| PD (effect) | Imax — Value | `Q323` · not captured | 0.088 | not captured | not captured | exact (not captured) | pharmaceutics-15-02565-t003:row2:col1 |
+| PD (effect) | Imax — RSE (%) | `Q323` · not captured | 0.036 | not captured | not captured | exact (not captured) | pharmaceutics-15-02565-t003:row2:col2 |
+| PD (effect) | Imax — RSE (%) | `Q323` · not captured | 0.036 | not captured | not captured | exact (not captured) | pharmaceutics-15-02565-t003:row2:col3 |
+| PD (effect) | IC50 — Value | `Q322` · not captured | 13.57 | ng/mL | not captured | exact (not captured) | pharmaceutics-15-02565-t003:row3:col1 |
+| PD (effect) | IC50 — RSE (%) | `Q322` · not captured | 30.01 | ng/mL | not captured | exact (not captured) | pharmaceutics-15-02565-t003:row3:col2 |
+| PD (effect) | IC50 — RSE (%) | `Q322` · not captured | 30.01 | ng/mL | not captured | exact (not captured) | pharmaceutics-15-02565-t003:row3:col3 |
+| — | ω2E0 (CV%) — Value | `Q100` · not captured | 0.19 | not captured | not captured | nil (not captured) | pharmaceutics-15-02565-t003:row6:col1 |
+| — | ω2E0 (CV%) — RSE (%) | `Q100` · not captured | 19.58 | not captured | not captured | nil (not captured) | pharmaceutics-15-02565-t003:row6:col2 |
+| — | ω2E0 (CV%) — RSE (%) | `Q100` · not captured | 12.4 | not captured | not captured | nil (not captured) | pharmaceutics-15-02565-t003:row6:col3 |
+| — | ω2IC50 (CV%) — Value | `Q100` · not captured | 2.99 | not captured | not captured | nil (not captured) | pharmaceutics-15-02565-t003:row8:col1 |
+| — | ω2IC50 (CV%) — RSE (%) | `Q100` · not captured | 8796.01 | not captured | not captured | nil (not captured) | pharmaceutics-15-02565-t003:row8:col2 |
+| — | ω2IC50 (CV%) — RSE (%) | `Q100` · not captured | 32.7 | not captured | not captured | nil (not captured) | pharmaceutics-15-02565-t003:row8:col3 |
+
+<details class="legend">
+<summary>Column legend — what each column means</summary>
+<table><thead><tr><th>column</th><th>what it holds</th></tr></thead><tbody><tr><td><code>label (paper)</code></td><td>the row or statistic label exactly as printed in the paper (label_verbatim) — never normalised, so it can be found in the PDF.</td></tr><tr><td><code>Q-code · name</code></td><td>the ontology parameter this label was matched to (Q22 = clearance, Q27 = CL/F, Q49 = ka, Q57 = half-life, …) and its canonical name. The Q-code, not the label, is what scoring and cross-paper merging use.</td></tr><tr><td><code>value</code></td><td>the estimate as reported in the paper.</td></tr><tr><td><code>unit</code></td><td>the unit as printed (unit_verbatim).</td></tr><tr><td><code>value_si</code></td><td>the value converted to the canonical unit. Empty when no conversion was possible — usually an unparseable or missing unit.</td></tr><tr><td><code>link</code></td><td>how the label was matched to the Q-code, with confidence. exact / boundary / fuzzy / tv_prefix / caption_compartment / special_case are deterministic string matches; llm, llm_confirmed, llm_corrected involved the model; review and review_gapfill come from the secondary review tier, the latter filling a parameter the primary extraction missed; boundary_relink is a corrected match.</td></tr><tr><td><code>source</code></td><td>where in the paper the number came from: colN = that column of the located table, other_prose = running text, review = the secondary tier, pgx = a pharmacogenomic record.</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>not captured</code></td><td>the field is absent from the KB artifact — nothing was recorded. This is NOT the same as zero or empty: the value is unknown, not measured to be nothing.</td></tr><tr><td><code>—</code></td><td>deliberately not shown: the column does not apply to this row.</td></tr><tr><td><code>not verified</code></td><td>the record is not in an accepted state (see the badge and the note above the table); the numbers are shown as extracted, not endorsed.</td></tr></tbody></table>
+</details>
+
+
+## Exposure-response model
+
+`Midazolam_FloresPrez2023_PD_bis` — sigmoid_emax, `response = E0 + Emax*frac`
+
+| parameter | value (paper units) | SI |
+|---|---|---|
+| E0 | 57.63 | — |
+| Emax | -0.088 | — |
+| EC50 | 13.57 ng/mL | 1.357e-05 kg/m3 |
+| gamma | 1 | — |
+
+Closed-form check points (response, SI): `at_0` = 57.63, `at_EC50` = 57.59, `at_inf` = 57.54
+
+Deviations:
+
+- `defaulted_parameters` — gamma
+- `pd_binding_imax_as_negative_emax` — Imax (Q323) enters SigmoidEmaxSweep as −Emax
+
+## Review
+
+Verdict <span class="pk-badge pk-badge--green">accepted (caveats)</span>
+
+| check | status | note |
+|---|---|---|
+| `T0_driver` | pass | driver is the drug, a synonym or one of its metabolites (or unnamed) |
+| `T1_closed_form` | pass | engineer's check points reproduced from the bound parameters |
+| `T1b_fmu` | pass | shared PD_SigmoidEmaxSweep FMU reproduces the reference points (worst 0.08%) |
+| `T2_direction` | pass | curve direction matches effect_direction |
+| `T3_plausibility` | pass | EC50, gamma, Imax and baseline in range |
+| `T4_defaults` | advisory | only convention defaults (gamma = 1) |
+
+Advisory:
+
+- defaulted: gamma (convention)
+
+
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
+first reading `qwen3.6:27b-q8_0` — the numbers on this page are its, whatever the readers say
+
+| second reader | verdict | agreement | disagreements |
+|---|---|---|---|
+| `gpt-oss:120b` | not confirmed | 0.571 (16/28 fields) | 12 |
+
+<details><summary>12 field(s) a reader read differently</summary>
+
+| second reader | field | first reading | second reading | agreement |
+|---|---|---|---|---|
+| `gpt-oss:120b` | `parameters[Q312]` | 0.19 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q312]` | not captured | 19.58 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q312]` | not captured | 0.78 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q312]` | 90.84 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q312]` | 26.1 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q314]` | not captured | 0.19 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q314]` | not captured | 12.4 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q318]` | 19.58 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q318]` | 12.4 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q323]` | 0.78 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q323]` | not captured | 90.84 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q323]` | not captured | 26.1 | only_one_extracted |
+
+</details>
+
+<details class="legend">
+<summary>Cross-check legend</summary>
+<table><thead><tr><th>column</th><th>what it holds</th></tr></thead><tbody><tr><td><code>second reader</code></td><td>a model that re-read the paper independently, always from a different family than the first reading (scholarv2.secondary_for): a qwen primary is checked by gpt-oss:120b, a gpt-oss primary by qwen3.8:27b-mtp-q8_0 — two checkpoints of one family share their misreads, so agreement between them would mean little. A record can have several readers.</td></tr><tr><td><code>agreement</code></td><td>share of the compared fields that reader agreed on.</td></tr><tr><td><code>verdict</code></td><td>per reader: `confirmed` it agrees throughout · `partly confirmed` a non-structural field differs · `not confirmed` a structural one differs (clearance, a volume, ka, a lag) · `primary re-run` the first reading extracted nothing and was given one hinted retry.</td></tr><tr><td><code>combined</code></td><td>the record's verdict over ALL its readers: confirmed only when every reader that answered agrees, disputed as soon as one disagrees on a structural parameter. The most favourable reading is never taken — an extra reader must not be a way to find one that agrees.</td></tr><tr><td><code>kept</code></td><td>which reading the record holds. ALWAYS the first — a disagreement is a signal for a reviewer, never an automatic correction, so the numbers on this page are the first model's either way.</td></tr></tbody></table>
+</details>
+
+
+<div class="pk-tab-mark" data-tab="Models"></div>
+
+## Downloadable models
+
+<div class="pk-models-grid"><div class="pk-models-table">
+<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_midazolam/Midazolam_FloresPrez2023_PD_bis/Midazolam_FloresPrez2023_PD_bis_modelica.zip" download>Midazolam_FloresPrez2023_PD_bis_modelica.zip</a> <span class="pk-size">(2.4 kB)</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_midazolam/Midazolam_FloresPrez2023_PD_bis/Midazolam_FloresPrez2023_PD_bis_fmi.zip" download>Midazolam_FloresPrez2023_PD_bis_fmi.zip</a> <span class="pk-size">(4.5 kB)</span><br><a href="models/fmu/PD_SigmoidEmaxSweep.fmu" download>PD_SigmoidEmaxSweep.fmu</a> <span class="pk-size">(1.2 MB, shared)</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_midazolam/Midazolam_FloresPrez2023_PD_bis/Midazolam_FloresPrez2023_PD_bis_matlab.zip" download>Midazolam_FloresPrez2023_PD_bis_matlab.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_midazolam/Midazolam_FloresPrez2023_PD_bis/Midazolam_FloresPrez2023_PD_bis_sbml.zip" download>Midazolam_FloresPrez2023_PD_bis_sbml.zip</a> <span class="pk-size">(2.6 kB)</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_midazolam/Midazolam_FloresPrez2023_PD_bis/Midazolam_FloresPrez2023_PD_bis_cellml.zip" download>Midazolam_FloresPrez2023_PD_bis_cellml.zip</a> <span class="pk-size">(2.5 kB)</span></td></tr>
+</tbody></table>
+<p>Each archive holds the model source, a script that simulates it against the appropriate library, and a README describing both and how to run them.</p>
+<p><b>FMI is two downloads.</b> The archive holds this record's parameters and its driver; the simulator itself is <code>PD_SigmoidEmaxSweep.fmu</code>, one compiled template shared by every model of this structure. Take the FMU once, keep it beside the script (or pass <code>--fmu PATH</code>). Running it reproduces the model-specific FMU exactly.</p>
+</div></div>
+
+<div class="pk-tab-mark" data-tab="Simulation"></div>
+
+<dbs-fmusim paramsurl="drugs/drug_midazolam/Midazolam_FloresPrez2023_PD_bis/Midazolam_FloresPrez2023_PD_bis_params.json" metaurl="assets/fmu/PD_SigmoidEmaxSweep.vr.json" wasmurl="assets/fmu/PD_SigmoidEmaxSweep.js" controlsurl="drugs/drug_midazolam/Midazolam_FloresPrez2023_PD_bis/Midazolam_FloresPrez2023_PD_bis_sim_controls.json"></dbs-fmusim>
+
+<sub>Runs this record's model in the browser as WebAssembly. Sliders start at the extracted values; the reference check compares the browser's peak against the FMPy result recorded when the record was built, and is withheld once a value has been edited. Template `PD_SigmoidEmaxSweep` · parameters `Midazolam_FloresPrez2023_PD_bis_params.json` · controls `Midazolam_FloresPrez2023_PD_bis_sim_controls.json`. A slider marked *simulator value* is running on the template's own default because this record does not pin that parameter.</sub>
+
+<div class="pk-tab-end"></div>
+
+---
+<sub>← back to [midazolam](drugs/drug_midazolam/)</sub>

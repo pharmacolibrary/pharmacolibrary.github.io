@@ -1,0 +1,93 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A02B&quot;,&quot;href&quot;:&quot;atc/A02B.md&quot;},{&quot;label&quot;:&quot;irsogladine&quot;}]"></div>
+
+# irsogladine
+
+- **generic name:** irsogladine
+- **ATC codes:** `A02BX16`
+- **DrugBank:** [DB13056](https://go.drugbank.com/drugs/DB13056) · **PubChem:** [CID 3752](https://pubchem.ncbi.nlm.nih.gov/compound/3752)
+- **molar mass:** 256.09 g/mol (C9H7Cl2N5) — DrugBank
+- **groups:** investigational
+
+## About
+
+**Description.** Irsogladine is under investigation in clinical trial NCT02581696 (The Drug-drug Interaction and Safety of Lafutidine and Irsogladine Maleate in Healthy Adult Volunteers).
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-09-29 21:36 | 0:50 | 0/0/0 | 0/0/0 | 0/0/0 | 1,588/140 | ollama / qwen3.8:27b-mtp-q8_0 | 16 | 3/13 | 16/0 | 0 |
+
+## popPK records
+
+_not available_
+
+<details class="legend">
+<summary>Badge legend — what each badge means</summary>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 9 matched, 39 returned
+- **screened:** 0  ·  **relevant:** 0
+- **records:** 0  ·  extracted 0  ·  needs_review 0  ·  rejected 0  ·  stale 0
+- **scholar-agent fallback query used:** True
+
+## Full text wanted
+
+_1 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Nakamura_2006.pdf` | Nakamura A et al., Effects of irsogladine on P450-isoform…, Arzneimittel-Forschung (2006) | pgx | 7 | [10.1055/s-0031-1296750](https://doi.org/10.1055/s-0031-1296750) | [16927538](https://www.ncbi.nlm.nih.gov/pubmed/16927538) | metadata signals extractable PGX data (CYP2A6, PK/PD-context) |
+
+<sub>queue written 2026-09-29T21:36:42.779426+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | BAUM_1963 | irrelevant | 0 | 0 | no_text gate: only 15 chars of text extracted (&lt; 400) |
+| popPK | Barciszewska_1986 | irrelevant | 0 | 0 | The paper describes the primary structure of wheat germ tRNAArg and is unrelated to irsogladine pharmacokinetics. |
+| popPK | Benedetti_2024 | irrelevant | 0 | 0 | The paper is a theoretical physics study on the zero-dimensional O(N) model and transseries expansions, containing no pharmacokinetic data or mention of irsogladine. |
+| popPK | Bertin_2023 | irrelevant | 0 | 0 | The paper describes a machine learning platform for in vitro drug synergy screening and does not report pharmacokinetic parameters for irsogladine. |
+| PD | Bertin_2023 | not_relevant | 0 | 0 | The paper focuses on machine learning for drug combination synergy prediction and does not report pharmacodynamic parameters or exposure-response relationships for irsogladine. |
+| popPK | Blanz_1983 | irrelevant | 0 | 0 | The paper is a taxonomic study of fungal species (Exobasidium) and contains no pharmacokinetic data for irsogladine. |
+| popPK | CHEW_1964 | irrelevant | 0 | 0 | no_text gate: only 30 chars of text extracted (&lt; 400) |
+| popPK | Chan_1982 | irrelevant | 0 | 0 | The paper describes the nucleotide sequence of a glutamate tRNA from rat liver and contains no pharmacokinetic data for irsogladine. |
+| popPK | Deng_2022 | irrelevant | 0 | 0 | The paper is a mechanistic study of GPR15 receptor signaling and does not involve the drug irsogladine or report any pharmacokinetic parameters. |
+| popPK | Drinnan_1991 | irrelevant | 0 | 0 | The paper discusses G(olf) protein expression in the basal ganglia and is unrelated to irsogladine pharmacokinetics. |
+| popPK | Effiong_2023 | irrelevant | 0 | 0 | The paper is a nutritional analysis of oyster mushrooms and does not mention irsogladine or report any pharmacokinetic parameters. |
+| popPK | Gillingham_1988 | irrelevant | 0 | 0 | The paper describes high-G training for fighter aircrew and contains no pharmacokinetic data or mention of irsogladine. |
+| popPK | Gong_2019 | irrelevant | 0 | 0 | The paper is a review of chemical components of Ganoderma fungi and does not mention irsogladine or report any pharmacokinetic parameters. |
+| popPK | Hasegawa_1978 | irrelevant | 0 | 0 | The paper describes the purification and nucleotide sequencing of threonine tRNA from Bacillus subtilis and contains no information regarding the drug irsogladine or pharmacokinetic parameters. |
+| popPK | Hosokawa_1994 | irrelevant | 0 | 0 | The paper is a clinical case report on tumor reduction and does not report any pharmacokinetic parameters for irsogladine. |
+| PD | Hosokawa_1994 | not_relevant | 1 | 0 | The paper is a case report of two patients describing qualitative tumor reduction with a fixed dose, but it provides no concentration-effect data, dose-response curve, or numeric PD parameters (Emax, EC50, etc.). |
+| popPK | Huang_2024 | irrelevant | 0 | 0 | The paper is a genetic study on NOBOX polymorphisms in pigs and does not involve the drug irsogladine or pharmacokinetic parameters. |
+| popPK | Ikeda_2022 | irrelevant | 0 | 0 | The paper describes the glycogen debranching pathway and enzyme substrate specificity, with no mention of irsogladine or pharmacokinetic parameters. |
+| popPK | Iwata_1998 | irrelevant | 0 | 0 | The study is a mechanistic investigation of gap junctions in rat gastric mucosa using irsogladine as a functional agent, and it does not report any pharmacokinetic parameters for irsogladine. |
+| popPK | Lee_2020 | irrelevant | 0 | 0 | The paper is a hemodynamic study on venous and arterial responses to partial gravity and does not involve the drug irsogladine or report any pharmacokinetic parameters. |
+| popPK | Loyd_2018 | irrelevant | 0 | 0 | The paper is a taxonomic study of Ganoderma fungi and contains no information regarding the drug irsogladine or its pharmacokinetics. |
+| popPK | Luangharn_2021 | irrelevant | 0 | 0 | The paper is a taxonomic study of Ganoderma fungi and contains no information regarding the drug irsogladine or its pharmacokinetics. |
+| PGx | Nakamura_1997 | not_relevant | 0 | 0 | The paper describes species differences in CYP2C-mediated metabolism of irsogladine but does not report any human genetic variants or genotypes affecting PK/PD parameters. |
+| PGx | Nakamura_2006 | not_relevant | 0 | 0 | The paper investigates the in vitro inhibitory potential of irsogladine on CYP450 enzymes, not the effect of genetic variants on irsogladine's pharmacokinetics or pharmacodynamics. |
+| popPK | Oliveira_2023 | irrelevant | 0 | 0 | The paper analyzes metal impurities in eye drops and does not involve the drug irsogladine or report any pharmacokinetic parameters. |
+| popPK | REES_1963 | irrelevant | 0 | 0 | no_text gate: only 23 chars of text extracted (&lt; 400) |
+| popPK | Ran_2024 | irrelevant | 0 | 0 | The paper analyzes fatty acid composition in dairy products and does not involve irsogladine or pharmacokinetics. |
+| popPK | Susilowati_2020 | irrelevant | 0 | 0 | The paper is a mathematics study on graph theory (dominant metric dimension) and contains no pharmacokinetic data or mention of irsogladine. |
+| popPK | Takahashi_2000 | irrelevant | 0 | 0 | The study is a mechanistic investigation of gastric mucosal restitution using irsogladine as a gap junction activator, and it does not report any pharmacokinetic parameters for the drug. |
+| popPK | Uno_2024 | irrelevant | 0 | 0 | The paper is a mechanistic enzymology study on glycogen debranching enzyme and does not involve irsogladine or pharmacokinetics. |
+| popPK | Urase_1993 | irrelevant | 0 | 0 | The paper discusses granulopoiesis and G-CSF receptors, containing no information about irsogladine or its pharmacokinetics. |
+| popPK | Weissman_2019 | irrelevant | 0 | 0 | The paper is a taxonomic review of cricket species and contains no pharmacokinetic data for irsogladine. |
+| popPK | Wong_1979 | irrelevant | 0 | 0 | The paper describes the nucleotide sequence of glutamate tRNA from yeast and is unrelated to the pharmacokinetics of irsogladine. |
+| popPK | Wu_2026 | irrelevant | 0 | 0 | The paper is a mechanistic study on TRPV4 and mitophagy in acute lung injury and does not involve irsogladine or report any pharmacokinetic parameters. |
+| popPK | Xu_2022 | irrelevant | 0 | 0 | The paper is a genetic association study on pig growth traits and does not involve the drug irsogladine or any pharmacokinetic analysis. |
+| popPK | Yuan_2020 | irrelevant | 0 | 0 | The paper is a botanical study on the seed development of Gastrodia elata and contains no pharmacokinetic data or information regarding the drug irsogladine. |
+| popPK | Zhao_2020 | irrelevant | 0 | 0 | The paper characterizes the chemical composition of highland barley bran oil and does not mention irsogladine or report any pharmacokinetic parameters. |
+| popPK | Zhao_2023 | irrelevant | 0 | 0 | The paper is a genetic study on chicken CD36 gene polymorphisms and carcass traits, unrelated to irsogladine pharmacokinetics. |
+| popPK | Zhu_2019 | irrelevant | 0 | 0 | The paper is a virology study on carp virus vaccines and does not involve irsogladine or pharmacokinetics. |
+
+---
+<sub>Generated by `docs.py` (scholarv2)</sub>
