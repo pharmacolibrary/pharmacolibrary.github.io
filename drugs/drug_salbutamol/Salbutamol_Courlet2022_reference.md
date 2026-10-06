@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;R03A&quot;,&quot;href&quot;:&quot;atc/R03A.md&quot;},{&quot;label&quot;:&quot;salbutamol&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/&quot;},{&quot;label&quot;:&quot;Courlet_2022 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Salbutamol_Marques2024v2_reference&quot;,&quot;label&quot;:&quot;Marques_2024_2_reference&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024v2_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Walsh2023_reference&quot;,&quot;label&quot;:&quot;Walsh_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Walsh2023_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Marques2024_estimate&quot;,&quot;label&quot;:&quot;Marques_2024_estimate&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024_estimate.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Marques2024_geometric_mean&quot;,&quot;label&quot;:&quot;Marques_2024_geometric_mean&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024_geometric_mean.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Marques2024_value&quot;,&quot;label&quot;:&quot;Marques_2024_value&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024_value.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Courlet2022_reference&quot;,&quot;label&quot;:&quot;Courlet_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Courlet2022_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Salbutamol_Valenzuela2006_reference&quot;,&quot;label&quot;:&quot;Valenzuela_2006_reference&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Valenzuela2006_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Vet2020_reference&quot;,&quot;label&quot;:&quot;Vet_2020_reference&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Vet2020_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Salbutamol_Marques2024v2_reference&quot;,&quot;label&quot;:&quot;Marques_2024_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024v2_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Walsh2023_reference&quot;,&quot;label&quot;:&quot;Walsh_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Walsh2023_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Walsh_2023_Glucose&quot;,&quot;label&quot;:&quot;Walsh_2023 \u00b7 Glucose&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Walsh_2023_Glucose.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # salbutamol — `Salbutamol_Courlet2022_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.818). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.615). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -21,19 +21,21 @@
 
 The parameter labelled 'k a2 (h−1)' with value 1.47 is recorded as the half-life of the absorption phase, but a half-life should have dimensions of time, not inverse time — the reported unit h−1 could not be reconciled into a consistent dimension, giving a dimension mismatch on a structural parameter. A second reader also disagreed on this parameter, reading no value where the record holds 1.47, and additionally reported a urine production rate of 0.0426 that is absent from this record. Because the h−1 unit could not be converted to a standard unit, the parameter entered model construction without a consistent value. Extracted — salbutamol: Fab 0.2, kabs 31.6 h−1, t1/2ka 1.47 h−1, V3 203 L, kcomp 0.0432 h−1, CL 28 L h−1, V 167 L.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of k a2: this record has 1.47, the second reading none; it also differs on 1 more field. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has salbutamol, the second reading unknown; it also differs on 4 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-09-28 14:40:28.869275+00:00) predates the upstream re-run (2026-10-03 21:42:21.841912+00:00). Current validate status: `rejected`.
+
 ## Citation
-Courlet P; Buclin T; Biollaz J; Mazzoni I; Rabin O; Guidi M et al. (2022). CPT: pharmacometrics & systems pharmacology 11
+Courlet P et al., Model-based meta-analysis of salbutamol…, CPT: pharmacometrics & syst… (2022)
   ·  DOI: [10.1002/psp4.12773](https://doi.org/10.1002/psp4.12773)
 
 ## Model component
-<dbs-pgx drug="salbutamol" model-id="Salbutamol_Courlet2022_reference" status="rejected" stale="false" population="healthy adults" measured-compound="salbutamol" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="salbutamol" model-id="Salbutamol_Courlet2022_reference" status="rejected" stale="true" population="healthy adults" measured-compound="salbutamol" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment; no model was built for this record.  
-**Parameters:** 7 extracted.
+**Parameters:** 8 extracted.
 
 **Parameterization:** mechanistic.
 
@@ -48,7 +50,8 @@ Courlet P; Buclin T; Biollaz J; Mazzoni I; Rabin O; Guidi M et al. (2022). CPT: 
 | V 3 (L) | `Q77` · V3 | 203 | L | 0.203 | [l] | not captured | space_fold (0.95) | psp412773-tbl-0001:row6:col1, psp412773-tbl-0001:row6:col2, psp412773-tbl-0001:row6:col3, psp412773-tbl-0001:row6:col4 | — | not captured |
 | k 34 (h−1) | `Q48` · kcomp | 0.0432 | h−1 | 1.2e-05 | [1] / [h] | not captured | space_fold (0.95) | psp412773-tbl-0001:row7:col1, psp412773-tbl-0001:row7:col2, psp412773-tbl-0001:row7:col3, psp412773-tbl-0001:row7:col4 | — | not captured |
 | CL (L h−1) | `Q22` · CL | 28 | L h−1 | 7.777777777777777e-06 | [l] / [h] | not captured | exact (1.0) | psp412773-tbl-0001:row8:col1, psp412773-tbl-0001:row8:col2, psp412773-tbl-0001:row8:col3, psp412773-tbl-0001:row8:col4 | — | not captured |
-| Vd (L) | `Q61` · V | 167.02 | L | 0.16702 | L | not captured | review_gapfill (0.7) | Marques_2024:review | — | not captured |
+| UR_PROD (L h−1) | `Q24` · CLu | 0.0426 | L h−1 | 1.1833333333333333e-08 | [l] / [h] | not captured | llm (0.6) | psp412773-tbl-0001:row10:col1, psp412773-tbl-0001:row10:col3, psp412773-tbl-0001:row10:col4 | — | not captured |
+| Vd | `Q61` · V | 195.75 | L | 0.19575 | L | not captured | review_gapfill (0.7) | Marques_2024:review | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -60,7 +63,6 @@ Courlet P; Buclin T; Biollaz J; Mazzoni I; Rabin O; Guidi M et al. (2022). CPT: 
 **Interpretation flags:**
 - dropped unlinked row (NIL): 'logitF 2' — extend the ontology if this is a real PK parameter (source ['psp412773-tbl-0001:row3:col1'])
 - unit_dimension_mismatch: 'k a2 (h−1)' → Q95 (unit '1 / [time]' vs ontology '[time]') — route to review
-- dropped unlinked row (NIL): 'UR_PROD (L h−1)' — extend the ontology if this is a real PK parameter (source ['psp412773-tbl-0001:row10:col1', 'psp412773-tbl-0001:row10:col3', 'psp412773-tbl-0001:row10:col4'])
 - dropped unlinked row (NIL): 'θ physical,UR_PROD' — extend the ontology if this is a real PK parameter (source ['psp412773-tbl-0001:row11:col1', 'psp412773-tbl-0001:row11:col2', 'psp412773-tbl-0001:row11:col3'])
 - dropped value-less row: 'F 2'
 - dropped value-less row: 'k a1'
@@ -90,14 +92,17 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.818 (9/11 fields) | 2 |
+| `gpt-oss:120b` | not confirmed | 0.615 (8/13 fields) | 5 |
 
-<details><summary>2 field(s) a reader read differently</summary>
+<details><summary>5 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
 | `gpt-oss:120b` | `parameters[k a2]` | 1.47 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[ur_prod]` | not captured | 0.0426 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[logitf 2]` | not captured | -0.328 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[ur_prod].parameter_id` | Q24 | Q30 | mismatch |
+| `gpt-oss:120b` | `screen.dose_compound` | salbutamol | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | salbutamol | unknown | mismatch |
 
 </details>
 
@@ -111,19 +116,21 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 6 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 7 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['psp412773-tbl-0001:row8:col1', 'psp412773-tbl-0001:row8:col2', 'psp412773-tbl-0001:row8:col3', 'psp412773-tbl-0001:row8:col4'] |
+| C5_dimension_Q24 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['psp412773-tbl-0001:row10:col1', 'psp412773-tbl-0001:row10:col3', 'psp412773-tbl-0001:row10:col4'] |
 | C5_dimension_Q48 | pass | 1 / [time] | not captured | not captured | not captured | ['psp412773-tbl-0001:row7:col1', 'psp412773-tbl-0001:row7:col2', 'psp412773-tbl-0001:row7:col3', 'psp412773-tbl-0001:row7:col4'] |
 | C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['psp412773-tbl-0001:row4:col1'] |
 | C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Marques_2024:review'] |
 | C5_dimension_Q77 | pass | [length] ** 3 | not captured | not captured | not captured | ['psp412773-tbl-0001:row6:col1', 'psp412773-tbl-0001:row6:col2', 'psp412773-tbl-0001:row6:col3', 'psp412773-tbl-0001:row6:col4'] |
 | C5_dimension_Q95 | fail | 1 / [time] | h−1 | not captured | not captured | ['psp412773-tbl-0001:row5:col1'] |
-| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 28.0 | not captured | not captured | ['psp412773-tbl-0001:row8:col1', 'psp412773-tbl-0001:row8:col2', 'psp412773-tbl-0001:row8:col3', 'psp412773-tbl-0001:row8:col4'] |
+| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 0.0426 | not captured | not captured | ['psp412773-tbl-0001:row10:col1', 'psp412773-tbl-0001:row10:col3', 'psp412773-tbl-0001:row10:col4'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
 | C9_phys_window_Q22 | pass | clearance within physiological range | 28 L/h | not captured | not captured | ['psp412773-tbl-0001:row8:col1', 'psp412773-tbl-0001:row8:col2', 'psp412773-tbl-0001:row8:col3', 'psp412773-tbl-0001:row8:col4'] |
-| C9_phys_window_Q61 | pass | volume within physiological range | 167 L | not captured | not captured | ['Marques_2024:review'] |
+| C9_phys_window_Q24 | pass | clearance within physiological range | 0.0426 L/h | not captured | not captured | ['psp412773-tbl-0001:row10:col1', 'psp412773-tbl-0001:row10:col3', 'psp412773-tbl-0001:row10:col4'] |
+| C9_phys_window_Q61 | pass | volume within physiological range | 196 L | not captured | not captured | ['Marques_2024:review'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -148,4 +155,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-24 04:46 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-03 21:42 UTC</sub>

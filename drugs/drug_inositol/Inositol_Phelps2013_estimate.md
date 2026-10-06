@@ -1,19 +1,19 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A11H&quot;,&quot;href&quot;:&quot;atc/A11H.md&quot;},{&quot;label&quot;:&quot;inositol&quot;,&quot;href&quot;:&quot;drugs/drug_inositol/&quot;},{&quot;label&quot;:&quot;Phelps_2013 \u00b7 estimate&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Inositol_Phelps2013_covariate_estimate_standard_error&quot;,&quot;label&quot;:&quot;Phelps_2013_covariate_estimate_standard_error&quot;,&quot;href&quot;:&quot;drugs/drug_inositol/Inositol_Phelps2013_covariate_estimate_standard_error.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Inositol_Phelps2013_estimate&quot;,&quot;label&quot;:&quot;Phelps_2013_estimate&quot;,&quot;href&quot;:&quot;drugs/drug_inositol/Inositol_Phelps2013_estimate.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Inositol_Phelps2013_estimate&quot;,&quot;label&quot;:&quot;Phelps_2013_estimate&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_inositol/Inositol_Phelps2013_estimate.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # inositol — `Inositol_Phelps2013_estimate`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span>
+> ## <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.778). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+**Model:** A simulatable model was generated — see the **Models** and **Simulation** tabs.
 
 ### Reviewer guidance
 
@@ -21,16 +21,18 @@
 
 Without a unit the value cannot be converted, so the model cannot use it. A reported unit could not be converted (V, CL, kel and t1/2z), so that value has no SI equivalent. Extracted — inositol: V 0.511 volume, CL 0.0679 clearance, kel 0.133 elimination rate; Cl/V, t1/2z 5.22 half-life; 0.693/k, E 39.2 endogenous concentration; R/Cl.
 
-Independently confirmed by `gpt-oss:120b`.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has inositol, the second reading unknown; it also differs on 1 more field. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-09-28 14:38:22.679987+00:00) predates the upstream re-run (2026-10-05 07:48:30.604098+00:00). Current validate status: `extracted`.
+
 ## Citation
-Phelps DL; Ward RM; Williams RL; Watterberg KL; Laptook AR; Wrage LA; et al. et al. (2013). Pediatric research 74
+Phelps DL et al., Pharmacokinetics and safety of a single…, Pediatric research (2013)
   ·  DOI: [10.1038/pr.2013.162](https://doi.org/10.1038/pr.2013.162)
 
 ## Model component
-<dbs-pgx drug="inositol" model-id="Inositol_Phelps2013_estimate" status="needs_review" stale="false" population="preterm infants" measured-compound="myo-inositol" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="inositol" model-id="Inositol_Phelps2013_estimate" status="extracted" stale="true" population="preterm infants" measured-compound="inositol" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment, IV mammillary model — template `PK_1C`.  
 **Parameters:** 5 extracted.
@@ -38,14 +40,12 @@ Phelps DL; Ward RM; Williams RL; Watterberg KL; Laptook AR; Wrage LA; et al. et 
 **Parameterization:** mechanistic.
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `needs_review`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
-
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| V (volume) | `Q61` · V | 0.5115 | volume | not captured | [volume] | not captured | exact (1.0) | Phelps_2013_table_4:row1:col2 | — | not captured |
-| Cl (clearance) | `Q22` · CL | 0.0679 | clearance | not captured | [clearance] | not captured | exact (1.0) | Phelps_2013_table_4:row2:col2 | — | not captured |
-| k (elimination rate; Cl/V) | `Q47` · kel | 0.133 | elimination rate; Cl/V | not captured | [eliminationrate] | not captured | exact (1.0) | Phelps_2013_table_4:row6:col2 | — | not captured |
-| t1/2 (half-life; 0.693/k) | `Q57` · t1/2z | 5.22 | half-life; 0.693/k | not captured | [h] · [l] · [alf] · [ife] | not captured | exact (1.0) | Phelps_2013_table_4:row7:col2 | — | not captured |
+| V (volume) | `Q61` · V | 0.5115 | L/kg | 0.035805000000000003 | L | not captured | exact (1.0) | Phelps_2013_table_4:row1:col2 | — | not captured |
+| Cl (clearance) | `Q22` · CL | 0.0679 | L/kg/h | 1.3202777777777777e-06 | L/h | not captured | exact (1.0) | Phelps_2013_table_4:row2:col2 | — | not captured |
+| k (elimination rate; Cl/V) | `Q47` · kel | 0.133 | 1/h | 3.694444444444445e-05 | 1/h | not captured | exact (1.0) | Phelps_2013_table_4:row6:col2 | — | not captured |
+| t1/2 (half-life; 0.693/k) | `Q57` · t1/2z | 5.22 | h | 18792.0 | h | not captured | exact (1.0) | Phelps_2013_table_4:row7:col2 | — | not captured |
 | E (endogenous concentration; R/Cl) | `Q38` · E | 39.25 | endogenous concentration; R/Cl | not captured | [endogenousconcentration] | not captured | exact (1.0) | Phelps_2013_table_4:row8:col2 | — | not captured |
 
 <details class="legend">
@@ -62,7 +62,11 @@ Phelps DL; Ward RM; Williams RL; Watterberg KL; Laptook AR; Wrage LA; et al. et 
 - unit_dimension_unknown: 'elimination rate; Cl/V' (kel)
 - unit_dimension_unknown: 'half-life; 0.693/k' (t1/2z)
 - unit_dimension_unknown: 'endogenous concentration; R/Cl' (E)
-- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=myo-inositol
+- implicit units: 'V (volume)' → L/kg (from the paper text: "The text states: 'The central volume of distribution was 0.5115 l/kg' and later 'central volume of distribution of 0.511")
+- implicit units: 'Cl (clearance)' → L/kg/h (from the paper text: "The text states: 'the clearance 0.0679 l/kg/h'.")
+- implicit units: 'k (elimination rate; Cl/V)' → 1/h (from the popPK convention: 'The elimination rate constant (k) is defined as Cl/V. Given Cl is in L/kg/h and V is in L/kg, the units cancel to 1/h. T')
+- implicit units: 't1/2 (half-life; 0.693/k)' → h (from the paper text: "The text states: 'the half life 5.22 h' and 'half life of 5.22 h'.")
+- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=inositol
 - held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - status held at route_to_review — not promoted
 - population split: 'estimate' subgroup of Phelps_2013 (paper reports 2 populations: covariate estimate(standard error), estimate)
@@ -74,14 +78,21 @@ Phelps DL; Ward RM; Williams RL; Watterberg KL; Laptook AR; Wrage LA; et al. et 
 
 ## Validation
 
-**Cross-check (independent readings):** <span class="pk-badge pk-badge--green">cross-checked ✓</span>  
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
 first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whatever the readers say
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | confirmed | 1.0 (9/9 fields) | none |
+| `gpt-oss:120b` | not confirmed | 0.778 (7/9 fields) | 2 |
 
-_Every reader agrees on every compared field of this record._
+<details><summary>2 field(s) a reader read differently</summary>
+
+| second reader | field | first reading | second reading | agreement |
+|---|---|---|---|---|
+| `gpt-oss:120b` | `screen.dose_compound` | inositol | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | inositol | unknown | mismatch |
+
+</details>
 
 <details class="legend">
 <summary>Cross-check legend</summary>
@@ -97,12 +108,14 @@ _Every reader agrees on every compared field of this record._
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
 | C1_half_life_beta | pass | 5.22 | 5.222 | 1.0004 | 0.25 | reported t½β |
-| C5_unit_missing_Q22 | fail | [length] ** 3 / [time] | clearance | not captured | not captured | ['Phelps_2013_table_4:row2:col2'] |
-| C5_unit_missing_Q47 | fail | 1 / [time] | elimination rate; Cl/V | not captured | not captured | ['Phelps_2013_table_4:row6:col2'] |
-| C5_unit_missing_Q57 | fail | [time] | half-life; 0.693/k | not captured | not captured | ['Phelps_2013_table_4:row7:col2'] |
-| C5_unit_missing_Q61 | fail | [length] ** 3 | volume | not captured | not captured | ['Phelps_2013_table_4:row1:col2'] |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Phelps_2013_table_4:row2:col2'] |
+| C5_dimension_Q47 | pass | 1 / [time] | not captured | not captured | not captured | ['Phelps_2013_table_4:row6:col2'] |
+| C5_dimension_Q57 | pass | [time] | not captured | not captured | not captured | ['Phelps_2013_table_4:row7:col2'] |
+| C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Phelps_2013_table_4:row1:col2'] |
 | C6_cl_magnitude | pass | &lt;= 90.0 L/h | 0.0679 | not captured | not captured | ['Phelps_2013_table_4:row2:col2'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 4.75 L/h | not captured | not captured | ['Phelps_2013_table_4:row2:col2'] |
+| C9_phys_window_Q61 | pass | volume within physiological range | 35.8 L | not captured | not captured | ['Phelps_2013_table_4:row1:col2'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -120,21 +133,26 @@ _Every reader agrees on every compared field of this record._
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_inositol/Inositol_Phelps2013_estimate/Inositol_Phelps2013_estimate_modelica.zip" download>Inositol_Phelps2013_estimate_modelica.zip</a> <span class="pk-size">(4.6 kB)</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_inositol/Inositol_Phelps2013_estimate/Inositol_Phelps2013_estimate_fmi.zip" download>Inositol_Phelps2013_estimate_fmi.zip</a> <span class="pk-size">(4.1 kB)</span><br><a href="models/fmu/PK_1C.fmu" download>PK_1C.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_inositol/Inositol_Phelps2013_estimate/Inositol_Phelps2013_estimate_matlab.zip" download>Inositol_Phelps2013_estimate_matlab.zip</a> <span class="pk-size">(3.3 kB)</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_inositol/Inositol_Phelps2013_estimate/Inositol_Phelps2013_estimate_matlab_simbio.zip" download>Inositol_Phelps2013_estimate_matlab_simbio.zip</a> <span class="pk-size">(2.7 kB)</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_inositol/Inositol_Phelps2013_estimate/Inositol_Phelps2013_estimate_sbml.zip" download>Inositol_Phelps2013_estimate_sbml.zip</a> <span class="pk-size">(2.4 kB)</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_inositol/Inositol_Phelps2013_estimate/Inositol_Phelps2013_estimate_cellml.zip" download>Inositol_Phelps2013_estimate_cellml.zip</a> <span class="pk-size">(2.9 kB)</span></td></tr>
 </tbody></table>
-<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
-</div></div>
+<p>Each archive holds the model source, a script that simulates it against the appropriate library, and a README describing both and how to run them.</p>
+<p><b>FMI is two downloads.</b> The archive holds this record's parameters and its driver; the simulator itself is <code>PK_1C.fmu</code>, one compiled template shared by every model of this structure. Take the FMU once, keep it beside the script (or pass <code>--fmu PATH</code>). Running it reproduces the model-specific FMU exactly.</p>
+</div><figure class="pk-models-diagram"><img src="drugs/drug_inositol/Inositol_Phelps2013_estimate/Inositol_Phelps2013_estimate.svg" alt="Inositol_Phelps2013_estimate diagram"><figcaption>Model diagram (Modelica) using Pharmacolibrary v26.09 components, rendered by OpenModelica 1.26.7.</figcaption></figure></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-_No web simulator for this record: its structure has no shared WebAssembly template. The FMI archive under **Models** carries its own compiled FMU._
+**Administration: intravenous** — 4200 mg infusion over 10 min, single dose. Doses in the paper: 4200, 8400 mg.
+
+<dbs-fmusim paramsurl="drugs/drug_inositol/Inositol_Phelps2013_estimate/Inositol_Phelps2013_estimate_params.json" metaurl="assets/fmu/PK_1C.vr.json" wasmurl="assets/fmu/PK_1C.js" controlsurl="drugs/drug_inositol/Inositol_Phelps2013_estimate/Inositol_Phelps2013_estimate_sim_controls.json"></dbs-fmusim>
+
+<sub>Runs this record's model in the browser as WebAssembly. Sliders start at the extracted values; the reference check compares the browser's peak against the FMPy result recorded when the record was built, and is withheld once a value has been edited. Template `PK_1C` · parameters `Inositol_Phelps2013_estimate_params.json` · controls `Inositol_Phelps2013_estimate_sim_controls.json`. A slider marked *simulator value* is running on the template's own default because this record does not pin that parameter.</sub>
 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-21 22:10 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-05 07:48 UTC</sub>

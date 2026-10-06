@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A04A&quot;,&quot;href&quot;:&quot;atc/A04A.md&quot;},{&quot;label&quot;:&quot;aprepitant&quot;,&quot;href&quot;:&quot;drugs/drug_aprepitant/&quot;},{&quot;label&quot;:&quot;Nakade_2008 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Aprepitant_Nijstad2023_reference&quot;,&quot;label&quot;:&quot;Nijstad_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_aprepitant/Aprepitant_Nijstad2023_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Aprepitant_Nakade2008_reference&quot;,&quot;label&quot;:&quot;Nakade_2008_reference&quot;,&quot;href&quot;:&quot;drugs/drug_aprepitant/Aprepitant_Nakade2008_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Aprepitant_Nijstad2023_reference&quot;,&quot;label&quot;:&quot;Nijstad_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_aprepitant/Aprepitant_Nijstad2023_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # aprepitant — `Aprepitant_Nakade2008_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.375). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.7). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -21,27 +21,30 @@
 
 The record lists a clearance parameter for aprepitant labeled 'Clearance of dexamethasone' with value 24.7 and unit '%', which is dimensionally inconsistent for a clearance parameter. The record was built from the paper's abstract alone, so summary statistics stood in for a fitted model. A second reader also disputed the parameterization, reading it as mechanistic rather than apparent, and returned no values for all four parameters (V/F 72.1 L, kabs 0.893 /h, tlag 0.295 h, CL 24.7 %). Extracted — aprepitant: V/F 72.1 L, kabs 0.893 /h, tlag 0.295 h, CL 24.7 %.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on how the model is parameterised: this record has apparent, the second reading mechanistic; it also differs on 4 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the links between molecules: this record has none, the second reading aprepitant → dexamethasone (interaction); it also differs on 2 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-09-28 14:36:09.563956+00:00) predates the upstream re-run (2026-10-04 13:43:31.569085+00:00). Current validate status: `rejected`.
+
 ## Citation
-Nakade S; Ohno T; Kitagawa J; Hashimoto Y; Katayama M; Awata H; et al. et al. (2008). Cancer chemotherapy and pharmacology 63
+Nakade S et al., Population pharmacokinetics of aprepita…, Cancer chemotherapy and pha… (2008)
   ·  DOI: [10.1007/s00280-008-0713-y](https://doi.org/10.1007/s00280-008-0713-y)
 
 ## Model component
-<dbs-pgx drug="aprepitant" model-id="Aprepitant_Nakade2008_reference" status="rejected" stale="false" population="Japanese cancer patients and healthy volunteers" measured-compound="aprepitant" parameterization="apparent" topology="1C"></dbs-pgx>
+<dbs-pgx drug="aprepitant" model-id="Aprepitant_Nakade2008_reference" status="rejected" stale="true" population="Japanese cancer patients and healthy volunteers" measured-compound="aprepitant" parameterization="apparent" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment; no model was built for this record.  
-**Parameters:** 4 extracted.
+**Parameters:** 5 extracted.
 
-**Parameterization:** V/F — apparent, F unknown (apparent — bioavailability not identifiable).
+**Parameterization:** CL/F, V/F — apparent, F unknown (apparent — bioavailability not identifiable).
 
 ## Parameters
 > ⚠️ This record is not accepted (current status `rejected`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
+| Oral clearance (CL/F) of aprepitant | `Q27` · CL/F | 1.54 | L/h | 4.277777777777778e-07 | [l] / [h] | not captured | llm_confirmed (0.6) | Nakade_2008:abstract | — | not captured |
 | apparent distribution volume (V(d)/F) | `Q76` · V/F | 72.1 | L | 0.0721 | [l] | not captured | llm_corrected (0.6) | Nakade_2008:abstract | — | not captured |
 | absorption constant (K(a)) | `Q49` · kabs | 0.893 | /h | 0.00024805555555555556 | [1] / [h] | not captured | llm_confirmed (0.6) | Nakade_2008:abstract | — | not captured |
 | absorption lag time | `Q83` · tlag | 0.295 | h | 1062.0 | [h] | not captured | exact (1.0) | Nakade_2008:abstract | — | not captured |
@@ -55,7 +58,6 @@ Nakade S; Ohno T; Kitagawa J; Hashimoto Y; Katayama M; Awata H; et al. et al. (2
 ## Departures & gaps
 
 **Interpretation flags:**
-- dropped value-less row: 'Oral clearance (CL/F)' (captured trailing unit 'CL/F' for child rows)
 - routed 'Inter-individual variability in CL/F' → Q312 (IIV) to iiv — variability estimate, not a structural parameter
 - routed 'Inter-individual variability in V(d)/F' → Q312 (IIV) to iiv — variability estimate, not a structural parameter
 - routed 'Inter-individual variability in K(a)' → Q312 (IIV) to iiv — variability estimate, not a structural parameter
@@ -76,17 +78,15 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.375 (3/8 fields) | 5 |
+| `gpt-oss:120b` | not confirmed | 0.7 (7/10 fields) | 3 |
 
-<details><summary>5 field(s) a reader read differently</summary>
+<details><summary>3 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `model.parameterization` | apparent | mechanistic | mismatch |
-| `gpt-oss:120b` | `parameters[absorption constant (k(a))]` | 0.893 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[absorption lag time]` | 0.295 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[apparent distribution volume (v(d)/f)]` | 72.1 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[clearance of dexamethasone]` | 24.7 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `model.links` | [] | [['aprepitant', 'dexamethasone', 'interaction']] | mismatch |
+| `gpt-oss:120b` | `parameters[cl/f]` | not captured | 1.54 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[oral clearance (cl/f) of aprepitant]` | 1.54 | not captured | only_one_extracted |
 
 </details>
 
@@ -100,15 +100,17 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 4 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 5 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q22 | fail | dimensionless | % | not captured | not captured | ['Nakade_2008:abstract', 'Nakade_2008:abstract'] |
+| C5_dimension_Q27 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Nakade_2008:abstract'] |
 | C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Nakade_2008:abstract'] |
 | C5_dimension_Q76 | pass | [length] ** 3 | not captured | not captured | not captured | ['Nakade_2008:abstract'] |
 | C5_dimension_Q83 | pass | [time] | not captured | not captured | not captured | ['Nakade_2008:abstract'] |
 | C7_apparent_coherence | pass | not captured | not captured | not captured | not captured | not captured |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+| C9_phys_window_Q27 | pass | clearance within physiological range | 1.54 L/h | not captured | not captured | ['Nakade_2008:abstract'] |
 | C9_phys_window_Q76 | pass | volume within physiological range | 72.1 L | not captured | not captured | ['Nakade_2008:abstract'] |
 
 <details class="legend">
@@ -134,4 +136,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-18 11:50 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-04 13:43 UTC</sub>

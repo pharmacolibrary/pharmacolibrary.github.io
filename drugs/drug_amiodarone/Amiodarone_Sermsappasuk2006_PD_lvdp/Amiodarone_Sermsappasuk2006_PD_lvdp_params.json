@@ -6,7 +6,10 @@
  ],
  "parameters": {
   "E0": 0.0,
-  "exposure_per_s": 1.0
+  "EC50": 0.53,
+  "Emax": -0.37,
+  "exposure_per_s": 1.0,
+  "gamma": 1.0
  },
  "reference_peaks": {},
  "reference_points": {
@@ -14,8 +17,10 @@
   "0.53": -0.185
  },
  "stop_time": 5.3,
+ "subtitle": "left ventricular developed pressure (LVDP) against amiodarone concentration",
  "template": "PD_SigmoidEmaxSweep",
  "template_fmu": "PD_SigmoidEmaxSweep.fmu",
+ "title": "Concentration–response simulated by the PD model",
  "units": {
   "EC50": {
    "display_only": true,
@@ -40,12 +45,13 @@
  "x_axis": {
   "display_unit": "M",
   "factor": 1.0,
+  "label": "amiodarone concentration",
   "per_s": 1.0,
   "variable": "exposure"
  },
  "y_axis": {
   "display_unit": "%",
   "factor": 0.01,
-  "label": "response"
+  "label": "left ventricular developed pressure (LVDP)"
  }
 }

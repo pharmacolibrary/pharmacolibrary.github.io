@@ -1,5 +1,4 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B02A&quot;,&quot;href&quot;:&quot;atc/B02A.md&quot;},{&quot;label&quot;:&quot;aprotinin&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Aprotinin_Tae2011_neonates_and_young_infants_undergoing_card&quot;,&quot;label&quot;:&quot;Tae_2011_neonates and young infants undergoing cardiopulmonary bypass&quot;,&quot;href&quot;:&quot;drugs/drug_aprotinin/Aprotinin_Tae2011_neonates_and_young_infants_undergoing_card.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 
 # aprotinin
 
@@ -10,27 +9,38 @@
 
 ## About
 
-**Description.** Aprotinin is a protein-based drug that is also known as bovine pancreatic trypsin inhibitor (BPTI). Since it demonstrates the capacity to slow fibrinolysis, it has been employed to reduce bleeding during complex surgery such as heart and liver surgery. For this use, it is typically administered by injection. The goal of using of aprotinin was subsequently to minimize end-organ damage resulting from hypotension due to blood loss in surgery and to reduce the necessity for blood transfusions during surgery. Nevertheless, the drug was formally withdrawn worldwide in May of 2008 after studies confirmed that its use enhanced the risk of complications or death. The substance is consequently made available only for very restricted research use.
+Aprotinin is an antifibrinolytic drug that was used to reduce bleeding. It has been withdrawn from the market, although it remains approved in some settings and has been studied investigationally.
 
-**Indication.** For prophylactic use to reduce perioperative blood loss and the need for blood transfusion in patients undergoing cardiopulmonary bypass in the course of coronary artery bypass graft surgery who are at an increased risk for blood loss and blood transfusion.
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q418625](https://www.wikidata.org/wiki/Q418625) and the WHO ATC classification; not checked by a person.</small>
+
+## Molecules and molar masses
+
+> The molar mass each model uses to convert mass to molar concentration and to form a metabolite molecule for molecule. Looked up, never estimated: DrugBank for the drug, the paper's own value or the PubChem entry matched to the paper's name for a metabolite.
+
+| molecule | role | molar mass (g/mol) | formula | source | PubChem | records |
+|---|---|---|---|---|---|---|
+| aprotinin | parent | 6511.51 | C284H432N84O79S7 | PubChem | [16130295](https://pubchem.ncbi.nlm.nih.gov/compound/16130295) | Tae_2011 |
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-06 14:28 | 0:44 | 0/0/0 | 0/0/0 | 0/0/1 | 6,143/49 | ollama / qwen3.8:27b-mtp-q8_0 | 8 | 2/1 | 2/6 | 0 |
+| 2026-10-05 16:43 | 9:26 | 0/0/2 | 0/0/0 | 0/0/1 | 126,384/29,019 | ollama / qwen3.8:27b-mtp-q8_0 | 7 | 6/1 | 1/6 | 0 |
 
 ## popPK records
 
 | status | detail | model | model structure | params | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--red">rejected</span><br><sub>blocking: no structural parameters extracted (nothing to build)</sub><br><sub>route_to: `human_review`</sub> | [Tae_2011_neonates and young infants undergoing cardiopulmonary bypass](drugs/drug_aprotinin/Aprotinin_Tae2011_neonates_and_young_infants_undergoing_card.md) | — | — (no model) | 0 | Tae YM et al., Population pharmacokinetic analysis and…, Journal of clinical pharmac… (2011) | [10.1177/0091270010379411](https://doi.org/10.1177/0091270010379411) |
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.667). The first reading is what the record holds.">cross-check: disputed</span><br><sub>blocking: C5 dimensioned parameter(s) without a unit: Q22, Q61 — no SI value to build from</sub><br><sub>route_to: `human_review`</sub> | [Tae_2011_estimate_se](drugs/drug_aprotinin/Aprotinin_Tae2011_estimate_se.md) | — | 1-compartment (no model) | 3 | Tae YM et al., Population pharmacokinetic analysis and…, Journal of clinical pharmac… (2011) | [10.1177/0091270010379411](https://doi.org/10.1177/0091270010379411) |
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.6). The first reading is what the record holds.">cross-check: disputed</span><br><sub>blocking: C5 dimensioned parameter(s) without a unit: Q22, Q61 — no SI value to build from</sub><br><sub>blocking: C1_half_life_beta failed (ratio 0.6062)</sub><br><sub>route_to: `human_review`</sub> | [Tae_2011_median](drugs/drug_aprotinin/Aprotinin_Tae2011_median.md) | — | 1-compartment (no model) | 3 | Tae YM et al., Population pharmacokinetic analysis and…, Journal of clinical pharmac… (2011) | [10.1177/0091270010379411](https://doi.org/10.1177/0091270010379411) |
 
 ## Pharmacogenomics (PGx)
 
 | status | gene | affects | mechanism | detail | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **PAI-1** | `Q100` — no parameter target — an association/risk finding, not a parameter shift | target | [Sirgo_2009](drugs/drug_aprotinin/pgx_Sirgo_2009_PAI_1_Q100.md) | Sirgo G et al., PAI-1 gene: pharmacogenetic association…, European journal of anaesth… (2009) | [10.1097/EJA.0b013e3283240412](https://doi.org/10.1097/EJA.0b013e3283240412) |
+| <span class="pk-badge pk-badge--neutral" title="the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.">qualitative</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.25). The first reading is what the record holds.">cross-check: partial</span> | **SERPINE1** | `Q100` — no parameter target — an association/risk finding, not a parameter shift | target | [Sirgo_2009](drugs/drug_aprotinin/pgx_Sirgo_2009_SERPINE1_Q100.md) | Sirgo G et al., PAI-1 gene: pharmacogenetic association…, European journal of anaesth… (2009) | [10.1097/EJA.0b013e3283240412](https://doi.org/10.1097/EJA.0b013e3283240412) |
+
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>What the PGx columns mean</summary>
@@ -45,13 +55,13 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 |---|---|---|---|
 | metabolism | blood | `BCHE` inhibitor | DrugBank actor |
 | metabolism | liver | `BCHE` inhibitor | DrugBank actor |
-| excretion | kidney | <sub>“…pproximately 25-40% of the radioactivity is excreted in the urine over 48 hours. After a 3…”</sub> | prose |
+| excretion | kidney | <sub>named in DrugBank's ADME text</sub> | prose |
 
-<sub>Actors without a tissue in the table: CTRB1 (unknown), KLK1 (unknown), PAI-1 (target), PLG (unknown), PRSS1 (unknown).</sub>
+<sub>Actors without a tissue in the table: CTRB1 (unknown), KLK1 (unknown), PLG (unknown), PRSS1 (unknown), SERPINE1 (target).</sub>
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -59,45 +69,43 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 - **PubMed hits:** 19 matched, 19 returned
 - **screened:** 2  ·  **relevant:** 2
-- **records:** 1  ·  extracted 0  ·  needs_review 0  ·  rejected 1  ·  stale 0
+- **records:** 2  ·  extracted 0  ·  needs_review 2  ·  rejected 0  ·  stale 0
 - **scholar-agent fallback query used:** not captured
 
 ## Full text wanted
 
-_3 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+_1 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
 
 | save as | citation | domain | score | DOI | PubMed | why wanted |
 |---|---|---|---|---|---|---|
-| `Levy_1994.pdf` | Levy JH et al., Pharmacokinetics of aprotinin in preope…, Anesthesiology (1994) | popPK | 10 | [10.1097/00000542-199405000-00010](https://doi.org/10.1097/00000542-199405000-00010) | [7517106](https://pubmed.ncbi.nlm.nih.gov/7517106) | The paper reports specific quantitative pharmacokinetic parameters (clearance 35.5 ml/min, Vss 26.5 l) for aprotinin in the text. |
-| `Tae_2011.pdf` | Tae YM et al., Population pharmacokinetic analysis and…, Journal of clinical pharmac… (2011) | popPK | 10 | [10.1177/0091270010379411](https://doi.org/10.1177/0091270010379411) | [20926755](https://pubmed.ncbi.nlm.nih.gov/20926755) | The study is a population PK analysis of aprotinin in neonates and explicitly reports numeric values for clearance and volume of distribution in the text. |
 | `Mary_1984.pdf` | Mary A et al., [In vitro aggregation of rat platelets…, Comptes rendus des seances… (1984) | pd | 4 | not captured | [6085483](https://www.ncbi.nlm.nih.gov/pubmed/6085483) | metadata signals extractable PD data (Emax) |
 
-<sub>queue written 2026-09-06T14:27:21.151707+00:00</sub>
+<sub>queue written 2026-10-05T16:35:08.950906+00:00</sub>
 
 ## Screened and excluded
 
 | domain | paper | verdict | relevance | extractability | reason |
 |---|---|---|---|---|---|
-| PGx | Amara_2010 | not_relevant | 0 | 0 | The paper studies the effect of lisinopril on aprotinin catabolism as a renal function marker, not the effect of a gene variant on aprotinin's PK/PD. |
-| popPK | Bianchi_1984 | irrelevant | 2 | 2 | The study focuses on aprotinin as a diagnostic imaging tracer (99mTc-aprotinin) rather than a therapeutic drug, and the reported clearance values are for the radiolabeled complex, not the native drug's population PK parameters. |
-| popPK | Glusa_1997 | irrelevant | 0 | 0 | The study is a mechanistic pharmacology investigation of vascular relaxation and receptor activation, not a pharmacokinetic study, and aprotinin is used only as a qualitative inhibitor. |
+| PGx | Amara_2010 | not_relevant | 0 | 0 | The paper reports a pharmacodynamic effect of lisinopril on aprotinin catabolism, but the reported genetic association (rs699) is with proteinuria reduction, not with the aprotinin PK/PD parameter. |
+| popPK | Bianchi_1984 | irrelevant | 2 | 2 | The study focuses on aprotinin as a radiolabeled imaging tracer (99mTc-Ap) for renal morphology, reporting only plasma clearance of the tracer rather than a full population pharmacokinetic model or disposition parameters for the drug itself. |
+| popPK | Glusa_1997 | irrelevant | 0 | 0 | The study is an in-vitro pharmacological investigation of vascular relaxation mechanisms where aprotinin is used only as a proteinase inhibitor, not as the subject of pharmacokinetic analysis. |
 | PD | Glusa_1997 | not_relevant | 3 | 2 | The paper reports IC50 values for benzamidine derivatives inhibiting trypsin-induced relaxation, but does not provide a concentration-effect curve or numeric PD parameters specifically for aprotinin. |
-| popPK | Grassin-Delyle_2013 | irrelevant | 0 | 0 | The study reports population pharmacokinetic parameters for tranexamic acid, not aprotinin, which is only mentioned as a removed comparator. |
-| PGx | Ihtasham_2025 | not_relevant | 0 | 0 | The paper is a narrative review of coagulation management strategies and does not report specific pharmacogenomic effects on the PK or PD of aprotinin. |
-| popPK | Janecki_1991 | irrelevant | 0 | 0 | The study is an in-vitro investigation of Sertoli cell tight junctions where aprotinin is used only as a non-specific antiprotease control, not as the subject of pharmacokinetic analysis. |
-| popPK | Kobayashi_1985 | irrelevant | 0 | 0 | The provided evidence contains only metadata and software version information, with no pharmacokinetic data or text regarding aprotinin. |
+| popPK | Grassin-Delyle_2013 | irrelevant | 0 | 0 | The study reports pharmacokinetic parameters for tranexamic acid, not aprotinin. |
+| PGx | Ihtasham_2025 | not_relevant | 0 | 0 | The paper is a narrative review of coagulation management strategies and does not report specific pharmacogenomic effects on aprotinin PK/PD parameters. |
+| popPK | Janecki_1991 | irrelevant | 0 | 0 | The study is an in vitro investigation of Sertoli cell tight junctions where aprotinin is used only as a non-specific antiprotease control, not as the subject of pharmacokinetic analysis. |
+| popPK | Kobayashi_1985 | irrelevant | 0 | 0 | The study is a mechanistic in-vitro investigation of adenylate cyclase where aprotinin is used only as an inhibitor, not as the subject of pharmacokinetic analysis. |
 | PD | Kobayashi_1985 | not_relevant | 0 | 0 | The provided text is metadata for the GROBID software and does not contain any scientific content regarding aprotinin or pharmacodynamics. |
-| PGx | Krogh_2008 | not_relevant | 0 | 0 | The paper describes the production of aprotinin in yeast and the effect of host genotype on growth rates and protein yield, not the pharmacokinetics or pharmacodynamics of aprotinin in humans. |
-| popPK | Marchetti_2003 | irrelevant | 0 | 0 | The study is a mechanistic investigation of angiotensin I effects on intracellular calcium in rat arterioles, using aprotinin only as a non-specific serine protease inhibitor control, with no pharmacokinetic parameters reported. |
+| PGx | Krogh_2008 | not_relevant | 0 | 0 | The paper investigates the production of aprotinin in yeast strains, not the pharmacokinetics or pharmacodynamics of aprotinin in humans. |
+| popPK | Marchetti_2003 | irrelevant | 0 | 0 | The study investigates the mechanism of angiotensin I action in rat arterioles using aprotinin as a protease inhibitor, not as a subject drug for pharmacokinetic analysis. |
 | PD | Marchetti_2003 | not_relevant | 0 | 0 | The paper reports PD parameters (EC50, Emax) for Angiotensin I and II, but explicitly states that aprotinin had no effect on the response, providing no exposure-response or dose-response relationship for aprotinin. |
 | popPK | Mary_1984 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of platelet aggregation and does not report pharmacokinetic parameters for aprotinin. |
 | PD | Mary_1984 | not_relevant | 4 | 2 | The text describes a qualitative in vitro dose-response analysis (non-competitive antagonism) but does not provide specific numeric PD parameters (Emax, EC50 values) or data points to derive them. |
-| popPK | McEvoy_2009 | irrelevant | 0 | 0 | The study is a mechanistic investigation of aprotinin's effects on cardiac contractility and cytokine release, not a pharmacokinetic study reporting disposition parameters. |
-| PGx | Sacchi_2014 | not_relevant | 0 | 0 | The paper describes a biomaterial delivery system using aprotinin as a structural component to control VEGF release, not a pharmacogenomic study of aprotinin's PK/PD. |
-| popPK | Seifried_1988 | irrelevant | 0 | 0 | The study focuses on the pharmacokinetics of rt-PA, and aprotinin is only mentioned as a limited utility inhibitor in in-vitro assays, not as the subject drug for PK parameter estimation. |
-| popPK | Verstraete_1986 | irrelevant | 0 | 0 | The study focuses on the pharmacokinetics of recombinant tissue-type plasminogen activator (rt-PA), and aprotinin is mentioned only as an anticoagulant additive in the plasma samples, not as the subject drug. |
+| popPK | McEvoy_2009 | irrelevant | 0 | 0 | The study is a mechanistic investigation of aprotinin's effects on cardiac contractility and cytokine release in mice, reporting no pharmacokinetic parameters (CL, V, t1/2, etc.). |
+| PGx | Sacchi_2014 | not_relevant | 0 | 0 | The paper describes a protein engineering strategy for VEGF delivery using a modified aprotinin variant to control fibrin degradation, but does not report any pharmacogenomic effects (gene variants) on the PK or PD parameters of aprotinin. |
+| popPK | Seifried_1988 | irrelevant | 0 | 0 | The study focuses on the pharmacokinetics of recombinant tissue-type plasminogen activator (rt-PA), and aprotinin is only mentioned as a limited utility inhibitor in in vitro assays. |
+| popPK | Verstraete_1986 | irrelevant | 0 | 0 | The study investigates the pharmacokinetics of recombinant tissue-type plasminogen activator (rt-PA), not aprotinin, which is only mentioned as an anticoagulant used in sample collection. |
 | PGx | Yeleswarapu_2025 | not_relevant | 0 | 0 | The paper evaluates hydrogel formulations for extracellular vesicle delivery and does not mention aprotinin or any pharmacogenomic effects. |
-| PGx | Zhou_2021 | not_relevant | 0 | 0 | The paper investigates corneal wound healing using hydrogels and does not mention aprotinin or any pharmacogenomic effects. |
+| PGx | Zhou_2021 | not_relevant | 0 | 0 | The paper focuses on corneal wound healing using hydrogels and does not mention aprotinin or any pharmacogenomic effects. |
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-09-06 02:53 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-10-05 16:35 UTC</sub>

@@ -1,5 +1,4 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C03D&quot;,&quot;href&quot;:&quot;atc/C03D.md&quot;},{&quot;label&quot;:&quot;spironolactone&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Spironolactone_Lass2024_value_1&quot;,&quot;label&quot;:&quot;Lass_2024_value_1&quot;,&quot;href&quot;:&quot;drugs/drug_spironolactone/Spironolactone_Lass2024_value_1.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Spironolactone_Lass2024_value_2&quot;,&quot;label&quot;:&quot;Lass_2024_value_2&quot;,&quot;href&quot;:&quot;drugs/drug_spironolactone/Spironolactone_Lass2024_value_2.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 # spironolactone
 
@@ -11,23 +10,9 @@
 
 ## About
 
-**Description.** Spironolactone is a potassium-sparing diuretic. It binds to mineralocorticoid receptors and functions as aldosterone antagonists.[A178192] It promotes sodium and water excretion and potassium retention.[A11837] Spironolactone was originally developed purely for this ability before other pharmacodynamic properties of the drug were discovered.[A11837, A178246] It is indicated to treat several conditions, including heart failure, edema, hyperaldosteronism, and hypertension.[L44602] Off-label uses of spironolactone include hirsutism, female pattern hair loss, and adult acne vulgaris.[A178135, A261025] 
+Spironolactone is a diuretic used to treat fluid build-up caused by heart failure, liver scarring, or kidney disease, and is also used for high blood pressure and hyperaldosteronism. It is widely used and appears on the WHO essential medicines list, with an authorised product in the European Union.
 
-Spironolactone was developed in 1957, marketed in 1959, and approved by the FDA on January 21, 1960.[A178243]
-
-**Indication.** Spironolactone is indicated for the treatment of the following conditions:
-
-- NYHA Class III-IV heart failure and reduced ejection fraction to increase survival, manage edema, and reduce the need for hospitalization for heart failure. Spironolactone is usually administered in conjunction with other heart failure therapies.[L44602]
-- Hypertension, as add-on therapy, in patients not adequately controlled by other agents.[L44602, L47810]
-- Edema associated with hepatic cirrhosis when edema is not responsive to fluid and sodium restriction.[L44602, L47810]
-- Edema associated with nephrotic syndrome when treatment of the underlying disease, restriction of fluid and sodium intake, and the use of other diuretics produce an inadequate response.[L44602]
-- Refractory edema associated with congestive cardiac failure, malignant ascites, hepatic cirrhosis with ascites, and essential hypertension.[L47810]
-- Short-term preoperative treatment of patients with primary hyperaldosteronism.[L44602, L47810]
-- Diagnosis of primary aldosteronism.[L47810]
-- Long-term maintenance therapy for patients with discrete aldosterone-producing adrenal adenomas who are not candidates for surgery.[L44602]
-- Long-term maintenance therapy for patients with bilateral micro or macronodular adrenal hyperplasia (idiopathic hyperaldosteronism).[L44602]
-
-As spironolactone has antiandrogenic activity, its off-label uses include the treatment of hirsutism, female pattern hair loss, and adult acne vulgaris.[A178135, A261025]
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q422188](https://www.wikidata.org/wiki/Q422188) and the WHO ATC classification and the EMA medicines list; not checked by a person.</small>
 
 ## Molecules and molar masses
 
@@ -43,7 +28,7 @@ As spironolactone has antiandrogenic activity, its off-label uses include the tr
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-28 14:57 | 8:49 | 1/0/1 | 0/0/0 | 0/0/0 | 124,257/22,172 | ollama / qwen3.8:27b-mtp-q8_0 | 2 | 1/1 | 2/0 | 0 |
+| 2026-09-28 14:57 | 8:49 | 0/0/2 | 0/0/0 | 0/0/0 | 124,257/22,172 | ollama / qwen3.8:27b-mtp-q8_0 | 2 | 1/1 | 2/0 | 0 |
 
 ## popPK records
 
@@ -65,20 +50,19 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 | absorption | small intestine | `ABCB1` inducer, `SLCO1A2` inhibitor | DrugBank actor |
 | absorption | testis | `ABCB1` inducer | DrugBank actor |
 | distribution | blood | `ALB` binder, `ORM1` binder | DrugBank actor |
-| metabolism | kidney | <sub>“…cts of the synthetic mineralocorticoid, fludrocortisone, on urinary electrolyte compositio…”</sub> | prose |
 | metabolism | liver | `CYP2C8` inhibitor | DrugBank actor |
-| excretion | bile duct | <sub>“…ites are excreted primarily in the urine and secondarily in bile.[L44602] Metabolites of s…”</sub> | prose |
+| excretion | bile duct | <sub>named in DrugBank's ADME text</sub> | prose |
 | excretion | kidney | `ABCC2` inducer | DrugBank actor |
 | excretion | liver | `ABCB11` substrate, `ABCC2` inducer | DrugBank actor |
 | excretion | small intestine | `ABCC2` inducer | DrugBank actor |
-| target | adrenal gland | `CYP11B1` inducer | DrugBank actor |
-| target | prostate gland | `AR` target | DrugBank actor |
+| — | adrenal gland | `CYP11B1` inducer | DrugBank actor |
+| — | prostate gland | `AR` target | DrugBank actor |
 
 <sub>Actors without a tissue in the table: CACNA1C (inhibitor), CYP11B2 (inhibitor), ESR1 (target), NR1I2 (target), NR3C1 (target), NR3C2 (target), PGR (target).</sub>
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 

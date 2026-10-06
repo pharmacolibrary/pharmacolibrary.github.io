@@ -1,37 +1,43 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01B&quot;,&quot;href&quot;:&quot;atc/C01B.md&quot;},{&quot;label&quot;:&quot;amiodarone&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/&quot;},{&quot;label&quot;:&quot;Sermsappasuk_2006 \u00b7 estimate_mean_s_d&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Amiodarone_Gaete1995_reference&quot;,&quot;label&quot;:&quot;Gaete_1995_reference&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Gaete1995_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Kolowrat2025_reference&quot;,&quot;label&quot;:&quot;Kolowrat_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Kolowrat2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Lesko1989_reference&quot;,&quot;label&quot;:&quot;Lesko_1989_reference&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Lesko1989_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Morath2025_reference&quot;,&quot;label&quot;:&quot;Morath_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Morath2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Hirai2022_reference&quot;,&quot;label&quot;:&quot;Hirai_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Hirai2022_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Li2025_base&quot;,&quot;label&quot;:&quot;Li_2025_base&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Li2025_base.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Li2025_final&quot;,&quot;label&quot;:&quot;Li_2025_final&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Li2025_final.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Sermsappasuk2006_cv_mean_s_d&quot;,&quot;label&quot;:&quot;Sermsappasuk_2006_cv_mean_s_d&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Sermsappasuk2006_cv_mean_s_d.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Sermsappasuk2006_estimate_mean_s_d&quot;,&quot;label&quot;:&quot;Sermsappasuk_2006_estimate_mean_s_d&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Sermsappasuk2006_estimate_mean_s_d.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Amiodarone_Yonezawa2002_mex_amd_group_1&quot;,&quot;label&quot;:&quot;Yonezawa_2002_mex_amd_group_1&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Yonezawa2002_mex_amd_group_1.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Yonezawa2002_mex_amd_group_3&quot;,&quot;label&quot;:&quot;Yonezawa_2002_mex_amd_group_3&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Yonezawa2002_mex_amd_group_3.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Yonezawa2002_mex_amd_group_5&quot;,&quot;label&quot;:&quot;Yonezawa_2002_mex_amd_group_5&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Yonezawa2002_mex_amd_group_5.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Yonezawa2002_mex_group&quot;,&quot;label&quot;:&quot;Yonezawa_2002_mex_group&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Yonezawa2002_mex_group.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_AnastasiouNana1982_reference&quot;,&quot;label&quot;:&quot;Anastasiou-Nana_1982_reference&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_AnastasiouNana1982_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Lehnert2022_reference&quot;,&quot;label&quot;:&quot;Lehnert_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Lehnert2022_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Pollak2000_amiodarone_typical_value&quot;,&quot;label&quot;:&quot;Pollak_2000_amiodarone_typical_value&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Pollak2000_amiodarone_typical_value.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Pollak2000_desethylamiodarone_typical_value&quot;,&quot;label&quot;:&quot;Pollak_2000_desethylamiodarone_typical_value&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Pollak2000_desethylamiodarone_typical_value.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Riva1982_reference&quot;,&quot;label&quot;:&quot;Riva_1982_reference&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Riva1982_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Amiodarone_Gaete1995_reference&quot;,&quot;label&quot;:&quot;Gaete_1995_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Gaete1995_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Hirai2022_reference&quot;,&quot;label&quot;:&quot;Hirai_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Hirai2022_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Kolowrat2025_reference&quot;,&quot;label&quot;:&quot;Kolowrat_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Kolowrat2025_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Lesko1989_reference&quot;,&quot;label&quot;:&quot;Lesko_1989_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Lesko1989_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Morath2025_reference&quot;,&quot;label&quot;:&quot;Morath_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Morath2025_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Pollak2000_amiodarone_typical_value&quot;,&quot;label&quot;:&quot;Pollak_2000_amiodarone_typical_value&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Pollak2000_amiodarone_typical_value.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Amiodarone_Pollak2000_desethylamiodarone_typical_value&quot;,&quot;label&quot;:&quot;Pollak_2000_desethylamiodarone_typical_value&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/Amiodarone_Pollak2000_desethylamiodarone_typical_value.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Sermsappasuk_2006_LVDP&quot;,&quot;label&quot;:&quot;Sermsappasuk_2006 \u00b7 LVDP&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_amiodarone/pd_Sermsappasuk_2006_LVDP.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # amiodarone — `Amiodarone_Sermsappasuk2006_estimate_mean_s_d`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.5). The first reading is what the record holds.">cross-check: disputed</span> <span class="pk-badge pk-badge--species" title="Animal study (rat), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">rat</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+> **Species: rat.** This record comes from an animal study (rat), not from people. The values, the model and its simulation are shown as the paper reports them — they describe that system, not human pharmacology (read from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).
+
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
-**Only clearance was extracted — no volume; k12 and k21 have no unit.**
+**The amiodarone record was rejected because the intercompartmental rate constants k12 and k21 were reported with units of l/min, a unit that could not be converted to SI, giving a dimension mismatch on a structural parameter.**
 
-A model needs both clearance and volume; without the volume it could only be built on a library default, so it was not. Without a unit the value cannot be converted, so the model cannot use it. A reported unit could not be converted (k12 and k21), so that value has no SI equivalent. Extracted — amiodarone: k12 519 mean ± S.D., k21 0.003 mean ± S.D., CL 31.1 ml/min, kabs 0.82 h−1.
+For amiodarone in isolated perfused rat hearts, k12 = 519.0 and k21 = 0.0030 were labelled l/min although their meaning is first-order transfer rate constants, which should be dimensionless per time; this unit could not be converted to SI, so the parameters reached the model without an SI value and the record was refused on a dimension mismatch. The uptake clearance CL D = 31.1 ml/min was also inconsistently captured: a second reader recorded it under a different parameter field, leaving one field null in each reading. The remaining parameters, kabs = 0.82 h−1, were not flagged. Extracted — amiodarone: k12 519 l/min, k21 0.003 l/min, CL 31.1 ml/min, kabs 0.82 h−1.
 
-<sub>reviewed by rule template (no LLM)</sub>
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has amiodarone, the second reading unknown; it also differs on 3 more fields. That field shapes the model, so the record is marked disputed.
+
+<sub>reviewed by glm-5.3-flash</sub>
+
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-10-05 09:23:59.025883+00:00) predates the upstream re-run (2026-10-06 02:04:41.439118+00:00). Current validate status: `needs_review`.
 
 ## Citation
-Sermsappasuk P; Baek M; Weiss M et al. (2006). European journal of pharmaceutical sciences : official journal of the European Federation for Pharmaceutical Sciences 28
+Sermsappasuk P et al., Kinetic analysis of myocardial uptake a…, European journal of pharmac… (2006)
   ·  DOI: [10.1016/j.ejps.2006.02.007](https://doi.org/10.1016/j.ejps.2006.02.007)
 
 ## Model component
-<dbs-pgx drug="amiodarone" model-id="Amiodarone_Sermsappasuk2006_estimate_mean_s_d" status="needs_review" stale="false" population="isolated perfused rat hearts" measured-compound="amiodarone" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="amiodarone" model-id="Amiodarone_Sermsappasuk2006_estimate_mean_s_d" status="needs_review" stale="true" population="isolated perfused rat hearts" measured-compound="amiodarone" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
-**Model structure:** 1-compartment, IV mammillary model — template `PK_1C`.  
-**Parameters:** 4 extracted.
+**Model structure:** 1-compartment; no model was built for this record.  
+**Parameters:** 5 extracted.
 
 **Parameterization:** mechanistic.
 
@@ -40,9 +46,10 @@ Sermsappasuk P; Baek M; Weiss M et al. (2006). European journal of pharmaceutica
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| k₁₂ (1/min) | `Q301` · k12 | 519.0 | mean ± S.D. | not captured | [s] · [d] · [m] · [ean±] | not captured | exact (1.0) | Sermsappasuk_2006_table_1:row0:col1 | — | not captured |
-| k₂₁ (1/min) | `Q302` · k21 | 0.0030 | mean ± S.D. | not captured | [s] · [d] · [m] · [ean±] | not captured | exact (1.0) | Sermsappasuk_2006_table_1:row1:col1 | — | not captured |
+| k12 (1/min) | `Q301` · k12 | 519.0 | 1/min | 8.65 | 1/h | not captured | exact (1.0) | Sermsappasuk_2006_table_1:row1:col1 | — | not captured |
+| k21 (1/min) | `Q302` · k21 | 0.0030 | 1/min | 5e-05 | 1/h | not captured | exact (1.0) | Sermsappasuk_2006_table_1:row2:col1 | — | not captured |
 | uptake clearance CL D | `Q22` · CL | 31.1 | ml/min | 5.183333333333333e-07 | L/h | not captured | boundary (0.8) | Sermsappasuk_2006:results_prose | — | not captured |
+| tvV(L) | `Q61` · V | 30.703 | L | 0.030703 | L | not captured | review_gapfill (0.7) | Li_2025:review | — | not captured |
 | K a (h−1) | `Q49` · kabs | 0.82 | h−1 | 0.00022777777777777775 | 1/h | not captured | review_gapfill (0.7) | Kolowrat_2025:review | — | not captured |
 
 <details class="legend">
@@ -55,15 +62,18 @@ Sermsappasuk P; Baek M; Weiss M et al. (2006). European journal of pharmaceutica
 **Interpretation flags:**
 - unit_dimension_unknown: 'mean ± S.D.' (k12)
 - unit_dimension_unknown: 'mean ± S.D.' (k21)
-- dropped unlinked row (NIL): 'τ (min)' — extend the ontology if this is a real PK parameter (source ['Sermsappasuk_2006_table_1:row2:col1'])
-- dropped PD-category row 'Eₘₐₓ (%)' → Q320 (Emax, category G11) — pharmacodynamic parameters belong to scholarpd, not the PK model (source ['Sermsappasuk_2006_table_1:row3:col1'])
-- dropped PD-category row 'EC₅₀ (µM)' → Q321 (EC50, category G11) — pharmacodynamic parameters belong to scholarpd, not the PK model (source ['Sermsappasuk_2006_table_1:row4:col1'])
+- dropped unlinked row (NIL): 'τ (min)' — extend the ontology if this is a real PK parameter (source ['Sermsappasuk_2006_table_1:row4:col1'])
+- dropped PD-category row 'Emax (%)' → Q320 (Emax, category G11) — pharmacodynamic parameters belong to scholarpd, not the PK model (source ['Sermsappasuk_2006_table_1:row5:col1'])
+- dropped PD-category row 'EC50 (μM)' → Q321 (EC50, category G11) — pharmacodynamic parameters belong to scholarpd, not the PK model (source ['Sermsappasuk_2006_table_1:row6:col1'])
 - salvaged Q22 ('uptake clearance CL D'=31.1) from results prose — parameter table was unreadable
+- implicit units: 'k12 (1/min)' → 1/min (from the paper text: "The parameter is explicitly listed in the input as 'k12 (1/min) = 519.0'. Additionally, the text describes k12 as a 'fir")
+- implicit units: 'k21 (1/min)' → 1/min (from the paper text: "The parameter is explicitly listed in the input as 'k21 (1/min) = 0.0030'. It is described as a 'first order rate consta")
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=amiodarone
 - held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - structure disagreement: deterministic 1C vs LLM 2C — review compartment count
 - status held at route_to_review — not promoted
-- population split: 'estimate (mean ± s.d.)' subgroup of Sermsappasuk_2006 (paper reports 2 populations: cvᵃ (mean ± s.d.), estimate (mean ± s.d.))
+- population split: 'estimate (mean ± s.d.)' subgroup of Sermsappasuk_2006 (paper reports 2 populations: cva (mean ± s.d.), estimate (mean ± s.d.))
+- gap-filled Q61 (V) from Li_2025's review values (primary lacked it)
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary's parameterization (rate-constant / ka-only) does not use it
 - gap-filled Q49 (kabs) from Kolowrat_2025's review values (primary lacked it)
@@ -74,6 +84,30 @@ Sermsappasuk P; Baek M; Weiss M et al. (2006). European journal of pharmaceutica
 
 ## Validation
 
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
+first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whatever the readers say
+
+| second reader | verdict | agreement | disagreements |
+|---|---|---|---|
+| `gpt-oss:120b` | not confirmed | 0.5 (4/8 fields) | 4 |
+
+<details><summary>4 field(s) a reader read differently</summary>
+
+| second reader | field | first reading | second reading | agreement |
+|---|---|---|---|---|
+| `gpt-oss:120b` | `parameters[cl d]` | not captured | 31.1 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[uptake clearance cl d]` | 31.1 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | amiodarone | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | amiodarone | unknown | mismatch |
+
+</details>
+
+<details class="legend">
+<summary>Cross-check legend</summary>
+<table><thead><tr><th>column</th><th>what it holds</th></tr></thead><tbody><tr><td><code>second reader</code></td><td>a model that re-read the paper independently, always from a different family than the first reading (scholarv2.secondary_for): a qwen primary is checked by gpt-oss:120b, a gpt-oss primary by qwen3.8:27b-mtp-q8_0 — two checkpoints of one family share their misreads, so agreement between them would mean little. A record can have several readers.</td></tr><tr><td><code>agreement</code></td><td>share of the compared fields that reader agreed on.</td></tr><tr><td><code>verdict</code></td><td>per reader: `confirmed` it agrees throughout · `partly confirmed` a non-structural field differs · `not confirmed` a structural one differs (clearance, a volume, ka, a lag) · `primary re-run` the first reading extracted nothing and was given one hinted retry.</td></tr><tr><td><code>combined</code></td><td>the record's verdict over ALL its readers: confirmed only when every reader that answered agrees, disputed as soon as one disagrees on a structural parameter. The most favourable reading is never taken — an extra reader must not be a way to find one that agrees.</td></tr><tr><td><code>kept</code></td><td>which reading the record holds. ALWAYS the first — a disagreement is a signal for a reviewer, never an automatic correction, so the numbers on this page are the first model's either way.</td></tr></tbody></table>
+</details>
+
+
 **Scholar closed-form checks:**
 
 | check | status | expected | obtained | ratio | tol | source |
@@ -81,12 +115,14 @@ Sermsappasuk P; Baek M; Weiss M et al. (2006). European journal of pharmaceutica
 | C0_has_structural_params | pass | not captured | 3 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q301 | pass | 1 / [time] | not captured | not captured | not captured | ['Sermsappasuk_2006_table_1:row1:col1'] |
+| C5_dimension_Q302 | pass | 1 / [time] | not captured | not captured | not captured | ['Sermsappasuk_2006_table_1:row2:col1'] |
 | C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Kolowrat_2025:review'] |
-| C5_unit_missing_Q301 | fail | 1 / [time] | mean ± S.D. | not captured | not captured | ['Sermsappasuk_2006_table_1:row0:col1'] |
-| C5_unit_missing_Q302 | fail | 1 / [time] | mean ± S.D. | not captured | not captured | ['Sermsappasuk_2006_table_1:row1:col1'] |
+| C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Li_2025:review'] |
 | C6_cl_magnitude | pass | &lt;= 90.0 L/h | 31.1 | not captured | not captured | ['Sermsappasuk_2006:results_prose'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
 | C9_phys_window_Q22 | pass | clearance within physiological range | 1.87 L/h | not captured | not captured | ['Sermsappasuk_2006:results_prose'] |
+| C9_phys_window_Q61 | pass | volume within physiological range | 30.7 L | not captured | not captured | ['Li_2025:review'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -121,4 +157,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-19 14:14 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-06 02:04 UTC</sub>

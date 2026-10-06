@@ -1,15 +1,14 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A10A&quot;,&quot;href&quot;:&quot;atc/A10A.md&quot;},{&quot;label&quot;:&quot;insulin glargine&quot;,&quot;href&quot;:&quot;drugs/drug_insulin_glargine/&quot;},{&quot;label&quot;:&quot;Tham_2017 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;InsulinGlargine_Tham2017_reference&quot;,&quot;label&quot;:&quot;Tham_2017_reference&quot;,&quot;href&quot;:&quot;drugs/drug_insulin_glargine/InsulinGlargine_Tham2017_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # insulin glargine — `InsulinGlargine_Tham2017_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.312). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.438). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -21,19 +20,21 @@
 
 The covariate effect of dose on clearance was extracted as -0.282, which fails the plausibility check for negative clearance values, and a dimension mismatch was flagged on a structural parameter. Several parameter values (absorption lag 0.265 h, absorption rate constant 0.0365 1/h, apparent clearance 30.5 L/h, apparent volume 43.0 L) are disputed by a second reader, who read 0.378 h, 0.0830 1/h, 74.5 L/h and 768 L respectively, so the extracted numbers are uncertain. One parameter was reported in a unit that could not be converted to SI, so it was recorded without a usable magnitude. Extracted — insulin glargine: Fab 1 Unit, kabs 0.0365 Unit, tlag 0.265 h, V/F 43 L, CL/F 30.5 L/h, CL -0.282 Unit.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has insulin, the second reading insulin glargine; it also differs on 10 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on `parameters[absorption lag, alag].value`: this record has 0.265, the second reading 0.378; it also differs on 8 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-09-28 14:38:22.778695+00:00) predates the upstream re-run (2026-10-04 22:02:22.188151+00:00). Current validate status: `rejected`.
+
 ## Citation
-Tham LS; Schneck K; Ertekin A; Reviriego J et al. (2017). Journal of clinical pharmacology 57
+Tham LS et al., Modeling Pharmacokinetic Profiles of In…, Journal of clinical pharmac… (2017)
   ·  DOI: [10.1002/jcph.899](https://doi.org/10.1002/jcph.899)
 
 ## Model component
-<dbs-pgx drug="insulin glargine" model-id="InsulinGlargine_Tham2017_reference" status="rejected" stale="false" population="healthy adults" measured-compound="insulin" parameterization="apparent" topology="1C"></dbs-pgx>
+<dbs-pgx drug="insulin glargine" model-id="InsulinGlargine_Tham2017_reference" status="rejected" stale="true" population="healthy adults" measured-compound="insulin glargine" parameterization="apparent" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment; no model was built for this record.  
-**Parameters:** 6 extracted, plus 1 covariate effect.
+**Parameters:** 6 extracted, plus 2 covariate effects.
 
 **Parameterization:** CL/F, V/F — apparent, F unknown (apparent — bioavailability not identifiable).
 
@@ -42,12 +43,13 @@ Tham LS; Schneck K; Ertekin A; Reviriego J et al. (2017). Journal of clinical ph
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Bioavailability, FGlar | `Q40` · Fab | 1 | Unit | not captured | not captured | not captured | llm_confirmed (0.6) | jcph899-tbl-0002:row3:col1 | — | not captured |
-| Absorption rate constant, Ka (1/h) | `Q49` · kabs | 0.0365 | Unit | not captured | [unit] | not captured | llm_confirmed (0.6) | jcph899-tbl-0002:row6:col1, jcph899-tbl-0002:row6:col2, jcph899-tbl-0002:row6:col3, jcph899-tbl-0002:row6:col4, jcph899-tbl-0002:row6:col5, jcph899-tbl-0002:row6:col6 | — | not captured |
+| Bioavailability, FGlar | `Q40` · Fab | 1 | not captured | not captured | not captured | not captured | llm_confirmed (0.6) | jcph899-tbl-0002:row3:col1 | — | not captured |
+| Absorption rate constant, Ka (1/h) | `Q49` · kabs | 0.0365 | 1/h | 1.0138888888888888e-05 | 1/h | not captured | llm_confirmed (0.6) | jcph899-tbl-0002:row6:col1, jcph899-tbl-0002:row6:col2, jcph899-tbl-0002:row6:col3, jcph899-tbl-0002:row6:col4, jcph899-tbl-0002:row6:col5, jcph899-tbl-0002:row6:col6 | — | not captured |
 | Absorption lag, ALag (h) | `Q83` · tlag | 0.265 | h | 954.0 | [h] | not captured | llm_confirmed (0.6) | jcph899-tbl-0002:row7:col4, jcph899-tbl-0002:row7:col5 | — | not captured |
 | Apparent volume of distribution (L) | `Q76` · V/F | 43.0 | L | 0.043000000000000003 | [l] | not captured | exact (1.0) | jcph899-tbl-0002:row12:col1, jcph899-tbl-0002:row12:col2, jcph899-tbl-0002:row12:col3, jcph899-tbl-0002:row12:col4, jcph899-tbl-0002:row12:col5, jcph899-tbl-0002:row12:col6 | — | not captured |
 | Apparent clearance (L/h) | `Q27` · CL/F | 30.5 | L/h | 8.472222222222223e-06 | [l] / [h] | not captured | exact (1.0) | jcph899-tbl-0002:row15:col1, jcph899-tbl-0002:row15:col2, jcph899-tbl-0002:row15:col3, jcph899-tbl-0002:row15:col4, jcph899-tbl-0002:row15:col5, jcph899-tbl-0002:row15:col6 | — | not captured |
-| Covariate effect of dose on clearance | `Q22` · CL | -0.282 | Unit | not captured | [unit] | not captured | llm_confirmed (0.6) | jcph899-tbl-0002:row16:col2, jcph899-tbl-0002:row16:col3, jcph899-tbl-0002:row16:col4 | — | not captured |
+| Covariate effect of dose on clearance | `Q22` · CL | -0.282 | not captured | not captured | not captured | not captured | llm_confirmed (0.6) | jcph899-tbl-0002:row16:col2, jcph899-tbl-0002:row16:col3, jcph899-tbl-0002:row16:col4 | — | not captured |
+| covariate_of_body_weight_on_baseline_endogenous_insulin | `Q900` · covariate_of_body_weight_on_baseline_endogenous_insulin | 0.739 | not captured | not captured | not captured | not captured | not captured (not captured) | jcph899-tbl-0002:row22:col1, jcph899-tbl-0002:row22:col2, jcph899-tbl-0002:row22:col3, jcph899-tbl-0002:row22:col4, jcph899-tbl-0002:row22:col5, jcph899-tbl-0002:row22:col6 | — | not captured |
 | theta_q61_body_weight | `Q900` · theta_q61_body_weight | 2.48 | not captured | not captured | not captured | not captured | not captured (not captured) | jcph899-tbl-0002:row13:col1, jcph899-tbl-0002:row13:col2, jcph899-tbl-0002:row13:col5, jcph899-tbl-0002:row13:col6 | — | not captured |
 
 <details class="legend">
@@ -58,22 +60,17 @@ Tham LS; Schneck K; Ertekin A; Reviriego J et al. (2017). Journal of clinical ph
 ## Departures & gaps
 
 **Interpretation flags:**
-- unit_dimension_mismatch: 'Absorption rate constant, Ka (1/h)' → Q49 (unit '[luminosity] / [length] ** 2' vs ontology '1 / [time]') — route to review
+- table section covariance: 'Clearance and volume of distribution' routed out of structural estimates ('Covariances')
+- table section covariance: 'Clearance and absorption rate constant' routed out of structural estimates ('Covariances')
+- table section residual_error: 'Proportional (%)' routed out of structural estimates ('Residual error')
 - dropped duplicate Q40 ('Fraction of dose undergoing first‐order absorption', value '0.729') — already have one for this compound
 - dropped unlinked row (NIL): 'Duration of 0‐order absorption (h)' — extend the ontology if this is a real PK parameter (source ['jcph899-tbl-0002:row9:col1', 'jcph899-tbl-0002:row9:col5'])
-- unit_dimension_mismatch: 'Covariate effect of dose on absorption rate constant' → Q49 (unit '[luminosity] / [length] ** 2' vs ontology '1 / [time]') — route to review
 - dropped duplicate Q49 ('Covariate effect of dose on absorption rate constant', value '-0.275') — already have one for this compound
-- unit_dimension_mismatch: 'Covariate effect of dose on clearance' → Q22 (unit '[luminosity] / [length] ** 2' vs ontology '[length] ** 3 / [time]') — route to review
-- dropped unlinked row (NIL): 'Clearance and volume of distribution' — extend the ontology if this is a real PK parameter (source ['jcph899-tbl-0002:row18:col1'])
-- unit_dimension_mismatch: 'Clearance and absorption rate constant' → Q49 (unit '[luminosity] / [length] ** 2' vs ontology '1 / [time]') — route to review
-- dropped duplicate Q49 ('Clearance and absorption rate constant', value '-0.0232') — already have one for this compound
 - dropped PD-category row 'Baseline endogenous insulin concentration (pmol/L)' → Q324 (E0, category G11) — pharmacodynamic parameters belong to scholarpd, not the PK model (source ['jcph899-tbl-0002:row21:col1'])
-- dropped unlinked row (NIL): 'Covariate of body weight on baseline endogenous insulin' — extend the ontology if this is a real PK parameter (source ['jcph899-tbl-0002:row22:col1', 'jcph899-tbl-0002:row22:col2', 'jcph899-tbl-0002:row22:col3', 'jcph899-tbl-0002:row22:col4', 'jcph899-tbl-0002:row22:col5', 'jcph899-tbl-0002:row22:col6'])
-- dropped unlinked row (NIL): 'Proportional (%)' — extend the ontology if this is a real PK parameter (source ['jcph899-tbl-0002:row24:col1', 'jcph899-tbl-0002:row24:col2', 'jcph899-tbl-0002:row24:col3', 'jcph899-tbl-0002:row24:col4', 'jcph899-tbl-0002:row24:col5', 'jcph899-tbl-0002:row24:col6'])
+- covariate level 'Covariate of body weight on baseline endogenous insulin' → Q900:covariate_of_body_weight_on_baseline_endogenous_insulin = 0.739 (linear_fractional on Q27)
 - covariate effect for Q61 has no base parameter row (kept as unattached equation-variable)
-- apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=insulin
-- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
-- status held at route_to_review — not promoted
+- implicit units: 'Absorption rate constant, Ka (1/h)' → 1/h (from the popPK convention: 'The paper does not explicitly state the unit for Ka in the provided text or table captions. However, Ka is a first-order')
+- apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=insulin glargine
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
 
@@ -87,23 +84,21 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.312 (5/16 fields) | 11 |
+| `gpt-oss:120b` | not confirmed | 0.438 (7/16 fields) | 9 |
 
-<details><summary>11 field(s) a reader read differently</summary>
+<details><summary>9 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
 | `gpt-oss:120b` | `parameters[absorption lag, alag].value` | 0.265 | 0.378 | mismatch |
 | `gpt-oss:120b` | `parameters[absorption rate constant, ka].value` | 0.0365 | 0.0830 | mismatch |
+| `gpt-oss:120b` | `parameters[apparent clearance].covariate_forms` | ['linear_fractional'] | [] | mismatch |
 | `gpt-oss:120b` | `parameters[apparent clearance].value` | 30.5 | 74.5 | mismatch |
 | `gpt-oss:120b` | `parameters[apparent volume of distribution].value` | 43.0 | 768 | mismatch |
-| `gpt-oss:120b` | `parameters[baseline endogenous insulin concentration]` | not captured | 79.7 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[bioavailability, fglar].parameter_id` | Q40 | Q41 | mismatch |
-| `gpt-oss:120b` | `parameters[covariate effect of dose on bioavailability, θ1]` | not captured | -0.300 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[covariate_of_body_weight_on_baseline_endogenous_insulin]` | 0.739 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[duration of 0‐order absorption]` | not captured | 0.612 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[theta_q324_body_weight]` | not captured | 0.739 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[theta_q61_body_weight].value` | 2.48 | 0.00728 | mismatch |
-| `gpt-oss:120b` | `screen.dose_compound` | insulin | insulin glargine | mismatch |
-| `gpt-oss:120b` | `screen.primary_analyte` | insulin | insulin glargine | mismatch |
 
 </details>
 
@@ -117,14 +112,15 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 7 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 6 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
+| C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
 | C2_base_sign_Q22 | fail | not captured | -0.282 | not captured | not captured | not captured |
-| C5_dimension_Q22 | fail | [luminosity] / [length] ** 2 | Unit | not captured | not captured | ['jcph899-tbl-0002:row16:col2', 'jcph899-tbl-0002:row16:col3', 'jcph899-tbl-0002:row16:col4'] |
 | C5_dimension_Q27 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['jcph899-tbl-0002:row15:col1', 'jcph899-tbl-0002:row15:col2', 'jcph899-tbl-0002:row15:col3', 'jcph899-tbl-0002:row15:col4', 'jcph899-tbl-0002:row15:col5', 'jcph899-tbl-0002:row15:col6'] |
-| C5_dimension_Q49 | fail | [luminosity] / [length] ** 2 | Unit | not captured | not captured | ['jcph899-tbl-0002:row6:col1', 'jcph899-tbl-0002:row6:col2', 'jcph899-tbl-0002:row6:col3', 'jcph899-tbl-0002:row6:col4', 'jcph899-tbl-0002:row6:col5', 'jcph899-tbl-0002:row6:col6'] |
+| C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['jcph899-tbl-0002:row6:col1', 'jcph899-tbl-0002:row6:col2', 'jcph899-tbl-0002:row6:col3', 'jcph899-tbl-0002:row6:col4', 'jcph899-tbl-0002:row6:col5', 'jcph899-tbl-0002:row6:col6'] |
 | C5_dimension_Q76 | pass | [length] ** 3 | not captured | not captured | not captured | ['jcph899-tbl-0002:row12:col1', 'jcph899-tbl-0002:row12:col2', 'jcph899-tbl-0002:row12:col3', 'jcph899-tbl-0002:row12:col4', 'jcph899-tbl-0002:row12:col5', 'jcph899-tbl-0002:row12:col6'] |
 | C5_dimension_Q83 | pass | [time] | not captured | not captured | not captured | ['jcph899-tbl-0002:row7:col4', 'jcph899-tbl-0002:row7:col5'] |
+| C5_unit_missing_Q22 | fail | [length] ** 3 / [time] | not captured | not captured | not captured | ['jcph899-tbl-0002:row16:col2', 'jcph899-tbl-0002:row16:col3', 'jcph899-tbl-0002:row16:col4'] |
 | C7_apparent_coherence | pass | not captured | not captured | not captured | not captured | not captured |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
 | C9_phys_window_Q27 | pass | clearance within physiological range | 30.5 L/h | not captured | not captured | ['jcph899-tbl-0002:row15:col1', 'jcph899-tbl-0002:row15:col2', 'jcph899-tbl-0002:row15:col3', 'jcph899-tbl-0002:row15:col4', 'jcph899-tbl-0002:row15:col5', 'jcph899-tbl-0002:row15:col6'] |
@@ -153,4 +149,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-12 04:41 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-04 22:02 UTC</sub>

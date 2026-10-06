@@ -1,15 +1,14 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B01A&quot;,&quot;href&quot;:&quot;atc/B01A.md&quot;},{&quot;label&quot;:&quot;tinzaparin&quot;,&quot;href&quot;:&quot;drugs/drug_tinzaparin/&quot;},{&quot;label&quot;:&quot;Gouin-Thibault_2024 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tinzaparin_GouinThibault2024_reference&quot;,&quot;label&quot;:&quot;Gouin-Thibault_2024_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tinzaparin/Tinzaparin_GouinThibault2024_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # tinzaparin — `Tinzaparin_GouinThibault2024_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.727). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -21,19 +20,23 @@
 
 The check had no reference to compare the clearance against, so the value is unverified rather than shown to be wrong. None of the extracted parameters is tinzaparin's own; they describe tinzaparin anti-Xa. Extracted — tinzaparin anti-Xa: V 3.66e+03 mL, CL 891 mL.h -1.
 
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has tinzaparin, the second reading unknown; it also differs on 2 more fields. That field shapes the model, so the record is marked disputed.
+
 <sub>reviewed by rule template (no LLM)</sub>
+
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-09-28 14:41:49.551139+00:00) predates the upstream re-run (2026-10-05 16:46:40.781284+00:00). Current validate status: `needs_review`.
 
 > **Dose compound ≠ measured compound:** dosed `tinzaparin`, measured `tinzaparin anti-Xa`.
 
 ## Citation
-Gouin-Thibault I; Mansour A; Caribotti C; Pierre-Jean M; Bouzille G; Ballerie A; et al. et al. (2024). Journal of thrombosis and haemostasis : JTH 22
+Gouin-Thibault I et al., Tinzaparin, an alternative to subcutane…, Journal of thrombosis and h… (2024)
   ·  DOI: [10.1016/j.jtha.2024.07.006](https://doi.org/10.1016/j.jtha.2024.07.006)
 
 ## Model component
-<dbs-pgx drug="tinzaparin" model-id="Tinzaparin_GouinThibault2024_reference" status="needs_review" stale="false" population="patients with severe and end-stage renal impairment" measured-compound="tinzaparin anti-Xa" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="tinzaparin" model-id="Tinzaparin_GouinThibault2024_reference" status="needs_review" stale="true" population="patients with severe and end-stage renal impairment" measured-compound="tinzaparin anti-Xa" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment; no model was built for this record.  
-**Parameters:** 2 extracted.
+**Parameters:** 4 extracted.
 
 **Parameterization:** mechanistic.
 
@@ -42,8 +45,10 @@ Gouin-Thibault I; Mansour A; Caribotti C; Pierre-Jean M; Bouzille G; Ballerie A;
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| volume of distribution | `Q61` · V | 3661 | mL | 0.0036609999999999998 | L | not captured | exact (1.0) | Gouin-Thibault_2024:results_prose | — | not captured |
-| clearance | `Q22` · CL | 891 | mL.h -1 | 2.475e-07 | L/h | not captured | exact (1.0) | Gouin-Thibault_2024:results_prose | — | not captured |
+| Ka (h -1 ) | `Q49` · kabs | 0.079 | h -1 | 2.1944444444444445e-05 | [1] / [h] | 12.4 | exact (1.0) | tab_0:row2:col1, tab_0:row2:col2 | — | not captured |
+| V (mL)* | `Q61` · V | 3661 | mL | 0.0036609999999999998 | L | 24.5 | llm (0.6) | tab_0:row3:col1, tab_0:row3:col2 | — | not captured |
+| Cl (mL.h -1 )* | `Q22` · CL | 891 | mL/h | 2.475e-07 | L/h | 3.7 | llm_confirmed (0.6) | tab_0:row4:col1, tab_0:row4:col2 | — | not captured |
+| 𝛽 𝐵𝑊 𝑉 | `Q319` · allometric_exponent | 1.45 | not captured | not captured | not captured | 35.1 | llm (0.6) | tab_0:row6:col1, tab_0:row6:col2 | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -53,19 +58,17 @@ Gouin-Thibault I; Mansour A; Caribotti C; Pierre-Jean M; Bouzille G; Ballerie A;
 ## Departures & gaps
 
 **Interpretation flags:**
-- dropped value-less row: 'Ka (h -1 )' (captured trailing unit 'h -1' for child rows)
-- dropped value-less row: 'V (mL)*'
-- dropped value-less row: 'Cl (mL.h -1 )*'
-- dropped value-less row: '𝛽 𝐵𝑊 𝑉'
-- dropped value-less row: '𝛽 𝐵𝑊 𝐶𝑙'
+- table section residual_error: 'Proportional (%)' routed out of structural estimates ('Residual error model')
+- dropped duplicate Q319 ('𝛽 𝐵𝑊 𝐶𝑙', value '0.87') — already have one for this compound
 - dropped value-less row: '𝜼 𝑽'
 - dropped value-less row: '𝜼 𝑪𝒍'
-- dropped value-less row: 'Proportional (%)' (captured trailing unit '%' for child rows)
-- salvaged Q61 ('volume of distribution'=3661) from results prose — parameter table was unreadable
-- salvaged Q22 ('clearance'=891) from results prose — parameter table was unreadable
+- implicit units: 'V (mL)*' → mL (from the paper text: "The paper text states: 'Mean values were 0.079 h -1 , 3661 mL, 891 mL.h -1 for constant of absorption, volume of distrib")
+- implicit units: 'Cl (mL.h -1 )*' → mL/h (from the paper text: "The paper text states: 'Mean values were 0.079 h -1 , 3661 mL, 891 mL.h -1 for constant of absorption, volume of distrib")
+- apparent-by-design (ADVISORY, codes unchanged): extravascular dosing with no identifiable F, so these reported disposition parameters are likely apparent unless the model puts first-pass in its structure — Q61 (V (mL)*); Q22 (Cl (mL.h -1 )*)
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=tinzaparin anti-Xa
-- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
-- status held at route_to_review — not promoted
+- molar mass: no plausible PubChem entry for 'tinzaparin anti-Xa' ('tinzaparin') — left in mass units
+- molar mass: none found for 'tinzaparin' — its concentrations stay mass-only
+- molar mass: none found for 'tinzaparin anti-Xa' — its concentrations stay mass-only
 
 **Extraction notes:**
 - unparsed cell tab_0:row9:col1 = '128% (11.6)'
@@ -73,16 +76,43 @@ Gouin-Thibault I; Mansour A; Caribotti C; Pierre-Jean M; Bouzille G; Ballerie A;
 
 ## Validation
 
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
+first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whatever the readers say
+
+| second reader | verdict | agreement | disagreements |
+|---|---|---|---|
+| `gpt-oss:120b` | not confirmed | 0.727 (8/11 fields) | 3 |
+
+<details><summary>3 field(s) a reader read differently</summary>
+
+| second reader | field | first reading | second reading | agreement |
+|---|---|---|---|---|
+| `gpt-oss:120b` | `parameters[β bw v]` | 1.45 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | tinzaparin | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | tinzaparin anti-Xa | unknown | mismatch |
+
+</details>
+
+<details class="legend">
+<summary>Cross-check legend</summary>
+<table><thead><tr><th>column</th><th>what it holds</th></tr></thead><tbody><tr><td><code>second reader</code></td><td>a model that re-read the paper independently, always from a different family than the first reading (scholarv2.secondary_for): a qwen primary is checked by gpt-oss:120b, a gpt-oss primary by qwen3.8:27b-mtp-q8_0 — two checkpoints of one family share their misreads, so agreement between them would mean little. A record can have several readers.</td></tr><tr><td><code>agreement</code></td><td>share of the compared fields that reader agreed on.</td></tr><tr><td><code>verdict</code></td><td>per reader: `confirmed` it agrees throughout · `partly confirmed` a non-structural field differs · `not confirmed` a structural one differs (clearance, a volume, ka, a lag) · `primary re-run` the first reading extracted nothing and was given one hinted retry.</td></tr><tr><td><code>combined</code></td><td>the record's verdict over ALL its readers: confirmed only when every reader that answered agrees, disputed as soon as one disagrees on a structural parameter. The most favourable reading is never taken — an extra reader must not be a way to find one that agrees.</td></tr><tr><td><code>kept</code></td><td>which reading the record holds. ALWAYS the first — a disagreement is a signal for a reviewer, never an automatic correction, so the numbers on this page are the first model's either way.</td></tr></tbody></table>
+</details>
+
+
 **Scholar closed-form checks:**
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 2 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 4 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
-| C6_cl_magnitude | fail | &lt;= 90.0 L/h | 891.0 | not captured | not captured | ['Gouin-Thibault_2024:results_prose'] |
+| C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['tab_0:row4:col1', 'tab_0:row4:col2'] |
+| C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['tab_0:row2:col1', 'tab_0:row2:col2'] |
+| C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['tab_0:row3:col1', 'tab_0:row3:col2'] |
+| C6_cl_magnitude | fail | &lt;= 90.0 L/h | 891.0 | not captured | not captured | ['tab_0:row4:col1', 'tab_0:row4:col2'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
-| C9_phys_window_Q22 | pass | clearance within physiological range | 0.891 L/h | not captured | not captured | ['Gouin-Thibault_2024:results_prose'] |
-| C9_phys_window_Q61 | pass | volume within physiological range | 3.66 L | not captured | not captured | ['Gouin-Thibault_2024:results_prose'] |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 0.891 L/h | not captured | not captured | ['tab_0:row4:col1', 'tab_0:row4:col2'] |
+| C9_phys_window_Q61 | pass | volume within physiological range | 3.66 L | not captured | not captured | ['tab_0:row3:col1', 'tab_0:row3:col2'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -117,4 +147,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-06 00:51 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-05 16:46 UTC</sub>

@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01B&quot;,&quot;href&quot;:&quot;atc/C01B.md&quot;},{&quot;label&quot;:&quot;quinidine&quot;,&quot;href&quot;:&quot;drugs/drug_quinidine/&quot;},{&quot;label&quot;:&quot;Fattinger_1991_2 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Quinidine_Fattinger1991v2_reference&quot;,&quot;label&quot;:&quot;Fattinger_1991_2_reference&quot;,&quot;href&quot;:&quot;drugs/drug_quinidine/Quinidine_Fattinger1991v2_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Quinidine_Kuroda2024_reference&quot;,&quot;label&quot;:&quot;Kuroda_2024_reference&quot;,&quot;href&quot;:&quot;drugs/drug_quinidine/Quinidine_Kuroda2024_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Quinidine_Rakhit1984_reference&quot;,&quot;label&quot;:&quot;Rakhit_1984_reference&quot;,&quot;href&quot;:&quot;drugs/drug_quinidine/Quinidine_Rakhit1984_reference.md&quot;,&quot;status&quot;:&quot;not simulated&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Quinidine_Ueda1980_reference&quot;,&quot;label&quot;:&quot;Ueda_1980_reference&quot;,&quot;href&quot;:&quot;drugs/drug_quinidine/Quinidine_Ueda1980_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Quinidine_Verme1992_reference&quot;,&quot;label&quot;:&quot;Verme_1992_reference&quot;,&quot;href&quot;:&quot;drugs/drug_quinidine/Quinidine_Verme1992_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Quinidine_Kuroda2024_reference&quot;,&quot;label&quot;:&quot;Kuroda_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_quinidine/Quinidine_Kuroda2024_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # quinidine — `Quinidine_Fattinger1991v2_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.947). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.947). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -17,20 +17,22 @@
 
 ### Reviewer guidance
 
-**Only volume was extracted — no clearance.**
+**Only volume was extracted — no clearance; cLR and Q have no unit.**
 
-A model needs both clearance and volume; without the clearance it could only be built on a library default, so it was not. Extracted — quinidine: CLR 0.0566, V1 161 l, Q 12.6, V2 66.7 l, tmax 1.37 h, Fab 1.36.
+A model needs both clearance and volume; without the clearance it could only be built on a library default, so it was not. Without a unit the value cannot be converted, so the model cannot use it. Extracted — quinidine: CLR 0.0566, V1 161 l, Q 12.6, V2 66.7 l, tmax 1.37 h, Fab 1.36.
 
 A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has quinidine, the second reading quinidine sulphate and quinidine bisulphate. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-10-05 09:31:07.496457+00:00) predates the upstream re-run (2026-10-06 04:23:16.162512+00:00). Current validate status: `needs_review`.
+
 ## Citation
-Fattinger K; Vozeh S; Ha HR; Borner M; Follath F et al. (1991). British journal of clinical pharmacology 31
+Fattinger K et al., Population pharmacokinetics of quinidine, British journal of clinical… (1991)
   ·  DOI: [10.1111/j.1365-2125.1991.tb05531.x](https://doi.org/10.1111/j.1365-2125.1991.tb05531.x)
 
 ## Model component
-<dbs-pgx drug="quinidine" model-id="Quinidine_Fattinger1991v2_reference" status="needs_review" stale="false" population="patients with arrhythmias" measured-compound="quinidine" parameterization="mechanistic" topology="2C"></dbs-pgx>
+<dbs-pgx drug="quinidine" model-id="Quinidine_Fattinger1991v2_reference" status="needs_review" stale="true" population="patients with arrhythmias" measured-compound="quinidine" parameterization="mechanistic" topology="2C"></dbs-pgx>
 
 **Model structure:** 2-compartment; no model was built for this record.  
 **Parameters:** 6 extracted, plus 1 covariate effect.
@@ -44,7 +46,7 @@ Fattinger K; Vozeh S; Ha HR; Borner M; Follath F et al. (1991). British journal 
 |---|---|---|---|---|---|---|---|---|---|---|
 | CLrenalc | `Q26` · CLR | 0.0566 | not captured | not captured | not captured | 0.0242 | llm (0.6) | Fattinger_1991_2_table_p4_1:row0:col1, Fattinger_1991_2_table_p4_1:row0:col2 | — | not captured |
 | V1 (l) | `Q63` · V1 | 161 | l | 0.161 | [l] | 14 | exact (1.0) | Fattinger_1991_2_table_p4_1:row3:col1, Fattinger_1991_2_table_p4_1:row3:col2 | — | not captured |
-| Q (1 h-1)e | `Q30` · Q | 12.6 | not captured | not captured | not captured | 5.8 | llm (0.6) | Fattinger_1991_2_table_p4_1:row4:col1, Fattinger_1991_2_table_p4_1:row4:col2 | — | not captured |
+| Q (1 h-1)e | `Q30` · Q | 12.6 | L/h | 3.5e-06 | L/h | 5.8 | llm (0.6) | Fattinger_1991_2_table_p4_1:row4:col1, Fattinger_1991_2_table_p4_1:row4:col2 | — | not captured |
 | V2 (l) | `Q64` · V2 | 66.7 | l | 0.06670000000000001 | [l] | 16.4 | exact (1.0) | Fattinger_1991_2_table_p4_1:row5:col1, Fattinger_1991_2_table_p4_1:row5:col2 | — | not captured |
 | tmax, QSf (h) | `Q56` · tmax | 1.37 | h | 4932.0 | [h] | 0.04 | llm_confirmed (0.6) | Fattinger_1991_2_table_p4_1:row6:col1, Fattinger_1991_2_table_p4_1:row6:col2 | — | not captured |
 | F | `Q40` · Fab | 1.36 | not captured | not captured | not captured | 0.12 | exact (1.0) | Fattinger_1991_2_table_p4_1:row8:col1, Fattinger_1991_2_table_p4_1:row8:col2 | — | not captured |
@@ -61,6 +63,8 @@ Fattinger K; Vozeh S; Ha HR; Borner M; Follath F et al. (1991). British journal 
 - dropped duplicate Q56 ('tmax, OBSf (h)', value '6.00') — already have one for this compound
 - covariate effect for Q79 has no base parameter row (kept as unattached equation-variable)
 - dropped duplicate covariate effect 'category'/'' on Q79 — ambiguous identity (two shifts cannot share one category)
+- implicit units: 'CLrenalc' — the LLM proposed '1/h', whose dimension does not fit Q26; left unset
+- implicit units: 'Q (1 h-1)e' → L/h (from the popPK convention: 'The parameter is an intercompartmental clearance (Q). In population PK, clearances are typically expressed in L/h. The v')
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=quinidine
 
 **Extraction notes:**
@@ -102,12 +106,14 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 7 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 6 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q30 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Fattinger_1991_2_table_p4_1:row4:col1', 'Fattinger_1991_2_table_p4_1:row4:col2'] |
 | C5_dimension_Q56 | pass | [time] | not captured | not captured | not captured | ['Fattinger_1991_2_table_p4_1:row6:col1', 'Fattinger_1991_2_table_p4_1:row6:col2'] |
 | C5_dimension_Q63 | pass | [length] ** 3 | not captured | not captured | not captured | ['Fattinger_1991_2_table_p4_1:row3:col1', 'Fattinger_1991_2_table_p4_1:row3:col2'] |
 | C5_dimension_Q64 | pass | [length] ** 3 | not captured | not captured | not captured | ['Fattinger_1991_2_table_p4_1:row5:col1', 'Fattinger_1991_2_table_p4_1:row5:col2'] |
+| C5_unit_missing_Q26 | fail | [length] ** 3 / [time] | not captured | not captured | not captured | ['Fattinger_1991_2_table_p4_1:row0:col1', 'Fattinger_1991_2_table_p4_1:row0:col2'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
 | C9_phys_window_Q63 | pass | volume within physiological range | 161 L | not captured | not captured | ['Fattinger_1991_2_table_p4_1:row3:col1', 'Fattinger_1991_2_table_p4_1:row3:col2'] |
 | C9_phys_window_Q64 | pass | volume within physiological range | 66.7 L | not captured | not captured | ['Fattinger_1991_2_table_p4_1:row5:col1', 'Fattinger_1991_2_table_p4_1:row5:col2'] |
@@ -145,4 +151,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-20 16:46 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-06 04:23 UTC</sub>

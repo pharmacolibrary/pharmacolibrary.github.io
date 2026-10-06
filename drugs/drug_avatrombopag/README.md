@@ -1,5 +1,4 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B02B&quot;,&quot;href&quot;:&quot;atc/B02B.md&quot;},{&quot;label&quot;:&quot;avatrombopag&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Avatrombopag_Liu2025v2_reference&quot;,&quot;label&quot;:&quot;Liu_2025_2_reference&quot;,&quot;href&quot;:&quot;drugs/drug_avatrombopag/Avatrombopag_Liu2025v2_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 # avatrombopag
 
@@ -11,32 +10,44 @@
 
 ## About
 
-**Description.** Avatrombopag (_Doptelet_), is an orally administered, small molecule thrombopoietin receptor (c-Mpl) agonist that increases platelet number without increasing platelet activation,[A33097,L2824] thereby decreasing the need for blood transfusions.[L2824] Patients with thrombocytopenia and chronic liver disease often require platelet transfusions before surgical procedures to decrease the risk of bleeding.[A33095] Thrombocytopenia is a common complication in patients suffering from chronic liver disease, occurring as a result of liver disease or a consequence of interferon-based antiviral therapy.[F95]
+Avatrombopag is a medicine used to treat thrombocytopenia, a shortage of blood platelets. It is an approved drug and is authorised in the European Union.
 
-Avatrombopag was first approved by the FDA in May 2018 for use in adults with chronic liver disease who are scheduled to undergo a procedure.[L2931] It is administered orally as the salt form avatrombopag maleate.[L2927] _Doptelet_ (Avatrombopag) is the first orally administered treatment option for patients with chronic liver disease,  allowing a large population of patients to avoid a platelet transfusion before a procedure by increasing platelet counts to the optimal level ≥50,000 per microliter.[L2932]
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q27257213](https://www.wikidata.org/wiki/Q27257213) and the WHO ATC classification and the EMA medicines list; not checked by a person.</small>
 
-In July 2025, the FDA expanded approval to include a new pediatric formulation, Doptelet Sprinkle (avatrombopag oral granules), specifically designed for children aged one to less than six years, while the existing tablet formulation remains indicated for patients aged six years and older. This approval was supported by results from the AVA-PED-301 phase 3 study, which demonstrated durable platelet responses and favorable safety in children with persistent or chronic immune thrombocytopenia.[L53688, L53683]
+## Molecules and molar masses
 
-**Indication.** Indicated for the treatment of thrombocytopenia in pediatric patients 1 year and older with persistent or chronic immune thrombocytopenia who have had an insufficient response to a previous treatment [L53683]. It is also indicated in adult patients with chronic liver disease who are scheduled to undergo a procedure [L49941], as well as in adult patients with chronic immune thrombocytopenia who have had an insufficient response to a previous treatment [L49941]
+> The molar mass each model uses to convert mass to molar concentration and to form a metabolite molecule for molecule. Looked up, never estimated: DrugBank for the drug, the paper's own value or the PubChem entry matched to the paper's name for a metabolite.
+
+| molecule | role | molar mass (g/mol) | formula | source | PubChem | records |
+|---|---|---|---|---|---|---|
+| avatrombopag | parent | 649.65 | C29H34Cl2N6O3S2 | DrugBank | [9852519](https://pubchem.ncbi.nlm.nih.gov/compound/9852519) | Liu_2025_2 |
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-18 19:33 | 2:18 | 0/0/1 | 0/0/0 | 1/0/1 | 47,361/5,821 | ollama / qwen3.8:27b-mtp-q8_0 | 1 | 0/1 | 1/0 | 0 |
+| 2026-10-05 17:29 | 6:02 | 0/0/1 | 1/0/0 | 1/0/1 | 65,104/19,483 | ollama / qwen3.8:27b-mtp-q8_0 | 1 | 0/1 | 1/0 | 0 |
 
 ## popPK records
 
 | status | detail | model | model structure | params | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span><br><sub>blocking: C1_half_life_beta failed (ratio 0.6843)</sub><br><sub>route_to: `human_review`</sub> | [Liu_2025_2_reference](drugs/drug_avatrombopag/Avatrombopag_Liu2025v2_reference.md) | — | 1-compartment (no model) | 4 | Liu X et al., Investigation of the ABCB1 Gene Polymor…, Pharmaceuticals (Basel, Swi… (2025) | [10.3390/ph18060903](https://doi.org/10.3390/ph18060903) |
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.75). The first reading is what the record holds.">cross-check: disputed</span><br><sub>STALE — current validate: needs_review</sub><br><sub>blocking: C1_half_life_beta failed (ratio 0.6843)</sub><br><sub>route_to: `human_review`</sub> | [Liu_2025_2_reference](drugs/drug_avatrombopag/Avatrombopag_Liu2025v2_reference.md) | — | 1-compartment (no model) | 4 | Liu X et al., Investigation of the, Pharmaceuticals (Basel, Swi… (2025) | [10.3390/ph18060903](https://doi.org/10.3390/ph18060903) |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">extracted</span> | [Nomoto_2018_PLT](drugs/drug_avatrombopag/pd_Nomoto_2018_PLT.md) | platelet count ← avatrombopag · direct linear effect | — | Nomoto M et al., Population Pharmacokinetic/Pharmacodyna…, Journal of clinical pharmac… (2018) | [10.1002/jcph.1267](https://doi.org/10.1002/jcph.1267) |
 
 ## Pharmacogenomics (PGx)
 
 | status | gene | affects | mechanism | detail | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **CYP2C9** | `safety` — adverse-reaction risk (HLA / safety allele) — no parameter shift | safety_allele | [Liu_2025_2](drugs/drug_avatrombopag/pgx_Liu_2025_2_CYP2C9_safety.md) | Liu X et al., Investigation of the ABCB1 Gene Polymor…, Pharmaceuticals (Basel, Swi… (2025) | [10.3390/ph18060903](https://doi.org/10.3390/ph18060903) |
-| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.25). The first reading is what the record holds.">cross-check: partial</span> | **ABCB1** | `Q27` · CL/F | transport | [Liu_2025_2](drugs/drug_avatrombopag/pgx_Liu_2025_2_ABCB1_Q27.md) | Liu X et al., Investigation of the ABCB1 Gene Polymor…, Pharmaceuticals (Basel, Swi… (2025) | [10.3390/ph18060903](https://doi.org/10.3390/ph18060903) |
+| <span class="pk-badge pk-badge--neutral" title="a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.">safety allele</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **CYP2C9** | `safety` — adverse-reaction risk (HLA / safety allele) — no parameter shift | safety_allele | [Liu_2025_2](drugs/drug_avatrombopag/pgx_Liu_2025_2_CYP2C9_safety.md) | Liu X et al., Investigation of the, Pharmaceuticals (Basel, Swi… (2025) | [10.3390/ph18060903](https://doi.org/10.3390/ph18060903) |
+| <span class="pk-badge pk-badge--neutral" title="the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.">qualitative</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.25). The first reading is what the record holds.">cross-check: partial</span> | **ABCB1** | `Q100` — no parameter target — an association/risk finding, not a parameter shift | transport | [Liu_2025_2](drugs/drug_avatrombopag/pgx_Liu_2025_2_ABCB1_Q100.md) | Liu X et al., Investigation of the, Pharmaceuticals (Basel, Swi… (2025) | [10.3390/ph18060903](https://doi.org/10.3390/ph18060903) |
+
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>What the PGx columns mean</summary>
@@ -58,14 +69,14 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 | absorption | testis | `ABCB1` substrate/transport, `ABCG2` inhibitor | DrugBank actor |
 | metabolism | liver | `CYP2C8` inducer, `CYP2C9` inducer/safety_allele/substrate, `CYP3A4` substrate | DrugBank actor |
 | metabolism | small intestine | `CYP3A4` substrate | DrugBank actor |
-| excretion | bile duct | <sub>“…Fecal excretion accounted for 88% of the administered dose, with…”</sub> | prose |
+| excretion | bile duct | <sub>named in DrugBank's ADME text</sub> | prose |
 | excretion | kidney | `SLC22A8` inhibitor | DrugBank actor |
 
 <sub>Actors without a tissue in the table: MPL (target).</sub>
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -73,7 +84,7 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 - **PubMed hits:** 16 matched, 16 returned
 - **screened:** 2  ·  **relevant:** 2
-- **records:** 1  ·  extracted 0  ·  needs_review 1  ·  rejected 0  ·  stale 0
+- **records:** 1  ·  extracted 0  ·  needs_review 1  ·  rejected 0  ·  stale 1
 - **scholar-agent fallback query used:** not captured
 
 ## Full text wanted
@@ -83,10 +94,10 @@ _3 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | save as | citation | domain | score | DOI | PubMed | why wanted |
 |---|---|---|---|---|---|---|
 | `Nomoto_2018.pdf` | Nomoto M et al., Population Pharmacokinetic/Pharmacodyna…, Journal of clinical pharmac… (2018) | popPK | 10 | [10.1002/jcph.1267](https://doi.org/10.1002/jcph.1267) | [29905956](https://pubmed.ncbi.nlm.nih.gov/29905956) | The paper describes a population PK model for avatrombopag, but the specific numeric parameter values (CL, V, etc.) are not present in the provided abstract text. |
-| `Nomoto_2018_2.pdf` | Nomoto M et al., Pharmacokinetic/pharmacodynamic drug-dr…, British journal of clinical… (2018) | popPK | 8 | [10.1111/bcp.13517](https://doi.org/10.1111/bcp.13517) | [29341245](https://pubmed.ncbi.nlm.nih.gov/29341245) | The study reports quantitative PK parameters (AUC ratios, half-life values) for avatrombopag in a DDI study, but lacks full compartmental model parameters (CL, V, Q) typically required for population PK extraction. |
+| `Nomoto_2018_2.pdf` | Nomoto M et al., Pharmacokinetic/pharmacodynamic drug-dr…, British journal of clinical… (2018) | popPK | 8 | [10.1111/bcp.13517](https://doi.org/10.1111/bcp.13517) | [29341245](https://pubmed.ncbi.nlm.nih.gov/29341245) | The study reports quantitative PK parameters (AUC ratios, half-life) for avatrombopag in a DDI study, but lacks full compartmental model parameters (CL, V) and specific geometric mean values for all groups. |
 | `Liu_2025.pdf` | Liu X et al., Investigation of the ABCB1 Gene Polymor…, Pharmaceuticals (Basel, Swi… (2025) | pgx | 8 | [10.3390/ph18060903](https://doi.org/10.3390/ph18060903) | [40573298](https://www.ncbi.nlm.nih.gov/pubmed/40573298) | metadata signals extractable PGX data (ABCB1, PK/PD-context) |
 
-<sub>queue written 2026-09-18T19:31:17.332211+00:00</sub>
+<sub>queue written 2026-10-05T17:23:29.643552+00:00</sub>
 
 ## Screened and excluded
 
@@ -97,8 +108,8 @@ _3 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | popPK | Nomoto_2018 | relevant | 10 | 0 | The paper describes a population PK model for avatrombopag, but the specific numeric parameter values (CL, V, etc.) are not present in the provided abstract text. |
 | PGx | Nomoto_2018 | not_relevant | 0 | 0 | The paper analyzes population PK/PD factors like ethnicity, weight, and liver disease, but does not report effects of specific gene variants or genotypes on avatrombopag parameters. |
 | PD | Nomoto_2018_2 | not_relevant | 3 | 2 | The paper reports qualitative changes in maximum platelet count (PD) relative to PK changes (AUC) for drug-drug interactions, but does not provide a concentration-effect curve, Emax/EC50 parameters, or a formal PK/PD model fit. |
-| PGx | Nomoto_2018_2 | not_relevant | 0 | 0 | The study investigates drug-drug interactions (DDIs) with CYP inhibitors/inducers, not pharmacogenomic effects of genetic variants. |
+| PGx | Nomoto_2018_2 | not_relevant | 0 | 0 | The paper reports drug-drug interactions (DDIs) involving CYP inhibitors/inducers, not pharmacogenomic effects based on genetic variants or genotypes. |
 | PGx | Nomoto_2018_3 | not_relevant | 4 | 2 | The paper reports an association between CYP2C9 polymorphisms and increased PK variability, but does not provide fitted effect sizes or demonstrate a clinically important change in PK/PD parameters. |
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-09-18 19:31 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-10-05 17:23 UTC</sub>

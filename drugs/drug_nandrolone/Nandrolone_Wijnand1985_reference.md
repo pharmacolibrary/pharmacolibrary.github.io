@@ -1,15 +1,14 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A14A&quot;,&quot;href&quot;:&quot;atc/A14A.md&quot;},{&quot;label&quot;:&quot;nandrolone&quot;,&quot;href&quot;:&quot;drugs/drug_nandrolone/&quot;},{&quot;label&quot;:&quot;Wijnand_1985 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Nandrolone_Wijnand1985_reference&quot;,&quot;label&quot;:&quot;Wijnand_1985_reference&quot;,&quot;href&quot;:&quot;drugs/drug_nandrolone/Nandrolone_Wijnand1985_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # nandrolone — `Nandrolone_Wijnand1985_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.375). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.286). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -17,34 +16,36 @@
 
 ### Reviewer guidance
 
-**The nandrolone record was rejected because the metabolite nandrolone, formed from nandrolone decanoate by hydrolysis, has no compartment (0 compartments), leaving it unlinked from the dose, and the record was built from the abstract only.**
+**The nandrolone record was rejected because the metabolite nandrolone, formed from nandrolone decanoate by hydrolysis, has no compartment (n_cmt: 0), leaving it unlinked from the dose, and the model was built from the abstract only.**
 
-The structure lists nandrolone as a metabolite formed from nandrolone decanoate in the central compartment but with 0 compartments, so the check for unreachable compartments or unlinked metabolites failed. The record is abstract-only, meaning reported summary statistics (e.g., clearance 1.55 with unit '1 X h-1 X kg-1', an unconvertible unit) stood in for a fitted model. A second reader also disagreed on the dose compound (nandrolone decanoate vs unknown), the primary analyte, and the hydrolysis link, and could not confirm the extracted clearance value of 1.55. Extracted — nandrolone: CL 1.55 1 X h-1 X kg-1.
+The record is abstract-only, so reported summary statistics stood in for a fitted model. The hydrolysis link from nandrolone decanoate to nandrolone has no link parameter, and the formed nandrolone is assigned 0 compartments, making it an orphan metabolite with no path from the dose. The clearance CL is 1.55 l·h⁻¹·kg⁻¹ for nandrolone, and the half-life of hydrolysis of nandrolone decanoate in serum has no extracted value; a second reader recorded mean half-lives of 4.3 and 6, but this record has null for those, and the second reader also left the dose compound and primary analyte as unknown. Extracted — nandrolone: CL 1.55 1 X h-1 X kg-1.
 
 A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has nandrolone decanoate, the second reading unknown; it also differs on 4 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-10-05 09:28:16.527575+00:00) predates the upstream re-run (2026-10-05 10:13:21.383722+00:00). Current validate status: `rejected`.
+
 > **Dose compound ≠ measured compound:** dosed `nandrolone decanoate`, measured `nandrolone`.
 
 ## Citation
-Wijnand HP; Bosch AM; Donker CW et al. (1985). Acta endocrinologica. Supplementum 271
+Wijnand HP et al., Pharmacokinetic parameters of nandrolon…, Acta endocrinologica. Suppl… (1985)
   ·  DOI: [10.1530/acta.0.109s00019](https://doi.org/10.1530/acta.0.109s00019)
 
 ## Model component
-<dbs-pgx drug="nandrolone" model-id="Nandrolone_Wijnand1985_reference" status="rejected" stale="false" population="healthy volunteers" measured-compound="nandrolone" parameterization="mechanistic" topology="general_linear"></dbs-pgx>
+<dbs-pgx drug="nandrolone" model-id="Nandrolone_Wijnand1985_reference" status="rejected" stale="true" population="healthy volunteers" measured-compound="nandrolone" parameterization="apparent" topology="general_linear"></dbs-pgx>
 
 **Model structure:** general linear; no model was built for this record.  
 **Parameters:** 1 extracted.
 
-**Parameterization:** mechanistic.
+**Parameterization:** CLm/F — apparent, F unknown (apparent — bioavailability not identifiable).
 
 ## Parameters
 > ⚠️ This record is not accepted (current status `rejected`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| mean nandrolone serum clearance | `Q22` · CL | 1.55 | 1 X h-1 X kg-1 | not captured | [1x] / [[h] · [kg]] | not captured | llm_confirmed (0.6) | Wijnand_1985:abstract | — | not captured |
+| mean nandrolone serum clearance | `Q351` · CLm/F | 1.55 | L/h | 4.305555555555556e-07 | L/h | not captured | exact (1.0) | Wijnand_1985:abstract | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -59,13 +60,16 @@ Wijnand HP; Bosch AM; Donker CW et al. (1985). Acta endocrinologica. Supplementu
 ## Departures & gaps
 
 **Interpretation flags:**
+- covariate category for kabs from footnote/prose kept as documentation only (['Wijnand_1985:abstract'])
 - covariate category for t1/2z from footnote/prose kept as documentation only (['Wijnand_1985:abstract'])
 - unit_dimension_unknown: '1 X h-1 X kg-1' (CL)
-- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=nandrolone
-- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
+- implicit units: 'mean nandrolone serum clearance' → L/h (from the popPK convention: 'No unit is stated in the provided text or table captions. For a total clearance parameter with a value of 1.55, L/h is t')
+- metabolite nandrolone: Q22→Q351 — only the metabolite is measured and fm is not identifiable, so its CL/V are apparent (fm-divided)
+- apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=nandrolone
 - topology: transfer parameter unlinked (Q100) — add Kfm/formation-rate/rate-constant to the ontology; routing to review
-- template fit: PK_Parent_Metabolite — one metabolite formed from central, both 1-compartment
+- template fit: none — noncompartmental model — not a compartmental parent–metabolite model
 - status held at route_to_review — not promoted
+- row roles (LLM): model_class=noncompartmental; 4/4 row label(s) assigned, 2 linked by role; re-tagged nandrolone→parent ×2
 - abstract-only: no full text was available, so these values were read from the abstract's prose — reported summary statistics, not a fitted model
 - skipped review gap-fill of V2: primary is GENERAL_LINEAR (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is GENERAL_LINEAR (peripheral family needs ≥2C)
@@ -80,15 +84,15 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.375 (3/8 fields) | 5 |
+| `gpt-oss:120b` | not confirmed | 0.286 (2/7 fields) | 5 |
 
 <details><summary>5 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
+| `gpt-oss:120b` | `model.parameterization` | apparent | mechanistic | mismatch |
 | `gpt-oss:120b` | `parameters[half-life of hydrolysis of nandrolone decanoate in serum]` | not captured | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[mean half-life]` | not captured | 4.3 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[mean half-life]` | not captured | 6 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[mean nandrolone serum clearance].parameter_id` | Q351 | Q22 | mismatch |
 | `gpt-oss:120b` | `screen.dose_compound` | nandrolone decanoate | unknown | mismatch |
 | `gpt-oss:120b` | `screen.primary_analyte` | nandrolone | unknown | mismatch |
 
@@ -107,9 +111,9 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | C0_has_structural_params | pass | not captured | 1 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q351 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Wijnand_1985:abstract'] |
 | C5_dimension_Q57 | pass | [time] | not captured | not captured | not captured | ['Wijnand_1985:abstract'] |
-| C5_unit_missing_Q22 | fail | [length] ** 3 / [time] | 1 X h-1 X kg-1 | not captured | not captured | ['Wijnand_1985:abstract'] |
-| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 1.55 | not captured | not captured | ['Wijnand_1985:abstract'] |
+| C7_apparent_coherence | pass | not captured | not captured | not captured | not captured | not captured |
 | C8_topology | fail | ontology-linked transfer parameter on every edge | ['none'] | not captured | not captured | not captured |
 
 <details class="legend">
@@ -135,4 +139,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-26 17:50 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-05 10:13 UTC</sub>

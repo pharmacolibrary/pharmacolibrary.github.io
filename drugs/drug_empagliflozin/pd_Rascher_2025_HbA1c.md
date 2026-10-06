@@ -1,54 +1,45 @@
-<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A10B&quot;,&quot;href&quot;:&quot;atc/A10B.md&quot;},{&quot;label&quot;:&quot;empagliflozin&quot;,&quot;href&quot;:&quot;drugs/drug_empagliflozin/&quot;},{&quot;label&quot;:&quot;Rascher_2025 \u00b7 PD HbA1c&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Empagliflozin_Baron2016_reference&quot;,&quot;label&quot;:&quot;Baron_2016_reference&quot;,&quot;href&quot;:&quot;drugs/drug_empagliflozin/Empagliflozin_Baron2016_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Empagliflozin_Rascher2025_bulk_ess&quot;,&quot;label&quot;:&quot;Rascher_2025_bulk_ess&quot;,&quot;href&quot;:&quot;drugs/drug_empagliflozin/Empagliflozin_Rascher2025_bulk_ess.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Empagliflozin_Rascher2025_median&quot;,&quot;label&quot;:&quot;Rascher_2025_median&quot;,&quot;href&quot;:&quot;drugs/drug_empagliflozin/Empagliflozin_Rascher2025_median.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Empagliflozin_Rascher2025_pop&quot;,&quot;label&quot;:&quot;Rascher_2025_pop&quot;,&quot;href&quot;:&quot;drugs/drug_empagliflozin/Empagliflozin_Rascher2025_pop.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Empagliflozin_Rascher2025_tail_ess&quot;,&quot;label&quot;:&quot;Rascher_2025_tail_ess&quot;,&quot;href&quot;:&quot;drugs/drug_empagliflozin/Empagliflozin_Rascher2025_tail_ess.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A10B&quot;,&quot;href&quot;:&quot;atc/A10B.md&quot;},{&quot;label&quot;:&quot;empagliflozin&quot;,&quot;href&quot;:&quot;drugs/drug_empagliflozin/&quot;},{&quot;label&quot;:&quot;Rascher_2025 \u00b7 PD glycosylated haemoglobin&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;pd_Baron_2016_FPG&quot;,&quot;label&quot;:&quot;Baron_2016 \u00b7 FPG&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_empagliflozin/pd_Baron_2016_FPG.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Rascher_2025_HbA1c&quot;,&quot;label&quot;:&quot;Rascher_2025 \u00b7 HbA1c&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_empagliflozin/pd_Rascher_2025_HbA1c.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;pd_Sato_2024_HbA1c&quot;,&quot;label&quot;:&quot;Sato_2024 \u00b7 HbA1c&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_empagliflozin/pd_Sato_2024_HbA1c.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 <div class="pk-tab-mark" data-tab="Information"></div>
 
-# HbA1c — PD  <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.353). The first reading is what the record holds.">cross-check: disputed</span>
+# glycosylated haemoglobin — PD  <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.222). The first reading is what the record holds.">cross-check: disputed</span>
+
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
 ## What this record describes
 
-**As extracted:** Empagliflozin (concentrations from the PK model of Baron_2016) drives HbA1c (in %): indirect response — drug inhibits the production of HbA1c.
+**As extracted:** Empagliflozin (concentrations from this paper's PK model) drives glycosylated haemoglobin (in %): indirect response — drug inhibits the production of glycosylated haemoglobin.
 
-**Model:** No model was generated from this record.
+**Model:** A simulatable model was generated — see the **Models** and **Simulation** tabs.
 
-> Empagliflozin plasma AUC (cited PK) inhibits the HbA1c synthesis rate (kin) in an indirect response (turnover) model of HbA1c (%), with disease progression increasing kin over time; IMAX was 10.1%, AUC50 fixed at 703 nmol·h/L, kout 0.0489 1/day, and baseline HbA1c 7.35%.
+> Empagliflozin AUC (nmol h/L) inhibits the synthesis rate constant (kin) of HbA1c (%) in an indirect response model, with a fixed AUC at 50% IMAX of 703 nmol h/L and an estimated IMAX of 10.1%. The model includes an HbA1c degradation rate constant (kout) of 0.0489 1/day and a baseline HbA1c of 7.35%.
 >
-> <sub>in the paper's terms — summarised by glm-5.3-flash from the paper's text; not checked by a person</sub>
+> <sub>in the paper's terms — summarised by qwen3.8:27b-mtp-q8_0 from the paper's text; not checked by a person</sub>
 
 - **paper:** `Rascher_2025`
 - **model family:** `indirect_response_i`
-- **driver:** `cited_pk`
+- **driver:** `pk_record`
 - **tier:** population
-- **effect:** inhibition/unknown
+- **effect:** inhibition/proportional
 
 ## Citation
-Rascher J; Cheng S; Johnston C; Härtter S; Jan-Georg W; Marquard J; et al. et al. (2025). British journal of clinical pharmacology 91
+Rascher J et al., Pharmacokinetics and pharmacodynamics o…, British journal of clinical… (2025)
   ·  DOI: [10.1002/bcp.70096](https://doi.org/10.1002/bcp.70096)
 
 ## Parameters
 | role | label (paper) | Q-code · name | value | unit | value_si | link | source |
 |---|---|---|---|---|---|---|---|
-| PD (effect) | Kout (1/day) — Median | `Q328` · not captured | 0.0489 | not captured | not captured | exact (not captured) | bcp70096-tbl-0004:row2:col3 |
-| PD (effect) | Kout (1/day) — Bulk ESS | `Q328` · not captured | 5125 | not captured | not captured | exact (not captured) | bcp70096-tbl-0004:row2:col5 |
-| PD (effect) | Kout (1/day) — Tail ESS | `Q328` · not captured | 3498 | not captured | not captured | exact (not captured) | bcp70096-tbl-0004:row2:col6 |
-| PD (effect) | Kout (1/day) — Ȓ | `Q328` · not captured | 1.00 | not captured | not captured | exact (not captured) | bcp70096-tbl-0004:row2:col7 |
-| PD (effect) | PROG (%/h/h) — Ȓ | `Q340` · not captured | 1.00 | %/h/h | not captured | llm (not captured) | bcp70096-tbl-0004:row4:col7 |
-| PD (effect) | IMAX (%) — Median | `Q323` · not captured | 10.1 | not captured | not captured | exact (not captured) | bcp70096-tbl-0004:row5:col3 |
-| PD (effect) | IMAX (%) — Bulk ESS | `Q323` · not captured | 6062 | not captured | not captured | exact (not captured) | bcp70096-tbl-0004:row5:col5 |
-| PD (effect) | IMAX (%) — Tail ESS | `Q323` · not captured | 4750 | not captured | not captured | exact (not captured) | bcp70096-tbl-0004:row5:col6 |
-| PD (effect) | IMAX (%) — Ȓ | `Q323` · not captured | 1.00 | not captured | not captured | exact (not captured) | bcp70096-tbl-0004:row5:col7 |
-| PK (driver) | AUC50 (nmol*hr/L) — Median | `Q19` · not captured | 703 | nmol*hr/L | not captured | llm (not captured) | bcp70096-tbl-0004:row6:col3 |
-| variability | ΩBASE (CV(%)) — Median | `Q312` · not captured | 16.1 | not captured | not captured | llm (not captured) | bcp70096-tbl-0004:row12:col3 |
-| variability | ΩBASE (CV(%)) — Bulk ESS | `Q312` · not captured | 2373 | not captured | not captured | llm (not captured) | bcp70096-tbl-0004:row12:col5 |
-| variability | ΩBASE (CV(%)) — Ȓ | `Q312` · not captured | 1.00 | not captured | not captured | llm (not captured) | bcp70096-tbl-0004:row12:col7 |
-| variability | ΩBASE (CV(%)) — Shrinkage (%) | `Q318` · not captured | 14.9 | not captured | not captured | llm (not captured) | bcp70096-tbl-0004:row12:col8 |
-| variability | ΩPROG (CV(%)) — Shrinkage (%) | `Q318` · not captured | 19.0 | not captured | not captured | llm (not captured) | bcp70096-tbl-0004:row13:col8 |
-| PD (effect) | BASE (%) exp(Ɵ 2) Baseline HbA1c | `Q324` · not captured | 7.35 | % | not captured | review_gapfill (not captured) | Rascher_2025:review |
+| PD (effect) | HbA1c degradation rate constant | `Q328` · not captured | 0.0489 | 1/day | not captured | llm (not captured) | Rascher_2025:pdv3 |
+| PD (effect) | Baseline HbA1c | `Q324` · not captured | 7.35 | % | not captured | llm (not captured) | Rascher_2025:pdv3 |
+| PD (effect) | Zero‐order disease progression rate constant | `Q340` · not captured | 5.64e‐07 | %/h/h | not captured | llm (not captured) | Rascher_2025:pdv3 |
+| PD (effect) | Maximum inhibition | `Q323` · not captured | 10.1 | % | not captured | llm (not captured) | Rascher_2025:pdv3 |
+| PD (effect) | AUC at 50% IMAX | `Q322` · not captured | 703 | nmol*hr/L | not captured | llm (not captured) | Rascher_2025:pdv3 |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -56,49 +47,96 @@ Rascher J; Cheng S; Johnston C; Härtter S; Jan-Georg W; Marquard J; et al. et a
 </details>
 
 
+## Exposure-response model
+
+`Empagliflozin_Rascher2025_PD_hba1c` — turnover (indirect response type IV), `response = E0/(1 + Emax*frac)`
+
+| parameter | value (paper units) | SI |
+|---|---|---|
+| E0 | 7.35 % | 0.0735 1 |
+| Emax | 10.1 | — |
+| EC50 | 703 nmol*hr/L | — |
+| gamma | 1 | — |
+
+Closed-form check points (response, SI): `at_0` = 0.0735, `at_EC50` = 0.01215, `at_inf` = 0.006622
+
+Deviations:
+
+- `defaulted_parameters` — gamma
+- `pd_binding_emax_not_a_fraction` — type I needs Imax ≤ 1 but the record has 10.1; bound as the reciprocal stimulation form (IV) the paper fitted
+- `pd_binding_exposure_unit_unresolved` — 'nmol*hr/L' — the x axis is in the paper's unit, not SI
+
+## Review
+
+Verdict <span class="pk-badge pk-badge--orange">needs review</span> · route to `scholar`
+
+| check | status | note |
+|---|---|---|
+| `T0_driver` | pass | driver is the drug, a synonym or one of its metabolites (or unnamed) |
+| `T1_closed_form` | pass | engineer's check points reproduced from the bound parameters |
+| `T1b_fmu` | skipped | template FMU / fmpy not available — advisory only |
+| `T2_direction` | pass | the response falls, as IDR-IV predicts |
+| `T3_plausibility` | pass | EC50, gamma, Imax and baseline in range |
+| `T4_defaults` | advisory | only convention defaults (gamma = 1) |
+
+Advisory:
+
+- defaulted: gamma (convention)
+- exposure unit not resolved to SI — the x axis is in the paper's unit
+
+
 **Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
 first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whatever the readers say
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.353 (18/51 fields) | 33 |
+| `gpt-oss:120b` | not confirmed | 0.222 (12/54 fields) | 42 |
 
-<details><summary>33 field(s) a reader read differently</summary>
+<details><summary>42 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
+| `gpt-oss:120b` | `driver_compound` | empagliflozin | unknown | mismatch |
+| `gpt-oss:120b` | `effect_direction` | inhibition | unknown | mismatch |
+| `gpt-oss:120b` | `model_family` | indirect_response_i | unknown | mismatch |
 | `gpt-oss:120b` | `parameters[Q19]` | 703 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q312]` | 16.1 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q312]` | 2373 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q312]` | not captured | 3950 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q312]` | 1.00 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q312]` | not captured | 7.35 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q312]` | not captured | 3070 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q312]` | not captured | 1.00 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q312]` | not captured | 2682 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q314]` | not captured | 16.1 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q314]` | not captured | 2373 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q314]` | not captured | 3488 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q314]` | not captured | 7.35 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q314]` | not captured | 3070 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q314]` | not captured | 3950 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q314]` | not captured | 0.00112 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q314]` | not captured | 2525 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q314]` | not captured | 3366 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q314]` | not captured | 1.00 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q315]` | not captured | 6.32 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q320]` | not captured | 8205 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q320]` | not captured | 1.03 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q320]` | not captured | 1.00 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q315]` | not captured | 4283 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q315]` | not captured | 1.00 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q320]` | not captured | 8834 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q323]` | not captured | 2.04 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q323]` | not captured | 8205 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q323]` | not captured | 5127 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q323]` | not captured | 1.00 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q323]` | not captured | 8834 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q323]` | not captured | 1.03 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q323]` | not captured | 1.00 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q324]` | 7.35 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q324]` | not captured | 1.00 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q324]` | not captured | 7.35 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q324]` | not captured | 1765 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q324]` | not captured | 2624 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q324]` | not captured | 1.00 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q324]` | not captured | 2531 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q324]` | not captured | 1.15 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q324]` | not captured | 1.00 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q336]` | not captured | 1.00 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q340]` | not captured | 2937 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q340]` | not captured | 2198 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q340]` | 1.00 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q38]` | not captured | 2624 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q38]` | not captured | 2198 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q38]` | not captured | 1.00 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q38]` | not captured | 2531 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q38]` | not captured | 5348 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q86]` | not captured | 1.15 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[Q86]` | not captured | 1595 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[Q88]` | not captured | 703 | only_one_extracted |
 
 </details>
@@ -115,19 +153,22 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_empagliflozin/Empagliflozin_Rascher2025_PD_hba1c/Empagliflozin_Rascher2025_PD_hba1c_modelica.zip" download>Empagliflozin_Rascher2025_PD_hba1c_modelica.zip</a> <span class="pk-size">(3.6 kB)</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_empagliflozin/Empagliflozin_Rascher2025_PD_hba1c/Empagliflozin_Rascher2025_PD_hba1c_matlab.zip" download>Empagliflozin_Rascher2025_PD_hba1c_matlab.zip</a> <span class="pk-size">(3.3 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_empagliflozin/Empagliflozin_Rascher2025_PD_hba1c/Empagliflozin_Rascher2025_PD_hba1c_sbml.zip" download>Empagliflozin_Rascher2025_PD_hba1c_sbml.zip</a> <span class="pk-size">(2.7 kB)</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_empagliflozin/Empagliflozin_Rascher2025_PD_hba1c/Empagliflozin_Rascher2025_PD_hba1c_cellml.zip" download>Empagliflozin_Rascher2025_PD_hba1c_cellml.zip</a> <span class="pk-size">(2.6 kB)</span></td></tr>
 </tbody></table>
-<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
+<p>Each archive holds the model source, a script that simulates it against the appropriate library, and a README describing both and how to run them.</p>
+<p><b>FMI is two downloads.</b> The archive holds this record's parameters and its driver; the simulator itself is <code>PD_IndirectTurnoverSweep.fmu</code>, one compiled template shared by every model of this structure. Take the FMU once, keep it beside the script (or pass <code>--fmu PATH</code>). Running it reproduces the model-specific FMU exactly.</p>
 </div></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-_No web simulator for this record: its structure has no shared WebAssembly template. The FMI archive under **Models** carries its own compiled FMU._
+<dbs-fmusim paramsurl="drugs/drug_empagliflozin/Empagliflozin_Rascher2025_PD_hba1c/Empagliflozin_Rascher2025_PD_hba1c_params.json" metaurl="assets/fmu/PD_IndirectTurnoverSweep.vr.json" wasmurl="assets/fmu/PD_IndirectTurnoverSweep.js" controlsurl="drugs/drug_empagliflozin/Empagliflozin_Rascher2025_PD_hba1c/Empagliflozin_Rascher2025_PD_hba1c_sim_controls.json"></dbs-fmusim>
+
+<sub>Runs this record's model in the browser as WebAssembly. Sliders start at the extracted values; the reference check compares the browser's peak against the FMPy result recorded when the record was built, and is withheld once a value has been edited. Template `PD_IndirectTurnoverSweep` · parameters `Empagliflozin_Rascher2025_PD_hba1c_params.json` · controls `Empagliflozin_Rascher2025_PD_hba1c_sim_controls.json`. A slider marked *simulator value* is running on the template's own default because this record does not pin that parameter.</sub>
 
 <div class="pk-tab-end"></div>
 

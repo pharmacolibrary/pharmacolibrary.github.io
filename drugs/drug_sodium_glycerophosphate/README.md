@@ -10,15 +10,15 @@
 
 ## About
 
-**Description.** Sodium glycerophosphate is one of several glycerophosphate salts. It is used clinically to treat or prevent low phosphate levels [FDA Label]. Glycerophosphate is hydrolyzed to inorganic phosphate and glycerol in the body [A32667]. The extent of this reaction is dependent on the activity of serum alkaline phosphatases.
+Sodium glycerophosphate is used as a source of phosphate in intravenous solutions, added to infusion fluids to supply electrolytes. It is an approved drug, used mainly in hospital settings as an additive to intravenous solutions.
 
-**Indication.** Sodium glycerophosphate is indicated for use as a source of phosphate in total parenteral nutrition [FDA Label]. It is used in combination with amino acids, dextrose, lipid emulsions, and other electrolytes.
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q27278714](https://www.wikidata.org/wiki/Q27278714) and the WHO ATC classification; not checked by a person.</small>
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-19 11:57 | 3:05 | 0/0/0 | 0/0/0 | 0/0/0 | 55,942/2,711 | ollama / qwen3.8:27b-mtp-q8_0 | 6 | 4/2 | 6/0 | 0 |
+| 2026-10-06 00:54 | 0:37 | 0/0/0 | 0/0/0 | 0/0/0 | 19,911/947 | ollama / qwen3.8:27b-mtp-q8_0 | 6 | 4/2 | 6/0 | 0 |
 
 ## popPK records
 
@@ -30,11 +30,12 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 | process | tissue | actors (role) | evidence |
 |---|---|---|---|
-| excretion | kidney | <sub>“…Inorganic phosphate produced is eliminated in the urine [A32667]. There may be a very smal…”</sub> | prose |
+| metabolism | blood | <sub>named in DrugBank's ADME text</sub> | prose |
+| excretion | kidney | <sub>named in DrugBank's ADME text</sub> | prose |
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -54,7 +55,7 @@ _2 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | `Wang_2016.pdf` | Wang ZH et al., [Response of Microcystis aeruginosa Gro…, Huan jing ke xue= Huanjing… (2016) | pd | 4 | [10.13227/j.hjkx.2016.07.020](https://doi.org/10.13227/j.hjkx.2016.07.020) | [29964464](https://www.ncbi.nlm.nih.gov/pubmed/29964464) | metadata signals extractable PD data (EC50) |
 | `Wang_2019.pdf` | Wang Z et al., Dissolved organic phosphorus enhances a…, Environmental pollution (Ba… (2019) | pd | 4 | [10.1016/j.envpol.2019.06.126](https://doi.org/10.1016/j.envpol.2019.06.126) | [31295694](https://www.ncbi.nlm.nih.gov/pubmed/31295694) | metadata signals extractable PD data (EC50) |
 
-<sub>queue written 2026-09-19T11:57:51.096490+00:00</sub>
+<sub>queue written 2026-10-06T00:54:52.110330+00:00</sub>
 
 ## Screened and excluded
 
@@ -62,24 +63,24 @@ _2 paper(s) judged relevant from the abstract, with no full text on disk — pay
 |---|---|---|---|---|---|
 | popPK | Al_2022 | irrelevant | 0 | 0 | The study focuses on bupivacaine hydrochloride release from a hydrogel, and sodium glycerophosphate is only a component of the hydrogel matrix, not the subject drug for PK analysis. |
 | popPK | Bagheri_2025 | irrelevant | 0 | 0 | The paper focuses on a nitric oxide delivery system using S-nitrosoglutathione and does not report pharmacokinetic parameters for sodium glycerophosphate. |
-| popPK | Bastomsky_1976 | irrelevant | 0 | 0 | The study investigates the effects of polychlorinated biphenyls on thyroxine metabolism in rats and does not involve sodium_glycerophosphate as the subject drug. |
-| popPK | Finch_1979 | irrelevant | 0 | 0 | The paper studies iron deficiency and lactate metabolism in rats, not the pharmacokinetics of sodium glycerophosphate. |
-| popPK | Hsiao_2012 | irrelevant | 0 | 0 | The study focuses on ethosuximide as the subject drug, with sodium glycerophosphate serving only as a formulation excipient, and no PK parameters for sodium glycerophosphate are reported. |
+| popPK | Bastomsky_1976 | irrelevant | 0 | 0 | The study investigates the pharmacokinetics of thyroxine (T4) in rats, not sodium glycerophosphate. |
+| popPK | Finch_1979 | irrelevant | 0 | 0 | The study investigates the metabolic effects of iron deficiency on work performance in rats, focusing on lactate and alpha-glycerophosphate oxidase activity, but does not report pharmacokinetic parameters for sodium glycerophosphate. |
+| popPK | Hsiao_2012 | irrelevant | 0 | 0 | The study focuses on ethosuximide as the subject drug, with sodium glycerophosphate serving only as a formulation excipient for the nanogel. |
 | popPK | Kiranas_1998 | irrelevant | 0 | 0 | The paper describes an analytical method for measuring alpha-glycerophosphate and enzyme activity, not a pharmacokinetic study of sodium glycerophosphate. |
 | popPK | Li_2023 | irrelevant | 0 | 0 | The paper describes a nanocatalytic therapy for neuroinflammation and does not report pharmacokinetic parameters for sodium glycerophosphate. |
-| popPK | Liu_2025 | irrelevant | 0 | 0 | The paper focuses on a radiopharmaceutical hydrogel for osteoarthritis and does not report pharmacokinetic parameters for sodium glycerophosphate. |
-| popPK | McCallum_1970 | irrelevant | 0 | 0 | The study focuses on hepatic carbohydrate metabolism in Listeria-infected mice and does not report pharmacokinetic parameters for sodium glycerophosphate. |
-| popPK | Miyanroodan_2026 | irrelevant | 0 | 0 | The paper is a review on hydrogel delivery systems for TNF-α inhibitors and does not report pharmacokinetic parameters for sodium glycerophosphate. |
+| popPK | Liu_2025 | irrelevant | 0 | 0 | The study focuses on a radiopharmaceutical hydrogel for osteoarthritis and does not report pharmacokinetic parameters for sodium glycerophosphate. |
+| popPK | McCallum_1970 | irrelevant | 0 | 0 | The study investigates hepatic carbohydrate metabolism in mice infected with Listeria monocytogenes and does not report pharmacokinetic parameters for sodium glycerophosphate. |
+| popPK | Miyanroodan_2026 | irrelevant | 0 | 0 | The paper is a review of hydrogel delivery systems for TNF-alpha inhibitors and does not report pharmacokinetic parameters for sodium glycerophosphate. |
 | popPK | Moustaid_1990 | irrelevant | 0 | 0 | The paper investigates gene expression and mRNA stability in cell lines, not the pharmacokinetics of sodium glycerophosphate. |
 | popPK | Mrácek_2005 | irrelevant | 0 | 0 | The paper studies the hormonal induction of the enzyme glycerophosphate dehydrogenase (mGPDH) in rat liver, not the pharmacokinetics of the drug sodium glycerophosphate. |
 | popPK | Nakamura_1979 | irrelevant | 0 | 0 | The paper studies the pharmacodynamics of tri-iodothyronine and its effect on a-glycerophosphate dehydrogenase activity, not the pharmacokinetics of sodium glycerophosphate. |
 | popPK | Nakamura_1979_2 | irrelevant | 0 | 0 | The paper studies the pharmacodynamics of T3 and alpha-glycerophosphate dehydrogenase activity, not the pharmacokinetics of sodium glycerophosphate. |
 | popPK | Rajadhyaksha_2023 | irrelevant | 0 | 0 | The study focuses on the pharmacokinetics of a trastuzumab scFv protein, using sodium glycerophosphate only as a polymer component in the hydrogel formulation, not as the subject drug. |
 | popPK | SCHMID_1955 | irrelevant | 0 | 0 | no_text gate: only 75 chars of text extracted (&lt; 400) |
-| popPK | Schwartz_1983 | irrelevant | 0 | 0 | The study investigates the pharmacokinetics of L- and D-triiodothyronine (T3), not sodium_glycerophosphate. |
-| popPK | Singha_2026 | irrelevant | 0 | 0 | The study focuses on the formulation and in vitro release of aceclofenac, where sodium glycerophosphate is merely a formulation excipient, and no pharmacokinetic parameters for sodium glycerophosphate are reported. |
-| popPK | Song_2018 | irrelevant | 0 | 0 | The study focuses on timolol maleate as the subject drug, and sodium glycerophosphate is only mentioned as a crosslinking agent (β-glycerophosphate disodium salt hydrate) in the hydrogel formulation, not as a drug for PK analysis. |
-| popPK | Talaat_2016 | irrelevant | 0 | 0 | The study focuses on hyaluronic acid delivery using a chitosan/β-glycerophosphate hydrogel, not the pharmacokinetics of sodium glycerophosphate. |
+| popPK | Schwartz_1983 | irrelevant | 0 | 0 | The study investigates the pharmacokinetics of L- and D-triiodothyronine (T3) in rats, not sodium_glycerophosphate. |
+| popPK | Singha_2026 | irrelevant | 0 | 0 | The study focuses on the formulation and in vitro release of aceclofenac, where sodium glycerophosphate is merely a formulation excipient, not the subject drug. |
+| popPK | Song_2018 | irrelevant | 0 | 0 | The study focuses on the formulation of a hydrogel for timolol maleate delivery, where sodium glycerophosphate is used only as a crosslinking agent, not as the subject drug for PK analysis. |
+| popPK | Talaat_2016 | irrelevant | 0 | 0 | The study focuses on the pharmacokinetics of hyaluronic acid (HA) in a chitosan/β-glycerophosphate hydrogel, not sodium glycerophosphate. |
 | popPK | Thakur_2016 | irrelevant | 0 | 0 | The study focuses on vincristine sulfate, not sodium_glycerophosphate, which is only mentioned as a component of the gel formulation. |
 | popPK | Tomczak_2024 | irrelevant | 0 | 0 | The study focuses on the physicochemical compatibility of vinpocetine with parenteral nutrition emulsions, not the pharmacokinetics of sodium_glycerophosphate. |
 | popPK | Topp_2011 | irrelevant | 0 | 0 | no_text gate: only 106 chars of text extracted (&lt; 400) |
@@ -88,10 +89,10 @@ _2 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | popPK | Wang_2019 | irrelevant | 0 | 0 | no_text gate: only 110 chars of text extracted (&lt; 400) |
 | PD | Wang_2019 | not_relevant | 0 | 0 | The paper studies the effect of dissolved organic phosphorus on arsenate bioaccumulation in algae, not the pharmacodynamics of sodium glycerophosphate. |
 | popPK | Weidemann_1969 | irrelevant | 0 | 0 | The paper is an in-vitro metabolic study of rat kidney cortex slices focusing on respiratory fuel and lipid synthesis, not a pharmacokinetic study of sodium glycerophosphate. |
-| popPK | Wu_2007 | irrelevant | 0 | 0 | The study focuses on a hydrogel formulation for insulin delivery, and sodium glycerophosphate is not the subject drug nor are any PK parameters for it reported. |
-| popPK | Zewail_2021 | irrelevant | 0 | 0 | The study focuses on leflunomide delivery in hydrogels and does not report pharmacokinetic parameters for sodium glycerophosphate. |
+| popPK | Wu_2007 | irrelevant | 0 | 0 | The study focuses on a hydrogel formulation using alpha-beta-glycerophosphate as a component and insulin as the model drug, not the pharmacokinetics of sodium glycerophosphate. |
+| popPK | Zewail_2021 | irrelevant | 0 | 0 | The study focuses on leflunomide delivery in hydrogels, and sodium glycerophosphate is only a component of the hydrogel matrix, not the subject of pharmacokinetic analysis. |
 | popPK | Zhang_2025 | irrelevant | 0 | 0 | The study focuses on the pharmacokinetics of all-trans retinoic acid (ATRA) delivered via a sodium beta-glycerophosphate hydrogel, not the PK of sodium glycerophosphate itself. |
-| popPK | Zu_2026 | irrelevant | 0 | 0 | The paper studies the metabolic effects of eicosapentaenoic acid on the glycerophosphate shuttle in mice and does not report pharmacokinetic parameters for sodium glycerophosphate. |
+| popPK | Zu_2026 | irrelevant | 0 | 0 | The study investigates the metabolic effects of eicosapentaenoic acid on the glycerophosphate shuttle in mice and does not report pharmacokinetic parameters for sodium glycerophosphate. |
 
 ---
 <sub>Generated by `docs.py` (scholarv2)</sub>

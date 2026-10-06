@@ -1,51 +1,45 @@
-<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A02B&quot;,&quot;href&quot;:&quot;atc/A02B.md&quot;},{&quot;label&quot;:&quot;cimetidine&quot;,&quot;href&quot;:&quot;drugs/drug_cimetidine/&quot;},{&quot;label&quot;:&quot;Mody_2022 \u00b7 PD cellular viability&quot;}]"></div>
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A02B&quot;,&quot;href&quot;:&quot;atc/A02B.md&quot;},{&quot;label&quot;:&quot;cimetidine&quot;,&quot;href&quot;:&quot;drugs/drug_cimetidine/&quot;},{&quot;label&quot;:&quot;Mody_2022 \u00b7 PD % cell viability&quot;}]"></div>
 <div class="pk-tab-mark" data-tab="Information"></div>
 
-# cellular viability — PD  <span class="pk-badge pk-badge--green">extracted</span>
+# % cell viability — PD  <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--species" title="In-vitro data (cells, tissue or microsomes), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">in vitro</span>
+
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
+> **Species: in vitro.** This record comes from an in-vitro study (cells, tissue or microsomes), not from people. The values, the model and its simulation are shown as the paper reports them — they describe that system, not human pharmacology (read from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).
+
 ## What this record describes
 
-**As extracted:** Cisplatin (measured concentrations) drives cellular viability (in %): direct sigmoid Emax (Hill) effect.
+**As extracted:** Cimetidine (measured concentrations) drives % cell viability (in %): direct Emax (saturable) effect.
 
 **Model:** No model was generated from this record.
 
-> Cisplatin and cimetidine concentrations each inhibit cancer cell viability (R, %) in Huh7 and MDA-MB-468 cells via a cell-growth-inhibition model: each drug contributes a killing term Smax·C/(SC50+C) reducing viability from baseline R0 (100%) with first-order growth kg (0.011–0.018 h−1). Cisplatin is far more potent (SC50,CIS 2.48–4.27 µM; Smax,CIS 0.038–0.108 h−1; rate 1/τCIS 0.101–1.17 h−1) than cimetidine (SC50,CIM 21453.95–36886.97 µM; Smax,CIM 0.096–0.106 h−1), with reported single-agent IC50s of 3.19 mM (Huh7) and 3.28 mM (MDA-MB-468).
+> Cimetidine concentrations (mM) inhibit % cell viability via a direct Emax mechanism, characterized by an IC50 of 3.19 mM, an Imax of 0.99, and a Hill coefficient (γ) of 3.12. The paper describes this as a static concentration-response relationship without specifying a mechanistic pathway such as production or elimination inhibition.
 >
-> <sub>in the paper's terms — summarised by glm-5.3-flash from the paper's text; not checked by a person</sub>
+> <sub>in the paper's terms — summarised by qwen3.8:27b-mtp-q8_0 from the paper's text; not checked by a person</sub>
 
 - **paper:** `Mody_2022`
-- **model family:** `sigmoid_emax`
+- **model family:** `emax`
 - **driver:** `conc_no_pk`
 - **tier:** descriptive
-- **effect:** inhibition/unknown
+- **effect:** inhibition/proportional
 
 ## Citation
-Mody H; Vaidya TR; Lesko LJ; Ait-Oudhia S et al. (2022). Cells 12
+Mody H et al., Pharmacodynamic Modeling to Evaluate th…, Cells (2022)
   ·  DOI: [10.3390/cells12010057](https://doi.org/10.3390/cells12010057)
 
 ## Parameters
 | role | label (paper) | Q-code · name | value | unit | value_si | link | source |
 |---|---|---|---|---|---|---|---|
-| PD (effect) | R0 (%) — Estimate (% RSE) | `Q336` · not captured | 100 | Units | not captured | exact (not captured) | cells-12-00057-t002:row2:col2 |
-| PD (effect) | R0 (%) — Estimate (% RSE) | `Q336` · not captured | 100 | Units | not captured | exact (not captured) | cells-12-00057-t002:row2:col3 |
-| PK (driver) | kg (h−1) — Estimate (% RSE) | `Q47` · not captured | 0.011 | h−1 | not captured | llm (not captured) | cells-12-00057-t002:row3:col2 |
-| PK (driver) | kg (h−1) — Estimate (% RSE) | `Q47` · not captured | 0.018 | h−1 | not captured | llm (not captured) | cells-12-00057-t002:row3:col3 |
-| PK (driver) | Smax,CIS (h−1) — Estimate (% RSE) | `Q32` · not captured | 0.038 | h−1 | not captured | llm (not captured) | cells-12-00057-t002:row4:col2 |
-| PK (driver) | Smax,CIS (h−1) — Estimate (% RSE) | `Q32` · not captured | 0.108 | h−1 | not captured | llm (not captured) | cells-12-00057-t002:row4:col3 |
-| PD (effect) | SC50,CIS (µM) — Estimate (% RSE) | `Q322` · not captured | 4.27 | µM | not captured | llm (not captured) | cells-12-00057-t002:row5:col2 |
-| PD (effect) | SC50,CIS (µM) — Estimate (% RSE) | `Q322` · not captured | 2.48 | µM | not captured | llm (not captured) | cells-12-00057-t002:row5:col3 |
-| PK (driver) | 1/ƮCIS (h−1) — Estimate (% RSE) | `Q47` · not captured | 1.17 | h−1 | not captured | llm (not captured) | cells-12-00057-t002:row6:col2 |
-| PK (driver) | 1/ƮCIS (h−1) — Estimate (% RSE) | `Q47` · not captured | 0.101 | h−1 | not captured | llm (not captured) | cells-12-00057-t002:row6:col3 |
-| PK (driver) | Smax,CIM (h−1) — Estimate (% RSE) | `Q32` · not captured | 0.106 | h−1 | not captured | llm (not captured) | cells-12-00057-t002:row7:col2 |
-| PK (driver) | Smax,CIM (h−1) — Estimate (% RSE) | `Q32` · not captured | 0.096 | h−1 | not captured | llm (not captured) | cells-12-00057-t002:row7:col3 |
-| PD (effect) | SC50,CIM (µM) — Estimate (% RSE) | `Q322` · not captured | 36886.97 | µM | not captured | llm (not captured) | cells-12-00057-t002:row8:col2 |
-| PD (effect) | SC50,CIM (µM) — Estimate (% RSE) | `Q322` · not captured | 21453.95 | µM | not captured | llm (not captured) | cells-12-00057-t002:row8:col3 |
+| PD (effect) | R0 | `Q324` · not captured | 99.5 | % | not captured | llm (not captured) | Mody_2022:pdv3 |
+| PD (effect) | IC50 | `Q322` · not captured | 3.19 | mM | not captured | llm (not captured) | Mody_2022:pdv3 |
+| PD (effect) | Imax | `Q323` · not captured | 0.99 | not captured | not captured | llm (not captured) | Mody_2022:pdv3 |
+| PD (effect) | γ | `Q325` · not captured | 3.12 | not captured | not captured | llm (not captured) | Mody_2022:pdv3 |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>

@@ -1,12 +1,13 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A10B&quot;,&quot;href&quot;:&quot;atc/A10B.md&quot;},{&quot;label&quot;:&quot;dapagliflozin&quot;,&quot;href&quot;:&quot;drugs/drug_dapagliflozin/&quot;},{&quot;label&quot;:&quot;Kobuchi_2025 \u00b7 PD HbA1c&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Dapagliflozin_Kobuchi2025_reference&quot;,&quot;label&quot;:&quot;Kobuchi_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_dapagliflozin/Dapagliflozin_Kobuchi2025_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 <div class="pk-tab-mark" data-tab="Information"></div>
 
-# HbA1c — PD  <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.958). The first reading is what the record holds.">cross-check: disputed</span>
+# HbA1c — PD  <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.692). The first reading is what the record holds.">cross-check: disputed</span>
+
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -14,45 +15,29 @@
 
 **As extracted:** Dapagliflozin (concentrations from this paper's PK model) drives HbA1c (in %): indirect response — drug inhibits the production of HbA1c.
 
-**Model:** A model was generated (see the **Models** tab); it has no in-browser simulator.
+**Model:** No model was generated from this record.
 
-> Dapagliflozin plasma concentration (ng/mL) drives an indirect response (turnover) model of HbA1c (%), in which dapagliflozin inhibits HbA1c production (glycation) via an Emax function (with a lower boundary correction at 5.0%); final-model estimates were Emax 0.034 HbA1c %/day (3.1 for the baseline-corrected component), EC50 23.7 ng/mL (5.8 ng/mL for the second component), and HbA1c half-life t1/2 16.1 day (4.1 day), with inter-individual variability in t1/2 of 103.9%.
+> Dapagliflozin plasma concentrations (ng/mL) inhibit the zero-order production of HbA1c (kin) via an indirect response model with an Emax effect, where the maximum effect (Emax) is 0.034 %/day and the EC50 is 23.7 ng/mL. The model estimates the HbA1c half-life (t1/2HbA1c) as 16.1 days, with kin derived from baseline HbA1c and kout.
 >
-> <sub>in the paper's terms — summarised by glm-5.3-flash from the paper's text; not checked by a person</sub>
+> <sub>in the paper's terms — summarised by qwen3.8:27b-mtp-q8_0 from the paper's text; not checked by a person</sub>
 
 - **paper:** `Kobuchi_2025`
 - **model family:** `indirect_response_i`
 - **driver:** `pk_record`
 - **tier:** population
-- **effect:** inhibition/additive
+- **effect:** inhibition/proportional
 
 ## Citation
-Kobuchi S; Sakai S; Terada R; Kato KI; Hayakawa T; Sakaeda T et al. (2025). International journal of medical sciences 22
+Kobuchi S et al., Population Pharmacokinetic-pharmacodyna…, International journal of me… (2025)
   ·  DOI: [10.7150/ijms.111519](https://doi.org/10.7150/ijms.111519)
 
 ## Parameters
 | role | label (paper) | Q-code · name | value | unit | value_si | link | source |
 |---|---|---|---|---|---|---|---|
-| PK (driver) | t1/2HbA1c (day) — Final model | `Q57` · not captured | 16.1 | day | not captured | llm (not captured) | T3:row3:col1 |
-| PK (driver) | t1/2HbA1c (day) — Final model | `Q57` · not captured | 4.1 | day | not captured | llm (not captured) | T3:row3:col2 |
-| PK (driver) | t1/2HbA1c (day) — Bootstrap (n = 1000) | `Q57` · not captured | 16.0 | day | not captured | llm (not captured) | T3:row3:col4 |
-| PK (driver) | t1/2HbA1c (day) — Bootstrap (n = 1000) | `Q57` · not captured | 15.3 | day | not captured | llm (not captured) | T3:row3:col5 |
-| PD (effect) | Emax (HbA1c %/day) — Final model | `Q320` · not captured | 0.034 | HbA1c %/day | not captured | exact (not captured) | T3:row4:col1 |
-| PD (effect) | Emax (HbA1c %/day) — Final model | `Q320` · not captured | 3.1 | HbA1c %/day | not captured | exact (not captured) | T3:row4:col2 |
-| PD (effect) | Emax (HbA1c %/day) — Bootstrap (n = 1000) | `Q320` · not captured | 0.034 | HbA1c %/day | not captured | exact (not captured) | T3:row4:col4 |
-| PD (effect) | Emax (HbA1c %/day) — Bootstrap (n = 1000) | `Q320` · not captured | 0.031 | HbA1c %/day | not captured | exact (not captured) | T3:row4:col5 |
-| PD (effect) | EC50 (ng/mL) — Final model | `Q321` · not captured | 23.7 | ng/mL | not captured | exact (not captured) | T3:row5:col1 |
-| PD (effect) | EC50 (ng/mL) — Final model | `Q321` · not captured | 5.8 | ng/mL | not captured | exact (not captured) | T3:row5:col2 |
-| PD (effect) | EC50 (ng/mL) — Bootstrap (n = 1000) | `Q321` · not captured | 21.9 | ng/mL | not captured | exact (not captured) | T3:row5:col4 |
-| PD (effect) | EC50 (ng/mL) — Bootstrap (n = 1000) | `Q321` · not captured | 13.5 | ng/mL | not captured | exact (not captured) | T3:row5:col5 |
-| PK (driver) | ωt1/2 HbA1c (%) — Final model | `Q57` · not captured | 103.9 | not captured | not captured | llm_confirmed (not captured) | T3:row7:col1 |
-| PK (driver) | ωt1/2 HbA1c (%) — Final model | `Q57` · not captured | 11.2 | not captured | not captured | llm_confirmed (not captured) | T3:row7:col2 |
-| PK (driver) | ωt1/2 HbA1c (%) — Bootstrap (n = 1000) | `Q57` · not captured | 104.1 | n = 1000 | not captured | llm_confirmed (not captured) | T3:row7:col4 |
-| PK (driver) | ωt1/2 HbA1c (%) — Bootstrap (n = 1000) | `Q57` · not captured | 101.7 | n = 1000 | not captured | llm_confirmed (not captured) | T3:row7:col5 |
-| variability | σ (HbA1c %) — Final model | `Q315` · not captured | 0.24 | HbA1c % | not captured | llm (not captured) | T3:row9:col1 |
-| variability | σ (HbA1c %) — Final model | `Q315` · not captured | 5.2 | HbA1c % | not captured | llm (not captured) | T3:row9:col2 |
-| variability | σ (HbA1c %) — Bootstrap (n = 1000) | `Q315` · not captured | 0.24 | HbA1c % | not captured | llm (not captured) | T3:row9:col4 |
-| variability | σ (HbA1c %) — Bootstrap (n = 1000) | `Q315` · not captured | 0.21 | HbA1c % | not captured | llm (not captured) | T3:row9:col5 |
+| PD (effect) | t1/2HbA1c | `Q328` · not captured | 16.1 | day | not captured | llm (not captured) | Kobuchi_2025:pdv3 |
+| PD (effect) | Emax | `Q323` · not captured | 0.034 | HbA1c %/day | not captured | direction (not captured) | Kobuchi_2025:pdv3 |
+| PD (effect) | EC50 | `Q321` · not captured | 23.7 | ng/mL | not captured | llm (not captured) | Kobuchi_2025:pdv3 |
+| variability | ωt1/2 HbA1c | `Q312` · not captured | 103.9 | % | not captured | llm (not captured) | Kobuchi_2025:pdv3 |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -60,53 +45,25 @@ Kobuchi S; Sakai S; Terada R; Kato KI; Hayakawa T; Sakaeda T et al. (2025). Inte
 </details>
 
 
-## Exposure-response model
-
-`Dapagliflozin_Kobuchi2025_PD_hba1c` — turnover (indirect response type I), `response = E0*(1 - Emax*frac)`
-
-| parameter | value (paper units) | SI |
-|---|---|---|
-| E0 | 0 | — |
-| Emax | 0.034 | — |
-| EC50 | 23.7 ng/mL | 2.37e-05 kg/m3 |
-| gamma | 1 | — |
-
-Closed-form check points (response, SI): `at_0` = 0, `at_EC50` = 0, `at_inf` = 0
-
-Deviations:
-
-- `defaulted_parameters` — E0, gamma
-
-## Review
-
-Verdict <span class="pk-badge pk-badge--orange">needs review</span> · route to `scholar`
-
-| check | status | note |
-|---|---|---|
-| `T0_driver` | pass | driver is the drug, a synonym or one of its metabolites (or unnamed) |
-| `T1_closed_form` | pass | engineer's check points reproduced from the bound parameters |
-| `T1b_fmu` | skipped | template FMU / fmpy not available — advisory only |
-| `T2_direction` | skipped | effect_direction 'inhibition' |
-| `T3_plausibility` | pass | EC50, gamma, Imax and baseline in range |
-| `T4_defaults` | fail | a core parameter took a library default: E0 |
-
-Advisory:
-
-- defaulted: E0 — a row the paper has and the record lacks
-
-
 **Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
 first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whatever the readers say
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.958 (23/24 fields) | 1 |
+| `gpt-oss:120b` | not confirmed | 0.692 (18/26 fields) | 8 |
 
-<details><summary>1 field(s) a reader read differently</summary>
+<details><summary>8 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
+| `gpt-oss:120b` | `driver_compound` | dapagliflozin | unknown | mismatch |
+| `gpt-oss:120b` | `effect_direction` | inhibition | unknown | mismatch |
 | `gpt-oss:120b` | `effect_form` | additive | unknown | mismatch |
+| `gpt-oss:120b` | `model_family` | indirect_response_i | unknown | mismatch |
+| `gpt-oss:120b` | `parameters[Q314]` | not captured | 104.1 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q314]` | not captured | 101.7 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q57]` | 104.1 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[Q57]` | 101.7 | not captured | only_one_extracted |
 
 </details>
 
@@ -122,14 +79,14 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_dapagliflozin/Dapagliflozin_Kobuchi2025_PD_hba1c/Dapagliflozin_Kobuchi2025_PD_hba1c_modelica.zip" download>Dapagliflozin_Kobuchi2025_PD_hba1c_modelica.zip</a> <span class="pk-size">(2.3 kB)</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
 <tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_dapagliflozin/Dapagliflozin_Kobuchi2025_PD_hba1c/Dapagliflozin_Kobuchi2025_PD_hba1c_matlab.zip" download>Dapagliflozin_Kobuchi2025_PD_hba1c_matlab.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_dapagliflozin/Dapagliflozin_Kobuchi2025_PD_hba1c/Dapagliflozin_Kobuchi2025_PD_hba1c_sbml.zip" download>Dapagliflozin_Kobuchi2025_PD_hba1c_sbml.zip</a> <span class="pk-size">(2.6 kB)</span></td></tr>
-<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_dapagliflozin/Dapagliflozin_Kobuchi2025_PD_hba1c/Dapagliflozin_Kobuchi2025_PD_hba1c_cellml.zip" download>Dapagliflozin_Kobuchi2025_PD_hba1c_cellml.zip</a> <span class="pk-size">(2.5 kB)</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
 </tbody></table>
-<p>Each archive holds the model source, a script that simulates it against the appropriate library, and a README describing both and how to run them.</p>
+<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
 </div></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>

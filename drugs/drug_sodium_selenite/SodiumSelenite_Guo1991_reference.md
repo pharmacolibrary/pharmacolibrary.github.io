@@ -1,15 +1,14 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A12C&quot;,&quot;href&quot;:&quot;atc/A12C.md&quot;},{&quot;label&quot;:&quot;sodium selenite&quot;,&quot;href&quot;:&quot;drugs/drug_sodium_selenite/&quot;},{&quot;label&quot;:&quot;Guo_1991 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;SodiumSelenite_Guo1991_reference&quot;,&quot;label&quot;:&quot;Guo_1991_reference&quot;,&quot;href&quot;:&quot;drugs/drug_sodium_selenite/SodiumSelenite_Guo1991_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;SodiumSelenite_Jayachandran2021_reference&quot;,&quot;label&quot;:&quot;Jayachandran_2021_reference&quot;,&quot;href&quot;:&quot;drugs/drug_sodium_selenite/SodiumSelenite_Jayachandran2021_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;SodiumSelenite_Zheng2019_reference&quot;,&quot;label&quot;:&quot;Zheng_2019_reference&quot;,&quot;href&quot;:&quot;drugs/drug_sodium_selenite/SodiumSelenite_Zheng2019_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # sodium selenite — `SodiumSelenite_Guo1991_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (partly confirmed, agreement 0.667). The first reading is what the record holds.">cross-check: partial</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.095). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -21,17 +20,19 @@
 
 Without a unit the value cannot be converted, so the model cannot use it. Only the abstract was available, so reported summary statistics stand in for a fitted model. Extracted — sodium selenite: t1/2γ 1.8 h, t1/2ka 3.2 h, AUC 3 ng.h.ml-1, CL 32 ml.kg-1.h-1, V 1.45 L.kg-1, AUMC 130 S1, MRT 55 h, t1/2z 3.4 h.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of auc: this record has 3, the second reading none; it also differs on 4 more fields. That field does not shape the model.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has sodium selenite, the second reading unknown; it also differs on 18 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
+
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-09-28 14:40:31.639508+00:00) predates the upstream re-run (2026-10-05 09:49:15.827153+00:00). Current validate status: `needs_review`.
 
 > **Dose compound ≠ measured compound:** dosed `sodium selenite`, measured `selenium`.
 
 ## Citation
-Guo JA; Wang XY; Dai LM et al. (1991). Zhongguo yao li xue bao = Acta pharmacologica Sinica 12
+Guo JA et al., [Pharmacokinetics of sodium selenite in…, Zhongguo yao li xue bao = A… (1991)
 
 ## Model component
-<dbs-pgx drug="sodium selenite" model-id="SodiumSelenite_Guo1991_reference" status="needs_review" stale="false" population="healthy adults" measured-compound="selenium" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="sodium selenite" model-id="SodiumSelenite_Guo1991_reference" status="needs_review" stale="true" population="healthy adults" measured-compound="selenium" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment; no model was built for this record.  
 **Parameters:** 8 extracted.
@@ -48,6 +49,7 @@ Guo JA; Wang XY; Dai LM et al. (1991). Zhongguo yao li xue bao = Acta pharmacolo
 | AUC | `Q88` · AUC | 3 | ng.h.ml-1 | not captured | [[h] · [ng]] / [ml] | not captured | exact (1.0) | Guo_1991:abstract, Guo_1991:abstract | — | not captured |
 | CL | `Q22` · CL | 32 | ml.kg-1.h-1 | 6.222222222222221e-07 | [ml] / [[h] · [kg]] | not captured | exact (1.0) | Guo_1991:abstract | — | not captured |
 | Vc | `Q61` · V | 1.45 | L.kg-1 | 0.10149999999999999 | [l] / [kg] | not captured | exact (1.0) | Guo_1991:abstract, Guo_1991:abstract | — | not captured |
+| Cp | `Q900` · equation variable | 36 | ng.ml-1 | not captured | [ng] / [ml] | not captured | llm (0.6) | Guo_1991:abstract, Guo_1991:abstract | — | not captured |
 | AUMC (S1) | `Q20` · AUMC | 130 | S1 | not captured | [s1] | not captured | exact (1.0) | Guo_1991:abstract, Guo_1991:abstract | — | not captured |
 | MRT | `Q53` · MRT | 55 | h | 198000.0 | [h] | not captured | exact (1.0) | Guo_1991:abstract, Guo_1991:abstract | — | not captured |
 | T1/2 | `Q57` · t1/2z | 3.4 | h | 12240.0 | [h] | not captured | exact (1.0) | Guo_1991:abstract | — | not captured |
@@ -61,7 +63,6 @@ Guo JA; Wang XY; Dai LM et al. (1991). Zhongguo yao li xue bao = Acta pharmacolo
 
 **Interpretation flags:**
 - dropped unlinked row (NIL): 'Tp' — extend the ontology if this is a real PK parameter (source ['Guo_1991:abstract', 'Guo_1991:abstract'])
-- dropped unlinked row (NIL): 'Cp' — extend the ontology if this is a real PK parameter (source ['Guo_1991:abstract', 'Guo_1991:abstract'])
 - unit_dimension_unknown: 'S1' (AUMC)
 - dropped unlinked row (NIL): 'VRT' — extend the ontology if this is a real PK parameter (source ['Guo_1991:abstract', 'Guo_1991:abstract'])
 - dropped duplicate Q22 ('Cl', value 57) — already have one for this compound
@@ -76,22 +77,36 @@ Guo JA; Wang XY; Dai LM et al. (1991). Zhongguo yao li xue bao = Acta pharmacolo
 
 ## Validation
 
-**Cross-check (independent readings):** <span class="pk-badge pk-badge--orange">cross-check: partial</span>  
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
 first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whatever the readers say
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | partly confirmed | 0.667 (10/15 fields) | 5 |
+| `gpt-oss:120b` | not confirmed | 0.095 (2/21 fields) | 19 |
 
-<details><summary>5 field(s) a reader read differently</summary>
+<details><summary>19 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
 | `gpt-oss:120b` | `parameters[auc]` | 3 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[cp]` | not captured | 36 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[aumc]` | 130 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[aumc]` | not captured | 130 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[cl]` | 32 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[cl]` | not captured | 32 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[cp]` | 36 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[mrt]` | 55 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[t1/2]` | 3.4 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[t1/2]` | not captured | 3.4 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[t1/2g]` | 1.8 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[t1/2g]` | not captured | 1.8 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[t1/2ka]` | 3.2 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[t1/2ka]` | not captured | 3.2 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[tp]` | not captured | 6.1 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[vc]` | 1.45 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[vc]` | not captured | 1.45 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[vrt]` | not captured | 174 | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | sodium selenite | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | selenium | unknown | mismatch |
 
 </details>
 
@@ -154,4 +169,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-26 16:51 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-05 09:49 UTC</sub>

@@ -1,15 +1,14 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B01A&quot;,&quot;href&quot;:&quot;atc/B01A.md&quot;},{&quot;label&quot;:&quot;ticlopidine&quot;,&quot;href&quot;:&quot;drugs/drug_ticlopidine/&quot;},{&quot;label&quot;:&quot;Ashraf_2018 \u00b7 sir_resultsa&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ticlopidine_Ashraf2018_nonmem&quot;,&quot;label&quot;:&quot;Ashraf_2018_nonmem&quot;,&quot;href&quot;:&quot;drugs/drug_ticlopidine/Ticlopidine_Ashraf2018_nonmem.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ticlopidine_Ashraf2018_sir_resultsa&quot;,&quot;label&quot;:&quot;Ashraf_2018_sir_resultsa&quot;,&quot;href&quot;:&quot;drugs/drug_ticlopidine/Ticlopidine_Ashraf2018_sir_resultsa.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # ticlopidine — `Ticlopidine_Ashraf2018_sir_resultsa`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -23,12 +22,14 @@ The record describes ticlopidine with a parent–metabolite structure linking S-
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-10-05 09:32:31.087455+00:00) predates the upstream re-run (2026-10-05 16:43:48.064234+00:00). Current validate status: `rejected`.
+
 ## Citation
-Ashraf MW; Peltoniemi MA; Olkkola KT; Neuvonen PJ; Saari TI et al. (2018). CPT: pharmacometrics & systems pharmacology 7
+Ashraf MW et al., Semimechanistic Population Pharmacokine…, CPT: pharmacometrics & syst… (2018)
   ·  DOI: [10.1002/psp4.12346](https://doi.org/10.1002/psp4.12346)
 
 ## Model component
-<dbs-pgx drug="ticlopidine" model-id="Ticlopidine_Ashraf2018_sir_resultsa" status="rejected" stale="false" population="healthy volunteers" measured-compound="S-ketamine" parameterization="mechanistic" topology="parent_metabolite"></dbs-pgx>
+<dbs-pgx drug="ticlopidine" model-id="Ticlopidine_Ashraf2018_sir_resultsa" status="rejected" stale="true" population="healthy adults" measured-compound="S-ketamine" parameterization="mechanistic" topology="parent_metabolite"></dbs-pgx>
 
 **Model structure:** parent + metabolite; no model was built for this record.  
 **Parameters:** 3 extracted.
@@ -82,38 +83,6 @@ Ashraf MW; Peltoniemi MA; Olkkola KT; Neuvonen PJ; Saari TI et al. (2018). CPT: 
 - status held at route_to_review — not promoted
 - population split: 'sir‐resultsa' subgroup of Ashraf_2018 (paper reports 2 populations: nonmem, sir‐resultsa)
 
-**Extraction notes:**
-- unparsed cell psp412346-tbl-0002:row3:col5 = '[260, 352]'
-- unparsed cell psp412346-tbl-0002:row4:col5 = '[0.66, 1.98]'
-- unparsed cell psp412346-tbl-0002:row5:col5 = '[1.47, 2.11]'
-- unparsed cell psp412346-tbl-0002:row6:col5 = '[5.90, 22.5]'
-- unparsed cell psp412346-tbl-0002:row7:col5 = '[92.5, 111]'
-- unparsed cell psp412346-tbl-0002:row8:col5 = '[250, 331]'
-- unparsed cell psp412346-tbl-0002:row9:col5 = '[167, 190]'
-- unparsed cell psp412346-tbl-0002:row10:col5 = '[20.8, 24.1]'
-- unparsed cell psp412346-tbl-0002:row11:col5 = '[0.17, 0.37]'
-- unparsed cell psp412346-tbl-0002:row12:col5 = '[1.11, 3.67]'
-- unparsed cell psp412346-tbl-0002:row13:col5 = '[0.29, 0.66]'
-- unparsed cell psp412346-tbl-0002:row14:col1 = 'Interindividual variability on V PER1,SK'
-- unparsed cell psp412346-tbl-0002:row14:col5 = '[0.022, 0.076]'
-- unparsed cell psp412346-tbl-0002:row15:col5 = '[0.079, 0.093]'
-- unparsed cell psp412346-tbl-0002:row16:col5 = '[0.048, 0.09]'
-- unparsed cell psp412346-tbl-0002:row18:col5 = '[67.6, 79.9]'
-- unparsed cell psp412346-tbl-0002:row19:col5 = '[29.7, 71.2]'
-- unparsed cell psp412346-tbl-0002:row20:col5 = '[82.6, 93.5]'
-- unparsed cell psp412346-tbl-0002:row21:col5 = '[17.3, 22.8]'
-- unparsed cell psp412346-tbl-0002:row22:col5 = '[81.7, 96.5]'
-- unparsed cell psp412346-tbl-0002:row23:col5 = '[0.07, 0.15]'
-- unparsed cell psp412346-tbl-0002:row24:col5 = '[0.057, 0.068]'
-- unparsed cell psp412346-tbl-0002:row25:col5 = '[0.050, 0.090]'
-- unparsed cell psp412346-tbl-0002:row27:col5 = '[1148, 1820]'
-- unparsed cell psp412346-tbl-0002:row30:col5 = '[43.9, 57.7]'
-- unparsed cell psp412346-tbl-0002:row31:col5 = '[130, 393]'
-- unparsed cell psp412346-tbl-0002:row32:col5 = '[20.9, 32.0]'
-- unparsed cell psp412346-tbl-0002:row33:col5 = '[0.06, 0.28]'
-- unparsed cell psp412346-tbl-0002:row34:col5 = '[0.053, 0.083]'
-- LLM selected parameter table(s) 2
-
 ## Validation
 
 **Scholar closed-form checks:**
@@ -122,6 +91,7 @@ Ashraf MW; Peltoniemi MA; Olkkola KT; Neuvonen PJ; Saari TI et al. (2018). CPT: 
 |---|---|---|---|---|---|---|
 | C0_has_structural_params | pass | not captured | 3 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
+| C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q3 | fail | [length] ** 3 / [time] | L/h | not captured | not captured | ['psp412346-tbl-0002:row3:col4'] |
 | C5_dimension_Q30 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['psp412346-tbl-0002:row8:col4'] |
 | C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['psp412346-tbl-0002:row6:col4'] |
@@ -151,4 +121,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-06 00:13 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-05 16:43 UTC</sub>

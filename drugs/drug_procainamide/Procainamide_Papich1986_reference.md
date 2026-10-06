@@ -1,17 +1,19 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01B&quot;,&quot;href&quot;:&quot;atc/C01B.md&quot;},{&quot;label&quot;:&quot;procainamide&quot;,&quot;href&quot;:&quot;drugs/drug_procainamide/&quot;},{&quot;label&quot;:&quot;Papich_1986 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Procainamide_Grasela1984_reference&quot;,&quot;label&quot;:&quot;Grasela_1984_reference&quot;,&quot;href&quot;:&quot;drugs/drug_procainamide/Procainamide_Grasela1984_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Procainamide_Singh1982_reference&quot;,&quot;label&quot;:&quot;Singh_1982_reference&quot;,&quot;href&quot;:&quot;drugs/drug_procainamide/Procainamide_Singh1982_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Procainamide_Kharidia1996_reference&quot;,&quot;label&quot;:&quot;Kharidia_1996_reference&quot;,&quot;href&quot;:&quot;drugs/drug_procainamide/Procainamide_Kharidia1996_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Procainamide_Papich1986_reference&quot;,&quot;label&quot;:&quot;Papich_1986_reference&quot;,&quot;href&quot;:&quot;drugs/drug_procainamide/Procainamide_Papich1986_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Procainamide_Grasela1984_reference&quot;,&quot;label&quot;:&quot;Grasela_1984_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_procainamide/Procainamide_Grasela1984_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Procainamide_Papich1986_reference&quot;,&quot;label&quot;:&quot;Papich_1986_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_procainamide/Procainamide_Papich1986_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Procainamide_Singh1982_reference&quot;,&quot;label&quot;:&quot;Singh_1982_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_procainamide/Procainamide_Singh1982_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # procainamide — `Procainamide_Papich1986_reference`
 
-> ## <span class="pk-badge pk-badge--red" title="covariates_not_exercised: the record defines covariate effects (weight on clearance, renal function …) but the engineer simulated only the reference individual, so those scenarios were never run. The base model still reproduces the paper; what is missing is the covariate curves.">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.3). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--green" title="covariates_not_exercised: the record defines covariate effects (weight on clearance, renal function …) but the engineer simulated only the reference individual, so those scenarios were never run. The base model still reproduces the paper; what is missing is the covariate curves.">extracted</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.25). The first reading is what the record holds.">cross-check: disputed</span> <span class="pk-badge pk-badge--species" title="Animal study (dog), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">dog</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
+
+> **Species: dog.** This record comes from an animal study (dog), not from people. The values, the model and its simulation are shown as the paper reports them — they describe that system, not human pharmacology (read from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).
 
 **Model:** A simulatable model was generated — see the **Models** and **Simulation** tabs.
 
@@ -19,28 +21,28 @@
 
 ### Reviewer guidance
 
-**The procainamide record was rejected because the model output was the parent's central compartment instead of the measured analyte, the structure was a one-compartment enteral model rather than the required parent–metabolite structure, and an absorption half-life was invented since the abstract-only source did not report it.**
+**The procainamide record was rejected because the simulated output was the parent's central compartment instead of the measured analyte and the structure was a one-compartment enteral model rather than the required parent–metabolite topology, with unreported ka and Tlag defaulted.**
 
-The paper (Papich_1986, dogs) describes procainamide metabolized to N-acetylprocainamide, but the built model was a single-compartment model with enteral input instead of a parent–metabolite structure, and its simulated output was the parent's central concentration rather than the measured compound procainamide. The absorption half-life (0.5 h) and lag time were not reported in the source — only abstract summary statistics were available — so defaults were substituted, which was judged unacceptable. The model also assumed apparent parameterization (F=1, Fm=1, no molar correction) despite a reported bioavailability of 85%, and a second reader disputed this, calling the parameterization mechanistic and returning null for the bioavailability and all five parameter values. Additionally, the covariate effects defined in the record were never simulated; only the reference individual was. Extracted — procainamide: t1/2z 2.43 hours, V/F 1.44 L/kg, CL 0.412 L/kg/hr, Fab 85 %, t1/2ka 0.5 hours.
+The record describes procainamide in dogs with a parent–metabolite structure (procainamide metabolized to N-acetylprocainamide), but the simulation used a one-compartment enteral model and returned the parent's central compartment as output instead of the measured compound procainamide. The absorption rate constant ka and lag time were not reported in the source and were left at library defaults, and the apparent parameterization assumed F=1 and Fm=1 with no molar correction despite a reported bioavailability of 85%. The record was built from the paper's abstract alone, so summary statistics stood in for a fitted model, covariate effects were defined but never simulated, and a second reader disputed the parameterization and all reported values (t1/2z 2.43 h, V/F 1.44 L/kg, CL 0.412 L/kg/hr, Fab 85%, t1/2ka 0.5 h). Extracted — procainamide: t1/2z 2.43 hours, V/F 1.44 L/kg, CL 0.412 L/kg/hr, Fab 85 %, t1/2ka 0.5 hours.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on how the model is parameterised: this record has apparent, the second reading mechanistic; it also differs on 6 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has procainamide, the second reading unknown; it also differs on 11 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-10-05 09:31:16.791482+00:00) predates the upstream re-run (2026-10-06 04:05:15.980162+00:00). Current validate status: `extracted`.
+
 ## Citation
-Papich MG; Davis LE; Davis CA; McKiernan BC; Brown SA et al. (1986). American journal of veterinary research 47
+Papich MG et al., Pharmacokinetics of procainamide hydroc…, American journal of veterin… (1986)
 
 ## Model component
-<dbs-pgx drug="procainamide" model-id="Procainamide_Papich1986_reference" status="rejected" stale="false" population="dogs" measured-compound="procainamide" parameterization="apparent" topology="parent_metabolite"></dbs-pgx>
+<dbs-pgx drug="procainamide" model-id="Procainamide_Papich1986_reference" status="extracted" stale="true" population="dogs" measured-compound="procainamide" parameterization="apparent" topology="parent_metabolite"></dbs-pgx>
 
 **Model structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
-**Parameters:** 5 extracted.
+**Parameters:** 6 extracted.
 
 **Parameterization:** V/F — apparent, F unknown (apparent — bioavailability not identifiable).
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `rejected`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
-
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
 | elimination half-life | `Q57` · t1/2z | 2.43 | hours | 8748.0 | [h] | not captured | llm (0.6) | Papich_1986:abstract | — | not captured |
@@ -48,6 +50,7 @@ Papich MG; Davis LE; Davis CA; McKiernan BC; Brown SA et al. (1986). American jo
 | systemic clearance | `Q22` · CL | 0.412 | L/kg/hr | 8.01111111111111e-06 | [l] / [[h] · [kg]] | not captured | llm_confirmed (0.6) | Papich_1986:abstract, Papich_1986:abstract | — | not captured |
 | bioavailability | `Q40` · Fab | 85 | % | not captured | not captured | not captured | exact (1.0) | Papich_1986:abstract | — | not captured |
 | absorption half-life | `Q95` · t1/2ka | 0.5 | hours | 1800.0 | [h] | not captured | llm_corrected (0.6) | Papich_1986:abstract | — | not captured |
+| estimated elimination half-life of NAPA | `Q57` · t1/2z | 4.7 | hours | 16920.0 | [h] | not captured | llm (0.6) | Papich_1986:abstract | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -64,11 +67,12 @@ Papich MG; Davis LE; Davis CA; McKiernan BC; Brown SA et al. (1986). American jo
 
 **Interpretation flags:**
 - covariate category for t1/2z from footnote/prose kept as documentation only (['Papich_1986:abstract'])
-- dropped duplicate Q57 ('estimated elimination half-life of NAPA', value 4.7) — already have one for this compound
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=procainamide
 - held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - topology: transfer parameter unlinked (Q100) — add Kfm/formation-rate/rate-constant to the ontology; routing to review
+- template fit: none — noncompartmental model — not a compartmental parent–metabolite model
 - status held at route_to_review — not promoted
+- row roles (LLM): model_class=noncompartmental; 7/7 row label(s) assigned, 0 linked by role; re-tagged procainamide→parent ×8, procainamide→N-acetylprocainamide ×1
 - abstract-only: no full text was available, so these values were read from the abstract's prose — reported summary statistics, not a fitted model
 - skipped review gap-fill of V2: primary is PARENT_METABOLITE (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is PARENT_METABOLITE (peripheral family needs ≥2C)
@@ -84,19 +88,24 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.3 (3/10 fields) | 7 |
+| `gpt-oss:120b` | not confirmed | 0.25 (4/16 fields) | 12 |
 
-<details><summary>7 field(s) a reader read differently</summary>
+<details><summary>12 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `model.bioavailability.theta` | 85 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `model.parameterization` | apparent | mechanistic | mismatch |
 | `gpt-oss:120b` | `parameters[absorption half-life]` | 0.5 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[absorption half-life]` | not captured | 0.5 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[apparent volume of distribution]` | 1.44 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[apparent volume of distribution]` | not captured | 1.44 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[bioavailability]` | 85 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[bioavailability]` | not captured | 85 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[elimination half-life]` | 2.43 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[elimination half-life]` | not captured | 2.43 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[systemic clearance]` | 0.412 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[systemic clearance]` | not captured | 0.412 | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | procainamide | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | procainamide | unknown | mismatch |
 
 </details>
 
@@ -110,10 +119,11 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 5 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 6 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Papich_1986:abstract', 'Papich_1986:abstract'] |
+| C5_dimension_Q57 | pass | [time] | not captured | not captured | not captured | ['Papich_1986:abstract'] |
 | C5_dimension_Q57 | pass | [time] | not captured | not captured | not captured | ['Papich_1986:abstract'] |
 | C5_dimension_Q76 | pass | [length] ** 3 | not captured | not captured | not captured | ['Papich_1986:abstract', 'Papich_1986:abstract'] |
 | C5_dimension_Q95 | pass | [time] | not captured | not captured | not captured | ['Papich_1986:abstract'] |
@@ -132,7 +142,7 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | T3_output_variable | not captured | fail | Metabolite_C (measured=procainamide) | central.C | not captured | output must be the measured/analyte compartment |
 | T3_param_coverage | not captured | pass | 2 scholar param(s) emitted or defaulted | 2 covered | not captured | all structural parameters accounted for |
 | T3_topology_template | not captured | fail | parent_metabolite → PK_3M_9C* | PK_1C_enteral | not captured | engineer template must match the scholar topology |
-| T6_deviations | not captured | fail | not captured | invented_absorption: not acceptable | not captured | LLM adjudication → deterministic rule |
+| T6_deviations | not captured | fail | not captured | deviation_id: not acceptable; defaulted_parameters: not acceptable; apparent_assumption: not acceptable; invented_absorption: not acceptable; input_model: not acceptable | not captured | LLM adjudication → deterministic rule |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -149,9 +159,20 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-tab-mark" data-tab="Models"></div>
 
-## Models
+## Downloadable models
 
-<p>No downloads: this record is <b>rejected</b>, so it is not published as a model. Any archives generated for it before the verdict have been removed — a download outlives the page that explains it.</p>
+<div class="pk-models-grid"><div class="pk-models-table">
+<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_procainamide/Procainamide_Papich1986_reference/Procainamide_Papich1986_reference_modelica.zip" download>Procainamide_Papich1986_reference_modelica.zip</a> <span class="pk-size">(5.1 kB)</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_procainamide/Procainamide_Papich1986_reference/Procainamide_Papich1986_reference_fmi.zip" download>Procainamide_Papich1986_reference_fmi.zip</a> <span class="pk-size">(4.3 kB)</span><br><a href="models/fmu/PK_1C_enteral.fmu" download>PK_1C_enteral.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_procainamide/Procainamide_Papich1986_reference/Procainamide_Papich1986_reference_matlab.zip" download>Procainamide_Papich1986_reference_matlab.zip</a> <span class="pk-size">(3.5 kB)</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_procainamide/Procainamide_Papich1986_reference/Procainamide_Papich1986_reference_matlab_simbio.zip" download>Procainamide_Papich1986_reference_matlab_simbio.zip</a> <span class="pk-size">(2.9 kB)</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_procainamide/Procainamide_Papich1986_reference/Procainamide_Papich1986_reference_sbml.zip" download>Procainamide_Papich1986_reference_sbml.zip</a> <span class="pk-size">(2.7 kB)</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_procainamide/Procainamide_Papich1986_reference/Procainamide_Papich1986_reference_cellml.zip" download>Procainamide_Papich1986_reference_cellml.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
+</tbody></table>
+<p>Each archive holds the model source, a script that simulates it against the appropriate library, and a README describing both and how to run them.</p>
+<p><b>FMI is two downloads.</b> The archive holds this record's parameters and its driver; the simulator itself is <code>PK_1C_enteral.fmu</code>, one compiled template shared by every model of this structure. Take the FMU once, keep it beside the script (or pass <code>--fmu PATH</code>). Running it reproduces the model-specific FMU exactly.</p>
+</div><figure class="pk-models-diagram"><img src="drugs/drug_procainamide/Procainamide_Papich1986_reference/Procainamide_Papich1986_reference.svg" alt="Procainamide_Papich1986_reference diagram"><figcaption>Model diagram (Modelica) using Pharmacolibrary v26.09 components, rendered by OpenModelica 1.26.7.</figcaption></figure></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
@@ -164,4 +185,4 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-20 16:36 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-06 04:05 UTC</sub>

@@ -1,19 +1,19 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A03D&quot;,&quot;href&quot;:&quot;atc/A03D.md&quot;},{&quot;label&quot;:&quot;trospium&quot;,&quot;href&quot;:&quot;drugs/drug_trospium/&quot;},{&quot;label&quot;:&quot;Doroshyenko_2005 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Trospium_Doroshyenko2005_reference&quot;,&quot;label&quot;:&quot;Doroshyenko_2005_reference&quot;,&quot;href&quot;:&quot;drugs/drug_trospium/Trospium_Doroshyenko2005_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Trospium_Oefelein2013_reference&quot;,&quot;label&quot;:&quot;Oefelein_2013_reference&quot;,&quot;href&quot;:&quot;drugs/drug_trospium/Trospium_Oefelein2013_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Trospium_Oefelein2013_reference&quot;,&quot;label&quot;:&quot;Oefelein_2013_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_trospium/Trospium_Oefelein2013_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # trospium — `Trospium_Doroshyenko2005_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (partly confirmed, agreement 0.286). The first reading is what the record holds.">cross-check: partial</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.143). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
@@ -21,18 +21,20 @@
 
 A model needs both clearance and volume; without the volume it could only be built on a library default, so it was not. Only the abstract was available, so reported summary statistics stand in for a fitted model. Extracted — trospium: Cmax 4 ng/mL, Fab 10 %, FG 26 % of the fasting area under the plasma concentration-time curve [AUC], CLR 29 L/h, CL 30 mL/min.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on bioavailability: this record has 10, the second reading none; it also differs on 9 more fields. That field does not shape the model.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has trospium chloride, the second reading unknown; it also differs on 17 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-09-28 14:42:06.133397+00:00) predates the upstream re-run (2026-10-04 13:33:45.607175+00:00). Current validate status: `needs_review`.
+
 ## Citation
-Doroshyenko O; Jetter A; Odenthal KP; Fuhr U et al. (2005). Clinical pharmacokinetics 44
+Doroshyenko O et al., Clinical pharmacokinetics of trospium c…, Clinical pharmacokinetics (2005)
   ·  DOI: [10.2165/00003088-200544070-00003](https://doi.org/10.2165/00003088-200544070-00003)
 
 ## Model component
-<dbs-pgx drug="trospium" model-id="Trospium_Doroshyenko2005_reference" status="needs_review" stale="false" population="healthy volunteers and patients with overactive bladder" measured-compound="trospium chloride" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="trospium" model-id="Trospium_Doroshyenko2005_reference" status="needs_review" stale="true" population="healthy volunteers, patients with renal and hepatic impairment, and patients with overactive bladder" measured-compound="trospium chloride" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
-**Model structure:** 1-compartment, IV mammillary model — template `PK_1C`.  
+**Model structure:** 1-compartment; no model was built for this record.  
 **Parameters:** 5 extracted.
 
 **Parameterization:** mechanistic.
@@ -57,14 +59,13 @@ Doroshyenko O; Jetter A; Odenthal KP; Fuhr U et al. (2005). Clinical pharmacokin
 | label (paper) | Q-code | value | link |
 |---|---|---|---|
 | time to reach Cmax | Q56 | not captured | llm_corrected |
-| AUC | Q88 | not captured | exact |
 | mean volume of distribution | Q61 | not captured | llm_confirmed |
 | mean elimination half-life | Q57 | not captured | llm |
 
 ## Departures & gaps
 
 **Interpretation flags:**
-- dropped duplicate Q32 ('Cmax', value None) — already have one for this compound
+- dropped unlinked row (NIL): 'fraction of total clearance' — extend the ontology if this is a real PK parameter (source ['Doroshyenko_2005:abstract'])
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=trospium chloride
 - held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - status held at route_to_review — not promoted
@@ -73,31 +74,39 @@ Doroshyenko O; Jetter A; Odenthal KP; Fuhr U et al. (2005). Clinical pharmacokin
 - skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
 
 **Extraction notes:**
-- no GROBID TEI available — transcribed from abstract in Doroshyenko_2005_metadata.yaml (10 record(s)); values are summary statistics, not a fitted model
+- no GROBID TEI available — transcribed from abstract in Doroshyenko_2005_metadata.yaml (9 record(s)); values are summary statistics, not a fitted model
 
 ## Validation
 
-**Cross-check (independent readings):** <span class="pk-badge pk-badge--orange">cross-check: partial</span>  
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
 first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whatever the readers say
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | partly confirmed | 0.286 (4/14 fields) | 10 |
+| `gpt-oss:120b` | not confirmed | 0.143 (3/21 fields) | 18 |
 
-<details><summary>10 field(s) a reader read differently</summary>
+<details><summary>18 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `model.bioavailability.theta` | 10 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[auc]` | not captured | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[approximately 70% of total clearance]` | not captured | 70 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[creatinine clearance &lt; 30 ml/min]` | not captured | 30 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[creatinine clearance]` | 30 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[mean bioavailability with food]` | 26 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[mean bioavailability]` | 10 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[mean elimination half-life]` | not captured | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[mean elimination half-life]` | not captured | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[mean of 26% of the fasting area under the plasma concentration-time curve [auc]]` | not captured | 26 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[mean renal clearance]` | 29 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[mean renal clearance]` | not captured | 29 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[mean volume of distribution]` | not captured | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[mean volume of distribution]` | not captured | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[peak plasma concentrations]` | 4 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[peak plasma concentrations]` | not captured | 4 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[the mean bioavailability]` | not captured | 10 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[time to reach cmax]` | not captured | not captured | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | trospium chloride | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | trospium chloride | unknown | mismatch |
 
 </details>
 
@@ -157,4 +166,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-18 11:10 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-04 13:33 UTC</sub>

@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;L01B&quot;,&quot;href&quot;:&quot;atc/L01B.md&quot;},{&quot;label&quot;:&quot;fluorouracil&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/&quot;},{&quot;label&quot;:&quot;Deyme_2019 \u00b7 beaty_31&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Fluorouracil_Bae2026_reference&quot;,&quot;label&quot;:&quot;Bae_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Bae2026_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Lubomirov2025_reference&quot;,&quot;label&quot;:&quot;Lubomirov_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Lubomirov2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Lvi2000_reference&quot;,&quot;label&quot;:&quot;L\u00e9vi_2000_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Lvi2000_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Yang2025_reference&quot;,&quot;label&quot;:&quot;Yang_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Yang2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Blesch2003_reference&quot;,&quot;label&quot;:&quot;Blesch_2003_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Blesch2003_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Bressolle1999_reference&quot;,&quot;label&quot;:&quot;Bressolle_1999_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Bressolle1999_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Brooks2025_reference&quot;,&quot;label&quot;:&quot;Brooks_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Brooks2025_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Coustre1991_reference&quot;,&quot;label&quot;:&quot;Coust\u00e8re_1991_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Coustre1991_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Diasio1989v2_reference&quot;,&quot;label&quot;:&quot;Diasio_1989_2_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Diasio1989v2_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Kang2025_reference&quot;,&quot;label&quot;:&quot;Kang_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Kang2025_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Kuzuya1994_reference&quot;,&quot;label&quot;:&quot;Kuzuya_1994_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Kuzuya1994_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Mueller2013_reference&quot;,&quot;label&quot;:&quot;Mueller_2013_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Mueller2013_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Schmulenson2023_estimate&quot;,&quot;label&quot;:&quot;Schmulenson_2023_estimate&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Schmulenson2023_estimate.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Schmulenson2023_estimate_relative_standard_erro&quot;,&quot;label&quot;:&quot;Schmulenson_2023_estimate_relative_standard_error&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Schmulenson2023_estimate_relative_standard_erro.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_SezBell2021_reference&quot;,&quot;label&quot;:&quot;S\u00e1ez-Bell\u00f3_2021_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_SezBell2021_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Valderrama2025_reference&quot;,&quot;label&quot;:&quot;Valderrama_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Valderrama2025_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2012_reference&quot;,&quot;label&quot;:&quot;van_2012_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2012_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Arshad2020_reference&quot;,&quot;label&quot;:&quot;Arshad_2020_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Arshad2020_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Daryani2016_reference&quot;,&quot;label&quot;:&quot;Daryani_2016_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Daryani2016_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_bastian_26&quot;,&quot;label&quot;:&quot;Deyme_2019_bastian_26&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_bastian_26.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_beaty_31&quot;,&quot;label&quot;:&quot;Deyme_2019_beaty_31&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_beaty_31.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_berg_37&quot;,&quot;label&quot;:&quot;Deyme_2019_berg_37&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_berg_37.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_delord_25&quot;,&quot;label&quot;:&quot;Deyme_2019_delord_25&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_delord_25.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_fouadi_30&quot;,&quot;label&quot;:&quot;Deyme_2019_fouadi_30&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_fouadi_30.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_kimura_29&quot;,&quot;label&quot;:&quot;Deyme_2019_kimura_29&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_kimura_29.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_klein_38&quot;,&quot;label&quot;:&quot;Deyme_2019_klein_38&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_klein_38.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_klo_24&quot;,&quot;label&quot;:&quot;Deyme_2019_klo_24&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_klo_24.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_nikanjan_32&quot;,&quot;label&quot;:&quot;Deyme_2019_nikanjan_32&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_nikanjan_32.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_porta_oltra_34&quot;,&quot;label&quot;:&quot;Deyme_2019_porta_oltra_34&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_porta_oltra_34.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_poujol_27&quot;,&quot;label&quot;:&quot;Deyme_2019_poujol_27&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_poujol_27.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_terret_23&quot;,&quot;label&quot;:&quot;Deyme_2019_terret_23&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_terret_23.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_thompson_28&quot;,&quot;label&quot;:&quot;Deyme_2019_thompson_28&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_thompson_28.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Deyme2019_van_kuijlenburg_36&quot;,&quot;label&quot;:&quot;Deyme_2019_van_kuijlenburg_36&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Deyme2019_van_kuijlenburg_36.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Gieschke2003_reference&quot;,&quot;label&quot;:&quot;Gieschke_2003_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Gieschke2003_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Hirose2010_interindividual_variability&quot;,&quot;label&quot;:&quot;Hirose_2010_interindividual_variability&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Hirose2010_interindividual_variability.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Hirose2010_population_mean&quot;,&quot;label&quot;:&quot;Hirose_2010_population_mean&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Hirose2010_population_mean.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Joel2004_reference&quot;,&quot;label&quot;:&quot;Joel_2004_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Joel2004_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Kobuchi2017_reference&quot;,&quot;label&quot;:&quot;Kobuchi_2017_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Kobuchi2017_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Yamada2025_reference&quot;,&quot;label&quot;:&quot;Yamada_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Yamada2025_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2013_bresole_et_al_1999&quot;,&quot;label&quot;:&quot;van_2013_bresole_et_al_1999&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2013_bresole_et_al_1999.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2013_climente_marti_et_al_2003&quot;,&quot;label&quot;:&quot;van_2013_climente_marti_et_al_2003&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2013_climente_marti_et_al_2003.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2013_couitre_et_al_1991&quot;,&quot;label&quot;:&quot;van_2013_couitre_et_al_1991&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2013_couitre_et_al_1991.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2013_di_paolo_et_al_2002&quot;,&quot;label&quot;:&quot;van_2013_di_paolo_et_al_2002&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2013_di_paolo_et_al_2002.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2013_gusella_et_al_2002&quot;,&quot;label&quot;:&quot;van_2013_gusella_et_al_2002&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2013_gusella_et_al_2002.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2013_maring_et_al_2003&quot;,&quot;label&quot;:&quot;van_2013_maring_et_al_2003&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2013_maring_et_al_2003.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2013_moore_et_al_1993&quot;,&quot;label&quot;:&quot;van_2013_moore_et_al_1993&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2013_moore_et_al_1993.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2013_sandstrom_et_al_1996&quot;,&quot;label&quot;:&quot;van_2013_sandstrom_et_al_1996&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2013_sandstrom_et_al_1996.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2013_terret_et_al_2000&quot;,&quot;label&quot;:&quot;van_2013_terret_et_al_2000&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2013_terret_et_al_2000.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2013_van_kuilenburg_et_al_2012&quot;,&quot;label&quot;:&quot;van_2013_van_kuilenburg_et_al_2012&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2013_van_kuilenburg_et_al_2012.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_van2013_woloch_et_al_2012&quot;,&quot;label&quot;:&quot;van_2013_woloch_et_al_2012&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_van2013_woloch_et_al_2012.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Fluorouracil_Lubomirov2025_reference&quot;,&quot;label&quot;:&quot;Lubomirov_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Lubomirov2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Lvi2000_reference&quot;,&quot;label&quot;:&quot;L\u00e9vi_2000_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Lvi2000_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Yang2025_reference&quot;,&quot;label&quot;:&quot;Yang_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Yang2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Bae2026_reference&quot;,&quot;label&quot;:&quot;Bae_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Bae2026_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Blesch2003_reference&quot;,&quot;label&quot;:&quot;Blesch_2003_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Blesch2003_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fluorouracil_Kang2025_reference&quot;,&quot;label&quot;:&quot;Kang_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/Fluorouracil_Kang2025_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Pierik_2024_V&quot;,&quot;label&quot;:&quot;Pierik_2024 \u00b7 V&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/pd_Pierik_2024_V.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Daryani_2016_bioluminescence&quot;,&quot;label&quot;:&quot;Daryani_2016 \u00b7 bioluminescence&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/pd_Daryani_2016_bioluminescence.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Ma_2022_T&quot;,&quot;label&quot;:&quot;Ma_2022 \u00b7 T&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_fluorouracil/pd_Ma_2022_T.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # fluorouracil — `Fluorouracil_Deyme2019_beaty_31`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.7). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.1). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -17,23 +17,23 @@
 
 ### Reviewer guidance
 
-**Rejected because fluorouracil volumes are physiologically implausible (V1 0.0055 L, V2 5364 L, V3 5711 L versus Vss 29.5 L), indicating a unit/scale extraction error, and metabolites 5FUH2 and 5FDHU are unlinked.**
+**The record mixes irinotecan's parameters (CL 21.1 L/h, Vmax 5711 mg/h, Km 29.5 mg/L) into a fluorouracil model, has dimensionally inconsistent structural parameters, and unlinked metabolites SN38, SN38G and APC, so it was rejected.**
 
-The fluorouracil record reports a central volume of 0.0055 L and peripheral volumes of 5364 L and 5711 L, which fail the physiological-window check and are inconsistent with the reported steady-state volume of 29.5 L, pointing to a unit or scale extraction error. The structure check also failed: the metabolites 5FUH2 and 5FDHU have no parameterized path from the administered fluorouracil dose (link parameter 'none'). A second reader additionally disagreed on the model structure, attributing the SN38-to-APC metabolism link to irinotecan instead of SN38, and on the dose and analyte compound naming. Extracted — fluorouracil: CL 21.1 L/h, V2 5.36e+03 L, V3 5.71e+03 L, Vss 29.5 L, Q 0.061 L/h, V1 0.0055 L, kabs 0.757 h−1, tlag 0.000552 h.
+The extracted structure is a general linear fluorouracil model, yet the parameters listed are for irinotecan (CL 21.1 L/h, V2 5364 L, Vmax 5711 mg/h, Km 29.5 mg/L, Q 0.085 L/h, Q2 0.0055 L/h), a dimension mismatch on a structural parameter. The metabolites SN38, SN38G and APC have no compartments and no path from the administered dose, making them unreachable. A second reader also disagreed on the dose compound and primary analyte (fluorouracil versus irinotecan-linked metabolites) and read several parameter values as null, and one reported unit could not be converted to SI. Extracted — irinotecan: CL 21.1 L/h, V2 5.36e+03 L, Vmax 5.71e+03 mg/h, Km 29.5 mg/L, Q 0.085 L/h, Q2 0.0055 L/h; fluorouracil: V 161 L, kabs 0.757 h−1, tlag 0.000552 h.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has fluorouracil, the second reading unknown; it also differs on 2 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has fluorouracil, the second reading unknown; it also differs on 8 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
 ## Citation
-Deyme L; Barbolosi D; Gattacceca F et al. (2019). Cancer chemotherapy and pharmacology 83
+Deyme L et al., Population pharmacokinetics of FOLFIRIN…, Cancer chemotherapy and pha… (2019)
   ·  DOI: [10.1007/s00280-018-3722-5](https://doi.org/10.1007/s00280-018-3722-5)
 
 ## Model component
-<dbs-pgx drug="fluorouracil" model-id="Fluorouracil_Deyme2019_beaty_31" status="rejected" stale="false" population="patients with digestive cancers" measured-compound="fluorouracil" parameterization="mechanistic" topology="general_linear"></dbs-pgx>
+<dbs-pgx drug="fluorouracil" model-id="Fluorouracil_Deyme2019_beaty_31" status="rejected" stale="false" population="adults with digestive cancers" measured-compound="fluorouracil" parameterization="mechanistic" topology="general_linear"></dbs-pgx>
 
 **Model structure:** general linear; no model was built for this record.  
-**Parameters:** 8 extracted.
+**Parameters:** 9 extracted.
 
 **Parameterization:** mechanistic.
 
@@ -42,13 +42,14 @@ Deyme L; Barbolosi D; Gattacceca F et al. (2019). Cancer chemotherapy and pharma
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| CL (L/h) | `Q22` · CL | 21.1 | L/h | 5.861111111111111e-06 | [l] / [h] | not captured | exact (1.0) | Deyme_2019_table_4:row0:col15 | — | not captured |
-| V2 (L) | `Q64` · V2 | 5364 | L | 5.364 | [l] | not captured | exact (1.0) | Deyme_2019_table_4:row2:col15, Deyme_2019_table_4:row7:col15 | — | not captured |
-| V3 (L) | `Q77` · V3 | 5711 | L | 5.711 | [l] | not captured | exact (1.0) | Deyme_2019_table_4:row3:col15 | — | not captured |
-| Vss (L) | `Q65` · Vss | 29.5 | L | 0.029500000000000002 | [l] | not captured | exact (1.0) | Deyme_2019_table_4:row4:col15 | — | not captured |
-| Q2 (L/h) | `Q30` · Q | 0.061 | L/h | 1.6944444444444443e-08 | [l] / [h] | not captured | special_case (0.95) | Deyme_2019_table_4:row6:col15 | — | not captured |
-| V1 (L) | `Q63` · V1 | 0.0055 | L | 5.5e-06 | [l] | not captured | exact (1.0) | Deyme_2019_table_4:row8:col15 | — | not captured |
-| Ka, Absorption rate constant | `Q49` · kabs | 0.757 | h−1 | 0.0002102777777777778 | 1/h | not captured | review_gapfill (0.7) | Bae_2026:review | — | not captured |
+| CL (L/h) | `Q22` · CL | 21.1 | L/h | 5.861111111111111e-06 | [l] / [h] | not captured | exact (1.0) | Deyme_2019_table_4:row0:col14 | — | not captured |
+| V2 (L) | `Q64` · V2 | 5364 | L | 5.364 | [l] | not captured | exact (1.0) | Deyme_2019_table_4:row2:col14, Deyme_2019_table_4:row6:col14 | — | not captured |
+| Vmax (mg/h) | `Q66` · Vmax | 5711 | mg/h | not captured | [mg] / [h] | not captured | special_case (0.95) | Deyme_2019_table_4:row4:col14 | — | not captured |
+| Km (mg/L) | `Q1` · Km | 29.5 | mg/L | not captured | [mg] / [l] | not captured | exact (1.0) | Deyme_2019_table_4:row5:col14 | — | not captured |
+| Q1 (L/h) | `Q30` · Q | 0.085 | L/h | 2.3611111111111113e-08 | [l] / [h] | not captured | exact (1.0) | Deyme_2019_table_4:row7:col14 | — | not captured |
+| Q2 (L/h) | `Q99` · Q2 | 0.0055 | L/h | 1.5277777777777777e-09 | [l] / [h] | not captured | exact (1.0) | Deyme_2019_table_4:row8:col14 | — | not captured |
+| total volume of distribution | `Q61` · V | 160.9 | L | 0.16090000000000002 | L | not captured | review_gapfill (0.7) | Deyme_2019:review | — | not captured |
+| Ka, Absorption rate constant (h−1) | `Q49` · kabs | 0.757 | h−1 | 0.0002102777777777778 | 1/h | not captured | review_gapfill (0.7) | Bae_2026:review | — | not captured |
 | TLAG | `Q83` · tlag | 0.000552 | h | 1.9871999999999999 | h | not captured | review_gapfill (0.7) | Blesch_2003:review | — | not captured |
 
 <details class="legend">
@@ -60,10 +61,17 @@ Deyme L; Barbolosi D; Gattacceca F et al. (2019). Cancer chemotherapy and pharma
 
 **Interpretation flags:**
 - column 'beaty (2010) [31]' classified 'other' by the LLM but kept: the deterministic diagnostic-column test disagrees (a stratum column is a value column, not a statistic)
+- unit_dimension_mismatch: 'Vmax (mg/h)' → Q66 (unit '[mass] / [time]' vs ontology '[length] ** 3') — route to review
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=fluorouracil
+- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - topology: transfer parameter unlinked (Q100) — add Kfm/formation-rate/rate-constant to the ontology; routing to review
+- template fit: none — 3 metabolites — the templates hold two
 - status held at route_to_review — not promoted
-- population split: 'beaty (2010) [31]' subgroup of Deyme_2019 (paper reports 14 populations: bastian (2003) [26], beaty (2010) [31], berg (2015) [37], delord (2003) [25], fouadi (2006) [30], kimura (2010) [29], klein (2003) [38], klo (2006) [24], nikanjan (2015) [32], porta-oltra (2004) [34], poujol (2007) [27], terret (2000) [23], thompson (2008) [28], van kuijlenburg (2012) [36])
+- population split: 'beaty (2010) [31]' subgroup of Deyme_2019 (paper reports 15 populations: bastian (2003) [26], beaty (2010) [31], berg (2015) [37], bressolle (1999) [33], deford (2003) [25], fouladi (2006) [30], kho (2006) [24], kimura (2010) [29], klein (2003) [38], nikanjan (2015) [32], poujol (2007) [27], poulol (2007) [27], terret (2000) [23], thompson (2008) [28], van kuilenburg (2012) [36])
+- row roles (LLM): model_class=compartmental; 17/17 row label(s) assigned, 61 linked by role; re-tagged parent→irinotecan ×67, parent→SN38 ×14
+- molar mass: none of 1 PubChem candidate(s) is 'APC' (LLM) — left in mass units
+- molar mass: none found for 'APC' — its concentrations stay mass-only
+- gap-filled Q61 (V) from Deyme_2019's review values (primary lacked it)
 - gap-filled Q49 (kabs) from Bae_2026's review values (primary lacked it)
 - gap-filled Q83 (tlag) from Blesch_2003's review values (primary lacked it)
 
@@ -72,63 +80,73 @@ Deyme L; Barbolosi D; Gattacceca F et al. (2019). Cancer chemotherapy and pharma
 - LLM selected parameter table(s) 4, 5
 - transposed table Deyme_2019_table_4: parameters were across the columns, populations/subgroups down the first column — transposed for parsing
 - unparsed cell Deyme_2019_table_4:row0:col3 = '5FU'
-- unparsed cell Deyme_2019_table_4:row0:col4 = '5FUH2'
+- unparsed cell Deyme_2019_table_4:row0:col4 = '5FUH₂'
 - unparsed cell Deyme_2019_table_4:row0:col5 = '5FU'
 - unparsed cell Deyme_2019_table_4:row0:col6 = '5FDHU'
-- unparsed cell Deyme_2019_table_4:row0:col12 = '11.76c'
-- unparsed cell Deyme_2019_table_4:row0:col13 = '25.2 (39%)'
-- unparsed cell Deyme_2019_table_4:row0:col14 = '12.2 (17%)'
-- unparsed cell Deyme_2019_table_4:row0:col16 = '17d'
-- unparsed cell Deyme_2019_table_4:row0:col17 = '14.1 (62%)'
-- unparsed cell Deyme_2019_table_4:row0:col19 = '43.8 (32%)'
-- unparsed cell Deyme_2019_table_4:row0:col22 = '34.2 (34%)'
-- unparsed cell Deyme_2019_table_4:row0:col23 = '31.7 (22%)'
-- unparsed cell Deyme_2019_table_4:row2:col7 = '22a'
-- unparsed cell Deyme_2019_table_4:row2:col12 = '367.0c'
-- unparsed cell Deyme_2019_table_4:row2:col13 = '452.5 (34%)'
-- unparsed cell Deyme_2019_table_4:row2:col16 = '188d'
-- unparsed cell Deyme_2019_table_4:row2:col17 = '136 (66%)'
-- unparsed cell Deyme_2019_table_4:row2:col19 = '147 (39%)'
-- unparsed cell Deyme_2019_table_4:row3:col7 = '14.7 (82%)'
-- unparsed cell Deyme_2019_table_4:row3:col12 = '997.1c'
-- unparsed cell Deyme_2019_table_4:row3:col23 = '186.2 (21%)'
-- unparsed cell Deyme_2019_table_4:row4:col7 = '334 (138%)'
-- unparsed cell Deyme_2019_table_4:row4:col16 = '33.2a'
-- unparsed cell Deyme_2019_table_4:row4:col17 = '34.8 (56%)'
-- unparsed cell Deyme_2019_table_4:row4:col19 = '27.6 (67%)'
-- unparsed cell Deyme_2019_table_4:row4:col23 = '6.2c'
-- unparsed cell Deyme_2019_table_4:row5:col7 = '4.55 (14%)'
-- unparsed cell Deyme_2019_table_4:row5:col8 = '3.69 (22%)'
-- unparsed cell Deyme_2019_table_4:row5:col12 = '67.48c'
-- unparsed cell Deyme_2019_table_4:row5:col13 = '68 (36%)'
-- unparsed cell Deyme_2019_table_4:row6:col7 = '15.3 (42%)'
-- unparsed cell Deyme_2019_table_4:row6:col8 = '21.9 (36%)'
-- unparsed cell Deyme_2019_table_4:row6:col12 = '4.68c'
-- unparsed cell Deyme_2019_table_4:row6:col20 = '2.58d'
-- unparsed cell Deyme_2019_table_4:row6:col21 = '4.56 (61%)'
-- unparsed cell Deyme_2019_table_4:row7:col7 = '17.8 (18%)'
-- unparsed cell Deyme_2019_table_4:row7:col8 = '58.3 (26%)'
-- unparsed cell Deyme_2019_table_4:row7:col9 = '18.4 (114%)'
-- unparsed cell Deyme_2019_table_4:row7:col20 = '0.698 (39%)'
-- unparsed cell Deyme_2019_table_4:row8:col20 = '0.0842 (14%)'
-- unparsed cell Deyme_2019_table_4:row9:col7 = '1512 (23%)'
-- unparsed cell Deyme_2019_table_4:row9:col8 = '794 (27%)'
-- unparsed cell Deyme_2019_table_4:row12:col3 = '12.7 (31%)'
-- unparsed cell Deyme_2019_table_4:row13:col3 = '54.9 (19%)'
-- unparsed cell Deyme_2019_table_4:row14:col2 = '5.69 (27%)'
-- unparsed cell Deyme_2019_table_4:row14:col5 = '6 (82%)'
+- unparsed cell Deyme_2019_table_4:row0:col11 = '11.76ᶜ'
+- unparsed cell Deyme_2019_table_4:row0:col12 = '25.2 (39%)'
+- unparsed cell Deyme_2019_table_4:row0:col13 = '12.2 (17%)'
+- unparsed cell Deyme_2019_table_4:row0:col15 = '17ᵈ'
+- unparsed cell Deyme_2019_table_4:row0:col16 = '14.1 (62%)'
+- unparsed cell Deyme_2019_table_4:row0:col18 = '43.8 (32%)'
+- unparsed cell Deyme_2019_table_4:row0:col21 = '34.2 (34%)'
+- unparsed cell Deyme_2019_table_4:row0:col22 = '31.7 (22%)'
+- unparsed cell Deyme_2019_table_4:row2:col5 = '120 (29%)'
+- unparsed cell Deyme_2019_table_4:row2:col6 = '22 (50%)'
+- unparsed cell Deyme_2019_table_4:row2:col7 = '14.7 (82%)'
+- unparsed cell Deyme_2019_table_4:row2:col8 = '21.9 (36%)'
+- unparsed cell Deyme_2019_table_4:row2:col9 = '18.4 (114%)'
+- unparsed cell Deyme_2019_table_4:row2:col11 = '367.0ᶜ'
+- unparsed cell Deyme_2019_table_4:row2:col12 = '452.5 (34%)'
+- unparsed cell Deyme_2019_table_4:row2:col15 = '188ᵈ'
+- unparsed cell Deyme_2019_table_4:row2:col16 = '136 (66%)'
+- unparsed cell Deyme_2019_table_4:row2:col18 = '147 (39%)'
+- unparsed cell Deyme_2019_table_4:row3:col2 = '1390 (20%)'
+- unparsed cell Deyme_2019_table_4:row3:col5 = '763 (63%)'
+- unparsed cell Deyme_2019_table_4:row3:col7 = '1512 (23%)'
+- unparsed cell Deyme_2019_table_4:row3:col8 = '794 (27%)'
+- unparsed cell Deyme_2019_table_4:row3:col11 = '997.1ᶜ'
+- unparsed cell Deyme_2019_table_4:row3:col22 = '186.2 (21%)'
+- unparsed cell Deyme_2019_table_4:row4:col2 = '5.57 (22%)'
+- unparsed cell Deyme_2019_table_4:row4:col5 = '25 (60%)'
+- unparsed cell Deyme_2019_table_4:row4:col7 = '4.55 (14%)'
+- unparsed cell Deyme_2019_table_4:row4:col8 = '3.69 (22%)'
+- unparsed cell Deyme_2019_table_4:row5:col5 = '70ᵃ'
+- unparsed cell Deyme_2019_table_4:row5:col7 = '334 (138%)'
+- unparsed cell Deyme_2019_table_4:row5:col8 = '17.8 (18%)'
+- unparsed cell Deyme_2019_table_4:row5:col11 = '67.48ᶜ'
+- unparsed cell Deyme_2019_table_4:row5:col12 = '68 (36%)'
+- unparsed cell Deyme_2019_table_4:row5:col15 = '33.2ᵈ'
+- unparsed cell Deyme_2019_table_4:row5:col16 = '34.8 (56%)'
+- unparsed cell Deyme_2019_table_4:row5:col18 = '27.6 (67%)'
+- unparsed cell Deyme_2019_table_4:row5:col22 = '6.2ᶜ'
+- unparsed cell Deyme_2019_table_4:row6:col5 = '6 (82%)'
+- unparsed cell Deyme_2019_table_4:row6:col7 = '19.6 (18%)'
+- unparsed cell Deyme_2019_table_4:row6:col8 = '68.8 (26%)'
+- unparsed cell Deyme_2019_table_4:row6:col9 = '58.3 (26%)'
+- unparsed cell Deyme_2019_table_4:row6:col11 = '4.68ᶜ'
+- unparsed cell Deyme_2019_table_4:row6:col19 = '2.58ᵈ'
+- unparsed cell Deyme_2019_table_4:row6:col20 = '4.56 (31%)'
+- unparsed cell Deyme_2019_table_4:row7:col19 = '0.698 (39%)'
+- unparsed cell Deyme_2019_table_4:row8:col2 = '5.69 (27%)'
+- unparsed cell Deyme_2019_table_4:row8:col19 = '0.0842 (14%)'
+- unparsed cell Deyme_2019_table_4:row10:col2 = '0.85ᵃ'
+- unparsed cell Deyme_2019_table_4:row10:col19 = '1.26 (20%)'
+- transposed table Deyme_2019_table_5: parameters were across the columns, populations/subgroups down the first column — transposed for parsing
 - unparsed cell Deyme_2019_table_5:row0:col1 = '17.60 (47%)'
-- unparsed cell Deyme_2019_table_5:row0:col3 = '26.300 (79%)'
-- unparsed cell Deyme_2019_table_5:row0:col4 = '2650 (68%)'
-- unparsed cell Deyme_2019_table_5:row1:col2 = '349 (37%)'
-- unparsed cell Deyme_2019_table_5:row1:col5 = '2.52 (28%)'
-- unparsed cell Deyme_2019_table_5:row1:col6 = '2.58 (13%)'
-- unparsed cell Deyme_2019_table_5:row1:col7 = '0.0426 (61%)'
-- unparsed cell Deyme_2019_table_5:row2:col2 = '311.7 (25%)'
-- unparsed cell Deyme_2019_table_5:row2:col5 = '2.52 (33%)'
-- unparsed cell Deyme_2019_table_5:row2:col6 = '2.6 (52%)'
-- unparsed cell Deyme_2019_table_5:row3:col1 = '302.7 (46%)'
-- unparsed cell Deyme_2019_table_5:row3:col2 = '132.7 (47%)'
+- unparsed cell Deyme_2019_table_5:row0:col4 = '302.7f (46%)'
+- unparsed cell Deyme_2019_table_5:row1:col2 = '3.49 (37%)'
+- unparsed cell Deyme_2019_table_5:row1:col3 = '311.7 (25%)'
+- unparsed cell Deyme_2019_table_5:row1:col4 = '132.7f (47%)'
+- unparsed cell Deyme_2019_table_5:row2:col1 = '26.300 (79%)'
+- unparsed cell Deyme_2019_table_5:row2:col4 = '4913f'
+- unparsed cell Deyme_2019_table_5:row3:col1 = '2650 (68%)'
+- unparsed cell Deyme_2019_table_5:row3:col4 = '285f'
+- unparsed cell Deyme_2019_table_5:row4:col2 = '2.52 (28%)'
+- unparsed cell Deyme_2019_table_5:row4:col3 = '2.52 (33%)'
+- unparsed cell Deyme_2019_table_5:row5:col2 = '2.58 (13%)'
+- unparsed cell Deyme_2019_table_5:row5:col3 = '2.6 (52%)'
+- unparsed cell Deyme_2019_table_5:row6:col2 = '0.0426 (61%)'
 
 ## Validation
 
@@ -137,13 +155,19 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.7 (7/10 fields) | 3 |
+| `gpt-oss:120b` | not confirmed | 0.1 (1/10 fields) | 9 |
 
-<details><summary>3 field(s) a reader read differently</summary>
+<details><summary>9 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `model.links` | [['fluorouracil', '5fuh2', 'metabolism'], ['fluorouracil', '5fdhu', 'metabolism'], ['irinotecan', 'sn38', 'metabolism'], ['sn38', 'sn38g', 'metabolism'], ['sn38', 'apc', 'metabolism']] | [['5-fluorouracil', '5fuh2', 'metabolism'], ['5-fluorouracil', '5fdhu', 'metabolism'], ['irinotecan', 'sn38', 'metabolism'], ['sn38', 'sn38g', 'metabolism'], ['irinotecan', 'apc', 'metabolism']] | mismatch |
+| `gpt-oss:120b` | `model.links` | [['irinotecan', 'sn38', 'metabolism'], ['sn38', 'sn38g', 'metabolism'], ['sn38', 'apc', 'metabolism']] | [['fluorouracil', '5fuh2', 'metabolism'], ['fluorouracil', '5fdhu', 'metabolism'], ['irinotecan', 'sn38', 'metabolism'], ['sn38', 'sn38g', 'metabolism'], ['irinotecan', 'apc', 'metabolism']] | mismatch |
+| `gpt-oss:120b` | `parameters[cl]` | 21.1 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[km]` | 29.5 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[q1]` | 0.085 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[q2]` | 0.0055 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[v2]` | 5364 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[vmax]` | 5711 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `screen.dose_compound` | fluorouracil | unknown | mismatch |
 | `gpt-oss:120b` | `screen.primary_analyte` | fluorouracil | unknown | mismatch |
 
@@ -159,23 +183,23 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 6 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 7 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
-| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Deyme_2019_table_4:row0:col15'] |
-| C5_dimension_Q30 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Deyme_2019_table_4:row6:col15'] |
+| C5_dimension_Q1 | pass | [mass] / [length] ** 3 | not captured | not captured | not captured | ['Deyme_2019_table_4:row5:col14'] |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Deyme_2019_table_4:row0:col14'] |
+| C5_dimension_Q30 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Deyme_2019_table_4:row7:col14'] |
 | C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Bae_2026:review'] |
-| C5_dimension_Q63 | pass | [length] ** 3 | not captured | not captured | not captured | ['Deyme_2019_table_4:row8:col15'] |
-| C5_dimension_Q64 | pass | [length] ** 3 | not captured | not captured | not captured | ['Deyme_2019_table_4:row2:col15', 'Deyme_2019_table_4:row7:col15'] |
-| C5_dimension_Q65 | pass | [length] ** 3 | not captured | not captured | not captured | ['Deyme_2019_table_4:row4:col15'] |
-| C5_dimension_Q77 | pass | [length] ** 3 | not captured | not captured | not captured | ['Deyme_2019_table_4:row3:col15'] |
+| C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Deyme_2019:review'] |
+| C5_dimension_Q64 | pass | [length] ** 3 | not captured | not captured | not captured | ['Deyme_2019_table_4:row2:col14', 'Deyme_2019_table_4:row6:col14'] |
+| C5_dimension_Q66 | fail | [mass] / [time] | mg/h | not captured | not captured | ['Deyme_2019_table_4:row4:col14'] |
 | C5_dimension_Q83 | pass | [time] | not captured | not captured | not captured | ['Blesch_2003:review'] |
-| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 21.1 | not captured | not captured | ['Deyme_2019_table_4:row0:col15'] |
-| C8_topology | fail | ontology-linked transfer parameter on every edge | ['none', 'none', 'none', 'none'] | not captured | not captured | not captured |
-| C9_phys_window_Q22 | pass | clearance within physiological range | 21.1 L/h | not captured | not captured | ['Deyme_2019_table_4:row0:col15'] |
-| C9_phys_window_Q63 | fail | volume within physiological range | 0.0055 L | not captured | not captured | ['Deyme_2019_table_4:row8:col15'] |
-| C9_phys_window_Q64 | pass | volume within physiological range | 5.36e+03 L | not captured | not captured | ['Deyme_2019_table_4:row2:col15', 'Deyme_2019_table_4:row7:col15'] |
-| C9_phys_window_Q65 | pass | volume within physiological range | 29.5 L | not captured | not captured | ['Deyme_2019_table_4:row4:col15'] |
+| C5_dimension_Q99 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Deyme_2019_table_4:row8:col14'] |
+| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 21.1 | not captured | not captured | ['Deyme_2019_table_4:row0:col14'] |
+| C8_topology | fail | ontology-linked transfer parameter on every edge | ['none', 'none'] | not captured | not captured | not captured |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 21.1 L/h | not captured | not captured | ['Deyme_2019_table_4:row0:col14'] |
+| C9_phys_window_Q61 | pass | volume within physiological range | 161 L | not captured | not captured | ['Deyme_2019:review'] |
+| C9_phys_window_Q64 | pass | volume within physiological range | 5.36e+03 L | not captured | not captured | ['Deyme_2019_table_4:row2:col14', 'Deyme_2019_table_4:row6:col14'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -200,4 +224,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-23 07:19 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-03 09:02 UTC</sub>

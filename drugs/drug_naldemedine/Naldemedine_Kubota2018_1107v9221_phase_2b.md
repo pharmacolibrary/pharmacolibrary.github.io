@@ -1,15 +1,14 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A06A&quot;,&quot;href&quot;:&quot;atc/A06A.md&quot;},{&quot;label&quot;:&quot;naldemedine&quot;,&quot;href&quot;:&quot;drugs/drug_naldemedine/&quot;},{&quot;label&quot;:&quot;Kubota_2018 \u00b7 1107v9221_phase_2b&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Naldemedine_Kubota2018_1107v9221_phase_2b&quot;,&quot;label&quot;:&quot;Kubota_2018_1107v9221_phase_2b&quot;,&quot;href&quot;:&quot;drugs/drug_naldemedine/Naldemedine_Kubota2018_1107v9221_phase_2b.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Naldemedine_Kubota2018_1314v9231_1315v9232_phase_3&quot;,&quot;label&quot;:&quot;Kubota_2018_1314v9231_1315v9232_phase_3&quot;,&quot;href&quot;:&quot;drugs/drug_naldemedine/Naldemedine_Kubota2018_1314v9231_1315v9232_phase_3.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Naldemedine_Kubota2018_cl_f_l_hr&quot;,&quot;label&quot;:&quot;Kubota_2018_cl_f_l_hr&quot;,&quot;href&quot;:&quot;drugs/drug_naldemedine/Naldemedine_Kubota2018_cl_f_l_hr.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Naldemedine_Kubota2018_estimate&quot;,&quot;label&quot;:&quot;Kubota_2018_estimate&quot;,&quot;href&quot;:&quot;drugs/drug_naldemedine/Naldemedine_Kubota2018_estimate.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Naldemedine_Kubota2018_shrinkage&quot;,&quot;label&quot;:&quot;Kubota_2018_shrinkage&quot;,&quot;href&quot;:&quot;drugs/drug_naldemedine/Naldemedine_Kubota2018_shrinkage.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # naldemedine — `Naldemedine_Kubota2018_1107v9221_phase_2b`
 
-> ## <span class="pk-badge pk-badge--orange">built, not shipped</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (partly confirmed, agreement 0.909). The first reading is what the record holds.">cross-check: partial</span>
+> ## <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.417). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -21,16 +20,18 @@
 
 The record lists CL/F and Ka for naldemedine without values, so placeholder defaults stood in for these parameters; substituting a default absorption rate constant not reported in the source was judged an invented absorption constant, not acceptable. The model also assumes F=1 and Fm=1 with no molar correction, so all parameters are apparent. A second reader recorded a maximum parameter value of 13.49 where the first reader recorded none, and the comparison could not be computed (ratio None). Extracted — naldemedine: V1/F 87.5 L, Q/F 5.59 L/hr, V2/F 46.6 L, tlag 0.202 hr.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of max: this record has none, the second reading 13.49. That field does not shape the model.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on how the model is parameterised: this record has apparent, the second reading mechanistic; it also differs on 6 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `model_quarantined` (reviewed 2026-09-28 14:39:06.702877+00:00) predates the upstream re-run (2026-10-04 16:42:17.599036+00:00). Current validate status: `extracted`.
+
 ## Citation
-Kubota R; Fukumura K; Wajima T et al. (2018). Pharmaceutical research 35
+Kubota R et al., Population Pharmacokinetics and Exposur…, Pharmaceutical research (2018)
   ·  DOI: [10.1007/s11095-018-2501-7](https://doi.org/10.1007/s11095-018-2501-7)
 
 ## Model component
-<dbs-pgx drug="naldemedine" model-id="Naldemedine_Kubota2018_1107v9221_phase_2b" status="model_quarantined" stale="false" population="healthy subjects, patients with chronic non-cancer pain and OIC, and cancer patients with OIC" measured-compound="naldemedine" parameterization="apparent" topology="2C"></dbs-pgx>
+<dbs-pgx drug="naldemedine" model-id="Naldemedine_Kubota2018_1107v9221_phase_2b" status="extracted" stale="true" population="healthy subjects, patients with chronic non-cancer pain and OIC, and cancer patients with OIC" measured-compound="naldemedine" parameterization="apparent" topology="2C"></dbs-pgx>
 
 **Model structure:** 2-compartment, oral mammillary model — template `PK_2C_enteral`.  
 **Parameters:** 4 extracted.
@@ -38,13 +39,11 @@ Kubota R; Fukumura K; Wajima T et al. (2018). Pharmaceutical research 35
 **Parameterization:** CL/F, Q/F, V1/F, V2/F — apparent, F unknown (apparent — bioavailability not identifiable).
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `model_quarantined`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
-
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Vc/F (L) | `Q290` · V1/F | 87.5 | L | 0.08750000000000001 | [l] | not captured | exact (1.0) | Kubota_2018_table_S2:row2:col5 | — | not captured |
-| Q/F (L/hr) | `Q69` · Q/F | 5.59 | L/hr | 1.5527777777777778e-06 | [l] / [h] | not captured | exact (1.0) | Kubota_2018_table_S2:row4:col5 | — | not captured |
-| Vp/F (L) | `Q82` · V2/F | 46.6 | L | 0.0466 | [l] | not captured | exact (1.0) | Kubota_2018_table_S2:row5:col5 | — | not captured |
+| Vc/F (L) | `Q290` · V1/F | 87.5 | L | 0.08750000000000001 | [l] | not captured | exact (1.0) | Kubota_2018_table_S2:row2:col5 | — | 42.6 (None% RSE) |
+| Q/F (L/hr) | `Q69` · Q/F | 5.59 | L/hr | 1.5527777777777778e-06 | [l] / [h] | not captured | exact (1.0) | Kubota_2018_table_S2:row4:col5 | — | 63.3 (None% RSE) |
+| Vp/F (L) | `Q82` · V2/F | 46.6 | L | 0.0466 | [l] | not captured | exact (1.0) | Kubota_2018_table_S2:row5:col5 | — | 43.3 (None% RSE) |
 | ALAG (hr) | `Q83` · tlag | 0.202 | hr | 727.2 | [h] | not captured | exact (1.0) | Kubota_2018_table_S2:row6:col5 | — | not captured |
 | CL/F | `Q900` · CL/F | 8.44 | L/hr | 2.3444444444444444e-06 | not captured | not captured | not captured (not captured) | Kubota_2018_table_S2:row1:col5 | — | not captured |
 | Ka | `Q900` · Ka | 4.45 | hr-1 | 0.0012361111111111112 | not captured | not captured | not captured (not captured) | Kubota_2018_table_S2:row3:col5 | — | not captured |
@@ -63,11 +62,11 @@ Kubota R; Fukumura K; Wajima T et al. (2018). Pharmaceutical research 35
 ## Departures & gaps
 
 **Interpretation flags:**
-- dropped duplicate Q27 ('CL/F', value '43.2') — already have one for this compound
-- dropped duplicate Q290 ('Vc/F', value '42.6') — already have one for this compound
-- dropped duplicate Q49 ('Ka', value '186.4') — already have one for this compound
-- dropped duplicate Q69 ('Q/F', value '63.3') — already have one for this compound
-- dropped duplicate Q82 ('Vp/F', value '43.3') — already have one for this compound
+- table section iiv: 'CL/F' routed out of structural estimates ('Inter-individual variability (CV%)')
+- table section iiv: 'Vc/F' routed out of structural estimates ('Inter-individual variability (CV%)')
+- table section iiv: 'Ka' routed out of structural estimates ('Inter-individual variability (CV%)')
+- table section iiv: 'Q/F' routed out of structural estimates ('Inter-individual variability (CV%)')
+- table section iiv: 'Vp/F' routed out of structural estimates ('Inter-individual variability (CV%)')
 - routed 'proportional' → Q316 (prop_error) to residual_error — variability estimate, not a structural parameter
 - dropped unlinked row (NIL): 'Dose(mg)' — extend the ontology if this is a real PK parameter (source ['Kubota_2018_table_S3:row0:col2', 'Kubota_2018_table_S3:row0:col3', 'Kubota_2018_table_S3:row0:col6'])
 - dropped unlinked row (NIL): 'N' — extend the ontology if this is a real PK parameter (source ['Kubota_2018_table_S3:row1:col2', 'Kubota_2018_table_S3:row1:col3', 'Kubota_2018_table_S3:row1:col6'])
@@ -88,7 +87,7 @@ Kubota R; Fukumura K; Wajima T et al. (2018). Pharmaceutical research 35
 - bound model equation to Q49 (kabs): Ka = THETA (10) * (Age/52) ** THETA (11)
 - Q27 (CL/F) is equation-defined: value moved to equation-variable 'CL/F (L/hr)'; equation kept verbatim
 - Q49 (kabs) is equation-defined: value moved to equation-variable 'Ka (hr-1)'; equation kept verbatim
-- population split: '1107v9221(phase 2b)' subgroup of Kubota_2018 (paper reports 5 populations: 1107v9221(phase 2b), 1314v9231_1315v9232(phase 3), cl/f (l/hr), estimate, shrinkage)
+- population split: '1107v9221(phase 2b)' subgroup of Kubota_2018 (paper reports 3 populations: 1107v9221(phase 2b), 1314v9231_1315v9232(phase 3), estimate)
 
 **Extraction notes:**
 - companion parameter table S2 transcribed (42 record(s), model stage 'base')
@@ -101,18 +100,24 @@ Kubota R; Fukumura K; Wajima T et al. (2018). Pharmaceutical research 35
 
 ## Validation
 
-**Cross-check (independent readings):** <span class="pk-badge pk-badge--orange">cross-check: partial</span>  
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
 first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whatever the readers say
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | partly confirmed | 0.909 (10/11 fields) | 1 |
+| `gpt-oss:120b` | not confirmed | 0.417 (5/12 fields) | 7 |
 
-<details><summary>1 field(s) a reader read differently</summary>
+<details><summary>7 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
+| `gpt-oss:120b` | `model.parameterization` | apparent | mechanistic | mismatch |
+| `gpt-oss:120b` | `parameters[alag]` | 0.202 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[dose]` | not captured | 0.1 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[max]` | not captured | 13.49 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[q/f]` | 5.59 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[vc/f]` | 87.5 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[vp/f]` | 46.6 | not captured | only_one_extracted |
 
 </details>
 
@@ -128,6 +133,7 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 |---|---|---|---|---|---|---|
 | C0_has_structural_params | pass | not captured | 6 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
+| C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q27 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Kubota_2018_table_S2:row1:col5'] |
 | C5_dimension_Q290 | pass | [length] ** 3 | not captured | not captured | not captured | ['Kubota_2018_table_S2:row2:col5'] |
 | C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Kubota_2018_table_S2:row3:col5'] |
@@ -185,4 +191,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-11 11:19 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-04 16:42 UTC</sub>

@@ -1,19 +1,18 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B02B&quot;,&quot;href&quot;:&quot;atc/B02B.md&quot;},{&quot;label&quot;:&quot;lusutrombopag&quot;,&quot;href&quot;:&quot;drugs/drug_lusutrombopag/&quot;},{&quot;label&quot;:&quot;Katsube_2019 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Lusutrombopag_Katsube2019_reference&quot;,&quot;label&quot;:&quot;Katsube_2019_reference&quot;,&quot;href&quot;:&quot;drugs/drug_lusutrombopag/Lusutrombopag_Katsube2019_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # lusutrombopag — `Lusutrombopag_Katsube2019_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.643). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.037). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
@@ -21,18 +20,20 @@
 
 Fab is defined as the fraction of drug reaching systemic circulation, a dimensionless quantity, but the record lists it with unit h; Km is defined as a measure of enzyme-substrate affinity (a concentration-like quantity) but is listed as 0.0320 /h, a rate constant unit. These dimension mismatches on structural parameters triggered the refusal. The record also lacks an SI value for V2/F, whose unit could not be converted, and the second reader reports additional covariate and peripheral-volume parameters (e.g. V4/F 3.48 L, CL/F ethnicity effect 0.868, sex effect 0.874, weight effect on Q6 1.00) absent from this record. Extracted — lusutrombopag: CL/F 0.874 L/h, Q3/F 0.872 L/h, V3/F 9.04 L, Q/F 0.0265 L/h, Fab 1 h, Km 0.032 /h, kel 0.00863 /h, kabs 0.166 /h, … (+1).
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of effect of subject population: this record has none, the second reading 1.46; it also differs on 9 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has lusutrombopag, the second reading unknown; it also differs on 25 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-09-28 14:38:35.653560+00:00) predates the upstream re-run (2026-10-05 19:48:10.706823+00:00). Current validate status: `rejected`.
+
 ## Citation
-Katsube T; Shimizu R; Fukuhara T; Kano T; Wajima T et al. (2019). Clinical pharmacokinetics 58
+Katsube T et al., Pharmacokinetic/Pharmacodynamic Modelli…, Clinical pharmacokinetics (2019)
   ·  DOI: [10.1007/s40262-019-00770-4](https://doi.org/10.1007/s40262-019-00770-4)
 
 ## Model component
-<dbs-pgx drug="lusutrombopag" model-id="Lusutrombopag_Katsube2019_reference" status="rejected" stale="false" population="healthy subjects and patients with chronic liver disease" measured-compound="lusutrombopag" parameterization="apparent" topology="1C"></dbs-pgx>
+<dbs-pgx drug="lusutrombopag" model-id="Lusutrombopag_Katsube2019_reference" status="rejected" stale="true" population="healthy subjects and patients with chronic liver disease" measured-compound="lusutrombopag" parameterization="apparent" topology="1C"></dbs-pgx>
 
-**Model structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
+**Model structure:** 1-compartment; no model was built for this record.  
 **Parameters:** 9 extracted.
 
 **Parameterization:** CL/F, Q/F, Q3/F, V2/F, V3/F — apparent, F unknown (apparent — bioavailability not identifiable).
@@ -65,6 +66,7 @@ Katsube T; Shimizu R; Fukuhara T; Kano T; Wajima T et al. (2019). Clinical pharm
 ## Departures & gaps
 
 **Interpretation flags:**
+- table section residual_error: 'Standard deviation for additive residual error [× 104/µL]' routed out of structural estimates ('Standard deviation for proportional residual error [CV%]')
 - dropped unlinked row (NIL): 'Effect of WT' — extend the ontology if this is a real PK parameter (source ['Tab2:row4:col1', 'Tab2:row10:col1', 'Tab2:row15:col1'])
 - dropped unlinked row (NIL): 'Effect of sex' — extend the ontology if this is a real PK parameter (source ['Tab2:row5:col1'])
 - dropped unlinked row (NIL): 'Effect of ethnicity' — extend the ontology if this is a real PK parameter (source ['Tab2:row6:col1'])
@@ -127,22 +129,38 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.643 (18/28 fields) | 10 |
+| `gpt-oss:120b` | not confirmed | 0.037 (1/27 fields) | 26 |
 
-<details><summary>10 field(s) a reader read differently</summary>
+<details><summary>26 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `parameters[effect of subject population]` | not captured | 1.46 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[ka solution in the fed state]` | 0.166 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[km [/h]].parameter_id` | Q1 | Q51 | mismatch |
-| `gpt-oss:120b` | `parameters[lag time solution in the fed state]` | 0.568 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `model.links` | [] | [['none', 'none', 'none']] | mismatch |
+| `gpt-oss:120b` | `parameters[2 mg tablet in the fed state]` | not captured | 0.857 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[3 mg tablet in the fed state]` | not captured | 0.843 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[f1 of solution in the fasted state]` | 1.00 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[f1 of solution in the fasted state]` | not captured | 1.00 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[kl [/h]]` | 0.00863 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[kl [/h]]` | not captured | 0.00863 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[km [/h]]` | 0.0320 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[km [/h]]` | not captured | 0.0320 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[q3/f [l/h]]` | 0.872 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[q3/f [l/h]]` | not captured | 0.872 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[q4/f [l/h]]` | 0.0265 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[q4/f [l/h]]` | not captured | 0.0265 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[solution in the fed state]` | not captured | 0.884 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[theta_cl_f_ethnicity]` | not captured | 0.868 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[theta_cl_f_sex]` | not captured | 0.874 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[theta_q61_wt]` | not captured | 1.00 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[typical cl/f].covariate_forms` | [] | ['linear_fractional', 'linear_fractional'] | mismatch |
+| `gpt-oss:120b` | `parameters[typical cl/f]` | 0.874 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[typical cl/f]` | not captured | 0.874 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[typical v3/f]` | 9.04 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[typical v3/f]` | not captured | 9.04 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[v2/f [l]]` | not captured | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[v2/f [l]]` | not captured | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[v4/f [l]]` | not captured | 3.48 | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | lusutrombopag | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | lusutrombopag | unknown | mismatch |
 
 </details>
 
@@ -195,4 +213,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-18 22:33 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-05 19:48 UTC</sub>

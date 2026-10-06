@@ -10,34 +10,9 @@
 
 ## About
 
-**Description.** Doxepin is a psychotropic agent with antidepressant and anxiolytic properties.[T559] It is a tertiary amine that can be presented as (E) and (Z) stereoisomers with the (Z) stereoisomer corresponding to [cidoxepin]. Doxepin commonly produces a 5:1 (E):(Z) racemic mixture.[T83] 
+Doxepin is a tricyclic antidepressant used to treat depression, and as a topical antipruritic to relieve itching of the skin. It remains an approved medicine and is used fairly widely, available both as an oral antidepressant and as a skin cream.
 
-In a strict sense, doxepin is not a tricyclic antidepressant but it is commonly associated with the class since it shares a lot of properties with members of the drug family including [amitriptyline], [clomipramine], [desipramine], [imipramine], [nortriptyline], [protriptyline] and [trimipramine].[L5977] 
-
-Doxepin was developed by Pfizer and FDA approved in 1969 as an antidepressant.[L5971] However, in 2010 it was approved for the treatment of insomnia. The latter indication was presented by Pernix Therapeutics.[L5974]
-
-**Indication.** Oral doxepin is approved for the following indications:
-
-- Treatment of depression and/or anxiety.[A177163]
-- Treatment of depression and/or anxiety associated with different conditions, including alcoholism, organic disease and manic-depressive disorders.[T249]
-- Treatment of psychotic depressive disorders with associated anxiety.[T249]
-- Treatment of involutional depression.[T249] 
-- Treatment of manic-depressive disorder.[T249]
-- Treatment of insomnia characterized by difficulties with sleep maintenance.[A177163]
-
-Topical doxepin is also approved for short-term (up to 8 days) management of moderate pruritus in adult patients with atopic dermatitis, pruritus or lichen simplex chronicus.[T249]
-
-Off-label, doxepin is used topically for the management of neuropathic pain.[A177172]
-
-Depression is a common medical illness that causes feelings of sadness and or loss of interest in prior enjoyable activities. This condition can lead to emotional and physical disturbances that can decrease the ability of a person to function in a regular environment.[L5980]
-
-Anxiety is a normal reaction of the body towards a normal danger. When the anxious state is exacerbated or appears on situations without danger, it is defined as an anxiety disorder. This disorders can appear in different forms such as phobias, panic, obsessive-compulsive disorder and post-traumatic stress disorder.[L5983]
-
-Insomnia is a sleep disorder that directly affects the quality of life of the individual. It is characterized by the complication either to fall asleep or to stay asleep. This condition can be occasional or chronic.[L5986]
-
-Pruritus is defined as an unpleasant skin reaction that provokes the urge to scratch. It can be localized or generalized and it can appear in an acute or chronic manner.[L5989]
-
-Neuropathic pain occurs due to the damage or dysfunction of the peripheral or central nervous system rather than stimulation of the pain receptors.[L5992]
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q71704041](https://www.wikidata.org/wiki/Q71704041) and the WHO ATC classification; not checked by a person.</small>
 
 ## Extraction summary
 
@@ -65,15 +40,15 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 | metabolism | brain | `CYP2D6` inhibitor/substrate | DrugBank actor |
 | metabolism | liver | `CYP1A2` substrate, `CYP2C19` substrate, `CYP2C9` substrate, `CYP2D6` inhibitor/substrate, `CYP3A4` substrate | DrugBank actor |
 | metabolism | small intestine | `CYP3A4` substrate | DrugBank actor |
-| excretion | kidney | <sub>“…epin is presented as biphasic.[A1945] It is excreted in the urine mainly in the form of gl…”</sub> | prose |
-| target | brain | `SLC6A4` inhibitor | DrugBank actor |
-| target | platelet | `SLC6A4` inhibitor | DrugBank actor |
+| excretion | kidney | <sub>named in DrugBank's ADME text</sub> | prose |
+| — | brain | `SLC6A4` inhibitor | DrugBank actor |
+| — | platelet | `SLC6A4` inhibitor | DrugBank actor |
 
 <sub>Actors without a tissue in the table: ADRA1A (target), ADRA1B (target), ADRA1D (target), CHRM1 (target), CHRM2 (target), CHRM3 (target), CHRM4 (target), CHRM5 (target), HRH1 (target), HRH2 (target), HRH4 (binder), HTR1A (target), HTR2A (target), HTR2B (target), HTR2C (target), HTR6 (binder), KCNH2 (inhibitor), SLC6A2 (inhibitor).</sub>
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 

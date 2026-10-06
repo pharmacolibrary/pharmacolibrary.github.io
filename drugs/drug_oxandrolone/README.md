@@ -10,15 +10,15 @@
 
 ## About
 
-**Description.** A synthetic hormone with anabolic and androgenic properties.
+Oxandrolone is an anabolic steroid used to treat failure to thrive. It is an approved drug, but carries a boxed warning and is not authorised in the European Union.
 
-**Indication.** Use to promote weight gain after weight loss following extensive surgery.
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q420859](https://www.wikidata.org/wiki/Q420859) and the WHO ATC classification; not checked by a person.</small>
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-26 18:10 | 7:44 | 0/0/0 | 0/0/0 | 0/0/0 | 39,144/1,971 | ollama / qwen3.8:27b-mtp-q8_0 | 2 | 1/1 | 2/0 | 0 |
+| 2026-10-05 10:21 | 0:27 | 0/0/0 | 0/0/0 | 0/0/0 | 21,426/294 | ollama / qwen3.8:27b-mtp-q8_0 | 1 | 1/1 | 1/0 | 0 |
 
 ## popPK records
 
@@ -30,13 +30,13 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 | process | tissue | actors (role) | evidence |
 |---|---|---|---|
-| metabolism | kidney | <sub>“…Renal…”</sub> | prose |
+| metabolism | kidney | <sub>named in DrugBank's ADME text</sub> | prose |
 | metabolism | liver | `CYP2C9` inhibitor | DrugBank actor |
-| target | prostate gland | `AR` target | DrugBank actor |
+| — | prostate gland | `AR` target | DrugBank actor |
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -49,14 +49,13 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 ## Full text wanted
 
-_2 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+_1 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
 
 | save as | citation | domain | score | DOI | PubMed | why wanted |
 |---|---|---|---|---|---|---|
-| `Linakis_2020.pdf` | Linakis MW et al., Stability of Oxandrolone in Medium-Chai…, The journal of pediatric ph… (2020) | popPK | 9 | [10.5863/1551-6776-25.3.220](https://doi.org/10.5863/1551-6776-25.3.220) | [32265605](https://pubmed.ncbi.nlm.nih.gov/32265605) | The study reports pharmacokinetics for oxandrolone, but the specific numeric disposition parameters (CL, V, etc.) are not present in the provided abstract text, only bioavailability. |
 | `Huml_2020.pdf` | Huml L et al., Stanazolol derived ELISA as a sensitive…, Steroids (2020) | pd | 4 | [10.1016/j.steroids.2019.108550](https://doi.org/10.1016/j.steroids.2019.108550) | [31812623](https://www.ncbi.nlm.nih.gov/pubmed/31812623) | metadata signals extractable PD data (IC50) |
 
-<sub>queue written 2026-09-26T18:09:49.547634+00:00</sub>
+<sub>queue written 2026-10-05T10:21:37.902242+00:00</sub>
 
 ## Screened and excluded
 
@@ -79,16 +78,16 @@ _2 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | PD | Huml_2020 | not_relevant | 0 | 0 | The paper describes the development of an ELISA assay for detecting anabolic steroids; the reported IC50 values refer to the analytical sensitivity of the immunoassay, not to the pharmacodynamic response of the drug in a biological system. |
 | popPK | Kriström_2023 | irrelevant | 0 | 0 | The study focuses on growth outcomes in Turner syndrome and uses oxandrolone as a co-administered growth promoter, without reporting any pharmacokinetic parameters for oxandrolone. |
 | PD | Kriström_2023 | not_relevant | 0 | 0 | The paper focuses on growth hormone dose-response in Turner syndrome; oxandrolone is mentioned only as a co-medication without any specific pharmacodynamic analysis, exposure-response modeling, or numeric PD parameters reported for it. |
-| popPK | Linakis_2020 | relevant | 9 | 2 | The study reports pharmacokinetics for oxandrolone, but the specific numeric disposition parameters (CL, V, etc.) are not present in the provided abstract text, only bioavailability. |
+| popPK | Linakis_2020 | irrelevant | 0 | 0 | no_text gate: only 167 chars of text extracted (&lt; 400) |
 | popPK | Menke_2010 | irrelevant | 0 | 0 | The study is a clinical trial assessing growth outcomes and safety of oxandrolone in Turner syndrome, not a pharmacokinetic study, and reports no PK parameters. |
 | popPK | Miller_2009 | irrelevant | 0 | 0 | The paper is a clinical review of oxandrolone's efficacy in thermal injury and does not report any pharmacokinetic parameters. |
 | PD | Miller_2009 | not_relevant | 1 | 0 | The text is a qualitative review of clinical outcomes (lean body mass, wound healing) without reporting any numeric concentration-effect data, dose-response curves, or PD parameters. |
-| popPK | Namias_2007 | irrelevant | 0 | 0 | The paper is a review of burn care that mentions oxandrolone's safety and efficacy but does not report any pharmacokinetic parameters or quantitative disposition data. |
+| popPK | Namias_2007 | irrelevant | 0 | 0 | The paper is a general review of burn care that mentions oxandrolone's safety and efficacy but provides no pharmacokinetic parameters or quantitative disposition data. |
 | popPK | Sas_2014 | irrelevant | 0 | 0 | The paper is a clinical review/recommendation regarding safety and efficacy in Turner syndrome, containing no pharmacokinetic parameters or quantitative disposition data for oxandrolone. |
 | PD | Sas_2014 | not_relevant | 2 | 1 | The text is a review summarizing clinical outcomes (height gain) and safety recommendations based on dose ranges, but it does not report a pharmacodynamic model, concentration-effect relationship, or specific numeric PD parameters like Emax or EC50. |
 | popPK | Segal_1999 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of antiviral activity and does not report pharmacokinetic parameters for oxandrolone. |
-| popPK | Sheffield-Moore_1999 | irrelevant | 0 | 0 | The study focuses on muscle protein synthesis and amino acid transport, not pharmacokinetic disposition parameters (CL, V, t1/2) for oxandrolone. |
-| popPK | Sheffield-Moore_2000 | irrelevant | 0 | 0 | The study investigates muscle protein synthesis and breakdown using stable isotopes, not pharmacokinetic disposition parameters for oxandrolone. |
+| popPK | Sheffield-Moore_1999 | irrelevant | 0 | 0 | The study investigates muscle protein synthesis and amino acid transport, not the pharmacokinetic disposition parameters (CL, V, ka) of oxandrolone. |
+| popPK | Sheffield-Moore_2000 | irrelevant | 0 | 0 | The study investigates muscle protein synthesis rates using stable isotopes, not the pharmacokinetic disposition parameters (CL, V, t1/2) of oxandrolone. |
 | popPK | unknown_1997 | irrelevant | 0 | 0 | no_text gate: only 27 chars of text extracted (&lt; 400) |
 | PD | unknown_1997 | not_relevant | 0 | 0 | The provided text is only a title and contains no data, analysis, or numeric parameters to derive a pharmacodynamic relationship. |
 
