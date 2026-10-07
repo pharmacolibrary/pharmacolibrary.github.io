@@ -164,9 +164,12 @@
     }
     /* ── sites page ────────────────────────────────────────────────────────────
        Only the /sites route uses these (pk-sites.js + the ADME database, fetched by the
-       plugin below and never on any other page). Evidence tiers are one blue ramp; the
-       drug colours are the fixed categorical order pk-sites.js carries. */
-    :root { --pks-ev0: #f1f0eb; --pks-ev1: #86b6ef; --pks-ev2: #3987e5; --pks-ev3: #1c5cab;
+       plugin below and never on any other page). Evidence tiers are three light hues —
+       cyan (ADME prose), azure (paper PGx gene), violet (DrugBank actor) — each lighter and
+       cooler than every drug colour, so a tier reads apart from its neighbour (the old single
+       blue ramp did not) and from the drug dots drawn on it; the drug colours are the fixed
+       categorical order pk-sites.js carries. */
+    :root { --pks-ev0: #f1f0eb; --pks-ev1: #9be3e6; --pks-ev2: #8cc4f7; --pks-ev3: #b9a3f0;
       --pks-kid1: #f0a3a3; --pks-kid2: #d94a4a; --pks-kid3: #a3201f;   /* the kidney's and the blood's own ramp on the body */
       --pks-warn: #b4530f; --pks-organ: #e6e4dd; --pks-organ-line: #b9b5aa; --pks-body: #f3f2ed; }
     .pks-results { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; }
@@ -265,7 +268,7 @@
     .pks-body .slot.e0 { fill: var(--pks-ev0); } .pks-body .slot.e1 { fill: var(--pks-ev1); }
     .pks-body .slot.e2 { fill: var(--pks-ev2); } .pks-body .slot.e3 { fill: var(--pks-ev3); }
     .pks-body .cd { font: 600 7.5px ui-monospace, Menlo, monospace; fill: #94a3b8; pointer-events: none; }
-    .pks-body .cd.on { fill: #fff; }
+    .pks-body .cd.on { fill: #1e293b; }   /* the tiers are light: dark letters on them */
     .pks-body .aff { fill: none; stroke: var(--pks-warn); stroke-width: 2; stroke-dasharray: 3 2; }
     .pks-body .arrow { fill: none; stroke-width: 2; marker-end: url(#pks-ah); }
     .pks-detailbox h4 { margin: 0 0 6px; font-size: 14px; } .pks-detailbox h4.warn { color: var(--pks-warn); margin-top: 12px; }
@@ -1558,6 +1561,92 @@
 
   <script src="assets/docsify.js"></script>
   <script src="assets/docsify-sidebar-collapse.min.js"></script>
+  <script>
+    // ── keep the sidebar as the reader left it ─────────────────────────────────
+    // A drug sits in the ATC tree once per ATC code (azithromycin under J01F AND S01A) and
+    // again in the panels. docsify re-renders the sidebar on every route and marks the FIRST
+    // link to the page active; sidebar-collapse then opens that branch. So a reader who
+    // opened S → S01 → S01A and clicked azithromycin was thrown to J → J01 → J01F, and the
+    // folders they had opened were gone. This runs after both (sidebar-collapse prepends its
+    // plugin, this one is pushed): it restores the folders that were open before the route
+    // change and makes the link the reader clicked — or, when the page was reached another
+    // way, a link that was already visible — the active one. Only when no matching link was
+    // visible does docsify's first match stand. State lives in this page only.
+    (window.$docsify.plugins = window.$docsify.plugins || []).push(function (hook) {
+      var open = null, clicked = null;
+      function root() { return document.querySelector('.sidebar-nav > ul'); }
+      function path(li, top) {                       // "2.0.5": li indexes from the root list
+        var p = [];
+        for (var n = li; n && n !== top; n = n.parentNode) {
+          if (n.tagName === 'LI') p.unshift(Array.prototype.indexOf.call(n.parentNode.children, n));
+        }
+        return p.join('.');
+      }
+      function snapshot() {
+        var top = root(); if (!top) return;
+        open = {};
+        top.querySelectorAll('li.open').forEach(function (li) { open[path(li, top)] = 1; });
+      }
+      function ancestors(li, top) {                  // the folder <li>s that contain li
+        var out = [];
+        for (var n = li.parentNode; n && n !== top; n = n.parentNode) if (n.tagName === 'LI') out.push(n);
+        return out;
+      }
+      function here() { return decodeURI((location.hash || '#/').split('?')[0]).replace(/\/$/, ''); }
+      function href(a) { return decodeURI((a.getAttribute('href') || '').split('?')[0]).replace(/\/$/, ''); }
+
+      document.addEventListener('click', function (ev) {
+        var nav = ev.target.closest && ev.target.closest('.sidebar-nav');
+        if (!nav) return;
+        var a = ev.target.closest('a');
+        if (a && /^#\//.test(a.getAttribute('href') || '')) {
+          // a link: remember it and the folders open NOW, before sidebar-collapse closes the
+          // branch of the page being left
+          snapshot();
+          var li = a.closest('li'); clicked = li ? path(li, root()) : null;
+        } else {
+          setTimeout(snapshot, 0);                   // a folder toggled: record the result
+        }
+      }, true);
+
+      hook.doneEach(function () {
+        var top = root(); if (!top) return;
+        var cur = here();
+        var cands = Array.prototype.filter.call(top.querySelectorAll('a'), function (a) {
+          return href(a) === cur;
+        }).map(function (a) { return a.closest('li'); }).filter(Boolean);
+        if (open && cands.length) {
+          var target = null;
+          cands.forEach(function (li) { if (!target && clicked !== null && path(li, top) === clicked) target = li; });
+          if (!target) {                              // reached another way: one already visible
+            cands.forEach(function (li) {
+              if (!target && ancestors(li, top).every(function (f) { return open[path(f, top)]; })) target = li;
+            });
+          }
+          if (target) {
+            var keep = {};
+            ancestors(target, top).forEach(function (f) { keep[path(f, top)] = 1; });
+            top.querySelectorAll('li').forEach(function (li) {
+              var p = path(li, top);
+              li.classList.remove('active');
+              if (li.classList.contains('folder') || li.querySelector('ul')) {
+                li.classList.toggle('open', !!(open[p] || keep[p]));
+                li.classList.remove('collapse');
+              }
+            });
+            target.classList.add('active');
+            var r = target.getBoundingClientRect(), sb = document.querySelector('.sidebar');
+            if (sb) {
+              var b = sb.getBoundingClientRect();
+              if (r.top < b.top || r.bottom > b.bottom) target.scrollIntoView({ block: 'center' });
+            }
+          }
+        }
+        clicked = null;
+        snapshot();
+      });
+    });
+  </script>
   <!-- The official docsify search plugin is NOT loaded. It caches its index in localStorage
        (~5 MB) and paths:'auto' crawls 8283 pages holding 62 MB of text, so it threw
        QuotaExceededError and stored nothing. The sidebar box below searches the database
