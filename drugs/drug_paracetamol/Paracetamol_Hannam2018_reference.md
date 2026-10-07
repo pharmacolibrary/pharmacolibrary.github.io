@@ -1,36 +1,38 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N02A&quot;,&quot;href&quot;:&quot;atc/N02A.md&quot;},{&quot;label&quot;:&quot;paracetamol&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/&quot;},{&quot;label&quot;:&quot;Hannam_2018 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Paracetamol_Anderson2015_reference&quot;,&quot;label&quot;:&quot;Anderson_2015_reference&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Anderson2015_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Fritz1984_reference&quot;,&quot;label&quot;:&quot;Fritz_1984_reference&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Fritz1984_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Anderson2005_reference&quot;,&quot;label&quot;:&quot;Anderson_2005_reference&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Anderson2005_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Brookhuis2021_allegaert_et_al_16&quot;,&quot;label&quot;:&quot;Brookhuis_2021_allegaert_et_al_16&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Brookhuis2021_allegaert_et_al_16.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Brookhuis2021_clark_and_seagel_23&quot;,&quot;label&quot;:&quot;Brookhuis_2021_clark_and_seagel_23&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Brookhuis2021_clark_and_seagel_23.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Brookhuis2021_kulo_et_al_15&quot;,&quot;label&quot;:&quot;Brookhuis_2021_kulo_et_al_15&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Brookhuis2021_kulo_et_al_15.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Brookhuis2021_nimmo_et_al_26&quot;,&quot;label&quot;:&quot;Brookhuis_2021_nimmo_et_al_26&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Brookhuis2021_nimmo_et_al_26.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Brookhuis2021_simpson_et_al_34&quot;,&quot;label&quot;:&quot;Brookhuis_2021_simpson_et_al_34&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Brookhuis2021_simpson_et_al_34.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Brookhuis2021_stanley_et_al_33&quot;,&quot;label&quot;:&quot;Brookhuis_2021_stanley_et_al_33&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Brookhuis2021_stanley_et_al_33.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Brookhuis2021_whitehead_et_al_14&quot;,&quot;label&quot;:&quot;Brookhuis_2021_whitehead_et_al_14&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Brookhuis2021_whitehead_et_al_14.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Hannam2018_reference&quot;,&quot;label&quot;:&quot;Hannam_2018_reference&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Hannam2018_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Paracetamol_Langeskov2022_reference&quot;,&quot;label&quot;:&quot;Langeskov_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Langeskov2022_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Rawlins1977_reference&quot;,&quot;label&quot;:&quot;Rawlins_1977_reference&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Rawlins1977_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Wu2025_reference&quot;,&quot;label&quot;:&quot;Wu_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Wu2025_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Allegaert2015_reference&quot;,&quot;label&quot;:&quot;Allegaert_2015_reference&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Allegaert2015_reference.md&quot;,&quot;status&quot;:&quot;not simulated&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Belle2000_base&quot;,&quot;label&quot;:&quot;Belle_2000_base&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Belle2000_base.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Belle2000_final&quot;,&quot;label&quot;:&quot;Belle_2000_final&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Belle2000_final.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Brookhuis2021_beaulac_baillargeon_et_al_12&quot;,&quot;label&quot;:&quot;Brookhuis_2021_beaulac_baillargeon_et_al_12&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Brookhuis2021_beaulac_baillargeon_et_al_12.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Brookhuis2021_beaulac_baillargeon_et_al_22&quot;,&quot;label&quot;:&quot;Brookhuis_2021_beaulac_baillargeon_et_al_22&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Brookhuis2021_beaulac_baillargeon_et_al_22.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Brookhuis2021_kulo_et_al_31&quot;,&quot;label&quot;:&quot;Brookhuis_2021_kulo_et_al_31&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Brookhuis2021_kulo_et_al_31.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Brookhuis2021_miners_et_al_28&quot;,&quot;label&quot;:&quot;Brookhuis_2021_miners_et_al_28&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Brookhuis2021_miners_et_al_28.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Paracetamol_Holladay2023_reference&quot;,&quot;label&quot;:&quot;Holladay_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Holladay2023_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Paracetamol_Anderson2015_reference&quot;,&quot;label&quot;:&quot;Anderson_2015_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/Paracetamol_Anderson2015_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hannam_2018_PPPM&quot;,&quot;label&quot;:&quot;Hannam_2018 \u00b7 PPPM&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/pd_Hannam_2018_PPPM.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Anderson_2015_VAS&quot;,&quot;label&quot;:&quot;Anderson_2015 \u00b7 VAS&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/pd_Anderson_2015_VAS.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Gibb_2008_VAS&quot;,&quot;label&quot;:&quot;Gibb_2008 \u00b7 VAS&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_paracetamol/pd_Gibb_2008_VAS.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # paracetamol — `Paracetamol_Hannam2018_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--orange" title="a second model re-read this paper; the two readings agree on 0.0 of the compared fields. The first reading is what the record holds.">cross-check: partial</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--orange" title="a second model re-read this paper; the two readings agree on 0.0 of the compared fields. The first reading is what the record holds.">cross-check: partial</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A simulatable model was generated — see the **Models** and **Simulation** tabs.
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
-**The model does not reproduce the paper's terminal half-life (paper 0.34, model 0.227).**
+**This paper's disposition core is incomplete.**
 
-Simulated as the paper dosed it, the model's terminal half-life differs from the value the paper reports by more than the tolerance. Extracted — paracetamol: CL 13.2 L/h.70 kg -1, V 6.35 liters, tlag 4.2 min.
+A volume and a clearance/elimination estimate from this paper are needed to build its model. Review values from other papers (Albert_1984, Gibb_2008) cannot stand in for this paper's evidence. Extracted — paracetamol: CL 13.2 L/h.70 kg -1, V 6.35 liters, tlag 4.2 min.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-10-05 09:30:03.437041+00:00) predates the upstream re-run (2026-10-07 06:04:52.984635+00:00). Current validate status: `needs_review`.
+
 ## Citation
-Hannam JA; Anderson BJ; Potts A et al. (2018). Paediatric anaesthesia 28
+Hannam JA et al., Acetaminophen, ibuprofen, and tramadol…, Paediatric anaesthesia (2018)
   ·  DOI: [10.1111/pan.13464](https://doi.org/10.1111/pan.13464)
 
 ## Model component
-<dbs-pgx drug="paracetamol" model-id="Paracetamol_Hannam2018_reference" status="needs_review" stale="false" population="children undergoing adenotonsillectomy" measured-compound="paracetamol" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="paracetamol" model-id="Paracetamol_Hannam2018_reference" status="needs_review" stale="true" population="children undergoing adenotonsillectomy" measured-compound="paracetamol, ibuprofen" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
-**Model structure:** 1-compartment, IV mammillary model — template `PK_1C`.  
+**Model structure:** 1-compartment; no model was built for this record.  
 **Parameters:** 3 extracted.
 
 **Parameterization:** mechanistic.
@@ -40,8 +42,9 @@ Hannam JA; Anderson BJ; Potts A et al. (2018). Paediatric anaesthesia 28
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
+| Estimate | `Q900` · equation variable | 1.61 | h | not captured | [h] | not captured | llm (0.6) | Hannam_2018_table_p4_1:row0:col1, Hannam_2018_table_p4_1:row0:col2, Hannam_2018_table_p4_1:row0:col3, Hannam_2018_table_p4_1:row0:col4, Hannam_2018_table_p4_1:row0:col5, Hannam_2018_table_p4_1:row0:col6, Hannam_2018_table_p4_1:row0:col7, Hannam_2018_table_p4_1:row0:col8, Hannam_2018_table_p4_1:row0:col9, Hannam_2018_table_p4_1:row0:col10, Hannam_2018_table_p4_1:row0:col11, Hannam_2018_table_p4_1:row0:col12, Hannam_2018_table_p4_1:row0:col13 | — | not captured |
 | CL ACET (L/h.70 kg -1 ) | `Q22` · CL | 13.2 | L/h.70 kg -1 | 0.00025666666666666665 | L/h | not captured | boundary (0.8) | Hannam_2018:other_prose | — | not captured |
-| volume of distribution | `Q61` · V | 6.35 | liters | 0.00635 | L | not captured | review_gapfill (0.7) | Albert_1984:review | — | not captured |
+| distribution volume | `Q61` · V | 0.6 | l.kg-1 | 0.041999999999999996 | L | not captured | review_gapfill (0.7) | Allegaert_2014:review | — | not captured |
 | Tlag | `Q83` · tlag | 4.2 | min | 252.0 | h | not captured | review_gapfill (0.7) | Gibb_2008:review | — | not captured |
 
 <details class="legend">
@@ -52,14 +55,14 @@ Hannam JA; Anderson BJ; Potts A et al. (2018). Paediatric anaesthesia 28
 ## Departures & gaps
 
 **Interpretation flags:**
-- dropped unlinked row (NIL): 'Estimate' — extend the ontology if this is a real PK parameter (source ['Hannam_2018_table_p4_1:row0:col1', 'Hannam_2018_table_p4_1:row0:col2', 'Hannam_2018_table_p4_1:row0:col3', 'Hannam_2018_table_p4_1:row0:col4', 'Hannam_2018_table_p4_1:row0:col5', 'Hannam_2018_table_p4_1:row0:col6', 'Hannam_2018_table_p4_1:row0:col7', 'Hannam_2018_table_p4_1:row0:col8', 'Hannam_2018_table_p4_1:row0:col9', 'Hannam_2018_table_p4_1:row0:col10', 'Hannam_2018_table_p4_1:row0:col11', 'Hannam_2018_table_p4_1:row0:col12', 'Hannam_2018_table_p4_1:row0:col13'])
 - routed 'PPV' → Q312 (IIV) to iiv — variability estimate, not a structural parameter
 - dropped diagnostic row 'Shrinkage%' → Q318 (shrinkage) — reported statistic, not a parameter
 - salvaged Q22 ('CL ACET (L/h.70 kg -1 )'=13.2) from results prose — parameter table was unreadable
-- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=paracetamol
+- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=paracetamol, ibuprofen
 - held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - status held at route_to_review — not promoted
-- gap-filled Q61 (V) from Albert_1984's review values (primary lacked it)
+- molar mass: none found for 'paracetamol, ibuprofen' — its concentrations stay mass-only
+- gap-filled Q61 (V) from Allegaert_2014's review values (primary lacked it)
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
 - gap-filled Q83 (tlag) from Gibb_2008's review values (primary lacked it)
@@ -75,28 +78,13 @@ Hannam JA; Anderson BJ; Potts A et al. (2018). Paediatric anaesthesia 28
 |---|---|---|---|---|---|---|
 | C0_has_structural_params | pass | not captured | 1 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
-| C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
-| C1_half_life_beta | pass | 0.34 | 0.333 | 0.9794 | 0.25 | reported t½β |
-| C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Albert_1984:review'] |
+| C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Allegaert_2014:review'] |
 | C5_dimension_Q83 | pass | [time] | not captured | not captured | not captured | ['Gibb_2008:review'] |
 | C6_cl_magnitude | pass | &lt;= 90.0 L/h | 13.2 | not captured | not captured | ['Hannam_2018:other_prose'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
 | C9_phys_window_Q22 | pass | clearance within physiological range | 924 L/h | not captured | not captured | ['Hannam_2018:other_prose'] |
-| C9_phys_window_Q61 | pass | volume within physiological range | 6.35 L | not captured | not captured | ['Albert_1984:review'] |
-
-**Reviewer per-scenario checks:**
-
-| check | scenario | status | expected | obtained | ratio | note |
-|---|---|---|---|---|---|---|
-| T0_analyte_identity | not captured | pass | not captured | not captured | not captured | V/CL labels are the drug's (or a metabolite's), no biomarker signal |
-| T2_covariates | not captured | skipped | not captured | not captured | not captured | no covariate effects in record |
-| T3_output_variable | not captured | pass | C_central (measured=paracetamol) | central.C | not captured | output must be the measured/analyte compartment |
-| T3_param_coverage | not captured | pass | 3 scholar param(s) emitted or defaulted | 3 covered | not captured | all structural parameters accounted for |
-| T3_topology_template | not captured | pass | 1C → PK_1C* | PK_1C | not captured | engineer template must match the scholar topology |
-| T6_deviations | not captured | pass | not captured | not captured | not captured | no engineer deviations to adjudicate |
-| T1_t_half_terminal | reference | fail | 0.34 | 0.22702759253053112 | 0.6677 | h→SI vs simulated h |
-| T1_t_half_terminal | reference | fail | 1.04 | 0.22702759253053112 | 0.2183 | h→SI vs simulated h |
-| T1_t_half_terminal | reference | fail | 1.77 | 0.22702759253053112 | 0.1283 | h→SI vs simulated h |
+| C9_phys_window_Q61 | pass | volume within physiological range | 42 L | not captured | not captured | ['Allegaert_2014:review'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -106,9 +94,6 @@ Hannam JA; Anderson BJ; Potts A et al. (2018). Paediatric anaesthesia 28
 ## Raw artifacts
 
 - scholar stages: `../../../knowledgebase/drugs/drug_paracetamol/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Hannam_2018` / `Hannam_2018::reference`)
-- model: `../../../knowledgebase/drugs/drug_paracetamol/models/modelica/Paracetamol_Hannam2018_reference.mo`
-- deviation: `../../../knowledgebase/drugs/drug_paracetamol/models/modelica/Paracetamol_Hannam2018_reference.deviation.json`
-- sim: `../../../knowledgebase/drugs/drug_paracetamol/models/modelica/Paracetamol_Hannam2018_reference.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
@@ -118,25 +103,20 @@ Hannam JA; Anderson BJ; Potts A et al. (2018). Paediatric anaesthesia 28
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
 <tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_paracetamol/Paracetamol_Hannam2018_reference/Paracetamol_Hannam2018_reference_modelica.zip" download>Paracetamol_Hannam2018_reference_modelica.zip</a> <span class="pk-size">(4.2 kB)</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_paracetamol/Paracetamol_Hannam2018_reference/Paracetamol_Hannam2018_reference_fmi.zip" download>Paracetamol_Hannam2018_reference_fmi.zip</a> <span class="pk-size">(4.1 kB)</span><br><a href="models/fmu/PK_1C.fmu" download>PK_1C.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><a href="drugs/drug_paracetamol/Paracetamol_Hannam2018_reference/Paracetamol_Hannam2018_reference_fmi.zip" download>Paracetamol_Hannam2018_reference_fmi.zip</a> <span class="pk-size">(4.1 kB)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_paracetamol/Paracetamol_Hannam2018_reference/Paracetamol_Hannam2018_reference_matlab.zip" download>Paracetamol_Hannam2018_reference_matlab.zip</a> <span class="pk-size">(3.3 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_paracetamol/Paracetamol_Hannam2018_reference/Paracetamol_Hannam2018_reference_matlab_simbio.zip" download>Paracetamol_Hannam2018_reference_matlab_simbio.zip</a> <span class="pk-size">(2.7 kB)</span></td></tr>
 <tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_paracetamol/Paracetamol_Hannam2018_reference/Paracetamol_Hannam2018_reference_sbml.zip" download>Paracetamol_Hannam2018_reference_sbml.zip</a> <span class="pk-size">(2.4 kB)</span></td></tr>
 <tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_paracetamol/Paracetamol_Hannam2018_reference/Paracetamol_Hannam2018_reference_cellml.zip" download>Paracetamol_Hannam2018_reference_cellml.zip</a> <span class="pk-size">(2.9 kB)</span></td></tr>
 </tbody></table>
 <p>Each archive holds the model source, a script that simulates it against the appropriate library, and a README describing both and how to run them.</p>
-<p><b>FMI is two downloads.</b> The archive holds this record's parameters and its driver; the simulator itself is <code>PK_1C.fmu</code>, one compiled template shared by every model of this structure. Take the FMU once, keep it beside the script (or pass <code>--fmu PATH</code>). Running it reproduces the model-specific FMU exactly.</p>
-</div><figure class="pk-models-diagram"><img src="drugs/drug_paracetamol/Paracetamol_Hannam2018_reference/Paracetamol_Hannam2018_reference.svg" alt="Paracetamol_Hannam2018_reference diagram"><figcaption>Model diagram (Modelica) using Pharmacolibrary v26.09 components, rendered by OpenModelica 1.26.7.</figcaption></figure></div>
+</div></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-**Administration: intravenous** — 840 mg infusion over 10 min, single dose. Doses in the paper: 840, 1050, 1680, 2100 mg.
-
-<dbs-fmusim paramsurl="drugs/drug_paracetamol/Paracetamol_Hannam2018_reference/Paracetamol_Hannam2018_reference_params.json" metaurl="assets/fmu/PK_1C.vr.json" wasmurl="assets/fmu/PK_1C.js" controlsurl="drugs/drug_paracetamol/Paracetamol_Hannam2018_reference/Paracetamol_Hannam2018_reference_sim_controls.json"></dbs-fmusim>
-
-<sub>Runs this record's model in the browser as WebAssembly. Sliders start at the extracted values; the reference check compares the browser's peak against the FMPy result recorded when the record was built, and is withheld once a value has been edited. Template `PK_1C` · parameters `Paracetamol_Hannam2018_reference_params.json` · controls `Paracetamol_Hannam2018_reference_sim_controls.json`. A slider marked *simulator value* is running on the template's own default because this record does not pin that parameter.</sub>
+_No web simulator for this record: its structure has no shared WebAssembly template. The FMI archive under **Models** carries its own compiled FMU._
 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-22 23:41 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 06:04 UTC</sub>

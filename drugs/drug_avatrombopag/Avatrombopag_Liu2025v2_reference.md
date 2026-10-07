@@ -1,15 +1,14 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B02B&quot;,&quot;href&quot;:&quot;atc/B02B.md&quot;},{&quot;label&quot;:&quot;avatrombopag&quot;,&quot;href&quot;:&quot;drugs/drug_avatrombopag/&quot;},{&quot;label&quot;:&quot;Liu_2025_2 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Avatrombopag_Liu2025v2_reference&quot;,&quot;label&quot;:&quot;Liu_2025_2_reference&quot;,&quot;href&quot;:&quot;drugs/drug_avatrombopag/Avatrombopag_Liu2025v2_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # avatrombopag — `Avatrombopag_Liu2025v2_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.75). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -21,16 +20,18 @@
 
 Simulated as the paper dosed it, the model's terminal half-life differs from the value the paper reports by more than the tolerance. A reported unit could not be converted (MTT), so that value has no SI equivalent. Extracted — avatrombopag: CL/F 7.85 L/h, V/F 199 L, kabs 0.582 /h, MTT 1.33 h.
 
-Independently confirmed by `gpt-oss:120b`.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has avatrombopag, the second reading unknown; it also differs on 1 more field. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-09-28 14:36:14.992274+00:00) predates the upstream re-run (2026-10-05 17:23:36.818827+00:00). Current validate status: `needs_review`.
+
 ## Citation
-Liu X; Chen L; Ju G; Li C; Liu B; Fei Y; et al. et al. (2025). Pharmaceuticals (Basel, Switzerland) 18
+Liu X et al., Investigation of the, Pharmaceuticals (Basel, Swi… (2025)
   ·  DOI: [10.3390/ph18060903](https://doi.org/10.3390/ph18060903)
 
 ## Model component
-<dbs-pgx drug="avatrombopag" model-id="Avatrombopag_Liu2025v2_reference" status="needs_review" stale="false" population="healthy Chinese adults" measured-compound="avatrombopag" parameterization="apparent" topology="1C"></dbs-pgx>
+<dbs-pgx drug="avatrombopag" model-id="Avatrombopag_Liu2025v2_reference" status="needs_review" stale="true" population="healthy Chinese adults" measured-compound="avatrombopag" parameterization="apparent" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment; no model was built for this record.  
 **Parameters:** 4 extracted.
@@ -42,10 +43,10 @@ Liu X; Chen L; Ju G; Li C; Liu B; Fei Y; et al. et al. (2025). Pharmaceuticals (
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| CL/F (L/h) | `Q27` · CL/F | 7.85 | L/h | 2.1805555555555555e-06 | [l] / [h] | not captured | exact (1.0) | pharmaceuticals-18-00903-t003:row2:col1 | — | not captured |
-| Vd/F (L) | `Q76` · V/F | 199 | L | 0.199 | [l] | not captured | exact (1.0) | pharmaceuticals-18-00903-t003:row3:col1 | — | not captured |
-| ka (/h) | `Q49` · kabs | 0.582 | /h | 0.00016166666666666665 | [1] / [h] | not captured | exact (1.0) | pharmaceuticals-18-00903-t003:row4:col1 | — | not captured |
-| MTT (h) | `Q81` · MTT | 1.33 | h | not captured | [h] | not captured | exact (1.0) | pharmaceuticals-18-00903-t003:row5:col1 | — | not captured |
+| CL/F (L/h) | `Q27` · CL/F | 7.85 | L/h | 2.1805555555555555e-06 | [l] / [h] | not captured | exact (1.0) | pharmaceuticals-18-00903-t003:row2:col1 | — | 0.182 (None% RSE) |
+| Vd/F (L) | `Q76` · V/F | 199 | L | 0.199 | [l] | not captured | exact (1.0) | pharmaceuticals-18-00903-t003:row3:col1 | — | 0.159 (None% RSE) |
+| ka (/h) | `Q49` · kabs | 0.582 | /h | 0.00016166666666666665 | [1] / [h] | not captured | exact (1.0) | pharmaceuticals-18-00903-t003:row4:col1 | — | 0.504 (None% RSE) |
+| MTT (h) | `Q81` · MTT | 1.33 | h | not captured | [h] | not captured | exact (1.0) | pharmaceuticals-18-00903-t003:row5:col1 | — | 0.131 (None% RSE) |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -55,14 +56,14 @@ Liu X; Chen L; Ju G; Li C; Liu B; Fei Y; et al. et al. (2025). Pharmaceuticals (
 ## Departures & gaps
 
 **Interpretation flags:**
+- table section iiv: 'CL/F' routed out of structural estimates ('Between-subject variability')
+- table section iiv: 'Vd/F' routed out of structural estimates ('Between-subject variability')
+- table section iiv: 'KA' routed out of structural estimates ('Between-subject variability')
+- table section iiv: 'MTT' routed out of structural estimates ('Between-subject variability')
+- table section iiv: 'OCC [KA]' routed out of structural estimates ('Between-subject variability')
 - dropped unlinked row (NIL): 'COV1 *' — extend the ontology if this is a real PK parameter (source ['pharmaceuticals-18-00903-t003:row6:col1'])
 - dropped unlinked row (NIL): 'COV2 *' — extend the ontology if this is a real PK parameter (source ['pharmaceuticals-18-00903-t003:row7:col1'])
 - dropped unlinked row (NIL): 'COV3 *' — extend the ontology if this is a real PK parameter (source ['pharmaceuticals-18-00903-t003:row8:col1'])
-- dropped duplicate Q27 ('CL/F', value '0.182') — already have one for this compound
-- dropped duplicate Q76 ('Vd/F', value '0.159') — already have one for this compound
-- dropped duplicate Q49 ('KA', value '0.504') — already have one for this compound
-- dropped duplicate Q81 ('MTT', value '0.131') — already have one for this compound
-- dropped duplicate Q49 ('OCC [KA]', value '0.913') — already have one for this compound
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=avatrombopag
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
@@ -99,14 +100,21 @@ Liu X; Chen L; Ju G; Li C; Liu B; Fei Y; et al. et al. (2025). Pharmaceuticals (
 
 ## Validation
 
-**Cross-check (independent readings):** <span class="pk-badge pk-badge--green">cross-checked ✓</span>  
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
 first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whatever the readers say
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | confirmed | 1.0 (8/8 fields) | none |
+| `gpt-oss:120b` | not confirmed | 0.75 (6/8 fields) | 2 |
 
-_Every reader agrees on every compared field of this record._
+<details><summary>2 field(s) a reader read differently</summary>
+
+| second reader | field | first reading | second reading | agreement |
+|---|---|---|---|---|
+| `gpt-oss:120b` | `screen.dose_compound` | avatrombopag | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | avatrombopag | unknown | mismatch |
+
+</details>
 
 <details class="legend">
 <summary>Cross-check legend</summary>
@@ -163,4 +171,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-18 19:31 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-05 17:23 UTC</sub>

@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N03A&quot;,&quot;href&quot;:&quot;atc/N03A.md&quot;},{&quot;label&quot;:&quot;ganaxolone&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ganaxolone_Zolkowska2018_mice&quot;,&quot;label&quot;:&quot;Zolkowska_2018_mice&quot;,&quot;href&quot;:&quot;drugs/drug_ganaxolone/Ganaxolone_Zolkowska2018_mice.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ganaxolone_Zolkowska2018_reference&quot;,&quot;label&quot;:&quot;Zolkowska_2018_mice&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ganaxolone/Ganaxolone_Zolkowska2018_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 # ganaxolone
 
@@ -11,32 +11,29 @@
 
 ## About
 
-**Description.** Ganaxolone is the 3β-methylated synthetic analog of [allopregnanolone],[L41130] a metabolite of [progesterone].[A3197] Ganaxolone belongs to a class of compounds referred to as neurosteroids.[A3197] Endogenous neurosteroids, which comprise certain metabolites of progesterone and deoxycorticosterone, bind potently and specifically to GABA<sub>A</sub> receptors to enhance their inhibitory effects, and are thus known to have anxiolytic, analgesic, anticonvulsant, sedative, hypnotic, and anesthetic properties.[A245995]
+Ganaxolone is an antiepileptic medicine used to treat epileptic syndromes, including infantile spasms. It is authorised in the European Union and is also being investigated for other uses.
 
-Ganaxolone, similar to its endogenous counterparts, is a positive allosteric modulator of GABA<sub>A</sub> receptors.[L41130] It was approved under the brand name ZTALMY by the US FDA in March 2022 for the treatment of seizures associated with CDKL5 deficiency disorder (CDD), becoming the first FDA-approved treatment indicated specifically for CDD.[L41135] In July 2023, ganaxolone was also approved under the same brand name and for the same indication by the EMA.[L47636]
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q3758034](https://www.wikidata.org/wiki/Q3758034) and the WHO ATC classification and the EMA medicines list; not checked by a person.</small>
 
-**Indication.** Ganaxolone is indicated for the treatment of seizures associated with cyclin-dependent kinase-like 5 (CDKL5) deficiency disorder (CDD) in patients ≥2 years old by the FDA.[L41130] It is also approved as an adjuvant treatment for the same condition in patients aged 2 to 17, although it may be continued in patients 18 years old or older, by the EMA.[L47631]
+## Molecules and molar masses
+
+> The molar mass each model uses to convert mass to molar concentration and to form a metabolite molecule for molecule. Looked up, never estimated: DrugBank for the drug, the paper's own value or the PubChem entry matched to the paper's name for a metabolite.
+
+| molecule | role | molar mass (g/mol) | formula | source | PubChem | records |
+|---|---|---|---|---|---|---|
+| ganaxolone | parent | 332.528 | C22H36O2 | DrugBank | [6918305](https://pubchem.ncbi.nlm.nih.gov/compound/6918305) | Zolkowska_2018 |
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-08-30 10:43 | 4:07 | 0/0/0 | 1/0/0 | 0/0/0 | 48,714/2,514 | ollama / qwen3.8:27b-mtp-q8_0 | 3 | 1/2 | 3/0 | 0 |
+| 2026-10-07 06:56 | 1:05 | 1/0/0 | 0/0/0 | 0/0/0 | 99,631/6,130 | einfracz / qwen3.8-27b | 3 | 1/2 | 3/0 | 0 |
 
 ## popPK records
 
 | status | detail | model | model structure | params | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--red">rejected</span><br><sub>blocking: no structural parameters extracted (nothing to build)</sub><br><sub>route_to: `human_review`</sub> | [Zolkowska_2018_mice](drugs/drug_ganaxolone/Ganaxolone_Zolkowska2018_mice.md) | — | — (no model) | 0 | Zolkowska D et al., Intramuscular allopregnanolone and gana…, Epilepsia (2018) | [10.1111/epi.13999](https://doi.org/10.1111/epi.13999) |
-
-## Pharmacodynamics (PD)
-
-| status | detail | about | model | citation | doi |
-|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--green">extracted</span> | [Pinna_2014_aggression](drugs/drug_ganaxolone/pd_Pinna_2014_aggression.md) | aggression ← ganaxolone · direct Emax (saturable) effect | — | Pinna G et al., Ganaxolone improves behavioral deficits…, Frontiers in cellular neuro… (2014) | [10.3389/fncel.2014.00256](https://doi.org/10.3389/fncel.2014.00256) |
-| <span class="pk-badge pk-badge--green">extracted</span> | [Pinna_2014_anxiety](drugs/drug_ganaxolone/pd_Pinna_2014_anxiety.md) | anxiety-like behavior ← ganaxolone · direct Emax (saturable) effect | — | Pinna G et al., Ganaxolone improves behavioral deficits…, Frontiers in cellular neuro… (2014) | [10.3389/fncel.2014.00256](https://doi.org/10.3389/fncel.2014.00256) |
-| <span class="pk-badge pk-badge--green">extracted</span> | [Pinna_2014_fear_extinction](drugs/drug_ganaxolone/pd_Pinna_2014_fear_extinction.md) | fear extinction ← ganaxolone · direct Emax (saturable) effect | — | Pinna G et al., Ganaxolone improves behavioral deficits…, Frontiers in cellular neuro… (2014) | [10.3389/fncel.2014.00256](https://doi.org/10.3389/fncel.2014.00256) |
-| <span class="pk-badge pk-badge--green">extracted</span> | [Pinna_2014_locomotion](drugs/drug_ganaxolone/pd_Pinna_2014_locomotion.md) | locomotion ← ganaxolone · direct Emax (saturable) effect | — | Pinna G et al., Ganaxolone improves behavioral deficits…, Frontiers in cellular neuro… (2014) | [10.3389/fncel.2014.00256](https://doi.org/10.3389/fncel.2014.00256) |
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--species" title="Animal study (mouse), not measured in people (from the LLM relevance screen, p(non-human) 1.00).">mouse</span><br><sub>STALE — current validate: extracted</sub><br><sub>route_to: `engineer_replication`</sub> | [Zolkowska_2018_mice](drugs/drug_ganaxolone/Ganaxolone_Zolkowska2018_reference.md) | ▶ model + simulator | 1-compartment, IV | 5 | Zolkowska D et al., Intramuscular allopregnanolone and gana…, Epilepsia 59 Suppl 2(Suppl… (2018) | [10.1111/epi.13999](https://doi.org/10.1111/epi.13999) |
 
 ## ADME sites
 
@@ -48,14 +45,14 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 | metabolism | kidney | `CYP3A5` substrate | DrugBank actor |
 | metabolism | liver | `CYP2B6` substrate, `CYP2C19` substrate, `CYP2D6` substrate, `CYP3A4` substrate, `CYP3A5` substrate | DrugBank actor |
 | metabolism | small intestine | `CYP3A4` substrate, `CYP3A5` substrate | DrugBank actor |
-| excretion | bile duct | <sub>“…55% of the administered radioactivity was recovered in the feces (2% as unchanged parent d…”</sub> | prose |
-| excretion | kidney | <sub>“…(2% as unchanged parent drug) and 18% was recovered in the urine (none of which comprised…”</sub> | prose |
+| excretion | bile duct | <sub>named in DrugBank's ADME text</sub> | prose |
+| excretion | kidney | <sub>named in DrugBank's ADME text</sub> | prose |
 
 <sub>Actors without a tissue in the table: GABRA1 (positive allosteric modulator).</sub>
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -63,7 +60,7 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 - **PubMed hits:** 10 matched, 10 returned
 - **screened:** 1  ·  **relevant:** 1
-- **records:** 1  ·  extracted 0  ·  needs_review 0  ·  rejected 1  ·  stale 0
+- **records:** 1  ·  extracted 1  ·  needs_review 0  ·  rejected 0  ·  stale 1
 - **scholar-agent fallback query used:** not captured
 
 ## Full text wanted
@@ -72,24 +69,25 @@ _3 paper(s) judged relevant from the abstract, with no full text on disk — pay
 
 | save as | citation | domain | score | DOI | PubMed | why wanted |
 |---|---|---|---|---|---|---|
-| `Zolkowska_2018.pdf` | Zolkowska D et al., Intramuscular allopregnanolone and gana…, Epilepsia 59 Suppl 2(Suppl… (2018) | popPK | 10 | [10.1111/epi.13999](https://doi.org/10.1111/epi.13999) | [29453777](https://pubmed.ncbi.nlm.nih.gov/29453777) | The study reports quantitative pharmacokinetic parameters (Vd, CL, t1/2, F) for ganaxolone in mice, with all numeric values explicitly present in the text. |
+| `Zolkowska_2018.pdf` | Zolkowska D et al., Intramuscular allopregnanolone and gana…, Epilepsia 59 Suppl 2(Suppl… (2018) | popPK | 10 | [10.1111/epi.13999](https://doi.org/10.1111/epi.13999) | [29453777](https://pubmed.ncbi.nlm.nih.gov/29453777) | The abstract explicitly reports quantitative two-compartment PK parameters (Vd, CL, t½, F) for ganaxolone in mice. |
 | `Carter_1997.pdf` | Carter RB et al., Characterization of the anticonvulsant…, The Journal of pharmacology… (1997) | pd | 4 | not captured | [9067315](https://www.ncbi.nlm.nih.gov/pubmed/9067315) | metadata signals extractable PD data (IC50) |
 | `Devenish_2021.pdf` | Devenish SO et al., The anticonvulsant zonisamide positivel…, Neuropharmacology (2021) | pd | 4 | [10.1016/j.neuropharm.2020.108371](https://doi.org/10.1016/j.neuropharm.2020.108371) | [33122032](https://www.ncbi.nlm.nih.gov/pubmed/33122032) | metadata signals extractable PD data (EC50) |
 
-<sub>queue written 2026-09-10T00:08:27.575300+00:00</sub>
+<sub>queue written 2026-10-07T06:55:14.122551+00:00</sub>
 
 ## Screened and excluded
 
 | domain | paper | verdict | relevance | extractability | reason |
 |---|---|---|---|---|---|
-| popPK | Carter_1997 | irrelevant | 0 | 0 | The paper reports pharmacodynamic and electrophysiological data (IC50, ED50) but contains no pharmacokinetic parameters such as clearance, volume, or half-life. |
-| popPK | Devenish_2021 | irrelevant | 0 | 0 | The study is an in-vitro electrophysiology investigation of zonisamide's mechanism of action on glycine receptors, with no pharmacokinetic parameters reported for ganaxolone. |
-| PGx | Martins_2026 | not_relevant | 0 | 0 | The paper is a review of the antiseizure medication pipeline and does not report specific pharmacogenomic effects on the PK/PD of ganaxolone. |
-| popPK | Nik_2017 | irrelevant | 0 | 0 | The paper describes an in-vitro functional assay for GABA receptors and does not report any pharmacokinetic parameters for ganaxolone. |
-| popPK | Olson_2024 | irrelevant | 0 | 0 | The paper is a clinical efficacy and safety study reporting seizure frequency outcomes, not a pharmacokinetic study, and contains no PK parameters for ganaxolone. |
-| popPK | Pinna_2014 | irrelevant | 0 | 0 | The paper is a behavioral pharmacology study in mice that reports dose-response data (EC50) for behavioral effects but does not report any pharmacokinetic parameters (CL, V, ka, etc.) for ganaxolone. |
-| PGx | Tobiasz_2025 | not_relevant | 0 | 0 | The paper is a systematic review of clinical treatment outcomes for PCDH19-related epilepsy and does not report pharmacokinetic or pharmacodynamic parameters or specific pharmacogenomic effects of ganaxolone. |
-| PGx | Zimmern_2022 | not_relevant | 0 | 0 | The paper is a review of genetic epilepsies and treatments, mentioning ganaxolone efficacy in CDKL5 deficiency, but it does not report pharmacogenomic effects (gene variants affecting PK/PD) of ganaxolone. |
+| popPK | Carter_1997 | irrelevant | 0 | 0 | The paper reports pharmacodynamic (ED50/TD50) and receptor binding data, but contains no pharmacokinetic parameters (CL, V, t1/2, ka). |
+| popPK | Devenish_2021 | irrelevant | 0 | 0 | The paper is an electrophysiological study of zonisamide's effect on glycine receptors; ganaxolone is only mentioned as a comparator agent and no pharmacokinetic parameters are reported. |
+| PGx | Martins_2026 | not_relevant | 0 | 0 | The paper is a general review of the antiseizure medication pipeline and does not report specific pharmacogenomic data or PK/PD parameter changes for ganaxolone. |
+| popPK | Nik_2017 | irrelevant | 0 | 0 | The paper describes an in vitro pharmacological assay for GABAAR modulation and does not report any pharmacokinetic parameters for ganaxolone. |
+| PGx | Nipper_2019 | not_relevant | 4 | 10 | The study reports pharmacodynamic differences (anticonvulsant efficacy) between genotypes for ganaxolone but does not explicitly attribute the effect to a specific identified gene variant, lacking the specific genetic locus required for a pharmacogenomic classification. |
+| popPK | Olson_2024 | irrelevant | 0 | 0 | The paper reports clinical efficacy (seizure frequency) and safety outcomes, but contains no pharmacokinetic parameters (e.g., clearance, volume) or PK model data. |
+| popPK | Pinna_2014 | irrelevant | 0 | 0 | The paper is a behavioral pharmacology study evaluating the effects of ganaxolone on PTSD-like behaviors in mice, and it does not report pharmacokinetic parameters such as clearance, volume of distribution, or half-life. |
+| PGx | Tobiasz_2025 | not_relevant | 0 | 0 | The paper is a systematic review of clinical treatment outcomes and efficacy for PCDH19 epilepsy and does not report pharmacogenomic data on the pharmacokinetics or pharmacodynamics of ganaxolone. |
+| PGx | Zimmern_2022 | not_relevant | 2 | 2 | The paper is a narrative review of genetic epilepsies and mentions ganaxolone efficacy in trials, but does not report pharmacogenomic effects on pharmacokinetic or pharmacodynamic parameters. |
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-08-30 10:41 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-10-07 06:55 UTC</sub>

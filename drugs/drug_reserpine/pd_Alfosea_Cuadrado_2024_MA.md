@@ -1,82 +1,49 @@
-<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C02A&quot;,&quot;href&quot;:&quot;atc/C02A.md&quot;},{&quot;label&quot;:&quot;reserpine&quot;,&quot;href&quot;:&quot;drugs/drug_reserpine/&quot;},{&quot;label&quot;:&quot;Alfosea-Cuadrado_2024 \u00b7 PD monoamines&quot;}]"></div>
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C02A&quot;,&quot;href&quot;:&quot;atc/C02A.md&quot;},{&quot;label&quot;:&quot;reserpine&quot;,&quot;href&quot;:&quot;drugs/drug_reserpine/&quot;},{&quot;label&quot;:&quot;Alfosea-Cuadrado_2024 \u00b7 PD monoamines (MAs)&quot;}]"></div>
 <div class="pk-tab-mark" data-tab="Information"></div>
 
-# monoamines — PD  <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.011). The first reading is what the record holds.">cross-check: disputed</span>
+# monoamines (MAs) — PD  <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.011). The first reading is what the record holds.">cross-check: disputed</span> <span class="pk-badge pk-badge--species" title="Animal study (rat), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">rat</span>
+
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
+> **Species: rat.** This record comes from an animal study (rat), not from people. The values, the model and its simulation are shown as the paper reports them — they describe that system, not human pharmacology (read from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).
+
 ## What this record describes
 
-**As extracted:** Reserpine drives monoamines (in unknown): indirect response — drug inhibits the loss of monoamines.
+**As extracted:** Reserpine drives monoamines (MAs): indirect response — drug stimulates the loss of monoamines (MAs).
 
 **Model:** No model was generated from this record.
 
-> Reserpine (0.1, 0.5, 1 mg/kg daily for 3 days in rats) depletes monoamines (MAs) in prefrontal cortex, spinal cord, and amygdala via a precursor-pool indirect response model in which reserpine inhibits MA production from a precursor pool (kin = 6.1 × 10−3 mg/h, kp = 8.6 × 10−4 h−1, kout = 2.7 × 10−2 h−1, with a parallel transit chain k0 = 1.9 × 10−1 h−1); the paper does not report Imax, IC50, EC50, Emax, or ke0 values.
+> Reserpine concentrations inhibit the production of monoamines (MA) in the prefrontal cortex, spinal cord, and amygdala via a precursor-pool indirect response model with a parallel transit chain. The paper reports a production rate (kin) of 6.1 × 10−3 mg/h, a precursor pool turnover rate (kp) of 8.6 × 10−4 h−1, a degradation rate (kout) of 2.7 × 10−2 h−1, and a transit rate (k0) of 1.9 × 10−1 h−1.
 >
-> <sub>in the paper's terms — summarised by glm-5.3-flash from the paper's text; not checked by a person</sub>
+> <sub>in the paper's terms — summarised by qwen3.8:27b-mtp-q8_0 from the paper's text; not checked by a person</sub>
 
 - **paper:** `Alfosea-Cuadrado_2024`
-- **model family:** `indirect_response_ii`
+- **model family:** `indirect_response_iv`
 - **driver:** `not_resolved`
 - **tier:** population
-- **effect:** inhibition/unknown
+- **effect:** stimulation/proportional
 
 ## Citation
-Alfosea-Cuadrado GM; Zarzoso-Foj J; Adell A; Valverde-Navarro AA; González-Soler EM; Mangas-Sanjuán V; et al. et al. (2024). Pharmaceutics 16
+Alfosea-Cuadrado GM et al., Population Pharmacokinetic-Pharmacodyna…, Pharmaceutics (2024)
   ·  DOI: [10.3390/pharmaceutics16081101](https://doi.org/10.3390/pharmaceutics16081101)
 
 ## Parameters
 | role | label (paper) | Q-code · name | value | unit | value_si | link | source |
 |---|---|---|---|---|---|---|---|
-| PK (driver) | ka1 (h−1/kg) — Population PKPD Model Estimates | `Q95` · not captured | 19.14 | h−1/kg | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row3:col1 |
-| PK (driver) | ka1 (h−1/kg) — Population PKPD Model Estimates | `Q95` · not captured | 226 | h−1/kg | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row3:col3 |
-| PK (driver) | ka1 (h−1/kg) — Population PKPD Model Estimates | `Q95` · not captured | 28 | h−1/kg | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row3:col4 |
-| PK (driver) | ka1 (h−1/kg) — Bootstrap Results | `Q49` · not captured | 19.14 | h−1/kg | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row3:col5 |
-| PK (driver) | ka2 (mg/h/kg) — Population PKPD Model Estimates | `Q49` · not captured | 45.43 | mg/h/kg | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row4:col1 |
-| PK (driver) | ka2 (mg/h/kg) — Population PKPD Model Estimates | `Q49` · not captured | 12 | mg/h/kg | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row4:col2 |
-| PK (driver) | ka2 (mg/h/kg) — Population PKPD Model Estimates | `Q49` · not captured | 32 | mg/h/kg | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row4:col3 |
-| PK (driver) | F1 — Population PKPD Model Estimates | `Q40` · not captured | 0.95 | not captured | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row5:col1 |
-| PK (driver) | F1 — Population PKPD Model Estimates | `Q40` · not captured | 3 | not captured | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row5:col2 |
-| PK (driver) | F1 — Population PKPD Model Estimates | `Q40` · not captured | 179 | not captured | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row5:col3 |
-| PK (driver) | F1 — Population PKPD Model Estimates | `Q40` · not captured | 22 | not captured | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row5:col4 |
-| PK (driver) | V (mL/kg) — Population PKPD Model Estimates | `Q61` · not captured | 1.3 | mL/kg | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row6:col1 |
-| PK (driver) | V (mL/kg) — Population PKPD Model Estimates | `Q61` · not captured | 21 | mL/kg | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row6:col2 |
-| PK (driver) | V (mL/kg) — Population PKPD Model Estimates | `Q61` · not captured | 59 | mL/kg | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row6:col3 |
-| PK (driver) | V (mL/kg) — Population PKPD Model Estimates | `Q61` · not captured | 30 | mL/kg | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row6:col4 |
-| PK (driver) | CL (mL/h/kg) — Population PKPD Model Estimates | `Q22` · not captured | 11 | mL/h/kg | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row7:col2 |
-| PK (driver) | CL (mL/h/kg) — Population PKPD Model Estimates | `Q22` · not captured | 37 | mL/h/kg | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row7:col3 |
-| PK (driver) | CL (mL/h/kg) — Population PKPD Model Estimates | `Q22` · not captured | 25 | mL/h/kg | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row7:col4 |
-| PD (effect) | kin (mg/h) AMY — Population PKPD Model Estimates | `Q327` · not captured | 6.97 | not captured | not captured | llm_confirmed (not captured) | pharmaceutics-16-01101-t002:row8:col1 |
-| PD (effect) | kin (mg/h) AMY — Population PKPD Model Estimates | `Q327` · not captured | 18 | not captured | not captured | llm_confirmed (not captured) | pharmaceutics-16-01101-t002:row8:col2 |
-| PD (effect) | kin (mg/h) AMY — Population PKPD Model Estimates | `Q327` · not captured | 97 | not captured | not captured | llm_confirmed (not captured) | pharmaceutics-16-01101-t002:row8:col3 |
-| PD (effect) | kin (mg/h) AMY — Population PKPD Model Estimates | `Q327` · not captured | 9 | not captured | not captured | llm_confirmed (not captured) | pharmaceutics-16-01101-t002:row8:col4 |
-| PD (effect) | kin (mg/h) AMY — Bootstrap Results | `Q327` · not captured | 7.04 | not captured | not captured | llm_confirmed (not captured) | pharmaceutics-16-01101-t002:row8:col5 |
-| PD (effect) | kin (mg/h) PFC — Population PKPD Model Estimates | `Q327` · not captured | 2.10 | not captured | not captured | llm_confirmed (not captured) | pharmaceutics-16-01101-t002:row9:col1 |
-| PD (effect) | kin (mg/h) PFC — Population PKPD Model Estimates | `Q327` · not captured | 18 | not captured | not captured | llm_confirmed (not captured) | pharmaceutics-16-01101-t002:row9:col2 |
-| PD (effect) | kin (mg/h) PFC — Bootstrap Results | `Q327` · not captured | 2.16 | not captured | not captured | llm_confirmed (not captured) | pharmaceutics-16-01101-t002:row9:col5 |
-| PD (effect) | kin (mg/h) SC — Population PKPD Model Estimates | `Q327` · not captured | 1.78 | not captured | not captured | llm_confirmed (not captured) | pharmaceutics-16-01101-t002:row10:col1 |
-| PD (effect) | kin (mg/h) SC — Population PKPD Model Estimates | `Q327` · not captured | 19 | not captured | not captured | llm_confirmed (not captured) | pharmaceutics-16-01101-t002:row10:col2 |
-| PD (effect) | kin (mg/h) SC — Bootstrap Results | `Q327` · not captured | 1.76 | not captured | not captured | llm_confirmed (not captured) | pharmaceutics-16-01101-t002:row10:col5 |
-| model term | kp (h−1) — Population PKPD Model Estimates | `Q410` · not captured | 14 | h−1 | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row11:col2 |
-| model term | kp (h−1) — Population PKPD Model Estimates | `Q410` · not captured | 29 | h−1 | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row11:col3 |
-| model term | kp (h−1) — Population PKPD Model Estimates | `Q410` · not captured | 37 | h−1 | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row11:col4 |
-| PD (effect) | kout (h−1) — Population PKPD Model Estimates | `Q328` · not captured | 11 | h−1 | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row12:col2 |
-| PD (effect) | kout (h−1) — Population PKPD Model Estimates | `Q328` · not captured | 22 | h−1 | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row12:col3 |
-| PD (effect) | kout (h−1) — Population PKPD Model Estimates | `Q328` · not captured | 24 | h−1 | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row12:col4 |
-| PD (effect) | SLP1 (h) — Population PKPD Model Estimates | `Q326` · not captured | 47 | h | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row13:col2 |
-| PD (effect) | SLP1 (h) — Population PKPD Model Estimates | `Q326` · not captured | 358 | h | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row13:col3 |
-| PD (effect) | SLP1 (h) — Population PKPD Model Estimates | `Q326` · not captured | 11 | h | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row13:col4 |
-| PK (driver) | k0 (h−1) — Population PKPD Model Estimates | `Q307` · not captured | 6 | h−1 | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row14:col2 |
-| PK (driver) | k0 (h−1) — Population PKPD Model Estimates | `Q307` · not captured | 9 | h−1 | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row14:col3 |
-| PK (driver) | k0 (h−1) — Population PKPD Model Estimates | `Q307` · not captured | 67 | h−1 | not captured | exact (not captured) | pharmaceutics-16-01101-t002:row14:col4 |
-| PD (effect) | SLP2 (h) — Population PKPD Model Estimates | `Q326` · not captured | 1.25 | h | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row15:col1 |
-| PD (effect) | SLP2 (h) — Population PKPD Model Estimates | `Q326` · not captured | 20 | h | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row15:col2 |
-| PD (effect) | SLP2 (h) — Population PKPD Model Estimates | `Q326` · not captured | 74 | h | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row15:col3 |
-| PD (effect) | SLP2 (h) — Population PKPD Model Estimates | `Q326` · not captured | 18 | h | not captured | llm (not captured) | pharmaceutics-16-01101-t002:row15:col4 |
+| PD (effect) | kin (mg/h) AMY | `Q327` · not captured | 6.97 | mg/h | not captured | llm (not captured) | Alfosea-Cuadrado_2024:pdv3 |
+| PD (effect) | kin (mg/h) PFC | `Q327` · not captured | 2.10 | mg/h | not captured | llm (not captured) | Alfosea-Cuadrado_2024:pdv3 |
+| PD (effect) | kin (mg/h) SC | `Q327` · not captured | 1.78 | mg/h | not captured | llm (not captured) | Alfosea-Cuadrado_2024:pdv3 |
+| PD (effect) | kp (h−1) | `Q327` · not captured | 8.6 × 10−4 | h−1 | not captured | llm (not captured) | Alfosea-Cuadrado_2024:pdv3 |
+| PD (effect) | kout (h−1) | `Q328` · not captured | 2.7 × 10−2 | h−1 | not captured | llm (not captured) | Alfosea-Cuadrado_2024:pdv3 |
+| PD (effect) | SLP1 (h) | `Q335` · not captured | 1.1 × 10−1 | h | not captured | llm (not captured) | Alfosea-Cuadrado_2024:pdv3 |
+| PD (effect) | k0 (h−1) | `Q338` · not captured | 1.9 × 10−1 | h−1 | not captured | llm (not captured) | Alfosea-Cuadrado_2024:pdv3 |
+| PD (effect) | SLP2 (h) | `Q335` · not captured | 1.25 | h | not captured | llm (not captured) | Alfosea-Cuadrado_2024:pdv3 |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>

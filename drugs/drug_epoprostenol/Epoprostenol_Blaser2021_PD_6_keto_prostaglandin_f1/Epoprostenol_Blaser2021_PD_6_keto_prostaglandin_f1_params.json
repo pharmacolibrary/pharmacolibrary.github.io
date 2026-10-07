@@ -6,7 +6,10 @@
  ],
  "parameters": {
   "E0": 101.6,
-  "exposure_per_s": 1.0
+  "EC50": 0.69,
+  "Emax": -61.3,
+  "exposure_per_s": 1.0,
+  "gamma": 1.0
  },
  "reference_peaks": {},
  "reference_points": {
@@ -14,8 +17,10 @@
   "0.69": 70.94999999999999
  },
  "stop_time": 6.9,
+ "subtitle": "name (6-keto-prostaglandin F1α) against 4-methylaminoantipyrine (4-MAA) concentration",
  "template": "PD_SigmoidEmaxSweep",
  "template_fmu": "PD_SigmoidEmaxSweep.fmu",
+ "title": "Exposure–response simulated by the PD model",
  "units": {
   "E0": {
    "display_only": true,
@@ -46,12 +51,13 @@
  "x_axis": {
   "display_unit": "µM",
   "factor": 1.0,
+  "label": "4-methylaminoantipyrine (4-MAA) concentration",
   "per_s": 1.0,
   "variable": "exposure"
  },
  "y_axis": {
   "display_unit": "n = 8",
   "factor": 1.0,
-  "label": "response"
+  "label": "name (6-keto-prostaglandin F1α)"
  }
 }

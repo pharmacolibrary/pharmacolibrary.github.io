@@ -1,15 +1,14 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N06A&quot;,&quot;href&quot;:&quot;atc/N06A.md&quot;},{&quot;label&quot;:&quot;mirtazapine&quot;,&quot;href&quot;:&quot;drugs/drug_mirtazapine/&quot;},{&quot;label&quot;:&quot;Yan_2026 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Mirtazapine_Yan2026_reference&quot;,&quot;label&quot;:&quot;Yan_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_mirtazapine/Mirtazapine_Yan2026_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # mirtazapine — `Mirtazapine_Yan2026_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.556). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.556). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -25,15 +24,17 @@ A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the val
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-09-28 14:39:05.570777+00:00) predates the upstream re-run (2026-10-06 23:41:04.358002+00:00). Current validate status: `rejected`.
+
 ## Citation
-Yan H; Huang W; Xia H; Luo Y; Li Y; Shang D et al. (2026). Drug design, development and therapy 20
+Yan H et al., Optimizing Mirtazapine Initial Dosing:…, Drug design, development an… (2026)
   ·  DOI: [10.2147/DDDT.S601238](https://doi.org/10.2147/DDDT.S601238)
 
 ## Model component
-<dbs-pgx drug="mirtazapine" model-id="Mirtazapine_Yan2026_reference" status="rejected" stale="false" population="Chinese patients with depression" measured-compound="mirtazapine" parameterization="apparent" topology="1C"></dbs-pgx>
+<dbs-pgx drug="mirtazapine" model-id="Mirtazapine_Yan2026_reference" status="rejected" stale="true" population="Chinese inpatients with depression" measured-compound="mirtazapine" parameterization="apparent" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment; no model was built for this record.  
-**Parameters:** 3 extracted.
+**Parameters:** 4 extracted.
 
 **Parameterization:** CL/F, V/F — apparent, F unknown (apparent — bioavailability not identifiable).
 
@@ -42,9 +43,10 @@ Yan H; Huang W; Xia H; Luo Y; Li Y; Shang D et al. (2026). Drug design, developm
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| CL/F (L/h) | `Q27` · CL/F | 28.515 | L/h | 7.920833333333334e-06 | [l] / [h] | not captured | exact (1.0) | tab_1:row3:col1, tab_1:row3:col2, tab_1:row3:col3, tab_1:row3:col4 | — | not captured |
-| V/F (L) | `Q76` · V/F | 0.131 | L | 0.000131 | [l] | not captured | exact (1.0) | tab_1:row4:col1, tab_1:row4:col2, tab_1:row4:col3 | — | not captured |
-| Θ CL-Paroxetine | `Q22` · CL | -0.306 | not captured | not captured | not captured | not captured | boundary (0.8) | tab_1:row5:col1, tab_1:row5:col2, tab_1:row5:col4 | — | not captured |
+| Ka (L/h) | `Q49` · kabs | 1.2 | L/h | not captured | [l] / [h] | not captured | exact (1.0) | t0002:row2:col1, t0002:row2:col4 | — | not captured |
+| CL/F (L/h) | `Q27` · CL/F | 28.9 | L/h | 8.027777777777777e-06 | [l] / [h] | not captured | exact (1.0) | t0002:row3:col1, t0002:row3:col2, t0002:row3:col4 | — | 0.0613 (None% RSE) |
+| V/F (L) | `Q76` · V/F | 310 | L | 0.31 | [l] | not captured | exact (1.0) | t0002:row4:col1, t0002:row4:col2, t0002:row4:col4 | — | 0.131 (None% RSE) |
+| ΘCL-Paroxetine | `Q22` · CL | -0.269 | not captured | not captured | not captured | not captured | llm_confirmed (0.6) | t0002:row5:col1, t0002:row5:col2, t0002:row5:col4 | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -54,23 +56,26 @@ Yan H; Huang W; Xia H; Luo Y; Li Y; Shang D et al. (2026). Drug design, developm
 ## Departures & gaps
 
 **Interpretation flags:**
-- dropped duplicate Q22 ('Θ CL-Fluvoxamine', value '-0.522') — already have one for this compound
-- dropped duplicate Q22 ('Θ CL-BMI', value '-0.244') — already have one for this compound
-- dropped unlinked row (NIL): 'PRO' — extend the ontology if this is a real PK parameter (source ['tab_1:row8:col1', 'tab_1:row8:col2'])
+- table section iiv: 'CL/F (L/h)' routed out of structural estimates ('IIV')
+- table section iiv: 'V/F (L)' routed out of structural estimates ('IIV')
+- unit_dimension_mismatch: 'Ka (L/h)' → Q49 (unit '[length] ** 3 / [time]' vs ontology '1 / [time]') — route to review
+- dropped duplicate Q22 ('ΘCL- Fluvoxamine', value '-0.511') — already have one for this compound
+- dropped duplicate Q22 ('ΘCL-BMI', value '-0.294') — already have one for this compound
+- routed 'PRO' → Q316 (prop_error) to residual_error — variability estimate, not a structural parameter
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=mirtazapine
+- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
+- status held at route_to_review — not promoted
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
+- skipped review gap-fill of TLAG: primary's parameterization (rate-constant / ka-only) does not use it
 
 **Extraction notes:**
-- unparsed cell tab_1:row2:col1 = '1.2 FIX'
-- unparsed cell tab_1:row2:col4 = '1.2 FIX'
-- unparsed cell tab_1:row3:col5 = '25.423~ 31.343'
-- unparsed cell tab_1:row4:col4 = '302.315 191.154~ 462.256'
-- unparsed cell tab_1:row5:col5 = '-0.416~ -0.149'
-- unparsed cell tab_1:row6:col5 = '-0.659~ -0.313'
-- unparsed cell tab_1:row7:col5 = '-0.382~ -0.178'
-- LLM region Yan_2026:other_prose: no JSON records returned
-- LLM region Yan_2026:discussion_prose: no JSON records returned
+- unparsed cell t0002:row3:col5 = '25.423~ 31.343'
+- unparsed cell t0002:row4:col5 = '191.154~ 462.256'
+- unparsed cell t0002:row5:col5 = '−0.416~ −0.149'
+- unparsed cell t0002:row6:col5 = '−0.659~ −0.313'
+- unparsed cell t0002:row7:col5 = '−0.382~ −0.178'
+- LLM selected parameter table(s) 2
 
 ## Validation
 
@@ -102,17 +107,18 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 3 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 4 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
-| C2_base_sign_Q22 | fail | not captured | -0.306 | not captured | not captured | not captured |
-| C5_dimension_Q27 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['tab_1:row3:col1', 'tab_1:row3:col2', 'tab_1:row3:col3', 'tab_1:row3:col4'] |
-| C5_dimension_Q76 | pass | [length] ** 3 | not captured | not captured | not captured | ['tab_1:row4:col1', 'tab_1:row4:col2', 'tab_1:row4:col3'] |
-| C5_unit_missing_Q22 | fail | [length] ** 3 / [time] | not captured | not captured | not captured | ['tab_1:row5:col1', 'tab_1:row5:col2', 'tab_1:row5:col4'] |
+| C2_base_sign_Q22 | fail | not captured | -0.269 | not captured | not captured | not captured |
+| C5_dimension_Q27 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['t0002:row3:col1', 't0002:row3:col2', 't0002:row3:col4'] |
+| C5_dimension_Q49 | fail | [length] ** 3 / [time] | L/h | not captured | not captured | ['t0002:row2:col1', 't0002:row2:col4'] |
+| C5_dimension_Q76 | pass | [length] ** 3 | not captured | not captured | not captured | ['t0002:row4:col1', 't0002:row4:col2', 't0002:row4:col4'] |
+| C5_unit_missing_Q22 | fail | [length] ** 3 / [time] | not captured | not captured | not captured | ['t0002:row5:col1', 't0002:row5:col2', 't0002:row5:col4'] |
 | C7_apparent_coherence | pass | not captured | not captured | not captured | not captured | not captured |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
-| C9_phys_window_Q27 | pass | clearance within physiological range | 28.5 L/h | not captured | not captured | ['tab_1:row3:col1', 'tab_1:row3:col2', 'tab_1:row3:col3', 'tab_1:row3:col4'] |
-| C9_phys_window_Q76 | fail | volume within physiological range | 0.131 L | not captured | not captured | ['tab_1:row4:col1', 'tab_1:row4:col2', 'tab_1:row4:col3'] |
+| C9_phys_window_Q27 | pass | clearance within physiological range | 28.9 L/h | not captured | not captured | ['t0002:row3:col1', 't0002:row3:col2', 't0002:row3:col4'] |
+| C9_phys_window_Q76 | pass | volume within physiological range | 310 L | not captured | not captured | ['t0002:row4:col1', 't0002:row4:col2', 't0002:row4:col4'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -137,4 +143,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-07-15 13:36 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-06 23:41 UTC</sub>

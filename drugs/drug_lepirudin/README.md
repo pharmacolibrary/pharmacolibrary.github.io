@@ -9,21 +9,25 @@
 
 ## About
 
-**Description.** Lepirudin is a recombinant hirudin formed by 65 amino acids that acts as a highly specific and direct thrombin inhibitor.[L41539,L41569] Natural hirudin is an endogenous anticoagulant found in _Hirudo medicinalis_ leeches.[L41539] Lepirudin is produced in yeast cells and is identical to natural hirudin except for the absence of sulfate on the tyrosine residue at position 63 and the substitution of leucine for isoleucine at position 1 (N-terminal end).[A246609]
+Lepirudin is a direct thrombin inhibitor that was used as an anticoagulant in conditions such as thrombocytopenia and unstable angina. It has been withdrawn and is no longer available, including in the European Union.
 
-Lepirudin is used as an anticoagulant in patients with heparin-induced thrombocytopenia (HIT), an immune reaction associated with a high risk of thromboembolic complications.[A3, L41539] HIT is caused by the expression of immunoglobulin G (IgG) antibodies that bind to the complex formed by heparin and platelet factor 4. This activates endothelial cells and platelets and enhances the formation of thrombi.[A246609] Bayer ceased the production of lepirudin (Refludan) effective May 31, 2012.[L41574]
-
-**Indication.** Lepirudin is indicated for anticoagulation in adult patients with acute coronary syndromes (ACS) such as unstable angina and acute myocardial infarction without ST elevation. In patients with ACS, lepirudin is intended for use with [aspirin].[L41539] Lepirudin is also indicated for anticoagulation in patients with heparin-induced thrombocytopenia (HIT) and associated thromboembolic disease in order to prevent further thromboembolic complications.[L41539]
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q3271949](https://www.wikidata.org/wiki/Q3271949) and the WHO ATC classification and the EMA medicines list; not checked by a person.</small>
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-06 05:14 | 2:52 | 0/0/0 | 0/0/0 | 0/0/0 | 17,947/1,464 | ollama / qwen3.8:27b-mtp-q8_0 | 6 | 0/4 | 6/0 | 0 |
+| 2026-10-05 14:55 | 0:30 | 0/0/0 | 0/1/0 | 0/0/0 | 13,889/571 | ollama / qwen3.8:27b-mtp-q8_0 | 2 | 0/4 | 2/0 | 0 |
 
 ## popPK records
 
 _not available_
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--red">rejected</span> | [Fenyvesi_2003_ECT](drugs/drug_lepirudin/pd_Fenyvesi_2003_ECT.md) | ecarin clotting time ← lepirudin · direct linear effect | — | Fenyvesi T et al., Effects of lepirudin, argatroban and me…, Thrombosis research (2003) | [10.1016/j.thromres.2003.08.013](https://doi.org/10.1016/j.thromres.2003.08.013) |
 
 ## ADME sites
 
@@ -31,14 +35,14 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 | process | tissue | actors (role) | evidence |
 |---|---|---|---|
-| metabolism | kidney | <sub>“…be metabolized by the sequential cleavage of amino acids by kidney exoproteases, which hav…”</sub> | prose |
-| excretion | kidney | <sub>“…Lepirudin is mostly excreted through urine (48.3%). About 35% of lepirudin is excreted unc…”</sub> | prose |
+| metabolism | kidney | <sub>named in DrugBank's ADME text</sub> | prose |
+| excretion | kidney | <sub>named in DrugBank's ADME text</sub> | prose |
 
 <sub>Actors without a tissue in the table: F2 (inhibitor).</sub>
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -60,7 +64,7 @@ _4 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | `Petros_2006.pdf` | Petros S et al., The effect of different anticoagulants…, Blood coagulation & fibrino… (2006) | pd | 4 | [10.1097/01.mbc.0000214708.73374.ce](https://doi.org/10.1097/01.mbc.0000214708.73374.ce) | [16479195](https://www.ncbi.nlm.nih.gov/pubmed/16479195) | metadata signals extractable PD data (IC50) |
 | `Sun_2022.pdf` | Sun Y et al., Molecular dynamic and pharmacological s…, British journal of pharmaco… (2022) | pd | 4 | [10.1111/bph.15816](https://doi.org/10.1111/bph.15816) | [35135035](https://www.ncbi.nlm.nih.gov/pubmed/35135035) | metadata signals extractable PD data (IC50) |
 
-<sub>queue written 2026-09-06T05:14:03.908482+00:00</sub>
+<sub>queue written 2026-10-05T14:55:32.600942+00:00</sub>
 
 ## Screened and excluded
 
@@ -74,7 +78,7 @@ _4 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | PD | Bauer_2006 | not_relevant | 1 | 0 | The text is a general review of new anticoagulants that qualitatively mentions predictable dose-response relationships but provides no specific numeric PD parameters or exposure-response data for lepirudin. |
 | popPK | Cruz-González_2012 | irrelevant | 0 | 0 | The paper is a review of argatroban, not lepirudin, and lepirudin is only mentioned as a comparator agent without any quantitative PK parameters provided. |
 | PD | Cruz-González_2012 | not_relevant | 1 | 0 | The paper is a review of argatroban (not lepirudin) and only qualitatively mentions pharmacodynamic properties without providing numeric PD parameters or exposure-response data. |
-| popPK | Eaton_2026 | irrelevant | 0 | 0 | The study reports pharmacokinetic parameters for dabigatran, not lepirudin, which is only mentioned as a comparator in the discussion. |
+| popPK | Eaton_2026 | irrelevant | 0 | 0 | The study investigates the pharmacokinetics of dabigatran and idarucizumab, not lepirudin. |
 | PD | Eaton_2026 | not_relevant | 0 | 0 | not captured |
 | popPK | Exner_2019 | irrelevant | 0 | 0 | The study is an in-vitro investigation of the binding specificity of an activated charcoal product, not a pharmacokinetic study reporting disposition parameters for lepirudin. |
 | PD | Exner_2019 | not_relevant | 0 | 0 | The study investigates the binding specificity of an activated charcoal product on anticoagulants in vitro, not the pharmacodynamic exposure-response relationship of lepirudin itself. |
@@ -104,12 +108,12 @@ _4 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | popPK | Morishima_2013 | irrelevant | 0 | 0 | The study is a pharmacodynamic comparison of antithrombotic and hemorrhagic effects where lepirudin is a comparator agent, and no pharmacokinetic parameters are reported. |
 | popPK | Nowak_1997 | irrelevant | 1 | 0 | The paper is a clinical case report describing the use of r-hirudin (lepirudin) for anticoagulation during hemodialysis, reporting only dosing and therapeutic blood levels, but lacking any quantitative pharmacokinetic parameters (CL, V, ka, etc.) or compartmental modeling. |
 | popPK | Petros_2006 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of thrombin generation and does not report pharmacokinetic parameters for lepirudin. |
-| popPK | Petruk_2023 | irrelevant | 0 | 0 | The paper describes the development and biophysical characterization of a stapled peptide (sHVF18) for inflammation, not the pharmacokinetics of lepirudin. |
+| popPK | Petruk_2023 | irrelevant | 0 | 0 | The paper describes a novel peptide compound (sHVF18) targeting TLR/CD14 and does not involve lepirudin or report its pharmacokinetic parameters. |
 | PD | Petruk_2023 | not_relevant | 0 | 0 | The paper studies the peptide sHVF18, not lepirudin, and does not report any pharmacodynamic parameters for lepirudin. |
 | popPK | Redwan_2009 | irrelevant | 0 | 0 | The paper is a review of animal-derived pharmaceutical proteins and does not contain any pharmacokinetic data or parameters for lepirudin. |
-| popPK | Sakor_2023 | irrelevant | 0 | 0 | The paper is a computational study on knowledge graphs for drug-drug interactions in COVID-19 and does not report any pharmacokinetic parameters for lepirudin. |
+| popPK | Sakor_2023 | irrelevant | 0 | 0 | The paper describes a knowledge graph framework for COVID-19 drug interactions and does not contain any pharmacokinetic data for lepirudin. |
 | PD | Sakor_2023 | not_relevant | 0 | 0 | The paper is a computational framework for constructing a knowledge graph of drug-drug interactions and does not report any pharmacokinetic or pharmacodynamic data, models, or numeric parameters for lepirudin. |
-| popPK | Sanhajariya_2020 | irrelevant | 0 | 0 | The paper is an in silico simulation study on snake venom pharmacokinetics and does not involve lepirudin. |
+| popPK | Sanhajariya_2020 | irrelevant | 0 | 0 | The study is an in silico simulation of snake venom pharmacokinetics and does not involve lepirudin. |
 | PD | Sanhajariya_2020 | not_relevant | 0 | 0 | The paper is an in silico pharmacokinetic (PK) simulation study of snake venom components and does not involve lepirudin or report any pharmacodynamic (PD) or exposure-response relationships. |
 | popPK | Seybert_2006 | irrelevant | 0 | 0 | The paper is a review discussing the clinical use of bivalirudin for HIT, with lepirudin mentioned only as a comparator, and no quantitative pharmacokinetic parameters are reported. |
 | popPK | Sun_2022 | irrelevant | 0 | 0 | The study focuses on molecular dynamics and pharmacological effects of hirudin variants, not the pharmacokinetics of lepirudin. |

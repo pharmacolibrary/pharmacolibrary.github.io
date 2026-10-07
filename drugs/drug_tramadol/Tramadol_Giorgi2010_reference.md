@@ -1,62 +1,66 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N02A&quot;,&quot;href&quot;:&quot;atc/N02A.md&quot;},{&quot;label&quot;:&quot;tramadol&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/&quot;},{&quot;label&quot;:&quot;Giorgi_2010 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tramadol_Bailey2019_reference&quot;,&quot;label&quot;:&quot;Bailey_2019_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Bailey2019_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Ekstrand2026_reference&quot;,&quot;label&quot;:&quot;Ekstrand_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Ekstrand2026_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Yoo2022_reference&quot;,&quot;label&quot;:&quot;Yoo_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Yoo2022_reference.md&quot;,&quot;status&quot;:&quot;accepted (caveats)&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Bao2023_reference&quot;,&quot;label&quot;:&quot;Bao_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Bao2023_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Dziubina2026_reference&quot;,&quot;label&quot;:&quot;Dziubina_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Dziubina2026_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Elghazali2008_reference&quot;,&quot;label&quot;:&quot;Elghazali_2008_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Elghazali2008_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Hannam2018_reference&quot;,&quot;label&quot;:&quot;Hannam_2018_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Hannam2018_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_SoriaChacartegui2026_reference&quot;,&quot;label&quot;:&quot;Soria-Chacartegui_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_SoriaChacartegui2026_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_AlQurain2022_base&quot;,&quot;label&quot;:&quot;Al-Qurain_2022_base&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_AlQurain2022_base.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_AlQurain2022_final&quot;,&quot;label&quot;:&quot;Al-Qurain_2022_final&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_AlQurain2022_final.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Allegaert2014v2_reference&quot;,&quot;label&quot;:&quot;Allegaert_2014_2_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Allegaert2014v2_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Allegaert2015_reference&quot;,&quot;label&quot;:&quot;Allegaert_2015_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Allegaert2015_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Chun2025_reference&quot;,&quot;label&quot;:&quot;Chun_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Chun2025_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Garrido2006_reference&quot;,&quot;label&quot;:&quot;Garrido_2006_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Garrido2006_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Giorgi2010_reference&quot;,&quot;label&quot;:&quot;Giorgi_2010_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Giorgi2010_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Tramadol_Healy2025_reference&quot;,&quot;label&quot;:&quot;Healy_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Healy2025_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Itami2016_reference&quot;,&quot;label&quot;:&quot;Itami_2016_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Itami2016_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Pypendop2008_reference&quot;,&quot;label&quot;:&quot;Pypendop_2008_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Pypendop2008_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tramadol_Ekstrand2026_reference&quot;,&quot;label&quot;:&quot;Ekstrand_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Ekstrand2026_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Garrido2006_reference&quot;,&quot;label&quot;:&quot;Garrido_2006_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Garrido2006_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Pypendop2008_reference&quot;,&quot;label&quot;:&quot;Pypendop_2008_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Pypendop2008_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Bao2023_reference&quot;,&quot;label&quot;:&quot;Bao_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Bao2023_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # tramadol — `Tramadol_Giorgi2010_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.905). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.727). The first reading is what the record holds.">cross-check: disputed</span> <span class="pk-badge pk-badge--species" title="Animal study (dog), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">dog</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
+
+> **Species: dog.** This record comes from an animal study (dog), not from people. The values, the model and its simulation are shown as the paper reports them — they describe that system, not human pharmacology (read from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).
 
 **Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
-**The tramadol model was rejected because its three metabolites (O-desmethyl-, N,N-didesmethyl- and N,O-didesmethyl-tramadol) are unlinked, with no metabolic path from the tramadol dose.**
+**The tramadol record was rejected because its three metabolites (O-desmethyl-, N,N-didesmethyl- and N,O-didesmethyl-tramadol) are unlinked: the metabolism connections carry no parameter values, so the metabolite compartments are unreachable from the tramadol dose.**
 
-The record lists metabolism links from tramadol to O-desmethyl-tramadol, N-,N-didesmethyl-tramadol and N-,O-didesmethyl-tramadol, but each link has no link parameter (link_parameter 'none', kind unknown), so the metabolites have no quantitative connection from the dose — an unlinked-metabolite failure. The second reader disagreed, recording no such links and additionally a bioavailability parameter f% of 92 that the record does not contain. The tramadol parameters themselves (e.g. kel 1.18, CL 1131, V1 7.00, V2 left without a value) are otherwise present. Extracted — tramadol: kel 1.18, k12 8.74, k21 20.2, t1/2ka 0.73, CL 1.13e+03, AUMC 6.07, MRT 1.13, Vss 1e+03, … (+7).
+All three metabolites are formed from tramadol in the central compartment but each has zero compartments and the metabolism links have no parameter value ('none', kind unknown), leaving them without a path from the dose. The peripheral volume V2 was left with no value, and a reported unit could not be converted to SI, so that parameter reached the model without an SI value. A second reader also disagreed on several entries, reading a bioavailability f% of 92 and a k12 of 20.21 1/h where the record has none, and no metabolism links at all, but these disagreements do not change the rejection cause. Extracted — tramadol: kel 1.18 1/h, Q 8.74 L/h, t1/2ka 0.73 h, CL 1.13e+03 mL/min, AUMC 6.07, MRT 1.13 h, Vss 1e+03 L, V1 7 L, … (+6).
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the links between molecules: this record has tramadol → o-desmethyl-tramadol (metabolism); tramadol → n-,n-didesmethyl-tramadol (metabolism); tramadol → n-,o-didesmethyl-tramadol (metabolism), the second reading none; it also differs on 1 more field. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has tramadol, the second reading unknown; it also differs on 5 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-10-05 09:33:19.020452+00:00) predates the upstream re-run (2026-10-07 15:10:30.034316+00:00). Current validate status: `needs_review`.
+
 ## Citation
-Giorgi M; Del Carlo S; Łebkowska-Wieruszewska B; Kowalski CJ; Saccomanni G et al. (2010). Polish journal of veterinary sciences 13
+Giorgi M et al., Pharmacokinetics of tramadol and metabo…, Polish journal of veterinar… (2010)
   ·  DOI: [10.2478/v10181-010-0027-y](https://doi.org/10.2478/v10181-010-0027-y)
 
 ## Model component
-<dbs-pgx drug="tramadol" model-id="Tramadol_Giorgi2010_reference" status="rejected" stale="false" population="healthy beagle dogs" measured-compound="tramadol" parameterization="mechanistic" topology="general_linear"></dbs-pgx>
+<dbs-pgx drug="tramadol" model-id="Tramadol_Giorgi2010_reference" status="needs_review" stale="true" population="healthy male beagle dogs" measured-compound="tramadol" parameterization="mechanistic" topology="2C"></dbs-pgx>
 
-**Model structure:** general linear; no model was built for this record.  
+**Model structure:** 2-compartment; no model was built for this record.  
 **Parameters:** 15 extracted.
 
 **Parameterization:** mechanistic.
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `rejected`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
+> ⚠️ This record is not accepted (current status `needs_review`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| K 10 | `Q47` · kel | 1.18 | not captured | not captured | not captured | not captured | space_fold (0.95) | tab_1:row1:col1, tab_1:row1:col2, tab_1:row1:col3, Giorgi_2010_table_1:row2:col1, Giorgi_2010_table_1:row2:col2, Giorgi_2010_table_1:row2:col3 | — | not captured |
-| K 12 | `Q301` · k12 | 8.74 | not captured | not captured | not captured | not captured | space_fold (0.95) | tab_1:row2:col1, tab_1:row2:col2, tab_1:row2:col3 | — | not captured |
-| K 21 | `Q302` · k21 | 20.21 | not captured | not captured | not captured | not captured | space_fold (0.95) | tab_1:row3:col1, tab_1:row3:col2, tab_1:row3:col3 | — | not captured |
-| K 10 t 1/2 | `Q95` · t1/2ka | 0.73 | not captured | not captured | not captured | not captured | llm (0.6) | tab_1:row4:col2, tab_1:row4:col3, Giorgi_2010_table_1:row6:col2, Giorgi_2010_table_1:row6:col3 | — | not captured |
-| Cl T | `Q22` · CL | 1131 | not captured | not captured | not captured | not captured | space_fold (0.95) | tab_1:row6:col2, tab_1:row6:col3, Giorgi_2010_table_1:row7:col2, Giorgi_2010_table_1:row7:col3 | — | not captured |
+| K 10 | `Q47` · kel | 1.18 | 1/h | 0.00032777777777777775 | 1/h | not captured | space_fold (0.95) | tab_1:row1:col1, tab_1:row1:col2, tab_1:row1:col3, Giorgi_2010_table_1:row2:col1, Giorgi_2010_table_1:row2:col2, Giorgi_2010_table_1:row2:col3 | — | not captured |
+| K 12 | `Q301` · k12 | 8.74 | 1/h | 0.002427777777777778 | 1/h | not captured | space_fold (0.95) | tab_1:row2:col1, tab_1:row2:col2, tab_1:row2:col3 | — | not captured |
+| K 21 | `Q302` · k21 | 20.21 | 1/h | 0.005613888888888889 | 1/h | not captured | space_fold (0.95) | tab_1:row3:col1, tab_1:row3:col2, tab_1:row3:col3 | — | not captured |
+| K 10 t 1/2 | `Q95` · t1/2ka | 0.73 | h | 2628.0 | h | not captured | llm (0.6) | tab_1:row4:col2, tab_1:row4:col3, Giorgi_2010_table_1:row6:col2, Giorgi_2010_table_1:row6:col3 | — | not captured |
+| Cl T | `Q22` · CL | 1131 | mL/min | 1.8849999999999997e-05 | L/h | not captured | space_fold (0.95) | tab_1:row6:col2, tab_1:row6:col3, Giorgi_2010_table_1:row7:col2, Giorgi_2010_table_1:row7:col3 | — | not captured |
 | AUMC 0-∞ | `Q20` · AUMC | 6.07 | not captured | not captured | not captured | not captured | space_fold (0.95) | tab_1:row7:col2, tab_1:row7:col3 | — | not captured |
-| MRT | `Q53` · MRT | 1.13 | not captured | not captured | not captured | not captured | exact (1.0) | tab_1:row8:col2, tab_1:row8:col3 | — | not captured |
-| Vdss | `Q65` · Vss | 1003 | not captured | not captured | not captured | not captured | llm (0.6) | tab_1:row9:col2, tab_1:row9:col3 | — | not captured |
-| V 1 | `Q63` · V1 | 7.00 | not captured | not captured | not captured | not captured | space_fold (0.95) | tab_1:row10:col2, tab_1:row10:col3 | — | not captured |
-| Vd | `Q61` · V | 293 | not captured | not captured | not captured | not captured | exact (1.0) | Giorgi_2010_table_1:row0:col2, Giorgi_2010_table_1:row0:col3 | — | not captured |
-| K 01 | `Q49` · kabs | 6.90 | not captured | not captured | not captured | not captured | space_fold (0.95) | Giorgi_2010_table_1:row1:col1, Giorgi_2010_table_1:row1:col2, Giorgi_2010_table_1:row1:col3 | — | not captured |
-| Tlag | `Q83` · tlag | 0.40 | not captured | not captured | not captured | not captured | exact (1.0) | Giorgi_2010_table_1:row3:col2, Giorgi_2010_table_1:row3:col3 | — | not captured |
-| AUC 0-∞ | `Q17` · AUC∞ | 3.59 | not captured | not captured | not captured | not captured | space_fold (0.95) | Giorgi_2010_table_1:row4:col2, Giorgi_2010_table_1:row4:col3 | — | not captured |
-| Tmax | `Q56` · tmax | 0.34 | not captured | not captured | not captured | not captured | exact (1.0) | Giorgi_2010_table_1:row8:col2, Giorgi_2010_table_1:row8:col3 | — | not captured |
-| Cmax | `Q32` · Cmax | 2.52 | not captured | not captured | not captured | not captured | exact (1.0) | Giorgi_2010_table_1:row9:col2, Giorgi_2010_table_1:row9:col3 | — | not captured |
+| MRT | `Q53` · MRT | 1.13 | h | 4067.9999999999995 | h | not captured | exact (1.0) | tab_1:row8:col2, tab_1:row8:col3 | — | not captured |
+| Vdss | `Q65` · Vss | 1003 | L | 1.0030000000000001 | L | not captured | llm (0.6) | tab_1:row9:col2, tab_1:row9:col3 | — | not captured |
+| V 1 | `Q63` · V1 | 7.00 | L | 0.007 | L | not captured | space_fold (0.95) | tab_1:row10:col2, tab_1:row10:col3 | — | not captured |
+| Vd | `Q61` · V | 293 | L | 0.293 | L | not captured | exact (1.0) | Giorgi_2010_table_1:row0:col2, Giorgi_2010_table_1:row0:col3 | — | not captured |
+| K 01 | `Q49` · kabs | 6.90 | 1/h | 0.0019166666666666668 | 1/h | not captured | space_fold (0.95) | Giorgi_2010_table_1:row1:col1, Giorgi_2010_table_1:row1:col2, Giorgi_2010_table_1:row1:col3 | — | not captured |
+| Tlag | `Q83` · tlag | 0.40 | h | 1440.0 | h | not captured | exact (1.0) | Giorgi_2010_table_1:row3:col2, Giorgi_2010_table_1:row3:col3 | — | not captured |
+| AUC 0-∞ | `Q17` · AUC∞ | 3.59 | h*μg/mL | not captured | h*μg/mL | not captured | space_fold (0.95) | Giorgi_2010_table_1:row4:col2, Giorgi_2010_table_1:row4:col3 | — | not captured |
+| Tmax | `Q56` · tmax | 0.34 | h | 1224.0 | h | not captured | exact (1.0) | Giorgi_2010_table_1:row8:col2, Giorgi_2010_table_1:row8:col3 | — | not captured |
+| Cmax | `Q32` · Cmax | 2.52 | μg/mL | not captured | μg/mL | not captured | exact (1.0) | Giorgi_2010_table_1:row9:col2, Giorgi_2010_table_1:row9:col3 | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -74,10 +78,23 @@ Giorgi M; Del Carlo S; Łebkowska-Wieruszewska B; Kowalski CJ; Saccomanni G et a
 - column 'parameters' classified 'other' by the LLM but kept: the deterministic diagnostic-column test disagrees (a stratum column is a value column, not a statistic)
 - dropped duplicate Q49 ('K 01 t 1/2', value '0.10') — already have one for this compound
 - dropped unlinked row (NIL): 'F%' — extend the ontology if this is a real PK parameter (source ['Giorgi_2010_table_1:row10:col2', 'Giorgi_2010_table_1:row10:col3'])
+- implicit units: 'K 10' → 1/h (from the popPK convention: 'K10 is a first-order elimination rate constant. The paper lists λz (terminal phase rate constant) with units of 1/h in t')
+- implicit units: 'K 12' → 1/h (from the popPK convention: 'K12 is a first-order intercompartmental rate constant. Standard convention for such rate constants in population PK is r')
+- implicit units: 'K 21' → 1/h (from the popPK convention: 'K21 is a first-order intercompartmental rate constant. Standard convention for such rate constants in population PK is r')
+- implicit units: 'K 10 t 1/2' → h (from the popPK convention: "K10t1/2 represents the half-life of a phase. The paper explicitly provides units of 'h' for t1/2λz and Tmax. Half-lives ")
+- implicit units: 'Cl T' → mL/min (from the popPK convention: 'ClT is total body clearance. The value 1131 is consistent with mL/min for a dog (~10kg) (approx 113 mL/kg/min is high bu')
+- implicit units: 'AUMC 0-∞' — the LLM proposed 'h*h*μg/mL', whose dimension does not fit Q20; left unset
+- implicit units: 'MRT' → h (from the paper text: "The text excerpt explicitly lists 'MRT (h)' with a value of 3.75 in one row, and the parameter is defined as time.")
+- implicit units: 'Vdss' → L (from the popPK convention: 'Vdss is a volume of distribution. The value 1003 is consistent with Liters (1.003 L) for a 10kg dog (100 mL/kg), which i')
+- implicit units: 'V 1' → L (from the popPK convention: 'V1 is the volume of the central compartment. The value 7.00 is consistent with Liters (7 L) for a 10kg dog (700 mL/kg), ')
+- implicit units: 'Vd' → L (from the popPK convention: 'Vd is the volume of distribution. The value 293 is consistent with Liters (0.293 L or 293 mL) or possibly dL? 293 L is h')
+- implicit units: 'K 01' → 1/h (from the popPK convention: 'K01 is an absorption rate constant. Standard convention for first-order rate constants is reciprocal time (1/h).')
+- implicit units: 'Tlag' → h (from the popPK convention: "Tlag is a lag time. The paper provides units of 'h' for Tmax. Lag times are conventionally expressed in time units (h).")
+- implicit units: 'AUC 0-∞' → h*μg/mL (from the paper text: "The text excerpt explicitly lists 'AUC 0-∞ (h*μg/mL)' with values such as 1.51.")
+- implicit units: 'Tmax' → h (from the paper text: "The text excerpt explicitly lists 'Tmax (h)' with values such as 0.94.")
+- implicit units: 'Cmax' → μg/mL (from the paper text: "The text excerpt explicitly lists 'Cmax (μg/mL)' with values such as 0.34.")
 - apparent-by-design (ADVISORY, codes unchanged): extravascular dosing with no identifiable F, so these reported disposition parameters are likely apparent unless the model puts first-pass in its structure — Q22 (Cl T); Q63 (V 1); Q64 (V 2 α β); Q61 (Vd)
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=tramadol
-- topology: transfer parameter unlinked (Q100) — add Kfm/formation-rate/rate-constant to the ontology; routing to review
-- status held at route_to_review — not promoted
 - skipped review gap-fill of Q: primary's parameterization (rate-constant / ka-only) does not use it
 
 **Extraction notes:**
@@ -93,14 +110,18 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.905 (19/21 fields) | 2 |
+| `gpt-oss:120b` | not confirmed | 0.727 (16/22 fields) | 6 |
 
-<details><summary>2 field(s) a reader read differently</summary>
+<details><summary>6 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
 | `gpt-oss:120b` | `model.links` | [['tramadol', 'o-desmethyl-tramadol', 'metabolism'], ['tramadol', 'n-,n-didesmethyl-tramadol', 'metabolism'], ['tramadol', 'n-,o-didesmethyl-tramadol', 'metabolism']] | [] | mismatch |
 | `gpt-oss:120b` | `parameters[f%]` | not captured | 92 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[k 12].parameter_id` | Q30 | Q301 | mismatch |
+| `gpt-oss:120b` | `parameters[k 21]` | not captured | 20.21 | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | tramadol | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | tramadol | unknown | mismatch |
 
 </details>
 
@@ -117,8 +138,27 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | C0_has_structural_params | pass | not captured | 15 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q17 | pass | [time] * [mass] / [length] ** 3 | not captured | not captured | not captured | ['Giorgi_2010_table_1:row4:col2', 'Giorgi_2010_table_1:row4:col3'] |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['tab_1:row6:col2', 'tab_1:row6:col3', 'Giorgi_2010_table_1:row7:col2', 'Giorgi_2010_table_1:row7:col3'] |
+| C5_dimension_Q301 | pass | 1 / [time] | not captured | not captured | not captured | ['tab_1:row2:col1', 'tab_1:row2:col2', 'tab_1:row2:col3'] |
+| C5_dimension_Q302 | pass | 1 / [time] | not captured | not captured | not captured | ['tab_1:row3:col1', 'tab_1:row3:col2', 'tab_1:row3:col3'] |
+| C5_dimension_Q32 | pass | [mass] / [length] ** 3 | not captured | not captured | not captured | ['Giorgi_2010_table_1:row9:col2', 'Giorgi_2010_table_1:row9:col3'] |
+| C5_dimension_Q47 | pass | 1 / [time] | not captured | not captured | not captured | ['tab_1:row1:col1', 'tab_1:row1:col2', 'tab_1:row1:col3', 'Giorgi_2010_table_1:row2:col1', 'Giorgi_2010_table_1:row2:col2', 'Giorgi_2010_table_1:row2:col3'] |
+| C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Giorgi_2010_table_1:row1:col1', 'Giorgi_2010_table_1:row1:col2', 'Giorgi_2010_table_1:row1:col3'] |
+| C5_dimension_Q53 | pass | [time] | not captured | not captured | not captured | ['tab_1:row8:col2', 'tab_1:row8:col3'] |
+| C5_dimension_Q56 | pass | [time] | not captured | not captured | not captured | ['Giorgi_2010_table_1:row8:col2', 'Giorgi_2010_table_1:row8:col3'] |
+| C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Giorgi_2010_table_1:row0:col2', 'Giorgi_2010_table_1:row0:col3'] |
+| C5_dimension_Q63 | pass | [length] ** 3 | not captured | not captured | not captured | ['tab_1:row10:col2', 'tab_1:row10:col3'] |
+| C5_dimension_Q65 | pass | [length] ** 3 | not captured | not captured | not captured | ['tab_1:row9:col2', 'tab_1:row9:col3'] |
+| C5_dimension_Q83 | pass | [time] | not captured | not captured | not captured | ['Giorgi_2010_table_1:row3:col2', 'Giorgi_2010_table_1:row3:col3'] |
+| C5_dimension_Q95 | pass | [time] | not captured | not captured | not captured | ['tab_1:row4:col2', 'tab_1:row4:col3', 'Giorgi_2010_table_1:row6:col2', 'Giorgi_2010_table_1:row6:col3'] |
+| C5_unit_missing_Q20 | fail | [mass] * [time] / [length] ** 3 | not captured | not captured | not captured | ['tab_1:row7:col2', 'tab_1:row7:col3'] |
 | C6_cl_magnitude | fail | &lt;= 90.0 L/h | 1131.0 | not captured | not captured | ['tab_1:row6:col2', 'tab_1:row6:col3', 'Giorgi_2010_table_1:row7:col2', 'Giorgi_2010_table_1:row7:col3'] |
-| C8_topology | fail | ontology-linked transfer parameter on every edge | ['none', 'none', 'none'] | not captured | not captured | not captured |
+| C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 67.9 L/h | not captured | not captured | ['tab_1:row6:col2', 'tab_1:row6:col3', 'Giorgi_2010_table_1:row7:col2', 'Giorgi_2010_table_1:row7:col3'] |
+| C9_phys_window_Q61 | pass | volume within physiological range | 293 L | not captured | not captured | ['Giorgi_2010_table_1:row0:col2', 'Giorgi_2010_table_1:row0:col3'] |
+| C9_phys_window_Q63 | pass | volume within physiological range | 7 L | not captured | not captured | ['tab_1:row10:col2', 'tab_1:row10:col3'] |
+| C9_phys_window_Q65 | pass | volume within physiological range | 1e+03 L | not captured | not captured | ['tab_1:row9:col2', 'tab_1:row9:col3'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -132,9 +172,19 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-tab-mark" data-tab="Models"></div>
 
-## Models
+## Downloadable models
 
-<p>No downloads: this record is <b>rejected</b>, so it is not published as a model. Any archives generated for it before the verdict have been removed — a download outlives the page that explains it.</p>
+<div class="pk-models-grid"><div class="pk-models-table">
+<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+</tbody></table>
+<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
+</div></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
@@ -143,4 +193,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-20 21:55 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 15:10 UTC</sub>

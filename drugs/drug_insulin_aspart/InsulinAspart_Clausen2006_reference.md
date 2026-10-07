@@ -1,19 +1,18 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A10A&quot;,&quot;href&quot;:&quot;atc/A10A.md&quot;},{&quot;label&quot;:&quot;insulin aspart&quot;,&quot;href&quot;:&quot;drugs/drug_insulin_aspart/&quot;},{&quot;label&quot;:&quot;Clausen_2006 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;InsulinAspart_Clausen2006_reference&quot;,&quot;label&quot;:&quot;Clausen_2006_reference&quot;,&quot;href&quot;:&quot;drugs/drug_insulin_aspart/InsulinAspart_Clausen2006_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # insulin aspart — `InsulinAspart_Clausen2006_reference`
 
-> ## <span class="pk-badge pk-badge--orange">built, not shipped</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.222). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.105). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
@@ -21,26 +20,28 @@
 
 The model was built, but insulin aspart's clearance had no value, so a library placeholder stood in and the model was held back rather than published with an invented number. Only the abstract was available, so reported summary statistics stand in for a fitted model. Extracted — insulin aspart: AUC 475 hpmoll−1, AUC/dose 6.1 10−3hl−1, kel 0.0126 min−1, V 1.04 l/kg, CL 0.0114 lmin−1kg−1.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has biphasic insulin aspart, the second reading insulin_aspart; it also differs on 6 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has biphasic insulin aspart, the second reading unknown; it also differs on 16 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
+
+> ⚠️ **STALE** — review status `model_quarantined` (reviewed 2026-09-28 14:38:22.734600+00:00) predates the upstream re-run (2026-10-04 21:31:21.225707+00:00). Current validate status: `needs_review`.
 
 > **Dose compound ≠ measured compound:** dosed `biphasic insulin aspart`, measured `insulin aspart`.
 
 ## Citation
-Clausen WH; De Gaetano A; Vølund A et al. (2006). Diabetologia 49
+Clausen WH et al., Within-patient variation of the pharmac…, Diabetologia (2006)
   ·  DOI: [10.1007/s00125-006-0327-z](https://doi.org/10.1007/s00125-006-0327-z)
 
 ## Model component
-<dbs-pgx drug="insulin aspart" model-id="InsulinAspart_Clausen2006_reference" status="model_quarantined" stale="false" population="type 1 diabetes subjects" measured-compound="insulin aspart" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="insulin aspart" model-id="InsulinAspart_Clausen2006_reference" status="needs_review" stale="true" population="type 1 diabetes subjects" measured-compound="insulin aspart" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
-**Model structure:** 1-compartment, IV mammillary model — template `PK_1C`.  
-**Parameters:** 5 extracted.
+**Model structure:** 1-compartment; no model was built for this record.  
+**Parameters:** 6 extracted.
 
 **Parameterization:** mechanistic.
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `model_quarantined`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
+> ⚠️ This record is not accepted (current status `needs_review`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
@@ -48,7 +49,8 @@ Clausen WH; De Gaetano A; Vølund A et al. (2006). Diabetologia 49
 | AUC:dose | `Q189` · AUC/dose | 6.1 | 10−3hl−1 | not captured | [[h] · [10-3]] / [l] | not captured | llm_corrected (0.6) | Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract | — | not captured |
 | K (min−1)(logK ±sd) | `Q47` · kel | 0.0126 | min−1 | 0.00021 | [1] / [min] | not captured | space_fold (0.95) | Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract | — | not captured |
 | V(l/kg)(logV±sd) | `Q61` · V | 1.0403 | l/kg | 0.07282100000000001 | [l] / [kg] | not captured | space_fold (0.95) | Clausen_2006:abstract, Clausen_2006:abstract | — | not captured |
-| Cl(lmin−1kg−1) | `Q22` · CL | 0.0114 | lmin−1kg−1 | not captured | [[l] · [min-]] / [kg] | not captured | exact (1.0) | Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract | — | not captured |
+| Cl(lmin−1kg−1) | `Q22` · CL | 0.0114 | L/min/kg | 1.33e-05 | L/h | not captured | exact (1.0) | Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract, Clausen_2006:abstract | — | not captured |
+| tGIRlag | `Q83` · tlag | 0.48 | h | 1728.0 | h | not captured | review_gapfill (0.7) | Drai_2022:review | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -62,19 +64,24 @@ Clausen WH; De Gaetano A; Vølund A et al. (2006). Diabetologia 49
 - dropped unlinked row (NIL): 'Dose(nmol)' — extend the ontology if this is a real PK parameter (source ['Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract'])
 - unit_dimension_unknown: '10−3hl−1' (AUC/dose)
 - dropped duplicate Q189 ('Log(AUC:dose)', value 1.6) — already have one for this compound
+- dropped unlinked row (NIL): 'F-value' — extend the ontology if this is a real PK parameter (source ['Clausen_2006:abstract'])
 - dropped duplicate Q47 ('K (min−1)(logK±sd)', value 0.0004) — already have one for this compound
 - unit_dimension_unknown: 'lmin−1kg−1' (CL)
 - dropped duplicate Q47 ('K (min−1)', value 0.0166) — already have one for this compound
 - dropped duplicate Q61 ('V(l/kg)', value 1.7942) — already have one for this compound
+- implicit units: 'AUC(hpmoll−1)' — the LLM proposed 'h pmol/l', whose dimension does not fit Q88; left unset
+- implicit units: 'AUC:dose' — the LLM proposed 'h/l', whose dimension does not fit Q189; left unset
+- implicit units: 'Cl(lmin−1kg−1)' → L/min/kg (from the paper text: "The parameter label in the input list explicitly includes the unit '(lmin−1kg−1)'.")
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=insulin aspart
 - held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - status held at route_to_review — not promoted
 - abstract-only: no full text was available, so these values were read from the abstract's prose — reported summary statistics, not a fitted model
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary's parameterization (rate-constant / ka-only) does not use it
+- gap-filled Q83 (tlag) from Drai_2022's review values (primary lacked it)
 
 **Extraction notes:**
-- no GROBID TEI available — transcribed from cached Clausen_2006_extracted.txt (78 record(s)); values are summary statistics, not a fitted model
+- no GROBID TEI available — transcribed from cached Clausen_2006_extracted.txt (63 record(s)); values are summary statistics, not a fitted model
 
 ## Validation
 
@@ -83,19 +90,29 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.222 (2/9 fields) | 7 |
+| `gpt-oss:120b` | not confirmed | 0.105 (2/19 fields) | 17 |
 
-<details><summary>7 field(s) a reader read differently</summary>
+<details><summary>17 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
+| `gpt-oss:120b` | `parameters[a2 k (min-1) model1]` | not captured | 0.0104 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[a3 k (min-1) model1]` | not captured | 0.0004 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[auc (hpmoll-1) injection1]` | not captured | 474.7 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[auc:dose (10-3hl-1) injection1]` | not captured | 6.1 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[auc:dose]` | 6.1 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[auc]` | 474.7 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[cl (lmin-1kg-1) model1]` | not captured | 0.0114 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[cl]` | 0.0114 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[dose (nmol) injection1]` | not captured | 78.3 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[f-value]` | not captured | 36.2 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[k (min-1) model1]` | not captured | 0.0126 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[k (min-1)]` | 0.0126 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[v (l/kg) model1]` | not captured | 1.0403 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[v(l/kg)]` | 1.0403 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `screen.dose_compound` | biphasic insulin aspart | insulin_aspart | mismatch |
-| `gpt-oss:120b` | `screen.primary_analyte` | insulin aspart | insulin_aspart | mismatch |
+| `gpt-oss:120b` | `parameters[x v (l/kg) subject104 model2]` | not captured | 1.5771 | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | biphasic insulin aspart | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | insulin aspart | unknown | mismatch |
 
 </details>
 
@@ -111,10 +128,16 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 |---|---|---|---|---|---|---|
 | C0_has_structural_params | pass | not captured | 5 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
+| C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract'] |
 | C5_dimension_Q47 | pass | 1 / [time] | not captured | not captured | not captured | ['Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract'] |
 | C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Clausen_2006:abstract', 'Clausen_2006:abstract'] |
-| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 0.0114 | not captured | not captured | ['Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract'] |
+| C5_dimension_Q83 | pass | [time] | not captured | not captured | not captured | ['Drai_2022:review'] |
+| C5_unit_missing_Q189 | fail | [mass] * [time] / [length] ** 3 | 10−3hl−1 | not captured | not captured | ['Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract'] |
+| C5_unit_missing_Q88 | fail | [mass] * [time] / [length] ** 3 | hpmoll−1 | not captured | not captured | ['Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract'] |
+| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 0.0114 | not captured | not captured | ['Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 47.9 L/h | not captured | not captured | ['Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract', 'Clausen_2006:abstract'] |
 | C9_phys_window_Q61 | pass | volume within physiological range | 72.8 L | not captured | not captured | ['Clausen_2006:abstract', 'Clausen_2006:abstract'] |
 
 **Reviewer per-scenario checks:**
@@ -162,4 +185,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-12 03:28 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-04 21:31 UTC</sub>

@@ -1,5 +1,4 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;M01A&quot;,&quot;href&quot;:&quot;atc/M01A.md&quot;},{&quot;label&quot;:&quot;aceclofenac&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Aceclofenac_Kim2016_reference&quot;,&quot;label&quot;:&quot;Kim_2016_reference&quot;,&quot;href&quot;:&quot;drugs/drug_aceclofenac/Aceclofenac_Kim2016_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 
 # aceclofenac
 
@@ -11,28 +10,39 @@
 
 ## About
 
-**Description.** Aceclofenac is an oral non-steroidal anti-inflammatory drug (NSAID) with marked anti-inflammatory and analgesic properties used to treat osteoarthritis, rheumatoid arthritis and ankylosing spondylitis. It is reported to have a higher anti-inflammatory action or at least comparable effects than conventional NSAIDs in double-blind studies [A19667, A19668, A19670]. Aceclofenac potently inhibits the cyclo-oxygenase enzyme (COX) that is involved in the synthesis of prostaglandins, which are inflammatory mediators that cause pain, swelling, inflammation, and fever. Aceclofenac belongs to BCS Class II as it possesses poor aqueous solubility [A19667]. It displays high permeability to penetrate into synovial joints where in patients with osteoarthritis and related conditions, the loss of articular cartilage in the area causes joint pain, tenderness, stiffness, crepitus, and local inflammation [A19666]. Aceclofenac is also reported to be effective in other painful conditions such as dental and gynaecological conditions [A19672]. In 1991, aceclofenac was developed as an analog of a commonly prescribed NSAID, [DB00586], via chemical modification in effort to improve the gastrointestinal tolerability of the drug. It is a more commonly prescribed drug in Europe.
+Aceclofenac is a non-steroidal anti-inflammatory drug used to relieve pain and inflammation in musculoskeletal and joint conditions. It is an approved medicine, available as oral antiinflammatory/rheumatic products and as topical preparations for joint and muscular pain.
 
-**Indication.** Aceclofenac is indicated for the relief of pain and inflammation in osteoarthritis, rheumatoid arthritis and ankylosing spondylitis.
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q481757](https://www.wikidata.org/wiki/Q481757) and the WHO ATC classification; not checked by a person.</small>
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| not captured | not captured | 0/1/0 | 0/0/0 | 0/0/2 | not captured | not captured | 24 | 25/0 | 15/9 | 0 |
+| 2026-10-07 00:35 | 1:26 | 0/1/0 | 1/0/0 | 1/0/1 | 258,639/2,720 | einfracz / qwen3.8-27b | 20 | 25/3 | 11/9 | 0 |
 
 ## popPK records
 
 | status | detail | model | model structure | params | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.429). The first reading is what the record holds.">cross-check: disputed</span><br><sub>blocking: no structural parameters extracted (nothing to build)</sub><br><sub>route_to: `human_review`</sub> | [Kim_2016_reference](drugs/drug_aceclofenac/Aceclofenac_Kim2016_reference.md) | — | general linear (no model) | 0 | Kim E et al., Modeling of aceclofenac metabolism to m…, Drug metabolism and pharmac… (2016) | [10.1016/j.dmpk.2016.10.001](https://doi.org/10.1016/j.dmpk.2016.10.001) |
+| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.429). The first reading is what the record holds.">cross-check: disputed</span><br><sub>STALE — current validate: rejected</sub><br><sub>blocking: missing key parameters — none reported by this paper</sub><br><sub>route_to: `human_review`</sub> | [Kim_2016_reference](drugs/drug_aceclofenac/Aceclofenac_Kim2016_reference.md) | — | general linear (no model) | 0 | Kim E et al., Modeling of aceclofenac metabolism to m…, Drug metabolism and pharmac… (2016) | [10.1016/j.dmpk.2016.10.001](https://doi.org/10.1016/j.dmpk.2016.10.001) |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">extracted</span> | [Henrotin_2001_COX_2](drugs/drug_aceclofenac/pd_Henrotin_2001_COX_2.md) | COX-2 activity ← aceclofenac · inhibition effect | — | Henrotin Y et al., In vitro effects of aceclofenac and its…, Inflammation research : off… (2001) | [10.1007/PL00000261](https://doi.org/10.1007/PL00000261) |
+| <span class="pk-badge pk-badge--green">extracted</span> | [Henrotin_2001_IL_6](drugs/drug_aceclofenac/pd_Henrotin_2001_IL_6.md) | interleukin-6 ← aceclofenac · inhibition effect | — | Henrotin Y et al., In vitro effects of aceclofenac and its…, Inflammation research : off… (2001) | [10.1007/PL00000261](https://doi.org/10.1007/PL00000261) |
+| <span class="pk-badge pk-badge--green">extracted</span> | [Henrotin_2001_PGE_2](drugs/drug_aceclofenac/pd_Henrotin_2001_PGE_2.md) | prostaglandin E 2 ← aceclofenac · inhibition effect | — | Henrotin Y et al., In vitro effects of aceclofenac and its…, Inflammation research : off… (2001) | [10.1007/PL00000261](https://doi.org/10.1007/PL00000261) |
+| <span class="pk-badge pk-badge--green">extracted</span> | [Henrotin_2001_TXB_2](drugs/drug_aceclofenac/pd_Henrotin_2001_TXB_2.md) | TXB 2 ← aceclofenac · inhibition effect | — | Henrotin Y et al., In vitro effects of aceclofenac and its…, Inflammation research : off… (2001) | [10.1007/PL00000261](https://doi.org/10.1007/PL00000261) |
 
 ## Pharmacogenomics (PGx)
 
 | status | gene | affects | mechanism | detail | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **CYP2C8** | `Q27` · CL/F | metabolism | [Agúndez_2009](drugs/drug_aceclofenac/pgx_Ag_ndez_2009_CYP2C8_Q27.md) | Agúndez JA et al., Genetically based impairment in CYP2C8-…, Expert opinion on drug meta… (2009) | [10.1517/17425250902970998](https://doi.org/10.1517/17425250902970998) |
-| <span class="pk-badge pk-badge--neutral">evidence_only</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **CYP2C9** | `Q27` · CL/F | metabolism | [Agúndez_2009](drugs/drug_aceclofenac/pgx_Ag_ndez_2009_CYP2C9_Q27.md) | Agúndez JA et al., Genetically based impairment in CYP2C8-…, Expert opinion on drug meta… (2009) | [10.1517/17425250902970998](https://doi.org/10.1517/17425250902970998) |
+| <span class="pk-badge pk-badge--neutral" title="a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.">safety allele</span> | **CYP2C9** | `safety` — adverse-reaction risk (HLA / safety allele) — no parameter shift | safety_allele | [Agúndez_2009](drugs/drug_aceclofenac/pgx_Ag_ndez_2009_CYP2C9_safety.md) | Agúndez JA et al., Genetically based impairment in CYP2C8-…, Expert opinion on drug meta… (2009) | [10.1517/17425250902970998](https://doi.org/10.1517/17425250902970998) |
+| <span class="pk-badge pk-badge--neutral" title="the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.">qualitative</span> | **CYP2C8** | `Q88` · AUC | metabolism | [Agúndez_2009](drugs/drug_aceclofenac/pgx_Ag_ndez_2009_CYP2C8_Q88.md) | Agúndez JA et al., Genetically based impairment in CYP2C8-…, Expert opinion on drug meta… (2009) | [10.1517/17425250902970998](https://doi.org/10.1517/17425250902970998) |
+
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>What the PGx columns mean</summary>
@@ -45,16 +55,16 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 | process | tissue | actors (role) | evidence |
 |---|---|---|---|
-| absorption | small intestine | <sub>“…Aceclofenac is rapidly and completely absorbed from the gastrointestinal tract and circula…”</sub> | prose |
-| metabolism | liver | `CYP2C8` metabolism, `CYP2C9` metabolism/substrate | DrugBank actor |
-| excretion | bile duct | <sub>“…aceclofenac [L868]. About 20% of the dose is excreted into feces [A19671].…”</sub> | prose |
-| excretion | kidney | <sub>“…The main route of elimination is via the urine where the elimination accounts for 70-80% o…”</sub> | prose |
+| absorption | small intestine | <sub>named in DrugBank's ADME text</sub> | prose |
+| metabolism | liver | `CYP2C8` metabolism, `CYP2C9` safety_allele/substrate | DrugBank actor |
+| excretion | bile duct | <sub>named in DrugBank's ADME text</sub> | prose |
+| excretion | kidney | <sub>named in DrugBank's ADME text</sub> | prose |
 
 <sub>Actors without a tissue in the table: PTGS1 (inhibitor), PTGS2 (inhibitor).</sub>
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -62,8 +72,18 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 - **PubMed hits:** 84 matched, 40 returned
 - **screened:** 7  ·  **relevant:** 7
-- **records:** 1  ·  extracted 0  ·  needs_review 0  ·  rejected 1  ·  stale 0
+- **records:** 1  ·  extracted 0  ·  needs_review 0  ·  rejected 1  ·  stale 1
 - **scholar-agent fallback query used:** not captured
+
+## Full text wanted
+
+_1 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Kim_2026.pdf` | Kim T et al., Population pharmacokinetic model-based…, International journal of ph… (2026) | popPK | 10 | [10.1016/j.ijpharm.2026.126631](https://doi.org/10.1016/j.ijpharm.2026.126631) | [41621501](https://pubmed.ncbi.nlm.nih.gov/41621501) | The study reports a population pharmacokinetic model for aceclofenac, but the specific quantitative parameter values (CL, V, ka, etc.) are not explicitly listed in the provided abstract evidence. |
+
+<sub>queue written 2026-10-07T00:34:36.348996+00:00</sub>
 
 ## Screened and excluded
 
@@ -72,7 +92,7 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 | popPK | Afzal_2021 | irrelevant | not captured | not captured | The study presents basic non-compartmental pharmacokinetic data in rabbits for a cocrystal formulation rather than population or compartmental modeling. |
 | popPK | Aldeeb_2024 | irrelevant | not captured | not captured | The study focuses on nanoemulgel formulation, in vitro drug release, and in vivo anti-inflammatory efficacy without reporting any quantitative pharmacokinetic parameters for aceclofenac. |
 | PD | Aldeeb_2024 | not_relevant | 0 | 0 | The paper describes formulation development and in vivo efficacy studies using descriptive statistics, but does not perform population pharmacodynamic or exposure-response modeling. |
-| PGx | Amo_2016 | not_relevant | 0 | 0 | The study investigates genetic associations with hypersensitivity risk (an adverse event), not pharmacokinetic or pharmacodynamic parameters of aceclofenac, and reports no significant findings for this drug. |
+| PGx | Amo_2016 | not_relevant | 0 | 0 | The study analyzes associations between FCERI/Histamine gene variants and the risk of NSAID hypersensitivity, not pharmacokinetic or pharmacodynamic parameter changes. |
 | popPK | Bae_2012 | irrelevant | not captured | not captured | The study reports only standard non-compartmental bioequivalence parameters (AUC, Cmax) without population/compartmental modeling or specific disposition parameters. |
 | PD | Bawazeer_2018 | not_relevant | 0 | 0 | The paper describes an analytical method validation (UPLC) for quantifying drug concentrations in tablets, not a population pharmacodynamic or exposure-response modeling study. |
 | popPK | Brogden_1996 | irrelevant | not captured | not captured | This is a narrative review summarizing basic pharmacokinetic data without original compartmental or population-PK modeling parameters. |
@@ -87,30 +107,35 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 | PD | Henrotin_2001 | not_relevant | 0 | 0 | The paper describes an in vitro mechanistic study on human chondrocytes and enzyme assays, not a population pharmacodynamic or exposure-response modeling study in vivo. |
 | PD | Jeong_2023 | not_relevant | 1 | 0 | The paper uses machine learning (GBM) on administrative claims data to predict gastric ulcer risk based on medication adherence and comorbidities, but does not perform population pharmacodynamic modeling or estimate PD parameters like Emax or EC50. |
 | popPK | Kim_2013 | irrelevant | not captured | not captured | The study uses noncompartmental analysis and only reports Cmax and AUC ratios, lacking the requested population-PK or compartmental disposition parameters for aceclofenac. |
-| PGx | Kim_2016 | not_relevant | 0 | 0 | The paper models pharmacokinetics in healthy volunteers without analyzing genetic variants or their effects on PK/PD parameters. |
+| PGx | Kim_2016 | not_relevant | 0 | 0 | The paper reports compartmental pharmacokinetic modeling of aceclofenac in healthy volunteers but does not analyze or report any genetic variants or pharmacogenomic effects on its PK/PD parameters. |
+| popPK | Kim_2026 | relevant | 10 | 2 | The study reports a population pharmacokinetic model for aceclofenac, but the specific quantitative parameter values (CL, V, ka, etc.) are not explicitly listed in the provided abstract evidence. |
 | PD | Kumar_2021 | not_relevant | 0 | 0 | The paper reports on pharmacokinetic parameters and bioavailability of aceclofenac cocrystals, but does not present a population pharmacodynamic or exposure-response model. |
 | popPK | Liu_2016 | irrelevant | not captured | not captured | The paper only reports non-compartmental pharmacokinetic metrics from a rabbit formulation study and lacks population or compartmental disposition parameters. |
-| PGx | Macías_2021 | not_relevant | 0 | 0 | The study investigates genetic associations with NSAID cross-hypersensitivity (an adverse drug reaction), but does not report measured pharmacokinetic or pharmacodynamic parameters for aceclofenac. |
-| PGx | Martínez_2006 | not_relevant | 2 | 1 | The paper is a review that mentions aceclofenac only in the context of general GI bleeding risk associated with CYP2C9 variants, without reporting specific pharmacokinetic or pharmacodynamic parameter changes for aceclofenac itself. |
+| PGx | Macías_2021 | not_relevant | 0 | 0 | The study investigates associations between CYP2C genotypes and the risk of hypersensitivity (clinical phenotype), but does not measure or report changes in pharmacokinetic or pharmacodynamic parameters (e.g., AUC, Cmax, COX inhibition) of aceclofenac based on genotype. |
+| PGx | Martínez_2006 | not_relevant | 2 | 1 | The paper is a general review of CYP2C8/9 pharmacogenomics and NSAIDs, mentioning aceclofenac only in the context of bleeding risk associations without providing specific quantitative PK/PD parameter data or fitted effect sizes. |
 | popPK | Mathurm_2011 | irrelevant | not captured | not captured | The study focuses on in vitro drug release kinetics and pharmacodynamic efficacy of ocular inserts, with no systemic or population pharmacokinetic parameters reported. |
+| PGx | Medhi_2012 | not_relevant | 0 | 0 | The paper investigates a drug-drug interaction between aceclofenac and phenytoin, not the effect of a gene variant or genotype on aceclofenac's pharmacokinetics or pharmacodynamics. |
 | PD | Minhaj_2025 | not_relevant | 0 | 0 | The paper is a phytochemical and pharmacological evaluation of Rondeletia leucophylla extract, using aceclofenac only as a standard comparator in anti-inflammatory assays; it does not report any population pharmacodynamic or exposure-response modeling for aceclofenac. |
 | popPK | Moon_2022 | irrelevant | not captured | not captured | The paper reports standard non-compartmental AUC and Cmax ratios from a crossover drug interaction study rather than population or compartmental pharmacokinetic parameters. |
 | popPK | Mutalik_2008 | irrelevant | not captured | not captured | The study focuses on pharmaceutical formulation and lacks quantitative compartmental or population-pharmacokinetic modeling parameters for aceclofenac. |
 | popPK | Narayanaswamy_2024 | irrelevant | 1 | 8 | This is a docking/toxicity study, not a pharmacokinetic study; numeric aceclofenac docking values are present, but no PK disposition parameters. |
-| PGx | Narayanaswamy_2024 | not_relevant | 0 | 0 | The study is an in silico molecular docking analysis of drug-HLA binding affinities and does not report empirical pharmacokinetic or pharmacodynamic parameter changes based on genotype. |
+| PGx | Narayanaswamy_2024 | not_relevant | 0 | 0 | The paper analyzes molecular docking between drugs and HLA alleles and uses pkCSM to predict general PK properties, but it does not report specific pharmacogenomic effects of gene variants on aceclofenac's PK or PD parameters. |
+| popPK | Palm_2023 | irrelevant | 0 | 0 | The paper is a bioinformatics study on curating transformation products and only mentions aceclofenac in passing as a parent compound of diclofenac, providing no pharmacokinetic parameters. |
 | popPK | Parekh_2026 | irrelevant | not captured | not captured | The paper focuses on formulation development and pharmacodynamic evaluation, lacking any quantitative pharmacokinetic parameters or population/compartmental modeling for aceclofenac. |
 | popPK | Park_2013 | irrelevant | 0 | 0 | Aceclofenac is only a concomitant analgesic in a tamsulosin stone-clearance study, and no aceclofenac PK parameters are reported. |
 | PD | Park_2016 | not_relevant | 0 | 0 | The paper describes formulation development and in vitro cytotoxicity assays, lacking any population pharmacokinetic/pharmacodynamic modeling or exposure-response analysis. |
-| PGx | Ponsoda_2004 | not_relevant | 2 | 1 | The paper compares in vitro and in vivo metabolism of aceclofenac to validate a model, reporting phenotypic variability but does not report specific gene variants or genotypes affecting PK/PD parameters. |
+| PGx | Ponsoda_2004 | not_relevant | 0 | 0 | The study investigates in vitro vs in vivo metabolic correlation and phenotypic variability, but does not report specific gene variants or genotypes affecting the PK/PD parameters. |
 | popPK | Raju_2015 | irrelevant | not captured | not captured | The paper focuses on topical formulation development, in-vitro release, and pharmacodynamic effects, without reporting any quantitative pharmacokinetic parameters or modeling for aceclofenac. |
 | popPK | Shah_2025 | irrelevant | not captured | not captured | The paper focuses on molecular salt synthesis and in-vitro characterization without reporting any quantitative pharmacokinetic parameters or models for aceclofenac. |
 | popPK | Sharma_2016 | irrelevant | not captured | not captured | The paper focuses on topical formulation development and pharmacodynamic evaluation without reporting quantitative systemic pharmacokinetic parameters or modeling for aceclofenac. |
 | PD | Shavi_2009 | not_relevant | 0 | 0 | The paper describes pharmaceutical formulation development and in vitro dissolution studies, containing no clinical pharmacokinetic or pharmacodynamic data for population modeling. |
 | popPK | Solanki_2011 | irrelevant | not captured | not captured | The paper focuses exclusively on in vitro formulation development and dissolution testing, providing no in vivo pharmacokinetic data or modeling for aceclofenac. |
 | PD | Solanki_2011 | not_relevant | 0 | 0 | The paper describes pharmaceutical formulation and in vitro dissolution studies, containing no clinical pharmacokinetic or pharmacodynamic data or modeling. |
+| popPK | Somogyi-Végh_2019 | irrelevant | 0 | 0 | The paper is a retrospective analysis of prescription dispensing data for drug-drug interactions and does not report any pharmacokinetic parameters for aceclofenac. |
 | popPK | Usha_2008 | irrelevant | not captured | not captured | The study focuses on formulation development and only provides basic non-compartmental pharmacokinetic data from a small oral crossover trial, without population or compartmental modeling. |
 | PD | Yong_2005 | not_relevant | 0 | 0 | The paper reports a pharmacokinetic bioequivalence study comparing two formulations using non-compartmental analysis, with no pharmacodynamic data or exposure-response modeling. |
 | PD | Younis_2023 | not_relevant | 0 | 0 | The paper describes formulation development and in vitro cytotoxicity assays (IC50) for a nanoemulsion, lacking any population pharmacokinetic/pharmacodynamic modeling or exposure-response analysis. |
+| popPK | Zeitlinger_2021 | irrelevant | 0 | 0 | The paper contains pharmacokinetic studies for oxycodone, daridorexant, atorvastatin, and midazolam, but contains no mention or data for aceclofenac. |
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-07-22 04:13 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-10-07 00:34 UTC</sub>

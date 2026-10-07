@@ -5,17 +5,22 @@
   "response"
  ],
  "parameters": {
-  "E0": 204.16666666666669,
-  "exposure_per_s": 1e-06
+  "E0": 204.166666667,
+  "EC50": 6.732e-05,
+  "Emax": 57.84,
+  "exposure_per_s": 1e-06,
+  "gamma": 1.851
  },
  "reference_peaks": {},
  "reference_points": {
   "0": 204.16666666666669,
   "6.731999999999999e-05": 6.823752228163993
  },
- "stop_time": 673.2,
+ "stop_time": 110.0,
+ "subtitle": "P2Y12 reaction unit (PRU) against clopidogrel H4 concentration",
  "template": "PD_IndirectTurnoverSweep",
  "template_fmu": "PD_IndirectTurnoverSweep.fmu",
+ "title": "Exposure–response simulated by the PD model",
  "units": {
   "E0": {
    "display_only": true,
@@ -52,12 +57,13 @@
  "x_axis": {
   "display_unit": "ng/mL",
   "factor": 1e-06,
+  "label": "clopidogrel H4 concentration",
   "per_s": 1e-06,
   "variable": "exposure"
  },
  "y_axis": {
   "display_unit": "",
   "factor": 1.0,
-  "label": "response"
+  "label": "P2Y12 reaction unit (PRU)"
  }
 }

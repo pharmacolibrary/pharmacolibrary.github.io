@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A01A&quot;,&quot;href&quot;:&quot;atc/A01A.md&quot;},{&quot;label&quot;:&quot;prednisolone&quot;,&quot;href&quot;:&quot;drugs/drug_prednisolone/&quot;},{&quot;label&quot;:&quot;Tan_2024 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Prednisolone_Bouazza2025_reference&quot;,&quot;label&quot;:&quot;Bouazza_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_prednisolone/Prednisolone_Bouazza2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Prednisolone_Tan2024_reference&quot;,&quot;label&quot;:&quot;Tan_2024_reference&quot;,&quot;href&quot;:&quot;drugs/drug_prednisolone/Prednisolone_Tan2024_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Prednisolone_Magee2002_reference&quot;,&quot;label&quot;:&quot;Magee_2002_reference&quot;,&quot;href&quot;:&quot;drugs/drug_prednisolone/Prednisolone_Magee2002_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Prednisolone_Purcell2025_reference&quot;,&quot;label&quot;:&quot;Purcell_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_prednisolone/Prednisolone_Purcell2025_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Prednisolone_de2023_reference&quot;,&quot;label&quot;:&quot;de_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_prednisolone/Prednisolone_de2023_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Prednisolone_Bouazza2025_reference&quot;,&quot;label&quot;:&quot;Bouazza_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_prednisolone/Prednisolone_Bouazza2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Prednisolone_Tan2024_reference&quot;,&quot;label&quot;:&quot;Tan_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_prednisolone/Prednisolone_Tan2024_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # prednisolone — `Prednisolone_Tan2024_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.235). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.333). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -17,16 +17,16 @@
 
 ### Reviewer guidance
 
-**The prednisolone record was held back because the oral absorption lag time tlag (0.36 hour) was neither extracted nor defaulted, leaving only 2 of 3 expected parameters covered, and a second reader disputes the clearance value (7.74 vs 8.4 L/h).**
+**The prednisolone record was held back because the absorption lag time tlag (0.36 hour) was not captured, leaving only 2 of 3 parameters covered.**
 
-The record for prednisolone lists CL 7.74 L/h, V1 9.6 L and tlag 0.36 hour, but the coverage check found only 2 of 3 expected parameters emitted or defaulted, with tlag missing from the covered set. A second reader also disagreed on the clearance value, reading 8.4 L/h against this record's 7.74 L/h, and reported several additional values (e.g. 0.590, 8.260, 0.7) that this record left null. These unresolved value disagreements and the uncovered tlag parameter are why the record was not published. Extracted — prednisolone: CL 7.74 L.hour À1, V1 9.6 L, tlag 0.36 hour.
+The record for prednisolone lists three parameters — clearance 7.74 L/h, central volume 9.6 L, and tlag 0.36 hour — but the tlag value was neither extracted nor defaulted, so the coverage check found 2 of 3 parameters. A second reader also disagreed on several values, reading 8.4 instead of 7.74 for clearance and 12 instead of 6.55 for another quantity, and supplied values (0.590, 8.260, 0.7, 0.144, 0.87) that this record left empty. Extracted — prednisolone: CL 7.74 L.hour À1, V1 9.6 L, tlag 0.36 hour.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of CL: this record has 7.74, the second reading 8.4; it also differs on 12 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of CL: this record has 7.74, the second reading 8.4; it also differs on 11 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
 ## Citation
-Tan JM; Upton RN; Foster DJR; Proudman SM; Dhir V; Wiese MD et al. (2024). British journal of clinical pharmacology 90
+Tan JM et al., Pharmacokinetic-pharmacodynamic modelli…, British journal of clinical… (2024)
   ·  DOI: [10.1111/bcp.16158](https://doi.org/10.1111/bcp.16158)
 
 ## Model component
@@ -64,25 +64,24 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.235 (4/17 fields) | 13 |
+| `gpt-oss:120b` | not confirmed | 0.333 (6/18 fields) | 12 |
 
-<details><summary>13 field(s) a reader read differently</summary>
+<details><summary>12 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
+| `gpt-oss:120b` | `model.topology_template` | 1C | 2C | mismatch |
 | `gpt-oss:120b` | `values[Q22]` | 7.74 | 8.4 | mismatch |
-| `gpt-oss:120b` | `values[Q301]` | 0.81 | 0.81 | mismatch |
-| `gpt-oss:120b` | `values[Q302]` | 0.55 | 0.55 | mismatch |
 | `gpt-oss:120b` | `values[Q312]` | 31 | 14 | mismatch |
 | `gpt-oss:120b` | `values[Q316]` | not captured | 0.590 | only_one_extracted |
 | `gpt-oss:120b` | `values[Q317]` | not captured | 8.260 | only_one_extracted |
 | `gpt-oss:120b` | `values[Q327]` | 6.55 | 12 | mismatch |
 | `gpt-oss:120b` | `values[Q40]` | not captured | 0.7 | only_one_extracted |
 | `gpt-oss:120b` | `values[Q47]` | not captured | 0.144 | only_one_extracted |
+| `gpt-oss:120b` | `values[Q49]` | not captured | 0.87 | only_one_extracted |
 | `gpt-oss:120b` | `values[Q51]` | not captured | 0.171 | only_one_extracted |
 | `gpt-oss:120b` | `values[Q63]` | 9.6 | 0.3 | mismatch |
-| `gpt-oss:120b` | `values[Q77]` | 0.3 | 0.3 | mismatch |
-| `gpt-oss:120b` | `values[Q87]` | not captured | 1 | only_one_extracted |
+| `gpt-oss:120b` | `values[Q64]` | not captured | 0.3 | only_one_extracted |
 
 </details>
 
@@ -137,7 +136,7 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_prednisolone/Prednisolone_Tan2024_reference/Prednisolone_Tan2024_reference_modelica.zip" download>Prednisolone_Tan2024_reference_modelica.zip</a> <span class="pk-size">(3.2 kB)</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_prednisolone/Prednisolone_Tan2024_reference/Prednisolone_Tan2024_reference_modelica.zip" download>Prednisolone_Tan2024_reference_modelica.zip</a> <span class="pk-size">(3.5 kB)</span></td></tr>
 <tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_prednisolone/Prednisolone_Tan2024_reference/Prednisolone_Tan2024_reference_fmi.zip" download>Prednisolone_Tan2024_reference_fmi.zip</a> <span class="pk-size">(4.1 kB)</span><br><a href="models/fmu/PK_1C.fmu" download>PK_1C.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_prednisolone/Prednisolone_Tan2024_reference/Prednisolone_Tan2024_reference_matlab.zip" download>Prednisolone_Tan2024_reference_matlab.zip</a> <span class="pk-size">(3.3 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_prednisolone/Prednisolone_Tan2024_reference/Prednisolone_Tan2024_reference_matlab_simbio.zip" download>Prednisolone_Tan2024_reference_matlab_simbio.zip</a> <span class="pk-size">(2.7 kB)</span></td></tr>
@@ -159,4 +158,4 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-18 02:49 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-04 03:03 UTC</sub>

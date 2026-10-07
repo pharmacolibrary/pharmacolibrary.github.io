@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C02A&quot;,&quot;href&quot;:&quot;atc/C02A.md&quot;},{&quot;label&quot;:&quot;clonidine&quot;,&quot;href&quot;:&quot;drugs/drug_clonidine/&quot;},{&quot;label&quot;:&quot;Bardol_2025 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Clonidine_Bardol2025_reference&quot;,&quot;label&quot;:&quot;Bardol_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clonidine/Clonidine_Bardol2025_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Clonidine_Larsson2011_reference&quot;,&quot;label&quot;:&quot;Larsson_2011_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clonidine/Clonidine_Larsson2011_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Clonidine_Blackburn2014_reference&quot;,&quot;label&quot;:&quot;Blackburn_2014_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clonidine/Clonidine_Blackburn2014_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Clonidine_Chiang1986_reference&quot;,&quot;label&quot;:&quot;Chiang_1986_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clonidine/Clonidine_Chiang1986_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Clonidine_Davies1977_reference&quot;,&quot;label&quot;:&quot;Davies_1977_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clonidine/Clonidine_Davies1977_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Clonidine_Paalzow1979_reference&quot;,&quot;label&quot;:&quot;Paalzow_1979_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clonidine/Clonidine_Paalzow1979_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Clonidine_Potts2007_reference&quot;,&quot;label&quot;:&quot;Potts_2007_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clonidine/Clonidine_Potts2007_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Clonidine_Larsson2011_reference&quot;,&quot;label&quot;:&quot;Larsson_2011_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_clonidine/Clonidine_Larsson2011_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Clonidine_Tang2021_reference&quot;,&quot;label&quot;:&quot;Tang_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_clonidine/Clonidine_Tang2021_reference.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # clonidine — `Clonidine_Bardol2025_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.556). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.556). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -21,16 +21,18 @@
 
 The check had no reference to compare the clearance against, so the value is unverified rather than shown to be wrong. Extracted — clonidine: V1 202 L/70 kg; 1-OH midazolam: CLfm 33.4 L/h/70 kg, V 90.8 L/70 kg, CL 212 L/h/70 kg.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has clonidine and midazolam, the second reading unknown; it also differs on 3 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has clonidine, the second reading unknown; it also differs on 3 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-10-05 09:25:35.585253+00:00) predates the upstream re-run (2026-10-06 11:56:20.327687+00:00). Current validate status: `needs_review`.
+
 ## Citation
-Bardol M; Sheng Y; Baarslag M; Ceci A; Dörje F; Ilmoja ML; et al. et al. (2025). Paediatric anaesthesia 35
+Bardol M et al., Pharmacokinetic and Pharmacodynamic Mod…, Paediatric anaesthesia (2025)
   ·  DOI: [10.1111/pan.70050](https://doi.org/10.1111/pan.70050)
 
 ## Model component
-<dbs-pgx drug="clonidine" model-id="Clonidine_Bardol2025_reference" status="needs_review" stale="false" population="mechanically ventilated children in pediatric intensive care" measured-compound="clonidine and midazolam" parameterization="mechanistic" topology="parent_metabolite"></dbs-pgx>
+<dbs-pgx drug="clonidine" model-id="Clonidine_Bardol2025_reference" status="needs_review" stale="true" population="mechanically ventilated children in pediatric intensive care" measured-compound="clonidine" parameterization="mechanistic" topology="parent_metabolite"></dbs-pgx>
 
 **Model structure:** parent + metabolite; no model was built for this record.  
 **Parameters:** 4 extracted.
@@ -42,10 +44,10 @@ Bardol M; Sheng Y; Baarslag M; Ceci A; Dörje F; Ilmoja ML; et al. et al. (2025)
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Vclon (L/70 kg) | `Q63` · V1 | 202.4 | L/70 kg | 0.2024 | [l] / [70kg] | not captured | exact (1.0) | Bardol_2025_table_2:row1:col1 | — | not captured |
-| CLmmid (L/h/70 kg) | `Q370` · CLfm | 33.4 | L/h/70 kg | 9.277777777777778e-06 | [l] / [[h] · [70kg]] | not captured | exact (1.0) | Bardol_2025_table_2:row8:col1 | — | not captured |
-| Vmmid (L/70 kg) | `Q61` · V | 90.8 | L/70 kg | 0.0908 | [l] / [70kg] | not captured | exact (1.0) | Bardol_2025_table_2:row9:col1 | — | not captured |
-| CLommid (L/h/70 kg) | `Q22` · CL | 211.6 | L/h/70 kg | 5.877777777777779e-05 | [l] / [[h] · [70kg]] | not captured | exact (1.0) | Bardol_2025_table_2:row10:col1 | — | not captured |
+| Vclon (L/70 kg) | `Q63` · V1 | 202.4 | L/70 kg | 0.2024 | [l] / [70kg] | not captured | exact (1.0) | pan70050-tbl-0002:row2:col1 | — | not captured |
+| CLmmid (L/h/70 kg) | `Q370` · CLfm | 33.4 | L/h/70 kg | 9.277777777777778e-06 | [l] / [[h] · [70kg]] | not captured | exact (1.0) | pan70050-tbl-0002:row9:col1 | — | not captured |
+| Vmmid (L/70 kg) | `Q61` · V | 90.8 | L/70 kg | 0.0908 | [l] / [70kg] | not captured | exact (1.0) | pan70050-tbl-0002:row10:col1 | — | not captured |
+| CLommid (L/h/70 kg) | `Q22` · CL | 211.6 | L/h/70 kg | 5.877777777777779e-05 | [l] / [[h] · [70kg]] | not captured | exact (1.0) | pan70050-tbl-0002:row11:col1 | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -56,45 +58,40 @@ Bardol M; Sheng Y; Baarslag M; Ceci A; Dörje F; Ilmoja ML; et al. et al. (2025)
 
 **Interpretation flags:**
 - column 'parameter' classified 'other' by the LLM but kept: the deterministic diagnostic-column test disagrees (a stratum column is a value column, not a statistic)
-- dropped unlinked row (NIL): 'Clonidine' — extend the ontology if this is a real PK parameter (source ['Bardol_2025_table_2:row0:col1', 'Bardol_2025_table_2:row0:col2'])
+- dropped unlinked row (NIL): 'Clonidine' — extend the ontology if this is a real PK parameter (source ['pan70050-tbl-0002:row1:col1', 'pan70050-tbl-0002:row1:col2'])
 - routed 'Err propclon (%)' → Q316 (prop_error) to residual_error — variability estimate, not a structural parameter
-- dropped unlinked row (NIL): 'PMA_50clon' — extend the ontology if this is a real PK parameter (source ['Bardol_2025_table_2:row5:col1'])
-- dropped unlinked row (NIL): 'Hillclon' — extend the ontology if this is a real PK parameter (source ['Bardol_2025_table_2:row6:col1'])
-- dropped unlinked row (NIL): 'Midazolam' — extend the ontology if this is a real PK parameter (source ['Bardol_2025_table_2:row7:col1', 'Bardol_2025_table_2:row7:col2'])
+- dropped unlinked row (NIL): 'PMA_50clon' — extend the ontology if this is a real PK parameter (source ['pan70050-tbl-0002:row6:col1'])
+- dropped unlinked row (NIL): 'Hillclon' — extend the ontology if this is a real PK parameter (source ['pan70050-tbl-0002:row7:col1'])
+- dropped unlinked row (NIL): 'Midazolam' — extend the ontology if this is a real PK parameter (source ['pan70050-tbl-0002:row8:col1', 'pan70050-tbl-0002:row8:col2'])
 - routed 'Err propmid (%)' → Q316 (prop_error) to residual_error — variability estimate, not a structural parameter
 - routed 'Err addmid (ng/mL)' → Q317 (add_error) to residual_error — variability estimate, not a structural parameter
 - routed 'Err propmmid(%)' → Q316 (prop_error) to residual_error — variability estimate, not a structural parameter
 - routed 'Err addmmid (ng/mL)' → Q317 (add_error) to residual_error — variability estimate, not a structural parameter
-- dropped unlinked row (NIL): 'PMA_50mid' — extend the ontology if this is a real PK parameter (source ['Bardol_2025_table_2:row17:col1'])
-- dropped PD-category row 'Hillmid' → Q325 (Hill, category G11) — pharmacodynamic parameters belong to scholarpd, not the PK model (source ['Bardol_2025_table_2:row18:col1'])
+- dropped unlinked row (NIL): 'PMA_50mid' — extend the ontology if this is a real PK parameter (source ['pan70050-tbl-0002:row18:col1'])
+- dropped PD-category row 'Hillmid' → Q325 (Hill, category G11) — pharmacodynamic parameters belong to scholarpd, not the PK model (source ['pan70050-tbl-0002:row19:col1'])
 - metabolite volume: 'Vmmid (L/70 kg)' Q63→Q61 for 1-OH midazolam — it is 1-compartment, so its central volume is its only volume
-- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=clonidine and midazolam
-- template fit: PK_Parent_Metabolite — one metabolite formed from central, both 1-compartment
-- row roles (LLM): model_class=compartmental; 19/19 row label(s) assigned, 4 linked by role; re-tagged parent→1-OH midazolam ×6, parent→midazolam ×5
-- molar mass: no plausible PubChem entry for 'clonidine and midazolam' ('no full name in the paper') — left in mass units
-- molar mass: none found for 'clonidine and midazolam' — its concentrations stay mass-only
+- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=clonidine
+- template fit: PK_3M_9C — formed from central; parent 1, metabolites [1]
+- row roles (LLM): model_class=compartmental; 19/19 row label(s) assigned, 4 linked by role; re-tagged parent→midazolam ×7, parent→1-OH midazolam ×6
 - skipped review gap-fill of V2: primary is PARENT_METABOLITE (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is PARENT_METABOLITE (peripheral family needs ≥2C)
 
 **Extraction notes:**
-- final table tab_1: grid unusable → re-running vision table extraction for Bardol_2025
-- final table tab_1: no readable grid (GROBID mangled)
-- unparsed cell Bardol_2025_table_2:row0:col3 = '28.1 (19.2–37.1)'
-- unparsed cell Bardol_2025_table_2:row1:col2 = '202.2 (122.8–289.3)'
-- unparsed cell Bardol_2025_table_2:row2:col2 = '46.9 (20.7–65.6)'
-- unparsed cell Bardol_2025_table_2:row3:col2 = '85.0 (57.4–106.8)'
-- unparsed cell Bardol_2025_table_2:row4:col2 = '43.6 (20.7–56.6)'
-- unparsed cell Bardol_2025_table_2:row7:col3 = '75.6 (37.7–124.5)'
-- unparsed cell Bardol_2025_table_2:row8:col2 = '35.3 (22.3–61.7)'
-- unparsed cell Bardol_2025_table_2:row9:col2 = '87.3 (39.0–222.9)'
-- unparsed cell Bardol_2025_table_2:row10:col2 = '214.7 (178.5–295.5)'
-- unparsed cell Bardol_2025_table_2:row11:col2 = '84.9 (42.4–113.1)'
-- unparsed cell Bardol_2025_table_2:row12:col2 = '131.1 (66.3–236.2)'
-- unparsed cell Bardol_2025_table_2:row13:col2 = '45.8 (22.4–58.3)'
-- unparsed cell Bardol_2025_table_2:row14:col2 = '1.25 (0.24–1.79)'
-- unparsed cell Bardol_2025_table_2:row15:col2 = '57.4 (42.4–72.8)'
-- unparsed cell Bardol_2025_table_2:row16:col2 = '0.023 (0.014–0.037)'
-- companion parameter table 2 transcribed (21 record(s), model stage 'final')
+- unparsed cell pan70050-tbl-0002:row1:col3 = '28.1 (19.2–37.1)'
+- unparsed cell pan70050-tbl-0002:row2:col2 = '202.2 (122.8–289.3)'
+- unparsed cell pan70050-tbl-0002:row3:col2 = '46.9 (20.7–65.6)'
+- unparsed cell pan70050-tbl-0002:row4:col2 = '85.0 (57.4–106.8)'
+- unparsed cell pan70050-tbl-0002:row5:col2 = '43.6 (20.7–56.6)'
+- unparsed cell pan70050-tbl-0002:row8:col3 = '75.6 (37.7–124.5)'
+- unparsed cell pan70050-tbl-0002:row9:col2 = '35.3 (22.3–61.7)'
+- unparsed cell pan70050-tbl-0002:row10:col2 = '87.3 (39.0–222.9)'
+- unparsed cell pan70050-tbl-0002:row11:col2 = '214.7 (178.5–295.5)'
+- unparsed cell pan70050-tbl-0002:row12:col2 = '84.9 (42.4–113.1)'
+- unparsed cell pan70050-tbl-0002:row13:col2 = '131.1 (66.3–236.2)'
+- unparsed cell pan70050-tbl-0002:row14:col2 = '45.8 (22.4–58.3)'
+- unparsed cell pan70050-tbl-0002:row15:col2 = '1.25 (0.24–1.79)'
+- unparsed cell pan70050-tbl-0002:row16:col2 = '57.4 (42.4–72.8)'
+- unparsed cell pan70050-tbl-0002:row17:col2 = '0.023 (0.014–0.037)'
 - LLM selected parameter table(s) 2
 
 ## Validation
@@ -112,8 +109,8 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 |---|---|---|---|---|
 | `gpt-oss:120b` | `parameters[vclon]` | 202.4 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[vclon]` | not captured | 202.4 | only_one_extracted |
-| `gpt-oss:120b` | `screen.dose_compound` | clonidine and midazolam | unknown | mismatch |
-| `gpt-oss:120b` | `screen.primary_analyte` | clonidine and midazolam | unknown | mismatch |
+| `gpt-oss:120b` | `screen.dose_compound` | clonidine | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | clonidine | unknown | mismatch |
 
 </details>
 
@@ -130,15 +127,15 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | C0_has_structural_params | pass | not captured | 4 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
-| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Bardol_2025_table_2:row10:col1'] |
-| C5_dimension_Q370 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Bardol_2025_table_2:row8:col1'] |
-| C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Bardol_2025_table_2:row9:col1'] |
-| C5_dimension_Q63 | pass | [length] ** 3 | not captured | not captured | not captured | ['Bardol_2025_table_2:row1:col1'] |
-| C6_cl_magnitude | fail | &lt;= 90.0 L/h | 211.6 | not captured | not captured | ['Bardol_2025_table_2:row10:col1'] |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['pan70050-tbl-0002:row11:col1'] |
+| C5_dimension_Q370 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['pan70050-tbl-0002:row9:col1'] |
+| C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['pan70050-tbl-0002:row10:col1'] |
+| C5_dimension_Q63 | pass | [length] ** 3 | not captured | not captured | not captured | ['pan70050-tbl-0002:row2:col1'] |
+| C6_cl_magnitude | fail | &lt;= 90.0 L/h | 211.6 | not captured | not captured | ['pan70050-tbl-0002:row11:col1'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
-| C9_phys_window_Q22 | pass | clearance within physiological range | 212 L/h | not captured | not captured | ['Bardol_2025_table_2:row10:col1'] |
-| C9_phys_window_Q61 | pass | volume within physiological range | 90.8 L | not captured | not captured | ['Bardol_2025_table_2:row9:col1'] |
-| C9_phys_window_Q63 | pass | volume within physiological range | 202 L | not captured | not captured | ['Bardol_2025_table_2:row1:col1'] |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 212 L/h | not captured | not captured | ['pan70050-tbl-0002:row11:col1'] |
+| C9_phys_window_Q61 | pass | volume within physiological range | 90.8 L | not captured | not captured | ['pan70050-tbl-0002:row10:col1'] |
+| C9_phys_window_Q63 | pass | volume within physiological range | 202 L | not captured | not captured | ['pan70050-tbl-0002:row2:col1'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -173,4 +170,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-07-15 11:13 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-06 11:56 UTC</sub>

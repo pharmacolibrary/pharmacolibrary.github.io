@@ -1,54 +1,53 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;L01B&quot;,&quot;href&quot;:&quot;atc/L01B.md&quot;},{&quot;label&quot;:&quot;tegafur&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/&quot;},{&quot;label&quot;:&quot;Kim_2017 \u00b7 parameter&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tegafur_Comets2003_japanese_analysis&quot;,&quot;label&quot;:&quot;Comets_2003_japanese_analysis&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Comets2003_japanese_analysis.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tegafur_Comets2003_western_analysis&quot;,&quot;label&quot;:&quot;Comets_2003_western_analysis&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Comets2003_western_analysis.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tegafur_Kim2017_population_mean_bsv&quot;,&quot;label&quot;:&quot;Kim_2017_population_mean_bsv&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Kim2017_population_mean_bsv.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tegafur_Kim2017_symbol&quot;,&quot;label&quot;:&quot;Kim_2017_symbol&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Kim2017_symbol.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tegafur_Kim2017_unit&quot;,&quot;label&quot;:&quot;Kim_2017_unit&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Kim2017_unit.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tegafur_Hirose2010_interindividual_variability&quot;,&quot;label&quot;:&quot;Hirose_2010_interindividual_variability&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Hirose2010_interindividual_variability.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tegafur_Hirose2010_population_mean&quot;,&quot;label&quot;:&quot;Hirose_2010_population_mean&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Hirose2010_population_mean.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tegafur_Kim2017_multiple_dose&quot;,&quot;label&quot;:&quot;Kim_2017_multiple_dose&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Kim2017_multiple_dose.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tegafur_Kim2017_parameter&quot;,&quot;label&quot;:&quot;Kim_2017_parameter&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Kim2017_parameter.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Tegafur_Kim2017_single_dose&quot;,&quot;label&quot;:&quot;Kim_2017_single_dose&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Kim2017_single_dose.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tegafur_Kim2017_multiple_dose&quot;,&quot;label&quot;:&quot;Kim_2017_multiple_dose&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Kim2017_multiple_dose.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tegafur_Kim2017_single_dose&quot;,&quot;label&quot;:&quot;Kim_2017_single_dose&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Kim2017_single_dose.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tegafur_Zuo2024_reference&quot;,&quot;label&quot;:&quot;Zuo_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tegafur/Tegafur_Zuo2024_reference.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # tegafur — `Tegafur_Kim2017_parameter`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span>
+> ## <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--species" title="Animal study (rat), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">rat</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A simulatable model was generated — see the **Models** and **Simulation** tabs.
+> **Species: rat.** This record comes from an animal study (rat), not from people. The values, the model and its simulation are shown as the paper reports them — they describe that system, not human pharmacology (read from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).
+
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
-**The tegafur rat model was rejected because it does not reproduce the paper's tmax (1.7 h reported vs 2.51 h simulated) or terminal half-life (2.3 h vs 2.08 h), and the builder invented an absorption rate ka not reported in the source.**
+**'parameter' is a column of the estimates table, not a study population.**
 
-The model's output was the parent compartment rather than the measured analyte tegafur, and the model structure (one-compartment enteral) did not match the paper's parent–metabolite structure with tegafur metabolizing to 5-FU. The builder substituted library defaults for the unreported absorption rate constant ka and lag time, assumed F=1 and Fm=1 without molar correction, and used first-order depot input for the apparent (/F) parameterization. Some reported values, including tmax of 1.5 h, could not be converted to SI units, so those parameters entered the model without an SI value and some comparisons could not be fully evaluated. Extracted — tegafur: tmax 1.5 h, Cmax 9.33e+03 ng/mL, AUClast 5.54e+04 ng·h/mL, AUC∞ 5.57e+04 ng·h/mL, CL/F 1.7 mL/min/kg, V/F 0.3 L/kg, AUC ratio 2.5.
+The table was split into one record per column, and 'parameter' holds a statistic rather than a second set of estimates. A reported unit could not be converted (Cmax, AUClast and AUC∞), so that value has no SI equivalent.
 
-<sub>reviewed by glm-5.3-flash</sub>
+<sub>reviewed by rule template (no LLM)</sub>
 
-> **Dose compound ≠ measured compound:** dosed `S-1`, measured `tegafur`.
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-10-05 09:32:18.434672+00:00) predates the upstream re-run (2026-10-07 17:20:04.806217+00:00). Current validate status: `extracted`.
 
 ## Citation
-Kim TH; Shin S; Shin JC; Bulitta JB; Weon KY; Yoo SD; et al. et al. (2017). Molecules (Basel, Switzerland) 22
+Kim TH et al., Effect of Sipjeondaebo-Tang on the Phar…, Molecules (Basel, Switzerla… (2017)
   ·  DOI: [10.3390/molecules22091488](https://doi.org/10.3390/molecules22091488)
 
 ## Model component
-<dbs-pgx drug="tegafur" model-id="Tegafur_Kim2017_parameter" status="rejected" stale="false" population="Sprague-Dawley rats" measured-compound="tegafur" parameterization="apparent" topology="parent_metabolite"></dbs-pgx>
+<dbs-pgx drug="tegafur" model-id="Tegafur_Kim2017_parameter" status="extracted" stale="true" population="rats" measured-compound="tegafur" parameterization="apparent" topology="parent_metabolite"></dbs-pgx>
 
-**Model structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
-**Parameters:** 7 extracted.
+**Model structure:** parent + metabolite; no model was built for this record.  
+**Parameters:** 6 extracted.
 
 **Parameterization:** CL/F, V/F — apparent, F unknown (apparent — bioavailability not identifiable).
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `rejected`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
-
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Tmax (h) | `Q56` · tmax | 1.5 | h | 5400.0 | [h] | not captured | exact (1.0) | Kim_2017_table_1:row2:col1, Kim_2017_table_1:row9:col1, Kim_2017_table_1:row15:col1 | — | not captured |
-| Cmax (ng/mL) | `Q32` · Cmax | 9328.0 | ng/mL | not captured | [ng] / [ml] | not captured | exact (1.0) | Kim_2017_table_1:row3:col1, Kim_2017_table_1:row10:col1, Kim_2017_table_1:row16:col1 | — | not captured |
-| AUCall (ng·h/mL) | `Q74` · AUClast | 55372.7 | ng·h/mL | not captured | [[h] · [ng]] / [ml] | not captured | exact (1.0) | Kim_2017_table_1:row4:col1, Kim_2017_table_1:row11:col1, Kim_2017_table_1:row17:col1 | — | not captured |
-| AUCinf (ng·h/mL) | `Q17` · AUC∞ | 55712.7 | ng·h/mL | not captured | [[h] · [ng]] / [ml] | not captured | exact (1.0) | Kim_2017_table_1:row5:col1, Kim_2017_table_1:row12:col1, Kim_2017_table_1:row18:col1 | — | not captured |
-| CL/F (mL/min/kg) | `Q27` · CL/F | 1.7 | mL/min/kg | 1.983333333333333e-06 | [ml] / [[min] · [kg]] | not captured | exact (1.0) | Kim_2017_table_1:row6:col1, Kim_2017_table_1:row19:col1 | — | not captured |
-| Vz/F (L/kg) | `Q76` · V/F | 0.3 | L/kg | 0.020999999999999998 | [l] / [kg] | not captured | exact (1.0) | Kim_2017_table_1:row7:col1, Kim_2017_table_1:row20:col1 | — | not captured |
-| AUCmeta/AUCparent (%) | `Q21` · AUC ratio | 2.5 | not captured | not captured | not captured | not captured | llm (0.6) | Kim_2017_table_1:row13:col1 | — | not captured |
+| AUCall (ng·h/mL) | `Q74` · AUClast | 46842.4 | ng·h/mL | not captured | [[h] · [ng]] / [ml] | not captured | exact (1.0) | Kim_2017_table_1:row4:col4 | — | not captured |
+| AUCinf (ng·h/mL) | `Q17` · AUC∞ | 47461.3 | ng·h/mL | not captured | [[h] · [ng]] / [ml] | not captured | exact (1.0) | Kim_2017_table_1:row5:col4 | — | not captured |
+| CL/F (mL/min/kg) | `Q27` · CL/F | 1.8 | mL/min/kg | 2.1e-06 | [ml] / [[min] · [kg]] | not captured | exact (1.0) | Kim_2017_table_1:row6:col4 | — | not captured |
+| Vz/F (L/kg) | `Q76` · V/F | 0.5 | L/kg | 0.035 | [l] / [kg] | not captured | exact (1.0) | Kim_2017_table_1:row7:col4 | — | not captured |
+| Tmax (h) | `Q56` · tmax | 2.4 | h | 8640.0 | [h] | not captured | exact (1.0) | Kim_2017_table_1:row9:col4, Kim_2017_table_1:row15:col4 | — | not captured |
+| Ka | `Q49` · kabs | 0.08 | h-1 | 2.2222222222222223e-05 | 1/h | not captured | review_gapfill (0.7) | Zuo_2024:review | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -57,21 +56,20 @@ Kim TH; Shin S; Shin JC; Bulitta JB; Weon KY; Yoo SD; et al. et al. (2017). Mole
 
 ## Departures & gaps
 
-**Deviations:**
-- `defaulted_parameters`: ['ka', 'Tlag']
-- `apparent_assumption`: F=1, Fm=1, no molar correction (parameterization=apparent)
-- `invented_absorption`: ka defaulted — not reported in source
-- `input_model`: first-order depot input — apparent (/F) parameterization ⇒ extravascular dosing
-
 **Interpretation flags:**
-- column 'parameter' classified 'other' by the LLM but kept: the deterministic diagnostic-column test disagrees (a stratum column is a value column, not a statistic)
-- dropped unlinked row (NIL): 'Control (n = 5)' — extend the ontology if this is a real PK parameter (source ['Kim_2017_table_1:row0:col1'])
-- dropped unlinked row (NIL): 'Tegafur' — extend the ontology if this is a real PK parameter (source ['Kim_2017_table_1:row1:col1'])
-- dropped unlinked row (NIL): '5-FU' — extend the ontology if this is a real PK parameter (source ['Kim_2017_table_1:row8:col1'])
-- dropped unlinked row (NIL): 'Gimeracil' — extend the ontology if this is a real PK parameter (source ['Kim_2017_table_1:row14:col1'])
+- dropped unlinked row (NIL): 'Tegafur' — extend the ontology if this is a real PK parameter (source ['Kim_2017_table_1:row1:col4', 'Kim_2017_table_1:row1:col5'])
+- dropped unlinked row (NIL): '5-FU' — extend the ontology if this is a real PK parameter (source ['Kim_2017_table_1:row8:col4', 'Kim_2017_table_1:row8:col5'])
+- dropped unlinked row (NIL): 'Gimeracil' — extend the ontology if this is a real PK parameter (source ['Kim_2017_table_1:row14:col4', 'Kim_2017_table_1:row14:col5'])
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=tegafur
-- population split: 'parameter' subgroup of Kim_2017 (paper reports 6 populations: multiple dose, parameter, population mean (bsv), single dose, symbol, unit)
-- engineer: parent → metabolite not buildable on PK_3M_9C (None) — the measured compound's 1-compartment model instead
+- template fit: PK_3M_3C — first-pass formation; parent 1 + hepatic, metabolites [0] (site presystemic: 'To determine the effect of SDT multiple dose pretreatment, the oral absorption rate of tegafur (Ka), metabolic conversio')
+- population split: 'multiple dose' subgroup of Kim_2017 (paper reports 3 populations: multiple dose, population mean (bsv), single dose)
+- row roles: 2 per-group rows of tegafur absorption_rate_constant but 0 reference group(s) — kept as printed
+- row roles: 2 per-group rows of 5-FU formation_rate_constant but 0 reference group(s) — kept as printed
+- row roles: 2 per-group rows of 5-FU clearance but 0 reference group(s) — kept as printed
+- row roles (LLM): model_class=compartmental; 26/26 row label(s) assigned, 24 linked by role; re-tagged parent→5-FU ×22, parent→gimeracil ×5
+- skipped review gap-fill of V2: primary is PARENT_METABOLITE (peripheral family needs ≥2C)
+- skipped review gap-fill of Q: primary is PARENT_METABOLITE (peripheral family needs ≥2C)
+- gap-filled Q49 (kabs) from Zuo_2024's review values (primary lacked it)
 
 **Extraction notes:**
 - unparsed cell Kim_2017_table_1:row1:col3 = '3.5 ± 0.7 *'
@@ -96,44 +94,19 @@ Kim TH; Shin S; Shin JC; Bulitta JB; Weon KY; Yoo SD; et al. et al. (2017). Mole
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 7 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 5 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
-| C5_dimension_Q17 | pass | [mass] * [time] / [length] ** 3 | not captured | not captured | not captured | ['Kim_2017_table_1:row5:col1', 'Kim_2017_table_1:row12:col1', 'Kim_2017_table_1:row18:col1'] |
-| C5_dimension_Q27 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Kim_2017_table_1:row6:col1', 'Kim_2017_table_1:row19:col1'] |
-| C5_dimension_Q32 | pass | [mass] / [length] ** 3 | not captured | not captured | not captured | ['Kim_2017_table_1:row3:col1', 'Kim_2017_table_1:row10:col1', 'Kim_2017_table_1:row16:col1'] |
-| C5_dimension_Q56 | pass | [time] | not captured | not captured | not captured | ['Kim_2017_table_1:row2:col1', 'Kim_2017_table_1:row9:col1', 'Kim_2017_table_1:row15:col1'] |
-| C5_dimension_Q74 | pass | [mass] * [time] / [length] ** 3 | not captured | not captured | not captured | ['Kim_2017_table_1:row4:col1', 'Kim_2017_table_1:row11:col1', 'Kim_2017_table_1:row17:col1'] |
-| C5_dimension_Q76 | pass | [length] ** 3 | not captured | not captured | not captured | ['Kim_2017_table_1:row7:col1', 'Kim_2017_table_1:row20:col1'] |
+| C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q17 | pass | [mass] * [time] / [length] ** 3 | not captured | not captured | not captured | ['Kim_2017_table_1:row5:col4'] |
+| C5_dimension_Q27 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Kim_2017_table_1:row6:col4'] |
+| C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Zuo_2024:review'] |
+| C5_dimension_Q56 | pass | [time] | not captured | not captured | not captured | ['Kim_2017_table_1:row9:col4', 'Kim_2017_table_1:row15:col4'] |
+| C5_dimension_Q74 | pass | [mass] * [time] / [length] ** 3 | not captured | not captured | not captured | ['Kim_2017_table_1:row4:col4'] |
+| C5_dimension_Q76 | pass | [length] ** 3 | not captured | not captured | not captured | ['Kim_2017_table_1:row7:col4'] |
 | C7_apparent_coherence | pass | not captured | not captured | not captured | not captured | not captured |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
-| C9_phys_window_Q27 | pass | clearance within physiological range | 7.14 L/h | not captured | not captured | ['Kim_2017_table_1:row6:col1', 'Kim_2017_table_1:row19:col1'] |
-| C9_phys_window_Q76 | pass | volume within physiological range | 21 L | not captured | not captured | ['Kim_2017_table_1:row7:col1', 'Kim_2017_table_1:row20:col1'] |
-
-**Reviewer per-scenario checks:**
-
-| check | scenario | status | expected | obtained | ratio | note |
-|---|---|---|---|---|---|---|
-| T0_analyte_identity | not captured | pass | not captured | not captured | not captured | V/CL labels are the drug's (or a metabolite's), no biomarker signal |
-| T2_covariates | not captured | skipped | not captured | not captured | not captured | no covariate effects in record |
-| T3_apparent_invariant | not captured | pass | not captured | F=Fm=1, no molar correction | not captured | apparent params must not be double-corrected |
-| T3_output_variable | not captured | fail | Metabolite_C (measured=tegafur) | central.C | not captured | output must be the measured/analyte compartment |
-| T3_param_coverage | not captured | pass | 2 scholar param(s) emitted or defaulted | 2 covered | not captured | all structural parameters accounted for |
-| T3_rate_constant_conversion | not captured | pass | Kfm (rate_constant) → CL = k·V | no explicit k·V edge found in model | not captured | rate constant must not be used raw as a clearance |
-| T3_topology_template | not captured | fail | parent_metabolite → PK_3M_9C* | PK_1C_enteral | not captured | engineer template must match the scholar topology |
-| T6_deviations | not captured | fail | not captured | invented_absorption: not acceptable | not captured | LLM adjudication → deterministic rule |
-| T1_cmax | reference | skipped | not captured | 0.007342508303644693 | not captured | non-numeric value |
-| T1_cmax | reference | skipped | 72.6 | 0.007342508303644693 | not captured | unresolved concentration unit (exp '%', sim 'kg/m3') |
-| T1_cmax | reference | skipped | 40.9 | 0.007342508303644693 | not captured | unresolved concentration unit (exp '%', sim 'kg/m3') |
-| T1_t_half_terminal | reference | pass | 2.3 | 2.0825449132827307 | 0.9055 | h→SI vs simulated h |
-| T1_t_half_terminal | reference | pass | 2.6 | 2.0825449132827307 | 0.801 | h→SI vs simulated h |
-| T1_t_half_terminal | reference | fail | 1.2 | 2.0825449132827307 | 1.7355 | h→SI vs simulated h |
-| T1_t_half_terminal | reference | skipped | not captured | 2.0825449132827307 | not captured | non-numeric value |
-| T1_t_half_terminal | reference | fail | 0.32166666666666666 | 2.0825449132827307 | 6.4742 | min→SI vs simulated h |
-| T1_t_half_terminal | reference | skipped | not captured | 2.0825449132827307 | not captured | non-numeric value |
-| T1_tmax | reference | fail | 1.7 | 2.51165319605631 | 1.4774 | h→SI vs simulated h |
-| T1_tmax | reference | fail | 0.6 | 2.51165319605631 | 4.1861 | h→SI vs simulated h |
-| T1_tmax | reference | pass | 3.2 | 2.51165319605631 | 0.7849 | h→SI vs simulated h |
-| T1_tmax | reference | fail | 1.2 | 2.51165319605631 | 2.093 | h→SI vs simulated h |
+| C9_phys_window_Q27 | pass | clearance within physiological range | 7.56 L/h | not captured | not captured | ['Kim_2017_table_1:row6:col4'] |
+| C9_phys_window_Q76 | pass | volume within physiological range | 35 L | not captured | not captured | ['Kim_2017_table_1:row7:col4'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -143,26 +116,29 @@ Kim TH; Shin S; Shin JC; Bulitta JB; Weon KY; Yoo SD; et al. et al. (2017). Mole
 ## Raw artifacts
 
 - scholar stages: `../../../knowledgebase/drugs/drug_tegafur/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Kim_2017` / `Kim_2017::parameter`)
-- model: `../../../knowledgebase/drugs/drug_tegafur/models/modelica/Tegafur_Kim2017_parameter.mo`
-- deviation: `../../../knowledgebase/drugs/drug_tegafur/models/modelica/Tegafur_Kim2017_parameter.deviation.json`
-- sim: `../../../knowledgebase/drugs/drug_tegafur/models/modelica/Tegafur_Kim2017_parameter.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
 
-## Models
+## Downloadable models
 
-<p>No downloads: this record is <b>rejected</b>, so it is not published as a model. Any archives generated for it before the verdict have been removed — a download outlives the page that explains it.</p>
+<div class="pk-models-grid"><div class="pk-models-table">
+<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+</tbody></table>
+<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
+</div></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-**Administration: oral** — 350 mg, single dose, first-order absorption (ka 0.5 /h, F 1). Dose in the paper: 350 mg.
-
-<dbs-fmusim paramsurl="drugs/drug_tegafur/Tegafur_Kim2017_parameter/Tegafur_Kim2017_parameter_params.json" metaurl="assets/fmu/PK_1C_enteral.vr.json" wasmurl="assets/fmu/PK_1C_enteral.js" controlsurl="drugs/drug_tegafur/Tegafur_Kim2017_parameter/Tegafur_Kim2017_parameter_sim_controls.json"></dbs-fmusim>
-
-<sub>Runs this record's model in the browser as WebAssembly. Sliders start at the extracted values; the reference check compares the browser's peak against the FMPy result recorded when the record was built, and is withheld once a value has been edited. Template `PK_1C_enteral` · parameters `Tegafur_Kim2017_parameter_params.json` · controls `Tegafur_Kim2017_parameter_sim_controls.json`. A slider marked *simulator value* is running on the template's own default because this record does not pin that parameter.</sub>
+_No web simulator for this record: its structure has no shared WebAssembly template. The FMI archive under **Models** carries its own compiled FMU._
 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-15 07:47 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 17:20 UTC</sub>

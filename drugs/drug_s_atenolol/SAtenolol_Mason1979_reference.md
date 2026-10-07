@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C07A&quot;,&quot;href&quot;:&quot;atc/C07A.md&quot;},{&quot;label&quot;:&quot;s-atenolol&quot;,&quot;href&quot;:&quot;drugs/drug_s_atenolol/&quot;},{&quot;label&quot;:&quot;Mason_1979 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;SAtenolol_Buck1989_reference&quot;,&quot;label&quot;:&quot;Buck_1989_reference&quot;,&quot;href&quot;:&quot;drugs/drug_s_atenolol/SAtenolol_Buck1989_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;SAtenolol_Kir2025_reference&quot;,&quot;label&quot;:&quot;Kir_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_s_atenolol/SAtenolol_Kir2025_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;SAtenolol_Mason1979_reference&quot;,&quot;label&quot;:&quot;Mason_1979_reference&quot;,&quot;href&quot;:&quot;drugs/drug_s_atenolol/SAtenolol_Mason1979_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;SAtenolol_Buck1989_reference&quot;,&quot;label&quot;:&quot;Buck_1989_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_s_atenolol/SAtenolol_Buck1989_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # s-atenolol — `SAtenolol_Mason1979_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.8). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.421). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -21,16 +21,18 @@
 
 Without a unit the value cannot be converted, so the model cannot use it. Only the abstract was available, so reported summary statistics stand in for a fitted model. Extracted — s atenolol: t1/2z 6.06 hr, V 0.173 L/kg, fe 94.1 %, CL 10.7 L/hr, CLR 10.4 L/hr, Fab 0.52 mg, tmax 3 hr, MAT 2 hr.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of absolute bioavailability: this record has none, the second reading 0.52; it also differs on 2 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of absolute bioavailability for the 25-... oral doses: this record has 0.52, the second reading none; it also differs on 10 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-09-29 08:52:10.670040+00:00) predates the upstream re-run (2026-10-07 01:01:56.088117+00:00). Current validate status: `needs_review`.
+
 ## Citation
-Mason WD; Winer N; Kochak G; Cohen I; Bell R et al. (1979). Clinical pharmacology and therapeutics 25
+Mason WD et al., Kinetics and absolute bioavailability o…, Clinical pharmacology and t… (1979)
   ·  DOI: [10.1002/cpt1979254408](https://doi.org/10.1002/cpt1979254408)
 
 ## Model component
-<dbs-pgx drug="s-atenolol" model-id="SAtenolol_Mason1979_reference" status="needs_review" stale="false" population="healthy volunteers" measured-compound="atenolol" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="s-atenolol" model-id="SAtenolol_Mason1979_reference" status="needs_review" stale="true" population="healthy volunteers" measured-compound="atenolol" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment; no model was built for this record.  
 **Parameters:** 8 extracted.
@@ -49,7 +51,7 @@ Mason WD; Winer N; Kochak G; Cohen I; Bell R et al. (1979). Clinical pharmacolog
 | renal plasma clearance | `Q26` · CLR | 10.4 | L/hr | 2.8888888888888894e-06 | [l] / [h] | not captured | llm_corrected (0.6) | Mason_1979:abstract | — | not captured |
 | absolute bioavailability for the 25-... oral doses | `Q40` · Fab | 0.52 | mg | not captured | not captured | not captured | llm_confirmed (0.6) | Mason_1979:abstract, Mason_1979:abstract, Mason_1979:abstract | — | not captured |
 | Time to mean maximum plasma concentration | `Q56` · tmax | 3.0 | hr | 10800.0 | [h] | not captured | llm (0.6) | Mason_1979:abstract | — | not captured |
-| time for half of the bioavailable dose to be absorbed | `Q73` · MAT | 2.0 | hr | 7200.0 | h | not captured | llm (0.6) | Mason_1979:abstract | — | not captured |
+| time for half of the bioavailable dose to be absorbed | `Q73` · MAT | 2.0 | hr | not captured | not captured | not captured | llm (0.6) | Mason_1979:abstract | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -66,7 +68,6 @@ Mason WD; Winer N; Kochak G; Cohen I; Bell R et al. (1979). Clinical pharmacolog
 - status held at route_to_review — not promoted
 - abstract-only: no full text was available, so these values were read from the abstract's prose — reported summary statistics, not a fitted model
 - review gap-fill skipped: this record measures 'atenolol', not s_atenolol — the review values are the parent's
-- unit re-normalised: MAT 'hr' now converts (value unchanged)
 
 **Extraction notes:**
 - no GROBID TEI available — transcribed from abstract in Mason_1979_metadata.yaml (11 record(s)); values are summary statistics, not a fitted model
@@ -78,15 +79,23 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.8 (12/15 fields) | 3 |
+| `gpt-oss:120b` | not confirmed | 0.421 (8/19 fields) | 11 |
 
-<details><summary>3 field(s) a reader read differently</summary>
+<details><summary>11 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
 | `gpt-oss:120b` | `parameters[absolute bioavailability for the 25-... oral doses]` | 0.52 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[absolute bioavailability]` | not captured | 0.52 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[excreted in the urine]` | 94.1 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[intravenous dose is excreted in the urine]` | not captured | 94.1 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[mean (+/- sd) terminal elimination half-life]` | not captured | 6.06 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[mean absolute bioavailability for the 25-mg oral dose]` | not captured | 0.52 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[mean value of the plasma clearance]` | not captured | 10.7 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[mean volume of the central compartment]` | not captured | 0.173 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[plasma clearance]` | 10.7 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[terminal elimination half-life]` | 6.06 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[time for half of the bioavailable dose to be absorbed].parameter_id` | Q73 | Q95 | mismatch |
+| `gpt-oss:120b` | `parameters[volume of the central compartment]` | 0.173 | not captured | only_one_extracted |
 
 </details>
 
@@ -148,4 +157,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-29 07:08 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 01:01 UTC</sub>

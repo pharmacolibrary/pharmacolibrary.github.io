@@ -1,15 +1,14 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N01A&quot;,&quot;href&quot;:&quot;atc/N01A.md&quot;},{&quot;label&quot;:&quot;desflurane&quot;,&quot;href&quot;:&quot;drugs/drug_desflurane/&quot;},{&quot;label&quot;:&quot;Hendrickx_2006 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Desflurane_Hendrickx2006_reference&quot;,&quot;label&quot;:&quot;Hendrickx_2006_reference&quot;,&quot;href&quot;:&quot;drugs/drug_desflurane/Desflurane_Hendrickx2006_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # desflurane — `Desflurane_Hendrickx2006_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.5). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.5). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -25,14 +24,14 @@ A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which c
 
 <sub>reviewed by rule template (no LLM)</sub>
 
-> **Dose compound ≠ measured compound:** dosed `halothane`, measured `alveolar concentration of inhaled anesthetic gases`.
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-09-28 14:37:31.565984+00:00) predates the upstream re-run (2026-10-07 04:09:52.976434+00:00). Current validate status: `rejected`.
 
 ## Citation
-Hendrickx JF; Lemmens HJ; Shafer SL et al. (2006). BMC anesthesiology 6
+Hendrickx JF et al., Do distribution volumes and clearances…, BMC anesthesiology (2006)
   ·  DOI: [10.1186/1471-2253-6-7](https://doi.org/10.1186/1471-2253-6-7)
 
 ## Model component
-<dbs-pgx drug="desflurane" model-id="Desflurane_Hendrickx2006_reference" status="rejected" stale="false" population="simulated 70 kg and variable-weight patients under anesthesia" measured-compound="alveolar concentration of inhaled anesthetic gases" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="desflurane" model-id="Desflurane_Hendrickx2006_reference" status="rejected" stale="true" population="virtual adult patients" measured-compound="desflurane" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment; no model was built for this record.  
 **Parameters:** 0 extracted.
@@ -47,11 +46,23 @@ _No resolved parameters._
 ## Departures & gaps
 
 **Interpretation flags:**
-- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=alveolar concentration of inhaled anesthetic gases
+- dropped unlinked row (NIL): 'Halothane' — extend the ontology if this is a real PK parameter (source ['Hendrickx_2006_table_1:row2:col1', 'Hendrickx_2006_table_1:row2:col2', 'Hendrickx_2006_table_1:row2:col3', 'Hendrickx_2006_table_1:row2:col4'])
+- dropped unlinked row (NIL): 'Isoflurane' — extend the ontology if this is a real PK parameter (source ['Hendrickx_2006_table_1:row3:col1', 'Hendrickx_2006_table_1:row3:col2', 'Hendrickx_2006_table_1:row3:col3', 'Hendrickx_2006_table_1:row3:col4'])
+- dropped unlinked row (NIL): 'Sevoflurane' — extend the ontology if this is a real PK parameter (source ['Hendrickx_2006_table_1:row4:col1', 'Hendrickx_2006_table_1:row4:col2', 'Hendrickx_2006_table_1:row4:col3', 'Hendrickx_2006_table_1:row4:col4'])
+- dropped unlinked row (NIL): 'Desflurane' — extend the ontology if this is a real PK parameter (source ['Hendrickx_2006_table_1:row5:col1', 'Hendrickx_2006_table_1:row5:col2', 'Hendrickx_2006_table_1:row5:col3', 'Hendrickx_2006_table_1:row5:col4'])
+- dropped value-less row: 'CO, L.min-1'
+- dropped value-less row: 'WT, kg'
+- dropped value-less row: 'V = distribution volume (L)' (captured trailing unit 'L' for child rows)
+- dropped value-less row: 'CL = clearance (L.min-1)' (captured trailing unit 'L.min-1' for child rows)
+- table mostly unlinked (4/4 table-cell rows NIL) — likely the wrong table was located, not 0 genuinely-missing ontology parameter(s); route_to_review instead of building a model from the residual linked cell(s)
+- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=desflurane
+- structure disagreement: deterministic 1C vs LLM 3C — review compartment count
+- status held at route_to_review — not promoted
+- review gap-fill skipped: this record carries no value of its own, and a model assembled entirely from other papers is not this paper's model
 
 **Extraction notes:**
-- no TEI final-model table id; trying text-pointer table recovery
-- text-pointer recovery: parsed 0 structural record(s) from the flattened table 1 sentence
+- companion parameter table 1 transcribed (16 record(s))
+- LLM selected parameter table(s) 1
 
 ## Validation
 
@@ -82,6 +93,7 @@ first reading `qwen3.6:27b-q8_0` — the numbers on this page are its, whatever 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
 | C0_has_structural_params | fail | not captured | 0 | not captured | not captured | not captured |
+| C0b_disposition_core | fail | not captured | not captured | not captured | not captured | not captured |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
 
 <details class="legend">
@@ -107,4 +119,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-07-15 11:24 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 04:09 UTC</sub>

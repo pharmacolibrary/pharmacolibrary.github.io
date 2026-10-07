@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N03A&quot;,&quot;href&quot;:&quot;atc/N03A.md&quot;},{&quot;label&quot;:&quot;eslicarbazepine&quot;,&quot;href&quot;:&quot;drugs/drug_eslicarbazepine/&quot;},{&quot;label&quot;:&quot;Sunkaraneni_2018_2 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Eslicarbazepine_Falco2012_reference&quot;,&quot;label&quot;:&quot;Falc\u00e3o_2012_reference&quot;,&quot;href&quot;:&quot;drugs/drug_eslicarbazepine/Eslicarbazepine_Falco2012_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Eslicarbazepine_Sunkaraneni2018v2_reference&quot;,&quot;label&quot;:&quot;Sunkaraneni_2018_2_reference&quot;,&quot;href&quot;:&quot;drugs/drug_eslicarbazepine/Eslicarbazepine_Sunkaraneni2018v2_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Eslicarbazepine_Sunkaraneni2018v2_reference&quot;,&quot;label&quot;:&quot;Sunkaraneni_2018_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_eslicarbazepine/Eslicarbazepine_Sunkaraneni2018v2_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # eslicarbazepine — `Eslicarbazepine_Sunkaraneni2018v2_reference`
 
-> ## <span class="pk-badge pk-badge--orange" title="covariates_not_exercised: the record defines covariate effects (weight on clearance, renal function …) but the engineer simulated only the reference individual, so those scenarios were never run. The base model still reproduces the paper; what is missing is the covariate curves.">needs review</span>
+> ## <span class="pk-badge pk-badge--green" title="covariates_not_exercised: the record defines covariate effects (weight on clearance, renal function …) but the engineer simulated only the reference individual, so those scenarios were never run. The base model still reproduces the paper; what is missing is the covariate curves.">extracted</span> <span class="pk-badge pk-badge--stale">stale</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -25,28 +25,29 @@ The paper does not report an absorption rate constant (ka) or lag time, so place
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-09-28 14:37:58.501305+00:00) predates the upstream re-run (2026-10-07 07:38:45.099389+00:00). Current validate status: `extracted`.
+
 > **Dose compound ≠ measured compound:** dosed `eslicarbazepine acetate`, measured `eslicarbazepine`.
 
 ## Citation
-not matched (stem Sunkaraneni_2018_2)
+Sunkaraneni S et al., Modeling and simulations to support dos…, Journal of pharmacokinetics… (2018)
+  ·  DOI: [10.1007/s10928-018-9596-7](https://doi.org/10.1007/s10928-018-9596-7)
 
 ## Model component
-<dbs-pgx drug="eslicarbazepine" model-id="Eslicarbazepine_Sunkaraneni2018v2_reference" status="needs_review" stale="false" population="pediatric patients with partial-onset seizures" measured-compound="eslicarbazepine" parameterization="apparent" topology="1C"></dbs-pgx>
+<dbs-pgx drug="eslicarbazepine" model-id="Eslicarbazepine_Sunkaraneni2018v2_reference" status="extracted" stale="true" population="pediatric patients with partial-onset seizures" measured-compound="eslicarbazepine" parameterization="apparent" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
 **Parameters:** 3 extracted, plus 2 covariate effects.
 
-**Parameterization:** V/F — apparent, F unknown (apparent — bioavailability not identifiable).
+**Parameterization:** CLm/F, V/F — apparent, F unknown (apparent — bioavailability not identifiable).
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `needs_review`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
-
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| CL: apparent elimination clearance (L/h) | `Q22` · CL | 2.92 | L/h | 8.11111111111111e-07 | [l] / [h] | 15.5 | llm_confirmed (0.6) | Tab3:row2:col1, Tab3:row2:col2, Tab3:row2:col4 | — | not captured |
-| V: apparent volume of distribution (L) | `Q76` · V/F | 4.78 | L | 0.00478 | [l] | 65.1 | llm_confirmed (0.6) | Tab3:row5:col1, Tab3:row5:col2, Tab3:row5:col4 | — | not captured |
+| CL: apparent elimination clearance (L/h) | `Q351` · CLm/F | 2.92 | L/h | 8.11111111111111e-07 | [l] / [h] | not captured | exact (1.0) | Tab3:row2:col1, Tab3:row2:col2 | — | not captured |
+| V: apparent volume of distribution (L) | `Q76` · V/F | 4.78 | L | 0.00478 | [l] | not captured | exact (1.0) | Tab3:row5:col1, Tab3:row5:col2 | — | not captured |
 | F1: relative bioavailability during carbamazepine use (–) | `Q87` · Frel | 6.76 | not captured | not captured | not captured | not captured | llm_confirmed (0.6) | Tab3:row8:col1, Tab3:row8:col2 | — | not captured |
-| theta_cl_category | `Q900` · theta_cl_category | 25.6 | L/h | not captured | not captured | not captured | not captured (not captured) | Tab3:row3:col2 | — | not captured |
+| theta_q22_category | `Q900` · theta_q22_category | 25.6 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab3:row3:col2 | — | not captured |
 | theta_q49_category | `Q900` · theta_q49_category | 0.895 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab3:row6:col1 | — | not captured |
 
 <details class="legend">
@@ -63,14 +64,22 @@ not matched (stem Sunkaraneni_2018_2)
 - `input_model`: first-order depot input — apparent (/F) parameterization ⇒ extravascular dosing
 
 **Interpretation flags:**
+- table section iiv: 'CL: apparent elimination clearance (L/h)' routed out of structural estimates ('Interindividual variability/residual variabilitya')
+- table section iiv: 'V: apparent volume of distribution (L)' routed out of structural estimates ('Interindividual variability/residual variabilitya')
 - dropped unlinked row (NIL): 'RV CCV component' — extend the ontology if this is a real PK parameter (source ['Tab3:row9:col1', 'Tab3:row9:col2'])
 - dropped unlinked row (NIL): 'RV additive component' — extend the ontology if this is a real PK parameter (source ['Tab3:row10:col1', 'Tab3:row10:col2'])
+- covariate effect for Q22 has no base parameter row (kept as unattached equation-variable)
 - dropped duplicate covariate effect 'category'/'' on Q22 — ambiguous identity (two shifts cannot share one category)
 - covariate effect for Q49 has no base parameter row (kept as unattached equation-variable)
 - dropped duplicate covariate effect 'category'/'' on Q49 — ambiguous identity (two shifts cannot share one category)
+- metabolite eslicarbazepine: Q27→Q351 — only the metabolite is measured and fm is not identifiable, so its CL/V are apparent (fm-divided)
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=eslicarbazepine
-- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
-- status held at route_to_review — not promoted
+- template fit: none — only the metabolite is modelled — no parent compartment (site presystemic: 'Following oral administration, ESL undergoes rapid first-pass hydrolysis to the primary active metabolite eslicarbazepin')
+- 1C volume normalization: Q290→Q76 (single-compartment model has no central/peripheral split; 'V: apparent volume of distribution (L)' is the general volume)
+- row roles: 2 per-group rows of eslicarbazepine absorption_rate_constant but 0 reference group(s) — kept as printed
+- row roles (LLM): model_class=compartmental; 9/9 row label(s) assigned, 8 linked by role
+- skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
+- skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
 
 **Extraction notes:**
 - unparsed cell Tab3:row2:col3 = '25.0 %CV'
@@ -93,16 +102,14 @@ not matched (stem Sunkaraneni_2018_2)
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 5 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 3 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
-| C2_reference | pass | not captured | not captured | not captured | not captured | not captured |
-| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab3:row2:col1', 'Tab3:row2:col2', 'Tab3:row2:col4'] |
-| C5_dimension_Q76 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab3:row5:col1', 'Tab3:row5:col2', 'Tab3:row5:col4'] |
+| C5_dimension_Q351 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab3:row2:col1', 'Tab3:row2:col2'] |
+| C5_dimension_Q76 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab3:row5:col1', 'Tab3:row5:col2'] |
 | C7_apparent_coherence | pass | not captured | not captured | not captured | not captured | not captured |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
-| C9_phys_window_Q22 | pass | clearance within physiological range | 2.92 L/h | not captured | not captured | ['Tab3:row2:col1', 'Tab3:row2:col2', 'Tab3:row2:col4'] |
-| C9_phys_window_Q76 | pass | volume within physiological range | 4.78 L | not captured | not captured | ['Tab3:row5:col1', 'Tab3:row5:col2', 'Tab3:row5:col4'] |
+| C9_phys_window_Q76 | pass | volume within physiological range | 4.78 L | not captured | not captured | ['Tab3:row5:col1', 'Tab3:row5:col2'] |
 
 **Reviewer per-scenario checks:**
 
@@ -135,8 +142,8 @@ not matched (stem Sunkaraneni_2018_2)
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_eslicarbazepine/Eslicarbazepine_Sunkaraneni2018v2_reference/Eslicarbazepine_Sunkaraneni2018v2_reference_modelica.zip" download>Eslicarbazepine_Sunkaraneni2018v2_reference_modelica.zip</a> <span class="pk-size">(4.5 kB)</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_eslicarbazepine/Eslicarbazepine_Sunkaraneni2018v2_reference/Eslicarbazepine_Sunkaraneni2018v2_reference_fmi.zip" download>Eslicarbazepine_Sunkaraneni2018v2_reference_fmi.zip</a> <span class="pk-size">(4.3 kB)</span><br><a href="models/fmu/PK_1C_enteral.fmu" download>PK_1C_enteral.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_eslicarbazepine/Eslicarbazepine_Sunkaraneni2018v2_reference/Eslicarbazepine_Sunkaraneni2018v2_reference_modelica.zip" download>Eslicarbazepine_Sunkaraneni2018v2_reference_modelica.zip</a> <span class="pk-size">(5.7 kB)</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_eslicarbazepine/Eslicarbazepine_Sunkaraneni2018v2_reference/Eslicarbazepine_Sunkaraneni2018v2_reference_fmi.zip" download>Eslicarbazepine_Sunkaraneni2018v2_reference_fmi.zip</a> <span class="pk-size">(4.4 kB)</span><br><a href="models/fmu/PK_1C_enteral.fmu" download>PK_1C_enteral.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_eslicarbazepine/Eslicarbazepine_Sunkaraneni2018v2_reference/Eslicarbazepine_Sunkaraneni2018v2_reference_matlab.zip" download>Eslicarbazepine_Sunkaraneni2018v2_reference_matlab.zip</a> <span class="pk-size">(3.6 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_eslicarbazepine/Eslicarbazepine_Sunkaraneni2018v2_reference/Eslicarbazepine_Sunkaraneni2018v2_reference_matlab_simbio.zip" download>Eslicarbazepine_Sunkaraneni2018v2_reference_matlab_simbio.zip</a> <span class="pk-size">(3.0 kB)</span></td></tr>
 <tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_eslicarbazepine/Eslicarbazepine_Sunkaraneni2018v2_reference/Eslicarbazepine_Sunkaraneni2018v2_reference_sbml.zip" download>Eslicarbazepine_Sunkaraneni2018v2_reference_sbml.zip</a> <span class="pk-size">(2.7 kB)</span></td></tr>
@@ -157,4 +164,4 @@ not matched (stem Sunkaraneni_2018_2)
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-21 17:33 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 07:38 UTC</sub>

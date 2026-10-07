@@ -65,7 +65,7 @@
       catch (e) { acts = q(db, 'SELECT gene, kind, role, evidence, source, page, doi FROM adme_actor WHERE drug_slug = ?', [d.slug]); }
       acts.forEach(function (a) {
         var site = sites[a.gene];
-        var proc = site ? site.process : (a.kind === 'target' ? 'target' : a.kind === 'enzyme' ? 'metabolism' : 'distribution');
+        var proc = processOf(site, a.kind, a.role);
         var tissues = site ? site.tissues : [[null, null]];
         tissues.forEach(function (t) {
           rows.push({ drug: d.slug, process: proc, tissue: t[0], actor: a.gene, role: a.role, evidence: a.evidence, cell: site ? site.cell : null, source: a.source, page: a.page, doi: a.doi, url: a.url });
@@ -267,6 +267,17 @@
   function pgxTitle(M, hits) {
     return hits.map(function (e) { return nameOf(M, e.drug) + ': ' + e.gene + ' ' + e.label + ' \u2192 ' + e.dir.words; }).join('; ');
   }
+  // The ADME process of an actor row — adme_sites.actor_process, the same rule: the hand
+  // table's ADME process wins; else the kind or the role (enzyme / PGx metabolism or
+  // formation → metabolism, transporter / carrier / PGx transport → distribution). A drug
+  // target, a safety allele or an unknown role has none (null, shown '—'), never a guess.
+  var KIND_PROCESS = { enzyme: 'metabolism', transporter: 'distribution', carrier: 'distribution' };
+  var ROLE_PROCESS = { metabolism: 'metabolism', formation: 'metabolism', transport: 'distribution' };
+  function processOf(site, kind, role) {
+    if (site && site.process !== 'target') return site.process;
+    if (kind === 'target' || site) return null;
+    return KIND_PROCESS[kind] || ROLE_PROCESS[role] || null;
+  }
   function cellOf(M, slug, proc, tissue) {
     var rs = M.rows.filter(function (r) { return r.drug === slug && r.process === proc && r.tissue === tissue; });
     var w = 0; rs.forEach(function (r) { w = Math.max(w, W[r.evidence] || 1); });
@@ -289,10 +300,11 @@
     var acts = []; var seen = {};
     rs.forEach(function (r) { if (r.actor) { var k = r.actor + ' (' + r.role + ')'; if (!seen[k]) { seen[k] = 1; acts.push(k); } } });
     acts.sort();
-    var quote = rs.filter(function (r) { return !r.actor && r.quote; }).map(function (r) { return r.quote; })[0];
+    // a site DrugBank's ADME text states: named as such — its wording is not republished
+    var quote = rs.some(function (r) { return !r.actor && r.evidence === 'drugbank_text'; });
     var s = '<b>' + esc(name) + ' · ' + esc(proc) + ' · ' + esc(tissue) + '</b>';
     s += acts.length ? acts.map(esc).join('<br>') : '';
-    if (quote) s += (acts.length ? '<br>' : '') + '<small>“…' + esc(quote.slice(0, 100)) + '…”</small>';
+    if (quote) s += (acts.length ? '<br>' : '') + '<small>named in DrugBank\u2019s ADME text</small>';
     if (!acts.length && !quote) s += '<small>no site evidence</small>';
     if (aff.length) s += '<br><small>affected: ' + aff.map(function (a) { return esc(a.perpetrator + ' ' + a.effect + ' ' + a.actor); }).join('; ') + '</small>';
     return s;
@@ -524,7 +536,7 @@
     root.querySelectorAll('.slotg').forEach(function (g) {
       var d = g.dataset.d, t = g.dataset.t;
       var rs = M.rows.filter(function (r) { return r.drug === d && r.tissue === t; });
-      var procs = []; rs.forEach(function (r) { if (procs.indexOf(r.process) < 0) procs.push(r.process); });
+      var procs = []; rs.forEach(function (r) { if (r.process && procs.indexOf(r.process) < 0) procs.push(r.process); });
       var html = tipText(nameOf(M, d), procs.join('/') || '—', t, rs, showDDI ? affectedAt(M, d, null, t) : []);
       g.onmouseenter = function (e) { tip(html, e); if (opts.onOrgan) opts.onOrgan(d, t, false); };
       g.onmousemove = function (e) { tip(html, e); }; g.onmouseleave = function () { tip(null); };
@@ -560,7 +572,7 @@
     var aff = M.affected.filter(function (a) { return a.victim === slug && (!tissue || a.tissue === tissue); });
     var h = '<h4>' + esc(nameOf(M, slug)) + (tissue ? ' · ' + esc(tissue) : '') + (pinned ? ' <span class="pks-meta">pinned — click another organ to change, double-click to release</span>' : '') + '</h4>';
     var keys = Object.keys(acts).sort();
-    h += keys.length ? '<table class="pks-detail"><tr><th>actor</th><th>role</th><th>process</th><th>tissues</th></tr>' + keys.map(function (a) { var v = acts[a]; return '<tr><td class="mono">' + esc(a) + '</td><td>' + Object.keys(v.roles).map(function (r) { return '<span class="pks-role ' + esc(r) + '">' + esc(r) + '</span>'; }).join('') + '</td><td>' + esc(v.process) + '</td><td>' + esc(Object.keys(v.tissues).join(', ') || 'not in the tissue table') + '</td></tr>'; }).join('') + '</table>' : '<p class="pks-meta">no curated actor here</p>';
+    h += keys.length ? '<table class="pks-detail"><tr><th>actor</th><th>role</th><th>process</th><th>tissues</th></tr>' + keys.map(function (a) { var v = acts[a]; return '<tr><td class="mono">' + esc(a) + '</td><td>' + Object.keys(v.roles).map(function (r) { return '<span class="pks-role ' + esc(r) + '">' + esc(r) + '</span>'; }).join('') + '</td><td>' + esc(v.process || '—') + '</td><td>' + esc(Object.keys(v.tissues).join(', ') || 'not in the tissue table') + '</td></tr>'; }).join('') + '</table>' : '<p class="pks-meta">no curated actor here</p>';
     if (aff.length) h += '<h4 class="warn">can be affected</h4><table class="pks-detail">' + aff.map(function (a) { return '<tr><td><b>' + esc(nameOf(M, a.perpetrator)) + '</b> ' + esc(a.effect) + 's <span class="mono">' + esc(a.actor) + '</span></td><td>' + esc(a.process || '') + ' · ' + esc(a.tissue || 'site unmapped') + '</td></tr>'; }).join('') + '</table>';
     root.innerHTML = h;
   }
@@ -570,6 +582,13 @@
   // tissue in the tooltip. Every drug of the set sits on both axes so an EMPTY row or column
   // is itself readable (this drug affects nothing / is affected by nothing here). The
   // shared-actors list below carries the same facts undirected; this is the directed view.
+  // a drug's name as a link to its page on this site; plain text for a drug with no extracted
+  // record, which has no page (adme_drug.has_records)
+  function drugLink(d) {
+    return d.has_records ? '<a href="#/drugs/drug_' + esc(d.slug) + '/" title="' + esc(d.name) + ' — drug page">' + esc(d.name) + '</a>'
+                         : esc(d.name);
+  }
+
   function renderDdi(root, M, opts) {
     var focus = opts.focus, showDDI = opts.ddi !== false;
     if (!showDDI) { root.innerHTML = '<p class="pks-empty">co-administration layer is off.</p>'; return; }
@@ -582,10 +601,10 @@
       if (a.tissue && v.tissues.indexOf(a.tissue) < 0) v.tissues.push(a.tissue);
     });
     var h = '<table class="pks-ddi"><tr><th class="corner"><span>perpetrator \u2193 \u00b7 victim \u2192</span></th>';
-    M.drugs.forEach(function (d, i) { h += '<th class="victim' + (focus && focus !== d.slug ? ' dim' : '') + '"><i style="background:' + COLORS[i] + '"></i>' + esc(d.name) + '</th>'; });
+    M.drugs.forEach(function (d, i) { h += '<th class="victim' + (focus && focus !== d.slug ? ' dim' : '') + '"><i style="background:' + COLORS[i] + '"></i>' + drugLink(d) + '</th>'; });
     h += '</tr>';
     M.drugs.forEach(function (p, i) {
-      h += '<tr' + (focus && focus !== p.slug ? ' class="dim"' : '') + '><th class="perp"><i style="background:' + COLORS[i] + '"></i>' + esc(p.name) + '</th>';
+      h += '<tr' + (focus && focus !== p.slug ? ' class="dim"' : '') + '><th class="perp"><i style="background:' + COLORS[i] + '"></i>' + drugLink(p) + '</th>';
       M.drugs.forEach(function (v) {
         if (v.slug === p.slug) { h += '<td class="self"></td>'; return; }
         var c = cell[p.slug + '|' + v.slug];
@@ -729,11 +748,10 @@
   function renderTable(root, M) {
     root.innerHTML = '<table class="pks-tbl"><tr><th>drug</th><th>process</th><th>tissue</th><th>actor</th><th>role</th><th>evidence</th></tr>' +
       tableRows(M.rows).map(function (r) {
-        // a prose row's actor cell is the quote: clipped to one short line, the whole
-        // sentence on hover — a 200-character quote used to push role and evidence off screen
+        // a prose row names its source, not DrugBank's wording (which is not republished)
         var actor = r.actor ? '<span class="mono">' + esc(r.actor) + '</span>'
-                  : (r.quote ? '<span class="pks-quote" title="' + esc(r.quote) + '">“' + esc(r.quote) + '”</span>' : '');
-        return '<tr><td>' + esc(nameOf(M, r.drug)) + '</td><td>' + esc(r.process) + '</td><td>' + esc(r.tissue || '—') + '</td><td>' + actor + '</td><td>' + esc(r.role || '') + '</td><td>' + evidenceCell(r) + '</td></tr>';
+                  : (r.evidence === 'drugbank_text' ? '<small>named in DrugBank\u2019s ADME text</small>' : '');
+        return '<tr><td>' + esc(nameOf(M, r.drug)) + '</td><td>' + esc(r.process || '—') + '</td><td>' + esc(r.tissue || '—') + '</td><td>' + actor + '</td><td>' + esc(r.role || '') + '</td><td>' + evidenceCell(r) + '</td></tr>';
       }).join('') + '</table>';
   }
 

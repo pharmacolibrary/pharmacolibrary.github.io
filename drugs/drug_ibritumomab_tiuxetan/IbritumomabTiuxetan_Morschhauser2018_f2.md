@@ -1,15 +1,14 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;V10X&quot;,&quot;href&quot;:&quot;atc/V10X.md&quot;},{&quot;label&quot;:&quot;ibritumomab tiuxetan&quot;,&quot;href&quot;:&quot;drugs/drug_ibritumomab_tiuxetan/&quot;},{&quot;label&quot;:&quot;Morschhauser_2018 \u00b7 f2&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;IbritumomabTiuxetan_Morschhauser2018_f1&quot;,&quot;label&quot;:&quot;Morschhauser_2018_f1&quot;,&quot;href&quot;:&quot;drugs/drug_ibritumomab_tiuxetan/IbritumomabTiuxetan_Morschhauser2018_f1.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;IbritumomabTiuxetan_Morschhauser2018_f2&quot;,&quot;label&quot;:&quot;Morschhauser_2018_f2&quot;,&quot;href&quot;:&quot;drugs/drug_ibritumomab_tiuxetan/IbritumomabTiuxetan_Morschhauser2018_f2.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;IbritumomabTiuxetan_Morschhauser2018_liver&quot;,&quot;label&quot;:&quot;Morschhauser_2018_liver&quot;,&quot;href&quot;:&quot;drugs/drug_ibritumomab_tiuxetan/IbritumomabTiuxetan_Morschhauser2018_liver.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;IbritumomabTiuxetan_Morschhauser2018_lumbar_vertebrae_l2_l4&quot;,&quot;label&quot;:&quot;Morschhauser_2018_lumbar_vertebrae_l2_l4&quot;,&quot;href&quot;:&quot;drugs/drug_ibritumomab_tiuxetan/IbritumomabTiuxetan_Morschhauser2018_lumbar_vertebrae_l2_l4.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;IbritumomabTiuxetan_Morschhauser2018_spleen&quot;,&quot;label&quot;:&quot;Morschhauser_2018_spleen&quot;,&quot;href&quot;:&quot;drugs/drug_ibritumomab_tiuxetan/IbritumomabTiuxetan_Morschhauser2018_spleen.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # ibritumomab tiuxetan — `IbritumomabTiuxetan_Morschhauser2018_f2`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.632). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.75). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -21,16 +20,18 @@
 
 The record reports total clearance for ibritumomab tiuxetan as 1.03 with unit ml.min, which is dimensionally inconsistent with clearance (volume per time); because this unit could not be converted to SI, the parameter arrived without an SI value and the dimension check on it failed. The remaining parameters (Cmax 0.308 µg.mL−1, terminal half-life 83.6 h, MRT 114.1 h, AUC 1708.1 µg.min.mL−1, and the transfer rate constants k12 0.033, k21 0.516, k13 0.738, k31 0.167 min−1) carry consistent units. A second reader also disagreed on the analyte naming and on the classification of the two AUC entries, and noted blood, liver and vertebrae L2-L4 values absent from this record. Extracted — ibritumomab tiuxetan: Cmax 0.308 µg.mL−1, t1/2z 83.6 h, MRT 114 h, CL 1.03 ml.min, AUC 1.71e+03 µg.min.mL−1, k12 0.033 min−1, k21 0.516 min−1, AUCt 262 µg.min.mL−1, … (+2).
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has ibritumomab_tiuxetan, the second reading ibritumomab tiuxetan; it also differs on 6 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has ibritumomab tiuxetan, the second reading 90Y-ibritumomab tiuxetan; it also differs on 3 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-09-28 14:38:13.880162+00:00) predates the upstream re-run (2026-10-07 16:46:17.232044+00:00). Current validate status: `rejected`.
+
 ## Citation
-Morschhauser F; Dekyndt B; Baillet C; Barthélémy C; Malek E; Fulcrand J; et al. et al. (2018). Scientific reports 8
+Morschhauser F et al., A new pharmacokinetic model for 90Y-ibr…, Scientific reports (2018)
   ·  DOI: [10.1038/s41598-018-33160-0](https://doi.org/10.1038/s41598-018-33160-0)
 
 ## Model component
-<dbs-pgx drug="ibritumomab tiuxetan" model-id="IbritumomabTiuxetan_Morschhauser2018_f2" status="rejected" stale="false" population="patients with follicular lymphoma" measured-compound="ibritumomab_tiuxetan" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="ibritumomab tiuxetan" model-id="IbritumomabTiuxetan_Morschhauser2018_f2" status="rejected" stale="true" population="patients with follicular lymphoma" measured-compound="ibritumomab tiuxetan" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment; no model was built for this record.  
 **Parameters:** 10 extracted.
@@ -45,7 +46,7 @@ Morschhauser F; Dekyndt B; Baillet C; Barthélémy C; Malek E; Fulcrand J; et al
 | Cmax* (µg.mL−1) | `Q32` · Cmax | 0.308 | µg.mL−1 | not captured | [µg] / [ml] | not captured | llm_confirmed (0.6) | Morschhauser_2018_table_3:row1:col1, Morschhauser_2018_table_3:row1:col3, Morschhauser_2018_table_3:row7:col1, Morschhauser_2018_table_3:row7:col3, Morschhauser_2018_table_3:row14:col1, Morschhauser_2018_table_3:row14:col3, Morschhauser_2018_table_3:row21:col1, Morschhauser_2018_table_3:row21:col3 | — | not captured |
 | T1/2* (h) | `Q57` · t1/2z | 83.6 | h | 300960.0 | [h] | not captured | llm_confirmed (0.6) | Morschhauser_2018_table_3:row2:col1, Morschhauser_2018_table_3:row2:col3 | — | not captured |
 | MRT* (h) | `Q53` · MRT | 114.1 | h | 410760.0 | [h] | not captured | llm_confirmed (0.6) | Morschhauser_2018_table_3:row3:col1, Morschhauser_2018_table_3:row3:col3, Morschhauser_2018_table_3:row10:col1, Morschhauser_2018_table_3:row10:col3, Morschhauser_2018_table_3:row17:col1, Morschhauser_2018_table_3:row17:col3, Morschhauser_2018_table_3:row24:col1, Morschhauser_2018_table_3:row24:col3 | — | not captured |
-| Clearance* (ml.min) | `Q22` · CL | 1.03 | ml.min | not captured | [min] · [ml] | not captured | llm_confirmed (0.6) | Morschhauser_2018_table_3:row4:col1, Morschhauser_2018_table_3:row4:col3 | — | not captured |
+| Clearance* (ml.min) | `Q22` · CL | 1.03 | ml.min | 1.7166666666666665e-08 | [min] · [ml] | not captured | llm_confirmed (0.6) | Morschhauser_2018_table_3:row4:col1, Morschhauser_2018_table_3:row4:col3 | — | not captured |
 | AUC Total* (µg.min.mL−1) | `Q88` · AUC | 1708.1 | µg.min.mL−1 | not captured | [[min] · [µg]] / [ml] | not captured | llm_confirmed (0.6) | Morschhauser_2018_table_3:row5:col1, Morschhauser_2018_table_3:row5:col3 | — | not captured |
 | k12* (min−1) | `Q301` · k12 | 0.033 | min−1 | 0.00055 | [1] / [min] | not captured | llm_confirmed (0.6) | Morschhauser_2018_table_3:row8:col3 | — | not captured |
 | k21* (min−1) | `Q302` · k21 | 0.516 | min−1 | 0.0086 | [1] / [min] | not captured | llm_confirmed (0.6) | Morschhauser_2018_table_3:row9:col3 | — | not captured |
@@ -67,11 +68,13 @@ Morschhauser F; Dekyndt B; Baillet C; Barthélémy C; Malek E; Fulcrand J; et al
 - dropped duplicate Q19 ('AUCcum 7d* (µg.min.mL−1)', value '558.03') — already have one for this compound
 - dropped unlinked row (NIL): 'Liver' — extend the ontology if this is a real PK parameter (source ['Morschhauser_2018_table_3:row13:col3'])
 - dropped unlinked row (NIL): 'Spleen' — extend the ontology if this is a real PK parameter (source ['Morschhauser_2018_table_3:row20:col3'])
-- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=ibritumomab_tiuxetan
+- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=ibritumomab tiuxetan
 - held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - structure disagreement: deterministic 1C vs LLM 3C — review compartment count
 - status held at route_to_review — not promoted
 - population split: 'f2' subgroup of Morschhauser_2018 (paper reports 5 populations: f1, f2, liver, lumbar vertebrae l2-l4, spleen)
+- molar mass: none found for 'ibritumomab_tiuxetan' — its concentrations stay mass-only
+- molar mass: none found for 'ibritumomab tiuxetan' — its concentrations stay mass-only
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary's parameterization (rate-constant / ka-only) does not use it
 
@@ -98,19 +101,16 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.632 (12/19 fields) | 7 |
+| `gpt-oss:120b` | not confirmed | 0.75 (12/16 fields) | 4 |
 
-<details><summary>7 field(s) a reader read differently</summary>
+<details><summary>4 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `parameters[auc total*].parameter_id` | Q88 | Q17 | mismatch |
-| `gpt-oss:120b` | `parameters[auccum 4d*].parameter_id` | Q19 | Q88 | mismatch |
-| `gpt-oss:120b` | `parameters[blood]` | not captured | 4064.8 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[liver]` | not captured | 459.72 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[vertebrae l2-l4]` | not captured | 7.87 | only_one_extracted |
-| `gpt-oss:120b` | `screen.dose_compound` | ibritumomab_tiuxetan | ibritumomab tiuxetan | mismatch |
-| `gpt-oss:120b` | `screen.primary_analyte` | ibritumomab_tiuxetan | ibritumomab tiuxetan | mismatch |
+| `gpt-oss:120b` | `parameters[blood in corresponding volume*]` | not captured | 8.15 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[liver]` | not captured | 489.61 | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | ibritumomab tiuxetan | 90Y-ibritumomab tiuxetan | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | ibritumomab tiuxetan | 111In-ibritumomab tiuxetan | mismatch |
 
 </details>
 
@@ -139,6 +139,7 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | C5_dimension_Q88 | pass | [mass] * [time] / [length] ** 3 | not captured | not captured | not captured | ['Morschhauser_2018_table_3:row5:col1', 'Morschhauser_2018_table_3:row5:col3'] |
 | C6_cl_magnitude | pass | &lt;= 90.0 L/h | 1.03 | not captured | not captured | ['Morschhauser_2018_table_3:row4:col1', 'Morschhauser_2018_table_3:row4:col3'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 0.0618 L/h | not captured | not captured | ['Morschhauser_2018_table_3:row4:col1', 'Morschhauser_2018_table_3:row4:col3'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -163,4 +164,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-25 05:33 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 16:46 UTC</sub>

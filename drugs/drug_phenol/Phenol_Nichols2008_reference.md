@@ -1,50 +1,59 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C05B&quot;,&quot;href&quot;:&quot;atc/C05B.md&quot;},{&quot;label&quot;:&quot;phenol&quot;,&quot;href&quot;:&quot;drugs/drug_phenol/&quot;},{&quot;label&quot;:&quot;Nichols_2008 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Phenol_Thoueille2023_reference&quot;,&quot;label&quot;:&quot;Thoueille_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_phenol/Phenol_Thoueille2023_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Phenol_Nichols2008_reference&quot;,&quot;label&quot;:&quot;Nichols_2008_reference&quot;,&quot;href&quot;:&quot;drugs/drug_phenol/Phenol_Nichols2008_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Phenol_Thoueille2023_reference&quot;,&quot;label&quot;:&quot;Thoueille_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_phenol/Phenol_Thoueille2023_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # phenol — `Phenol_Nichols2008_reference`
 
-> ## <span class="pk-badge pk-badge--orange">built, not shipped</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.167). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.5). The first reading is what the record holds.">cross-check: disputed</span> <span class="pk-badge pk-badge--species" title="Animal study (fish), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">fish</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+> **Species: fish.** This record comes from an animal study (fish), not from people. The values, the model and its simulation are shown as the paper reports them — they describe that system, not human pharmacology (read from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).
+
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
-**Phenol's bioavailability, clearance, and absorption lag time lacked extracted values, so placeholders were used and the model was quarantined.**
+**This paper's disposition core is incomplete.**
 
-The record contains no values for phenol's bioavailability, clearance, or absorption lag time, resulting in the use of library placeholders. The model was built from the abstract alone, so summary statistics stood in for a fitted model. A second reader disagreed on the assignment of the phenyl glucuronide clearance constant and the glucuronidation rate. Extracted — phenyl glucuronide: CL 15.7 ml/kg/h, kfm 0.049 /h; phenol: V 2.66e+03 L, kabs 0.0069 min-1.
+A volume and a clearance/elimination estimate from this paper are needed to build its model. Review values from other papers (Nishida_1995, Thoueille_2023) cannot stand in for this paper's evidence. Only the abstract was available, so reported summary statistics stand in for a fitted model. Extracted — phenyl glucuronide: CL 15.7 ml/kg/h, kfm 0.049 /h; phenol: V 2.66e+03 L, kabs 0.0069 min-1.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has phenol, the second reading unknown; it also differs on 9 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which molecule was measured: this record has phenol, the second reading phenyl glucuronide; it also differs on 2 more fields. That field shapes the model, so the record is marked disputed.
 
-<sub>reviewed by qwen3.8:27b-mtp-q8_0</sub>
+<sub>reviewed by rule template (no LLM)</sub>
+
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-10-05 09:30:11.999145+00:00) predates the upstream re-run (2026-10-07 14:45:59.579830+00:00). Current validate status: `needs_review`.
+
+> **Dose compound ≠ measured compound:** dosed `phenol`, measured `phenol and phenyl glucuronide`.
 
 ## Citation
-Nichols JW; Hoffman AD; Fitzsimmons PN; Lien GJ; Jenson CT et al. (2008). Drug metabolism and disposition: the biological fate of chemicals 36
+Nichols JW et al., Use of online microdialysis sampling to…, Drug metabolism and disposi… (2008)
   ·  DOI: [10.1124/dmd.107.020123](https://doi.org/10.1124/dmd.107.020123)
 
 ## Model component
-<dbs-pgx drug="phenol" model-id="Phenol_Nichols2008_reference" status="model_quarantined" stale="false" population="rainbow trout" measured-compound="phenol" parameterization="mechanistic" topology="parent_metabolite"></dbs-pgx>
+<dbs-pgx drug="phenol" model-id="Phenol_Nichols2008_reference" status="needs_review" stale="true" population="rainbow trout" measured-compound="phenol and phenyl glucuronide" parameterization="mechanistic" topology="parent_metabolite"></dbs-pgx>
 
-**Model structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
-**Parameters:** 4 extracted.
+**Model structure:** parent + metabolite; no model was built for this record.  
+**Parameters:** 6 extracted.
 
 **Parameterization:** mechanistic.
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `model_quarantined`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
+> ⚠️ This record is not accepted (current status `needs_review`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| PG clearance constant | `Q22` · CL | 15.7 | ml/kg/h | 3.0527777777777776e-07 | [ml] / [[h] · [kg]] | not captured | exact (1.0) | Nichols_2008:abstract | — | not captured |
+| fraction of infused PG eliminated in urine | `Q45` · fm | 93 | % | not captured | [%] | not captured | exact (1.0) | Nichols_2008:abstract | — | not captured |
+| ratio of peak PG concentration in urine to blood | `Q33` · Cmax_ratio | 3.4 | not captured | not captured | not captured | not captured | llm_corrected (0.6) | Nichols_2008:abstract | — | not captured |
+| fitted PG clearance constant | `Q22` · CL | 15.7 | ml/kg/h | 3.0527777777777776e-07 | [ml] / [[h] · [kg]] | not captured | exact (1.0) | Nichols_2008:abstract | — | not captured |
+| ratio of fitted PG clearance constant to reported glomerular filtration rate | `Q31` · CL_ratio | 2.6 | not captured | not captured | not captured | not captured | llm_corrected (0.6) | Nichols_2008:abstract | — | not captured |
 | glucuronidation rate | `Q305` · kfm | 0.049 | /h | 1.3611111111111111e-05 | [1] / [h] | not captured | exact (1.0) | Nichols_2008:abstract | — | not captured |
-| VTFV | `Q61` · V | 2660.0 | L | 2.66 | L | not captured | review_gapfill (0.7) | Thoueille_2023:review | — | not captured |
+| fraction of total rate of PH elimination | `Q900` · equation variable | 7 | % | not captured | [%] | not captured | llm (0.6) | Nichols_2008:abstract | — | not captured |
 | Ka | `Q49` · kabs | 0.0069 | min-1 | 0.00011499999999999999 | 1/h | not captured | review_gapfill (0.7) | Nishida_1995:review | — | not captured |
 
 <details class="legend">
@@ -55,18 +64,19 @@ Nichols JW; Hoffman AD; Fitzsimmons PN; Lien GJ; Jenson CT et al. (2008). Drug m
 ## Departures & gaps
 
 **Interpretation flags:**
-- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=phenol
-- template fit: PK_3M_9C — formed from central; parent 0, metabolites [0]
-- row roles (LLM): model_class=compartmental; 2/2 row label(s) assigned, 2 linked by role; re-tagged phenol→phenyl glucuronide ×2
+- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=phenol and phenyl glucuronide
+- template fit: none — other model — not a compartmental parent–metabolite model
+- row roles (LLM): model_class=other; 6/6 row label(s) assigned, 3 linked by role; re-tagged phenol and phenyl glucuronide→phenyl glucuronide ×5
+- molar mass: no plausible PubChem entry for 'phenol and phenyl glucuronide' ('phenol and phenyl glucuronide') — left in mass units
+- molar mass: none found for 'phenol and phenyl glucuronide' — its concentrations stay mass-only
 - abstract-only: no full text was available, so these values were read from the abstract's prose — reported summary statistics, not a fitted model
-- gap-filled Q61 (V) from Thoueille_2023's review values (primary lacked it)
 - skipped review gap-fill of V2: primary is PARENT_METABOLITE (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is PARENT_METABOLITE (peripheral family needs ≥2C)
 - gap-filled Q49 (kabs) from Nishida_1995's review values (primary lacked it)
 - skipped review gap-fill of TLAG: primary's parameterization (rate-constant / ka-only) does not use it
 
 **Extraction notes:**
-- no GROBID TEI available — transcribed from abstract in Nichols_2008_metadata.yaml (2 record(s)); values are summary statistics, not a fitted model
+- no GROBID TEI available — transcribed from abstract in Nichols_2008_metadata.yaml (6 record(s)); values are summary statistics, not a fitted model
 
 ## Validation
 
@@ -75,22 +85,15 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.167 (2/12 fields) | 10 |
+| `gpt-oss:120b` | not confirmed | 0.5 (3/6 fields) | 3 |
 
-<details><summary>10 field(s) a reader read differently</summary>
+<details><summary>3 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `parameters[depurated for]` | not captured | 48 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[fitted pg clearance constant]` | not captured | 15.7 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[glucuronidation rate as percent of total rate of ph elimination]` | not captured | 7 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[glucuronidation rate averaged]` | not captured | 0.049 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[glucuronidation rate]` | 0.049 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[infused pg was eliminated in urine during the depuration period]` | not captured | 93 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[peak concentrations of pg in urine averaged]` | not captured | 3.4 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[pg clearance constant]` | 15.7 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `screen.dose_compound` | phenol | unknown | mismatch |
-| `gpt-oss:120b` | `screen.primary_analyte` | phenol | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | phenol | phenyl glucuronide | mismatch |
 
 </details>
 
@@ -104,28 +107,16 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 2 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 5 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
-| C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
+| C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Nichols_2008:abstract'] |
 | C5_dimension_Q305 | pass | 1 / [time] | not captured | not captured | not captured | ['Nichols_2008:abstract'] |
 | C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Nishida_1995:review'] |
-| C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Thoueille_2023:review'] |
+| C5_unit_missing_Q31 | fail | [length] ** 3 / [time] | not captured | not captured | not captured | ['Nichols_2008:abstract'] |
 | C6_cl_magnitude | pass | &lt;= 90.0 L/h | 15.7 | not captured | not captured | ['Nichols_2008:abstract'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
 | C9_phys_window_Q22 | pass | clearance within physiological range | 1.1 L/h | not captured | not captured | ['Nichols_2008:abstract'] |
-| C9_phys_window_Q61 | pass | volume within physiological range | 2.66e+03 L | not captured | not captured | ['Thoueille_2023:review'] |
-
-**Reviewer per-scenario checks:**
-
-| check | scenario | status | expected | obtained | ratio | note |
-|---|---|---|---|---|---|---|
-| T0_analyte_identity | not captured | pass | not captured | not captured | not captured | V/CL labels are the drug's (or a metabolite's), no biomarker signal |
-| T2_covariates | not captured | skipped | not captured | not captured | not captured | no covariate effects in record |
-| T3_param_coverage | not captured | pass | 3 scholar param(s) emitted or defaulted | 3 covered | not captured | all structural parameters accounted for |
-| T3_rate_constant_conversion | not captured | pass | Kfm (rate_constant) → CL = k·V | no explicit k·V edge found in model | not captured | rate constant must not be used raw as a clearance |
-| T3_topology_template | not captured | fail | parent_metabolite → PK_3M_9C* | PK_1C_enteral | not captured | engineer template must match the scholar topology |
-| T6_deviations | not captured | pass | not captured | all deviations documented+quantified | not captured | LLM adjudication → deterministic rule |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -135,8 +126,6 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 ## Raw artifacts
 
 - scholar stages: `../../../knowledgebase/drugs/drug_phenol/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Nichols_2008` / `Nichols_2008::reference`)
-- model: `../../../knowledgebase/drugs/drug_phenol/models/modelica/_needs_review/Phenol_Nichols2008_reference.mo`
-- deviation: `../../../knowledgebase/drugs/drug_phenol/models/modelica/_needs_review/Phenol_Nichols2008_reference.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
@@ -147,12 +136,12 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
 <tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
 <tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_phenol/Phenol_Nichols2008_reference/Phenol_Nichols2008_reference_matlab.zip" download>Phenol_Nichols2008_reference_matlab.zip</a> <span class="pk-size">(3.2 kB)</span></td></tr>
-<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_phenol/Phenol_Nichols2008_reference/Phenol_Nichols2008_reference_matlab_simbio.zip" download>Phenol_Nichols2008_reference_matlab_simbio.zip</a> <span class="pk-size">(2.7 kB)</span></td></tr>
-<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_phenol/Phenol_Nichols2008_reference/Phenol_Nichols2008_reference_sbml.zip" download>Phenol_Nichols2008_reference_sbml.zip</a> <span class="pk-size">(2.4 kB)</span></td></tr>
-<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_phenol/Phenol_Nichols2008_reference/Phenol_Nichols2008_reference_cellml.zip" download>Phenol_Nichols2008_reference_cellml.zip</a> <span class="pk-size">(2.9 kB)</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
 </tbody></table>
-<p>Each archive holds the model source, a script that simulates it against the appropriate library, and a README describing both and how to run them.</p>
+<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
 </div></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
@@ -162,4 +151,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-28 20:49 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 14:45 UTC</sub>

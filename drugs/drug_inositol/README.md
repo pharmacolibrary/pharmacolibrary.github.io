@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A11H&quot;,&quot;href&quot;:&quot;atc/A11H.md&quot;},{&quot;label&quot;:&quot;inositol&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Inositol_Phelps2013_covariate_estimate_standard_error&quot;,&quot;label&quot;:&quot;Phelps_2013_covariate_estimate_standard_error&quot;,&quot;href&quot;:&quot;drugs/drug_inositol/Inositol_Phelps2013_covariate_estimate_standard_error.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Inositol_Phelps2013_estimate&quot;,&quot;label&quot;:&quot;Phelps_2013_estimate&quot;,&quot;href&quot;:&quot;drugs/drug_inositol/Inositol_Phelps2013_estimate.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Inositol_Phelps2016_reference&quot;,&quot;label&quot;:&quot;Phelps_2016_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_inositol/Inositol_Phelps2016_reference.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 # inositol
 
@@ -11,22 +11,39 @@
 
 ## About
 
-**Description.** Inositol is a collection of nine different stereoisomers but the name is usually used to describe only the most common type of inositol, myo-inositol. Myo-inositol is the cis-1,2,3,5-trans-4,6-cyclohexanehexol and it is prepared from an aqueous extract of corn kernels by precipitation and hydrolysis of crude phytate. These molecules have structural similarities to glucose and are involved in cellular signaling. It is considered a pseudovitamin as it is a molecule that does not qualify to be an essential vitamin because even though its presence is vital in the body, a deficiency in this molecule does not translate into disease conditions.[L2560] Inositol can be found as an ingredient of OTC products by Health Canada but all current product whose main ingredient is inositol are discontinued.[L1113] By the FDA, inositol is considered in the list of specific substances affirmed as generally recognized as safe (GRAS).[L2561]
+Inositol is a sugar-like compound once classed as a B vitamin and marketed as a vitamin preparation. It is no longer regarded as an essential vitamin and has been withdrawn as a drug, though it persists as a dietary supplement.
 
-**Indication.** Inositol may be used in food without any limitation. As a drug, inositol is used as a nutrient supplement in special dietary foods and infant formula.[L2561] As it presents a relevant role in ensuring oocyte fertility, inositol has been studied for its use in the management of polycystic ovaries.[A32751] Inositol is also being researched for the treatment of diabetes,[A32766] prevention of metabolic syndrome,[A32768] aid agent for weight loss,[A32769] treatment of depression, psychiatric disorder and anxiety disorder[A32770] and for prevention of cancer.[A32771]
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q407997](https://www.wikidata.org/wiki/Q407997) and the WHO ATC classification; not checked by a person.</small>
+
+## Molecules and molar masses
+
+> The molar mass each model uses to convert mass to molar concentration and to form a metabolite molecule for molecule. Looked up, never estimated: DrugBank for the drug, the paper's own value or the PubChem entry matched to the paper's name for a metabolite.
+
+| molecule | role | molar mass (g/mol) | formula | source | PubChem | records |
+|---|---|---|---|---|---|---|
+| inositol | parent | 180.156 | C6H12O6 | DrugBank | — | Antonowski_2022, Phelps_2013, Phelps_2016 |
+| myo-inositol | parent | 180.156 | C6H12O6 | DrugBank | — | Antonowski_2022 |
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-21 22:10 | 0:41 | 0/0/2 | 0/0/0 | 0/0/0 | 22,586/671 | ollama / qwen3.8:27b-mtp-q8_0 | 1 | 0/1 | 1/0 | 0 |
+| 2026-10-07 16:36 | 2:46 | 1/1/2 | 0/0/1 | 0/0/0 | 220,332/10,421 | einfracz / qwen3.8-27b | 9 | 1/8 | 9/0 | 1 |
 
 ## popPK records
 
 | status | detail | model | model structure | params | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (partly confirmed, agreement 0.8). The first reading is what the record holds.">cross-check: partial</span><br><sub>blocking: disposition incomplete — only volume extracted — the engineer needs both; the m…</sub><br><sub>route_to: `human_review`</sub> | [Phelps_2013_covariate_estimate_standard_error](drugs/drug_inositol/Inositol_Phelps2013_covariate_estimate_standard_error.md) | held back | 1-compartment, IV | 1 | Phelps DL et al., Pharmacokinetics and safety of a single…, Pediatric research (2013) | [10.1038/pr.2013.162](https://doi.org/10.1038/pr.2013.162) |
-| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span><br><sub>blocking: C5 dimensioned parameter(s) without a unit: Q61, Q22, Q47, Q57 — no SI value to…</sub><br><sub>route_to: `human_review`</sub> | [Phelps_2013_estimate](drugs/drug_inositol/Inositol_Phelps2013_estimate.md) | held back | 1-compartment, IV | 5 | Phelps DL et al., Pharmacokinetics and safety of a single…, Pediatric research (2013) | [10.1038/pr.2013.162](https://doi.org/10.1038/pr.2013.162) |
+| <span class="pk-badge pk-badge--green">extracted</span> | [Phelps_2016_reference](drugs/drug_inositol/Inositol_Phelps2016_reference.md) | ▶ model + simulator | 1-compartment, IV | 5 | Phelps DL et al., Safety and pharmacokinetics of multiple…, Pediatric research (2016) | [10.1038/pr.2016.97](https://doi.org/10.1038/pr.2016.97) |
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.333). The first reading is what the record holds.">cross-check: disputed</span><br><sub>STALE — current validate: needs_review</sub><br><sub>blocking: disposition incomplete — only volume extracted — the engineer needs clearance/e…</sub><br><sub>route_to: `human_review`</sub> | [Phelps_2013_covariate_estimate_standard_error](drugs/drug_inositol/Inositol_Phelps2013_covariate_estimate_standard_error.md) | — | 1-compartment (no model) | 1 | Phelps DL et al., Pharmacokinetics and safety of a single…, Pediatric research (2013) | [10.1038/pr.2013.162](https://doi.org/10.1038/pr.2013.162) |
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.778). The first reading is what the record holds.">cross-check: disputed</span><br><sub>STALE — current validate: needs_review</sub><br><sub>blocking: C5 dimensioned parameter(s) without a unit: Q367 — no SI value to build from</sub><br><sub>route_to: `human_review`</sub> | [Phelps_2013_estimate](drugs/drug_inositol/Inositol_Phelps2013_estimate.md) | — | 1-compartment (no model) | 6 | Phelps DL et al., Pharmacokinetics and safety of a single…, Pediatric research (2013) | [10.1038/pr.2013.162](https://doi.org/10.1038/pr.2013.162) |
+| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--species" title="Animal study (rat), not measured in people (from the LLM relevance screen, p(non-human) 1.00).">rat</span><br><sub>blocking: C5 dimension mismatch on a structural parameter</sub><br><sub>route_to: `human_review`</sub> | [Antonowski_2022_reference](drugs/drug_inositol/Inositol_Antonowski2022_reference.md) | — | 1-compartment (no model) | 7 | Antonowski T et al., Pharmacokinetics of, International journal of mo… (2022) | [10.3390/ijms231911246](https://doi.org/10.3390/ijms231911246) |
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--species" title="In-vitro data (cells, tissue or microsomes), not measured in people (from the LLM relevance screen, p(non-human) 1.00).">in vitro</span> | [Taghizadeh_2022_IP1](drugs/drug_inositol/pd_Taghizadeh_2022_IP1.md) | IP1 ← inositol phosphate · direct Emax (saturable) effect | model (no simulator) | Taghizadeh MS et al., Discovery of the cyclotide caripe 11 as…, Scientific reports (2022) | [10.1038/s41598-022-13142-z](https://doi.org/10.1038/s41598-022-13142-z) |
 
 ## ADME sites
 
@@ -34,39 +51,45 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 | process | tissue | actors (role) | evidence |
 |---|---|---|---|
-| absorption | small intestine | <sub>“…Inositol is absorbed from the small intestine.[T184] In patients with inositol deficiency,…”</sub> | prose |
-| excretion | kidney | <sub>“…Most of the administered dose is excreted in urine.[A32809]…”</sub> | prose |
+| absorption | small intestine | <sub>named in DrugBank's ADME text</sub> | prose |
+| excretion | kidney | <sub>named in DrugBank's ADME text</sub> | prose |
 
 <sub>Actors without a tissue in the table: APP (inhibitor), SLC5A3 (substrate).</sub>
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
 ## Coverage
 
 - **PubMed hits:** 1137 matched, 20 returned
-- **screened:** 1  ·  **relevant:** 1
-- **records:** 2  ·  extracted 0  ·  needs_review 2  ·  rejected 0  ·  stale 0
+- **screened:** 3  ·  **relevant:** 3
+- **records:** 4  ·  extracted 1  ·  needs_review 2  ·  rejected 1  ·  stale 2
 - **scholar-agent fallback query used:** not captured
-
-## Full text wanted
-
-_1 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
-
-| save as | citation | domain | score | DOI | PubMed | why wanted |
-|---|---|---|---|---|---|---|
-| `Antonowski_2022.pdf` | Antonowski T et al., Pharmacokinetics of, International journal of mo… (2022) | popPK | 9 | [10.3390/ijms231911246](https://doi.org/10.3390/ijms231911246) | [36232547](https://pubmed.ncbi.nlm.nih.gov/36232547) | The paper describes a pharmacokinetic study of inositol in rats using a one-compartment model, but the specific numeric parameter values (CL, V, ka, etc.) are not present in the provided evidence. |
-
-<sub>queue written 2026-09-21T22:09:59.461103+00:00</sub>
 
 ## Screened and excluded
 
 | domain | paper | verdict | relevance | extractability | reason |
 |---|---|---|---|---|---|
-| popPK | Antonowski_2022 | relevant | 9 | 0 | The paper describes a pharmacokinetic study of inositol in rats using a one-compartment model, but the specific numeric parameter values (CL, V, ka, etc.) are not present in the provided evidence. |
+| popPK | Berg_1998 | irrelevant | 0 | 0 | The study is an in vitro pharmacological analysis of serotonin receptor signaling and does not measure pharmacokinetic parameters for inositol. |
+| popPK | Charney_2020 | irrelevant | 0 | 0 | The study measures myo-inositol concentration as a neurochemical biomarker via MRS in the brain, not as a drug with pharmacokinetic parameters (CL, V, ka). |
+| popPK | Hager_1995 | irrelevant | 0 | 0 | The study characterizes the kinetic properties (K0.5, Hill coefficient) of a transporter in Xenopus oocytes, which is an in-vitro mechanistic study rather than a pharmacokinetic study of inositol disposition in a biological system. |
+| popPK | Hirata_1997 | irrelevant | 0 | 0 | The study investigates the potency of inositol 1,4,5-trisphosphate (InsP3) receptor ligands on calcium release in cell lines, which is a pharmacodynamic/mechanistic study, not a pharmacokinetic study of inositol disposition. |
+| popPK | Leppink_2017 | irrelevant | 0 | 0 | The study is a clinical efficacy trial for trichotillomania and does not report any pharmacokinetic parameters for inositol. |
+| popPK | Lowe_2022 | irrelevant | 0 | 0 | The study uses myo-inositol as a biomarker in proton magnetic resonance spectroscopy (1H-MRS) for Huntington's disease, not as a pharmacokinetic subject. |
+| popPK | Lu_1996 | irrelevant | 0 | 0 | The study is an in-vitro mechanistic investigation of receptor antagonism and does not report pharmacokinetic parameters for inositol. |
+| popPK | Matskevitch_1998 | irrelevant | 0 | 0 | This is an in-vitro mechanistic study of transporter kinetics in Xenopus oocytes, not a pharmacokinetic study reporting disposition parameters. |
+| popPK | McKenna_2023 | irrelevant | 0 | 0 | The study is a neuroimaging analysis of psychotic disorders where inositol is a metabolite measured by MRS, not a drug subject to PK modeling. |
+| popPK | Perelló_2024 | irrelevant | 2 | 2 | The study measures hexasodium fytate (inositol hexaphosphate) for cardiovascular effects and reports only sparse Cmax data, lacking the specific clearance, volume, or compartmental PK parameters required. |
+| popPK | Považan_2020 | irrelevant | 0 | 0 | This is a brain MR spectroscopy study quantifying static metabolite concentrations (including myo-inositol) in healthy participants, not a pharmacokinetic study reporting disposition parameters for inositol as a drug. |
+| popPK | Rolnik_2022 | irrelevant | 1 | 0 | The study is an in-vitro mechanistic investigation of vascular resistance and oxidative stress using myo-inositol, reporting no pharmacokinetic parameters such as clearance, volume, or half-life. |
+| popPK | Roy_2025 | irrelevant | 0 | 0 | This is a metabolic flux analysis study in an ALS mouse model, not a pharmacokinetic study reporting clearance or volume of distribution for inositol. |
+| popPK | Taghizadeh_2022 | irrelevant | 0 | 0 | The paper is a pharmacological study on cyclotides acting on the CCK2 receptor, using inositol phosphate (IP1) as a signaling readout, not a pharmacokinetic study of the drug inositol. |
+| popPK | Tegge_1991 | irrelevant | 0 | 0 | This is a chemical synthesis and in-vitro mechanistic study of inositol phosphates, not a pharmacokinetic study. |
+| popPK | Voevodskaya_2019 | irrelevant | 0 | 0 | The study uses myo-inositol as a biomarker in MRS for Alzheimer's pathology, not as a subject drug for pharmacokinetic analysis, and reports no disposition parameters (CL, V, ka). |
+| popPK | Wang_2024 | irrelevant | 0 | 0 | The paper studies orexin receptor agonists, and inositol is only mentioned as a component of the in vitro assay (inositol phosphate accumulation), not as the subject drug. |
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-09-21 22:10 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-10-07 16:34 UTC</sub>

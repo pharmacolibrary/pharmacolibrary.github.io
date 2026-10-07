@@ -1,55 +1,57 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01B&quot;,&quot;href&quot;:&quot;atc/C01B.md&quot;},{&quot;label&quot;:&quot;lidocaine&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/&quot;},{&quot;label&quot;:&quot;Bursi_2017 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Lidocaine_Bursi2017_reference&quot;,&quot;label&quot;:&quot;Bursi_2017_reference&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Bursi2017_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Lidocaine_Reichel1998_reference&quot;,&quot;label&quot;:&quot;Reichel_1998_reference&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Reichel1998_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_He2025_reference&quot;,&quot;label&quot;:&quot;He_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_He2025_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_0_3_solution_iv&quot;,&quot;label&quot;:&quot;Kim_2021_0_3_solution_iv&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_0_3_solution_iv.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_0_3_solution_sc&quot;,&quot;label&quot;:&quot;Kim_2021_0_3_solution_sc&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_0_3_solution_sc.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_estimate&quot;,&quot;label&quot;:&quot;Kim_2021_estimate&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_estimate.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_group_1&quot;,&quot;label&quot;:&quot;Kim_2021_group_1&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_group_1.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_group_2&quot;,&quot;label&quot;:&quot;Kim_2021_group_2&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_group_2.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_group_3&quot;,&quot;label&quot;:&quot;Kim_2021_group_3&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_group_3.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_group_4&quot;,&quot;label&quot;:&quot;Kim_2021_group_4&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_group_4.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_group_5&quot;,&quot;label&quot;:&quot;Kim_2021_group_5&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_group_5.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_gx&quot;,&quot;label&quot;:&quot;Kim_2021_gx&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_gx.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_lha_0_3_sc&quot;,&quot;label&quot;:&quot;Kim_2021_lha_0_3_sc&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_lha_0_3_sc.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_lha_1_sc&quot;,&quot;label&quot;:&quot;Kim_2021_lha_1_sc&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_lha_1_sc.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Lidocaine_Kim2021_lha_3_sc&quot;,&quot;label&quot;:&quot;Kim_2021_lha_3_sc&quot;,&quot;href&quot;:&quot;drugs/drug_lidocaine/Lidocaine_Kim2021_lha_3_sc.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # lidocaine — `Lidocaine_Bursi2017_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.333). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.308). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
-**Only volume was extracted — no clearance.**
+**Only volume was extracted — no clearance; v1 has no unit.**
 
-A model needs both clearance and volume; without the clearance it could only be built on a library default, so it was not. A reported unit could not be converted (V1, theta_k31_category and theta_v1_category), so that value has no SI equivalent. Extracted — lidocaine: kcomp 1.93 h−1, k31 -0.526 h−1, V1 0.312 IIV.
+A model needs both clearance and volume; without the clearance it could only be built on a library default, so it was not. Without a unit the value cannot be converted, so the model cannot use it. A reported unit could not be converted (V1, theta_k31_category and theta_v1_category), so that value has no SI equivalent. Extracted — lidocaine: kcomp 1.93 h−1, k31 -0.526 h−1, V1 0.312 IIV.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the links between molecules: this record has lidocaine → 2,6-xylidine (metabolism); lidocaine → monoethylglycinexylidide (metabolism); monoethylglycinexylidide → glycinexylidide (metabolism), the second reading lidocaine → 2,6-xylidine (metabolism); lidocaine → glycinexylidide (metabolism); glycinexylidide → monoethylglycinexylidide (metabolism); it also differs on 15 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the links between molecules: this record has lidocaine → 2,6-xylidine (metabolism); lidocaine → glycinexylidide (metabolism); glycinexylidide → monoethylglycinexylidide (metabolism), the second reading lidocaine → 2,6-xylidine (metabolism); lidocaine → glycinexylidide (metabolism); lidocaine → monoethylglycinexylidide (metabolism); it also differs on 17 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-10-05 09:27:22.034936+00:00) predates the upstream re-run (2026-10-06 03:22:38.208614+00:00). Current validate status: `rejected`.
+
 ## Citation
-Bursi R; Piana C; Grevel J; Huntjens D; Boesl I et al. (2017). European journal of drug metabolism and pharmacokinetics 42
+Bursi R et al., Evaluation of the Population Pharmacoki…, European journal of drug me… (2017)
   ·  DOI: [10.1007/s13318-017-0400-7](https://doi.org/10.1007/s13318-017-0400-7)
 
 ## Model component
-<dbs-pgx drug="lidocaine" model-id="Lidocaine_Bursi2017_reference" status="needs_review" stale="false" population="post-herpetic neuralgia patients" measured-compound="lidocaine" parameterization="mechanistic" topology="general_linear"></dbs-pgx>
+<dbs-pgx drug="lidocaine" model-id="Lidocaine_Bursi2017_reference" status="rejected" stale="true" population="post-herpetic neuralgia patients" measured-compound="lidocaine" parameterization="mechanistic" topology="general_linear"></dbs-pgx>
 
-**Model structure:** 1-compartment general linear model (non-mammillary edges) — template `PK_General_Linear`.  
-**Parameters:** 3 extracted, plus 5 covariate effects.
+**Model structure:** general linear; no model was built for this record.  
+**Parameters:** 5 extracted, plus 4 covariate effects.
 
 **Parameterization:** mechanistic.
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `needs_review`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
+> ⚠️ This record is not accepted (current status `rejected`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| k 23 (h−1) | `Q48` · kcomp | 1.93 | h−1 | 0.0005361111111111111 | [1] / [h] | 0.175 | space_fold (0.95) | Tab3:row3:col1, Tab3:row3:col2 | — | not captured |
+| k 23 (h−1) | `Q305` · kfm | 1.93 | h−1 | 0.0005361111111111111 | [1] / [h] | 0.175 | exact (1.0) | Tab3:row3:col1, Tab3:row3:col2 | — | not captured |
 | Effect of BIL &gt;0.53 on k 30 (h−1) | `Q304` · k31 | -0.526 | h−1 | -0.00014611111111111113 | [1] / [h] | 0.148 | llm (0.6) | Tab3:row7:col1, Tab3:row7:col2 | — | not captured |
-| V 1 | `Q63` · V1 | 0.312 | IIV | not captured | [iiv] | 0.0757 | space_fold (0.95) | Tab3:row22:col1, Tab3:row22:col2, Tab3:row22:col4 | — | not captured |
-| theta_k31_category | `Q900` · theta_k31_category | 1.44 | h−1 | not captured | not captured | 0.169 | not captured (not captured) | Tab3:row5:col1, Tab3:row5:col2 | — | not captured |
-| theta_k31_cyp1a2 | `Q900` · theta_k31_cyp1a2 | 0.852 | not captured | not captured | not captured | 0.27 | not captured (not captured) | Tab3:row9:col1, Tab3:row9:col2 | — | not captured |
+| k 30 | `Q373` · ki0 | 0.39 | 1/h | 0.00010833333333333334 | 1/h | 0.127 | space_fold (0.95) | Tab3:row20:col1, Tab3:row20:col2, Tab3:row20:col4 | — | not captured |
+| k 40 | `Q373` · ki0 | 0.2 | 1/h | 5.555555555555556e-05 | 1/h | 0.0424 | space_fold (0.95) | Tab3:row21:col1, Tab3:row21:col2, Tab3:row21:col4 | — | not captured |
+| V 1 | `Q63` · V1 | 0.312 | L | 0.000312 | L | 0.0757 | space_fold (0.95) | Tab3:row22:col1, Tab3:row22:col2, Tab3:row22:col4 | — | not captured |
+| theta_q47_category | `Q900` · theta_q47_category | 1.44 | not captured | not captured | not captured | 0.169 | not captured (not captured) | Tab3:row5:col1, Tab3:row5:col2 | — | not captured |
 | theta_k31_bmi | `Q900` · theta_k31_bmi | 0.938 | not captured | not captured | not captured | 0.309 | not captured (not captured) | Tab3:row10:col1, Tab3:row10:col2 | — | not captured |
-| theta_q348_category | `Q900` · theta_q348_category | 0.667 | not captured | not captured | not captured | 0.0383 | not captured (not captured) | Tab3:row12:col1, Tab3:row12:col2 | — | not captured |
-| theta_v1_category | `Q900` · theta_v1_category | 1320 | IIV | not captured | not captured | 99.5 | not captured (not captured) | Tab3:row15:col1, Tab3:row15:col2 | — | not captured |
+| theta_q47_category | `Q900` · theta_q47_category | 0.667 | not captured | not captured | not captured | 0.0383 | not captured (not captured) | Tab3:row12:col1, Tab3:row12:col2 | — | not captured |
+| theta_v1_category | `Q900` · theta_v1_category | 1320 | not captured | not captured | not captured | 99.5 | not captured (not captured) | Tab3:row15:col1, Tab3:row15:col2 | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -60,26 +62,30 @@ Bursi R; Piana C; Grevel J; Huntjens D; Boesl I et al. (2017). European journal 
 
 **Interpretation flags:**
 - dropped duplicate Q304 ('Effect of CLCR ≤52.7 on k 30 (h−1)', value '-0.32') — already have one for this compound
-- dropped unlinked row (NIL): 'Effect of ALT &gt;11 on k 30 (h−1)' — extend the ontology if this is a real PK parameter (source ['Tab3:row11:col1', 'Tab3:row11:col2'])
+- dropped unlinked row (NIL): 'Effect of CYP1A2 substrate on k 30 (h−1)' — extend the ontology if this is a real PK parameter (source ['Tab3:row9:col1', 'Tab3:row9:col2'])
+- dropped duplicate Q304 ('Effect of ALT &gt;11 on k 30 (h−1)', value '-0.492') — already have one for this compound
 - dropped unlinked row (NIL): 'Effect of ALT &gt;11 on k 40 (h−1)' — extend the ontology if this is a real PK parameter (source ['Tab3:row14:col1', 'Tab3:row14:col2'])
-- routed 'k 30' → Q312 (IIV) to iiv — variability estimate, not a structural parameter
-- routed 'k 40' → Q312 (IIV) to iiv — variability estimate, not a structural parameter
-- unit_dimension_unknown: 'IIV' (V1)
 - dropped unlinked row (NIL): 'Lidocaine' — extend the ontology if this is a real PK parameter (source ['Tab3:row25:col1', 'Tab3:row25:col2', 'Tab3:row25:col4'])
 - dropped unlinked row (NIL): 'MEGX' — extend the ontology if this is a real PK parameter (source ['Tab3:row26:col1', 'Tab3:row26:col2', 'Tab3:row26:col4'])
 - dropped unlinked row (NIL): 'GX' — extend the ontology if this is a real PK parameter (source ['Tab3:row27:col1', 'Tab3:row27:col2', 'Tab3:row27:col4'])
 - dropped unlinked row (NIL): '2,6-xylidine' — extend the ontology if this is a real PK parameter (source ['Tab3:row28:col1', 'Tab3:row28:col2', 'Tab3:row28:col4'])
-- dropped duplicate covariate effect 'category'/'' on Q304 — ambiguous identity (two shifts cannot share one category)
-- covariate effect for Q348 has no base parameter row (kept as unattached equation-variable)
-- dropped duplicate covariate effect 'category'/'' on Q348 — ambiguous identity (two shifts cannot share one category)
+- covariate effect for Q47 has no base parameter row (kept as unattached equation-variable)
+- dropped duplicate covariate effect 'category'/'' on Q47 — ambiguous identity (two shifts cannot share one category)
 - dropped duplicate covariate effect 'category'/'' on Q63 — ambiguous identity (two shifts cannot share one category)
+- implicit units: 'k 30' → 1/h (from the popPK convention: "The parameter is a first-order elimination rate constant (k30). The paper text explicitly states 'lidocaine K el was est")
+- implicit units: 'k 40' → 1/h (from the popPK convention: "The parameter is a first-order elimination rate constant (k40). The paper text explicitly states 'lidocaine K el was est")
+- implicit units: 'V 1' → L (from the popPK convention: "The parameter is the volume of distribution of the central compartment (V1). The paper text states 'apparent volume of d")
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=lidocaine
-- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - topology: 3 first-order transfer(s) across 4 compounds → general_linear
-- status held at route_to_review — not promoted
+- template fit: none — 3 metabolites — the templates hold two
+- row roles: 2 per-group rows of glycinexylidide elimination_rate_constant but 0 reference group(s) — kept as printed
+- row roles: 2 per-group rows of 2,6-xylidine elimination_rate_constant but 0 reference group(s) — kept as printed
+- row roles: 2 per-group rows of lidocaine central_volume but 0 reference group(s) — kept as printed
+- row roles (LLM): model_class=compartmental; 20/20 row label(s) assigned, 14 linked by role; re-tagged parent→glycinexylidide ×22, parent→2,6-xylidine ×12, parent→monoethylglycinexylidide ×3
 - skipped review gap-fill of CL: primary's parameterization (rate-constant / ka-only) does not use it
 - skipped review gap-fill of V2: primary is GENERAL_LINEAR (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary's parameterization (rate-constant / ka-only) does not use it
+- skipped review gap-fill of TLAG: primary's parameterization (rate-constant / ka-only) does not use it
 
 **Extraction notes:**
 - unparsed cell Tab3:row3:col3 = '(1.59; 2.27)'
@@ -111,26 +117,28 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.333 (8/24 fields) | 16 |
+| `gpt-oss:120b` | not confirmed | 0.308 (8/26 fields) | 18 |
 
-<details><summary>16 field(s) a reader read differently</summary>
+<details><summary>18 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `model.links` | [['lidocaine', '2,6-xylidine', 'metabolism'], ['lidocaine', 'monoethylglycinexylidide', 'metabolism'], ['monoethylglycinexylidide', 'glycinexylidide', 'metabolism']] | [['lidocaine', '2,6-xylidine', 'metabolism'], ['lidocaine', 'glycinexylidide', 'metabolism'], ['glycinexylidide', 'monoethylglycinexylidide', 'metabolism']] | mismatch |
-| `gpt-oss:120b` | `parameters[effect of bil &gt;0.53 on k 30].covariate_forms` | ['additive_shift', 'linear_fractional', 'linear_fractional'] | ['additive_shift', 'linear_fractional'] | mismatch |
-| `gpt-oss:120b` | `parameters[effect of bil &gt;0.53 on k 30].parameter_id` | Q304 | Q47 | mismatch |
+| `gpt-oss:120b` | `model.links` | [['lidocaine', '2,6-xylidine', 'metabolism'], ['lidocaine', 'glycinexylidide', 'metabolism'], ['glycinexylidide', 'monoethylglycinexylidide', 'metabolism']] | [['lidocaine', '2,6-xylidine', 'metabolism'], ['lidocaine', 'glycinexylidide', 'metabolism'], ['lidocaine', 'monoethylglycinexylidide', 'metabolism']] | mismatch |
+| `gpt-oss:120b` | `parameters[effect of alt &gt;11 on k 30]` | not captured | -0.492 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[effect of alt &gt;11 on k 40]` | not captured | 0.229 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[effect of bil &gt;0.53 on k 30].covariate_forms` | ['linear_fractional'] | [] | mismatch |
+| `gpt-oss:120b` | `parameters[effect of bil &gt;0.53 on k 30].parameter_id` | Q304 | Q48 | mismatch |
 | `gpt-oss:120b` | `parameters[effect of bil &gt;0.53 on k 30].rse_percent` | 0.148 | not captured | mismatch |
-| `gpt-oss:120b` | `parameters[k 23].covariate_forms` | [] | ['additive_shift'] | mismatch |
 | `gpt-oss:120b` | `parameters[k 23].rse_percent` | 0.175 | not captured | mismatch |
+| `gpt-oss:120b` | `parameters[k 30]` | 0.39 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[k 40]` | 0.2 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[theta_k31_bmi]` | 0.938 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[theta_k31_category]` | 1.44 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[theta_k31_cyp1a2]` | 0.852 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[theta_kcomp_category]` | not captured | 2.07 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[theta_kel_bmi]` | not captured | 0.938 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[theta_kel_category]` | not captured | 0.667 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[theta_kel_category]` | not captured | 1.44 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[theta_q348_category]` | 0.667 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[theta_q51_cyp1a2]` | not captured | 0.852 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[theta_kel_cyp1a2]` | not captured | 0.852 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[theta_q47_category]` | 0.667 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[theta_q47_category]` | 1.44 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[theta_v1_category].rse_percent` | 99.5 | not captured | mismatch |
 | `gpt-oss:120b` | `parameters[v 1].rse_percent` | 0.0757 | not captured | mismatch |
 
@@ -146,13 +154,17 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 8 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 5 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
 | C2_reference | pass | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q304 | pass | 1 / [time] | not captured | not captured | not captured | ['Tab3:row7:col1', 'Tab3:row7:col2'] |
-| C5_dimension_Q48 | pass | 1 / [time] | not captured | not captured | not captured | ['Tab3:row3:col1', 'Tab3:row3:col2'] |
+| C5_dimension_Q305 | pass | 1 / [time] | not captured | not captured | not captured | ['Tab3:row3:col1', 'Tab3:row3:col2'] |
+| C5_dimension_Q373 | pass | 1 / [time] | not captured | not captured | not captured | ['Tab3:row20:col1', 'Tab3:row20:col2', 'Tab3:row20:col4'] |
+| C5_dimension_Q373 | pass | 1 / [time] | not captured | not captured | not captured | ['Tab3:row21:col1', 'Tab3:row21:col2', 'Tab3:row21:col4'] |
+| C5_dimension_Q63 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab3:row22:col1', 'Tab3:row22:col2', 'Tab3:row22:col4'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+| C9_phys_window_Q63 | fail | volume within physiological range | 0.312 L | not captured | not captured | ['Tab3:row22:col1', 'Tab3:row22:col2', 'Tab3:row22:col4'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -166,19 +178,9 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-tab-mark" data-tab="Models"></div>
 
-## Downloadable models
+## Models
 
-<div class="pk-models-grid"><div class="pk-models-table">
-<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-</tbody></table>
-<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
-</div></div>
+<p>No downloads: this record is <b>rejected</b>, so it is not published as a model. Any archives generated for it before the verdict have been removed — a download outlives the page that explains it.</p>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
@@ -187,4 +189,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-20 16:12 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-06 03:22 UTC</sub>

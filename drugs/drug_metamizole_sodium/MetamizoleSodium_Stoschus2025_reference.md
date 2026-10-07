@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N02B&quot;,&quot;href&quot;:&quot;atc/N02B.md&quot;},{&quot;label&quot;:&quot;metamizole sodium&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/&quot;},{&quot;label&quot;:&quot;Stoschus_2025 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;MetamizoleSodium_Ekobena2025_reference&quot;,&quot;label&quot;:&quot;Ekobena_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/MetamizoleSodium_Ekobena2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;MetamizoleSodium_Himstedt2020_reference&quot;,&quot;label&quot;:&quot;Himstedt_2020_reference&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/MetamizoleSodium_Himstedt2020_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;MetamizoleSodium_Morath2025_reference&quot;,&quot;label&quot;:&quot;Morath_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/MetamizoleSodium_Morath2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;MetamizoleSodium_Nandy2010_reference&quot;,&quot;label&quot;:&quot;Nandy_2010_reference&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/MetamizoleSodium_Nandy2010_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;MetamizoleSodium_Stoschus2025_reference&quot;,&quot;label&quot;:&quot;Stoschus_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;MetamizoleSodium_Blaser2021_metamizole_n_8&quot;,&quot;label&quot;:&quot;Blaser_2021_metamizole_n_8&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/MetamizoleSodium_Blaser2021_metamizole_n_8.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;MetamizoleSodium_Blaser2021_naproxen_n_7&quot;,&quot;label&quot;:&quot;Blaser_2021_naproxen_n_7&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/MetamizoleSodium_Blaser2021_naproxen_n_7.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;MetamizoleSodium_Wehrfritz2026_reference&quot;,&quot;label&quot;:&quot;Wehrfritz_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/MetamizoleSodium_Wehrfritz2026_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;MetamizoleSodium_Ziesenitz2019_reference&quot;,&quot;label&quot;:&quot;Ziesenitz_2019_reference&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/MetamizoleSodium_Ziesenitz2019_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;MetamizoleSodium_Ekobena2025_reference&quot;,&quot;label&quot;:&quot;Ekobena_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/MetamizoleSodium_Ekobena2025_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;MetamizoleSodium_Stoschus2025_reference&quot;,&quot;label&quot;:&quot;Stoschus_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # metamizole sodium — `MetamizoleSodium_Stoschus2025_reference`
 
-> ## <span class="pk-badge pk-badge--green">reviewed — candidate</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.417). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.583). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -17,30 +17,34 @@
 
 ### Reviewer guidance
 
-**Every check that could be run on this record passed.**
+**The metamizole sodium record was held back because its apparent parameterization (F=1, Fm=1, no molar correction) was judged not acceptable, with Tlag left at a default instead of an explicit estimate.**
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on parameter Q27: this record has none, the second reading .314; it also differs on 6 more fields. That field shapes the model, so the record is marked disputed.
+The model reports CL/F of 0.314 L/h, V of 34.3 L and kabs of 1.9 h−1 for metamizole sodium, but the builder assumed F=1 and Fm=1 without molar correction, and the adjudication of this apparent assumption returned 'not acceptable'. Tlag was defaulted rather than estimated. A second reader also disagreed on the parameterization (mechanistic versus apparent) and on the volume value, reading 44.3 L where the record has 34.3 L, and left the CL/F value unread. Extracted — metamizole sodium: CL/F 0.314 L/h, V 34.3 L, kabs 1.9 h−1.
 
-<sub>reviewed by rule template (no LLM)</sub>
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of CL/F: this record has .314, the second reading none; it also differs on 4 more fields. That field shapes the model, so the record is marked disputed.
+
+<sub>reviewed by glm-5.3-flash</sub>
+
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-10-05 09:28:05.403958+00:00) predates the upstream re-run (2026-10-07 15:26:35.886493+00:00). Current validate status: `extracted`.
 
 ## Citation
-Stoschus M; Schmidbauer ML; Starp J; Kunst S; Gakis G; Paal M; Vogeser M; Scharf-Janssen C; Liebchen U; Dimitriadis K et al. (2025). Epilepsia 66
+Stoschus M et al., Optimizing phenobarbital dosing in crit…, Epilepsia (2025)
   ·  DOI: [10.1111/epi.18517](https://doi.org/10.1111/epi.18517)
 
 ## Model component
-<dbs-pgx drug="metamizole sodium" model-id="MetamizoleSodium_Stoschus2025_reference" status="curated_candidate" stale="false" population="" measured-compound="metamizole_sodium" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="metamizole sodium" model-id="MetamizoleSodium_Stoschus2025_reference" status="extracted" stale="true" population="" measured-compound="metamizole_sodium" parameterization="apparent" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
 **Parameters:** 3 extracted.
 
-**Parameterization:** mechanistic.
+**Parameterization:** CL/F — apparent, F unknown (apparent — bioavailability not identifiable).
 
 ## Parameters
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| CL, L/h | `Q22` · CL | 0.38 | L/h | 1.0555555555555557e-07 | L/h | not captured | review (0.7) | Stoschus_2025:review | — | not captured |
-| V, L | `Q61` · V | 34.3 | L | 0.0343 | L | not captured | review (0.7) | Stoschus_2025:review | — | not captured |
-| k a, h−1 | `Q49` · kabs | 1.9 | h−1 | 0.0005277777777777777 | 1/h | not captured | review (0.7) | Stoschus_2025:review | — | not captured |
+| CL/F | `Q27` · CL/F | 0.314 | L/h | 8.722222222222221e-08 | L/h | not captured | review (0.7) | Stoschus_2025:review | — | not captured |
+| V | `Q61` · V | 34.3 | L | 0.0343 | L | not captured | review (0.7) | Stoschus_2025:review | — | not captured |
+| ka | `Q49` · kabs | 1.9 | h−1 | 0.0005277777777777777 | 1/h | not captured | review (0.7) | Stoschus_2025:review | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -50,7 +54,8 @@ Stoschus M; Schmidbauer ML; Starp J; Kunst S; Gakis G; Paal M; Vogeser M; Scharf
 ## Departures & gaps
 
 **Deviations:**
-- `defaulted_parameters`: ['F', 'Tlag']
+- `defaulted_parameters`: ['Tlag']
+- `apparent_assumption`: F=1, Fm=1, no molar correction (parameterization=apparent)
 
 **Interpretation flags:**
 - built from REVIEW reference values (Stoschus_2025) — secondary source
@@ -63,19 +68,17 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.417 (5/12 fields) | 7 |
+| `gpt-oss:120b` | not confirmed | 0.583 (7/12 fields) | 5 |
 
-<details><summary>7 field(s) a reader read differently</summary>
+<details><summary>5 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `model.parameterization` | mechanistic | apparent | mismatch |
-| `gpt-oss:120b` | `values[Q27]` | not captured | .314 | only_one_extracted |
-| `gpt-oss:120b` | `values[Q312]` | not captured | 81.36 | only_one_extracted |
-| `gpt-oss:120b` | `values[Q313]` | not captured | 36.85 | only_one_extracted |
-| `gpt-oss:120b` | `values[Q316]` | 0.082 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `model.parameterization` | apparent | mechanistic | mismatch |
+| `gpt-oss:120b` | `values[Q27]` | .314 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `values[Q34]` | 44.3 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `values[Q35]` | not captured | 44.3 | only_one_extracted |
-| `gpt-oss:120b` | `values[Q60]` | not captured | 62.6 | only_one_extracted |
+| `gpt-oss:120b` | `values[Q40]` | .96 | 0.96 | mismatch |
 
 </details>
 
@@ -92,12 +95,12 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | C0_has_structural_params | pass | not captured | 3 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
-| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Stoschus_2025:review'] |
+| C5_dimension_Q27 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Stoschus_2025:review'] |
 | C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Stoschus_2025:review'] |
 | C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Stoschus_2025:review'] |
-| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 0.38 | not captured | not captured | ['Stoschus_2025:review'] |
+| C7_apparent_coherence | pass | not captured | not captured | not captured | not captured | not captured |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
-| C9_phys_window_Q22 | pass | clearance within physiological range | 0.38 L/h | not captured | not captured | ['Stoschus_2025:review'] |
+| C9_phys_window_Q27 | pass | clearance within physiological range | 0.314 L/h | not captured | not captured | ['Stoschus_2025:review'] |
 | C9_phys_window_Q61 | pass | volume within physiological range | 34.3 L | not captured | not captured | ['Stoschus_2025:review'] |
 
 **Reviewer per-scenario checks:**
@@ -106,10 +109,11 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 |---|---|---|---|---|---|---|
 | T0_analyte_identity | not captured | pass | not captured | not captured | not captured | V/CL labels are the drug's (or a metabolite's), no biomarker signal |
 | T2_covariates | not captured | skipped | not captured | not captured | not captured | no covariate effects in record |
-| T3_output_variable | not captured | pass | C_central (measured=metamizole_sodium) | central.C | not captured | output must be the measured/analyte compartment |
+| T3_apparent_invariant | not captured | pass | not captured | F=Fm=1, no molar correction | not captured | apparent params must not be double-corrected |
+| T3_output_variable | not captured | pass | C_central (measured=metamizole_sodium) | C_central | not captured | output must be the measured/analyte compartment |
 | T3_param_coverage | not captured | pass | 3 scholar param(s) emitted or defaulted | 3 covered | not captured | all structural parameters accounted for |
 | T3_topology_template | not captured | pass | 1C → PK_1C* | PK_1C_enteral | not captured | engineer template must match the scholar topology |
-| T6_deviations | not captured | pass | not captured | all deviations documented+quantified | not captured | LLM adjudication → deterministic rule |
+| T6_deviations | not captured | fail | not captured | apparent_assumption: not acceptable | not captured | LLM adjudication → deterministic rule |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -130,8 +134,8 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference/MetamizoleSodium_Stoschus2025_reference_modelica.zip" download>MetamizoleSodium_Stoschus2025_reference_modelica.zip</a> <span class="pk-size">(3.5 kB)</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference/MetamizoleSodium_Stoschus2025_reference_fmi.zip" download>MetamizoleSodium_Stoschus2025_reference_fmi.zip</a> <span class="pk-size">(4.2 kB)</span><br><a href="models/fmu/PK_1C_enteral.fmu" download>PK_1C_enteral.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference/MetamizoleSodium_Stoschus2025_reference_modelica.zip" download>MetamizoleSodium_Stoschus2025_reference_modelica.zip</a> <span class="pk-size">(3.9 kB)</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference/MetamizoleSodium_Stoschus2025_reference_fmi.zip" download>MetamizoleSodium_Stoschus2025_reference_fmi.zip</a> <span class="pk-size">(4.3 kB)</span><br><a href="models/fmu/PK_1C_enteral.fmu" download>PK_1C_enteral.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference/MetamizoleSodium_Stoschus2025_reference_matlab.zip" download>MetamizoleSodium_Stoschus2025_reference_matlab.zip</a> <span class="pk-size">(3.4 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference/MetamizoleSodium_Stoschus2025_reference_matlab_simbio.zip" download>MetamizoleSodium_Stoschus2025_reference_matlab_simbio.zip</a> <span class="pk-size">(2.8 kB)</span></td></tr>
 <tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference/MetamizoleSodium_Stoschus2025_reference_sbml.zip" download>MetamizoleSodium_Stoschus2025_reference_sbml.zip</a> <span class="pk-size">(2.6 kB)</span></td></tr>
@@ -143,7 +147,7 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-**Administration: oral** — 700 mg, single dose, first-order absorption (ka 1.9 /h, F 0.9). Doses in the paper: 700–1400 mg.
+**Administration: oral** — 3000 mg, single dose, first-order absorption (ka 1.9 /h, F 1). _The paper's dose was not captured; the default is the WHO ATC DDD 3000 mg oral (N02BB02) (defined daily dose)._
 
 <dbs-fmusim paramsurl="drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference/MetamizoleSodium_Stoschus2025_reference_params.json" metaurl="assets/fmu/PK_1C_enteral.vr.json" wasmurl="assets/fmu/PK_1C_enteral.js" controlsurl="drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference/MetamizoleSodium_Stoschus2025_reference_sim_controls.json"></dbs-fmusim>
 
@@ -152,4 +156,4 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-21 00:37 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 15:26 UTC</sub>

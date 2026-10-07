@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C10A&quot;,&quot;href&quot;:&quot;atc/C10A.md&quot;},{&quot;label&quot;:&quot;atorvastatin&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/&quot;},{&quot;label&quot;:&quot;Langeskov_2022 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Atorvastatin_Chen2025_reference&quot;,&quot;label&quot;:&quot;Chen_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Chen2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Jadhav2023_reference&quot;,&quot;label&quot;:&quot;Jadhav_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Jadhav2023_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Kong2025_reference&quot;,&quot;label&quot;:&quot;Kong_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Kong2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Li2024_reference&quot;,&quot;label&quot;:&quot;Li_2024_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Li2024_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Morath2025_reference&quot;,&quot;label&quot;:&quot;Morath_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Morath2025_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Courlet2020_reference&quot;,&quot;label&quot;:&quot;Courlet_2020_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Courlet2020_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Malekinejad2014_reference&quot;,&quot;label&quot;:&quot;Malekinejad_2014_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Malekinejad2014_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Park2017_reference&quot;,&quot;label&quot;:&quot;Park_2017_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Park2017_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Stillemans2022_reference&quot;,&quot;label&quot;:&quot;Stillemans_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Stillemans2022_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Wen2023_reference&quot;,&quot;label&quot;:&quot;Wen_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Wen2023_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Langeskov2022_reference&quot;,&quot;label&quot;:&quot;Langeskov_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Langeskov2022_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Atorvastatin_Narwal2010_reference&quot;,&quot;label&quot;:&quot;Narwal_2010_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Narwal2010_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Tsamandouras2017_reference&quot;,&quot;label&quot;:&quot;Tsamandouras_2017_reference&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Tsamandouras2017_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Atorvastatin_Chen2025_reference&quot;,&quot;label&quot;:&quot;Chen_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Chen2025_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Jadhav2023_reference&quot;,&quot;label&quot;:&quot;Jadhav_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Jadhav2023_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Kong2025_reference&quot;,&quot;label&quot;:&quot;Kong_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Kong2025_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Li2024_reference&quot;,&quot;label&quot;:&quot;Li_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Li2024_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Malekinejad2014_reference&quot;,&quot;label&quot;:&quot;Malekinejad_2014_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Malekinejad2014_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Atorvastatin_Courlet2020_reference&quot;,&quot;label&quot;:&quot;Courlet_2020_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/Atorvastatin_Courlet2020_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Vargo_2014_LDL_C&quot;,&quot;label&quot;:&quot;Vargo_2014 \u00b7 LDL-C&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_atorvastatin/pd_Vargo_2014_LDL_C.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # atorvastatin — `Atorvastatin_Langeskov2022_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.733). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.846). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -17,16 +17,16 @@
 
 ### Reviewer guidance
 
-**The atorvastatin record was rejected because the structural parameters V1/F (1843), CL/F (620), V2/F (4184) and Q2/F (873) were reported with the unit 'Units', which could not be converted to SI, so no SI values were available.**
+**The atorvastatin record was rejected because the volumes and clearances (V1/F 1843, CL/F 620, V2/F 4184, Q2/F 873) were reported only as 'Units' without a convertible unit, leaving a dimension mismatch on structural parameters.**
 
-The paper's table gives these four parameters with a footnote marker ('a') in place of a real unit, and the verbatim unit was recorded as 'Units', which could not be converted to SI; the parameters therefore reached the model without SI values and failed the dimension check on a structural parameter. The absorption parameters kabs (9.4) and ktr (7.28) likewise carry 'Placebo' as the verbatim unit. A second reader also disagreed on the intercompartmental clearance Cl2/F, reading no value where this record has 199 L/h, and on the covariate coefficients, reading 0.525 for Θkacovariate (absent here) and none for Θktrcovariate (0.791 here). Extracted — atorvastatin: kabs 9.4 Placebo, ktr 7.28 Placebo, V1/F 1.84e+03 Units, CL/F 620 Units, V2/F 4.18e+03 Units, Q2/F 873 Units, Q/F 199 L/h, tlag 0.16 h.
+The paper lists V1/F, CL/F, V2/F and Q2/F with the unit verbatim 'Units' instead of litres or litres per hour, so no SI value could be assigned and the dimension check on these structural parameters failed. A second reader also disagreed on the ktr covariate coefficient, which this record gives as 0.791 but the second reader recorded as absent, and on the model's links between compartments. Extracted — atorvastatin: kabs 9.4 1/h, ktr 7.28 1/h, V1/F 1.84e+03 Units, CL/F 620 Units, V2/F 4.18e+03 Units, Q2/F 873 Units, Q/F 199 L/h, tlag 0.16 h.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of cl2/f: this record has 199, the second reading none; it also differs on 3 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the links between molecules: this record has none, the second reading none → none (none); it also differs on 1 more field. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
 ## Citation
-Langeskov EK; Kristensen K et al. (2022). Pharmacology research & perspectives 10
+Langeskov EK et al., Population pharmacokinetic of paracetam…, Pharmacology research & per… (2022)
   ·  DOI: [10.1002/prp2.962](https://doi.org/10.1002/prp2.962)
 
 ## Model component
@@ -42,11 +42,11 @@ Langeskov EK; Kristensen K et al. (2022). Pharmacology research & perspectives 1
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| ka (h−1) (Placebo) | `Q49` · kabs | 9.4 | Placebo | not captured | [placebo] | not captured | space_fold (0.95) | prp2962-tbl-0003:row1:col1, Langeskov_2022_table_2:row0:col1 | — | 0.514 (None% RSE) |
-| ktr (h−1) (Placebo) | `Q306` · ktr | 7.28 | Placebo | not captured | [placebo] | not captured | space_fold (0.95) | prp2962-tbl-0003:row3:col1 | — | 1.82 (None% RSE) |
-| V1/F (L) a | `Q290` · V1/F | 1843 | Units | not captured | [units] | not captured | llm_confirmed (0.6) | prp2962-tbl-0003:row5:col1 | — | 0.270 (None% RSE) |
-| Cl/F (L/h) a | `Q27` · CL/F | 620 | Units | not captured | [units] | not captured | llm_confirmed (0.6) | prp2962-tbl-0003:row6:col1 | — | 0.0606 (None% RSE) |
-| V2/F(L) a | `Q82` · V2/F | 4184 | Units | not captured | [units] | not captured | llm_confirmed (0.6) | prp2962-tbl-0003:row7:col1 | — | 0.0703 (None% RSE) |
+| ka (h−1) (Placebo) | `Q49` · kabs | 9.4 | 1/h | 0.0026111111111111114 | 1/h | not captured | space_fold (0.95) | prp2962-tbl-0003:row1:col1, Langeskov_2022_table_2:row0:col1 | — | 2.03 (None% RSE) |
+| ktr (h−1) (Placebo) | `Q306` · ktr | 7.28 | 1/h | 0.002022222222222222 | 1/h | not captured | space_fold (0.95) | prp2962-tbl-0003:row3:col1 | — | 1.82 (None% RSE) |
+| V1/F (L) a | `Q290` · V1/F | 1843 | Units | not captured | [units] | not captured | llm_confirmed (0.6) | prp2962-tbl-0003:row5:col1 | — | 0.625 (None% RSE) |
+| Cl/F (L/h) a | `Q27` · CL/F | 620 | Units | not captured | [units] | not captured | llm_confirmed (0.6) | prp2962-tbl-0003:row6:col1 | — | 0.151 (None% RSE) |
+| V2/F(L) a | `Q82` · V2/F | 4184 | Units | not captured | [units] | not captured | llm_confirmed (0.6) | prp2962-tbl-0003:row7:col1 | — | 0.111 (None% RSE) |
 | Cl2/F (L/h) a | `Q80` · Q2/F | 873 | Units | not captured | [units] | not captured | llm (0.6) | prp2962-tbl-0003:row8:col1 | — | not captured |
 | Cl2/F (L/h) | `Q69` · Q/F | 199 | L/h | 5.5277777777777783e-05 | [l] / [h] | not captured | special_case (0.95) | Langeskov_2022_table_2:row6:col1 | — | not captured |
 | Tlag (h) | `Q83` · tlag | 0.16 | h | 576.0 | [h] | not captured | exact (1.0) | Langeskov_2022_table_2:row7:col1 | — | 0.0586 (None% RSE) |
@@ -60,6 +60,18 @@ Langeskov EK; Kristensen K et al. (2022). Pharmacology research & perspectives 1
 ## Departures & gaps
 
 **Interpretation flags:**
+- table section iiv: 'ω2 Ka' routed out of structural estimates ('Between subject variability (ω2)')
+- table section iiv: 'ω2 Ktr' routed out of structural estimates ('Between subject variability (ω2)')
+- table section iiv: 'ω2 V1/F' routed out of structural estimates ('Between subject variability (ω2)')
+- table section iiv: 'ω2 Cl/f' routed out of structural estimates ('Between subject variability (ω2)')
+- table section iiv: 'ω2 V2/F' routed out of structural estimates ('Between subject variability (ω2)')
+- table section iiv: 'Residual unexplained variability (Ceps)' routed out of structural estimates ('Between subject variability (ω2)')
+- table section iiv: 'ω2 Ka' routed out of structural estimates ('Between subject variablity (ω2)')
+- table section iiv: 'ω2 V1/F' routed out of structural estimates ('Between subject variablity (ω2)')
+- table section iiv: 'ω2 Cl/f' routed out of structural estimates ('Between subject variablity (ω2)')
+- table section iiv: 'ω2 V2/F' routed out of structural estimates ('Between subject variablity (ω2)')
+- table section iiv: 'ω2 Tlag' routed out of structural estimates ('Between subject variablity (ω2)')
+- table section iiv: 'Residual unexplained variability (Ceps)' routed out of structural estimates ('Between subject variablity (ω2)')
 - unit_dimension_unknown: 'Placebo' (kabs)
 - routed 'Θkacovariate' → Q314 (omega_cov) to covariance — variability estimate, not a structural parameter
 - unit_dimension_unknown: 'Placebo' (ktr)
@@ -72,6 +84,8 @@ Langeskov EK; Kristensen K et al. (2022). Pharmacology research & perspectives 1
 - dropped duplicate Q290 ('ΘV1/Fcovariate', value '0.0312') — already have one for this compound
 - dropped duplicate Q27 ('Cl/F (L/h)', value '25.9') — already have one for this compound
 - dropped duplicate Q82 ('V2/F (L)', value '55.4') — already have one for this compound
+- implicit units: 'ka (h−1) (Placebo)' → 1/h (from the paper text: "The paper text states: 'The ka of 4.33 h−1 for immediate release tablets found by Jiang et al., 28 was close to the curr")
+- implicit units: 'ktr (h−1) (Placebo)' → 1/h (from the paper text: "The paper text states: '...ka = 5.7 h‐1, ktr = 7.3 h‐1, V1/F = 1843 L...'")
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=atorvastatin
 - held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - status held at route_to_review — not promoted
@@ -127,15 +141,13 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.733 (11/15 fields) | 4 |
+| `gpt-oss:120b` | not confirmed | 0.846 (11/13 fields) | 2 |
 
-<details><summary>4 field(s) a reader read differently</summary>
+<details><summary>2 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `parameters[cl2/f (l/h) a].parameter_id` | Q80 | Q69 | mismatch |
-| `gpt-oss:120b` | `parameters[cl2/f]` | 199 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[θkacovariate]` | not captured | 0.525 | only_one_extracted |
+| `gpt-oss:120b` | `model.links` | [] | [['none', 'none', 'none']] | mismatch |
 | `gpt-oss:120b` | `parameters[θktrcovariate]` | 0.791 | not captured | only_one_extracted |
 
 </details>
@@ -150,17 +162,17 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 9 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 8 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q27 | fail | [luminosity] / [length] ** 2 | Units | not captured | not captured | ['prp2962-tbl-0003:row6:col1'] |
 | C5_dimension_Q290 | fail | [luminosity] / [length] ** 2 | Units | not captured | not captured | ['prp2962-tbl-0003:row5:col1'] |
+| C5_dimension_Q306 | pass | 1 / [time] | not captured | not captured | not captured | ['prp2962-tbl-0003:row3:col1'] |
+| C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['prp2962-tbl-0003:row1:col1', 'Langeskov_2022_table_2:row0:col1'] |
 | C5_dimension_Q69 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Langeskov_2022_table_2:row6:col1'] |
 | C5_dimension_Q80 | fail | [luminosity] / [length] ** 2 | Units | not captured | not captured | ['prp2962-tbl-0003:row8:col1'] |
 | C5_dimension_Q82 | fail | [luminosity] / [length] ** 2 | Units | not captured | not captured | ['prp2962-tbl-0003:row7:col1'] |
 | C5_dimension_Q83 | pass | [time] | not captured | not captured | not captured | ['Langeskov_2022_table_2:row7:col1'] |
-| C5_unit_missing_Q306 | fail | 1 / [time] | Placebo | not captured | not captured | ['prp2962-tbl-0003:row3:col1'] |
-| C5_unit_missing_Q49 | fail | 1 / [time] | Placebo | not captured | not captured | ['prp2962-tbl-0003:row1:col1', 'Langeskov_2022_table_2:row0:col1'] |
 | C7_apparent_coherence | pass | not captured | not captured | not captured | not captured | not captured |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
 
@@ -187,4 +199,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-23 23:36 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-03 16:07 UTC</sub>

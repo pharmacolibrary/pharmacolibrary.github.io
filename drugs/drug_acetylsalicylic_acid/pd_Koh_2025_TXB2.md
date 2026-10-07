@@ -1,78 +1,46 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A01A&quot;,&quot;href&quot;:&quot;atc/A01A.md&quot;},{&quot;label&quot;:&quot;acetylsalicylic acid&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/&quot;},{&quot;label&quot;:&quot;Koh_2025 \u00b7 PD thromboxane B2&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;AcetylsalicylicAcid_Thoueille2023_reference&quot;,&quot;label&quot;:&quot;Thoueille_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Thoueille2023_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;AcetylsalicylicAcid_Zapadniuk1987_reference&quot;,&quot;label&quot;:&quot;Zapadniuk_1987_reference&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Zapadniuk1987_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;AcetylsalicylicAcid_Cuny1979_reference&quot;,&quot;label&quot;:&quot;Cuny_1979_reference&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Cuny1979_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;AcetylsalicylicAcid_Dziubina2026_reference&quot;,&quot;label&quot;:&quot;Dziubina_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Dziubina2026_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;AcetylsalicylicAcid_Koh2025_reference&quot;,&quot;label&quot;:&quot;Koh_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Koh2025_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;AcetylsalicylicAcid_Shi2008_reference&quot;,&quot;label&quot;:&quot;Shi_2008_reference&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Shi2008_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;AcetylsalicylicAcid_CuestaGragera2015_reference&quot;,&quot;label&quot;:&quot;Cuesta-Gragera_2015_reference&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_CuestaGragera2015_reference.md&quot;,&quot;status&quot;:&quot;not simulated&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;AcetylsalicylicAcid_Bayoumy2025_reference&quot;,&quot;label&quot;:&quot;Bayoumy_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Bayoumy2025_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;AcetylsalicylicAcid_Dziubina2026_reference&quot;,&quot;label&quot;:&quot;Dziubina_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Dziubina2026_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;AcetylsalicylicAcid_Shi2008_reference&quot;,&quot;label&quot;:&quot;Shi_2008_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Shi2008_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;AcetylsalicylicAcid_Thoueille2023_reference&quot;,&quot;label&quot;:&quot;Thoueille_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Thoueille2023_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Koh_2025_TXB2&quot;,&quot;label&quot;:&quot;Koh_2025 \u00b7 TXB2&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_acetylsalicylic_acid/pd_Koh_2025_TXB2.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true}]"></div>
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # thromboxane B2 — PD  <span class="pk-badge pk-badge--green">reviewed — candidate</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.618). The first reading is what the record holds.">cross-check: disputed</span>
 
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
+
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
 ## What this record describes
 
-**As extracted:** Acetylsalicylic acid (concentrations from the PK model of Cuesta-Gragera_2015) drives thromboxane B2 (in μg/L): direct sigmoid Emax (Hill) effect.
+**As extracted:** Acetylsalicylic acid (measured concentrations) drives thromboxane B2 (in μg/L): indirect response — drug inhibits the production of thromboxane B2.
 
 **Model:** A simulatable model was generated — see the **Models** and **Simulation** tabs.
 
-> ASA plasma concentration (Cp) inhibits TXB2 synthesis in a turnover model with an inhibitory Emax function: Imax = 1, IC50 fixed at 0.0036 mol/L, gamma = 1, kout = 0.023 h−1, and baseline R0 = 26.4 μg/L (kin = R0·kout).
+> Acetylsalicylic acid plasma concentrations inhibit the production of serum thromboxane B2 (TXB2) via an indirect response model with an Emax function, where the drug blocks the zero-order production rate (kin) while TXB2 is eliminated by a first-order rate constant (kout). The model parameters include a baseline TXB2 (R0) of 26.4 μg/L, a kout of 0.023 h−1, a maximum inhibition (Imax) of 1, and a fixed IC50 of 0.0036 mol/L with a gamma of 1.
 >
-> <sub>in the paper's terms — summarised by glm-5.3-flash from the paper's text; not checked by a person</sub>
+> <sub>in the paper's terms — summarised by qwen3.8:27b-mtp-q8_0 from the paper's text; not checked by a person</sub>
 
 - **paper:** `Koh_2025`
-- **model family:** `sigmoid_emax`
-- **driver:** `cited_pk`
-- **effect:** inhibition/unknown
+- **model family:** `indirect_response_i`
+- **driver:** `conc_no_pk`
+- **tier:** population
+- **effect:** inhibition/proportional
 
 ## Citation
-Koh J; Khwarg J; Yu KS; Lee S; Jang IJ; Lee S et al. (2025). Drug design, development and therapy 19
-  ·  DOI: [10.2147/dddt.s533428](https://doi.org/10.2147/dddt.s533428)
+Koh J et al., Population Pharmacokinetic and Pharmaco…, Drug design, development an… (2025)
+  ·  DOI: [10.2147/DDDT.S533428](https://doi.org/10.2147/DDDT.S533428)
 
 ## Parameters
 | role | label (paper) | Q-code · name | value | unit | value_si | link | source |
 |---|---|---|---|---|---|---|---|
-| PK (driver) | fr — Estimate | `Q43` · not captured | 0.69 | not captured | not captured | exact (not captured) | tab_0:row2:col1 |
-| PK (driver) | fr — RSE (%) | `Q43` · not captured | 4.99 | not captured | not captured | exact (not captured) | tab_0:row2:col2 |
-| PK (driver) | k a capsule (h -1 ) — Estimate | `Q95` · not captured | 0.22 | h -1 | not captured | llm (not captured) | tab_0:row3:col1 |
-| PK (driver) | k a capsule (h -1 ) — RSE (%) | `Q95` · not captured | 21.8 | h -1 | not captured | llm (not captured) | tab_0:row3:col2 |
-| PK (driver) | k a tablet (h -1 ) — Estimate | `Q95` · not captured | 0.053 | h -1 | not captured | llm (not captured) | tab_0:row4:col1 |
-| PK (driver) | Tk 0 (h) — Estimate | `Q86` · not captured | 1.58 | h | not captured | llm (not captured) | tab_0:row5:col1 |
-| PK (driver) | Tk 0 (h) — RSE (%) | `Q86` · not captured | 15.8 | h | not captured | llm (not captured) | tab_0:row5:col2 |
-| PK (driver) | Lag 0 (h) — Estimate | `Q83` · not captured | 2.81 | h | not captured | llm (not captured) | tab_0:row6:col1 |
-| PK (driver) | Lag 0 (h) — RSE (%) | `Q83` · not captured | 8.26 | h | not captured | llm (not captured) | tab_0:row6:col2 |
-| PK (driver) | k 23 (h -1 ) — Estimate | `Q303` · not captured | 2.32 | h -1 | not captured | llm (not captured) | tab_0:row7:col1 |
-| PK (driver) | k 23 (h -1 ) — RSE (%) | `Q302` · not captured | 4.11 | h -1 | not captured | llm (not captured) | tab_0:row7:col2 |
-| PK (driver) | k 24 (h -1 ) — Estimate | `Q47` · not captured | 0.57 | h -1 | not captured | llm (not captured) | tab_0:row8:col1 |
-| PK (driver) | k 34 (h -1 ) — Estimate | `Q304` · not captured | 2.97 | h -1 | not captured | llm (not captured) | tab_0:row9:col1 |
-| PK (driver) | CL m /F (L/h) — Estimate | `Q22` · not captured | 2.76 | L/h | not captured | boundary (not captured) | tab_0:row11:col1 |
-| PK (driver) | CL m /F (L/h) — RSE (%) | `Q22` · not captured | 3.86 | L/h | not captured | boundary (not captured) | tab_0:row11:col2 |
-| PK (driver) | Q/F (L/h) — Estimate | `Q69` · not captured | 0.08 | L/h | not captured | exact (not captured) | tab_0:row13:col1 |
-| PK (driver) | V 3 /F (L) — Estimate | `Q78` · not captured | 23.51 | L | not captured | llm (not captured) | tab_0:row14:col1 |
-| PK (driver) | V 3 /F (L) — RSE (%) | `Q78` · not captured | 12.3 | L | not captured | llm (not captured) | tab_0:row14:col2 |
-| PK (driver) | V 4 /F (L) — Estimate | `Q76` · not captured | 7.5 | L | not captured | llm (not captured) | tab_0:row15:col1 |
-| PK (driver) | V 4 /F (L) — RSE (%) | `Q76` · not captured | 2.6 | L | not captured | llm (not captured) | tab_0:row15:col2 |
-| PK (driver) | V 5 /F (L) — Estimate | `Q76` · not captured | 1.98 | L | not captured | llm (not captured) | tab_0:row16:col1 |
-| PD (effect) | R 0 (μg/L) — Estimate | `Q336` · not captured | 26.4 | μg/L | not captured | llm (not captured) | tab_0:row17:col1 |
-| PD (effect) | R 0 (μg/L) — RSE (%) | `Q336` · not captured | 7.67 | μg/L | not captured | llm (not captured) | tab_0:row17:col2 |
-| PD (effect) | k out (h -1 ) — Estimate | `Q328` · not captured | 0.023 | h -1 | not captured | llm (not captured) | tab_0:row18:col1 |
-| PD (effect) | k out (h -1 ) — RSE (%) | `Q328` · not captured | 5.51 | h -1 | not captured | llm (not captured) | tab_0:row18:col2 |
-| PD (effect) | I max — Estimate | `Q323` · not captured | 1 | not captured | not captured | llm (not captured) | tab_0:row19:col1 |
-| PD (effect) | IC 50 (mol/L) — Estimate | `Q322` · not captured | 0.0036 | mol/L | not captured | llm (not captured) | tab_0:row20:col1 |
-| PD (effect) | Gamma — Estimate | `Q325` · not captured | 1 | not captured | not captured | exact (not captured) | tab_0:row21:col1 |
-| PK (driver) | Ωfr — Estimate | `Q43` · not captured | 0.29 | not captured | not captured | boundary (not captured) | tab_0:row23:col1 |
-| PK (driver) | Ωfr — RSE (%) | `Q43` · not captured | 16.5 | not captured | not captured | boundary (not captured) | tab_0:row23:col2 |
-| variability | Ωk a — Estimate | `Q312` · not captured | 1.09 | not captured | not captured | llm (not captured) | tab_0:row24:col1 |
-| PK (driver) | Ωlag 0 — Estimate | `Q83` · not captured | 0.51 | not captured | not captured | llm (not captured) | tab_0:row26:col1 |
-| PK (driver) | Ωlag 0 — RSE (%) | `Q83` · not captured | 12.6 | not captured | not captured | llm (not captured) | tab_0:row26:col2 |
-| PK (driver) | ΩCL m /F — Estimate | `Q22` · not captured | 0.24 | not captured | not captured | boundary (not captured) | tab_0:row28:col1 |
-| PK (driver) | ΩCL m /F — RSE (%) | `Q22` · not captured | 11.9 | not captured | not captured | boundary (not captured) | tab_0:row28:col2 |
-| variability | Proportional error (ASA) — Estimate | `Q316` · not captured | 0.41 | ASA | not captured | exact (not captured) | tab_0:row31:col1 |
-| variability | Proportional error (ASA) — RSE (%) | `Q316` · not captured | 5.52 | ASA | not captured | exact (not captured) | tab_0:row31:col2 |
-| variability | Proportional error (SA) — Estimate | `Q316` · not captured | 0.17 | SA | not captured | exact (not captured) | tab_0:row32:col1 |
-| variability | Proportional error (SA) — RSE (%) | `Q316` · not captured | 5.2 | SA | not captured | exact (not captured) | tab_0:row32:col2 |
-| variability | Additive error (TXB2) — Estimate | `Q317` · not captured | 2.58 | TXB2 | not captured | exact (not captured) | tab_0:row33:col1 |
-| variability | Additive error (TXB2) — RSE (%) | `Q317` · not captured | 12.1 | TXB2 | not captured | exact (not captured) | tab_0:row33:col2 |
+| PD (effect) | R0 | `Q324` · not captured | 26.4 | μg/L | not captured | llm (not captured) | Koh_2025:pdv3 |
+| PD (effect) | kout | `Q328` · not captured | 0.023 | h−1 | not captured | llm (not captured) | Koh_2025:pdv3 |
+| PD (effect) | Imax | `Q323` · not captured | 1 | not captured | not captured | llm (not captured) | Koh_2025:pdv3 |
+| PD (effect) | IC50 | `Q322` · not captured | 0.0036 | mol/L | not captured | llm (not captured) | Koh_2025:pdv3 |
+| PD (effect) | Gamma | `Q325` · not captured | 1 | not captured | not captured | llm (not captured) | Koh_2025:pdv3 |
+| variability | Additive error (TXB2) | `Q315` · not captured | 2.58 | not captured | not captured | llm (not captured) | Koh_2025:pdv3 |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -82,20 +50,16 @@ Koh J; Khwarg J; Yu KS; Lee S; Jang IJ; Lee S et al. (2025). Drug design, develo
 
 ## Exposure-response model
 
-`AcetylsalicylicAcid_Koh2025_PD_txb2` — sigmoid_emax, `response = E0 + Emax*frac`
+`AcetylsalicylicAcid_Koh2025_PD_txb2` — turnover (indirect response type I), `response = E0*(1 - Emax*frac)`
 
 | parameter | value (paper units) | SI |
 |---|---|---|
 | E0 | 26.4 μg/L | 2.64e-05 kg/m3 |
-| Emax | -1 μg/L | -1e-06 kg/m3 |
+| Emax | 1 | — |
 | EC50 | 0.0036 mol/L | 3.6 mol/m3 |
 | gamma | 1 | — |
 
-Closed-form check points (response, SI): `at_0` = 2.64e-05, `at_EC50` = 2.59e-05, `at_inf` = 2.54e-05
-
-Deviations:
-
-- `pd_binding_imax_as_negative_emax` — Imax (Q323) enters SigmoidEmaxSweep as −Emax
+Closed-form check points (response, SI): `at_0` = 2.64e-05, `at_EC50` = 1.32e-05, `at_inf` = 0
 
 ## Review
 
@@ -106,7 +70,7 @@ Verdict <span class="pk-badge pk-badge--green">reviewed — candidate</span>
 | `T0_driver` | pass | driver is the drug, a synonym or one of its metabolites (or unnamed) |
 | `T1_closed_form` | pass | engineer's check points reproduced from the bound parameters |
 | `T1b_fmu` | pass | shared PD_SigmoidEmaxSweep FMU reproduces the reference points (worst 0.00%) |
-| `T2_direction` | pass | curve direction matches effect_direction |
+| `T2_direction` | pass | the response falls, as IDR-I predicts |
 | `T3_plausibility` | pass | EC50, gamma, Imax and baseline in range |
 | `T4_defaults` | pass | nothing defaulted |
 
@@ -158,9 +122,9 @@ first reading `qwen3.6:27b-q8_0` — the numbers on this page are its, whatever 
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Koh2025_PD_txb2/AcetylsalicylicAcid_Koh2025_PD_txb2_modelica.zip" download>AcetylsalicylicAcid_Koh2025_PD_txb2_modelica.zip</a> <span class="pk-size">(2.4 kB)</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Koh2025_PD_txb2/AcetylsalicylicAcid_Koh2025_PD_txb2_modelica.zip" download>AcetylsalicylicAcid_Koh2025_PD_txb2_modelica.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
 <tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Koh2025_PD_txb2/AcetylsalicylicAcid_Koh2025_PD_txb2_fmi.zip" download>AcetylsalicylicAcid_Koh2025_PD_txb2_fmi.zip</a> <span class="pk-size">(4.5 kB)</span><br><a href="models/fmu/PD_SigmoidEmaxSweep.fmu" download>PD_SigmoidEmaxSweep.fmu</a> <span class="pk-size">(1.2 MB, shared)</span></td></tr>
-<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Koh2025_PD_txb2/AcetylsalicylicAcid_Koh2025_PD_txb2_matlab.zip" download>AcetylsalicylicAcid_Koh2025_PD_txb2_matlab.zip</a> <span class="pk-size">(3.2 kB)</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Koh2025_PD_txb2/AcetylsalicylicAcid_Koh2025_PD_txb2_matlab.zip" download>AcetylsalicylicAcid_Koh2025_PD_txb2_matlab.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
 <tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Koh2025_PD_txb2/AcetylsalicylicAcid_Koh2025_PD_txb2_sbml.zip" download>AcetylsalicylicAcid_Koh2025_PD_txb2_sbml.zip</a> <span class="pk-size">(2.6 kB)</span></td></tr>
 <tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_acetylsalicylic_acid/AcetylsalicylicAcid_Koh2025_PD_txb2/AcetylsalicylicAcid_Koh2025_PD_txb2_cellml.zip" download>AcetylsalicylicAcid_Koh2025_PD_txb2_cellml.zip</a> <span class="pk-size">(2.5 kB)</span></td></tr>

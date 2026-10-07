@@ -10,19 +10,25 @@
 
 ## About
 
-**Description.** Voglibose is an alpha-glucosidase inhibitor used for lowering post-prandial blood glucose levels in people with diabetes mellitus. It is made in India by Ranbaxy Labs and sold under the trade name Volix.
+Voglibose is an anti-diabetic medicine, an alpha glucosidase inhibitor used to treat diabetes. It is not authorised in the European Union and is considered investigational in major drug databases, though it is used in some Asian countries.
 
-**Indication.** For the treatment of diabetes. It is specifically used for lowering post-prandial blood glucose levels thereby reducing the risk of macrovascular complications.
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q7939403](https://www.wikidata.org/wiki/Q7939403) and the WHO ATC classification; not checked by a person.</small>
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-16 02:53 | 12:53 | 0/0/0 | 0/0/0 | 0/0/0 | 104,375/5,689 | ollama / qwen3.8:27b-mtp-q8_0 | 9 | 2/7 | 8/1 | 0 |
+| 2026-10-07 16:24 | 0:44 | 0/0/0 | 1/0/0 | 0/0/0 | 148,557/2,403 | einfracz / qwen3.8-27b | 4 | 2/7 | 4/0 | 0 |
 
 ## popPK records
 
 _not available_
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--species" title="Animal study (mouse), not measured in people (from keyword rules on the title and abstract — no LLM answer yet).">mouse</span> | [Rawal_2025_alpha_amylase](drugs/drug_voglibose/pd_Rawal_2025_alpha_amylase.md) | alpha-amylase biomarker turnover ← voglibose | — | Rawal P et al., Antioxidant, Alpha-Amylase Inhibitory a…, Food science & nutrition (2025) | [10.1002/fsn3.4672](https://doi.org/10.1002/fsn3.4672) |
 
 ## ADME sites
 
@@ -30,12 +36,13 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 | process | tissue | actors (role) | evidence |
 |---|---|---|---|
+| absorption | small intestine | <sub>named in DrugBank's ADME text</sub> | prose |
 
 <sub>Actors without a tissue in the table: MGAM (inhibitor).</sub>
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -48,7 +55,7 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 ## Full text wanted
 
-_7 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+_6 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
 
 | save as | citation | domain | score | DOI | PubMed | why wanted |
 |---|---|---|---|---|---|---|
@@ -58,9 +65,8 @@ _7 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | `Padhy_2026.pdf` | Padhy I et al., Evaluation of novel topiramate-phenolic…, Journal of computer-aided m… (2026) | pd | 4 | [10.1007/s10822-026-00789-3](https://doi.org/10.1007/s10822-026-00789-3) | [41845153](https://www.ncbi.nlm.nih.gov/pubmed/41845153) | metadata signals extractable PD data (IC50) |
 | `Qiao_2022.pdf` | Qiao Y et al., Inhibition of α-amylase and α-glucosida…, Journal of food science (2022) | pd | 4 | [10.1111/1750-3841.16098](https://doi.org/10.1111/1750-3841.16098) | [35397147](https://www.ncbi.nlm.nih.gov/pubmed/35397147) | metadata signals extractable PD data (IC50) |
 | `Ryu_2010.pdf` | Ryu HW et al., Polyphenols from Broussonetia papyrifer…, Journal of agricultural and… (2010) | pd | 4 | [10.1021/jf903068k](https://doi.org/10.1021/jf903068k) | [19954213](https://www.ncbi.nlm.nih.gov/pubmed/19954213) | metadata signals extractable PD data (IC50) |
-| `Sarkar_2024.pdf` | Sarkar A et al., Parkia javanica Edible Pods Reveal Pote…, Pharmaceuticals (Basel, Swi… (2024) | pd | 4 | [10.3390/ph17070968](https://doi.org/10.3390/ph17070968) | [39065816](https://www.ncbi.nlm.nih.gov/pubmed/39065816) | metadata signals extractable PD data (IC50) |
 
-<sub>queue written 2026-09-16T02:51:55.017449+00:00</sub>
+<sub>queue written 2026-10-07T16:23:41.727438+00:00</sub>
 
 ## Screened and excluded
 
@@ -74,15 +80,15 @@ _7 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | PD | Ali_2017 | not_relevant | 0 | 0 | The paper reports in vitro IC50 values for new synthesized compounds and mentions voglibose only as a clinical context, providing no exposure-response or dose-response data for voglibose itself. |
 | popPK | Ayan_2026 | irrelevant | 0 | 0 | The paper is an in-vitro medicinal chemistry study on new α-glucosidase inhibitors, with voglibose mentioned only as a background comparator and no pharmacokinetic parameters reported. |
 | PD | Ayan_2026 | not_relevant | 0 | 0 | The paper reports in vitro enzyme inhibition (IC50) for novel compounds, not a pharmacodynamic or exposure-response relationship for the drug voglibose. |
-| popPK | Colin_2024 | irrelevant | 0 | 0 | The paper is a review of Cassia alata bioactive compounds where voglibose is only mentioned as a standard comparator in in silico docking studies, with no pharmacokinetic parameters reported. |
+| popPK | Colin_2024 | irrelevant | 0 | 0 | The paper is a review of bioactive compounds in Cassia alata and does not study voglibose pharmacokinetics. |
 | PD | Colin_2024 | not_relevant | 0 | 0 | The paper is a review of Cassia alata bioactive compounds and does not mention voglibose or report any pharmacodynamic parameters for it. |
-| popPK | Dinu_2025 | irrelevant | 0 | 0 | The paper is a review of sulfonamides and antioxidants for diabetes management and does not contain pharmacokinetic data for voglibose. |
+| popPK | Dinu_2025 | irrelevant | 0 | 0 | The paper is a review of sulfonamides for diabetes and does not mention voglibose or provide any pharmacokinetic parameters for it. |
 | PD | Dinu_2025 | not_relevant | 0 | 0 | The paper is a review of sulfonamides and antioxidants for diabetes and does not mention voglibose or report any pharmacodynamic parameters. |
 | popPK | Dirir_2022 | irrelevant | 0 | 0 | The paper is a review of plant-derived alpha-glucosidase inhibitors and does not report original pharmacokinetic parameters for voglibose. |
 | PD | Dirir_2022 | not_relevant | 1 | 0 | The paper is a review of plant-derived alpha-glucosidase inhibitors and only mentions voglibose as an approved drug in the introduction without providing any specific pharmacodynamic or exposure-response data for it. |
-| popPK | Gharge_2025 | irrelevant | 0 | 0 | The study focuses on novel rhodanine-thiazole hybrids and does not report pharmacokinetic parameters for voglibose. |
+| popPK | Gharge_2025 | irrelevant | 0 | 0 | The paper is an in silico and in vitro study of novel rhodanine-thiazole hybrids, not a pharmacokinetic study of voglibose. |
 | PD | Gharge_2025 | not_relevant | 0 | 0 | The paper reports in vitro IC50 values for novel rhodanine-thiazole hybrids, not for voglibose, and contains no PK/PD modeling or exposure-response analysis for the target drug. |
-| popPK | Kasahara_2016 | irrelevant | 1 | 0 | Voglibose is a co-administered comparator drug in a study focused on tofogliflozin, and no quantitative PK parameters for voglibose are reported in the evidence. |
+| popPK | Kasahara_2016 | irrelevant | 2 | 0 | The study evaluates tofogliflozin as the subject drug, with voglibose serving only as a co-administered comparator/probe agent for which specific PK parameter values are not reported. |
 | PD | Kasahara_2016 | not_relevant | 0 | 0 | The study is a drug-drug interaction trial focusing on tofogliflozin; voglibose is only a co-administered agent, and no PD parameters or exposure-response relationships for voglibose are reported. |
 | popPK | Kaur_2021 | irrelevant | 0 | 0 | The paper is a review of alpha-amylase inhibitors and does not report any pharmacokinetic parameters for voglibose. |
 | PD | Kaur_2021 | not_relevant | 1 | 0 | The paper is a comprehensive review of alpha-amylase inhibitors and does not report specific pharmacokinetic or pharmacodynamic modeling data, exposure-response relationships, or numeric PD parameters for voglibose. |
@@ -92,10 +98,10 @@ _7 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | PD | Kim_2014 | not_relevant | 0 | 0 | The study evaluates the pharmacokinetic interaction of voglibose on metformin, reporting only PK parameters (Cmax, AUC) and safety data, with no pharmacodynamic or exposure-response analysis for voglibose. |
 | popPK | Kim_2018 | irrelevant | 0 | 0 | The study reports pharmacodynamic parameters (glucose/insulin response) rather than pharmacokinetic disposition parameters (CL, V, ka) for voglibose. |
 | PD | Kim_2018 | not_relevant | 2 | 1 | The study reports comparative pharmacodynamic endpoints (glucose AUC/Cmax) for different formulations but does not provide a concentration-effect or dose-response model with numeric PD parameters (e.g., Emax, EC50). |
-| PGx | Laila_2023 | not_relevant | 0 | 0 | The paper investigates the anti-diabetic effects of fenugreek sprouts and compares them to voglibose, but does not report any pharmacogenomic effects (gene variants) on voglibose's PK or PD parameters. |
+| PGx | Laila_2023 | not_relevant | 0 | 0 | The paper studies the effect of fenugreek extract on diabetes and compares it to voglibose, but does not report any pharmacogenomic effects (gene variants affecting PK/PD) of voglibose. |
 | popPK | Li_2026 | irrelevant | 0 | 0 | The paper is a medicinal chemistry study on novel α-glucosidase inhibitors where voglibose is used only as a positive control/comparator, and no pharmacokinetic parameters for voglibose are reported. |
 | PD | Li_2026 | not_relevant | 0 | 0 | The paper reports in vitro enzyme inhibition (IC50) and in vivo efficacy comparisons for a new compound (LY-23), but does not provide a pharmacokinetic-pharmacodynamic (PK/PD) model or exposure-response analysis for voglibose. |
-| popPK | Lo_2018 | irrelevant | 0 | 0 | This is a systematic review of clinical efficacy and safety in diabetes/CKD, not a pharmacokinetic study, and voglibose is only mentioned as a comparator in a single head-to-head trial without any PK parameters reported. |
+| popPK | Lo_2018 | irrelevant | 0 | 0 | The paper is a systematic review of clinical trials evaluating glucose-lowering efficacy in diabetes, and voglibose is mentioned only as a comparator in one head-to-head trial, with no pharmacokinetic parameters reported. |
 | PD | Lo_2018 | not_relevant | 0 | 0 | The paper is a systematic review of clinical trials in CKD and does not report any pharmacokinetic or pharmacodynamic modeling, exposure-response relationships, or numeric PD parameters for voglibose. |
 | popPK | Matsui_2009 | irrelevant | 0 | 0 | The study is an in-vitro enzyme assay and in-vivo pharmacodynamic (blood glucose) study, not a pharmacokinetic study, and reports no disposition parameters (CL, V, ka, etc.) for voglibose. |
 | PD | Matsui_2009 | not_relevant | 0 | 0 | The provided text consists only of materials and figure/table captions, containing no data, results, or numeric parameters for a pharmacodynamic or exposure-response relationship. |
@@ -105,7 +111,7 @@ _7 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | PD | Mukherjee_2013 | not_relevant | 0 | 0 | The paper focuses on the in vitro enzyme inhibition of nimbidiol; voglibose is only mentioned as a comparator without any reported PK/PD data or exposure-response analysis. |
 | popPK | Nagappan_2017 | irrelevant | 0 | 0 | no_text gate: only 200 chars of text extracted (&lt; 400) |
 | PD | Nagappan_2017 | not_relevant | 0 | 0 | The paper investigates the in vitro enzyme inhibition activities of seaweed extracts and does not mention voglibose or report any pharmacodynamic or exposure-response data for it. |
-| popPK | Nakashima_2022 | irrelevant | 0 | 0 | The study is a clinical trial comparing luseogliflozin and voglibose on estimated plasma volume in heart failure patients, not a pharmacokinetic study reporting disposition parameters for voglibose. |
+| popPK | Nakashima_2022 | irrelevant | 0 | 0 | The study is a clinical trial analyzing the hemodynamic effects (estimated plasma volume) of luseogliflozin compared to voglibose, containing no pharmacokinetic parameters for voglibose. |
 | popPK | Natori_2011 | irrelevant | 0 | 0 | The paper is a medicinal chemistry study on novel α-glucosidase inhibitors where voglibose is used only as a comparator for in-vitro inhibitory activity, with no pharmacokinetic parameters reported. |
 | PD | Natori_2011 | not_relevant | 1 | 0 | The paper reports in vitro IC50 values for novel compounds and mentions voglibose only as a commercial reference drug without providing specific numeric PD parameters or exposure-response data for it. |
 | popPK | Nepal_2020 | irrelevant | 1 | 0 | The study focuses on in-vitro metabolism and in-vivo pharmacodynamics (blood glucose levels) rather than reporting quantitative pharmacokinetic disposition parameters like clearance or volume of distribution. |
@@ -116,7 +122,7 @@ _7 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | PD | Padhy_2026 | not_relevant | 0 | 0 | The paper focuses on topiramate-phenolic acid conjugates, not voglibose, and does not report any pharmacodynamic or exposure-response data for the target drug. |
 | popPK | Qiao_2022 | irrelevant | 0 | 0 | no_text gate: only 130 chars of text extracted (&lt; 400) |
 | PD | Qiao_2022 | not_relevant | 0 | 0 | The paper investigates the inhibitory effects of Morus australis fruit extract and its components, not the drug voglibose. |
-| PGx | Qin_2005 | not_relevant | 0 | 0 | The study investigates drug-drug interactions (voglibose inducing CYP2E1) in rats, not the effect of a human gene variant/genotype on voglibose pharmacokinetics or pharmacodynamics. |
+| PGx | Qin_2005 | not_relevant | 0 | 0 | The paper investigates the effect of the drug (voglibose) on CYP2E1 induction, not the effect of a gene variant on the drug's pharmacokinetics or pharmacodynamics. |
 | popPK | Rafique_2020 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study of new compounds with voglibose mentioned only as a background comparator, containing no pharmacokinetic data. |
 | PD | Rafique_2020 | not_relevant | 0 | 0 | The paper reports in vitro IC50 values for new synthesized compounds, not a pharmacodynamic or exposure-response relationship for the drug voglibose. |
 | popPK | Rahim_2020 | irrelevant | 0 | 0 | The paper is an in-vitro synthesis and molecular docking study of new compounds, with voglibose mentioned only as background context, and no pharmacokinetic parameters are reported. |
@@ -129,10 +135,10 @@ _7 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | PD | Sarkar_2024 | not_relevant | 0 | 0 | The paper focuses on Parkia javanica and does not report any pharmacodynamic or exposure-response data for voglibose. |
 | popPK | Seraj_2024 | irrelevant | 0 | 0 | The paper is a medicinal chemistry study on new quinoline derivatives, and voglibose is only mentioned as a comparator drug with no pharmacokinetic data provided. |
 | PD | Seraj_2024 | not_relevant | 0 | 0 | The paper reports in vitro enzyme inhibition (IC50) for new synthetic compounds, not a pharmacodynamic or exposure-response relationship for the drug voglibose. |
-| popPK | Sukhram_2026 | irrelevant | 0 | 0 | The paper is a scoping review on ketamine in diabetes and does not report pharmacokinetic parameters for voglibose. |
+| popPK | Sukhram_2026 | irrelevant | 0 | 0 | The paper is a scoping review focused on ketamine in diabetes care and does not report any pharmacokinetic parameters for voglibose. |
 | PD | Sukhram_2026 | not_relevant | 0 | 0 | The paper is a scoping review of ketamine in diabetes and does not report any pharmacodynamic or exposure-response data for voglibose. |
-| PGx | Tateishi_2021 | not_relevant | 0 | 0 | The paper reports a drug-drug interaction (bucolome inhibiting CYP2C9 affecting glimepiride) and explicitly states that the patient's CYP2C9 genotype was not determined, so no pharmacogenomic effect is reported. |
-| PGx | Wang_2024 | not_relevant | 0 | 0 | The paper reports a case of SHORT syndrome (PIK3R1 variant) treated with voglibose, but does not investigate how the genetic variant affects the pharmacokinetics or pharmacodynamics of the drug itself. |
+| PGx | Tateishi_2021 | not_relevant | 0 | 0 | The paper reports a drug-drug interaction (bucolome affecting glimepiride metabolism) causing hypoglycemia, not a pharmacogenomic effect (gene variant influence) on the PK or PD of voglibose. |
+| PGx | Wang_2024 | not_relevant | 0 | 0 | This is a case report about a genetic syndrome (SHORT/PIK3R1) affecting insulin resistance, not a study of how a gene variant affects the pharmacokinetics or pharmacodynamics of the drug voglibose. |
 | popPK | Worawalai_2016 | irrelevant | 0 | 0 | The paper is a medicinal chemistry study on the synthesis and in-vitro enzyme inhibition of voglibose analogues, containing no pharmacokinetic data. |
 | PD | Worawalai_2016 | not_relevant | 3 | 2 | The paper reports in vitro IC50 values for new analogues and voglibose, which are pharmacodynamic potency metrics, but it does not report an exposure-response or dose-response relationship (concentration-effect curve or PK/PD model) for the drug in a biological system. |
 | popPK | Yamaguchi_2013 | irrelevant | 2 | 0 | The study focuses on the pharmacokinetics of vildagliptin with voglibose as a co-administered agent, and no quantitative disposition parameters (CL, V, ka) for voglibose are reported in the evidence. |

@@ -1,19 +1,18 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N02B&quot;,&quot;href&quot;:&quot;atc/N02B.md&quot;},{&quot;label&quot;:&quot;sodium salicylate&quot;,&quot;href&quot;:&quot;drugs/drug_sodium_salicylate/&quot;},{&quot;label&quot;:&quot;Lowenthal_1974 \u00b7 six_anephric_patients&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;SodiumSalicylate_Mathurkar2018_reference&quot;,&quot;label&quot;:&quot;Mathurkar_2018_reference&quot;,&quot;href&quot;:&quot;drugs/drug_sodium_salicylate/SodiumSalicylate_Mathurkar2018_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;SodiumSalicylate_Lowenthal1974_four_normal_subjects&quot;,&quot;label&quot;:&quot;Lowenthal_1974_four_normal_subjects&quot;,&quot;href&quot;:&quot;drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_four_normal_subjects.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;SodiumSalicylate_Lowenthal1974_six_anephric_patients&quot;,&quot;label&quot;:&quot;Lowenthal_1974_six_anephric_patients&quot;,&quot;href&quot;:&quot;drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_six_anephric_patients.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # sodium salicylate — `SodiumSalicylate_Lowenthal1974_six_anephric_patients`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.444). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.444). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A simulatable model was generated — see the **Models** and **Simulation** tabs.
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
@@ -25,17 +24,19 @@ A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which c
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-09-28 14:40:31.539889+00:00) predates the upstream re-run (2026-10-07 06:13:56.554236+00:00). Current validate status: `needs_review`.
+
 > **Dose compound ≠ measured compound:** dosed `sodium salicylate`, measured `salicylic acid`.
 
 ## Citation
-Lowenthal DT; Briggs WA; Levy G et al. (1974). The Journal of clinical investigation 54
+Lowenthal DT et al., Kinetics of salicylate elimination by a…, The Journal of clinical inv… (1974)
   ·  DOI: [10.1172/JCI107865](https://doi.org/10.1172/JCI107865)
 
 ## Model component
-<dbs-pgx drug="sodium salicylate" model-id="SodiumSalicylate_Lowenthal1974_six_anephric_patients" status="needs_review" stale="false" population="anephric patients" measured-compound="salicylic acid" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="sodium salicylate" model-id="SodiumSalicylate_Lowenthal1974_six_anephric_patients" status="needs_review" stale="true" population="anephric patients" measured-compound="salicylic acid" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
-**Model structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
-**Parameters:** 5 extracted.
+**Model structure:** 1-compartment; no model was built for this record.  
+**Parameters:** 3 extracted.
 
 **Parameterization:** mechanistic.
 
@@ -44,10 +45,8 @@ Lowenthal DT; Briggs WA; Levy G et al. (1974). The Journal of clinical investiga
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Vo, liter | `Q61` · V | 5.01 | liter | 0.00501 | [l] | not captured | llm (0.6) | Lowenthal_1974_table_3:row5:col1 | — | not captured |
-| t½ (β), min | `Q60` · t1/2β | 316 | min | 18960.0 | [min] | not captured | llm (0.6) | Lowenthal_1974_table_3:row7:col1 | — | not captured |
-| clearance | `Q22` · CL | 0.04 | L/h/kg | 7.777777777777778e-07 | L/h | not captured | review_gapfill (0.7) | Mathurkar_2018:review | — | not captured |
-| Ka | `Q49` · kabs | 0.64 | 1/h | 0.00017777777777777779 | 1/h | not captured | review_gapfill (0.7) | Mathurkar_2018:review | — | not captured |
+| Vₐ, liter | `Q61` · V | 5.01 | liter | 0.00501 | [l] | not captured | llm (0.6) | Lowenthal_1974_table_3:row5:col1 | — | not captured |
+| tₔ (β), min | `Q60` · t1/2β | 316 | min | 18960.0 | [min] | not captured | llm (0.6) | Lowenthal_1974_table_3:row7:col1 | — | not captured |
 | lag time | `Q83` · tlag | 0.42 | h | 1512.0 | h | not captured | review_gapfill (0.7) | Somani_2016:review | — | not captured |
 
 <details class="legend">
@@ -57,25 +56,21 @@ Lowenthal DT; Briggs WA; Levy G et al. (1974). The Journal of clinical investiga
 
 ## Departures & gaps
 
-**Deviations:**
-- `defaulted_parameters`: ['F']
-
 **Interpretation flags:**
-- dropped duplicate Q61 ('Vd (area), liter', value '9.26') — already have one for this compound
+- dropped duplicate Q61 ('Vₐ (area), liter', value '9.26') — already have one for this compound
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=salicylic acid
-- population split: 'six anephric patients' subgroup of Lowenthal_1974 (paper reports 2 populations: four normal subjects*, six anephric patients)
-- gap-filled Q22 (CL) from Mathurkar_2018's review values (primary lacked it)
+- structure disagreement: deterministic 1C vs LLM 2C — review compartment count
+- population split: 'six anephric patients' subgroup of Lowenthal_1974 (paper reports 3 populations: four normal subjects*, patients, six anephric patients)
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
-- gap-filled Q49 (kabs) from Mathurkar_2018's review values (primary lacked it)
 - gap-filled Q83 (tlag) from Somani_2016's review values (primary lacked it)
 
 **Extraction notes:**
 - no TEI final-model table id; trying text-pointer table recovery
 - LLM selected parameter table(s) 2, 3
-- unparsed cell Lowenthal_1974_table_3:row5:col3 = '&gt;0.7'
-- unparsed cell Lowenthal_1974_table_3:row6:col3 = '&gt;0.8'
-- unparsed cell Lowenthal_1974_table_3:row7:col3 = '&gt;0.1'
+- unparsed cell Lowenthal_1974_table_3:row5:col3 = '&gt; 0.7'
+- unparsed cell Lowenthal_1974_table_3:row6:col3 = '&gt; 0.8'
+- unparsed cell Lowenthal_1974_table_3:row7:col3 = '&gt; 0.1'
 
 ## Validation
 
@@ -108,17 +103,13 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 5 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 2 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
-| C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
-| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Mathurkar_2018:review'] |
-| C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Mathurkar_2018:review'] |
+| C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q60 | pass | [time] | not captured | not captured | not captured | ['Lowenthal_1974_table_3:row7:col1'] |
 | C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Lowenthal_1974_table_3:row5:col1'] |
 | C5_dimension_Q83 | pass | [time] | not captured | not captured | not captured | ['Somani_2016:review'] |
-| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 0.04 | not captured | not captured | ['Mathurkar_2018:review'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
-| C9_phys_window_Q22 | pass | clearance within physiological range | 2.8 L/h | not captured | not captured | ['Mathurkar_2018:review'] |
 | C9_phys_window_Q61 | pass | volume within physiological range | 5.01 L | not captured | not captured | ['Lowenthal_1974_table_3:row5:col1'] |
 
 **Reviewer per-scenario checks:**
@@ -154,25 +145,20 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
 <tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_six_anephric_patients/SodiumSalicylate_Lowenthal1974_six_anephric_patients_modelica.zip" download>SodiumSalicylate_Lowenthal1974_six_anephric_patients_modelica.zip</a> <span class="pk-size">(4.1 kB)</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_six_anephric_patients/SodiumSalicylate_Lowenthal1974_six_anephric_patients_fmi.zip" download>SodiumSalicylate_Lowenthal1974_six_anephric_patients_fmi.zip</a> <span class="pk-size">(4.3 kB)</span><br><a href="models/fmu/PK_1C_enteral.fmu" download>PK_1C_enteral.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><a href="drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_six_anephric_patients/SodiumSalicylate_Lowenthal1974_six_anephric_patients_fmi.zip" download>SodiumSalicylate_Lowenthal1974_six_anephric_patients_fmi.zip</a> <span class="pk-size">(4.3 kB)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_six_anephric_patients/SodiumSalicylate_Lowenthal1974_six_anephric_patients_matlab.zip" download>SodiumSalicylate_Lowenthal1974_six_anephric_patients_matlab.zip</a> <span class="pk-size">(3.5 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_six_anephric_patients/SodiumSalicylate_Lowenthal1974_six_anephric_patients_matlab_simbio.zip" download>SodiumSalicylate_Lowenthal1974_six_anephric_patients_matlab_simbio.zip</a> <span class="pk-size">(2.9 kB)</span></td></tr>
 <tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_six_anephric_patients/SodiumSalicylate_Lowenthal1974_six_anephric_patients_sbml.zip" download>SodiumSalicylate_Lowenthal1974_six_anephric_patients_sbml.zip</a> <span class="pk-size">(2.8 kB)</span></td></tr>
 <tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_six_anephric_patients/SodiumSalicylate_Lowenthal1974_six_anephric_patients_cellml.zip" download>SodiumSalicylate_Lowenthal1974_six_anephric_patients_cellml.zip</a> <span class="pk-size">(3.2 kB)</span></td></tr>
 </tbody></table>
 <p>Each archive holds the model source, a script that simulates it against the appropriate library, and a README describing both and how to run them.</p>
-<p><b>FMI is two downloads.</b> The archive holds this record's parameters and its driver; the simulator itself is <code>PK_1C_enteral.fmu</code>, one compiled template shared by every model of this structure. Take the FMU once, keep it beside the script (or pass <code>--fmu PATH</code>). Running it reproduces the model-specific FMU exactly.</p>
-</div><figure class="pk-models-diagram"><img src="drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_six_anephric_patients/SodiumSalicylate_Lowenthal1974_six_anephric_patients.svg" alt="SodiumSalicylate_Lowenthal1974_six_anephric_patients diagram"><figcaption>Model diagram (Modelica) using Pharmacolibrary v26.09 components, rendered by OpenModelica 1.26.7.</figcaption></figure></div>
+</div></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-**Administration: oral** — 3000 mg, single dose, first-order absorption (ka 0.64 /h, lag 25.2 min, F 0.9). _The paper's dose was not captured; the default is the WHO ATC DDD 3000 mg oral (N02BA04) (defined daily dose)._
-
-<dbs-fmusim paramsurl="drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_six_anephric_patients/SodiumSalicylate_Lowenthal1974_six_anephric_patients_params.json" metaurl="assets/fmu/PK_1C_enteral.vr.json" wasmurl="assets/fmu/PK_1C_enteral.js" controlsurl="drugs/drug_sodium_salicylate/SodiumSalicylate_Lowenthal1974_six_anephric_patients/SodiumSalicylate_Lowenthal1974_six_anephric_patients_sim_controls.json"></dbs-fmusim>
-
-<sub>Runs this record's model in the browser as WebAssembly. Sliders start at the extracted values; the reference check compares the browser's peak against the FMPy result recorded when the record was built, and is withheld once a value has been edited. Template `PK_1C_enteral` · parameters `SodiumSalicylate_Lowenthal1974_six_anephric_patients_params.json` · controls `SodiumSalicylate_Lowenthal1974_six_anephric_patients_sim_controls.json`. A slider marked *simulator value* is running on the template's own default because this record does not pin that parameter.</sub>
+_No web simulator for this record: its structure has no shared WebAssembly template. The FMI archive under **Models** carries its own compiled FMU._
 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-21 03:09 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 06:13 UTC</sub>

@@ -1,51 +1,42 @@
-<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A01A&quot;,&quot;href&quot;:&quot;atc/A01A.md&quot;},{&quot;label&quot;:&quot;cetylpyridinium&quot;,&quot;href&quot;:&quot;drugs/drug_cetylpyridinium/&quot;},{&quot;label&quot;:&quot;Ellinger_2021 \u00b7 PD name&quot;}]"></div>
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A01A&quot;,&quot;href&quot;:&quot;atc/A01A.md&quot;},{&quot;label&quot;:&quot;cetylpyridinium&quot;,&quot;href&quot;:&quot;drugs/drug_cetylpyridinium/&quot;},{&quot;label&quot;:&quot;Ellinger_2021 \u00b7 PD cytopathicity&quot;}]"></div>
 <div class="pk-tab-mark" data-tab="Information"></div>
 
-# name — PD  <span class="pk-badge pk-badge--red">rejected</span>
+# cytopathicity — PD  <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--species" title="In-vitro data (cells, tissue or microsomes), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">in vitro</span>
+
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
+> **Species: in vitro.** This record comes from an in-vitro study (cells, tissue or microsomes), not from people. The values, the model and its simulation are shown as the paper reports them — they describe that system, not human pharmacology (read from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).
+
 ## What this record describes
 
-**As extracted:** Unknown drives name (in percent) (inhibition; the model form was not identified).
+**As extracted:** Cetylpyridinium (measured concentrations) drives cytopathicity (in %): direct sigmoid Emax (Hill) effect.
 
 **Model:** No model was generated from this record.
 
-> Cetylpyridinium was one of the known inhibitors used to pharmacologically validate the high-content SARS-CoV-2 cytopathicity assay in Caco-2 cells, where compound concentration inhibits the percent cytopathic effect in an eight-point dose-response format; the paper does not state a mechanism of action for cetylpyridinium and provides no IC50, Emax, or other potency or rate parameters for it.
+> Cetylpyridinium concentrations (in µM) inhibit SARS-CoV-2 cytopathicity (measured as % cell confluence) via a sigmoidal Emax model, with an IC50 of 0.62 µM. The paper does not specify the underlying molecular mechanism of this inhibition.
 >
-> <sub>in the paper's terms — summarised by glm-5.3-flash from the paper's text; not checked by a person</sub>
+> <sub>in the paper's terms — summarised by qwen3.8:27b-mtp-q8_0 from the paper's text; not checked by a person</sub>
 
 - **paper:** `Ellinger_2021`
-- **model family:** `unknown`
-- **driver:** `not_resolved`
+- **model family:** `sigmoid_emax`
+- **driver:** `conc_no_pk`
 - **tier:** descriptive
-- **effect:** inhibition/unknown
+- **effect:** inhibition/proportional
 
 ## Citation
-Ellinger B; Bojkova D; Zaliani A; Cinatl J; Claussen C; Westhaus S; et al. et al. (2021). Scientific data 8
+Ellinger B et al., A SARS-CoV-2 cytopathicity dataset gene…, Scientific data (2021)
   ·  DOI: [10.1038/s41597-021-00848-4](https://doi.org/10.1038/s41597-021-00848-4)
 
 ## Parameters
 | role | label (paper) | Q-code · name | value | unit | value_si | link | source |
 |---|---|---|---|---|---|---|---|
-| PD (effect) | Results SARS-CoV-2 (Caco-2) IC50 µM — emetine | `Q322` · not captured | 0.52 | unknown | not captured | llm_confirmed (not captured) | Tab3:row0:col2 |
-| PD (effect) | Results SARS-CoV-2 (Caco-2) IC50 µM — cyclo-heximide | `Q322` · not captured | 0.58 | unknown | not captured | llm_confirmed (not captured) | Tab3:row0:col3 |
-| PD (effect) | Results SARS-CoV-2 (Caco-2) IC50 µM — remde-sivir | `Q322` · not captured | 0.76 | unknown | not captured | llm_confirmed (not captured) | Tab3:row0:col4 |
-| PD (effect) | Toxicity Caco-2 CC50 µM — emetine | `Q322` · not captured | 1.13 | unknown | not captured | llm (not captured) | Tab3:row1:col2 |
-| PK (driver) | CI — emetine | `Q358` · not captured | 2 | not captured | not captured | llm (not captured) | Tab3:row2:col2 |
-| PD (effect) | Reports SARS-CoV-2 (Vero-E6) IC50 µM — remde-sivir | `Q322` · not captured | 0.7722 | unknown | not captured | llm_confirmed (not captured) | Tab3:row3:col4 |
-| PD (effect) | Reports SARS-CoV (Vero-E6) IC50 µM — emetine | `Q322` · not captured | 0.05153 | unknown | not captured | llm_confirmed (not captured) | Tab3:row4:col2 |
-| PD (effect) | Reports SARS-CoV (Vero-E6) IC50 µM — cyclo-heximide | `Q322` · not captured | 0.04353 | unknown | not captured | llm_confirmed (not captured) | Tab3:row4:col3 |
-| PD (effect) | Reports SARS-CoV (Vero-E6) IC50 µM — remde-sivir | `Q322` · not captured | 0.06922 | unknown | not captured | llm_confirmed (not captured) | Tab3:row4:col4 |
-| PD (effect) | Reports SARS-CoV (Vero-E6) IC50 µM — chloro-quine | `Q322` · not captured | 4.456 | unknown | not captured | llm_confirmed (not captured) | Tab3:row4:col5 |
-| PD (effect) | Reports MERS (Vero-E6) IC50 µM — emetine | `Q322` · not captured | 0.0854 | unknown | not captured | llm_confirmed (not captured) | Tab3:row5:col2 |
-| PD (effect) | Reports MERS (Vero-E6) IC50 µM — cyclo-heximide | `Q322` · not captured | 0.1654 | unknown | not captured | llm_confirmed (not captured) | Tab3:row5:col3 |
-| PD (effect) | Reports MERS (Vero-E6) IC50 µM — remde-sivir | `Q322` · not captured | 0.07422 | unknown | not captured | llm_confirmed (not captured) | Tab3:row5:col4 |
-| PD (effect) | Reports MERS (Vero-E6) IC50 µM — chloro-quine | `Q322` · not captured | 6.27553 | unknown | not captured | llm_confirmed (not captured) | Tab3:row5:col5 |
+| PD (effect) | IC50 | `Q322` · not captured | 0.62 | µM | not captured | llm (not captured) | Ellinger_2021:pdv3 |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -55,9 +46,19 @@ Ellinger B; Bojkova D; Zaliani A; Cinatl J; Claussen C; Westhaus S; et al. et al
 
 <div class="pk-tab-mark" data-tab="Models"></div>
 
-## Models
+## Downloadable models
 
-<p>No downloads: this record is <b>rejected</b>, so it is not published as a model. Any archives generated for it before the verdict have been removed — a download outlives the page that explains it.</p>
+<div class="pk-models-grid"><div class="pk-models-table">
+<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+</tbody></table>
+<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
+</div></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 

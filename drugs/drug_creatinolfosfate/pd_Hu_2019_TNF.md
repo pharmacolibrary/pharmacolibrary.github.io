@@ -1,62 +1,44 @@
-<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01E&quot;,&quot;href&quot;:&quot;atc/C01E.md&quot;},{&quot;label&quot;:&quot;creatinolfosfate&quot;,&quot;href&quot;:&quot;drugs/drug_creatinolfosfate/&quot;},{&quot;label&quot;:&quot;Hu_2019 \u00b7 PD TNF-\u03b1&quot;}]"></div>
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01E&quot;,&quot;href&quot;:&quot;atc/C01E.md&quot;},{&quot;label&quot;:&quot;creatinolfosfate&quot;,&quot;href&quot;:&quot;drugs/drug_creatinolfosfate/&quot;},{&quot;label&quot;:&quot;Hu_2019 \u00b7 PD plasma TNF-\u03b1&quot;}]"></div>
 <div class="pk-tab-mark" data-tab="Information"></div>
 
-# TNF-α — PD  <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.0). The first reading is what the record holds.">cross-check: partial</span>
+# plasma TNF-α — PD  <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (?, agreement 0.0). The first reading is what the record holds.">cross-check: partial</span> <span class="pk-badge pk-badge--species" title="Animal study (rat), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">rat</span>
+
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
+> **Species: rat.** This record comes from an animal study (rat), not from people. The values, the model and its simulation are shown as the paper reports them — they describe that system, not human pharmacology (read from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).
+
 ## What this record describes
 
-**As extracted:** Coptisine drives TNF-α (in unknown): direct linear effect.
+**As extracted:** Coptisine (measured concentrations) drives plasma TNF-α (in pg/mL): direct linear effect.
 
 **Model:** No model was generated from this record.
 
-> Coptisine (recorded as creatinolfosfate) plasma/lung concentrations inhibit the production of TNF-α in LPS-stimulated rats, in an indirect response model where TNF-α is generated by zero-order kinetics (piecewise k0) and eliminated by Michaelis–Menten kinetics (Vm 55.85 h−1, km 61.92 pg/mL), with first-order diffusion to lung (kTNFαpl 177.12 h−1) and koutTNFα 7.09 h−1; the paper does not state an Imax or IC50 for the coptisine inhibition, only simulated inhibition rates of TNF-α production of 54.73%, 26.49%, and 13.25% at the three doses.
+> Coptisine inhibits the zero-order production of plasma TNF-α, which subsequently drives iNOS and NO generation via a precursor-pool indirect response model. The paper reports inhibition rates of 54.73%, 26.49%, and 13.25% for three doses, but does not provide specific potency values (e.g., IC50) or the estimated values for the Michaelis-Menten elimination parameters (Vm, km) or the TNF-α production rate constant (k0).
 >
-> <sub>in the paper's terms — summarised by glm-5.3-flash from the paper's text; not checked by a person</sub>
+> <sub>in the paper's terms — summarised by qwen3.8:27b-mtp-q8_0 from the paper's text; not checked by a person</sub>
 
 - **paper:** `Hu_2019`
 - **model family:** `linear`
-- **driver:** `not_resolved`
+- **driver:** `conc_no_pk`
 - **tier:** population
-- **effect:** inhibition/unknown
+- **effect:** inhibition/proportional
 
 ## Citation
-Hu Y; Wang L; Xiang L; Wu J; Huang W; Xu C; Meng X; Wang P et al. (2019). Scientific reports 9
+Hu Y et al., Pharmacokinetic-Pharmacodynamic Modelin…, Scientific reports (2019)
   ·  DOI: [10.1038/s41598-018-38164-4](https://doi.org/10.1038/s41598-018-38164-4)
 
 ## Parameters
 | role | label (paper) | Q-code · name | value | unit | value_si | link | source |
 |---|---|---|---|---|---|---|---|
-| PK (driver) | V 1 (L/kg) — CV% | `Q63` · not captured | 10.29 | L/kg | not captured | space_fold (not captured) | Tab1:row1:col3 |
-| PK (driver) | k10(h−1) — CV% | `Q47` · not captured | 9.99 | h−1 | not captured | exact (not captured) | Tab1:row2:col3 |
-| PK (driver) | k12(h−1) — Estimate | `Q301` · not captured | 2.05 | h−1 | not captured | exact (not captured) | Tab1:row3:col2 |
-| PK (driver) | k12(h−1) — CV% | `Q301` · not captured | 13.39 | h−1 | not captured | exact (not captured) | Tab1:row3:col3 |
-| PK (driver) | K21(h−1) — CV% | `Q302` · not captured | 9.51 | h−1 | not captured | exact (not captured) | Tab1:row4:col3 |
-| PK (driver) | k13(h−1) — CV% | `Q303` · not captured | 16.92 | h−1 | not captured | exact (not captured) | Tab1:row5:col3 |
-| PK (driver) | k31(h−1) — Estimate | `Q304` · not captured | 3.77 | h−1 | not captured | exact (not captured) | Tab1:row6:col2 |
-| PK (driver) | k31(h−1) — CV% | `Q304` · not captured | 17.16 | h−1 | not captured | exact (not captured) | Tab1:row6:col3 |
-| PK (driver) | Vm(h−1) — CV% | `Q66` · not captured | 55.85 | h−1 | not captured | special_case (not captured) | Tab1:row10:col3 |
-| PK (driver) | km(pg/mL) — CV% | `Q1` · not captured | 61.92 | pg/mL | not captured | exact (not captured) | Tab1:row11:col3 |
-| PK (driver) | kTNFαpl(h−1) — CV% | `Q47` · not captured | 177.12 | h−1 | not captured | llm (not captured) | Tab1:row12:col3 |
-| PD (effect) | koutTNFα(h−1) — CV% | `Q328` · not captured | 7.09 | h−1 | not captured | llm (not captured) | Tab1:row13:col3 |
-| PD (effect) | kiNOSmRNA(h−1) — CV% | `Q327` · not captured | 10.85 | h−1 | not captured | llm (not captured) | Tab1:row14:col3 |
-| PD (effect) | koutiNOSmRNA(h−1) — Estimate | `Q328` · not captured | 2.36 | h−1 | not captured | llm (not captured) | Tab1:row15:col2 |
-| PD (effect) | koutiNOSmRNA(h−1) — CV% | `Q328` · not captured | 7.75 | h−1 | not captured | llm (not captured) | Tab1:row15:col3 |
-| PD (effect) | kiNOS(h−1) — CV% | `Q327` · not captured | 10.33 | h−1 | not captured | llm (not captured) | Tab1:row16:col3 |
-| PD (effect) | k outiNOS (h −1 ) — Estimate | `Q328` · not captured | 3.72 | h −1 | not captured | llm (not captured) | Tab1:row17:col2 |
-| PD (effect) | k outiNOS (h −1 ) — CV% | `Q328` · not captured | 10.06 | h −1 | not captured | llm (not captured) | Tab1:row17:col3 |
-| PD (effect) | k iNOSlp (h −1 ) — Estimate | `Q327` · not captured | 23.41 | h −1 | not captured | llm (not captured) | Tab1:row18:col2 |
-| PD (effect) | k outiNOSp (h −1 ) — Estimate | `Q328` · not captured | 1.92 | h −1 | not captured | llm (not captured) | Tab1:row19:col2 |
-| PD (effect) | k outiNOSp (h −1 ) — CV% | `Q328` · not captured | 6.25 | h −1 | not captured | llm (not captured) | Tab1:row19:col3 |
-| PK (driver) | k inNO (h −1 ) — Estimate | `Q358` · not captured | 354.68 | h −1 | not captured | llm (not captured) | Tab1:row22:col2 |
-| PK (driver) | k inNO (h −1 ) — CV% | `Q47` · not captured | 63.97 | h −1 | not captured | llm (not captured) | Tab1:row22:col3 |
-| PD (effect) | k outNO (h −1 ) — Estimate | `Q328` · not captured | 3.46 | h −1 | not captured | llm (not captured) | Tab1:row23:col2 |
-| PD (effect) | k outNO (h −1 ) — CV% | `Q328` · not captured | 11.13 | h −1 | not captured | llm (not captured) | Tab1:row23:col3 |
+| PD (effect) | InhibitCon | `Q335` · not captured | 8.83×10−4 | mL/ng | not captured | llm (not captured) | Hu_2019:pdv3 |
+| PD (effect) | k0,0-0.33h | `Q327` · not captured | 645.73 | pg/(mL·h) | not captured | llm (not captured) | Hu_2019:pdv3 |
+| PD (effect) | k0,0.33–1h | `Q327` · not captured | 5881.32 | pg/(mL·h) | not captured | llm (not captured) | Hu_2019:pdv3 |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -115,9 +97,19 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-tab-mark" data-tab="Models"></div>
 
-## Models
+## Downloadable models
 
-<p>No downloads: this record is <b>rejected</b>, so it is not published as a model. Any archives generated for it before the verdict have been removed — a download outlives the page that explains it.</p>
+<div class="pk-models-grid"><div class="pk-models-table">
+<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+</tbody></table>
+<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
+</div></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 

@@ -1,41 +1,43 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N02A&quot;,&quot;href&quot;:&quot;atc/N02A.md&quot;},{&quot;label&quot;:&quot;tramadol&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/&quot;},{&quot;label&quot;:&quot;Al-Qurain_2022 \u00b7 final&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tramadol_Bailey2019_reference&quot;,&quot;label&quot;:&quot;Bailey_2019_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Bailey2019_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Ekstrand2026_reference&quot;,&quot;label&quot;:&quot;Ekstrand_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Ekstrand2026_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Yoo2022_reference&quot;,&quot;label&quot;:&quot;Yoo_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Yoo2022_reference.md&quot;,&quot;status&quot;:&quot;accepted (caveats)&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Bao2023_reference&quot;,&quot;label&quot;:&quot;Bao_2023_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Bao2023_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Dziubina2026_reference&quot;,&quot;label&quot;:&quot;Dziubina_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Dziubina2026_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Elghazali2008_reference&quot;,&quot;label&quot;:&quot;Elghazali_2008_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Elghazali2008_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Hannam2018_reference&quot;,&quot;label&quot;:&quot;Hannam_2018_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Hannam2018_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_SoriaChacartegui2026_reference&quot;,&quot;label&quot;:&quot;Soria-Chacartegui_2026_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_SoriaChacartegui2026_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_AlQurain2022_base&quot;,&quot;label&quot;:&quot;Al-Qurain_2022_base&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_AlQurain2022_base.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_AlQurain2022_final&quot;,&quot;label&quot;:&quot;Al-Qurain_2022_final&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_AlQurain2022_final.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Tramadol_Allegaert2014v2_reference&quot;,&quot;label&quot;:&quot;Allegaert_2014_2_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Allegaert2014v2_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Allegaert2015_reference&quot;,&quot;label&quot;:&quot;Allegaert_2015_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Allegaert2015_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Chun2025_reference&quot;,&quot;label&quot;:&quot;Chun_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Chun2025_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Garrido2006_reference&quot;,&quot;label&quot;:&quot;Garrido_2006_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Garrido2006_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Giorgi2010_reference&quot;,&quot;label&quot;:&quot;Giorgi_2010_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Giorgi2010_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Healy2025_reference&quot;,&quot;label&quot;:&quot;Healy_2025_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Healy2025_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Itami2016_reference&quot;,&quot;label&quot;:&quot;Itami_2016_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Itami2016_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Pypendop2008_reference&quot;,&quot;label&quot;:&quot;Pypendop_2008_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Pypendop2008_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tramadol_Ekstrand2026_reference&quot;,&quot;label&quot;:&quot;Ekstrand_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Ekstrand2026_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Garrido2006_reference&quot;,&quot;label&quot;:&quot;Garrido_2006_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Garrido2006_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Pypendop2008_reference&quot;,&quot;label&quot;:&quot;Pypendop_2008_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Pypendop2008_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tramadol_Bao2023_reference&quot;,&quot;label&quot;:&quot;Bao_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tramadol/Tramadol_Bao2023_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # tramadol — `Tramadol_AlQurain2022_final`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.4). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.208). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
-**The tramadol record was rejected because CL/F (0.00604 l/h), V1/F (0.373 l), Q (0.0426 l/h) and V2/F (0.379 l) fall far outside physiological ranges, indicating a unit or scale extraction error.**
+**The tramadol parent–metabolite model was rejected because its clearance and volume values are physiologically implausible — CL/F 0.00604 l/h, V1/F 0.373 l, V2/F 0.379 l, Q 0.0426 l/h — indicating a unit or scale extraction error.**
 
-The clearance/volume plausibility check failed: tramadol CL/F of 0.00604 l/h and CLm/F of 0.143 l/h for O-desmethyltramadol, together with V1/F of 0.373 l and V2/F of 0.379 l, are implausibly small for older patients, consistent with a unit/scale extraction error. A second reader read substantially different values for every parameter (e.g. CL/F 6.71 l/h, V1/F 19.6 l, Ka 63.7 /h, Q 6.09 l/h), supporting that the extracted magnitudes are wrong. The record was therefore refused rather than published. Extracted — tramadol: kabs 2.96 /h, V1/F 0.373 l, Q 0.0426 l/h, V2/F 0.379 l, CL/F 0.00604 l/h, CLm/F 0.143 l/h.
+For oral tramadol in older patients, the reported apparent clearance of 0.00604 l/h and central volume of 0.373 l are orders of magnitude below any physiologically plausible range, and the peripheral volume (0.379 l) and intercompartmental clearance (0.0426 l/h) are similarly implausible, so the record was refused on the plausibility check. The metabolite parameters (formation clearance 0.0492 l/h, metabolite clearance 0.143 l/h) and covariate effects on CL/F and V2/F were extracted, but the implausible parent values dominate the verdict. A second reader left several extracted values (CL/F 0.00604, Ka 2.96 /h, Q 0.0426 l/h, V1/F 0.373 l, and both creatinine-clearance covariate effects) without disagreement, though it disputed the dose compound and primary analyte fields. Extracted — tramadol: kabs 2.96 /h, V1/F 0.373 l, Q 0.0426 l/h, V2/F 0.379 l, CL/F 0.00604 l/h; O-desmethyltramadol: CLfm 0.0492 l/h, CL/F 0.143 l/h.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on `parameters[cl/f].value`: this record has 0.00604, the second reading 6.71; it also differs on 8 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has tramadol, the second reading unknown; it also differs on 18 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-10-05 09:32:54.572884+00:00) predates the upstream re-run (2026-10-07 15:10:08.503707+00:00). Current validate status: `rejected`.
+
 ## Citation
-Al-Qurain AA; Upton RN; Tadros R; Roberts MS; Wiese MD et al. (2022). European journal of drug metabolism and pharmacokinetics 47
+Al-Qurain AA et al., Population Pharmacokinetic Model for Tr…, European journal of drug me… (2022)
   ·  DOI: [10.1007/s13318-022-00756-x](https://doi.org/10.1007/s13318-022-00756-x)
 
 ## Model component
-<dbs-pgx drug="tramadol" model-id="Tramadol_AlQurain2022_final" status="rejected" stale="false" population="older patients" measured-compound="tramadol" parameterization="apparent" topology="parent_metabolite"></dbs-pgx>
+<dbs-pgx drug="tramadol" model-id="Tramadol_AlQurain2022_final" status="rejected" stale="true" population="older patients" measured-compound="tramadol" parameterization="apparent" topology="parent_metabolite"></dbs-pgx>
 
-**Model structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
-**Parameters:** 6 extracted, plus 2 covariate effects.
+**Model structure:** parent + metabolite; no model was built for this record.  
+**Parameters:** 7 extracted, plus 2 covariate effects.
 
-**Parameterization:** CL/F, CLm/F, V1/F, V2/F — apparent, F unknown (apparent — bioavailability not identifiable).
+**Parameterization:** CL/F, V1/F, V2/F — apparent, F unknown (apparent — bioavailability not identifiable).
 
 ## Parameters
 > ⚠️ This record is not accepted (current status `rejected`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
@@ -47,9 +49,10 @@ Al-Qurain AA; Upton RN; Tadros R; Roberts MS; Wiese MD et al. (2022). European j
 | Q, l/h | `Q30` · Q | 0.0426 | l/h | 1.1833333333333333e-08 | [l] / [h] | not captured | exact (1.0) | Tab3:row4:col3, Tab3:row4:col4 | — | 0.0219 (None% RSE) |
 | V2/F, l | `Q82` · V2/F | 0.379 | l | 0.000379 | [l] | not captured | exact (1.0) | Tab3:row6:col3, Tab3:row6:col4 | — | 0.974 (None% RSE) |
 | CL/F, l/h | `Q27` · CL/F | 0.00604 | l/h | 1.677777777777778e-09 | [l] / [h] | not captured | exact (1.0) | Tab3:row8:col3, Tab3:row8:col4 | — | 0.0661 (None% RSE) |
-| CLm/F, l/h | `Q351` · CLm/F | 0.143 | l/h | 3.972222222222222e-08 | [l] / [h] | not captured | exact (1.0) | Tab3:row11:col3, Tab3:row11:col4 | — | 0.216 (None% RSE) |
+| crcl_effect_on_cl_f | `Q900` · crcl_effect_on_cl_f | 0.00498 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab3:row9:col3, Tab3:row9:col4 | — | not captured |
+| Kt, l/h | `Q305` · kfm | 0.0492 | l/h | not captured | [l] / [h] | not captured | exact (1.0) | Tab3:row10:col3, Tab3:row10:col4 | — | not captured |
+| CLm/F, l/h | `Q27` · CL/F | 0.143 | l/h | 3.972222222222222e-08 | [l] / [h] | not captured | exact (1.0) | Tab3:row11:col3, Tab3:row11:col4 | — | not captured |
 | theta_v2_f_crcl | `Q900` · theta_v2_f_crcl | 0.0119 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab3:row7:col3, Tab3:row7:col4 | — | not captured |
-| theta_cl_f_crcl | `Q900` · theta_cl_f_crcl | 0.00498 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab3:row9:col3, Tab3:row9:col4 | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -60,14 +63,17 @@ Al-Qurain AA; Upton RN; Tadros R; Roberts MS; Wiese MD et al. (2022). European j
 
 **Interpretation flags:**
 - dropped duplicate Q30 ('ISAR effect on Q', value '0.255') — already have one for this compound
-- dropped duplicate Q30 ('Kt, l/h', value '0.0492') — already have one for this compound
+- covariate level 'CrCL effect on CL/F' → Q900:crcl_effect_on_cl_f = 0.00498 (linear_fractional on Q30)
+- unit_dimension_mismatch: 'Kt, l/h' → Q305 (unit '[length] ** 3 / [time]' vs ontology '1 / [time]') — route to review
 - dropped unlinked row (NIL): 'Tramadol, b (%)' — extend the ontology if this is a real PK parameter (source ['Tab3:row20:col3', 'Tab3:row20:col4'])
 - dropped unlinked row (NIL): 'O-desmethyltramadol, a (%)' — extend the ontology if this is a real PK parameter (source ['Tab3:row21:col3', 'Tab3:row21:col4'])
 - dropped unlinked row (NIL): 'O-desmethyltramadol, b (%)' — extend the ontology if this is a real PK parameter (source ['Tab3:row22:col3', 'Tab3:row22:col4'])
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=tramadol
-- topology: transfer parameter unlinked (Q100) — add Kfm/formation-rate/rate-constant to the ontology; routing to review
+- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
+- template fit: PK_3M_9C — formed from central; parent 2, metabolites [0]
 - status held at route_to_review — not promoted
 - model-stage split: 'final model' is the final model of Al-Qurain_2022 (paper reports 2 stages: base model, final model); same population, different model-building step
+- row roles (LLM): model_class=compartmental; 20/20 row label(s) assigned, 28 linked by role; re-tagged parent→O-desmethyltramadol ×24
 - skipped review gap-fill of TLAG: primary's parameterization (rate-constant / ka-only) does not use it
 
 **Extraction notes:**
@@ -80,21 +86,31 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.4 (6/15 fields) | 9 |
+| `gpt-oss:120b` | not confirmed | 0.208 (5/24 fields) | 19 |
 
-<details><summary>9 field(s) a reader read differently</summary>
+<details><summary>19 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `parameters[cl/f].value` | 0.00604 | 6.71 | mismatch |
-| `gpt-oss:120b` | `parameters[clm/f].value` | 0.143 | 11.9 | mismatch |
-| `gpt-oss:120b` | `parameters[ka].value` | 2.96 | 63.7 | mismatch |
-| `gpt-oss:120b` | `parameters[o-desmethyltramadol, a]` | not captured | 20.5 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[q].value` | 0.0426 | 6.09 | mismatch |
-| `gpt-oss:120b` | `parameters[theta_cl_f_crcl].value` | 0.00498 | 14.3 | mismatch |
-| `gpt-oss:120b` | `parameters[theta_v2_f_crcl].value` | 0.0119 | 33.6 | mismatch |
-| `gpt-oss:120b` | `parameters[v1/f].value` | 0.373 | 19.6 | mismatch |
-| `gpt-oss:120b` | `parameters[v2/f].value` | 0.379 | 35.5 | mismatch |
+| `gpt-oss:120b` | `parameters[cl/f]` | 0.00604 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[cl/f]` | not captured | 0.00604 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[ka]` | 2.96 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[ka]` | not captured | 2.96 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[kt].parameter_id` | Q370 | Q305 | mismatch |
+| `gpt-oss:120b` | `parameters[o-desmethyltramadol, a]` | not captured | 5.19 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[q]` | 0.0426 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[q]` | not captured | 0.0426 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[theta_cl_f_crcl]` | 0.00498 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[theta_cl_f_crcl]` | not captured | 0.00498 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[theta_v2_f_crcl]` | 0.0119 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[theta_v2_f_crcl]` | not captured | 0.0119 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[tramadol, b]` | not captured | 0.157 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[v1/f]` | 0.373 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[v1/f]` | not captured | 0.373 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[v2/f]` | 0.379 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[v2/f]` | not captured | 0.379 | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | tramadol | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | tramadol | unknown | mismatch |
 
 </details>
 
@@ -108,19 +124,21 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 8 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 7 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
 | C2_reference | pass | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q27 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab3:row8:col3', 'Tab3:row8:col4'] |
+| C5_dimension_Q27 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab3:row11:col3', 'Tab3:row11:col4'] |
 | C5_dimension_Q290 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab3:row3:col3', 'Tab3:row3:col4'] |
 | C5_dimension_Q30 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab3:row4:col3', 'Tab3:row4:col4'] |
-| C5_dimension_Q351 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab3:row11:col3', 'Tab3:row11:col4'] |
+| C5_dimension_Q305 | fail | [length] ** 3 / [time] | l/h | not captured | not captured | ['Tab3:row10:col3', 'Tab3:row10:col4'] |
 | C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Tab3:row2:col3', 'Tab3:row2:col4'] |
 | C5_dimension_Q82 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab3:row6:col3', 'Tab3:row6:col4'] |
 | C7_apparent_coherence | pass | not captured | not captured | not captured | not captured | not captured |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
 | C9_phys_window_Q27 | pass | clearance within physiological range | 0.00604 L/h | not captured | not captured | ['Tab3:row8:col3', 'Tab3:row8:col4'] |
+| C9_phys_window_Q27 | pass | clearance within physiological range | 0.143 L/h | not captured | not captured | ['Tab3:row11:col3', 'Tab3:row11:col4'] |
 | C9_phys_window_Q290 | fail | volume within physiological range | 0.373 L | not captured | not captured | ['Tab3:row3:col3', 'Tab3:row3:col4'] |
 | C9_phys_window_Q82 | fail | volume within physiological range | 0.379 L | not captured | not captured | ['Tab3:row6:col3', 'Tab3:row6:col4'] |
 
@@ -147,4 +165,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-20 21:55 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 15:10 UTC</sub>

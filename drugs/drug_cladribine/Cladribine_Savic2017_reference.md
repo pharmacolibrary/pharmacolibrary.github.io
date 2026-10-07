@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;L01B&quot;,&quot;href&quot;:&quot;atc/L01B.md&quot;},{&quot;label&quot;:&quot;cladribine&quot;,&quot;href&quot;:&quot;drugs/drug_cladribine/&quot;},{&quot;label&quot;:&quot;Savic_2017 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Cladribine_Lu2024_reference&quot;,&quot;label&quot;:&quot;Lu_2024_reference&quot;,&quot;href&quot;:&quot;drugs/drug_cladribine/Cladribine_Lu2024_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Cladribine_Lindemalm2005_interindividual_variability&quot;,&quot;label&quot;:&quot;Lindemalm_2005_interindividual_variability&quot;,&quot;href&quot;:&quot;drugs/drug_cladribine/Cladribine_Lindemalm2005_interindividual_variability.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Cladribine_Lindemalm2005_population_average&quot;,&quot;label&quot;:&quot;Lindemalm_2005_population_average&quot;,&quot;href&quot;:&quot;drugs/drug_cladribine/Cladribine_Lindemalm2005_population_average.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Cladribine_Savic2017_reference&quot;,&quot;label&quot;:&quot;Savic_2017_reference&quot;,&quot;href&quot;:&quot;drugs/drug_cladribine/Cladribine_Savic2017_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Cladribine_Lindemalm2005_reference&quot;,&quot;label&quot;:&quot;Lindemalm_2005_interindividual_variability&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_cladribine/Cladribine_Lindemalm2005_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Cladribine_Lindemalm2005_reference&quot;,&quot;label&quot;:&quot;Lindemalm_2005_population_average&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_cladribine/Cladribine_Lindemalm2005_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Cladribine_Lu2024_reference&quot;,&quot;label&quot;:&quot;Lu_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_cladribine/Cladribine_Lu2024_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # cladribine — `Cladribine_Savic2017_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -23,37 +23,39 @@ The record carries both a bioavailability fraction (Fab 0.456) and F-adjusted ap
 
 <sub>reviewed by glm-5.3-flash</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-10-05 09:25:26.476809+00:00) predates the upstream re-run (2026-10-07 16:37:26.172814+00:00). Current validate status: `rejected`.
+
 ## Citation
-Savic RM; Novakovic AM; Ekblom M; Munafo A; Karlsson MO et al. (2017). Clinical pharmacokinetics 56
+Savic RM et al., Population Pharmacokinetics of Cladribi…, Clinical pharmacokinetics (2017)
   ·  DOI: [10.1007/s40262-017-0516-6](https://doi.org/10.1007/s40262-017-0516-6)
 
 ## Model component
-<dbs-pgx drug="cladribine" model-id="Cladribine_Savic2017_reference" status="rejected" stale="false" population="patients with multiple sclerosis" measured-compound="cladribine" parameterization="apparent" topology="parent_metabolite"></dbs-pgx>
+<dbs-pgx drug="cladribine" model-id="Cladribine_Savic2017_reference" status="rejected" stale="true" population="adults with multiple sclerosis" measured-compound="cladribine" parameterization="apparent" topology="parent_metabolite"></dbs-pgx>
 
 **Model structure:** parent + metabolite; no model was built for this record.  
 **Parameters:** 14 extracted, plus 1 covariate effect.
 
-**Parameterization:** V1/F — apparent, F unknown (apparent — bioavailability not identifiable).
+**Parameterization:** CL/F, V1/F — apparent, F unknown (apparent — bioavailability not identifiable).
 
 ## Parameters
 > ⚠️ This record is not accepted (current status `rejected`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| CLR coefficientb (typical patient with CLCR = 6.31), L/hc | `Q26` · CLR | 3.52 | not captured | not captured | not captured | 9.26 | llm_confirmed (0.6) | Tab4:row2:col1, Tab4:row2:col2 | — | not captured |
-| CLNR, L/h | `Q79` · CLNR | 23.4 | not captured | not captured | not captured | 9.58 | llm_confirmed (0.6) | Tab4:row3:col1, Tab4:row3:col2 | — | 0.00574 (64.41% RSE) |
-| Central volume, L | `Q63` · V1 | 44.0 | not captured | not captured | not captured | 22.77 | llm_confirmed (0.6) | Tab4:row4:col1, Tab4:row4:col2 | — | not captured |
-| Intercompartmental Q3, L/h | `Q308` · Q3 | 14.3 | not captured | not captured | not captured | 7.73 | llm_confirmed (0.6) | Tab4:row5:col1, Tab4:row5:col2 | — | not captured |
-| Intercompartmental Q4, L/h | `Q30` · Q | 53.7 | not captured | not captured | not captured | 19.06 | llm (0.6) | Tab4:row6:col1, Tab4:row6:col2 | — | not captured |
-| Peripheral volume V3, L | `Q77` · V3 | 347 | not captured | not captured | not captured | 6.07 | llm_corrected (0.6) | Tab4:row7:col1, Tab4:row7:col2 | — | 0.0365 (28.47% RSE) |
-| Absorption rate constant, h−1 | `Q49` · kabs | 1.08 | not captured | not captured | not captured | 21.14 | llm_confirmed (0.6) | Tab4:row9:col1, Tab4:row9:col2 | — | 0.102 (62.53% RSE) |
+| CLR coefficientb (typical patient with CLCR = 6.31), L/hc | `Q22` · CL | 3.52 | μg/h | not captured | [µg] / [h] | 9.26 | exact (1.0) | Tab4:row2:col1, Tab4:row2:col2 | — | not captured |
+| CLNR, L/h | `Q79` · CLNR | 23.4 | L/h | 6.5000000000000004e-06 | [l] / [h] | 9.58 | exact (1.0) | Tab4:row3:col1, Tab4:row3:col2 | — | 0.00574 (64.41% RSE) |
+| Central volume, L | `Q63` · V1 | 44.0 | L | 0.044 | [l] | 22.77 | exact (1.0) | Tab4:row4:col1, Tab4:row4:col2 | — | not captured |
+| Intercompartmental Q3, L/h | `Q30` · Q | 14.3 | L/h | 3.972222222222223e-06 | [l] / [h] | 7.73 | exact (1.0) | Tab4:row5:col1, Tab4:row5:col2 | — | not captured |
+| Intercompartmental Q4, L/h | `Q99` · Q2 | 53.7 | L/h | 1.4916666666666667e-05 | [l] / [h] | 19.06 | exact (1.0) | Tab4:row6:col1, Tab4:row6:col2 | — | not captured |
+| Peripheral volume V3, L | `Q64` · V2 | 347 | L | 0.34700000000000003 | [l] | 6.07 | exact (1.0) | Tab4:row7:col1, Tab4:row7:col2 | — | not captured |
+| Peripheral volume V4, L | `Q77` · V3 | 89.5 | L | 0.0895 | [l] | 7.97 | exact (1.0) | Tab4:row8:col1, Tab4:row8:col2 | — | 0.0365 (28.47% RSE) |
+| Absorption rate constant, h−1 | `Q49` · kabs | 1.08 | h−1 | 0.00030000000000000003 | [1] / [h] | 21.14 | exact (1.0) | Tab4:row9:col1, Tab4:row9:col2 | — | 0.102 (62.53% RSE) |
 | Bioavailability | `Q40` · Fab | 0.456 | not captured | not captured | not captured | 7.03 | exact (1.0) | Tab4:row11:col1, Tab4:row11:col2 | — | not captured |
-| Mean transit time (fed state), h | `Q81` · MTT | 0.910 | not captured | not captured | not captured | 11.03 | llm_confirmed (0.6) | Tab4:row14:col1, Tab4:row14:col2 | — | not captured |
+| Mean transit time (fed state), h | `Q81` · MTT | 0.910 | h | not captured | [h] | 11.03 | llm_confirmed (0.6) | Tab4:row14:col1, Tab4:row14:col2 | — | not captured |
 | Number of transit compartments | `Q311` · n_transit | 2.24 | not captured | not captured | not captured | 27.15 | exact (1.0) | Tab4:row15:col1, Tab4:row15:col2 | — | not captured |
-| CLR e (Vmax), μg/h | `Q66` · Vmax | 0.00280 | not captured | not captured | not captured | 25.53 | llm_confirmed (0.6) | Tab4:row29:col1, Tab4:row29:col2 | — | not captured |
-| CLR e (Km), ng/L | `Q1` · Km | 0.0114 | not captured | not captured | not captured | 58.14 | llm_corrected (0.6) | Tab4:row30:col1, Tab4:row30:col2 | — | not captured |
-| Apparent hepatic CL, L/hf | `Q25` · CLH | 653 | not captured | not captured | not captured | 10.64 | llm_corrected (0.6) | Tab4:row31:col1, Tab4:row31:col2 | — | not captured |
-| Apparent central volume V, Lf | `Q290` · V1/F | 365 | not captured | not captured | not captured | 13.27 | llm_confirmed (0.6) | Tab4:row32:col1, Tab4:row32:col2 | — | not captured |
+| CLR e (Vmax), μg/h | `Q22` · CL | 0.00280 | μg/h | not captured | [µg] / [h] | 25.53 | exact (1.0) | Tab4:row29:col1, Tab4:row29:col2 | — | not captured |
+| Apparent hepatic CL, L/hf | `Q27` · CL/F | 653 | L/h | 0.0001813888888888889 | L/h | 10.64 | exact (1.0) | Tab4:row31:col1, Tab4:row31:col2 | — | not captured |
+| Apparent central volume V, Lf | `Q290` · V1/F | 365 | L | 0.365 | L | 13.27 | exact (1.0) | Tab4:row32:col1, Tab4:row32:col2 | — | not captured |
 | theta_q83_category | `Q900` · theta_q83_category | 0.319 | not captured | not captured | not captured | 12.41 | not captured (not captured) | Tab4:row13:col1, Tab4:row13:col2 | — | not captured |
 
 <details class="legend">
@@ -64,14 +66,22 @@ Savic RM; Novakovic AM; Ekblom M; Munafo A; Karlsson MO et al. (2017). Clinical 
 ## Departures & gaps
 
 **Interpretation flags:**
-- dropped duplicate Q77 ('Peripheral volume V4, L', value '89.5') — already have one for this compound
 - dropped duplicate Q49 ('Absorption rate constant (unknown/fed state), h−1', value '1.03') — already have one for this compound
 - dropped duplicate Q79 ('Fold increase in CLNR in the presence of IFNβ-1a', value '1.21') — already have one for this compound
+- unit_dimension_mismatch: 'CLR e (Vmax), μg/h' → Q22 (unit '[mass] / [time]' vs ontology '[length] ** 3 / [time]') — route to review
+- unit_dimension_mismatch: 'CLR e (Km), ng/L' → Q22 (unit '[mass] / [length] ** 3' vs ontology '[length] ** 3 / [time]') — route to review
+- dropped duplicate Q22 ('CLR e (Km), ng/L', value '0.0114') — already have one for this compound
+- unit inherited for CL (Q22): 'μg/h' from a same-Q-code sibling (this row's label had no unit)
 - covariate effect for Q83 has no base parameter row (kept as unattached equation-variable)
+- implicit units: 'Apparent hepatic CL, L/hf' → L/h (from the paper text: "The text states: 'Apparent CLNR and volume of distribution for CAde were found to be 653 L/h and 365 L, respectively.' T")
+- implicit units: 'Apparent central volume V, Lf' → L (from the paper text: "The text states: 'Apparent CLNR and volume of distribution for CAde were found to be 653 L/h and 365 L, respectively.' T")
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=cladribine
-- topology: transfer parameter unlinked (Q100) — add Kfm/formation-rate/rate-constant to the ontology; routing to review
+- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
+- template fit: PK_3M_9C — formed from central; parent 3, metabolites [1]
 - status held at route_to_review — not promoted
-- skipped review gap-fill of V2: primary is PARENT_METABOLITE (peripheral family needs ≥2C)
+- row roles: 2 per-group rows of cladribine absorption_rate_constant but 0 reference group(s) — kept as printed
+- row roles: 4 per-group rows of cladribine residual_error but 0 reference group(s) — kept as printed
+- row roles (LLM): model_class=compartmental; 32/32 row label(s) assigned, 30 linked by role; re-tagged cladribine→parent ×54, cladribine→2-chloroadenine ×12
 - skipped review gap-fill of TLAG: primary's parameterization (rate-constant / ka-only) does not use it
 
 **Extraction notes:**
@@ -83,10 +93,26 @@ Savic RM; Novakovic AM; Ekblom M; Munafo A; Karlsson MO et al. (2017). Clinical 
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 15 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 14 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
+| C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q22 | fail | [mass] / [time] | μg/h | not captured | not captured | ['Tab4:row29:col1', 'Tab4:row29:col2'] |
+| C5_dimension_Q27 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab4:row31:col1', 'Tab4:row31:col2'] |
+| C5_dimension_Q290 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab4:row32:col1', 'Tab4:row32:col2'] |
+| C5_dimension_Q30 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab4:row5:col1', 'Tab4:row5:col2'] |
+| C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Tab4:row9:col1', 'Tab4:row9:col2'] |
+| C5_dimension_Q63 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab4:row4:col1', 'Tab4:row4:col2'] |
+| C5_dimension_Q64 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab4:row7:col1', 'Tab4:row7:col2'] |
+| C5_dimension_Q77 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab4:row8:col1', 'Tab4:row8:col2'] |
+| C5_dimension_Q79 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab4:row3:col1', 'Tab4:row3:col2'] |
+| C5_dimension_Q99 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab4:row6:col1', 'Tab4:row6:col2'] |
+| C5_unit_missing_Q22 | fail | [length] ** 3 / [time] | μg/h | not captured | not captured | ['Tab4:row2:col1', 'Tab4:row2:col2'] |
 | C7_apparent_coherence | fail | F==1, Fm==1, no molar corr. | absolute F=0.456 with apparent parameterization | not captured | not captured | not captured |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+| C9_phys_window_Q27 | pass | clearance within physiological range | 653 L/h | not captured | not captured | ['Tab4:row31:col1', 'Tab4:row31:col2'] |
+| C9_phys_window_Q290 | pass | volume within physiological range | 365 L | not captured | not captured | ['Tab4:row32:col1', 'Tab4:row32:col2'] |
+| C9_phys_window_Q63 | pass | volume within physiological range | 44 L | not captured | not captured | ['Tab4:row4:col1', 'Tab4:row4:col2'] |
+| C9_phys_window_Q64 | pass | volume within physiological range | 347 L | not captured | not captured | ['Tab4:row7:col1', 'Tab4:row7:col2'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -111,4 +137,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-15 06:24 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 16:37 UTC</sub>

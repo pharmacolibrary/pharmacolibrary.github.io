@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C02K&quot;,&quot;href&quot;:&quot;atc/C02K.md&quot;},{&quot;label&quot;:&quot;tadalafil&quot;,&quot;href&quot;:&quot;drugs/drug_tadalafil/&quot;},{&quot;label&quot;:&quot;Ferguson-Sells_2022 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tadalafil_FergusonSells2022_reference&quot;,&quot;label&quot;:&quot;Ferguson-Sells_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_tadalafil/Tadalafil_FergusonSells2022_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tadalafil_Kohno2014_reference&quot;,&quot;label&quot;:&quot;Kohno_2014_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tadalafil/Tadalafil_Kohno2014_reference.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tadalafil_Na2019_group_t&quot;,&quot;label&quot;:&quot;Na_2019_group_t&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tadalafil/Tadalafil_Na2019_group_t.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # tadalafil — `Tadalafil_FergusonSells2022_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.2). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.182). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -21,16 +21,18 @@
 
 The paper reports no distribution volume and no clearance or elimination rate; it is an exposure/outcome paper. A reported unit could not be converted (fe), so that value has no SI equivalent.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has tadalafil, the second reading unknown; it also differs on 7 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has tadalafil, the second reading unknown; it also differs on 8 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-09-28 14:40:31.867225+00:00) predates the upstream re-run (2026-10-06 16:41:56.654891+00:00). Current validate status: `rejected`.
+
 ## Citation
-Ferguson-Sells L; Velez de Mendizabal N; Li B; Small D et al. (2022). Clinical pharmacokinetics 61
+Ferguson-Sells L et al., Population Pharmacokinetics of Tadalafi…, Clinical pharmacokinetics (2022)
   ·  DOI: [10.1007/s40262-021-01052-8](https://doi.org/10.1007/s40262-021-01052-8)
 
 ## Model component
-<dbs-pgx drug="tadalafil" model-id="Tadalafil_FergusonSells2022_reference" status="rejected" stale="false" population="adults and pediatric patients with pulmonary arterial hypertension" measured-compound="tadalafil" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="tadalafil" model-id="Tadalafil_FergusonSells2022_reference" status="rejected" stale="true" population="adults and pediatric patients with pulmonary arterial hypertension" measured-compound="tadalafil" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment; no model was built for this record.  
 **Parameters:** 2 extracted.
@@ -53,6 +55,7 @@ Ferguson-Sells L; Velez de Mendizabal N; Li B; Small D et al. (2022). Clinical p
 ## Departures & gaps
 
 **Interpretation flags:**
+- table section residual_error: 'Additive (ng/mL)' routed out of structural estimates ('Residual errorf')
 - column 'weight [kg]b' classified 'other' by the LLM but kept: the deterministic diagnostic-column test disagrees (a stratum column is a value column, not a statistic)
 - column 'age [years]c' classified 'other' by the LLM but kept: the deterministic diagnostic-column test disagrees (a stratum column is a value column, not a statistic)
 - column 'dose [mg]d' classified 'other' by the LLM but kept: the deterministic diagnostic-column test disagrees (a stratum column is a value column, not a statistic)
@@ -63,7 +66,6 @@ Ferguson-Sells L; Velez de Mendizabal N; Li B; Small D et al. (2022). Clinical p
 - dropped unlinked row (NIL): 'Effect of weight' — extend the ontology if this is a real PK parameter (source ['Tab2:row8:col1'])
 - unit_dimension_unknown: '% SEE' (fe)
 - dropped unlinked row (NIL): 'Effect of age on F' — extend the ontology if this is a real PK parameter (source ['Tab2:row11:col1'])
-- dropped unlinked row (NIL): 'Additive (ng/mL)' — extend the ontology if this is a real PK parameter (source ['Tab2:row13:col1'])
 - dropped unlinked row (NIL): 'Typical adult, PHIRST-1 adult model' — extend the ontology if this is a real PK parameter (source ['Ferguson-Sells_2022_table_3:row2:col1', 'Ferguson-Sells_2022_table_3:row2:col2', 'Ferguson-Sells_2022_table_3:row2:col3'])
 - dropped unlinked row (NIL): 'Typical adult, pediatric model' — extend the ontology if this is a real PK parameter (source ['Ferguson-Sells_2022_table_3:row3:col1', 'Ferguson-Sells_2022_table_3:row3:col2', 'Ferguson-Sells_2022_table_3:row3:col3', 'Ferguson-Sells_2022_table_3:row9:col1', 'Ferguson-Sells_2022_table_3:row9:col2', 'Ferguson-Sells_2022_table_3:row9:col3'])
 - dropped unlinked row (NIL): '≥ 40 kg' — extend the ontology if this is a real PK parameter (source ['Ferguson-Sells_2022_table_3:row4:col1', 'Ferguson-Sells_2022_table_3:row4:col2', 'Ferguson-Sells_2022_table_3:row4:col3', 'Ferguson-Sells_2022_table_3:row10:col1', 'Ferguson-Sells_2022_table_3:row10:col2', 'Ferguson-Sells_2022_table_3:row10:col3'])
@@ -73,6 +75,9 @@ Ferguson-Sells L; Velez de Mendizabal N; Li B; Small D et al. (2022). Clinical p
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=tadalafil
 - held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - status held at route_to_review — not promoted
+- skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
+- skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
+- skipped review gap-fill of TLAG: primary's parameterization (rate-constant / ka-only) does not use it
 
 **Extraction notes:**
 - unparsed cell Tab2:row1:col2 = '201%b (26.4)'
@@ -145,9 +150,9 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.2 (2/10 fields) | 8 |
+| `gpt-oss:120b` | not confirmed | 0.182 (2/11 fields) | 9 |
 
-<details><summary>8 field(s) a reader read differently</summary>
+<details><summary>9 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
@@ -156,6 +161,7 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | `gpt-oss:120b` | `parameters[fe]` | not captured | 1 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[ka]` | 0.860 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[ka]` | not captured | 0.860 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[theta_q319_weight]` | not captured | 1 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[theta_q87_age]` | not captured | 0.100 | only_one_extracted |
 | `gpt-oss:120b` | `screen.dose_compound` | tadalafil | unknown | mismatch |
 | `gpt-oss:120b` | `screen.primary_analyte` | tadalafil | unknown | mismatch |
@@ -200,4 +206,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-28 03:46 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-06 16:41 UTC</sub>

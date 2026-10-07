@@ -1,19 +1,18 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A03F&quot;,&quot;href&quot;:&quot;atc/A03F.md&quot;},{&quot;label&quot;:&quot;metoclopramide&quot;,&quot;href&quot;:&quot;drugs/drug_metoclopramide/&quot;},{&quot;label&quot;:&quot;Ge_2020 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Metoclopramide_Bateman1978_reference&quot;,&quot;label&quot;:&quot;Bateman_1978_reference&quot;,&quot;href&quot;:&quot;drugs/drug_metoclopramide/Metoclopramide_Bateman1978_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Metoclopramide_Brandon2024_reference&quot;,&quot;label&quot;:&quot;Brandon_2024_reference&quot;,&quot;href&quot;:&quot;drugs/drug_metoclopramide/Metoclopramide_Brandon2024_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Metoclopramide_Ge2020_reference&quot;,&quot;label&quot;:&quot;Ge_2020_reference&quot;,&quot;href&quot;:&quot;drugs/drug_metoclopramide/Metoclopramide_Ge2020_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # metoclopramide — `Metoclopramide_Ge2020_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.333). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.182). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
@@ -21,18 +20,20 @@
 
 A model needs both clearance and volume; without the volume it could only be built on a library default, so it was not. Extracted — metoclopramide: kabs 0.4 hour−1, CL 19.6, Vnorm 42.9, Q 57.1, Fab 0.97.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on bioavailability: this record has 0.97, the second reading 1.0; it also differs on 7 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has metoclopramide, the second reading unknown; it also differs on 8 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-09-28 14:38:56.111090+00:00) predates the upstream re-run (2026-10-04 13:54:35.071604+00:00). Current validate status: `needs_review`.
+
 ## Citation
-Ge S; Mendley SR; Gerhart JG; Melloni C; Hornik CP; Sullivan JE; et al. et al. (2020). Clinical and translational science 13
+Ge S et al., Population Pharmacokinetics of Metoclop…, Clinical and translational… (2020)
   ·  DOI: [10.1111/cts.12803](https://doi.org/10.1111/cts.12803)
 
 ## Model component
-<dbs-pgx drug="metoclopramide" model-id="Metoclopramide_Ge2020_reference" status="needs_review" stale="false" population="infants, children, and adolescents" measured-compound="metoclopramide" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="metoclopramide" model-id="Metoclopramide_Ge2020_reference" status="needs_review" stale="true" population="infants, children, and adolescents" measured-compound="metoclopramide" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
-**Model structure:** 1-compartment, IV mammillary model — template `PK_1C`.  
+**Model structure:** 1-compartment; no model was built for this record.  
 **Parameters:** 5 extracted.
 
 **Parameterization:** mechanistic.
@@ -43,9 +44,9 @@ Ge S; Mendley SR; Gerhart JG; Melloni C; Hornik CP; Sullivan JE; et al. et al. (
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
 | K a, hour−1 | `Q49` · kabs | 0.4 | hour−1 | 0.00011111111111111112 | [1] / [h] | not captured | space_fold (0.95) | cts12803-tbl-0002:row2:col1, cts12803-tbl-0002:row2:col2, cts12803-tbl-0002:row2:col3, cts12803-tbl-0002:row2:col4, cts12803-tbl-0002:row2:col5 | — | not captured |
-| CL, L/hour/70 kg | `Q22` · CL | 19.6 | not captured | not captured | not captured | not captured | llm_confirmed (0.6) | cts12803-tbl-0002:row3:col1, cts12803-tbl-0002:row3:col2, cts12803-tbl-0002:row3:col3, cts12803-tbl-0002:row3:col4, cts12803-tbl-0002:row3:col5 | — | not captured |
-| V c, L/70 kg | `Q352` · Vnorm | 42.9 | not captured | not captured | not captured | not captured | llm (0.6) | cts12803-tbl-0002:row4:col1, cts12803-tbl-0002:row4:col2, cts12803-tbl-0002:row4:col3, cts12803-tbl-0002:row4:col4, cts12803-tbl-0002:row4:col5 | — | not captured |
-| Q, L/hour/70 kg | `Q30` · Q | 57.1 | not captured | not captured | not captured | not captured | llm (0.6) | cts12803-tbl-0002:row6:col1, cts12803-tbl-0002:row6:col2, cts12803-tbl-0002:row6:col3, cts12803-tbl-0002:row6:col4, cts12803-tbl-0002:row6:col5 | — | not captured |
+| CL, L/hour/70 kg | `Q22` · CL | 19.6 | L/hour/70 kg | 5.444444444444446e-06 | L/h | not captured | llm_confirmed (0.6) | cts12803-tbl-0002:row3:col1, cts12803-tbl-0002:row3:col2, cts12803-tbl-0002:row3:col3, cts12803-tbl-0002:row3:col4, cts12803-tbl-0002:row3:col5 | — | not captured |
+| V c, L/70 kg | `Q352` · Vnorm | 42.9 | L/70 kg | 0.0429 | L | not captured | llm (0.6) | cts12803-tbl-0002:row4:col1, cts12803-tbl-0002:row4:col2, cts12803-tbl-0002:row4:col3, cts12803-tbl-0002:row4:col4, cts12803-tbl-0002:row4:col5 | — | not captured |
+| Q, L/hour/70 kg | `Q30` · Q | 57.1 | L/hour/70 kg | 1.5861111111111112e-05 | L/h | not captured | llm (0.6) | cts12803-tbl-0002:row6:col1, cts12803-tbl-0002:row6:col2, cts12803-tbl-0002:row6:col3, cts12803-tbl-0002:row6:col4, cts12803-tbl-0002:row6:col5 | — | not captured |
 | F | `Q40` · Fab | 0.97 | not captured | not captured | not captured | not captured | exact (1.0) | cts12803-tbl-0002:row7:col1, cts12803-tbl-0002:row7:col2, cts12803-tbl-0002:row7:col3, cts12803-tbl-0002:row7:col4, cts12803-tbl-0002:row7:col5 | — | not captured |
 
 <details class="legend">
@@ -58,6 +59,9 @@ Ge S; Mendley SR; Gerhart JG; Melloni C; Hornik CP; Sullivan JE; et al. et al. (
 **Interpretation flags:**
 - dropped unlinked row (NIL): 'Parameter' — extend the ontology if this is a real PK parameter (source ['cts12803-tbl-0002:row0:col3', 'cts12803-tbl-0002:row0:col4', 'cts12803-tbl-0002:row0:col5'])
 - dropped duplicate Q352 ('V p, L/70 kg', value '83.9') — already have one for this compound
+- implicit units: 'CL, L/hour/70 kg' → L/hour/70 kg (from the paper text: "The paper text explicitly states: 'The population estimate for CL was 19.6 L/hour/70 kg'.")
+- implicit units: 'V c, L/70 kg' → L/70 kg (from the popPK convention: 'The paper states that volume of distribution parameters (Vc and Vp) were characterized using a linear relationship with ')
+- implicit units: 'Q, L/hour/70 kg' → L/hour/70 kg (from the popPK convention: 'The paper states that clearance parameters (CL and Q) were explored using an allometric relationship with a fixed expone')
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=metoclopramide
 - structure disagreement: deterministic 1C vs LLM 2C — review compartment count
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
@@ -73,9 +77,9 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.333 (4/12 fields) | 8 |
+| `gpt-oss:120b` | not confirmed | 0.182 (2/11 fields) | 9 |
 
-<details><summary>8 field(s) a reader read differently</summary>
+<details><summary>9 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
@@ -84,9 +88,10 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | `gpt-oss:120b` | `parameters[f].value` | 0.97 | 1.0 | mismatch |
 | `gpt-oss:120b` | `parameters[k a].value` | 0.4 | 0.8 | mismatch |
 | `gpt-oss:120b` | `parameters[q, l/hour/70 kg].value` | 57.1 | 238.0 | mismatch |
-| `gpt-oss:120b` | `parameters[v c, l/70 kg].parameter_id` | Q352 | Q63 | mismatch |
 | `gpt-oss:120b` | `parameters[v c, l/70 kg].value` | 42.9 | 111.8 | mismatch |
 | `gpt-oss:120b` | `parameters[v p, l/70 kg]` | not captured | 275.8 | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | metoclopramide | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | metoclopramide | unknown | mismatch |
 
 </details>
 
@@ -103,9 +108,13 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | C0_has_structural_params | pass | not captured | 5 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['cts12803-tbl-0002:row3:col1', 'cts12803-tbl-0002:row3:col2', 'cts12803-tbl-0002:row3:col3', 'cts12803-tbl-0002:row3:col4', 'cts12803-tbl-0002:row3:col5'] |
+| C5_dimension_Q30 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['cts12803-tbl-0002:row6:col1', 'cts12803-tbl-0002:row6:col2', 'cts12803-tbl-0002:row6:col3', 'cts12803-tbl-0002:row6:col4', 'cts12803-tbl-0002:row6:col5'] |
+| C5_dimension_Q352 | pass | [length] ** 3 | not captured | not captured | not captured | ['cts12803-tbl-0002:row4:col1', 'cts12803-tbl-0002:row4:col2', 'cts12803-tbl-0002:row4:col3', 'cts12803-tbl-0002:row4:col4', 'cts12803-tbl-0002:row4:col5'] |
 | C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['cts12803-tbl-0002:row2:col1', 'cts12803-tbl-0002:row2:col2', 'cts12803-tbl-0002:row2:col3', 'cts12803-tbl-0002:row2:col4', 'cts12803-tbl-0002:row2:col5'] |
 | C6_cl_magnitude | pass | &lt;= 90.0 L/h | 19.6 | not captured | not captured | ['cts12803-tbl-0002:row3:col1', 'cts12803-tbl-0002:row3:col2', 'cts12803-tbl-0002:row3:col3', 'cts12803-tbl-0002:row3:col4', 'cts12803-tbl-0002:row3:col5'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 19.6 L/h | not captured | not captured | ['cts12803-tbl-0002:row3:col1', 'cts12803-tbl-0002:row3:col2', 'cts12803-tbl-0002:row3:col3', 'cts12803-tbl-0002:row3:col4', 'cts12803-tbl-0002:row3:col5'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -140,4 +149,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-18 12:05 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-04 13:54 UTC</sub>

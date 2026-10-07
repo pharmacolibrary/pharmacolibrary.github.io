@@ -1,5 +1,5 @@
 {
- "dose_source": "paper",
+ "dose_source": "WHO ATC DDD 400 mg oral (M04AA01)",
  "model_id": "Allopurinol_Ekobena2025_reference",
  "molar_masses": {
   "central.C": 0.1361115
@@ -8,27 +8,23 @@
  "observables": [
   "central.C"
  ],
- "paper_doses_kind": "discrete",
- "paper_doses_mg": [
-  50.0
- ],
  "parameters": {
-  "Cl": 1.4e-07,
-  "F": 1.0,
+  "Cl": 1.277777777777778e-07,
+  "F": 0.9,
   "MM": 0.1361115,
-  "Tlag": 846.0,
-  "VdPerKg": 0.0001657142857142857,
+  "Tlag": 0.0,
+  "VdPerKg": 0.00015571428571428572,
   "adminCount": 1.0,
   "adminDuration": 600.0,
-  "adminMass": 5e-05,
-  "ka": 0.0007222222222222223,
+  "adminMass": 0.0004,
+  "ka": 0.00017777777777777779,
   "weight": 70.0
  },
  "reference_peak_times": {
-  "central.C": 6981.703601020008
+  "central.C": 16738.80455081138
  },
  "reference_peaks": {
-  "central.C": 0.004020264705158077
+  "central.C": 0.027258341417290548
  },
  "stop_time": 345600.0,
  "template": "PK_1C_enteral",

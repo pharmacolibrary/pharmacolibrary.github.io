@@ -1,15 +1,14 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A10B&quot;,&quot;href&quot;:&quot;atc/A10B.md&quot;},{&quot;label&quot;:&quot;rosiglitazone&quot;,&quot;href&quot;:&quot;drugs/drug_rosiglitazone/&quot;},{&quot;label&quot;:&quot;Kirchheiner_2006 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Rosiglitazone_Gao2012_estimate_cv&quot;,&quot;label&quot;:&quot;Gao_2012_estimate_cv&quot;,&quot;href&quot;:&quot;drugs/drug_rosiglitazone/Rosiglitazone_Gao2012_estimate_cv.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Rosiglitazone_Kirchheiner2006_reference&quot;,&quot;label&quot;:&quot;Kirchheiner_2006_reference&quot;,&quot;href&quot;:&quot;drugs/drug_rosiglitazone/Rosiglitazone_Kirchheiner2006_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Rosiglitazone_Gao2012_definition&quot;,&quot;label&quot;:&quot;Gao_2012_definition&quot;,&quot;href&quot;:&quot;drugs/drug_rosiglitazone/Rosiglitazone_Gao2012_definition.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # rosiglitazone — `Rosiglitazone_Kirchheiner2006_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (partly confirmed, agreement 0.667). The first reading is what the record holds.">cross-check: partial</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (partly confirmed, agreement 0.556). The first reading is what the record holds.">cross-check: partial</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -19,21 +18,21 @@
 
 **Only clearance was extracted — no volume.**
 
-A model needs both clearance and volume; without the volume it could only be built on a library default, so it was not. Only the abstract was available, so reported summary statistics stand in for a fitted model. Extracted — rosiglitazone: CL 0.033 L x h(-1) x kg(-1), t1/2z 4.3 hours.
+A model needs both clearance and volume; without the volume it could only be built on a library default, so it was not. Only the abstract was available, so reported summary statistics stand in for a fitted model. Extracted — rosiglitazone: CL 0.033 L/h, t1/2z 4.3 hours; desmethylrosiglitazone: CL 1.96 L/h.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of elimination half-lives: this record has 4.3, the second reading none; it also differs on 1 more field. That field does not shape the model.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of elimination half-life: this record has none, the second reading 4.3; it also differs on 3 more fields. That field does not shape the model.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
 ## Citation
-Kirchheiner J; Thomas S; Bauer S; Tomalik-Scharte D; Hering U; Doroshyenko O; et al. et al. (2006). Clinical pharmacology and therapeutics 80
+Kirchheiner J et al., Pharmacokinetics and pharmacodynamics o…, Clinical pharmacology and t… (2006)
   ·  DOI: [10.1016/j.clpt.2006.09.008](https://doi.org/10.1016/j.clpt.2006.09.008)
 
 ## Model component
 <dbs-pgx drug="rosiglitazone" model-id="Rosiglitazone_Kirchheiner2006_reference" status="needs_review" stale="false" population="healthy volunteers" measured-compound="rosiglitazone" parameterization="mechanistic" topology="parent_metabolite"></dbs-pgx>
 
 **Model structure:** parent + metabolite; no model was built for this record.  
-**Parameters:** 2 extracted.
+**Parameters:** 3 extracted.
 
 **Parameterization:** mechanistic.
 
@@ -42,8 +41,9 @@ Kirchheiner J; Thomas S; Bauer S; Tomalik-Scharte D; Hering U; Doroshyenko O; et
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Mean total clearance values | `Q22` · CL | 0.033 | L x h(-1) x kg(-1) | not captured | [l] / [[h] · [kg]] | not captured | llm_confirmed (0.6) | Kirchheiner_2006:abstract, Kirchheiner_2006:abstract, Kirchheiner_2006:abstract | — | not captured |
+| Mean total clearance values | `Q22` · CL | 0.033 | L/h | 9.166666666666668e-09 | L/h | not captured | llm_confirmed (0.6) | Kirchheiner_2006:abstract, Kirchheiner_2006:abstract, Kirchheiner_2006:abstract | — | not captured |
 | Elimination half-lives | `Q57` · t1/2z | 4.3 | hours | 15480.0 | [h] | not captured | llm (0.6) | Kirchheiner_2006:abstract, Kirchheiner_2006:abstract, Kirchheiner_2006:abstract | — | not captured |
+| Clearance of desmethylrosiglitazone | `Q22` · CL | 1.96 | L/h | 5.444444444444444e-07 | [l] / [h] | not captured | exact (1.0) | Kirchheiner_2006:abstract, Kirchheiner_2006:abstract, Kirchheiner_2006:abstract | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -54,11 +54,12 @@ Kirchheiner J; Thomas S; Bauer S; Tomalik-Scharte D; Hering U; Doroshyenko O; et
 
 **Interpretation flags:**
 - unit_dimension_unknown: 'L x h(-1) x kg(-1)' (CL)
-- dropped duplicate Q22 ('Clearance of desmethylrosiglitazone', value 1.96) — already have one for this compound
+- implicit units: 'Mean total clearance values' → L/h (from the popPK convention: 'Total clearance is conventionally expressed in L/h in population PK studies. The value 0.033 is consistent with this uni')
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=rosiglitazone
-- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - topology: transfer parameter unlinked (Q100) — add Kfm/formation-rate/rate-constant to the ontology; routing to review
+- template fit: none — noncompartmental model — not a compartmental parent–metabolite model
 - status held at route_to_review — not promoted
+- row roles (LLM): model_class=noncompartmental; 3/3 row label(s) assigned, 6 linked by role; re-tagged rosiglitazone→parent ×6, rosiglitazone→desmethylrosiglitazone ×3
 - abstract-only: no full text was available, so these values were read from the abstract's prose — reported summary statistics, not a fitted model
 
 **Extraction notes:**
@@ -71,14 +72,16 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | partly confirmed | 0.667 (4/6 fields) | 2 |
+| `gpt-oss:120b` | partly confirmed | 0.556 (5/9 fields) | 4 |
 
-<details><summary>2 field(s) a reader read differently</summary>
+<details><summary>4 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
+| `gpt-oss:120b` | `parameters[elimination half-life]` | not captured | 4.3 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[elimination half-lives]` | 4.3 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `parameters[mean total clearance values]` | 0.033 | not captured | only_one_extracted |
+| `gpt-oss:120b` | `parameters[mean total clearance]` | not captured | 0.033 | only_one_extracted |
 
 </details>
 
@@ -92,12 +95,16 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 2 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 3 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract'] |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract'] |
 | C5_dimension_Q57 | pass | [time] | not captured | not captured | not captured | ['Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract'] |
 | C6_cl_magnitude | pass | &lt;= 90.0 L/h | 0.033 | not captured | not captured | ['Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 0.033 L/h | not captured | not captured | ['Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract'] |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 1.96 L/h | not captured | not captured | ['Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract', 'Kirchheiner_2006:abstract'] |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -132,4 +139,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-18 19:15 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-05 03:07 UTC</sub>

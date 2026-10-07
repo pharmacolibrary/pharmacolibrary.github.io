@@ -1,19 +1,18 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B02B&quot;,&quot;href&quot;:&quot;atc/B02B.md&quot;},{&quot;label&quot;:&quot;coagulation factor IX&quot;,&quot;href&quot;:&quot;drugs/drug_coagulation_factor_ix/&quot;},{&quot;label&quot;:&quot;Preijers_2022 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;CoagulationFactorIx_Preijers2018_reference&quot;,&quot;label&quot;:&quot;Preijers_2018_reference&quot;,&quot;href&quot;:&quot;drugs/drug_coagulation_factor_ix/CoagulationFactorIx_Preijers2018_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;CoagulationFactorIx_Preijers2022_reference&quot;,&quot;label&quot;:&quot;Preijers_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_coagulation_factor_ix/CoagulationFactorIx_Preijers2022_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;CoagulationFactorIx_Goldsmith1992_reference&quot;,&quot;label&quot;:&quot;Goldsmith_1992_reference&quot;,&quot;href&quot;:&quot;drugs/drug_coagulation_factor_ix/CoagulationFactorIx_Goldsmith1992_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # coagulation factor IX — `CoagulationFactorIx_Preijers2022_reference`
 
-> ## <span class="pk-badge pk-badge--orange" title="covariates_not_exercised: the record defines covariate effects (weight on clearance, renal function …) but the engineer simulated only the reference individual, so those scenarios were never run. The base model still reproduces the paper; what is missing is the covariate curves.">built, not shipped</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.958). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red" title="covariates_not_exercised: the record defines covariate effects (weight on clearance, renal function …) but the engineer simulated only the reference individual, so those scenarios were never run. The base model still reproduces the paper; what is missing is the covariate curves.">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.714). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+**Model:** No model was generated from this record.
 
 > **Caveat** (`covariates_not_exercised`): the record defines covariate effects (weight on clearance, renal function …) but the engineer simulated only the reference individual, so those scenarios were never run. The base model still reproduces the paper; what is missing is the covariate curves.
 
@@ -23,50 +22,40 @@
 
 The model was built, but coagulation factor ix's clearance, volume of distribution, central→peripheral rate constant and peripheral→central rate constant had no value, so a library placeholder stood in and the model was held back rather than published with an invented number. The base model was simulated, not the covariate effects the record defines. A reported unit could not be converted (CL, CL, CL and V1), so that value has no SI equivalent. Extracted — N9-GP: CL 4.6 CL; mLh−1, V1 4.8 V1; mL, Q2 35.2, V2 11.8 V2; mL, t1/2z 94.3 h; rFIXFc: CL 239 CL; mLh−1, V1 7.14e+03 V1; mL, Q2 167, V2 8.7e+03 V2; mL, Q3 3.93e+03 Q3; mLh−1, V3 3.99e+03 V3; mL, t1/2z 79 h; rIX-FP: CL 57 CL; mLh−1, V1 6.48e+03 V1; mL, Q2 29, V2 1.58e+03 V2; mL, t1/2z 108 h.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has extended half-life factor IX concentrates, the second reading N9-GP, rFIXFc, rIX-FP. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has extended half-life factor IX concentrates, the second reading N9-GP, rFIXFc, rIX-FP; it also differs on 3 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
+
+> ⚠️ **STALE** — review status `model_quarantined` (reviewed 2026-09-28 14:37:13.751695+00:00) predates the upstream re-run (2026-10-05 17:40:19.540556+00:00). Current validate status: `rejected`.
 
 > **Dose compound ≠ measured compound:** dosed `extended half-life factor IX concentrates`, measured `factor IX`.
 
 ## Citation
-Preijers T; van Spengler MWF; Meijer K; Fijnvandraat K; Fischer K; Leebeek FWG; et al. et al. (2022). European journal of clinical pharmacology 78
+Preijers T et al., In silico evaluation of limited samplin…, European journal of clinica… (2022)
   ·  DOI: [10.1007/s00228-021-03173-2](https://doi.org/10.1007/s00228-021-03173-2)
 
 ## Model component
-<dbs-pgx drug="coagulation factor IX" model-id="CoagulationFactorIx_Preijers2022_reference" status="model_quarantined" stale="false" population="hemophilia B patients" measured-compound="factor IX" parameterization="mechanistic" topology="2C"></dbs-pgx>
+<dbs-pgx drug="coagulation factor IX" model-id="CoagulationFactorIx_Preijers2022_reference" status="rejected" stale="true" population="hemophilia B patients" measured-compound="factor IX" parameterization="mechanistic" topology="2C"></dbs-pgx>
 
-**Model structure:** 2-compartment, IV mammillary model — template `PK_2C`.  
-**Parameters:** 17 extracted, plus 6 covariate effects.
+**Model structure:** 2-compartment; no model was built for this record.  
+**Parameters:** 7 extracted, plus 4 covariate effects.
 
 **Parameterization:** mechanistic.
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `model_quarantined`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
+> ⚠️ This record is not accepted (current status `rejected`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Clearance (CL; mLh−1) | `Q22` · CL | 4.6 | CL; mLh−1 | not captured | [cl] | not captured | exact (1.0) | Tab1:row3:col2 | — | 16.8 (None% RSE) |
-| Clearance (CL; mLh−1) | `Q22` · CL | 239 | CL; mLh−1 | not captured | [cl] | not captured | exact (1.0) | Tab1:row3:col3 | — | not captured |
-| Clearance (CL; mLh−1) | `Q22` · CL | 57 | CL; mLh−1 | not captured | [cl] | not captured | exact (1.0) | Tab1:row3:col5, Tab1:row3:col6 | — | not captured |
-| Volume of central compartment (V1; mL) | `Q63` · V1 | 4.8 | V1; mL | not captured | [v1] | not captured | llm_corrected (0.6) | Tab1:row4:col2 | — | 18.7 (None% RSE) |
-| Volume of central compartment (V1; mL) | `Q63` · V1 | 7140 | V1; mL | not captured | [v1] | not captured | llm_corrected (0.6) | Tab1:row4:col3 | — | not captured |
-| Volume of central compartment (V1; mL) | `Q63` · V1 | 6480 | V1; mL | not captured | [v1] | not captured | llm_corrected (0.6) | Tab1:row4:col5, Tab1:row4:col6 | — | not captured |
-| Distribution CL to compartment 2 (Q(2); mLh−1) | `Q99` · Q2 | 35.2 | not captured | not captured | not captured | not captured | llm_corrected (0.6) | Tab1:row5:col2 | — | not captured |
-| Distribution CL to compartment 2 (Q(2); mLh−1) | `Q99` · Q2 | 167 | not captured | not captured | not captured | not captured | llm_corrected (0.6) | Tab1:row5:col3 | — | not captured |
-| Distribution CL to compartment 2 (Q(2); mLh−1) | `Q99` · Q2 | 29 | not captured | not captured | not captured | not captured | llm_corrected (0.6) | Tab1:row5:col5, Tab1:row5:col6 | — | not captured |
-| Volume of compartment 2 (V2; mL) | `Q64` · V2 | 11.8 | V2; mL | not captured | [v2] | not captured | llm_corrected (0.6) | Tab1:row6:col2 | — | 46.1 (None% RSE) |
-| Volume of compartment 2 (V2; mL) | `Q64` · V2 | 8700 | V2; mL | not captured | [v2] | not captured | llm_corrected (0.6) | Tab1:row6:col3 | — | not captured |
-| Volume of compartment 2 (V2; mL) | `Q64` · V2 | 1580 | V2; mL | not captured | [v2] | not captured | llm_corrected (0.6) | Tab1:row6:col5, Tab1:row6:col6 | — | not captured |
-| Distribution CL to compartment 3 (Q3; mLh−1) | `Q308` · Q3 | 3930 | Q3; mLh−1 | not captured | [q3] | not captured | llm_corrected (0.6) | Tab1:row7:col3 | — | not captured |
-| Volume of compartment 3 (V3; mL) | `Q77` · V3 | 3990 | V3; mL | not captured | [v3] | not captured | llm_corrected (0.6) | Tab1:row8:col3 | — | 37.7 (None% RSE) |
-| t1/2 (h) | `Q57` · t1/2z | 94.3 | h | 339480.0 | [h] | not captured | exact (1.0) | Tab1:row29:col1 | — | not captured |
-| t1/2 (h) | `Q57` · t1/2z | 79 | h | 284400.0 | [h] | not captured | exact (1.0) | Tab1:row29:col3 | — | not captured |
-| t1/2 (h) | `Q57` · t1/2z | 108.3 | h | 389880.0 | [h] | not captured | exact (1.0) | Tab1:row29:col5 | — | not captured |
-| theta_q319_body_weight_power | `Q900` · theta_q319_body_weight_power | 0.436 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab1:row10:col3 | — | not captured |
-| theta_q319_body_weight_power | `Q900` · theta_q319_body_weight_power | 0.53 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab1:row10:col5, Tab1:row10:col6 | — | not captured |
-| theta_q319_body_weight_power | `Q900` · theta_q319_body_weight_power | 0.396 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab1:row11:col3 | — | not captured |
-| theta_q319_body_weight_power | `Q900` · theta_q319_body_weight_power | 0.79 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab1:row11:col5, Tab1:row11:col6 | — | not captured |
+| Clearance (CL; mLh−1) | `Q22` · CL | 4.6 | mL/h | 1.2777777777777776e-09 | L/h | not captured | exact (1.0) | Tab1:row3:col2, Tab1:row3:col3, Tab1:row3:col5, Tab1:row3:col6 | — | 16.1 (None% RSE) |
+| Volume of central compartment (V1; mL) | `Q63` · V1 | 4.8 | mL | 4.8e-06 | L | not captured | boundary_compartment (0.9) | Tab1:row4:col2, Tab1:row4:col3, Tab1:row4:col5, Tab1:row4:col6 | — | not captured |
+| Distribution CL to compartment 2 (Q(2); mLh−1) | `Q99` · Q2 | 35.2 | mL/h | 9.777777777777778e-09 | L/h | not captured | llm_corrected (0.6) | Tab1:row5:col2, Tab1:row5:col3, Tab1:row5:col5, Tab1:row5:col6 | — | not captured |
+| Volume of compartment 2 (V2; mL) | `Q64` · V2 | 11.8 | mL | 1.18e-05 | L | not captured | llm_corrected (0.6) | Tab1:row6:col2, Tab1:row6:col3, Tab1:row6:col5, Tab1:row6:col6 | — | not captured |
+| Distribution CL to compartment 3 (Q3; mLh−1) | `Q308` · Q3 | 3930 | mL/h | 1.0916666666666664e-06 | L/h | not captured | llm_corrected (0.6) | Tab1:row7:col3 | — | not captured |
+| Volume of compartment 3 (V3; mL) | `Q77` · V3 | 3990 | mL | 0.00399 | L | not captured | llm_corrected (0.6) | Tab1:row8:col3 | — | not captured |
+| t1/2 (h) | `Q57` · t1/2z | 94.3 | h | 339480.0 | [h] | not captured | exact (1.0) | Tab1:row29:col1, Tab1:row29:col3, Tab1:row29:col5 | — | not captured |
+| theta_q319_body_weight_power | `Q900` · theta_q319_body_weight_power | 0.436 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab1:row10:col3, Tab1:row10:col5, Tab1:row10:col6 | — | not captured |
+| theta_q319_body_weight_power | `Q900` · theta_q319_body_weight_power | 0.396 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab1:row11:col3, Tab1:row11:col5, Tab1:row11:col6 | — | not captured |
 | theta_q319_body_weight_power | `Q900` · theta_q319_body_weight_power | 0.79 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab1:row12:col5, Tab1:row12:col6 | — | not captured |
 | theta_q319_weight_power | `Q900` · theta_q319_weight_power | 0.38 | not captured | not captured | not captured | not captured | not captured (not captured) | Tab1:row13:col5, Tab1:row13:col6 | — | not captured |
 
@@ -78,6 +67,17 @@ Preijers T; van Spengler MWF; Meijer K; Fijnvandraat K; Fischer K; Leebeek FWG; 
 ## Departures & gaps
 
 **Interpretation flags:**
+- table section iiv: 'IIV on CL' routed out of structural estimates ('Inter-individual variability (%CVd)')
+- table section iiv: 'IIV on V1' routed out of structural estimates ('Inter-individual variability (%CVd)')
+- table section iiv: 'IIV on V2' routed out of structural estimates ('Inter-individual variability (%CVd)')
+- table section iiv: 'IIV on V3' routed out of structural estimates ('Inter-individual variability (%CVd)')
+- table section iiv: 'IIV on Q(2)' routed out of structural estimates ('Inter-individual variability (%CVd)')
+- table section iiv: 'Correlation between CL and V1 (%)' routed out of structural estimates ('Inter-individual variability (%CVd)')
+- table section iiv: 'IIV on baseline' routed out of structural estimates ('Inter-individual variability (%CVd)')
+- table section iov: 'IOV CL' routed out of structural estimates ('Inter-occasion variability (%CV)')
+- table section iov: 'IOV V1' routed out of structural estimates ('Inter-occasion variability (%CV)')
+- table section residual_error: 'Additive residual variability (SD; IUmL−1)' routed out of structural estimates ('Residual variability')
+- table section residual_error: 'Proportional residual variability (%CV)' routed out of structural estimates ('Residual variability')
 - column 'n9-gpa' classified 'other' by the LLM but kept: the deterministic diagnostic-column test disagrees (a stratum column is a value column, not a statistic)
 - column 'rfixfcb' classified 'other' by the LLM but kept: the deterministic diagnostic-column test disagrees (a stratum column is a value column, not a statistic)
 - column 'rix-fpc' classified 'other' by the LLM but kept: the deterministic diagnostic-column test disagrees (a stratum column is a value column, not a statistic)
@@ -87,12 +87,18 @@ Preijers T; van Spengler MWF; Meijer K; Fijnvandraat K; Fischer K; Leebeek FWG; 
 - unit_dimension_unknown: 'Q3; mLh−1' (Q3)
 - unit_dimension_unknown: 'V3; mL' (V3)
 - dropped unlinked row (NIL): 'Baseline FIX level' — extend the ontology if this is a real PK parameter (source ['Tab1:row9:col5', 'Tab1:row9:col6'])
-- routed 'Correlation between CL and V1 (%)' → Q314 (omega_cov) to covariance — variability estimate, not a structural parameter
 - covariate effect for Q319 has no base parameter row (kept as unattached equation-variable)
+- implicit units: 'Clearance (CL; mLh−1)' → mL/h (from the paper text: "The parameter description in the input list explicitly states 'Clearance (CL; mLh−1)'. Additionally, the paper text note")
+- implicit units: 'Volume of central compartment (V1; mL)' → mL (from the paper text: "The parameter description in the input list explicitly states 'Volume of central compartment (V1; mL)'.")
+- implicit units: 'Distribution CL to compartment 2 (Q(2); mLh−1)' → mL/h (from the paper text: "The parameter description in the input list explicitly states 'Distribution CL to compartment 2 (Q(2); mLh−1)'.")
+- implicit units: 'Volume of compartment 2 (V2; mL)' → mL (from the paper text: "The parameter description in the input list explicitly states 'Volume of compartment 2 (V2; mL)'.")
+- implicit units: 'Distribution CL to compartment 3 (Q3; mLh−1)' → mL/h (from the paper text: "The parameter description in the input list explicitly states 'Distribution CL to compartment 3 (Q3; mLh−1)'.")
+- implicit units: 'Volume of compartment 3 (V3; mL)' → mL (from the paper text: "The parameter description in the input list explicitly states 'Volume of compartment 3 (V3; mL)'.")
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=factor IX
-- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - structure disagreement: deterministic 2C vs LLM 3C — review compartment count
-- status held at route_to_review — not promoted
+- molar mass: no plausible PubChem entry for 'factor IX' ('factor IX') — left in mass units
+- molar mass: none found for 'coagulation_factor_ix' — its concentrations stay mass-only
+- molar mass: none found for 'factor IX' — its concentrations stay mass-only
 - review gap-fill skipped: this record measures 'factor IX', not coagulation_factor_ix — the review values are the parent's
 
 **Extraction notes:**
@@ -111,13 +117,16 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.958 (23/24 fields) | 1 |
+| `gpt-oss:120b` | not confirmed | 0.714 (10/14 fields) | 4 |
 
-<details><summary>1 field(s) a reader read differently</summary>
+<details><summary>4 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
+| `gpt-oss:120b` | `model.links` | [] | [['', '', 'none']] | mismatch |
+| `gpt-oss:120b` | `parameters[baseline fix level]` | not captured | 0.0106 | only_one_extracted |
 | `gpt-oss:120b` | `screen.dose_compound` | extended half-life factor IX concentrates | N9-GP, rFIXFc, rIX-FP | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | factor IX | coagulation_factor_ix | mismatch |
 
 </details>
 
@@ -131,14 +140,21 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 23 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 7 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
-| C5_dimension_Q57 | pass | [time] | not captured | not captured | not captured | ['Tab1:row29:col1'] |
-| C5_dimension_Q57 | pass | [time] | not captured | not captured | not captured | ['Tab1:row29:col3'] |
-| C5_dimension_Q57 | pass | [time] | not captured | not captured | not captured | ['Tab1:row29:col5'] |
-| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 4.6 | not captured | not captured | ['Tab1:row3:col2'] |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab1:row3:col2', 'Tab1:row3:col3', 'Tab1:row3:col5', 'Tab1:row3:col6'] |
+| C5_dimension_Q308 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab1:row7:col3'] |
+| C5_dimension_Q57 | pass | [time] | not captured | not captured | not captured | ['Tab1:row29:col1', 'Tab1:row29:col3', 'Tab1:row29:col5'] |
+| C5_dimension_Q63 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab1:row4:col2', 'Tab1:row4:col3', 'Tab1:row4:col5', 'Tab1:row4:col6'] |
+| C5_dimension_Q64 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab1:row6:col2', 'Tab1:row6:col3', 'Tab1:row6:col5', 'Tab1:row6:col6'] |
+| C5_dimension_Q77 | pass | [length] ** 3 | not captured | not captured | not captured | ['Tab1:row8:col3'] |
+| C5_dimension_Q99 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Tab1:row5:col2', 'Tab1:row5:col3', 'Tab1:row5:col5', 'Tab1:row5:col6'] |
+| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 4.6 | not captured | not captured | ['Tab1:row3:col2', 'Tab1:row3:col3', 'Tab1:row3:col5', 'Tab1:row3:col6'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 0.0046 L/h | not captured | not captured | ['Tab1:row3:col2', 'Tab1:row3:col3', 'Tab1:row3:col5', 'Tab1:row3:col6'] |
+| C9_phys_window_Q63 | fail | volume within physiological range | 0.0048 L | not captured | not captured | ['Tab1:row4:col2', 'Tab1:row4:col3', 'Tab1:row4:col5', 'Tab1:row4:col6'] |
+| C9_phys_window_Q64 | fail | volume within physiological range | 0.0118 L | not captured | not captured | ['Tab1:row6:col2', 'Tab1:row6:col3', 'Tab1:row6:col5', 'Tab1:row6:col6'] |
 
 **Reviewer per-scenario checks:**
 
@@ -164,19 +180,9 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-tab-mark" data-tab="Models"></div>
 
-## Downloadable models
+## Models
 
-<div class="pk-models-grid"><div class="pk-models-table">
-<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-</tbody></table>
-<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
-</div></div>
+<p>No downloads: this record is <b>rejected</b>, so it is not published as a model. Any archives generated for it before the verdict have been removed — a download outlives the page that explains it.</p>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
@@ -185,4 +191,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-18 20:14 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-05 17:40 UTC</sub>

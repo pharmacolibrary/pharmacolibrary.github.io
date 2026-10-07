@@ -1,38 +1,40 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C08C&quot;,&quot;href&quot;:&quot;atc/C08C.md&quot;},{&quot;label&quot;:&quot;clevidipine&quot;,&quot;href&quot;:&quot;drugs/drug_clevidipine/&quot;},{&quot;label&quot;:&quot;Ericsson_2001 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Clevidipine_Bailey2002_reference&quot;,&quot;label&quot;:&quot;Bailey_2002_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clevidipine/Clevidipine_Bailey2002_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Clevidipine_Ericsson2001_reference&quot;,&quot;label&quot;:&quot;Ericsson_2001_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Clevidipine_Vuylsteke2000_reference&quot;,&quot;label&quot;:&quot;Vuylsteke_2000_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clevidipine/Clevidipine_Vuylsteke2000_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Clevidipine_Ericsson1999v2_reference&quot;,&quot;label&quot;:&quot;Ericsson_1999_2_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clevidipine/Clevidipine_Ericsson1999v2_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Clevidipine_Ericsson1999v3_reference&quot;,&quot;label&quot;:&quot;Ericsson_1999_3_reference&quot;,&quot;href&quot;:&quot;drugs/drug_clevidipine/Clevidipine_Ericsson1999v3_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Clevidipine_Bailey2002_reference&quot;,&quot;label&quot;:&quot;Bailey_2002_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_clevidipine/Clevidipine_Bailey2002_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Clevidipine_Ericsson2001_reference&quot;,&quot;label&quot;:&quot;Ericsson_2001_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Clevidipine_Vuylsteke2000_reference&quot;,&quot;label&quot;:&quot;Vuylsteke_2000_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_clevidipine/Clevidipine_Vuylsteke2000_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # clevidipine — `Clevidipine_Ericsson2001_reference`
 
-> ## <span class="pk-badge pk-badge--green">reviewed — candidate</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.222). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.222). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was generated (see the **Models** tab); it has no in-browser simulator.
+**Model:** A simulatable model was generated — see the **Models** and **Simulation** tabs.
 
 ### Reviewer guidance
 
-**Every check that could be run on this record passed.**
+**The clevidipine record was held back because the steady-state volume of distribution (0.39 l/kg) was substituted for the distribution volume, so the one-compartment structure cannot reproduce the early distribution phase.**
 
-Only the abstract was available, so reported summary statistics stand in for a fitted model. None of the extracted parameters is clevidipine's own; they describe clevidipine enantiomers.
+The paper was read at abstract level only, so summary statistics stood in for a fitted model. The builder used Vss (0.39 l/kg) as the distribution volume because no central volume was reported; AUC and terminal half-life are reproduced, but the early distribution phase is not. A second reader also disagreed on the dose compound (rac-clevidipine vs unknown) and the primary analyte, and could not confirm the clearance (0.103 l/min/kg) and Vss values. Extracted — clevidipine enantiomers: CLb 0.103 l/min/kg, Vss 0.39 l/kg.
 
 A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has rac-clevidipine, the second reading unknown; it also differs on 6 more fields. That field shapes the model, so the record is marked disputed.
 
-<sub>reviewed by rule template (no LLM)</sub>
+<sub>reviewed by glm-5.3-flash</sub>
+
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-10-05 09:25:39.662604+00:00) predates the upstream re-run (2026-10-07 02:59:52.278746+00:00). Current validate status: `extracted`.
 
 > **Dose compound ≠ measured compound:** dosed `rac-clevidipine`, measured `clevidipine enantiomers`.
 
 ## Citation
-Ericsson H; Schwieler J; Lindmark BO; Löfdahl P; Thulin T; Regårdh CG et al. (2001). Chirality 13
+Ericsson H et al., Enantioselective pharmacokinetics of th…, Chirality (2001)
   ·  DOI: [10.1002/1520-636X(2001)13:3<130::AID-CHIR1009>3.0.CO;2-2](https://doi.org/10.1002/1520-636X(2001)13:3<130::AID-CHIR1009>3.0.CO;2-2)
 
 ## Model component
-<dbs-pgx drug="clevidipine" model-id="Clevidipine_Ericsson2001_reference" status="curated_candidate" stale="false" population="essential hypertensive patients" measured-compound="clevidipine enantiomers" parameterization="mechanistic" topology="1C"></dbs-pgx>
+<dbs-pgx drug="clevidipine" model-id="Clevidipine_Ericsson2001_reference" status="extracted" stale="true" population="essential hypertensive patients" measured-compound="clevidipine enantiomers" parameterization="mechanistic" topology="1C"></dbs-pgx>
 
 **Model structure:** 1-compartment, IV mammillary model — template `PK_1C`.  
 **Parameters:** 2 extracted.
@@ -83,9 +85,9 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
 | `gpt-oss:120b` | `parameters[context-sensitive half-time]` | not captured | 2 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[mean blood clearance (-)-r-clevidipine]` | not captured | 0.103 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[mean blood clearance values of (-)-r-clevidipine]` | 0.103 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[mean blood clearance values of (-)-r-clevidipine]` | not captured | 0.103 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[volume of distribution at steady state of (-)-r-clevidipine]` | not captured | 0.39 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[volume of distribution at steady state (-)-r-clevidipine]` | not captured | 0.39 | only_one_extracted |
 | `gpt-oss:120b` | `parameters[volumes of distribution at steady state of (-)-r-clevidipine]` | 0.39 | not captured | only_one_extracted |
 | `gpt-oss:120b` | `screen.dose_compound` | rac-clevidipine | unknown | mismatch |
 | `gpt-oss:120b` | `screen.primary_analyte` | clevidipine enantiomers | unknown | mismatch |
@@ -121,7 +123,7 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | T3_output_variable | not captured | pass | C_central (measured=clevidipine enantiomers) | central.C | not captured | output must be the measured/analyte compartment |
 | T3_param_coverage | not captured | pass | 1 scholar param(s) emitted or defaulted | 1 covered | not captured | all structural parameters accounted for |
 | T3_topology_template | not captured | pass | 1C → PK_1C* | PK_1C | not captured | engineer template must match the scholar topology |
-| T6_deviations | not captured | pass | not captured | all deviations documented+quantified | not captured | LLM adjudication → deterministic rule |
+| T6_deviations | not captured | fail | not captured | vss_as_v: not acceptable | not captured | LLM adjudication → deterministic rule |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -142,21 +144,26 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference/Clevidipine_Ericsson2001_reference_modelica.zip" download>Clevidipine_Ericsson2001_reference_modelica.zip</a> <span class="pk-size">(4.2 kB)</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference/Clevidipine_Ericsson2001_reference_modelica.zip" download>Clevidipine_Ericsson2001_reference_modelica.zip</a> <span class="pk-size">(4.4 kB)</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference/Clevidipine_Ericsson2001_reference_fmi.zip" download>Clevidipine_Ericsson2001_reference_fmi.zip</a> <span class="pk-size">(4.2 kB)</span><br><a href="models/fmu/PK_1C.fmu" download>PK_1C.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference/Clevidipine_Ericsson2001_reference_matlab.zip" download>Clevidipine_Ericsson2001_reference_matlab.zip</a> <span class="pk-size">(3.4 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference/Clevidipine_Ericsson2001_reference_matlab_simbio.zip" download>Clevidipine_Ericsson2001_reference_matlab_simbio.zip</a> <span class="pk-size">(2.9 kB)</span></td></tr>
 <tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference/Clevidipine_Ericsson2001_reference_sbml.zip" download>Clevidipine_Ericsson2001_reference_sbml.zip</a> <span class="pk-size">(2.5 kB)</span></td></tr>
 <tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference/Clevidipine_Ericsson2001_reference_cellml.zip" download>Clevidipine_Ericsson2001_reference_cellml.zip</a> <span class="pk-size">(3.0 kB)</span></td></tr>
 </tbody></table>
 <p>Each archive holds the model source, a script that simulates it against the appropriate library, and a README describing both and how to run them.</p>
-</div></div>
+<p><b>FMI is two downloads.</b> The archive holds this record's parameters and its driver; the simulator itself is <code>PK_1C.fmu</code>, one compiled template shared by every model of this structure. Take the FMU once, keep it beside the script (or pass <code>--fmu PATH</code>). Running it reproduces the model-specific FMU exactly.</p>
+</div><figure class="pk-models-diagram"><img src="drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference/Clevidipine_Ericsson2001_reference.svg" alt="Clevidipine_Ericsson2001_reference diagram"><figcaption>Model diagram (Modelica) using Pharmacolibrary v26.09 components, rendered by OpenModelica 1.26.7.</figcaption></figure></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-_No web simulator for this record: its structure has no shared WebAssembly template. The FMI archive under **Models** carries its own compiled FMU._
+**Administration: intravenous** — 10 mg infusion over 10 min, single dose. _The paper's dose was not captured; the simulator's default is used._
+
+<dbs-fmusim paramsurl="drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference/Clevidipine_Ericsson2001_reference_params.json" metaurl="assets/fmu/PK_1C.vr.json" wasmurl="assets/fmu/PK_1C.js" controlsurl="drugs/drug_clevidipine/Clevidipine_Ericsson2001_reference/Clevidipine_Ericsson2001_reference_sim_controls.json"></dbs-fmusim>
+
+<sub>Runs this record's model in the browser as WebAssembly. Sliders start at the extracted values; the reference check compares the browser's peak against the FMPy result recorded when the record was built, and is withheld once a value has been edited. Template `PK_1C` · parameters `Clevidipine_Ericsson2001_reference_params.json` · controls `Clevidipine_Ericsson2001_reference_sim_controls.json`. A slider marked *simulator value* is running on the template's own default because this record does not pin that parameter.</sub>
 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-29 07:50 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 02:59 UTC</sub>

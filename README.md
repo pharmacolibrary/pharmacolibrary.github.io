@@ -1,10 +1,8 @@
 <!-- AUTOGEN:intro START — spliced from docs/README-template.md; edit THAT file, not this region -->
 # Pharmacolibrary
+v26.09 (built 06/10/2026)
 
-A pharmaceutical knowledge base of **pharmacokinetic (PK), pharmacodynamic (PD) and
-pharmacogenomic (PGx) parameters extracted from the published literature**, one page per drug,
-with the numbers linked back to the paper and table they came from — and, where a model could
-be built, a simulatable model to download.
+**pharmacokinetic (PK), pharmacodynamic (PD) and pharmacogenomic (PGx)** knowledge base extracted from the published literature
 
 <style>
 .pklg { --pklg-ok:#2C7A57; --pklg-bad:#A8452F; --pklg-warn:#96690C; --pklg-faint:#8B9994;
@@ -87,10 +85,10 @@ be built, a simulatable model to download.
 </style>
 <div class="pklg">
 
-<div class="tiles"><div class="tile"><i>ATC drugs: all / read / with records</i><b>5,225 / 1,688 / 544</b><em>32% of the ATC drugs read · 32% of those gave a popPK, PD or PGx record</em></div><div class="tile"><i>papers for these drugs</i><b>66,092</b><em>14,325 judged relevant to PK/PD/PGx (22%)</em></div><div class="tile"><i>papers with full text</i><b>18,229</b><em>47,863 had an abstract only</em></div><div class="tile"><i>where the full text came from</i><b>5,582 · 12,560</b><em>PDF parsed (GROBID) · publisher XML (JATS)</em></div><div class="tile"><i>LLM tokens</i><b>248.5M read</b><em>17.25M written back</em></div><div class="tile"><i>drugs by domain</i><b>294 · 427 · 81</b><em>with popPK · PD · PGx records</em></div><div class="tile"><i>records by species (top 4)</i><b>1,446 · 584 · 195 · 169</b><em>human · in vitro · mouse · rat</em></div></div>
-<h3 class="csechead">Corpus</h3><div class="cstats"><div class="cbox"><h4>popPK</h4><div class="cnum"><b>1,362</b><span>extracted</span></div><div class="cnum"><b class="ok">638</b><span>simulatable · 46.8%</span></div><table><tr><td>topology</td><td>1C 993 · 2C 249 · parent_metabolite 71</td></tr><tr><td>parameterisation</td><td>mechanistic 945 · apparent 416</td></tr><tr><td>covariate equations</td><td>131 (9.6%)</td></tr><tr><td>simulatable means</td><td>carries a clearance and a volume</td></tr></table></div><div class="cbox"><h4>PD</h4><div class="cnum"><b>1,669</b><span>extracted</span></div><div class="cnum"><b class="ok">82</b><span>simulatable · 4.9%</span></div><table><tr><td>family</td><td>unknown 845 · emax 341 · sigmoid_emax 256</td></tr><tr><td>driver</td><td>conc_no_pk 984 · cited_pk 507</td></tr><tr><td>runnable shapes</td><td>Emax 52 · turnover 30 · effect-cmt 7</td></tr><tr><td>simulatable means</td><td>potency + Emax, or a turnover rate</td></tr></table></div><div class="cbox"><h4>PGx</h4><div class="cnum"><b>87</b><span>extracted</span></div><div class="cnum"><b class="ok">17</b><span>simulatable · 19.5%</span></div><table><tr><td>mechanism</td><td>safety_allele 70 · transport 12</td></tr><tr><td>genes covered</td><td>17</td></tr><tr><td>simulatable means</td><td>shifts a named PK parameter</td></tr></table></div><div class="cbox"><h4>by species</h4><table class="csp"><tr><td></td><td class="n"><i>popPK</i></td><td class="n"><i>PD</i></td><td class="n"><i>PGx</i></td></tr><tr><td>human</td><td class="n">723</td><td class="n">487</td><td class="n">236</td></tr><tr><td>in vitro</td><td class="n">6</td><td class="n">577</td><td class="n">1</td></tr><tr><td>mouse</td><td class="n">7</td><td class="n">188</td><td class="n">0</td></tr><tr><td>rat</td><td class="n">38</td><td class="n">131</td><td class="n">0</td></tr><tr><td>human + animal</td><td class="n">10</td><td class="n">92</td><td class="n">0</td></tr><tr><td>unknown</td><td class="n">21</td><td class="n">38</td><td class="n">9</td></tr><tr><td>fish</td><td class="n">1</td><td class="n">52</td><td class="n">0</td></tr><tr><td>dog</td><td class="n">14</td><td class="n">11</td><td class="n">0</td></tr><tr><td>11 others</td><td class="n">49</td><td class="n">79</td><td class="n">0</td></tr></table></div></div>
+<div class="tiles"><div class="tile"><i>ATC drugs: all / read / with records</i><b>5,225 / 4,170 / 1,583</b><em>80% of the ATC drugs read · 38% of those gave a popPK, PD or PGx record</em></div><div class="tile"><i>papers for these drugs</i><b>122,131</b><em>21,886 judged relevant to PK/PD/PGx (18%)</em></div><div class="tile"><i>papers with full text</i><b>33,427</b><em>88,704 had an abstract only</em></div><div class="tile"><i>where the full text came from</i><b>9,261 · 24,052</b><em>PDF parsed (GROBID) · publisher XML (JATS)</em></div><div class="tile"><i>LLM tokens</i><b>570.5M read</b><em>46.11M written back</em></div><div class="tile"><i>drugs by domain</i><b>847 · 1516 · 144</b><em>with popPK · PD · PGx records</em></div><div class="tile"><i>records by species (top 4)</i><b>3,525 · 1,471 · 581 · 272</b><em>human · in vitro · rat · mouse</em></div></div>
+<h3 class="csechead">Corpus</h3><div class="cstats"><div class="cbox"><h4>popPK</h4><div class="cnum"><b>3,531</b><span>extracted</span></div><div class="cnum"><b class="ok">1,417</b><span>simulatable · 40.1%</span></div><table><tr><td>topology</td><td>1C 2660 · 2C 598 · parent_metabolite 184</td></tr><tr><td>parameterisation</td><td>mechanistic 2458 · apparent 1069</td></tr><tr><td>covariate equations</td><td>432 (12.2%)</td></tr><tr><td>simulatable means</td><td>carries a clearance and a volume</td></tr></table></div><div class="cbox"><h4>PD</h4><div class="cnum"><b>4,380</b><span>extracted</span></div><div class="cnum"><b class="ok">691</b><span>simulatable · 15.8%</span></div><table><tr><td>family</td><td>sigmoid_emax 1496 · emax 1004 · unknown 847</td></tr><tr><td>driver</td><td>cited_pk 1954 · conc_no_pk 1033</td></tr><tr><td>runnable shapes</td><td>Emax 449 · turnover 242 · effect-cmt 228</td></tr><tr><td>simulatable means</td><td>potency + Emax, or a turnover rate</td></tr></table></div><div class="cbox"><h4>PGx</h4><div class="cnum"><b>135</b><span>extracted</span></div><div class="cnum"><b class="ok">29</b><span>simulatable · 21.5%</span></div><table><tr><td>mechanism</td><td>safety_allele 106 · transport 14</td></tr><tr><td>genes covered</td><td>21</td></tr><tr><td>simulatable means</td><td>shifts a named PK parameter</td></tr></table></div><div class="cbox"><h4>by species</h4><table class="csp"><tr><td></td><td class="n"><i>popPK</i></td><td class="n"><i>PD</i></td><td class="n"><i>PGx</i></td></tr><tr><td>human</td><td class="n">1,722</td><td class="n">1,516</td><td class="n">287</td></tr><tr><td>in vitro</td><td class="n">9</td><td class="n">1,461</td><td class="n">1</td></tr><tr><td>rat</td><td class="n">69</td><td class="n">512</td><td class="n">0</td></tr><tr><td>mouse</td><td class="n">22</td><td class="n">250</td><td class="n">0</td></tr><tr><td>human + animal</td><td class="n">21</td><td class="n">134</td><td class="n">0</td></tr><tr><td>other animal</td><td class="n">3</td><td class="n">99</td><td class="n">0</td></tr><tr><td>pig</td><td class="n">12</td><td class="n">76</td><td class="n">0</td></tr><tr><td>dog</td><td class="n">32</td><td class="n">43</td><td class="n">0</td></tr><tr><td>13 others</td><td class="n">100</td><td class="n">262</td><td class="n">7</td></tr></table></div></div>
 
-<p class="pnote"><a href="#/ledger">Full extraction ledger — all 2019 drugs, per panel and run group →</a></p>
+<p class="pnote"><a href="#/ledger">Full extraction ledger — all 4900 drugs, per panel and run group →</a></p>
 
 </div>
 
@@ -107,7 +105,8 @@ be built, a simulatable model to download.
 - **Downloadable models.** Where the parameters supported one, the record page's *Models* tab
   offers the same model as Modelica, MATLAB (plain and SimBiology), SBML and CellML — each
   archive holding the model source, a script that simulates it, and a README.
-- **Toxins.** The same pipeline applied to toxicokinetics and toxicodynamics, listed separately
+  **Simulation**
+- **Toxins.** (in construction) - the same pipeline applied to toxicokinetics and toxicodynamics, listed separately
   in the sidebar because a toxin has no ATC code and the question asked of it is exposure
   rather than therapy.
 
@@ -120,10 +119,7 @@ than summarised, then checked for internal consistency (does the reported cleara
 volume and half-life?) and plausibility before a record is accepted.
 
 Nothing here is hand-typed, and nothing is invented: a value that could not be traced to a
-table, or that failed its checks, is marked rather than quietly dropped. The status badge on
-every record says which it is.
-
-## How to read a record
+table, or that failed its checks, is marked. The status badge on every record says which it is.
 
 | badge | meaning |
 |---|---|
@@ -134,7 +130,7 @@ every record says which it is.
 | **stale** | the reviewer's verdict predates the latest re-run of the paper |
 
 Each record page has three tabs: **Information** (the parameters and their provenance),
-**Models** (the downloadable bundles), and **Simulation** (an in-browser run, coming).
+**Models** (the downloadable bundles), and **Simulation** (an in-browser run).
 
 ## Please read this before using a value
 
@@ -142,17 +138,6 @@ These records are a **machine extraction of published parameters**, useful as a 
 and as a map of what the literature reports. They are not clinically validated, not a
 substitute for the primary paper, and not medical advice. Every page links its source: check
 there before relying on a number.
-
-## Getting around
-
-The sidebar lists the curated panels first, then the toxins, then every drug with a page
-arranged by its ATC class. The table below is the extraction ledger — what has been processed,
-how much full text was obtained, and how many records came out of it.
-
-## Local rendering
-```
-docsify serve . 
-```
 <!-- AUTOGEN:intro END -->
 
 <!-- AUTOGEN:ledger START — generated by docs/ledger.py, do not edit -->

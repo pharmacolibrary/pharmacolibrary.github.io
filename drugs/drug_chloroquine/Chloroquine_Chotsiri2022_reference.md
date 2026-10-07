@@ -1,48 +1,50 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;P01B&quot;,&quot;href&quot;:&quot;atc/P01B.md&quot;},{&quot;label&quot;:&quot;chloroquine&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/&quot;},{&quot;label&quot;:&quot;Chotsiri_2022 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Chloroquine_Chotsiri2022_reference&quot;,&quot;label&quot;:&quot;Chotsiri_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_Chotsiri2022_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Chloroquine_Karunajeewa2010_reference&quot;,&quot;label&quot;:&quot;Karunajeewa_2010_reference&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_Karunajeewa2010_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Chloroquine_Yao2021_reference&quot;,&quot;label&quot;:&quot;Yao_2021_reference&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_Yao2021_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Chloroquine_AbdRahman2020_plasma_samples&quot;,&quot;label&quot;:&quot;Abd-Rahman_2020_plasma_samples&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_AbdRahman2020_plasma_samples.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Chloroquine_AbdRahman2020_whole_blood_samples&quot;,&quot;label&quot;:&quot;Abd-Rahman_2020_whole_blood_samples&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_AbdRahman2020_whole_blood_samples.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Chloroquine_AbdRahman2020_reference&quot;,&quot;label&quot;:&quot;Abd-Rahman_2020_plasma_samples&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_AbdRahman2020_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Chloroquine_AbdRahman2020_reference&quot;,&quot;label&quot;:&quot;Abd-Rahman_2020_whole_blood_samples&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_AbdRahman2020_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Chloroquine_Chairat2018_reference&quot;,&quot;label&quot;:&quot;Chairat_2018_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_Chairat2018_reference.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Chloroquine_Yao2021_reference&quot;,&quot;label&quot;:&quot;Yao_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_chloroquine/Chloroquine_Yao2021_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # chloroquine — `Chloroquine_Chotsiri2022_reference`
 
-> ## <span class="pk-badge pk-badge--orange">built, not shipped</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.6). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.6). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
-**The chloroquine parent–metabolite model was quarantined because bioavailability, clearance, volume of distribution and absorption lag time had no extracted values and library placeholder values were substituted.**
+**No volume or clearance — not a compartmental population PK model.**
 
-Only the absorption rate constant kabs (0.350 hr⁻¹) was extracted for chloroquine; F, Cl, Vd and Tlag had no values in the source, so placeholder numbers stood in and the model was held back rather than published with invented values. The record's structure is a parent–metabolite system (chloroquine metabolized to desethylchloroquine), but the built model came out as a one-compartment enteral model instead of the expected multi-compartment parent–metabolite structure. A second reader also disagreed on the screened dose compound and primary analyte, reading chloroquine and azithromycin where the record lists chloroquine only. Extracted — chloroquine: kabs 0.35 hr -1.
+The paper reports no distribution volume and no clearance or elimination rate; it is an exposure/outcome paper.
 
 A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has chloroquine, the second reading chloroquine and azithromycin; it also differs on 1 more field. That field shapes the model, so the record is marked disputed.
 
-<sub>reviewed by glm-5.3-flash</sub>
+<sub>reviewed by rule template (no LLM)</sub>
+
+> ⚠️ **STALE** — review status `rejected` (reviewed 2026-10-05 09:24:50.197831+00:00) predates the upstream re-run (2026-10-07 06:19:50.254739+00:00). Current validate status: `rejected`.
 
 ## Citation
-Chotsiri P; Tarning J; Hoglund RM; Watson JA; White NJ et al. (2022). Clinical pharmacology and therapeutics 112
+Chotsiri P et al., Pharmacometric and Electrocardiographic…, Clinical pharmacology and t… (2022)
   ·  DOI: [10.1002/cpt.2665](https://doi.org/10.1002/cpt.2665)
 
 ## Model component
-<dbs-pgx drug="chloroquine" model-id="Chloroquine_Chotsiri2022_reference" status="model_quarantined" stale="false" population="healthy adult volunteers" measured-compound="chloroquine" parameterization="mechanistic" topology="parent_metabolite"></dbs-pgx>
+<dbs-pgx drug="chloroquine" model-id="Chloroquine_Chotsiri2022_reference" status="rejected" stale="true" population="healthy adults" measured-compound="chloroquine" parameterization="mechanistic" topology="parent_metabolite"></dbs-pgx>
 
-**Model structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
+**Model structure:** parent + metabolite; no model was built for this record.  
 **Parameters:** 1 extracted.
 
 **Parameterization:** mechanistic.
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `model_quarantined`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
+> ⚠️ This record is not accepted (current status `rejected`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| K a1 (hr -1 ) | `Q49` · kabs | 0.350 | hr -1 | 9.722222222222222e-05 | [1] / [h] | not captured | llm (0.5) | tab_0:row5:col1 | — | not captured |
+| Ka1 (hr−1) | `Q49` · kabs | 0.350 | hr−1 | 9.722222222222222e-05 | [1] / [h] | not captured | llm (0.6) | cpt2665-tbl-0001:row4:col1 | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -52,81 +54,19 @@ Chotsiri P; Tarning J; Hoglund RM; Watson JA; White NJ et al. (2022). Clinical p
 ## Departures & gaps
 
 **Interpretation flags:**
-- dropped value-less row: 'first-order absorption rate constant'
-- dropped value-less row: 'K a2'
-- dropped value-less row: 'NA'
-- dropped value-less row: 'OCC'
-- dropped value-less row: 'V C /F'
-- dropped value-less row: 'V P1 /F'
-- dropped value-less row: 'V P2 /F'
-- dropped value-less row: 'Q 1 /F'
-- dropped value-less row: 'Q 2 /F'
-- dropped value-less row: 'RSE'
-- dropped value-less row: 'σ'
-- NIL: refused to back-fill base 'NIL' from footnote/prose loose number 80.8 (source ['tab_0:footnote']); the table cell was unparseable — needs review
+- NIL: refused to back-fill base 'NIL' from footnote/prose loose number 80.8 (source ['cpt2665-tbl-0001:footnote']); the table cell was unparseable — needs review
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=chloroquine
 - topology: transfer parameter unlinked (Q100) — add Kfm/formation-rate/rate-constant to the ontology; routing to review
 - status held at route_to_review — not promoted
+- skipped review gap-fill of V2: primary is PARENT_METABOLITE (peripheral family needs ≥2C)
+- skipped review gap-fill of Q: primary is PARENT_METABOLITE (peripheral family needs ≥2C)
+- skipped review gap-fill of TLAG: primary's parameterization (rate-constant / ka-only) does not use it
 
 **Extraction notes:**
-- unparsed cell tab_0:row2:col2 = '95% CI b'
-- unparsed cell tab_0:row2:col4 = '95% CI b'
-- unparsed cell tab_0:row4:col1 = '100% (fixed)'
-- unparsed cell tab_0:row4:col3 = '100% (fixed)'
-- unparsed cell tab_0:row5:col2 = '0.273, 0.449'
-- unparsed cell tab_0:row5:col3 = '1.59 (12.4%)'
-- unparsed cell tab_0:row5:col4 = '1.42, 2.30'
-- unparsed cell tab_0:row6:col1 = '0.169 (17.6%)'
-- unparsed cell tab_0:row6:col2 = '0.112, 0.221'
-- unparsed cell tab_0:row7:col1 = '47.4 (4.46%)'
-- unparsed cell tab_0:row7:col2 = '43.0, 51.4'
-- unparsed cell tab_0:row7:col3 = '101 (3.61%)'
-- unparsed cell tab_0:row7:col4 = '94.4, 108'
-- unparsed cell tab_0:row8:col1 = '2,550 (3.29%)'
-- unparsed cell tab_0:row8:col2 = '2,380, 2,720'
-- unparsed cell tab_0:row8:col3 = '451 (8.57%)'
-- unparsed cell tab_0:row8:col4 = '402, 563'
-- unparsed cell tab_0:row9:col1 = '347 (6.85%)'
-- unparsed cell tab_0:row9:col2 = '304, 394'
-- unparsed cell tab_0:row9:col3 = '80.6 (5.01%)'
-- unparsed cell tab_0:row9:col4 = '73.7, 89.4'
-- unparsed cell tab_0:row10:col1 = '6,480 (5.62%)'
-- unparsed cell tab_0:row10:col2 = '5,830, 7,260'
-- unparsed cell tab_0:row10:col3 = '2,510 (4.17%)'
-- unparsed cell tab_0:row10:col4 = '2,340, 2,740'
-- unparsed cell tab_0:row11:col3 = '343 (6.49%)'
-- unparsed cell tab_0:row11:col4 = '304, 394'
-- unparsed cell tab_0:row12:col3 = '824 (5.46%)'
-- unparsed cell tab_0:row12:col4 = '714, 883'
-- unparsed cell tab_0:row13:col1 = '-0.286 (1.71%)'
-- unparsed cell tab_0:row13:col2 = '-0.295, -0.275'
-- unparsed cell tab_0:row15:col1 = '16.7% (9.54%)/14.1%*'
-- unparsed cell tab_0:row15:col2 = '14.0%, 20.2%/11.5%,'
-- unparsed cell tab_0:row15:col3 = '21.5% (8.52%)/14.9%*'
-- unparsed cell tab_0:row15:col4 = '18.0%, 25.3%/12.0%,'
-- unparsed cell tab_0:row17:col1 = '73.3% (15.1%)/71.0%* (14.1%)'
-- unparsed cell tab_0:row17:col2 = '53.5%, 109%/51.9%, 99.0%*'
-- unparsed cell tab_0:row17:col3 = '59.4% (25.5%)/51.0%* (13.7%)'
-- unparsed cell tab_0:row17:col4 = '28.3%, 63.9%/46.2%, 90.3%*'
-- unparsed cell tab_0:row18:col1 = '18.5% (7.87%)'
-- unparsed cell tab_0:row18:col2 = '15.3%, 20.9%'
-- unparsed cell tab_0:row18:col3 = '14.8% (9.78%)'
-- unparsed cell tab_0:row18:col4 = '13.0%, 19.1%'
-- unparsed cell tab_0:row19:col1 = '11.4% (14.4%)'
-- unparsed cell tab_0:row19:col2 = '7.73%, 14.1%'
-- unparsed cell tab_0:row19:col3 = '49.6%* (10.6%)'
-- unparsed cell tab_0:row19:col4 = '37.6%, 58.2%*'
-- unparsed cell tab_0:row20:col1 = '32.6%* (11.1%)'
-- unparsed cell tab_0:row20:col2 = '25.2%, 40.6%*'
-- unparsed cell tab_0:row21:col1 = '18.2%* (13.9%)'
-- unparsed cell tab_0:row21:col2 = '12.9%, 22.7%*'
-- unparsed cell tab_0:row22:col3 = '30.1% (12.8%)'
-- unparsed cell tab_0:row22:col4 = '24.8%, 40.3%'
-- unparsed cell tab_0:row24:col1 = '0.0178 (4.71%)'
-- unparsed cell tab_0:row24:col2 = '0.0163, 0.0194'
-- unparsed cell tab_0:row24:col3 = '0.0194 (5.09%)'
-- unparsed cell tab_0:row24:col4 = '0.0179, 0.0218'
-- LLM region Chotsiri_2022:discussion_prose: no JSON records returned
+- unparsed cell cpt2665-tbl-0001:row4:col2 = '0.273, 0.449'
+- unparsed cell cpt2665-tbl-0001:row4:col3 = '1.59 (12.4%)'
+- unparsed cell cpt2665-tbl-0001:row4:col4 = '1.42, 2.30'
+- LLM selected parameter table(s) 1
 
 ## Validation
 
@@ -157,18 +97,9 @@ first reading `qwen3.6:27b-q8_0` — the numbers on this page are its, whatever 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
 | C0_has_structural_params | pass | not captured | 1 | not captured | not captured | not captured |
-| C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['tab_0:row5:col1'] |
+| C0b_disposition_core | fail | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['cpt2665-tbl-0001:row4:col1'] |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
-
-**Reviewer per-scenario checks:**
-
-| check | scenario | status | expected | obtained | ratio | note |
-|---|---|---|---|---|---|---|
-| T0_analyte_identity | not captured | pass | not captured | not captured | not captured | V/CL labels are the drug's (or a metabolite's), no biomarker signal |
-| T2_covariates | not captured | skipped | not captured | not captured | not captured | no covariate effects in record |
-| T3_param_coverage | not captured | pass | 1 scholar param(s) emitted or defaulted | 1 covered | not captured | all structural parameters accounted for |
-| T3_topology_template | not captured | fail | parent_metabolite → PK_3M_9C* | PK_1C_enteral | not captured | engineer template must match the scholar topology |
-| T6_deviations | not captured | pass | not captured | all deviations documented+quantified | not captured | LLM adjudication → deterministic rule |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -178,25 +109,13 @@ first reading `qwen3.6:27b-q8_0` — the numbers on this page are its, whatever 
 ## Raw artifacts
 
 - scholar stages: `../../../knowledgebase/drugs/drug_chloroquine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Chotsiri_2022` / `Chotsiri_2022::reference`)
-- model: `../../../knowledgebase/drugs/drug_chloroquine/models/modelica/_needs_review/Chloroquine_Chotsiri2022_reference.mo`
-- deviation: `../../../knowledgebase/drugs/drug_chloroquine/models/modelica/_needs_review/Chloroquine_Chotsiri2022_reference.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
 
-## Downloadable models
+## Models
 
-<div class="pk-models-grid"><div class="pk-models-table">
-<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
-</tbody></table>
-<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
-</div></div>
+<p>No downloads: this record is <b>rejected</b>, so it is not published as a model. Any archives generated for it before the verdict have been removed — a download outlives the page that explains it.</p>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
@@ -205,4 +124,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-07-15 11:06 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 06:19 UTC</sub>

@@ -10,15 +10,15 @@
 
 ## About
 
-**Description.** Cinitapride is a gastroprokinetic agent and antiulcer benzamide with agonist activity at 5-HT1 and 5-HT4 receptors and antagonist activity at 5-HT2 receptors. It is marketed in Spain and Mexico.
+Cinitapride is a propulsive drug for functional gastrointestinal disorders and has been described as an anti-ulcer agent. It is considered investigational and is not authorised in the European Union.
 
-**Indication.** It is indicated to treat gastrointestinal disorders associated with motility disturbances like gastroesophageal reflux disease (GERD), non-ulcer dyspepsia and delayed gastric emptying.
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q5121012](https://www.wikidata.org/wiki/Q5121012) and the WHO ATC classification; not checked by a person.</small>
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-18 11:46 | 2:41 | 0/0/0 | 0/0/0 | 0/1/0 | 37,744/1,700 | ollama / qwen3.8:27b-mtp-q8_0 | 1 | 0/1 | 1/0 | 0 |
+| 2026-10-04 13:40 | 1:04 | 0/0/0 | 0/0/0 | 0/1/0 | 23,664/1,417 | ollama / qwen3.8:27b-mtp-q8_0 | 1 | 0/1 | 1/0 | 0 |
 
 ## popPK records
 
@@ -28,7 +28,9 @@ _not available_
 
 | status | gene | affects | mechanism | detail | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **CYP2C8** | `Q22` · CL | metabolism | [Campodónico_2022](drugs/drug_cinitapride/pgx_Campod_nico_2022_CYP2C8_Q22.md) | Campodónico DM et al., CYP2C8*3 and *4 define CYP2C8 phenotype…, Clinical and translational… (2022) | [10.1111/cts.13386](https://doi.org/10.1111/cts.13386) |
+| <span class="pk-badge pk-badge--red" title="not accepted.">rejected</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss:120b (confirmed, agreement 1.0). The first reading is what the record holds.">cross-checked ✓</span> | **CYP2C8** | `Q22` · CL | metabolism | [Campodónico_2022](drugs/drug_cinitapride/pgx_Campod_nico_2022_CYP2C8_Q22.md) | Campodónico DM et al., CYP2C8*3 and *4 define CYP2C8 phenotype…, Clinical and translational… (2022) | [10.1111/cts.13386](https://doi.org/10.1111/cts.13386) |
+
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>What the PGx columns mean</summary>
@@ -41,14 +43,15 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 | process | tissue | actors (role) | evidence |
 |---|---|---|---|
-| absorption | skeletal muscle | <sub>“…evels being achieved 2 h after dosing; absorption following intramuscular administration (…”</sub> | prose |
+| absorption | skeletal muscle | <sub>named in DrugBank's ADME text</sub> | prose |
+| absorption | small intestine | <sub>named in DrugBank's ADME text</sub> | prose |
 | metabolism | liver | `CYP2C8` metabolism | paper PGx gene |
 
 <sub>Actors without a tissue in the table: HTR1A (target), HTR2A (target), HTR4 (target).</sub>
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -65,22 +68,22 @@ _2 paper(s) judged relevant from the abstract, with no full text on disk — pay
 
 | save as | citation | domain | score | DOI | PubMed | why wanted |
 |---|---|---|---|---|---|---|
-| `Zhang_2019.pdf` | Zhang X et al., Pharmacokinetics and tolerability of ci…, Xenobiotica; the fate of fo… (2019) | popPK | 10 | [10.1080/00498254.2018.1447710](https://doi.org/10.1080/00498254.2018.1447710) | [29502468](https://pubmed.ncbi.nlm.nih.gov/29502468) | The paper is a primary PK study for cinitapride, but the provided evidence contains only qualitative descriptions of parameter trends without any specific numeric values. |
+| `Zhang_2019.pdf` | Zhang X et al., Pharmacokinetics and tolerability of ci…, Xenobiotica; the fate of fo… (2019) | popPK | 10 | [10.1080/00498254.2018.1447710](https://doi.org/10.1080/00498254.2018.1447710) | [29502468](https://pubmed.ncbi.nlm.nih.gov/29502468) | The study reports pharmacokinetic parameters for cinitapride in humans, but the specific numeric values are not present in the provided evidence text. |
 | `Robert_2007.pdf` | Robert M et al., The prokinetic cinitapride has no clini…, Drug metabolism and disposi… (2007) | pgx | 7 | [10.1124/dmd.106.010835](https://doi.org/10.1124/dmd.106.010835) | [17437965](https://www.ncbi.nlm.nih.gov/pubmed/17437965) | metadata signals extractable PGX data (CYP3A4, PK/PD-context) |
 
-<sub>queue written 2026-09-18T11:46:00.588439+00:00</sub>
+<sub>queue written 2026-10-04T13:39:22.998336+00:00</sub>
 
 ## Screened and excluded
 
 | domain | paper | verdict | relevance | extractability | reason |
 |---|---|---|---|---|---|
-| PGx | Hassan_2019 | not_relevant | 0 | 0 | The paper focuses on drug repositioning for Alzheimer's disease and does not report pharmacogenomic effects on the PK or PD of cinitapride. |
-| popPK | Marcelín-Jiménez_2017 | irrelevant | 2 | 0 | The paper describes a method development and an interaction trial conclusion without reporting specific quantitative PK parameters (CL, V, etc.) for cinitapride in the provided evidence. |
+| PGx | Hassan_2019 | not_relevant | 0 | 0 | The paper focuses on drug repositioning for Alzheimer's disease and does not report pharmacogenomic effects on the PK or PD parameters of cinitapride. |
+| popPK | Marcelín-Jiménez_2017 | irrelevant | 2 | 0 | The paper describes a method development and an interaction trial (simethicone) but does not report quantitative disposition parameters (CL, V, etc.) for cinitapride in the provided evidence. |
 | popPK | Massingham_1985 | irrelevant | 0 | 0 | The study is an in-vitro pharmacological investigation of cinitapride's mechanism of action on guinea-pig ileum, reporting potency (EC50) rather than pharmacokinetic disposition parameters. |
-| popPK | Rehman_2018 | irrelevant | 0 | 0 | The study focuses on the formulation and physico-chemical characterization of mouth-dissolving tablets, reporting no pharmacokinetic parameters for cinitapride. |
+| popPK | Rehman_2018 | irrelevant | 0 | 0 | The study focuses on the formulation and physico-chemical characterization of mouth-dissolving tablets, reporting no pharmacokinetic parameters. |
 | PGx | Robert_2007 | not_relevant | 0 | 0 | The study evaluates a drug-drug interaction (ketoconazole) and does not report any pharmacogenomic effects based on gene variants or genotypes. |
-| popPK | Saleem_2025 | irrelevant | 2 | 0 | The study reports in-silico PBPK simulation outputs (Cmax, AUC) for a formulation rather than quantitative population pharmacokinetic parameters (CL, V, Q, ka) for cinitapride. |
-| popPK | Zhang_2019 | relevant | 10 | 0 | The paper is a primary PK study for cinitapride, but the provided evidence contains only qualitative descriptions of parameter trends without any specific numeric values. |
+| popPK | Saleem_2025 | irrelevant | 2 | 0 | The study reports in-silico PBPK predictions (Cmax, AUC) for a formulation but does not provide the underlying quantitative PK parameters (CL, V, Q, ka) or a population PK model for cinitapride. |
+| popPK | Zhang_2019 | relevant | 10 | 0 | The study reports pharmacokinetic parameters for cinitapride in humans, but the specific numeric values are not present in the provided evidence text. |
 
 ---
 <sub>Generated by `docs.py` (scholarv2)</sub>

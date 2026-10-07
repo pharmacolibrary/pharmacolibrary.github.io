@@ -10,22 +10,25 @@
 
 ## About
 
-**Description.** Nitisinone is a synthetic reversible inhibitor of 4-hydroxyphenylpyruvate dioxygenase. It is used in the treatment of hereditary tyrosinemia type 1 and Alkaptonuria. It is sold under the brand names Orfadin and Harliku. [L53253, L53258]
+Nitisinone is a drug used to treat tyrosinemias, including tyrosinemia type III. It is an approved medicine and remains authorised in the European Union.
 
-**Indication.** Nitisinone under the brand name ORFADIN is indicated as an adjunct to dietary restriction of tyrosine and phenylalanine in the treatment of hereditary tyrosinemia type 1. [L53253]
-
-Under the name HARLIKU, nitisinone is indicated for the reduction of urine homogentisic acid (HGA) in adult patients with
-alkaptonuria (AKU). [L53258]
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q3877355](https://www.wikidata.org/wiki/Q3877355) and the WHO ATC classification and the EMA medicines list; not checked by a person.</small>
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-27 15:27 | 30:38 | 0/0/0 | 0/0/0 | 0/0/0 | 117,091/4,363 | ollama / qwen3.8:27b-mtp-q8_0 | 9 | 5/4 | 9/0 | 0 |
+| 2026-10-05 12:02 | 2:36 | 0/0/0 | 0/1/0 | 0/0/0 | 84,920/1,814 | ollama / qwen3.8:27b-mtp-q8_0 | 7 | 5/4 | 7/0 | 0 |
 
 ## popPK records
 
 _not available_
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--species" title="The paper reports both human and animal data (from an LLM reading of the title and abstract by qwen3.8:27b-mtp-q8_0, p(non-human) 0.50).">human + animal</span> | [Haines_2025_HR](drugs/drug_nitisinone/pd_Haines_2025_HR.md) | Hazard ratio ← nitisinone · direct sigmoid Emax (Hill) effect | — | Haines LR et al., Anopheles mosquito survival and pharmac…, Science translational medic… (2025) | [10.1126/scitranslmed.adr4827](https://doi.org/10.1126/scitranslmed.adr4827) |
 
 ## ADME sites
 
@@ -35,13 +38,13 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 |---|---|---|---|
 | metabolism | liver | `CYP3A4` substrate | DrugBank actor |
 | metabolism | small intestine | `CYP3A4` substrate | DrugBank actor |
-| excretion | kidney | <sub>“…Nitisinone is excreted primarily through urine. [L53258]…”</sub> | prose |
+| excretion | kidney | <sub>named in DrugBank's ADME text</sub> | prose |
 
 <sub>Actors without a tissue in the table: HPD (inhibitor).</sub>
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -58,10 +61,10 @@ _2 paper(s) judged relevant from the abstract, with no full text on disk — pay
 
 | save as | citation | domain | score | DOI | PubMed | why wanted |
 |---|---|---|---|---|---|---|
-| `Olsson_2015.pdf` | Olsson B et al., Relationship Between Serum Concentratio…, JIMD reports (2015) | popPK | 9 | [10.1007/8904_2015_412](https://doi.org/10.1007/8904_2015_412) | [25772318](https://pubmed.ncbi.nlm.nih.gov/25772318) | The study reports quantitative steady-state pharmacokinetic parameters for nitisinone, specifically median oral clearance (3.18 mL/h·kg) and its range, directly in the text. |
+| `Olsson_2015.pdf` | Olsson B et al., Relationship Between Serum Concentratio…, JIMD reports (2015) | popPK | 9 | [10.1007/8904_2015_412](https://doi.org/10.1007/8904_2015_412) | [25772318](https://pubmed.ncbi.nlm.nih.gov/25772318) | The study reports quantitative steady-state pharmacokinetic parameters (median oral clearance) for nitisinone in human patients with alkaptonuria. |
 | `Kučera_2025.pdf` | Kučera M et al., Killing of Anopheles stephensi mosquito…, Insect biochemistry and mol… (2025) | pd | 4 | [10.1016/j.ibmb.2025.104361](https://doi.org/10.1016/j.ibmb.2025.104361) | [40684812](https://www.ncbi.nlm.nih.gov/pubmed/40684812) | metadata signals extractable PD data (IC50) |
 
-<sub>queue written 2026-09-27T15:21:45.104705+00:00</sub>
+<sub>queue written 2026-10-05T12:01:03.039092+00:00</sub>
 
 ## Screened and excluded
 
@@ -78,17 +81,17 @@ _2 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | PGx | Dweikat_2021 | not_relevant | 0 | 0 | The paper reports clinical outcomes of nitisinone treatment in patients with Tyrosinemia type 1 but does not investigate how genetic variants affect the drug's pharmacokinetics or pharmacodynamics. |
 | popPK | Grasso_2026 | irrelevant | 0 | 0 | The study is a pharmacodynamic/metabolomic analysis of nitisinone's effect on metabolic pathways, not a pharmacokinetic study reporting disposition parameters like clearance or volume. |
 | PD | Grasso_2026 | not_relevant | 3 | 1 | The study compares two dosing regimens and reports qualitative metabolic changes (reduction in homogentisate, rise in tyrosine) but does not provide numeric PD parameters (Emax, EC50) or a quantitative concentration-effect curve. |
-| popPK | Guffon_2018 | irrelevant | 3 | 2 | The study reports only sparse steady-state concentration metrics (Cmin, Cmax) and a cited half-life, lacking the quantitative compartmental or population PK parameters (CL, V, Q, ka) required for extraction. |
+| popPK | Guffon_2018 | irrelevant | 3 | 2 | The study reports only sparse steady-state concentration metrics (Cmin, Cmax) and a cited half-life, lacking the quantitative compartmental parameters (CL, V, Q, ka) required for population PK modeling. |
 | popPK | Hughes_2020 | irrelevant | 0 | 0 | The study investigates dietary interventions to manage nitisinone-induced tyrosinemia and does not report any pharmacokinetic parameters (CL, V, ka, etc.) for nitisinone. |
 | PD | Hughes_2020 | not_relevant | 3 | 2 | The paper reports a dose-response relationship for dietary phenylalanine restriction on tyrosine levels, but does not provide a concentration-effect or dose-response analysis for nitisinone itself (no nitisinone exposure vs. effect data or PD parameters). |
 | PGx | Huledal_2019 | not_relevant | 0 | 0 | The study evaluates drug-drug interactions (nitisinone's effect on CYP/OAT substrates) in healthy volunteers and does not report any pharmacogenomic effects (gene variants) on nitisinone's PK/PD. |
 | PGx | Ibarra-González_2019 | not_relevant | 0 | 0 | The paper describes the mutational spectrum of FAH in patients with Tyrosinemia type 1 and does not report any pharmacokinetic or pharmacodynamic effects of nitisinone. |
-| popPK | Keenan_2015 | irrelevant | 1 | 0 | The study is a mechanistic/efficacy trial in mice measuring homogentisic acid levels and joint pigmentation, not a pharmacokinetic study reporting disposition parameters like clearance or volume for nitisinone. |
-| popPK | Khedr_2020 | irrelevant | 2 | 1 | The study focuses on the pharmacodynamics of nitisinone (tyrosine pool size and metabolite concentrations) rather than reporting quantitative pharmacokinetic parameters (CL, V, ka) for nitisinone itself. |
+| popPK | Keenan_2015 | irrelevant | 0 | 0 | The study is a pharmacodynamic/toxicological assessment of nitisinone's effect on homogentisic acid levels and joint pigmentation in mice, and does not report pharmacokinetic parameters (CL, V, ka, t1/2) for nitisinone itself. |
+| popPK | Khedr_2020 | irrelevant | 0 | 0 | The study measures the pharmacokinetics of tyrosine (a substrate) in the presence of nitisinone, not the pharmacokinetic parameters (CL, V, etc.) of nitisinone itself. |
 | popPK | Kučera_2025 | irrelevant | 0 | 0 | no_text gate: only 145 chars of text extracted (&lt; 400) |
 | PD | Kučera_2025 | not_relevant | 0 | 0 | The paper discusses triketone inhibitors of HPPD in mosquitoes and does not mention nitisinone or report any pharmacodynamic parameters for it. |
 | popPK | Laschi_2016 | irrelevant | 0 | 0 | The paper focuses on pharmacodynamics and toxicology (LD50, IC50) of nitisinone analogues, not pharmacokinetic disposition parameters. |
-| popPK | Norman_2022 | irrelevant | 0 | 0 | The study is a metabolomic analysis of phenylalanine-tyrosine biotransformation products in nitisinone-treated patients, not a pharmacokinetic study reporting disposition parameters (CL, V, etc.) for nitisinone. |
+| popPK | Norman_2022 | irrelevant | 0 | 0 | The study is a metabolomic analysis of phenylalanine-tyrosine pathway metabolites in alkaptonuria patients, not a pharmacokinetic study of nitisinone disposition parameters. |
 | PGx | Onojafe_2018 | not_relevant | 0 | 0 | The study evaluates the efficacy of nitisinone in a specific mouse model (Tyrp1 mutation) but does not report pharmacogenomic differences in PK/PD parameters based on human or animal genotype variations affecting drug metabolism or response. |
 | PGx | Priestley_2020 | not_relevant | 0 | 0 | The paper is a case report on the diagnosis of Tyrosinemia Type 1 and the importance of succinylacetone in newborn screening; it does not report any pharmacogenomic effects on the pharmacokinetics or pharmacodynamics of nitisinone. |
 | popPK | Ranganath_2016 | irrelevant | 0 | 0 | The study is a dose-response pharmacodynamic trial measuring homogentisic acid excretion, not a pharmacokinetic study, and reports no PK parameters (CL, V, t1/2) for nitisinone. |

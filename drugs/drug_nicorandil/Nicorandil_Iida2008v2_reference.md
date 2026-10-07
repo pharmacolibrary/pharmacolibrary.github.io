@@ -1,19 +1,18 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01D&quot;,&quot;href&quot;:&quot;atc/C01D.md&quot;},{&quot;label&quot;:&quot;nicorandil&quot;,&quot;href&quot;:&quot;drugs/drug_nicorandil/&quot;},{&quot;label&quot;:&quot;Iida_2008_2 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Nicorandil_Iida2008_obj&quot;,&quot;label&quot;:&quot;Iida_2008_obj&quot;,&quot;href&quot;:&quot;drugs/drug_nicorandil/Nicorandil_Iida2008_obj.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Nicorandil_Iida2008_sig&quot;,&quot;label&quot;:&quot;Iida_2008_sig&quot;,&quot;href&quot;:&quot;drugs/drug_nicorandil/Nicorandil_Iida2008_sig.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Nicorandil_Iida2008v2_reference&quot;,&quot;label&quot;:&quot;Iida_2008_2_reference&quot;,&quot;href&quot;:&quot;drugs/drug_nicorandil/Nicorandil_Iida2008v2_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # nicorandil — `Nicorandil_Iida2008v2_reference`
 
-> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (partly confirmed, agreement 0.6). The first reading is what the record holds.">cross-check: partial</span>
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss:120b (partly confirmed, agreement 0.455). The first reading is what the record holds.">cross-check: partial</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
-**Model:** A model was built but held back: a core parameter had no value, so it is not published or simulated.
+**Model:** No model was generated from this record.
 
 ### Reviewer guidance
 
@@ -21,18 +20,20 @@
 
 A model needs both clearance and volume; without the clearance it could only be built on a library default, so it was not. Extracted — nicorandil: V3/F 0.257, t1/2γ 0.957.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of ppv_sss: this record has 0.431, the second reading none; it also differs on 3 more fields. That field does not shape the model.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on the value of 14: this record has none, the second reading 7634.66; it also differs on 5 more fields. That field does not shape the model.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
+> ⚠️ **STALE** — review status `needs_review` (reviewed 2026-09-28 14:39:11.669259+00:00) predates the upstream re-run (2026-10-06 10:59:30.280852+00:00). Current validate status: `needs_review`.
+
 ## Citation
-Iida S; Kinoshita H; Holford NH et al. (2008). British journal of clinical pharmacology 66
+Iida S et al., Population pharmacokinetic and pharmaco…, British journal of clinical… (2008)
   ·  DOI: [10.1111/j.1365-2125.2008.03257.x](https://doi.org/10.1111/j.1365-2125.2008.03257.x)
 
 ## Model component
-<dbs-pgx drug="nicorandil" model-id="Nicorandil_Iida2008v2_reference" status="needs_review" stale="false" population="healthy subjects and acute heart failure patients" measured-compound="nicorandil" parameterization="apparent" topology="1C"></dbs-pgx>
+<dbs-pgx drug="nicorandil" model-id="Nicorandil_Iida2008v2_reference" status="needs_review" stale="true" population="healthy subjects and acute heart failure patients" measured-compound="nicorandil" parameterization="apparent" topology="1C"></dbs-pgx>
 
-**Model structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
+**Model structure:** 1-compartment; no model was built for this record.  
 **Parameters:** 2 extracted.
 
 **Parameterization:** V3/F — apparent, F unknown (apparent — bioavailability not identifiable).
@@ -42,8 +43,8 @@ Iida S; Kinoshita H; Holford NH et al. (2008). British journal of clinical pharm
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
-| R78 | `Q78` · V3/F | 0.257 | not captured | not captured | not captured | not captured | llm (0.6) | tab_2:row11:col7, tab_2:row11:col8, tab_2:row11:col10, tab_2:row11:col11 | — | not captured |
-| R89 | `Q89` · t1/2γ | 0.957 | not captured | not captured | not captured | not captured | llm (0.6) | tab_2:row12:col7, tab_2:row12:col8, tab_2:row12:col10, tab_2:row12:col11 | — | not captured |
+| R78 | `Q78` · V3/F | 0.257 | L | 0.000257 | L | not captured | llm (0.6) | tab_2:row11:col7, tab_2:row11:col8, tab_2:row11:col10, tab_2:row11:col11 | — | not captured |
+| R89 | `Q89` · t1/2γ | 0.957 | h | 3445.2 | h | not captured | llm (0.6) | tab_2:row12:col7, tab_2:row12:col8, tab_2:row12:col10, tab_2:row12:col11 | — | not captured |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -68,6 +69,8 @@ Iida S; Kinoshita H; Holford NH et al. (2008). British journal of clinical pharm
 - dropped unlinked row (NIL): '15' — extend the ontology if this is a real PK parameter (source ['Iida_2008_2_table_2:row5:col5', 'Iida_2008_2_table_2:row5:col6'])
 - dropped unlinked row (NIL): '16' — extend the ontology if this is a real PK parameter (source ['Iida_2008_2_table_2:row6:col5', 'Iida_2008_2_table_2:row6:col6'])
 - dropped unlinked row (NIL): '17' — extend the ontology if this is a real PK parameter (source ['Iida_2008_2_table_2:row7:col5'])
+- implicit units: 'R78' → L (from the popPK convention: 'The parameter is V3/F (volume of distribution of the second peripheral compartment). In population PK, volumes of distri')
+- implicit units: 'R89' → h (from the popPK convention: 'The parameter is t1/2γ (half-life of the terminal elimination phase). In population PK, half-lives are conventionally ex')
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=nicorandil
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
@@ -91,20 +94,22 @@ Iida S; Kinoshita H; Holford NH et al. (2008). British journal of clinical pharm
 ## Validation
 
 **Cross-check (independent readings):** <span class="pk-badge pk-badge--orange">cross-check: partial</span>  
-first reading `qwen3.6:27b-q8_0` — the numbers on this page are its, whatever the readers say
+first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whatever the readers say
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | partly confirmed | 0.6 (6/10 fields) | 4 |
+| `gpt-oss:120b` | partly confirmed | 0.455 (5/11 fields) | 6 |
 
-<details><summary>4 field(s) a reader read differently</summary>
+<details><summary>6 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `parameters[ppv_sss]` | 0.431 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[r12]` | not captured | 1.00 | only_one_extracted |
-| `gpt-oss:120b` | `parameters[r89]` | 1.00 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[ruv_sdfx]` | not captured | 2.79 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[14]` | not captured | 7634.66 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[15]` | not captured | 7634.80 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[ppv_sss]` | not captured | 0.320 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[r12]` | not captured | 0.864 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[r23]` | not captured | 0.054 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[r89]` | 0.957 | not captured | only_one_extracted |
 
 </details>
 
@@ -121,6 +126,8 @@ first reading `qwen3.6:27b-q8_0` — the numbers on this page are its, whatever 
 | C0_has_structural_params | pass | not captured | 2 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q78 | pass | [length] ** 3 | not captured | not captured | not captured | ['tab_2:row11:col7', 'tab_2:row11:col8', 'tab_2:row11:col10', 'tab_2:row11:col11'] |
+| C5_dimension_Q89 | pass | [time] | not captured | not captured | not captured | ['tab_2:row12:col7', 'tab_2:row12:col8', 'tab_2:row12:col10', 'tab_2:row12:col11'] |
 | C7_apparent_coherence | pass | not captured | not captured | not captured | not captured | not captured |
 | C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
 
@@ -157,4 +164,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-20 21:12 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-06 10:59 UTC</sub>

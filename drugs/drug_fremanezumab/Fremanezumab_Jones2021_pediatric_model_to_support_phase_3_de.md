@@ -1,38 +1,32 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N02C&quot;,&quot;href&quot;:&quot;atc/N02C.md&quot;},{&quot;label&quot;:&quot;fremanezumab&quot;,&quot;href&quot;:&quot;drugs/drug_fremanezumab/&quot;},{&quot;label&quot;:&quot;Jones_2021 \u00b7 pediatric_model_to_support_phase_3_development_1&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Fremanezumab_FiedlerKelly2019_reference&quot;,&quot;label&quot;:&quot;Fiedler-Kelly_2019_reference&quot;,&quot;href&quot;:&quot;drugs/drug_fremanezumab/Fremanezumab_FiedlerKelly2019_reference.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de&quot;,&quot;label&quot;:&quot;Jones_2021_pediatric_model_to_support_phase_3_development_1&quot;,&quot;href&quot;:&quot;drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Fremanezumab_Jones2021_previously_developed_adult_model_appl&quot;,&quot;label&quot;:&quot;Jones_2021_previously_developed_adult_model_applied_to_pediatric_data&quot;,&quot;href&quot;:&quot;drugs/drug_fremanezumab/Fremanezumab_Jones2021_previously_developed_adult_model_appl.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fremanezumab_Iannone2026_adults&quot;,&quot;label&quot;:&quot;Iannone_2026_adults&quot;,&quot;href&quot;:&quot;drugs/drug_fremanezumab/Fremanezumab_Iannone2026_adults.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fremanezumab_Iannone2026_children_adolescents_6_17_years&quot;,&quot;label&quot;:&quot;Iannone_2026_children_adolescents_6_17_years&quot;,&quot;href&quot;:&quot;drugs/drug_fremanezumab/Fremanezumab_Iannone2026_children_adolescents_6_17_years.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Fremanezumab_FiedlerKelly2019_reference&quot;,&quot;label&quot;:&quot;Fiedler-Kelly_2019_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_fremanezumab/Fremanezumab_FiedlerKelly2019_reference.md&quot;,&quot;status&quot;:&quot;extracted \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de&quot;,&quot;label&quot;:&quot;Jones_2021_pediatric_model_to_support_phase_3_development_1&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Fremanezumab_Jones2021_previously_developed_adult_model_appl&quot;,&quot;label&quot;:&quot;Jones_2021_previously_developed_adult_model_applied_to_pediatric_data&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_fremanezumab/Fremanezumab_Jones2021_previously_developed_adult_model_appl.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # fremanezumab — `Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de`
 
-> ## <span class="pk-badge pk-badge--orange" title="covariates_not_exercised: the record defines covariate effects (weight on clearance, renal function …) but the engineer simulated only the reference individual, so those scenarios were never run. The base model still reproduces the paper; what is missing is the covariate curves.">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.75). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--green">extracted</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.75). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
 **Model:** A simulatable model was generated — see the **Models** and **Simulation** tabs.
 
-> **Caveat** (`covariates_not_exercised`): the record defines covariate effects (weight on clearance, renal function …) but the engineer simulated only the reference individual, so those scenarios were never run. The base model still reproduces the paper; what is missing is the covariate curves.
-
 ### Reviewer guidance
-
-**The fremanezumab pediatric model was held back because the absorption rate constant ka was not reported in the source and a placeholder value was substituted, and the covariate effects (weight on clearance, power 0.245 and 1.20) were never simulated.**
-
-The record defines covariate effects of weight (theta_q319_weight_power, values 0.245 and 1.20) but only the reference individual was simulated, so these covariate scenarios were not exercised. The builder defaulted F, ka and Tlag because the source did not report them; the invented absorption (defaulted ka) was judged not acceptable. A second reader also disagreed on the parameterization, reading it as apparent rather than mechanistic. Extracted — fremanezumab: CL 0.0905 L/day, V1 1.89 L, kabs 0.252, Q 0.262 L/day, V2 1.72 L.
 
 A second, independent reading of the paper (`gpt-oss:120b`) disagrees on how the model is parameterised: this record has mechanistic, the second reading apparent; it also differs on 2 more fields. That field shapes the model, so the record is marked disputed.
 
-<sub>reviewed by glm-5.3-flash</sub>
+> ℹ️ No reviewer record yet — status shown is the scholar **validate** result; simulation-based reviewer checks have not been run.
 
 ## Citation
-Jones A; Cohen-Barak O; Radivojevic A; Fiedler-Kelly J et al. (2021). Pharmaceutics 13
+Jones A et al., Scaling Approaches for Pediatric Dose S…, Pharmaceutics (2021)
   ·  DOI: [10.3390/pharmaceutics13060785](https://doi.org/10.3390/pharmaceutics13060785)
 
 ## Model component
-<dbs-pgx drug="fremanezumab" model-id="Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de" status="needs_review" stale="false" population="pediatric patients with migraine" measured-compound="fremanezumab" parameterization="mechanistic" topology="2C"></dbs-pgx>
+<dbs-pgx drug="fremanezumab" model-id="Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de" status="extracted" stale="false" population="pediatric patients with migraine" measured-compound="fremanezumab" parameterization="mechanistic" topology="2C"></dbs-pgx>
 
 **Model structure:** 2-compartment, oral mammillary model — template `PK_2C_enteral`.  
 **Parameters:** 5 extracted, plus 2 covariate effects.
@@ -40,15 +34,13 @@ Jones A; Cohen-Barak O; Radivojevic A; Fiedler-Kelly J et al. (2021). Pharmaceut
 **Parameterization:** mechanistic.
 
 ## Parameters
-> ⚠️ This record is not accepted (current status `needs_review`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
-
 | label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
 |---|---|---|---|---|---|---|---|---|---|---|
 | CL: central clearance (L/day) | `Q22` · CL | 0.0905 | L/day | 1.0474537037037038e-09 | [l] / [d] | not captured | llm_confirmed (0.6) | pharmaceutics-13-00785-t001:row1:col2 | — | not captured |
-| Vc: central volume of distribution (L) | `Q63` · V1 | 1.89 | L | 0.00189 | [l] | not captured | llm_corrected (0.6) | pharmaceutics-13-00785-t001:row3:col2 | — | not captured |
-| ka: absorption rate constant (1/day) | `Q49` · kabs | 0.252 | not captured | not captured | not captured | not captured | llm_confirmed (0.6) | pharmaceutics-13-00785-t001:row5:col2 | — | not captured |
+| Vc: central volume of distribution (L) | `Q63` · V1 | 1.89 | L | 0.00189 | [l] | not captured | boundary_compartment (0.9) | pharmaceutics-13-00785-t001:row3:col2 | — | not captured |
+| ka: absorption rate constant (1/day) | `Q49` · kabs | 0.252 | 1/day | 2.9166666666666666e-06 | 1/h | not captured | llm_confirmed (0.6) | pharmaceutics-13-00785-t001:row5:col2 | — | not captured |
 | Q: intercompartmental clearance (L/day) | `Q30` · Q | 0.262 | L/day | 3.0324074074074076e-09 | [l] / [d] | not captured | llm_confirmed (0.6) | pharmaceutics-13-00785-t001:row6:col2 | — | not captured |
-| Vp: peripheral volume of distribution (L) | `Q64` · V2 | 1.72 | L | 0.00172 | [l] | not captured | llm_corrected (0.6) | pharmaceutics-13-00785-t001:row7:col2 | — | not captured |
+| Vp: peripheral volume of distribution (L) | `Q64` · V2 | 1.72 | L | 0.00172 | [l] | not captured | boundary_compartment (0.9) | pharmaceutics-13-00785-t001:row7:col2 | — | not captured |
 | theta_q319_weight_power | `Q900` · theta_q319_weight_power | 0.245 | not captured | not captured | not captured | not captured | not captured (not captured) | pharmaceutics-13-00785-t001:row2:col2 | — | not captured |
 | theta_q319_weight_power | `Q900` · theta_q319_weight_power | 1.20 | not captured | not captured | not captured | not captured | not captured (not captured) | pharmaceutics-13-00785-t001:row4:col2 | — | not captured |
 
@@ -60,15 +52,17 @@ Jones A; Cohen-Barak O; Radivojevic A; Fiedler-Kelly J et al. (2021). Pharmaceut
 ## Departures & gaps
 
 **Deviations:**
-- `defaulted_parameters`: ['F', 'ka', 'Tlag']
-- `invented_absorption`: ka defaulted — not reported in source
+- `defaulted_parameters`: ['F', 'Tlag']
 
 **Interpretation flags:**
-- dropped unlinked row (NIL): 'VOF' — extend the ontology if this is a real PK parameter (source ['pharmaceutics-13-00785-t001:row17:col2'])
+- table section iiv: 'Residual variability proportional component' routed out of structural estimates ('Interindividual variability in ka')
+- table section iiv: 'VOF' routed out of structural estimates ('Interindividual variability in ka')
 - covariate effect for Q319 has no base parameter row (kept as unattached equation-variable)
+- implicit units: 'ka: absorption rate constant (1/day)' → 1/day (from the paper text: "Table footnote: 'kabs: Absorption rate constant.'")
 - apparent-by-design (ADVISORY, codes unchanged): extravascular dosing with no identifiable F, so these reported disposition parameters are likely apparent unless the model puts first-pass in its structure — Q22 (CL: central clearance (L/day)); Q63 (Vc: central volume of distribution (L)); Q30 (Q: intercompartmental clearance (L/day)); Q64 (Vp: peripheral volume of distribution (L))
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=fremanezumab
 - population split: 'pediatric model to support phase 3 development 1' subgroup of Jones_2021 (paper reports 2 populations: pediatric model to support phase 3 development 1, previously developed adult model applied to pediatric data)
+- molar mass: none found for 'fremanezumab' — its concentrations stay mass-only
 - skipped review gap-fill of TLAG: primary's parameterization (rate-constant / ka-only) does not use it
 
 **Extraction notes:**
@@ -104,11 +98,12 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 7 | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 5 | not captured | not captured | not captured |
 | C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
 | C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['pharmaceutics-13-00785-t001:row1:col2'] |
 | C5_dimension_Q30 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['pharmaceutics-13-00785-t001:row6:col2'] |
+| C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['pharmaceutics-13-00785-t001:row5:col2'] |
 | C5_dimension_Q63 | pass | [length] ** 3 | not captured | not captured | not captured | ['pharmaceutics-13-00785-t001:row3:col2'] |
 | C5_dimension_Q64 | pass | [length] ** 3 | not captured | not captured | not captured | ['pharmaceutics-13-00785-t001:row7:col2'] |
 | C6_cl_magnitude | pass | &lt;= 90.0 L/h | 0.0905 | not captured | not captured | ['pharmaceutics-13-00785-t001:row1:col2'] |
@@ -116,17 +111,6 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 | C9_phys_window_Q22 | pass | clearance within physiological range | 0.00377 L/h | not captured | not captured | ['pharmaceutics-13-00785-t001:row1:col2'] |
 | C9_phys_window_Q63 | pass | volume within physiological range | 1.89 L | not captured | not captured | ['pharmaceutics-13-00785-t001:row3:col2'] |
 | C9_phys_window_Q64 | pass | volume within physiological range | 1.72 L | not captured | not captured | ['pharmaceutics-13-00785-t001:row7:col2'] |
-
-**Reviewer per-scenario checks:**
-
-| check | scenario | status | expected | obtained | ratio | note |
-|---|---|---|---|---|---|---|
-| T2_covariates_not_exercised | (all) | fail | not captured | not captured | not captured | record has covariate_effects but the engineer simulated only the reference individual — covariate scenarios were not exercised |
-| T0_analyte_identity | not captured | pass | not captured | not captured | not captured | V/CL labels are the drug's (or a metabolite's), no biomarker signal |
-| T3_output_variable | not captured | pass | C_central (measured=fremanezumab) | central.C | not captured | output must be the measured/analyte compartment |
-| T3_param_coverage | not captured | pass | 5 scholar param(s) emitted or defaulted | 5 covered | not captured | all structural parameters accounted for |
-| T3_topology_template | not captured | pass | 2C → PK_2C* | PK_2C_enteral | not captured | engineer template must match the scholar topology |
-| T6_deviations | not captured | fail | not captured | invented_absorption: not acceptable | not captured | LLM adjudication → deterministic rule |
 
 <details class="legend">
 <summary>Check legend — what each column means</summary>
@@ -136,9 +120,6 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 ## Raw artifacts
 
 - scholar stages: `../../../knowledgebase/drugs/drug_fremanezumab/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Jones_2021` / `Jones_2021::pediatric_model_to_support_phase_3_development_1`)
-- model: `../../../knowledgebase/drugs/drug_fremanezumab/models/modelica/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.mo`
-- deviation: `../../../knowledgebase/drugs/drug_fremanezumab/models/modelica/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.deviation.json`
-- sim: `../../../knowledgebase/drugs/drug_fremanezumab/models/modelica/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
@@ -147,11 +128,11 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_modelica.zip" download>Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_modelica.zip</a> <span class="pk-size">(4.7 kB)</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_modelica.zip" download>Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_modelica.zip</a> <span class="pk-size">(5.2 kB)</span></td></tr>
 <tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_fmi.zip" download>Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_fmi.zip</a> <span class="pk-size">(4.4 kB)</span><br><a href="models/fmu/PK_2C_enteral.fmu" download>PK_2C_enteral.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_matlab.zip" download>Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_matlab.zip</a> <span class="pk-size">(3.6 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_matlab_simbio.zip" download>Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_matlab_simbio.zip</a> <span class="pk-size">(3.0 kB)</span></td></tr>
-<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_sbml.zip" download>Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_sbml.zip</a> <span class="pk-size">(2.9 kB)</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_sbml.zip" download>Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_sbml.zip</a> <span class="pk-size">(2.8 kB)</span></td></tr>
 <tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_cellml.zip" download>Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_cellml.zip</a> <span class="pk-size">(3.3 kB)</span></td></tr>
 </tbody></table>
 <p>Each archive holds the model source, a script that simulates it against the appropriate library, and a README describing both and how to run them.</p>
@@ -160,7 +141,7 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-**Administration: oral** — 120 mg, single dose, first-order absorption (ka 0.5 /h, F 0.9). Dose in the paper: 120 mg.
+**Administration: oral** — 120 mg, single dose, first-order absorption (ka 0.0105 /h, F 0.9). Dose in the paper: 120 mg.
 
 <dbs-fmusim paramsurl="drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_params.json" metaurl="assets/fmu/PK_2C_enteral.vr.json" wasmurl="assets/fmu/PK_2C_enteral.js" controlsurl="drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de_sim_controls.json"></dbs-fmusim>
 
@@ -169,4 +150,4 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-21 05:23 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 15:35 UTC</sub>

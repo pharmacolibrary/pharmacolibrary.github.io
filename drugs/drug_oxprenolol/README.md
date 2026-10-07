@@ -10,19 +10,25 @@
 
 ## About
 
-**Description.** A beta-adrenergic antagonist used in the treatment of hypertension, angina pectoris, arrhythmias, and anxiety.
+Oxprenolol is a non-selective beta blocker that was used to treat high blood pressure and anxiety. It has been withdrawn and is no longer in use.
 
-**Indication.** Used in the treatment of hypertension, angina pectoris, arrhythmias, and anxiety.
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q425963](https://www.wikidata.org/wiki/Q425963) and the WHO ATC classification; not checked by a person.</small>
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-29 05:11 | 27:21 | 0/0/0 | 0/0/0 | 0/0/0 | 44,977/4,010 | ollama / qwen3.8:27b-mtp-q8_0 | 1 | 1/0 | 1/0 | 0 |
+| 2026-10-07 00:32 | 0:45 | 0/0/0 | 1/0/0 | 0/0/0 | 28,205/1,022 | ollama / qwen3.8:27b-mtp-q8_0 | 1 | 1/0 | 1/0 | 0 |
 
 ## popPK records
 
 _not available_
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--green">extracted</span> | [Jonkers_1989_plasma_potassium_concentrations](drugs/drug_oxprenolol/pd_Jonkers_1989_plasma_potassium_concentrations.md) | plasma potassium concentrations ← oxprenolol · inhibition effect | — | Jonkers R et al., A nonsteady-state agonist antagonist in…, The Journal of pharmacology… (1989) | — |
 
 ## ADME sites
 
@@ -38,7 +44,7 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -51,11 +57,10 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 
 ## Full text wanted
 
-_8 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+_7 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
 
 | save as | citation | domain | score | DOI | PubMed | why wanted |
 |---|---|---|---|---|---|---|
-| `Brunner_1975.pdf` | Brunner L et al., Relation between plasma concentrations…, European journal of clinica… (1975) | popPK | 8 | [10.1007/BF00616408](https://doi.org/10.1007/BF00616408) | [786674](https://pubmed.ncbi.nlm.nih.gov/786674) | The study reports a half-life of 80 minutes for oxprenolol, but lacks other quantitative disposition parameters like clearance or volume of distribution. |
 | `Jennings_1981.pdf` | Jennings G et al., Influence of intrinsic sympathomimetic…, British journal of clinical… (1981) | pd | 5 | [10.1111/j.1365-2125.1981.tb01226.x](https://doi.org/10.1111/j.1365-2125.1981.tb01226.x) | [6117303](https://www.ncbi.nlm.nih.gov/pubmed/6117303) | metadata signals extractable PD data (sigmoid) |
 | `Koopmans_1988.pdf` | Koopmans R et al., Pharmacokinetic-pharmacodynamic modelli…, European journal of clinica… (1988) | pd | 5 | [10.1007/BF00542442](https://doi.org/10.1007/BF00542442) | [3402525](https://www.ncbi.nlm.nih.gov/pubmed/3402525) | metadata signals extractable PD data (pharmacodynamicmodel) |
 | `Koopmans_1993.pdf` | Koopmans R et al., The effect of oxprenolol dosage time on…, European journal of clinica… (1993) | pd | 5 | [10.1007/BF00315476](https://doi.org/10.1007/BF00315476) | [8453962](https://www.ncbi.nlm.nih.gov/pubmed/8453962) | metadata signals extractable PD data (EC50) |
@@ -64,7 +69,7 @@ _8 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | `McInnes_1988.pdf` | McInnes GT et al., Concentration-effect relationships for…, British journal of clinical… (1988) | pd | 4 | [10.1111/j.1365-2125.1988.tb03343.x](https://doi.org/10.1111/j.1365-2125.1988.tb03343.x) | [3408634](https://www.ncbi.nlm.nih.gov/pubmed/3408634) | metadata signals extractable PD data (Concentration-effect) |
 | `Maideen_2021.pdf` | Maideen NMP et al., A Review on Pharmacokinetic and Pharmac…, Current drug metabolism (2021) | pgx | 7 | [10.2174/1389200222666210614112529](https://doi.org/10.2174/1389200222666210614112529) | [34182907](https://www.ncbi.nlm.nih.gov/pubmed/34182907) | metadata signals extractable PGX data (CYP2D6, PK/PD-context) |
 
-<sub>queue written 2026-09-29T05:10:16.423209+00:00</sub>
+<sub>queue written 2026-10-07T00:31:45.884869+00:00</sub>
 
 ## Screened and excluded
 
@@ -93,9 +98,9 @@ _8 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | PD | Jennings_1981 | not_relevant | 0 | 0 | The provided text is only a title and does not contain the full text, data, or numeric PD parameters required to assess the exposure-response relationship. |
 | popPK | Jeong_2012 | irrelevant | 0 | 0 | The study is an in-vitro electrophysiology investigation of carvedilol on Kv1.5 channels, and oxprenolol is only mentioned as a comparator with no pharmacokinetic parameters reported. |
 | PD | Jeong_2012 | not_relevant | 0 | 0 | The paper reports that oxprenolol had little or no effect on Kv1.5 currents and does not provide numeric PD parameters for oxprenolol. |
-| popPK | Jonkers_1987 | irrelevant | 2 | 0 | The study focuses on terbutaline pharmacokinetics and oxprenolol's effect on it, rather than reporting quantitative disposition parameters for oxprenolol itself. |
+| popPK | Jonkers_1987 | irrelevant | 1 | 0 | The study focuses on the pharmacokinetics of terbutaline (the subject drug) and its interaction with oxprenolol, which is used as a co-administered antagonist rather than the primary subject of PK parameter estimation. |
 | popPK | Jonkers_1989 | irrelevant | 2 | 0 | The study focuses on beta-2 selectivity (IC50) and the effect of oxprenolol on terbutaline's pharmacokinetics, rather than reporting quantitative disposition parameters (CL, V, t1/2) for oxprenolol itself. |
-| popPK | Kawashima_1981 | irrelevant | 0 | 0 | The provided evidence contains only metadata and software version information, with no pharmacokinetic data or text regarding oxprenolol. |
+| popPK | Kawashima_1981 | irrelevant | 0 | 0 | The provided evidence contains only software metadata and no scientific content regarding oxprenolol pharmacokinetics. |
 | popPK | Kendall_1983 | irrelevant | 2 | 0 | The text is a qualitative review describing general pharmacokinetic properties (e.g., lipophilicity, protein binding) without reporting specific quantitative disposition parameters (CL, V, t1/2) for oxprenolol. |
 | PD | Kendall_1983 | not_relevant | 2 | 0 | The text is a qualitative review stating that beta-blocking effects correlate with plasma concentrations but explicitly notes that direct correlation with therapeutic actions is not possible, providing no numeric PD parameters or curves. |
 | popPK | Kendall_1984 | irrelevant | 2 | 0 | The study reports qualitative changes in AUC and Cmax for oxprenolol due to drug interaction but does not provide specific quantitative PK parameter values (CL, V, ka, etc.) in the evidence. |
@@ -123,7 +128,7 @@ _8 paper(s) judged relevant from the abstract, with no full text on disk — pay
 | popPK | Sakuta_1992 | irrelevant | 0 | 0 | The study is an in-vitro electrophysiology investigation of ion channel blockade in Xenopus oocytes and does not report pharmacokinetic parameters for oxprenolol. |
 | popPK | Saunders_1985 | irrelevant | 0 | 0 | no_text gate: only 85 chars of text extracted (&lt; 400) |
 | popPK | Silke_1981 | irrelevant | 0 | 0 | The study reports haemodynamic dose-response effects (blood pressure, heart rate) rather than pharmacokinetic disposition parameters (CL, V, t1/2). |
-| popPK | Sári_1998 | irrelevant | 0 | 0 | The study is an in-vitro pharmacological investigation of the rabbit sphincter of Oddi where oxprenolol is used only as a non-selective beta-blocker in a NANC cocktail, not as the subject of a pharmacokinetic analysis. |
+| popPK | Sári_1998 | irrelevant | 0 | 0 | The study is an in-vitro pharmacological investigation of nitroglycerin tolerance in rabbit sphincter of Oddi, where oxprenolol is used only as a non-selective beta-blocker in a NANC cocktail, not as the subject of PK analysis. |
 | PD | Sári_1998 | not_relevant | 0 | 0 | The paper studies nitroglycerin tolerance in rabbit sphincter of Oddi; oxprenolol is used only as a fixed-concentration blocker in a pharmacological cocktail, with no dose-response or exposure-response analysis for oxprenolol. |
 
 ---

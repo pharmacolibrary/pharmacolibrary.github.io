@@ -1,15 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A05B&quot;,&quot;href&quot;:&quot;atc/A05B.md&quot;},{&quot;label&quot;:&quot;ornithine oxoglurate&quot;,&quot;href&quot;:&quot;drugs/drug_ornithine_oxoglurate/&quot;},{&quot;label&quot;:&quot;Le_1997 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;OrnithineOxoglurate_Wang2022_reference&quot;,&quot;label&quot;:&quot;Wang_2022_reference&quot;,&quot;href&quot;:&quot;drugs/drug_ornithine_oxoglurate/OrnithineOxoglurate_Wang2022_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;OrnithineOxoglurate_Le1997_reference&quot;,&quot;label&quot;:&quot;Le_1997_reference&quot;,&quot;href&quot;:&quot;drugs/drug_ornithine_oxoglurate/OrnithineOxoglurate_Le1997_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;OrnithineOxoglurate_Wang2022_reference&quot;,&quot;label&quot;:&quot;Wang_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ornithine_oxoglurate/OrnithineOxoglurate_Wang2022_reference.md&quot;,&quot;status&quot;:&quot;needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # ornithine oxoglurate — `OrnithineOxoglurate_Le1997_reference`
 
-> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.25). The first reading is what the record holds.">cross-check: disputed</span>
+> ## <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.333). The first reading is what the record holds.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -17,18 +17,18 @@
 
 ### Reviewer guidance
 
-**The ornithine oxoglurate record was rejected because its metabolism links leave metabolites (proline, glutamine, arginine) unreachable from the dose, and it was built from the abstract only, so summary statistics stand in for a fitted model.**
+**The ornithine oxoglurate record was rejected because its metabolite compartments (ornithine, proline, glutamine, arginine) have no metabolism link parameters, leaving them unlinked, and it was built from the abstract only.**
 
-The structure check found unreachable compartments or unlinked metabolites in the linear model linking ornithine oxoglurate to ornithine, proline, glutamine and arginine, with no link parameters extracted. The record is abstract-only, so the reported values (absorption constant 0.028 min-1, terminal half-life 89 min, clearance 26.0 mL/min, volume of distribution 33.2 L for ornithine) are summary statistics rather than fitted model parameters. A second reader also disagreed on the dose compound name (ornithine_alpha_ketoglutarate) and read no values for the four parameters. Extracted — ornithine oxoglurate: kabs 0.028 min-1, t1/2z 89 min, CL 26 mL/min, V 33.2 L.
+The four metabolism links from ornithine oxoglurate to ornithine, proline, glutamine and arginine carry no link parameter (link_parameter: none, kind unknown), so the metabolite compartments are unreachable from the dose. The record is abstract-only, so reported summary statistics (e.g. kabs 0.028 min-1, t1/2z 89 min, V 33.2 L, CL 26.0 mL/min) stood in for a fitted model. A second reader also disagreed on the dose compound and analyte naming and read AUC0-7h values (arginine 7.3, glutamine 20.4, proline 41.4) that are absent from this record. Extracted — ornithine oxoglurate: kabs 0.028 min-1, t1/2z 89 min, CL 26 mL/min, V 33.2 L.
 
-A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has ornithine_oxoglurate, the second reading ornithine_alpha_ketoglutarate; it also differs on 5 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss:120b`) disagrees on which compound was dosed: this record has ornithine_oxoglurate, the second reading unknown; it also differs on 5 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by glm-5.3-flash</sub>
 
 > **Dose compound ≠ measured compound:** dosed `ornithine_oxoglurate`, measured `ornithine`.
 
 ## Citation
-Le Bricon T; Coudray-Lucas C; Lioret N; Lim SK; Plassart F; Schlegel L; et al. et al. (1997). The American journal of clinical nutrition 65
+Le Bricon T et al., Ornithine alpha-ketoglutarate metabolis…, The American journal of cli… (1997)
   ·  DOI: [10.1093/ajcn/65.2.512](https://doi.org/10.1093/ajcn/65.2.512)
 
 ## Model component
@@ -62,7 +62,9 @@ Le Bricon T; Coudray-Lucas C; Lioret N; Lim SK; Plassart F; Schlegel L; et al. e
 - dropped unlinked row (NIL): 'arginine' — extend the ontology if this is a real PK parameter (source ['Le_1997:abstract'])
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=ornithine
 - topology: transfer parameter unlinked (Q100) — add Kfm/formation-rate/rate-constant to the ontology; routing to review
+- template fit: none — other model — not a compartmental parent–metabolite model
 - status held at route_to_review — not promoted
+- row roles (LLM): model_class=other; 5/5 row label(s) assigned, 1 linked by role; re-tagged ornithine→parent ×2, ornithine→proline ×1, ornithine→glutamine ×1, ornithine→arginine ×1
 - abstract-only: no full text was available, so these values were read from the abstract's prose — reported summary statistics, not a fitted model
 - gap-filled Q22 (CL) from Wang_2022's review values (primary lacked it)
 - gap-filled Q61 (V) from Wang_2022's review values (primary lacked it)
@@ -80,18 +82,18 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss:120b` | not confirmed | 0.25 (2/8 fields) | 6 |
+| `gpt-oss:120b` | not confirmed | 0.333 (3/9 fields) | 6 |
 
 <details><summary>6 field(s) a reader read differently</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss:120b` | `model.links` | [['ornithine_oxoglurate', 'ornithine', 'metabolism'], ['ornithine_oxoglurate', 'proline', 'metabolism'], ['ornithine_oxoglurate', 'glutamine', 'metabolism'], ['ornithine_oxoglurate', 'arginine', 'metabolism']] | [['ornithine_alpha_ketoglutarate', 'ornithine', 'metabolism'], ['ornithine_alpha_ketoglutarate', 'glutamine', 'metabolism'], ['ornithine_alpha_ketoglutarate', 'arginine', 'metabolism'], ['ornithine_alpha_ketoglutarate', 'proline', 'metabolism']] | mismatch |
-| `gpt-oss:120b` | `parameters[absorption constant]` | 0.028 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[elimination half-life]` | 89 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[lowest creatinine clearance was]` | 26.0 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `parameters[volume of distribution was]` | 33.2 | not captured | only_one_extracted |
-| `gpt-oss:120b` | `screen.dose_compound` | ornithine_oxoglurate | ornithine_alpha_ketoglutarate | mismatch |
+| `gpt-oss:120b` | `model.links` | [['ornithine_oxoglurate', 'ornithine', 'metabolism'], ['ornithine_oxoglurate', 'proline', 'metabolism'], ['ornithine_oxoglurate', 'glutamine', 'metabolism'], ['ornithine_oxoglurate', 'arginine', 'metabolism']] | [['ornithine_alpha_ketoglutarate', 'ornithine', 'metabolism'], ['ornithine_alpha_ketoglutarate', 'proline', 'metabolism'], ['ornithine_alpha_ketoglutarate', 'glutamine', 'metabolism'], ['ornithine_alpha_ketoglutarate', 'arginine', 'metabolism']] | mismatch |
+| `gpt-oss:120b` | `parameters[auc0-7h: arginine]` | not captured | 7.3 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[auc0-7h: glutamine]` | not captured | 20.4 | only_one_extracted |
+| `gpt-oss:120b` | `parameters[auc0-7h: proline]` | not captured | 41.4 | only_one_extracted |
+| `gpt-oss:120b` | `screen.dose_compound` | ornithine_oxoglurate | unknown | mismatch |
+| `gpt-oss:120b` | `screen.primary_analyte` | ornithine | unknown | mismatch |
 
 </details>
 
@@ -105,9 +107,8 @@ first reading `qwen3.8:27b-mtp-q8_0` — the numbers on this page are its, whate
 
 | check | status | expected | obtained | ratio | tol | source |
 |---|---|---|---|---|---|---|
-| C0_has_structural_params | pass | not captured | 4 | not captured | not captured | not captured |
-| C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
-| C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
+| C0_has_structural_params | pass | not captured | 2 | not captured | not captured | not captured |
+| C0c_disposition_complete | fail | not captured | not captured | not captured | not captured | not captured |
 | C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Wang_2022:review'] |
 | C5_dimension_Q49 | pass | 1 / [time] | not captured | not captured | not captured | ['Le_1997:abstract'] |
 | C5_dimension_Q57 | pass | [time] | not captured | not captured | not captured | ['Le_1997:abstract'] |
@@ -140,4 +141,4 @@ _No web simulator for this record: its structure has no shared WebAssembly templ
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Generated by `docs.py` (scholarv2) · extracted 2026-09-18 15:44 UTC</sub>
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-04 15:30 UTC</sub>

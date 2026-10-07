@@ -10,27 +10,23 @@
 
 ## About
 
-**Description.** An anthranilic acid derivative with analgesic properties used for the relief of all types of pain. Glafenine is withdrawn from the American market.
+Glafenine is a non-opioid analgesic and antipyretic that was used to relieve pain and fever. It has been withdrawn from the market, reportedly because of safety concerns, and is no longer in use.
+
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q5566483](https://www.wikidata.org/wiki/Q5566483) and the WHO ATC classification; not checked by a person.</small>
 
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 2026-09-21 00:06 | 5:04 | 0/0/0 | 0/1/0 | 0/0/0 | 45,894/1,438 | ollama / qwen3.8:27b-mtp-q8_0 | 4 | 2/2 | 4/0 | 0 |
+| 2026-10-07 06:15 | 0:16 | 0/0/0 | 0/0/0 | 0/0/0 | 21,922/648 | einfracz / qwen3.8-27b | 3 | 2/2 | 3/0 | 0 |
 
 ## popPK records
 
 _not available_
 
-## Pharmacodynamics (PD)
-
-| status | detail | about | model | citation | doi |
-|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.0). The first reading is what the record holds.">cross-check: disputed</span> | [Collier_1968_bronchoconstriction](drugs/drug_glafenine/pd_Collier_1968_bronchoconstriction.md) | name ← meclofenamate · inhibition effect | — | Collier HO et al., Antagonism by fenamates and like-acting…, British journal of pharmaco… (1968) | [10.1111/j.1476-5381.1968.tb07952.x](https://doi.org/10.1111/j.1476-5381.1968.tb07952.x) |
-
 <details class="legend">
 <summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
@@ -43,35 +39,36 @@ _not available_
 
 ## Full text wanted
 
-_3 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+_4 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
 
 | save as | citation | domain | score | DOI | PubMed | why wanted |
 |---|---|---|---|---|---|---|
-| `Vermerie_1992.pdf` | Vermerie N et al., Pharmacokinetics of glafenine and glafe…, Fundamental & clinical phar… (1992) | popPK | 9 | [10.1111/j.1472-8206.1992.tb00112.x](https://doi.org/10.1111/j.1472-8206.1992.tb00112.x) | [1358775](https://pubmed.ncbi.nlm.nih.gov/1358775) | The study reports quantitative PK parameters (Tmax, Cmax, half-life) for glafenine in humans, though specific clearance and volume values are not explicitly listed in the text. |
+| `Ennachachibi_1988.pdf` | Ennachachibi A et al., Effective high-performance liquid chrom…, Journal of chromatography (1988) | popPK | 10 | [10.1016/0378-4347(88)80133-6](https://doi.org/10.1016/0378-4347(88)80133-6) | [2900842](https://pubmed.ncbi.nlm.nih.gov/2900842) | The paper describes a pharmacokinetic application of the method for glafenine, implying a PK study is included, but the specific quantitative parameter values (CL, V, etc.) are not present in the provided evidence excerpt. |
+| `Vermerie_1992.pdf` | Vermerie N et al., Pharmacokinetics of glafenine and glafe…, Fundamental & clinical phar… (1992) | popPK | 10 | [10.1111/j.1472-8206.1992.tb00112.x](https://doi.org/10.1111/j.1472-8206.1992.tb00112.x) | [1358775](https://pubmed.ncbi.nlm.nih.gov/1358775) | The study reports quantitative pharmacokinetic parameters (half-life, Tmax, Cmax, AUC ratios) for glafenine and its metabolite in human subjects. |
 | `Hu_2024.pdf` | Hu XM et al., Prediction of cytochrome P450-mediated…, Archives of toxicology (2024) | pd | 5 | [10.1007/s00204-024-03701-w](https://doi.org/10.1007/s00204-024-03701-w) | [38492097](https://www.ncbi.nlm.nih.gov/pubmed/38492097) | metadata signals extractable PD data (IC50) |
 | `Chiu_2015.pdf` | Chiu AM et al., High Throughput Assay Identifies Glafen…, Investigative ophthalmology… (2015) | pd | 4 | [10.1167/iovs.15-17802](https://doi.org/10.1167/iovs.15-17802) | [26641551](https://www.ncbi.nlm.nih.gov/pubmed/26641551) | metadata signals extractable PD data (EC50) |
 
-<sub>queue written 2026-09-21T00:06:14.483460+00:00</sub>
+<sub>queue written 2026-10-07T06:15:13.852912+00:00</sub>
 
 ## Screened and excluded
 
 | domain | paper | verdict | relevance | extractability | reason |
 |---|---|---|---|---|---|
-| popPK | Brogden_1986 | irrelevant | 1 | 0 | The paper is a general review of NSAIDs that mentions glafenine only in a broad class comparison without providing specific quantitative pharmacokinetic parameters for it. |
-| popPK | Cheung_2015 | irrelevant | 0 | 0 | The paper is an in-vitro mechanistic study on MRP4 inhibitors and does not report pharmacokinetic parameters for glafenine. |
+| popPK | Brogden_1986 | irrelevant | 0 | 0 | This is a general review of NSAIDs that mentions glafenine only in a single sentence grouping it with fenamates without providing any specific quantitative PK parameters for it. |
+| popPK | Cheung_2015 | irrelevant | 0 | 0 | The study focuses on identifying MRP4 inhibitors using in vitro screens and does not report any pharmacokinetic parameters for glafenine. |
 | popPK | Chiu_2015 | irrelevant | 0 | 0 | no_text gate: only 128 chars of text extracted (&lt; 400) |
 | popPK | Collier_1968 | irrelevant | 0 | 0 | The paper is a pharmacodynamic study of bradykinin-induced bronchoconstriction in guinea pigs and does not report any pharmacokinetic parameters for glafenine. |
 | PD | Collier_1968 | not_relevant | 3 | 2 | The paper reports a qualitative potency ranking and mentions dose-response curves for fenamates, but does not provide specific numeric PD parameters (e.g., EC50, Emax) for glafenine. |
-| PGx | Duvignaud_2020 | not_relevant | 0 | 0 | The paper is a clinical trial protocol for treating SARS-CoV-2 and does not report pharmacogenomic effects on the PK/PD of glafenine. |
-| popPK | Ennachachibi_1988 | irrelevant | 2 | 0 | The paper describes an analytical method for glafenine and mentions pharmacokinetic application, but the provided evidence contains no quantitative PK parameter values (CL, V, t1/2, etc.). |
+| PGx | Duvignaud_2020 | not_relevant | 0 | 0 | The paper is a trial protocol for evaluating experimental treatments for COVID-19 and does not report any pharmacogenomic effects on the PK or PD of glafenine. |
+| popPK | Ennachachibi_1988 | relevant | 10 | 0 | The paper describes a pharmacokinetic application of the method for glafenine, implying a PK study is included, but the specific quantitative parameter values (CL, V, etc.) are not present in the provided evidence excerpt. |
 | popPK | Hu_2024 | irrelevant | 0 | 0 | no_text gate: only 106 chars of text extracted (&lt; 400) |
 | PD | Hu_2024 | not_relevant | 0 | 0 | The paper focuses on machine learning models for predicting CYP-mediated bioactivation and does not report pharmacodynamic or exposure-response relationships for glafenine. |
 | popPK | Mallein_1966 | irrelevant | 0 | 0 | The paper studies glycerylaminophenaquine, not glafenine. |
-| PGx | Selver_2011 | not_relevant | 0 | 0 | The paper uses glafenine as a tool compound to inhibit ABCG2 transport in cell cultures, not to study pharmacogenomic effects on its own PK/PD parameters. |
-| popPK | Sperry_2023 | irrelevant | 0 | 0 | The paper focuses on statins and COVID-19, and does not mention glafenine or report any pharmacokinetic parameters for it. |
+| PGx | Selver_2011 | not_relevant | 0 | 0 | The paper does not investigate a gene variant/genotype/phenotype affecting glafenine PK/PD, but instead uses glafenine as an ABCG2 inhibitor in cell culture experiments. |
+| popPK | Sperry_2023 | irrelevant | 0 | 0 | The paper studies the effect of statins on COVID-19 survival and does not involve the drug glafenine or any pharmacokinetic parameters. |
 | PD | Sperry_2023 | not_relevant | 0 | 0 | The paper focuses on statins (simvastatin, atorvastatin, etc.) and does not mention or analyze glafenine. |
-| PGx | Wen_2011 | not_relevant | 0 | 0 | The paper describes the metabolic bioactivation pathways of glafenine using recombinant enzymes and human liver microsomes, but it does not report any pharmacogenomic effects (gene variants) on PK or PD parameters in humans. |
-| PGx | Zhang_2009 | not_relevant | 0 | 0 | The paper identifies glafenine as an ABCG2 inhibitor but does not report any pharmacogenomic effects (gene variants) on glafenine's PK or PD parameters. |
+| PGx | Wen_2011 | not_relevant | 0 | 0 | The paper describes the metabolic pathways and bioactivation of glafenine using recombinant enzymes and microsomes, but it does not report the effect of human genetic variants (pharmacogenomics) on PK or PD parameters in patients. |
+| PGx | Zhang_2009 | not_relevant | 0 | 0 | The paper reports that glafenine is an inhibitor of the ABCG2 transporter but does not report how a patient's genetic variant affects the pharmacokinetics or pharmacodynamics of glafenine. |
 | popPK | unknown_2016 | irrelevant | 0 | 0 | no_text gate: only 300 chars of text extracted (&lt; 400) |
 | PD | unknown_2016 | not_relevant | 0 | 0 | The provided text is only the title of a conference abstract collection and contains no specific data, models, or parameters for glafenine. |
 

@@ -1,18 +1,20 @@
-<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N02A&quot;,&quot;href&quot;:&quot;atc/N02A.md&quot;},{&quot;label&quot;:&quot;buprenorphine&quot;,&quot;href&quot;:&quot;drugs/drug_buprenorphine/&quot;},{&quot;label&quot;:&quot;Yassen_2007 \u00b7 PD ventilation&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Buprenorphine_Nelson2024_reference&quot;,&quot;label&quot;:&quot;Nelson_2024_reference&quot;,&quot;href&quot;:&quot;drugs/drug_buprenorphine/Buprenorphine_Nelson2024_reference.md&quot;,&quot;status&quot;:&quot;built, not shipped&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Buprenorphine_Ng2015_reference&quot;,&quot;label&quot;:&quot;Ng_2015_reference&quot;,&quot;href&quot;:&quot;drugs/drug_buprenorphine/Buprenorphine_Ng2015_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Buprenorphine_Priestley2018_reference&quot;,&quot;label&quot;:&quot;Priestley_2018_reference&quot;,&quot;href&quot;:&quot;drugs/drug_buprenorphine/Buprenorphine_Priestley2018_reference.md&quot;,&quot;status&quot;:&quot;rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N02A&quot;,&quot;href&quot;:&quot;atc/N02A.md&quot;},{&quot;label&quot;:&quot;buprenorphine&quot;,&quot;href&quot;:&quot;drugs/drug_buprenorphine/&quot;},{&quot;label&quot;:&quot;Yassen_2007 \u00b7 PD ventilatory response at a fixed P ET CO 2 of 50 mm Hg and P ET O 2 of 110 mm Hg&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Buprenorphine_Kraft2018_reference&quot;,&quot;label&quot;:&quot;Kraft_2018_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_buprenorphine/Buprenorphine_Kraft2018_reference.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Buprenorphine_Robertson2005_i_v&quot;,&quot;label&quot;:&quot;Robertson_2005_i_v&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_buprenorphine/Buprenorphine_Robertson2005_i_v.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Buprenorphine_Robertson2005_otm&quot;,&quot;label&quot;:&quot;Robertson_2005_otm&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_buprenorphine/Buprenorphine_Robertson2005_otm.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Buprenorphine_Thigpen2019_reference&quot;,&quot;label&quot;:&quot;Thigpen_2019_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_buprenorphine/Buprenorphine_Thigpen2019_reference.md&quot;,&quot;status&quot;:&quot;extracted&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
 <div class="pk-tab-mark" data-tab="Information"></div>
 
-# ventilation — PD  <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.464). The first reading is what the record holds.">cross-check: disputed</span>
+# ventilatory response at a fixed P ET CO 2 of 50 mm Hg and P ET O 2 of 110 mm Hg — PD  <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss:120b (not confirmed, agreement 0.464). The first reading is what the record holds.">cross-check: disputed</span>
+
+<details class="pk-legend"><summary>What the PGx badges mean — evidence, and whether a model runs</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>the paper gives the effect of each phenotype (or genotype) on a named model parameter — a θ per category.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>the paper links the gene to the drug but states no effect size on a model parameter, so it changes no model.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>the effect comes from a CPIC / DPWG dosing guideline, not from this paper's numbers.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>a risk allele for an adverse reaction (an HLA type, G6PD deficiency …): it changes no PK/PD parameter.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>the paper's popPK model runs per phenotype in the browser (Simulation tab); its PGx Modelica model is under Models.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>a PGx Modelica model exists but has no in-browser simulator.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>What the badges above mean</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr></tbody></table>
+<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
 <p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
 </details>
 
 ## What this record describes
 
-**As extracted:** Fentanyl drives ventilation (in l/min): direct sigmoid Emax (Hill) effect.
+**As extracted:** Buprenorphine (concentrations from this paper's PK model) drives ventilatory response at a fixed P ET CO 2 of 50 mm Hg and P ET O 2 of 110 mm Hg (in l/min): target-mediated drug disposition.
 
 **Model:** No model was generated from this record.
 
@@ -21,34 +23,25 @@
 > <sub>in the paper's terms — summarised by glm-5.3-flash from the paper's text; not checked by a person</sub>
 
 - **paper:** `Yassen_2007`
-- **model family:** `sigmoid_emax`
-- **driver:** `not_resolved`
-- **effect:** inhibition/unknown
+- **model family:** `tmdd`
+- **driver:** `pk_record`
+- **tier:** population
+- **effect:** inhibition/proportional
 
 ## Citation
-Yassen A; Olofsen E; Romberg R; Sarton E; Teppema L; Danhof M; et al. et al. (2007). Clinical pharmacology and therapeutics 81
+Yassen A et al., Mechanism-based PK/PD modeling of the r…, Clinical pharmacology and t… (2007)
   ·  DOI: [10.1038/sj.clpt.6100025](https://doi.org/10.1038/sj.clpt.6100025)
 
 ## Parameters
 | role | label (paper) | Q-code · name | value | unit | value_si | link | source |
 |---|---|---|---|---|---|---|---|
-| PK (driver) | k on (ml/ng/min) | `Q27` · not captured | 0.246 | ml/ng/min | not captured | llm (not captured) | tab_1:row4:col1 |
-| PK (driver) | k on (ml/ng/min) — CV of | `Q27` · not captured | 17.9 | ml/ng/min | not captured | llm (not captured) | tab_1:row4:col2 |
-| PK (driver) | k on (ml/ng/min) — Inter- | `Q27` · not captured | 72.1 | ml/ng/min | not captured | llm (not captured) | tab_1:row4:col3 |
-| PK (driver) | k on (ml/ng/min) — CV of | `Q27` · not captured | 26.4 | ml/ng/min | not captured | llm (not captured) | tab_1:row4:col4 |
-| PD (effect) | k off (min À1 ) | `Q330` · not captured | 0.0102 | min À1 | not captured | llm (not captured) | tab_1:row5:col1 |
-| PD (effect) | k off (min À1 ) — CV of | `Q330` · not captured | 23.2 | min À1 | not captured | llm (not captured) | tab_1:row5:col2 |
-| PD (effect) | K D (nM b ) | `Q331` · not captured | 0.089 | nM b | not captured | llm (not captured) | tab_1:row6:col1 |
-| PD (effect) | k eo ( min À1 ) | `Q326` · not captured | 0.0092 | min À1 | not captured | llm (not captured) | tab_1:row7:col1 |
-| PD (effect) | k eo ( min À1 ) — CV of | `Q326` · not captured | 22.5 | min À1 | not captured | llm (not captured) | tab_1:row7:col2 |
-| PD (effect) | k eo ( min À1 ) — Inter- | `Q326` · not captured | 110 | min À1 | not captured | llm (not captured) | tab_1:row7:col3 |
-| PD (effect) | k eo ( min À1 ) — CV of | `Q326` · not captured | 24.1 | min À1 | not captured | llm (not captured) | tab_1:row7:col4 |
-| PD (effect) | E 0 (l/min) | `Q324` · not captured | 23.90 | l/min | not captured | llm (not captured) | tab_1:row8:col1 |
-| PD (effect) | E 0 (l/min) — CV of | `Q324` · not captured | 3.7 | l/min | not captured | llm (not captured) | tab_1:row8:col2 |
-| PD (effect) | E 0 (l/min) — Inter- | `Q324` · not captured | 25.1 | l/min | not captured | llm (not captured) | tab_1:row8:col3 |
-| PD (effect) | E 0 (l/min) — CV of | `Q324` · not captured | 20.9 | l/min | not captured | llm (not captured) | tab_1:row8:col4 |
-| variability | Additive error | `Q317` · not captured | 1.3 | not captured | not captured | exact (not captured) | tab_1:row10:col1 |
-| variability | Additive error — CV of | `Q317` · not captured | 13.1 | not captured | not captured | exact (not captured) | tab_1:row10:col2 |
+| PD (effect) | kon | `Q329` · not captured | 0.246 | ml/ng/min | not captured | llm (not captured) | Yassen_2007:pdv3 |
+| PD (effect) | koff | `Q330` · not captured | 0.0102 | min À1 | not captured | llm (not captured) | Yassen_2007:pdv3 |
+| PD (effect) | KD | `Q331` · not captured | 0.089 | nM | not captured | llm (not captured) | Yassen_2007:pdv3 |
+| PD (effect) | ke0 | `Q326` · not captured | 0.0092 | min À1 | not captured | llm (not captured) | Yassen_2007:pdv3 |
+| PD (effect) | E0 | `Q324` · not captured | 23.90 | l/min | not captured | llm (not captured) | Yassen_2007:pdv3 |
+| PD (effect) | intrinsic activity | `Q323` · not captured | 0.56 | not captured | not captured | llm (not captured) | Yassen_2007:pdv3 |
+| variability | Additive error | `Q315` · not captured | 1.3 | not captured | not captured | llm (not captured) | Yassen_2007:pdv3 |
 
 <details class="legend">
 <summary>Column legend — what each column means</summary>
@@ -93,9 +86,19 @@ first reading `qwen3.6:27b-q8_0` — the numbers on this page are its, whatever 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
 
-## Models
+## Downloadable models
 
-<p>No downloads: this record is <b>rejected</b>, so it is not published as a model. Any archives generated for it before the verdict have been removed — a download outlives the page that explains it.</p>
+<div class="pk-models-grid"><div class="pk-models-table">
+<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">not generated yet</span></td></tr>
+</tbody></table>
+<p>No bundles have been generated for this record yet. When the engineer emits them they appear here automatically — this page reports what is on disk and generates nothing itself.</p>
+</div></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
