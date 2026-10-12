@@ -103,10 +103,10 @@ _All readers agree on the compared fields of this record._
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_phenobarbital/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Stoschus_2025` / `Stoschus_2025::reference`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_phenobarbital/models/modelica/Phenobarbital_Stoschus2025_reference.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_phenobarbital/models/modelica/Phenobarbital_Stoschus2025_reference.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_phenobarbital/models/modelica/Phenobarbital_Stoschus2025_reference.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_phenobarbital/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Stoschus_2025` / `Stoschus_2025::reference`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_phenobarbital/models/modelica/Phenobarbital_Stoschus2025_reference.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_phenobarbital/models/modelica/Phenobarbital_Stoschus2025_reference.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_phenobarbital/models/modelica/Phenobarbital_Stoschus2025_reference.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

@@ -98,7 +98,7 @@ Wu H et al., Evaluation of the clinical efficacy, sa…, Antimicrobial agents an
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs_non_atc/drug_contezolid/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Wu_2026` / `Wu_2026::reference`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs_non_atc/drug_contezolid/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Wu_2026` / `Wu_2026::reference`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

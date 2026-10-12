@@ -107,7 +107,7 @@ Ashraf MW et al., Semimechanistic Population Pharmacokine…, CPT: pharmacometri
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_ticlopidine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Ashraf_2018` / `Ashraf_2018::nonmem`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_ticlopidine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Ashraf_2018` / `Ashraf_2018::nonmem`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

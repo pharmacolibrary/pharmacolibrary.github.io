@@ -94,7 +94,7 @@ Charles BG et al., Population pharmacokinetics of tafenoqu…, Antimicrobial age
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_tafenoquine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Charles_2007` / `Charles_2007::reference`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_tafenoquine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Charles_2007` / `Charles_2007::reference`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

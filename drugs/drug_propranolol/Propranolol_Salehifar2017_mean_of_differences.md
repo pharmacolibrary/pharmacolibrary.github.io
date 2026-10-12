@@ -127,10 +127,10 @@ _All readers agree on the compared fields of this record._
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_propranolol/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Salehifar_2017` / `Salehifar_2017::mean_of_differences`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_propranolol/models/modelica/Propranolol_Salehifar2017_mean_of_differences.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_propranolol/models/modelica/Propranolol_Salehifar2017_mean_of_differences.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_propranolol/models/modelica/Propranolol_Salehifar2017_mean_of_differences.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_propranolol/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Salehifar_2017` / `Salehifar_2017::mean_of_differences`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_propranolol/models/modelica/Propranolol_Salehifar2017_mean_of_differences.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_propranolol/models/modelica/Propranolol_Salehifar2017_mean_of_differences.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_propranolol/models/modelica/Propranolol_Salehifar2017_mean_of_differences.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

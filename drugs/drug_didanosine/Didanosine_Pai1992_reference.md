@@ -142,10 +142,10 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_didanosine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Pai_1992` / `Pai_1992::reference`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_didanosine/models/modelica/Didanosine_Pai1992_reference.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_didanosine/models/modelica/Didanosine_Pai1992_reference.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_didanosine/models/modelica/Didanosine_Pai1992_reference.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_didanosine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Pai_1992` / `Pai_1992::reference`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_didanosine/models/modelica/Didanosine_Pai1992_reference.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_didanosine/models/modelica/Didanosine_Pai1992_reference.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_didanosine/models/modelica/Didanosine_Pai1992_reference.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

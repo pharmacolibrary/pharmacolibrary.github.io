@@ -125,7 +125,7 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_glucarpidase/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Fukaya_2023` / `Fukaya_2023::phase_2`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_glucarpidase/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Fukaya_2023` / `Fukaya_2023::phase_2`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

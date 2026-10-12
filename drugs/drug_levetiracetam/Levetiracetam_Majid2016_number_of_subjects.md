@@ -134,9 +134,9 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_levetiracetam/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Majid_2016` / `Majid_2016::number_of_subjects`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_levetiracetam/models/modelica/_needs_review/Levetiracetam_Majid2016_number_of_subjects.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_levetiracetam/models/modelica/_needs_review/Levetiracetam_Majid2016_number_of_subjects.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_levetiracetam/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Majid_2016` / `Majid_2016::number_of_subjects`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_levetiracetam/models/modelica/_needs_review/Levetiracetam_Majid2016_number_of_subjects.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_levetiracetam/models/modelica/_needs_review/Levetiracetam_Majid2016_number_of_subjects.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

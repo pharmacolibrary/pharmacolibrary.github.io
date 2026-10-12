@@ -133,9 +133,9 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_umeclidinium/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Mehta_2018` / `Mehta_2018::model_parameter_estimates_with_combined_dataset_rse`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_umeclidinium/models/modelica/_needs_review/Umeclidinium_Mehta2018_model_parameter_estimates_with_combin.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_umeclidinium/models/modelica/_needs_review/Umeclidinium_Mehta2018_model_parameter_estimates_with_combin.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_umeclidinium/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Mehta_2018` / `Mehta_2018::model_parameter_estimates_with_combined_dataset_rse`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_umeclidinium/models/modelica/_needs_review/Umeclidinium_Mehta2018_model_parameter_estimates_with_combin.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_umeclidinium/models/modelica/_needs_review/Umeclidinium_Mehta2018_model_parameter_estimates_with_combin.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

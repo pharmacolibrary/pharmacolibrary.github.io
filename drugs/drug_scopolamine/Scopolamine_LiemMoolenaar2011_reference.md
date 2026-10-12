@@ -119,9 +119,9 @@ _All readers agree on the compared fields of this record._
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_scopolamine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Liem-Moolenaar_2011` / `Liem-Moolenaar_2011::reference`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_scopolamine/models/modelica/_needs_review/Scopolamine_LiemMoolenaar2011_reference.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_scopolamine/models/modelica/_needs_review/Scopolamine_LiemMoolenaar2011_reference.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_scopolamine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Liem-Moolenaar_2011` / `Liem-Moolenaar_2011::reference`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_scopolamine/models/modelica/_needs_review/Scopolamine_LiemMoolenaar2011_reference.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_scopolamine/models/modelica/_needs_review/Scopolamine_LiemMoolenaar2011_reference.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

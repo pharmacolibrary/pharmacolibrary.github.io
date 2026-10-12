@@ -163,10 +163,10 @@ Primary extraction: `gpt-6-luna`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fexofenadine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Jang_2023` / `Jang_2023::mean_standard_error`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fexofenadine/models/modelica/Fexofenadine_Jang2023_mean_standard_error.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fexofenadine/models/modelica/Fexofenadine_Jang2023_mean_standard_error.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fexofenadine/models/modelica/Fexofenadine_Jang2023_mean_standard_error.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fexofenadine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Jang_2023` / `Jang_2023::mean_standard_error`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fexofenadine/models/modelica/Fexofenadine_Jang2023_mean_standard_error.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fexofenadine/models/modelica/Fexofenadine_Jang2023_mean_standard_error.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fexofenadine/models/modelica/Fexofenadine_Jang2023_mean_standard_error.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
@@ -184,7 +184,7 @@ Primary extraction: `gpt-6-luna`; retained regardless of cross-check verdict.
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
 <p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PK_1C_enteral.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
-</div></div>
+</div><figure class="pk-models-diagram"><img src="drugs/drug_fexofenadine/Fexofenadine_Jang2023_mean_standard_error/Fexofenadine_Jang2023_mean_standard_error.svg" alt="Fexofenadine_Jang2023_mean_standard_error diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 

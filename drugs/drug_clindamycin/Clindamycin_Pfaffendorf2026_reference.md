@@ -165,9 +165,9 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_clindamycin/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Pfaffendorf_2026` / `Pfaffendorf_2026::reference`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_clindamycin/models/modelica/_needs_review/Clindamycin_Pfaffendorf2026_reference.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_clindamycin/models/modelica/_needs_review/Clindamycin_Pfaffendorf2026_reference.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_clindamycin/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Pfaffendorf_2026` / `Pfaffendorf_2026::reference`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_clindamycin/models/modelica/_needs_review/Clindamycin_Pfaffendorf2026_reference.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_clindamycin/models/modelica/_needs_review/Clindamycin_Pfaffendorf2026_reference.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

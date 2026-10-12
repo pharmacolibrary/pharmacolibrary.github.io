@@ -126,10 +126,10 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_hydroxychloroquine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Thémans_2020` / `Thémans_2020::corresponding_estimated_value_in_model_by_carmichael_et_al_2`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_hydroxychloroquine/models/modelica/Hydroxychloroquine_Thmans2020_corresponding_estimated_value.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_hydroxychloroquine/models/modelica/Hydroxychloroquine_Thmans2020_corresponding_estimated_value.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_hydroxychloroquine/models/modelica/Hydroxychloroquine_Thmans2020_corresponding_estimated_value.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_hydroxychloroquine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Thémans_2020` / `Thémans_2020::corresponding_estimated_value_in_model_by_carmichael_et_al_2`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_hydroxychloroquine/models/modelica/Hydroxychloroquine_Thmans2020_corresponding_estimated_value.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_hydroxychloroquine/models/modelica/Hydroxychloroquine_Thmans2020_corresponding_estimated_value.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_hydroxychloroquine/models/modelica/Hydroxychloroquine_Thmans2020_corresponding_estimated_value.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
@@ -147,7 +147,7 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
 <p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PK_1C_enteral.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
-</div></div>
+</div><figure class="pk-models-diagram"><img src="drugs/drug_hydroxychloroquine/Hydroxychloroquine_Thmans2020_corresponding_estimated_value/Hydroxychloroquine_Thmans2020_corresponding_estimated_value.svg" alt="Hydroxychloroquine_Thmans2020_corresponding_estimated_value diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 

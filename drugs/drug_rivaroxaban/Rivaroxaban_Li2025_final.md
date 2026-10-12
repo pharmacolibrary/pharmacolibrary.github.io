@@ -133,9 +133,9 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_rivaroxaban/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Li_2025` / `Li_2025::final`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_rivaroxaban/models/modelica/_needs_review/Rivaroxaban_Li2025_final.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_rivaroxaban/models/modelica/_needs_review/Rivaroxaban_Li2025_final.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_rivaroxaban/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Li_2025` / `Li_2025::final`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_rivaroxaban/models/modelica/_needs_review/Rivaroxaban_Li2025_final.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_rivaroxaban/models/modelica/_needs_review/Rivaroxaban_Li2025_final.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

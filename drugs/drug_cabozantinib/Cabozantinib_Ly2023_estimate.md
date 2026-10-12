@@ -161,10 +161,10 @@ Primary extraction: `gpt-6-luna`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_cabozantinib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Ly_2023` / `Ly_2023::estimate`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_cabozantinib/models/modelica/Cabozantinib_Ly2023_estimate.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_cabozantinib/models/modelica/Cabozantinib_Ly2023_estimate.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_cabozantinib/models/modelica/Cabozantinib_Ly2023_estimate.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_cabozantinib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Ly_2023` / `Ly_2023::estimate`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_cabozantinib/models/modelica/Cabozantinib_Ly2023_estimate.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_cabozantinib/models/modelica/Cabozantinib_Ly2023_estimate.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_cabozantinib/models/modelica/Cabozantinib_Ly2023_estimate.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
@@ -182,7 +182,7 @@ Primary extraction: `gpt-6-luna`; retained regardless of cross-check verdict.
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
 <p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PK_1C_enteral.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
-</div></div>
+</div><figure class="pk-models-diagram"><img src="drugs/drug_cabozantinib/Cabozantinib_Ly2023_estimate/Cabozantinib_Ly2023_estimate.svg" alt="Cabozantinib_Ly2023_estimate diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 

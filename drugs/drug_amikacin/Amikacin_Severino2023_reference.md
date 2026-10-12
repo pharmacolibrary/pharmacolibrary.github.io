@@ -137,9 +137,9 @@ Primary extraction: `gpt-6-luna`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_amikacin/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Severino_2023` / `Severino_2023::reference`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_amikacin/models/modelica/_needs_review/Amikacin_Severino2023_reference.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_amikacin/models/modelica/_needs_review/Amikacin_Severino2023_reference.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_amikacin/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Severino_2023` / `Severino_2023::reference`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_amikacin/models/modelica/_needs_review/Amikacin_Severino2023_reference.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_amikacin/models/modelica/_needs_review/Amikacin_Severino2023_reference.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

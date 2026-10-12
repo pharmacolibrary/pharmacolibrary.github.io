@@ -106,7 +106,7 @@ Zhai J et al., Pharmacokinetics of obinutuzumab in Chi…, British journal of cl
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_obinutuzumab/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Zhai_2017` / `Zhai_2017::nhl`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_obinutuzumab/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Zhai_2017` / `Zhai_2017::nhl`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

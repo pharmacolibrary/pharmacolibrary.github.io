@@ -163,9 +163,9 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_glycopyrronium/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Bartels_2013` / `Bartels_2013::population_mean_cv`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_glycopyrronium/models/modelica/_needs_review/Glycopyrronium_Bartels2013_population_mean_cv.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_glycopyrronium/models/modelica/_needs_review/Glycopyrronium_Bartels2013_population_mean_cv.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_glycopyrronium/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Bartels_2013` / `Bartels_2013::population_mean_cv`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_glycopyrronium/models/modelica/_needs_review/Glycopyrronium_Bartels2013_population_mean_cv.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_glycopyrronium/models/modelica/_needs_review/Glycopyrronium_Bartels2013_population_mean_cv.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
@@ -183,7 +183,7 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
 <p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PK_2C_enteral.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
-</div></div>
+</div><figure class="pk-models-diagram"><img src="drugs/drug_glycopyrronium/Glycopyrronium_Bartels2013_population_mean_cv/Glycopyrronium_Bartels2013_population_mean_cv.svg" alt="Glycopyrronium_Bartels2013_population_mean_cv diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 

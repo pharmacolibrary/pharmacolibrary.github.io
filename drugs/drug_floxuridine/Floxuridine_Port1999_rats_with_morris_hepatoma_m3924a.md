@@ -52,7 +52,7 @@ _No comparable checks._
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_floxuridine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Port_1999` / `Port_1999::rats with Morris hepatoma M3924A`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_floxuridine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Port_1999` / `Port_1999::rats with Morris hepatoma M3924A`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

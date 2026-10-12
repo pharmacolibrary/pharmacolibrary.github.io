@@ -164,9 +164,9 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_palonosetron/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Li_2026` / `Li_2026::palonosetron`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_palonosetron/models/modelica/_needs_review/Palonosetron_Li2026_palonosetron.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_palonosetron/models/modelica/_needs_review/Palonosetron_Li2026_palonosetron.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_palonosetron/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Li_2026` / `Li_2026::palonosetron`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_palonosetron/models/modelica/_needs_review/Palonosetron_Li2026_palonosetron.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_palonosetron/models/modelica/_needs_review/Palonosetron_Li2026_palonosetron.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

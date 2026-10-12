@@ -112,7 +112,7 @@ _All readers agree on the compared fields of this record._
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_alprazolam/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Klein_2026` / `Klein_2026::body_weight_50_kg_2`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_alprazolam/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Klein_2026` / `Klein_2026::body_weight_50_kg_2`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

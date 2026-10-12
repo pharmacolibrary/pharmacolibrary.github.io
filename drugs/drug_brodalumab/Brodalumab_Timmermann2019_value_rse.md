@@ -119,7 +119,7 @@ _All readers agree on the compared fields of this record._
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_brodalumab/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Timmermann_2019` / `Timmermann_2019::value_rse`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_brodalumab/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Timmermann_2019` / `Timmermann_2019::value_rse`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

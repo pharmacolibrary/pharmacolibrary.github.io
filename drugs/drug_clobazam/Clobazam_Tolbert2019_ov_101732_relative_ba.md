@@ -177,7 +177,7 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_clobazam/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Tolbert_2019` / `Tolbert_2019::ov_101732_relative_ba`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_clobazam/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Tolbert_2019` / `Tolbert_2019::ov_101732_relative_ba`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

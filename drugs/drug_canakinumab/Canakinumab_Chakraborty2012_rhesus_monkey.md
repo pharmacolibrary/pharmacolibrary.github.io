@@ -145,7 +145,7 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_canakinumab/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Chakraborty_2012` / `Chakraborty_2012::rhesus_monkey`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_canakinumab/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Chakraborty_2012` / `Chakraborty_2012::rhesus_monkey`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

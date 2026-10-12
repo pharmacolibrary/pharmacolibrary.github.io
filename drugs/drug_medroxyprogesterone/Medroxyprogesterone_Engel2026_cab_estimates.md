@@ -99,7 +99,7 @@ Engel N et al., Intravenous and Subcutaneous Pharmacoki…, Biomedicines (2026)
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_medroxyprogesterone/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Engel_2026` / `Engel_2026::cab_estimates`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_medroxyprogesterone/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Engel_2026` / `Engel_2026::cab_estimates`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

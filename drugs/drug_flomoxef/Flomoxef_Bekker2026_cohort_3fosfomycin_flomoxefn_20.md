@@ -126,7 +126,7 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_flomoxef/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Bekker_2026` / `Bekker_2026::cohort_3fosfomycin_flomoxefn_20`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_flomoxef/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Bekker_2026` / `Bekker_2026::cohort_3fosfomycin_flomoxefn_20`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

@@ -146,9 +146,9 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_talazoparib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Guo_2022` / `Guo_2022::estimate`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_talazoparib/models/modelica/_needs_review/Talazoparib_Guo2022_estimate.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_talazoparib/models/modelica/_needs_review/Talazoparib_Guo2022_estimate.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_talazoparib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Guo_2022` / `Guo_2022::estimate`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_talazoparib/models/modelica/_needs_review/Talazoparib_Guo2022_estimate.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_talazoparib/models/modelica/_needs_review/Talazoparib_Guo2022_estimate.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

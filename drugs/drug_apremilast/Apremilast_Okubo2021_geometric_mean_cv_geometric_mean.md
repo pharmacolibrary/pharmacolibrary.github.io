@@ -88,7 +88,7 @@ Okubo Y et al., Population pharmacokinetic and exposure…, The Journal of derma
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_apremilast/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Okubo_2021` / `Okubo_2021::geometric_mean_cv_geometric_mean`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_apremilast/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Okubo_2021` / `Okubo_2021::geometric_mean_cv_geometric_mean`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

@@ -183,10 +183,10 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_mesalazine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Cuffari_2016` / `Cuffari_2016::multimatrix_mesalamine`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_mesalazine/models/modelica/Mesalazine_Cuffari2016_multimatrix_mesalamine.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_mesalazine/models/modelica/Mesalazine_Cuffari2016_multimatrix_mesalamine.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_mesalazine/models/modelica/Mesalazine_Cuffari2016_multimatrix_mesalamine.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_mesalazine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Cuffari_2016` / `Cuffari_2016::multimatrix_mesalamine`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_mesalazine/models/modelica/Mesalazine_Cuffari2016_multimatrix_mesalamine.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_mesalazine/models/modelica/Mesalazine_Cuffari2016_multimatrix_mesalamine.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_mesalazine/models/modelica/Mesalazine_Cuffari2016_multimatrix_mesalamine.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

@@ -209,10 +209,10 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_coagulation_factor_viia/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Klitgaard_2008` / `Klitgaard_2008::patients_with_cirrhosis_and_ugib_19_unpublished_data_klitgaard_data_on_file_2004`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_coagulation_factor_viia/models/modelica/CoagulationFactorViia_Klitgaard2008_patients_with_cirrhosis.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_coagulation_factor_viia/models/modelica/CoagulationFactorViia_Klitgaard2008_patients_with_cirrhosis.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_coagulation_factor_viia/models/modelica/CoagulationFactorViia_Klitgaard2008_patients_with_cirrhosis.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_coagulation_factor_viia/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Klitgaard_2008` / `Klitgaard_2008::patients_with_cirrhosis_and_ugib_19_unpublished_data_klitgaard_data_on_file_2004`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_coagulation_factor_viia/models/modelica/CoagulationFactorViia_Klitgaard2008_patients_with_cirrhosis.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_coagulation_factor_viia/models/modelica/CoagulationFactorViia_Klitgaard2008_patients_with_cirrhosis.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_coagulation_factor_viia/models/modelica/CoagulationFactorViia_Klitgaard2008_patients_with_cirrhosis.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
@@ -230,7 +230,7 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
 <p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PK_1C.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
-</div></div>
+</div><figure class="pk-models-diagram"><img src="drugs/drug_coagulation_factor_viia/CoagulationFactorViia_Klitgaard2008_patients_with_cirrhosis/CoagulationFactorViia_Klitgaard2008_patients_with_cirrhosis.svg" alt="CoagulationFactorViia_Klitgaard2008_patients_with_cirrhosis diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 

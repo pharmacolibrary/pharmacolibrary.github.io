@@ -220,9 +220,9 @@ Willmann S et al., Population pharmacokinetic-pharmacodyna…, CPT: pharmacometr
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_elinzanetant/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Willmann_2024` / `Willmann_2024::reference`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_elinzanetant/models/modelica/Elinzanetant_Willmann2024_reference.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_elinzanetant/models/modelica/Elinzanetant_Willmann2024_reference.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_elinzanetant/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Willmann_2024` / `Willmann_2024::reference`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_elinzanetant/models/modelica/Elinzanetant_Willmann2024_reference.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_elinzanetant/models/modelica/Elinzanetant_Willmann2024_reference.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

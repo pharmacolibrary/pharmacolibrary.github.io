@@ -99,7 +99,7 @@ Serrano-Rodríguez JM et al., Metabolism, pharmacokinetics, and bioav…, Fronti
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_cannabinoids/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Serrano-Rodríguez_2025` / `Serrano-Rodríguez_2025::cbg_g`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_cannabinoids/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Serrano-Rodríguez_2025` / `Serrano-Rodríguez_2025::cbg_g`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

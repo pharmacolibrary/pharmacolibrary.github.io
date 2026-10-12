@@ -261,10 +261,10 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_clopidogrel/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Grafeneder_2024` / `Grafeneder_2024::hv`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_clopidogrel/models/modelica/_needs_review/Clopidogrel_Grafeneder2024_hv.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_clopidogrel/models/modelica/_needs_review/Clopidogrel_Grafeneder2024_hv.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_clopidogrel/models/modelica/Clopidogrel_Grafeneder2024_hv.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_clopidogrel/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Grafeneder_2024` / `Grafeneder_2024::hv`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_clopidogrel/models/modelica/_needs_review/Clopidogrel_Grafeneder2024_hv.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_clopidogrel/models/modelica/_needs_review/Clopidogrel_Grafeneder2024_hv.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_clopidogrel/models/modelica/Clopidogrel_Grafeneder2024_hv.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

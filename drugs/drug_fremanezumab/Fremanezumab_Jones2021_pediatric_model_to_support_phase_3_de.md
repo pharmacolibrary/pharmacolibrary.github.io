@@ -139,10 +139,10 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fremanezumab/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Jones_2021` / `Jones_2021::pediatric_model_to_support_phase_3_development_1`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fremanezumab/models/modelica/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fremanezumab/models/modelica/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fremanezumab/models/modelica/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fremanezumab/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Jones_2021` / `Jones_2021::pediatric_model_to_support_phase_3_development_1`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fremanezumab/models/modelica/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fremanezumab/models/modelica/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fremanezumab/models/modelica/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
@@ -160,7 +160,7 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
 <p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PK_2C_enteral.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
-</div></div>
+</div><figure class="pk-models-diagram"><img src="drugs/drug_fremanezumab/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de/Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de.svg" alt="Fremanezumab_Jones2021_pediatric_model_to_support_phase_3_de diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 

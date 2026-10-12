@@ -146,9 +146,9 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_ampicillin/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Onita_2023` / `Onita_2023::sulbactam`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_ampicillin/models/modelica/_needs_review/Ampicillin_Onita2023_sulbactam.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_ampicillin/models/modelica/_needs_review/Ampicillin_Onita2023_sulbactam.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_ampicillin/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Onita_2023` / `Onita_2023::sulbactam`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_ampicillin/models/modelica/_needs_review/Ampicillin_Onita2023_sulbactam.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_ampicillin/models/modelica/_needs_review/Ampicillin_Onita2023_sulbactam.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

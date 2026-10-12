@@ -147,9 +147,9 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_nicotine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Vélez_2015` / `Vélez_2015::reference`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_nicotine/models/modelica/_needs_review/Nicotine_Vlez2015_reference.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_nicotine/models/modelica/_needs_review/Nicotine_Vlez2015_reference.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_nicotine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Vélez_2015` / `Vélez_2015::reference`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_nicotine/models/modelica/_needs_review/Nicotine_Vlez2015_reference.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_nicotine/models/modelica/_needs_review/Nicotine_Vlez2015_reference.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

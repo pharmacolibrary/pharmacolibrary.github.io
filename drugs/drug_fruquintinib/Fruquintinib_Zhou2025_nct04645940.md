@@ -194,10 +194,10 @@ Primary extraction: `gpt-6-luna`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fruquintinib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Zhou_2025` / `Zhou_2025::nct04645940`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fruquintinib/models/modelica/Fruquintinib_Zhou2025_nct04645940.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fruquintinib/models/modelica/Fruquintinib_Zhou2025_nct04645940.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_fruquintinib/models/modelica/Fruquintinib_Zhou2025_nct04645940.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fruquintinib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Zhou_2025` / `Zhou_2025::nct04645940`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fruquintinib/models/modelica/Fruquintinib_Zhou2025_nct04645940.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fruquintinib/models/modelica/Fruquintinib_Zhou2025_nct04645940.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_fruquintinib/models/modelica/Fruquintinib_Zhou2025_nct04645940.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

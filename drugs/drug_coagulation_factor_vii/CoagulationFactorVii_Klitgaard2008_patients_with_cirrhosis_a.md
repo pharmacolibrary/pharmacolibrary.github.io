@@ -190,7 +190,7 @@ _All readers agree on the compared fields of this record._
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_coagulation_factor_vii/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Klitgaard_2008` / `Klitgaard_2008::patients_with_cirrhosis_and_ugib_19_unpublished_data_klitgaard_data_on_file_2004`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_coagulation_factor_vii/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Klitgaard_2008` / `Klitgaard_2008::patients_with_cirrhosis_and_ugib_19_unpublished_data_klitgaard_data_on_file_2004`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
@@ -208,7 +208,7 @@ _All readers agree on the compared fields of this record._
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
 <p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PK_1C.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
-</div></div>
+</div><figure class="pk-models-diagram"><img src="drugs/drug_coagulation_factor_vii/CoagulationFactorVii_Klitgaard2008_patients_with_cirrhosis_a/CoagulationFactorVii_Klitgaard2008_patients_with_cirrhosis_a.svg" alt="CoagulationFactorVii_Klitgaard2008_patients_with_cirrhosis_a diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 

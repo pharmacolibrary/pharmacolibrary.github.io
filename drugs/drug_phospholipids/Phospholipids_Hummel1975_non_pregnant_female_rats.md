@@ -51,7 +51,7 @@ _No comparable checks._
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_phospholipids/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Hummel_1975` / `Hummel_1975::non pregnant female rats`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_phospholipids/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Hummel_1975` / `Hummel_1975::non pregnant female rats`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

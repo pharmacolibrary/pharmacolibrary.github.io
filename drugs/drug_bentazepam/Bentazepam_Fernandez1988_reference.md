@@ -132,9 +132,9 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_bentazepam/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Fernandez_1988` / `Fernandez_1988::reference`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_bentazepam/models/modelica/_needs_review/Bentazepam_Fernandez1988_reference.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_bentazepam/models/modelica/_needs_review/Bentazepam_Fernandez1988_reference.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_bentazepam/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Fernandez_1988` / `Fernandez_1988::reference`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_bentazepam/models/modelica/_needs_review/Bentazepam_Fernandez1988_reference.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_bentazepam/models/modelica/_needs_review/Bentazepam_Fernandez1988_reference.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

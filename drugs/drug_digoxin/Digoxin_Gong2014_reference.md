@@ -124,9 +124,9 @@ _All readers agree on the compared fields of this record._
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_digoxin/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Gong_2014` / `Gong_2014::reference`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_digoxin/models/modelica/_needs_review/Digoxin_Gong2014_reference.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_digoxin/models/modelica/_needs_review/Digoxin_Gong2014_reference.deviation.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_digoxin/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Gong_2014` / `Gong_2014::reference`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_digoxin/models/modelica/_needs_review/Digoxin_Gong2014_reference.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_digoxin/models/modelica/_needs_review/Digoxin_Gong2014_reference.deviation.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

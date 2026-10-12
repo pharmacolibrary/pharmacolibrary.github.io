@@ -152,10 +152,10 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_tofacitinib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Chang_2024` / `Chang_2024::tofacitinib_5_mg_tablet`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_tofacitinib/models/modelica/Tofacitinib_Chang2024_tofacitinib_5_mg_tablet.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_tofacitinib/models/modelica/Tofacitinib_Chang2024_tofacitinib_5_mg_tablet.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_tofacitinib/models/modelica/Tofacitinib_Chang2024_tofacitinib_5_mg_tablet.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_tofacitinib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Chang_2024` / `Chang_2024::tofacitinib_5_mg_tablet`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_tofacitinib/models/modelica/Tofacitinib_Chang2024_tofacitinib_5_mg_tablet.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_tofacitinib/models/modelica/Tofacitinib_Chang2024_tofacitinib_5_mg_tablet.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_tofacitinib/models/modelica/Tofacitinib_Chang2024_tofacitinib_5_mg_tablet.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
@@ -173,7 +173,7 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
 <p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PK_1C_enteral.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
-</div></div>
+</div><figure class="pk-models-diagram"><img src="drugs/drug_tofacitinib/Tofacitinib_Chang2024_tofacitinib_5_mg_tablet/Tofacitinib_Chang2024_tofacitinib_5_mg_tablet.svg" alt="Tofacitinib_Chang2024_tofacitinib_5_mg_tablet diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure></div>
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 

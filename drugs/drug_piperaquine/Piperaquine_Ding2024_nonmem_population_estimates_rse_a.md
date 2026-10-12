@@ -189,10 +189,10 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_piperaquine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Ding_2024` / `Ding_2024::nonmem_population_estimates_rse_a`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_piperaquine/models/modelica/Piperaquine_Ding2024_nonmem_population_estimates_rse_a.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_piperaquine/models/modelica/Piperaquine_Ding2024_nonmem_population_estimates_rse_a.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_piperaquine/models/modelica/Piperaquine_Ding2024_nonmem_population_estimates_rse_a.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_piperaquine/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Ding_2024` / `Ding_2024::nonmem_population_estimates_rse_a`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_piperaquine/models/modelica/Piperaquine_Ding2024_nonmem_population_estimates_rse_a.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_piperaquine/models/modelica/Piperaquine_Ding2024_nonmem_population_estimates_rse_a.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_piperaquine/models/modelica/Piperaquine_Ding2024_nonmem_population_estimates_rse_a.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

@@ -215,7 +215,7 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_filgotinib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Namour_2015` / `Namour_2015::estimate_rse`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_filgotinib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Namour_2015` / `Namour_2015::estimate_rse`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

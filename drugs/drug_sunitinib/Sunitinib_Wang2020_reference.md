@@ -134,10 +134,10 @@ Wang E et al., Population pharmacokinetics-pharmacodyn…, Cancer chemotherapy a
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_sunitinib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Wang_2020` / `Wang_2020::reference`)
-- model: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_sunitinib/models/modelica/Sunitinib_Wang2020_reference.mo`
-- deviation: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_sunitinib/models/modelica/Sunitinib_Wang2020_reference.deviation.json`
-- sim: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_sunitinib/models/modelica/Sunitinib_Wang2020_reference.json`
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_sunitinib/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Wang_2020` / `Wang_2020::reference`)
+- model: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_sunitinib/models/modelica/Sunitinib_Wang2020_reference.mo`
+- deviation: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_sunitinib/models/modelica/Sunitinib_Wang2020_reference.deviation.json`
+- sim: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_sunitinib/models/modelica/Sunitinib_Wang2020_reference.json`
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>

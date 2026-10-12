@@ -105,7 +105,7 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 
 ## Raw artifacts
 
-- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_teduglutide/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Marier_2021` / `Marier_2021::pediatrics_0_05_mg_kg`)
+- scholar stages: `../../..//mnt/Pharmacolibrary/knowledgebase/drugs/drug_teduglutide/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Marier_2021` / `Marier_2021::pediatrics_0_05_mg_kg`)
 
 
 <div class="pk-tab-mark" data-tab="Models"></div>
