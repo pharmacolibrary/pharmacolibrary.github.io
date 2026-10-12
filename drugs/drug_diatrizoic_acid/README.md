@@ -1,0 +1,61 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;V08A&quot;,&quot;href&quot;:&quot;atc/V08A.md&quot;},{&quot;label&quot;:&quot;diatrizoic acid&quot;}]"></div>
+
+# diatrizoic acid
+
+- **generic name:** diatrizoic acid
+- **ATC codes:** `V08AA01`
+- **DrugBank:** [DB00271](https://go.drugbank.com/drugs/DB00271) · **PubChem:** [CID 2140](https://pubchem.ncbi.nlm.nih.gov/compound/2140)
+- **molar mass:** 613.9136 g/mol (C11H9I3N2O4) — DrugBank
+- **groups:** approved, vet_approved
+
+## About
+
+Diatrizoic acid is an iodinated X-ray contrast agent used to make body structures visible during imaging examinations. It is an approved medicine, including for veterinary use, and appears on the WHO list of essential medicines, so it remains widely available.
+
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q411511](https://www.wikidata.org/wiki/Q411511) and the WHO ATC classification; not checked by a person.</small>
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-07 22:04 | 0:14 | 0/0/0 | 0/0/0 | 0/0/0 | 5,970/300 | ollama / glm-5.3-flash | 0 | 0/0 | 0/0 | 0 |
+
+## popPK records
+
+_not available_
+
+<details class="legend">
+<summary>Status and cross-check definitions</summary>
+<table><thead><tr><th>Badge</th><th>Definition</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>Human-authored reference record or exemplar.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>Accepted extraction; applicable closed-form checks passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>Generated-model predictions agree with reported reference values; not human-verified.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>Replication accepted with unresolved advisory checks.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>Incomplete, inconsistent, or implausible extraction; values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>Model withheld because a core parameter uses a library default.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>Unaccepted record; displayed values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>Model generation pending or unavailable; not a validation verdict.</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>Review predates the current extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>All responding readers agree on all compared fields; fractions indicate agreeing/total readers.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>At least one non-structural discrepancy or incomplete reader agreement.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>At least one structural-parameter discrepancy; primary extraction retained pending review.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>Non-human or in-vitro evidence; parameters and simulations describe the stated experimental system.</td></tr></tbody></table>
+<p><small><b>Status</b> reports validation and review outcomes; <b>cross-check</b> reports agreement between independent extractions. Agreement does not establish plausibility, model validity, or clinical applicability.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 4 matched, 4 returned
+- **screened:** 0  ·  **relevant:** 0
+- **records:** 0  ·  extracted 0  ·  needs_review 0  ·  rejected 0  ·  stale 0
+- **scholar-agent fallback query used:** not captured
+
+## Full-text requests
+
+_2 abstract-screened relevant papers lack full text. Retrieve via the DOI, save to `papers/` as `&lt;save as&gt;.pdf`, and rerun extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Baars_1984.pdf` | Baars HG et al., [Contrast medium elimination by hemodia…, Zeitschrift fur Urologie un… (1984) | popPK | 6 | not captured | [6495896](https://pubmed.ncbi.nlm.nih.gov/6495896) | Two-compartment PK analysis of diatrizoic acid during hemodialysis is reported, but only the elimination rate (80.7±4.7%) is given; full CL/V parameters are not in the evidence. |
+| `Venaille_1994.pdf` | Venaille TJ et al., Effects of different density gradient s…, Scandinavian journal of cli… (1994) | pd | 4 | [10.3109/00365519409088438](https://doi.org/10.3109/00365519409088438) | [7527931](https://www.ncbi.nlm.nih.gov/pubmed/7527931) | metadata signals extractable PD data (EC50) |
+
+<sub>queue written 2026-10-07T22:04:32.174339+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Baars_1984 | relevant | 6 | 4 | Two-compartment PK analysis of diatrizoic acid during hemodialysis is reported, but only the elimination rate (80.7±4.7%) is given; full CL/V parameters are not in the evidence. |
+| PGx | Gür_2026 | not_relevant | 0 | 0 | Paper studies immune responses in cystic fibrosis; no diatrizoic acid or pharmacogenomic PK/PD effects reported. |
+| popPK | Sunderman_1990 | irrelevant | 0 | 0 | The study concerns cisplatin/platinum kinetics, not diatrizoic acid; no diatrizoic acid parameters are reported. |
+| popPK | Venaille_1994 | irrelevant | 0 | 0 | Study of neutrophil separation techniques; diatrizoic acid (Hypaque) is only a reagent, no PK parameters reported. |
+
+---
+<sub>Generated by `docs.py` (scholarv2)</sub>

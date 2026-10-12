@@ -1,146 +1,58 @@
 <!-- AUTOGEN:intro START — spliced from docs/README-template.md; edit THAT file, not this region -->
 # Pharmacolibrary
-v26.09 (built 06/10/2026)
+v26.09 (built 12/10/2026 18:47:30 UTC)
 
-**pharmacokinetic (PK), pharmacodynamic (PD) and pharmacogenomic (PGx)** knowledge base extracted from the published literature
+Literature-derived **pharmacokinetic (PK), pharmacodynamic (PD), and pharmacogenomic (PGx)** knowledge base.
 
-<style>
-.pklg { --pklg-ok:#2C7A57; --pklg-bad:#A8452F; --pklg-warn:#96690C; --pklg-faint:#8B9994;
-  --pklg-s1:#186A55; --pklg-s2:#6FB49B; --pklg-s3:#C9A227; --pklg-s4:#C8D2CF; --pklg-s5:#B08A6A;
-  --pklg-rule:var(--theme-color, #DBE3E0); }
-@media (prefers-color-scheme: dark) {
-  .pklg { --pklg-ok:#63BE94; --pklg-bad:#E08A72; --pklg-warn:#D9AA4C; --pklg-faint:#748480;
-    --pklg-s1:#5FC3A4; --pklg-s2:#2F7E67; --pklg-s3:#B99329; --pklg-s4:#2A3733; --pklg-s5:#8A6A50; }
-}
-.pklg table { border-collapse:collapse; width:100%; min-width:max-content; font-size:13px; }
-.pklg th, .pklg td { padding:7px 10px; text-align:left; white-space:nowrap;
-  border-top:1px solid rgba(128,128,128,.18); }
-.pklg thead th { font-size:11px; letter-spacing:.04em; text-transform:uppercase;
-  color:var(--pklg-faint); border-top:0; border-bottom:1px solid rgba(128,128,128,.35); }
-.pklg tfoot th, .pklg tfoot td { font-weight:600; border-top:2px solid rgba(128,128,128,.35); }
-.pklg .n { font-variant-numeric:tabular-nums; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
-.pklg .ok { color:var(--pklg-ok); } .pklg .bad { color:var(--pklg-bad); }
-.pklg .mut, .pklg .nil { color:var(--pklg-faint); }
-.pklg .warn { color:var(--pklg-warn); border-bottom:1px dotted currentColor; cursor:help; }
-.pklg .sl { color:var(--pklg-faint); padding:0 1px; }
-.pklg .bar { display:flex; height:6px; border-radius:2px; overflow:hidden;
-  background:rgba(128,128,128,.15); min-width:110px; }
-.pklg .bar span { display:block; height:100%; }
-.pklg .s1{background:var(--pklg-s1)} .pklg .s2{background:var(--pklg-s2)}
-.pklg .s3{background:var(--pklg-s3)} .pklg .s4{background:var(--pklg-s4)}
-.pklg .s5{background:var(--pklg-s5)}
-.pklg .mixnum { display:block; margin-top:3px; font-size:11px; color:var(--pklg-faint);
-  font-variant-numeric:tabular-nums; }
-.pklg .scroll { overflow-x:auto; }
-.pklg details { border-top:1px solid rgba(128,128,128,.18); padding:2px 0; }
-.pklg details[open] { padding-bottom:10px; }
-.pklg summary { cursor:pointer; padding:7px 2px; font-size:13px; list-style:none;
-  display:flex; gap:10px; align-items:baseline; flex-wrap:wrap; }
-.pklg summary::-webkit-details-marker { display:none; }
-.pklg .csechead { margin:18px 0 6px; font-size:13px; letter-spacing:.06em;
-  text-transform:uppercase; color:var(--pklg-faint); font-weight:600; }
-.pklg .csechead .csub { text-transform:none; letter-spacing:0; font-weight:400; font-size:12px; }
-.pklg .cstats { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:12px;
-  margin-bottom:14px; }
-.pklg .cbox { border:1px solid rgba(128,128,128,.22); border-radius:6px; padding:10px 12px; }
-.pklg .cbox h4 { margin:0 0 6px; font-size:12px; letter-spacing:.06em; text-transform:uppercase;
-  color:var(--pklg-faint); }
-.pklg .cnum { display:flex; align-items:baseline; gap:7px; }
-.pklg .cnum b { font-size:20px; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
-.pklg .cnum b.ok { color:var(--pklg-ok); }
-.pklg .cnum span { font-size:10.5px; color:var(--pklg-faint); }
-.pklg .cbox table { width:100%; margin-top:8px; font-size:11px; border-collapse:collapse; }
-.pklg .cbox td { padding:3px 0; vertical-align:top; border-top:1px solid rgba(128,128,128,.14); }
-.pklg .cbox td:first-child { color:var(--pklg-faint); white-space:nowrap; padding-right:8px; }
-.pklg .cbox table.csp { margin-top:0; }
-.pklg .cbox table.csp td.n { text-align:right; font-variant-numeric:tabular-nums; padding-left:8px; }
-.pklg .cbox table.csp i { font-style:normal; color:var(--pklg-faint); }
-.pklg .chip { display:inline-block; padding:1px 6px; margin:0 3px 2px 0; border-radius:9px;
-  font-size:10px; line-height:1.5; white-space:nowrap; background:rgba(128,128,128,.12); }
-.pklg .chip.ok { color:var(--pklg-ok); } .pklg .chip.bad { color:var(--pklg-bad); }
-.pklg .chip.warn { color:var(--pklg-warn); } .pklg .chip.mut { color:var(--pklg-faint); }
-.pklg td.notes { white-space:normal; min-width:170px; }
-/* The literal arrow, not a CSS hex escape. This stylesheet is a plain Python string, so
-   a backslash followed by digits is read as an OCTAL escape at parse time: the page
-   shipped a NAK control byte and the browser drew that instead of an arrow. */
-.pklg summary::before { content:"▸"; color:var(--pklg-faint); display:inline-block;
-  width:1em; transition:transform .12s ease; }
-.pklg details[open] > summary::before { transform:rotate(90deg); }
-.pklg summary .lbl { font-weight:600; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
-.pklg .badge { font-size:10px; letter-spacing:.05em; text-transform:uppercase;
-  padding:1px 6px; border-radius:9px; border:1px solid currentColor; }
-.pklg .b-running { color:var(--pklg-warn); }
-.pklg .b-finished { color:var(--pklg-ok); }
-.pklg .b-interrupted { color:var(--pklg-bad); }
-.pklg .b-never_run { color:var(--pklg-faint); }
-.pklg summary .meta { color:var(--pklg-faint); font-size:12px;
-  font-variant-numeric:tabular-nums; }
-.pklg .tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr));
-  gap:10px; margin:14px 0 22px; }
-.pklg .tile { border:1px solid rgba(128,128,128,.25); border-radius:4px; padding:10px 12px; }
-.pklg .tile b { display:block; font-size:20px; font-variant-numeric:tabular-nums; }
-.pklg .tile i { display:block; font-style:normal; font-size:11px; letter-spacing:.06em;
-  text-transform:uppercase; color:var(--pklg-faint); }
-.pklg .tile em { font-style:normal; font-size:12px; color:var(--pklg-faint); }
-</style>
 <div class="pklg">
 
-<div class="tiles"><div class="tile"><i>ATC drugs: all / read / with records</i><b>5,225 / 4,170 / 1,583</b><em>80% of the ATC drugs read · 38% of those gave a popPK, PD or PGx record</em></div><div class="tile"><i>papers for these drugs</i><b>122,131</b><em>21,886 judged relevant to PK/PD/PGx (18%)</em></div><div class="tile"><i>papers with full text</i><b>33,427</b><em>88,704 had an abstract only</em></div><div class="tile"><i>where the full text came from</i><b>9,261 · 24,052</b><em>PDF parsed (GROBID) · publisher XML (JATS)</em></div><div class="tile"><i>LLM tokens</i><b>570.5M read</b><em>46.11M written back</em></div><div class="tile"><i>drugs by domain</i><b>847 · 1516 · 144</b><em>with popPK · PD · PGx records</em></div><div class="tile"><i>records by species (top 4)</i><b>3,525 · 1,471 · 581 · 272</b><em>human · in vitro · rat · mouse</em></div></div>
-<h3 class="csechead">Corpus</h3><div class="cstats"><div class="cbox"><h4>popPK</h4><div class="cnum"><b>3,531</b><span>extracted</span></div><div class="cnum"><b class="ok">1,417</b><span>simulatable · 40.1%</span></div><table><tr><td>topology</td><td>1C 2660 · 2C 598 · parent_metabolite 184</td></tr><tr><td>parameterisation</td><td>mechanistic 2458 · apparent 1069</td></tr><tr><td>covariate equations</td><td>432 (12.2%)</td></tr><tr><td>simulatable means</td><td>carries a clearance and a volume</td></tr></table></div><div class="cbox"><h4>PD</h4><div class="cnum"><b>4,380</b><span>extracted</span></div><div class="cnum"><b class="ok">691</b><span>simulatable · 15.8%</span></div><table><tr><td>family</td><td>sigmoid_emax 1496 · emax 1004 · unknown 847</td></tr><tr><td>driver</td><td>cited_pk 1954 · conc_no_pk 1033</td></tr><tr><td>runnable shapes</td><td>Emax 449 · turnover 242 · effect-cmt 228</td></tr><tr><td>simulatable means</td><td>potency + Emax, or a turnover rate</td></tr></table></div><div class="cbox"><h4>PGx</h4><div class="cnum"><b>135</b><span>extracted</span></div><div class="cnum"><b class="ok">29</b><span>simulatable · 21.5%</span></div><table><tr><td>mechanism</td><td>safety_allele 106 · transport 14</td></tr><tr><td>genes covered</td><td>21</td></tr><tr><td>simulatable means</td><td>shifts a named PK parameter</td></tr></table></div><div class="cbox"><h4>by species</h4><table class="csp"><tr><td></td><td class="n"><i>popPK</i></td><td class="n"><i>PD</i></td><td class="n"><i>PGx</i></td></tr><tr><td>human</td><td class="n">1,722</td><td class="n">1,516</td><td class="n">287</td></tr><tr><td>in vitro</td><td class="n">9</td><td class="n">1,461</td><td class="n">1</td></tr><tr><td>rat</td><td class="n">69</td><td class="n">512</td><td class="n">0</td></tr><tr><td>mouse</td><td class="n">22</td><td class="n">250</td><td class="n">0</td></tr><tr><td>human + animal</td><td class="n">21</td><td class="n">134</td><td class="n">0</td></tr><tr><td>other animal</td><td class="n">3</td><td class="n">99</td><td class="n">0</td></tr><tr><td>pig</td><td class="n">12</td><td class="n">76</td><td class="n">0</td></tr><tr><td>dog</td><td class="n">32</td><td class="n">43</td><td class="n">0</td></tr><tr><td>13 others</td><td class="n">100</td><td class="n">262</td><td class="n">7</td></tr></table></div></div>
+<div class="tiles"><div class="tile"><i>Processed: ATC / non-ATC / toxins</i><b>4,683 / 24 / 25</b><em>1,758 / 15 / 5 with ≥1 popPK/PD/PGx record</em></div><div class="tile"><i>Literature</i><b>134,782</b><em>23,232 PK/PD/PGx-relevant papers (17%)</em></div><div class="tile"><i>Full-text availability</i><b>37,316</b><em>97,466 abstract-only papers</em></div><div class="tile"><i>Full-text sources</i><b>10,148 · 27,044</b><em>GROBID-parsed PDFs · publisher JATS XML</em></div><div class="tile"><i>LLM tokens</i><b>653.5M input</b><em>51.06M output · cross-checks included</em></div><div class="tile"><i>Domain coverage</i><b>948 · 1690 · 150</b><em>Drugs with popPK · PD · PGx records</em></div><div class="tile"><i>Species distribution (top 4)</i><b>3,903 · 1,693 · 623 · 296</b><em>human · in vitro · rat · mouse</em></div><div class="tile"><i>Projected full-text yield</i><b>12,151 · ~9,327 · 42%</b><em>Requested PDFs · expected additional records · observed record-yield rate</em></div></div>
+<h3 class="csechead">Corpus</h3><div class="cstats"><div class="cbox"><h4>popPK</h4><div class="cnum"><b>4,012</b><span>extracted</span></div><div class="cnum"><b class="ok">1,666</b><span>simulatable · 41.5%</span></div><table><tr><td>topology</td><td>1C 3012 · 2C 703 · parent_metabolite 196</td></tr><tr><td>parameterisation</td><td>mechanistic 2860 · apparent 1146</td></tr><tr><td>covariate equations</td><td>536 (13.4%)</td></tr><tr><td>simulation criterion</td><td>Clearance and volume available</td></tr></table></div><div class="cbox"><h4>PD</h4><div class="cnum"><b>4,855</b><span>extracted</span></div><div class="cnum"><b class="ok">788</b><span>simulatable · 16.2%</span></div><table><tr><td>family</td><td>sigmoid_emax 1605 · emax 1103 · unknown 1005</td></tr><tr><td>driver</td><td>cited_pk 2128 · conc_no_pk 1172</td></tr><tr><td>supported structures</td><td>Emax 505 · turnover 283 · effect-cmt 241</td></tr><tr><td>simulation criterion</td><td>potency + Emax, or a turnover rate</td></tr></table></div><div class="cbox"><h4>PGx</h4><div class="cnum"><b>137</b><span>extracted</span></div><div class="cnum"><b class="ok">29</b><span>simulatable · 21.2%</span></div><table><tr><td>mechanism</td><td>safety_allele 108 · transport 14</td></tr><tr><td>genes covered</td><td>22</td></tr><tr><td>simulation criterion</td><td>Named PK parameter modified</td></tr></table></div><div class="cbox"><h4>by species</h4><table class="csp"><tr><td></td><td class="n"><i>popPK</i></td><td class="n"><i>PD</i></td><td class="n"><i>PGx</i></td></tr><tr><td>human</td><td class="n">1,958</td><td class="n">1,654</td><td class="n">291</td></tr><tr><td>in vitro</td><td class="n">10</td><td class="n">1,682</td><td class="n">1</td></tr><tr><td>rat</td><td class="n">75</td><td class="n">548</td><td class="n">0</td></tr><tr><td>mouse</td><td class="n">27</td><td class="n">269</td><td class="n">0</td></tr><tr><td>human + animal</td><td class="n">29</td><td class="n">146</td><td class="n">0</td></tr><tr><td>other animal</td><td class="n">3</td><td class="n">118</td><td class="n">0</td></tr><tr><td>pig</td><td class="n">12</td><td class="n">90</td><td class="n">0</td></tr><tr><td>dog</td><td class="n">33</td><td class="n">50</td><td class="n">0</td></tr><tr><td>13 others</td><td class="n">108</td><td class="n">284</td><td class="n">4</td></tr></table></div></div>
 
-<p class="pnote"><a href="#/ledger">Full extraction ledger — all 4900 drugs, per panel and run group →</a></p>
+<p class="pnote"><a href="#/ledger">Extraction ledger by panel and run group →</a></p>
 
 </div>
 
-## What you will find here
+## Contents
 
-- **A page per drug.** Identity (ATC codes, synonyms, brands, DrugBank/PharmGKB ids, EU market
-  status), then the records extracted for it.
-- **Population-PK records** — clearance, volumes, intercompartmental clearance, absorption,
-  their units and canonical SI values, the covariate model, and the variability terms, each row
-  carrying the label as printed in the paper and how it was matched to the parameter ontology.
-- **PD records** — the exposure–response model: family (sigmoid Emax, indirect turnover …),
-  the driver it is fitted against, the biomarker, and the parameters.
-- **PGx records** — the gene, the phenotype, the parameter it shifts, and by how much.
-- **Downloadable models.** Where the parameters supported one, the record page's *Models* tab
-  offers the same model as Modelica, MATLAB (plain and SimBiology), SBML and CellML — each
-  archive holding the model source, a script that simulates it, and a README.
-  **Simulation**
-- **Toxins.** (in construction) - the same pipeline applied to toxicokinetics and toxicodynamics, listed separately
-  in the sidebar because a toxin has no ATC code and the question asked of it is exposure
-  rather than therapy.
+- **Drug profiles:** identifiers, ATC classification, synonyms, brands, EU regulatory status,
+  and extracted records.
+- **Population PK:** disposition and absorption parameters, source units, SI-normalised values,
+  covariate relationships, and interindividual variability.
+- **PD:** exposure–response models, biomarkers, drivers, and parameter estimates.
+- **PGx:** genotype or phenotype effects on PK/PD parameters and adverse-reaction risk.
+- **Models:** Modelica, MATLAB, SimBiology, SBML, CellML, and FMI downloads where available;
+  each archive includes source code, a simulation script, and documentation.
+- **Simulation:** browser-based simulations for supported models.
+- **Toxicology:** toxicokinetic and toxicodynamic records, listed separately from drugs.
+  Coverage is under development.
 
-## Where the numbers come from
+## Data provenance
 
-Each drug's literature is retrieved from PubMed, full text is fetched where it is openly
-available, and every paper passes through a fixed sequence of stages — *relevance → screen →
-locate → transcribe → interpret → validate*. Values are read from the paper's own tables rather
-than summarised, then checked for internal consistency (does the reported clearance agree with
-volume and half-life?) and plausibility before a record is accepted.
+Literature is retrieved from PubMed and available full-text sources. Extraction follows
+*relevance assessment → screening → localisation → transcription → interpretation → validation*.
+Parameter estimates retain source labels and units and undergo consistency and plausibility checks.
 
-Nothing here is hand-typed, and nothing is invented: a value that could not be traced to a
-table, or that failed its checks, is marked. The status badge on every record says which it is.
+Status badges indicate curation, validation, and review outcomes. Source references,
+inferred values, and secondary-source substitutions are identified in each record.
 
-| badge | meaning |
+| Status | Definition |
 |---|---|
-| **curated** | a human authored or confirmed these values |
-| **extracted** | the pipeline accepted the record and its checks passed |
-| **needs review** | extracted, but a check failed or a value looks implausible |
-| **rejected** | the record was not accepted; values are suppressed |
-| **stale** | the reviewer's verdict predates the latest re-run of the paper |
+| **curated** | Human-authored or verified reference record |
+| **extracted** | Accepted extraction with applicable validation checks passed |
+| **needs review** | Incomplete, inconsistent, or unresolved extraction |
+| **rejected** | Unaccepted record; displayed values remain unverified |
+| **stale** | Review predates the current extraction |
 
-Each record page has three tabs: **Information** (the parameters and their provenance),
-**Models** (the downloadable bundles), and **Simulation** (an in-browser run).
+Record tabs: **Information** (parameters and provenance), **Models** (downloads), and
+**Simulation** (browser-based execution).
 
-## Please read this before using a value
+## Limitations
 
-These records are a **machine extraction of published parameters**, useful as a starting point
-and as a map of what the literature reports. They are not clinically validated, not a
-substitute for the primary paper, and not medical advice. Every page links its source: check
-there before relying on a number.
+These machine-extracted records are research resources, not clinically validated models
+or medical advice. Verify estimates and model assumptions against the cited primary sources.
 <!-- AUTOGEN:intro END -->
 
 <!-- AUTOGEN:ledger START — generated by docs/ledger.py, do not edit -->
 
 <!-- AUTOGEN:ledger END -->
-

@@ -1,0 +1,78 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;D07A&quot;,&quot;href&quot;:&quot;atc/D07A.md&quot;},{&quot;label&quot;:&quot;hydrocortisone butyrate&quot;}]"></div>
+
+# hydrocortisone butyrate
+
+- **generic name:** hydrocortisone butyrate
+- **ATC codes:** `D07AB02`, `D07BB04`
+- **DrugBank:** [DB14540](https://go.drugbank.com/drugs/DB14540) · **PubChem:** not captured
+- **molar mass:** 432.557 g/mol (C25H36O6) — DrugBank
+- **groups:** approved, vet_approved
+
+## About
+
+Hydrocortisone butyrate is a moderately potent topical corticosteroid used to treat inflammatory skin conditions. It is an approved medicine, also approved for veterinary use, and is applied to the skin as a dermatological preparation, sometimes combined with antiseptics.
+
+<small>Summary written by `glm-5.3-flash` from [Wikidata Q5954738](https://www.wikidata.org/wiki/Q5954738) and the WHO ATC classification; not checked by a person.</small>
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-07 23:27 | 6:27 | 0/0/0 | 0/1/0 | 0/0/0 | 194,386/1,832 | ollama / qwen3.8:27b-mtp-q8_0 | 9 | 0/9 | 9/0 | 0 |
+
+## popPK records
+
+_not available_
+
+## Pharmacodynamics (PD)
+
+| status | detail | about | model | citation | doi |
+|---|---|---|---|---|---|
+| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--red" title="re-read by einfracz:gpt-oss-120b (not confirmed, agreement 0.5). Primary extraction retained.">cross-check: disputed</span> | [Tapfumaneyi_2022_skin_blanching](drugs/drug_hydrocortisone_butyrate/pd_Tapfumaneyi_2022_skin_blanching.md) | skin blanching ← hydrocortisone butyrate · direct Emax (saturable) effect | — | Tapfumaneyi P et al., Fitting Pharmacodynamic Data to the Ema…, Molecular pharmaceutics (2022) | [10.1021/acs.molpharmaceut.2c00254](https://doi.org/10.1021/acs.molpharmaceut.2c00254) |
+
+<details class="legend">
+<summary>Status and cross-check definitions</summary>
+<table><thead><tr><th>Badge</th><th>Definition</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>Human-authored reference record or exemplar.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>Accepted extraction; applicable closed-form checks passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>Generated-model predictions agree with reported reference values; not human-verified.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>Replication accepted with unresolved advisory checks.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>Incomplete, inconsistent, or implausible extraction; values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>Model withheld because a core parameter uses a library default.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>Unaccepted record; displayed values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>Model generation pending or unavailable; not a validation verdict.</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>Review predates the current extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>All responding readers agree on all compared fields; fractions indicate agreeing/total readers.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>At least one non-structural discrepancy or incomplete reader agreement.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>At least one structural-parameter discrepancy; primary extraction retained pending review.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>Non-human or in-vitro evidence; parameters and simulations describe the stated experimental system.</td></tr></tbody></table>
+<p><small><b>Status</b> reports validation and review outcomes; <b>cross-check</b> reports agreement between independent extractions. Agreement does not establish plausibility, model validity, or clinical applicability.</small></p>
+</details>
+
+## Coverage
+
+- **PubMed hits:** 7583 matched, 23 returned
+- **screened:** 0  ·  **relevant:** 0
+- **records:** 0  ·  extracted 0  ·  needs_review 0  ·  rejected 0  ·  stale 0
+- **scholar-agent fallback query used:** True
+
+## Full-text requests
+
+_1 abstract-screened relevant papers lack full text. Retrieve via the DOI, save to `papers/` as `&lt;save as&gt;.pdf`, and rerun extraction._
+
+| save as | citation | domain | score | DOI | PubMed | why wanted |
+|---|---|---|---|---|---|---|
+| `Tapfumaneyi_2022.pdf` | Tapfumaneyi P et al., Fitting Pharmacodynamic Data to the Ema…, Molecular pharmaceutics (2022) | pd | 4 | [10.1021/acs.molpharmaceut.2c00254](https://doi.org/10.1021/acs.molpharmaceut.2c00254) | [35763717](https://www.ncbi.nlm.nih.gov/pubmed/35763717) | metadata signals extractable PD data (Emax) |
+
+<sub>queue written 2026-10-07T23:24:48.544463+00:00</sub>
+
+## Screened and excluded
+
+| domain | paper | verdict | relevance | extractability | reason |
+|---|---|---|---|---|---|
+| popPK | Bräm_2026 | irrelevant | 0 | 0 | The paper describes a methodological approach for automated pharmacometric model development using simulated data and warfarin, with no mention of hydrocortisone_butyrate. |
+| popPK | Chen_2026 | irrelevant | 0 | 0 | The study focuses on the pharmacokinetics of rivaroxaban, not hydrocortisone butyrate. |
+| popPK | Clements_2026 | irrelevant | 0 | 0 | The paper reports pharmacokinetic parameters for belantamab mafodotin, not hydrocortisone butyrate. |
+| popPK | Hofman_2006 | irrelevant | 0 | 0 | The study is an immunological trial comparing tacrolimus and hydrocortisone butyrate for atopic dermatitis, reporting immune response rates rather than pharmacokinetic parameters. |
+| popPK | Jia_2026 | irrelevant | 0 | 0 | The study reports population pharmacokinetic parameters for rivaroxaban, not hydrocortisone_butyrate. |
+| popPK | Kwack_2026 | irrelevant | 0 | 0 | The paper describes an LLM tool for PK modeling using warfarin, theophylline, and tobramycin datasets, and does not contain any data for hydrocortisone_butyrate. |
+| popPK | Nemoto_2016 | irrelevant | 0 | 0 | The study evaluates the pharmacokinetics of CIM331, and hydrocortisone butyrate is only mentioned as a concomitant topical therapy whose usage decreased. |
+| popPK | Oiso_2013 | irrelevant | 0 | 0 | The paper is a case report on vitiligo repigmentation and does not contain any pharmacokinetic data for hydrocortisone butyrate. |
+| popPK | Piérard-Franchimont_1999 | irrelevant | 0 | 0 | The study is a clinical efficacy trial comparing topical corticosteroids for seborrheic dermatitis and does not report pharmacokinetic parameters. |
+| popPK | Serkland_2026 | irrelevant | 0 | 0 | The study investigates the pharmacokinetics of ocrelizumab, not hydrocortisone_butyrate. |
+| popPK | Tapfumaneyi_2022 | irrelevant | 0 | 0 | The study is a pharmacodynamic assessment of topical corticosteroid potency using vasoconstrictor assays, not a pharmacokinetic study reporting disposition parameters. |
+| popPK | Turnbull_1982 | irrelevant | 0 | 0 | The paper is a clinical efficacy trial for scalp dermatitis and does not report any pharmacokinetic parameters for hydrocortisone butyrate. |
+| popPK | Veien_1984 | irrelevant | 0 | 0 | The study is a clinical efficacy trial comparing therapeutic outcomes in children, not a pharmacokinetic study reporting quantitative disposition parameters. |
+| popPK | Vicente_2026 | irrelevant | 0 | 0 | The study reports pharmacokinetic parameters for infliximab, not hydrocortisone_butyrate. |
+| popPK | Wang_2026 | irrelevant | 0 | 0 | The paper is a population pharmacokinetic model library for polymyxin B, not hydrocortisone butyrate. |
+| popPK | Wanika_2026 | irrelevant | 0 | 0 | The paper is a methodological case study using simulated data from a generic Monolix demo project (Oral1) to demonstrate uncertainty quantification metrics, and does not report pharmacokinetic parameters for hydrocortisone_butyrate. |
+
+---
+<sub>Generated by `docs.py` (scholarv2)</sub>

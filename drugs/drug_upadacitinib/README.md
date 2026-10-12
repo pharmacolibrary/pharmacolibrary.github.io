@@ -14,9 +14,9 @@ Upadacitinib, a Janus kinase inhibitor, is used to treat inflammatory conditions
 
 <small>Summary written by `glm-5.3-flash` from [Wikidata Q27074125](https://www.wikidata.org/wiki/Q27074125) and the WHO ATC classification and the EMA medicines list; not checked by a person.</small>
 
-## Molecules and molar masses
+## Molecular properties
 
-> The molar mass each model uses to convert mass to molar concentration and to form a metabolite molecule for molecule. Looked up, never estimated: DrugBank for the drug, the paper's own value or the PubChem entry matched to the paper's name for a metabolite.
+> Molar masses support mass–molar conversion and metabolite stoichiometry. Sources: DrugBank (parent), reported values or identity-matched PubChem entries (metabolites).
 
 | molecule | role | molar mass (g/mol) | formula | source | PubChem | records |
 |---|---|---|---|---|---|---|
@@ -32,8 +32,8 @@ Upadacitinib, a Janus kinase inhibitor, is used to treat inflammatory conditions
 
 | status | detail | model | model structure | params | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--orange">needs review</span><br><sub>blocking: C5 dimensioned parameter(s) without a unit: Q31 — no SI value to build from</sub><br><sub>route_to: `human_review`</sub> | [Klünder_2018_reference](drugs/drug_upadacitinib/Upadacitinib_Klnder2018_reference.md) | — | 2-compartment (no model) | 7 (+2 cov.) | Klünder B et al., Population Pharmacokinetics of Upadacit…, Clinical pharmacokinetics (2018) | [10.1007/s40262-017-0605-6](https://doi.org/10.1007/s40262-017-0605-6) |
-| <span class="pk-badge pk-badge--orange">needs review</span><br><sub>blocking: C5 dimensioned parameter(s) without a unit: Q31, Q1 — no SI value to build from</sub><br><sub>route_to: `human_review`</sub> | [Klünder_2019_reference](drugs/drug_upadacitinib/Upadacitinib_Klnder2019_reference.md) | — | 2-compartment (no model) | 10 (+3 cov.) | Klünder B et al., Population Pharmacokinetics of Upadacit…, Clinical pharmacokinetics (2019) | [10.1007/s40262-019-00739-3](https://doi.org/10.1007/s40262-019-00739-3) |
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.25). Primary extraction retained.">cross-check: disputed</span><br><sub>blocking: C5 dimensioned parameter(s) without a unit: Q31 — no SI value to build from</sub><br><sub>route_to: `human_review`</sub> | [Klünder_2018_reference](drugs/drug_upadacitinib/Upadacitinib_Klnder2018_reference.md) | — | 2-compartment (no model) | 7 (+2 cov.) | Klünder B et al., Population Pharmacokinetics of Upadacit…, Clinical pharmacokinetics (2018) | [10.1007/s40262-017-0605-6](https://doi.org/10.1007/s40262-017-0605-6) |
+| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.85). Primary extraction retained.">cross-check: disputed</span><br><sub>blocking: C5 dimensioned parameter(s) without a unit: Q31, Q1 — no SI value to build from</sub><br><sub>route_to: `human_review`</sub> | [Klünder_2019_reference](drugs/drug_upadacitinib/Upadacitinib_Klnder2019_reference.md) | — | 2-compartment (no model) | 10 (+3 cov.) | Klünder B et al., Population Pharmacokinetics of Upadacit…, Clinical pharmacokinetics (2019) | [10.1007/s40262-019-00739-3](https://doi.org/10.1007/s40262-019-00739-3) |
 
 ## Pharmacodynamics (PD)
 
@@ -55,31 +55,10 @@ Upadacitinib, a Janus kinase inhibitor, is used to treat inflammatory conditions
 | <span class="pk-badge pk-badge--orange">needs review</span> | [Nader_2020_ACR20_50_70](drugs/drug_upadacitinib/pd_Nader_2020_ACR20_50_70.md) | ACR20/50/70 response ← upadacitinib · categorical (graded) response model | — | Nader A et al., Exposure-Response Analyses of Upadaciti…, Clinical pharmacology and t… (2020) | [10.1002/cpt.1671](https://doi.org/10.1002/cpt.1671) |
 | <span class="pk-badge pk-badge--orange">needs review</span> | [Nader_2020_LDA_CR](drugs/drug_upadacitinib/pd_Nader_2020_LDA_CR.md) | low disease activity (LDA; defined as DAS28-CRP ≤ 3.2)/clinical remission (CR; defined as DAS28-CRP &lt; 2.6) responses ← upadacitinib · categorical (graded) response model | — | Nader A et al., Exposure-Response Analyses of Upadaciti…, Clinical pharmacology and t… (2020) | [10.1002/cpt.1671](https://doi.org/10.1002/cpt.1671) |
 
-## ADME sites
-
-Where this drug is handled, from DrugBank's curated enzymes / transporters / carriers and the KB's PGx genes, mapped to tissue through the ADME gene table. Compare it with other drugs on the [Sites & interactions](sites?drugs=upadacitinib) page (add drugs there; the set becomes a link).
-
-| process | tissue | actors (role) | evidence |
-|---|---|---|---|
-| absorption | blood-brain barrier | `ABCB1` inhibitor/substrate, `ABCG2` inhibitor/substrate | DrugBank actor |
-| absorption | kidney | `ABCB1` inhibitor/substrate | DrugBank actor |
-| absorption | liver | `ABCB1` inhibitor/substrate, `ABCG2` inhibitor/substrate | DrugBank actor |
-| absorption | mammary gland | `ABCG2` inhibitor/substrate | DrugBank actor |
-| absorption | placenta | `ABCB1` inhibitor/substrate | DrugBank actor |
-| absorption | small intestine | `ABCB1` inhibitor/substrate, `ABCG2` inhibitor/substrate | DrugBank actor |
-| absorption | testis | `ABCB1` inhibitor/substrate, `ABCG2` inhibitor/substrate | DrugBank actor |
-| metabolism | brain | `CYP2D6` substrate | DrugBank actor |
-| metabolism | liver | `CYP2D6` substrate, `CYP3A4` substrate, `SLCO1B1` inhibitor | DrugBank actor |
-| metabolism | small intestine | `CYP3A4` substrate | DrugBank actor |
-| excretion | bile duct | <sub>named in DrugBank's ADME text</sub> | prose |
-| excretion | kidney | <sub>named in DrugBank's ADME text</sub> | prose |
-
-<sub>Actors without a tissue in the table: JAK1 (inhibitor).</sub>
-
 <details class="legend">
-<summary>Badge legend — what each badge means</summary>
-<table><thead><tr><th>badge</th><th>what it means</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>hand-authored by a person — an exemplar, not an extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>the pipeline accepted the record: every closed-form check it could run passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>the reviewer ran the built model against the paper's own reported values and they agree — the best automatic verdict there is.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>the model replicates the paper, but an advisory check failed — the record page names the caveat under the badge and the drug page shows it under the status.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>extracted, then a check failed or a value looks implausible. The numbers are shown as read, not endorsed.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>a model was built, but a core parameter fell back to a library default, so it is not shipped.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted — the record is not a compartmental model, or nothing usable was extracted.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>pipeline state, not a judgement: no model has been built for this record yet (likewise `not simulated`).</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>the reviewer's verdict predates the latest re-run of the paper — treat the status as out of date, not as current.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>every independent reader agreed on every compared field. With more than one reader the badge counts them, e.g. 'cross-checked ✓ 2/2'.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>a reader differs on a non-structural field (a population label, a flag), or the readers do not all agree with each other.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>at least one reader differs on a structural parameter — a clearance, a volume, ka, a lag. The record still holds the FIRST reading; the disagreement is a signal for a reviewer, never an automatic correction.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>the data come from an animal (or in-vitro) study, not from people. The record, its model and its simulation are kept — they describe that species.</td></tr></tbody></table>
-<p><small>The first badge is the record's <b>status</b> — what the pipeline and the reviewer concluded. A second badge, when present, is the <b>cross-check</b>: whether a model of another family, re-reading the same paper, extracted the same numbers. They are independent — a rejected record can be cross-checked, and a confirmed reading can still fail a plausibility check.</small></p>
+<summary>Status and cross-check definitions</summary>
+<table><thead><tr><th>Badge</th><th>Definition</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>Human-authored reference record or exemplar.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>Accepted extraction; applicable closed-form checks passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>Generated-model predictions agree with reported reference values; not human-verified.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>Replication accepted with unresolved advisory checks.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>Incomplete, inconsistent, or implausible extraction; values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>Model withheld because a core parameter uses a library default.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>Unaccepted record; displayed values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>Model generation pending or unavailable; not a validation verdict.</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>Review predates the current extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>All responding readers agree on all compared fields; fractions indicate agreeing/total readers.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>At least one non-structural discrepancy or incomplete reader agreement.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>At least one structural-parameter discrepancy; primary extraction retained pending review.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>Non-human or in-vitro evidence; parameters and simulations describe the stated experimental system.</td></tr></tbody></table>
+<p><small><b>Status</b> reports validation and review outcomes; <b>cross-check</b> reports agreement between independent extractions. Agreement does not establish plausibility, model validity, or clinical applicability.</small></p>
 </details>
 
 ## Coverage
@@ -89,9 +68,9 @@ Where this drug is handled, from DrugBank's curated enzymes / transporters / car
 - **records:** 2  ·  extracted 0  ·  needs_review 2  ·  rejected 0  ·  stale 0
 - **scholar-agent fallback query used:** not captured
 
-## Full text wanted
+## Full-text requests
 
-_3 paper(s) judged relevant from the abstract, with no full text on disk — paywalled, or the resolver could not reach them. Follow the DOI, then save the PDF into `papers/` as `&lt;save as&gt;.pdf` and re-run the extraction._
+_3 abstract-screened relevant papers lack full text. Retrieve via the DOI, save to `papers/` as `&lt;save as&gt;.pdf`, and rerun extraction._
 
 | save as | citation | domain | score | DOI | PubMed | why wanted |
 |---|---|---|---|---|---|---|

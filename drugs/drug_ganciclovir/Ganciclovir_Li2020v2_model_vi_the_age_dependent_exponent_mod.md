@@ -1,0 +1,170 @@
+<div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;J05A&quot;,&quot;href&quot;:&quot;atc/J05A.md&quot;},{&quot;label&quot;:&quot;ganciclovir&quot;,&quot;href&quot;:&quot;drugs/drug_ganciclovir/&quot;},{&quot;label&quot;:&quot;Li_2020_2 \u00b7 model_vi_the_age_dependent_exponent_model&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ganciclovir_Li2020v2_final_model&quot;,&quot;label&quot;:&quot;Li_2020_2_final_model&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ganciclovir/Ganciclovir_Li2020v2_final_model.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ganciclovir_Li2020v2_model_i_the_3_4_allometric_model&quot;,&quot;label&quot;:&quot;Li_2020_2_model_i_the_3_4_allometric_model&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ganciclovir/Ganciclovir_Li2020v2_model_i_the_3_4_allometric_model.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ganciclovir_Li2020v2_model_ii_the_simplest_wt_based_exponent&quot;,&quot;label&quot;:&quot;Li_2020_2_model_ii_the_simplest_wt_based_exponent_model&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ganciclovir/Ganciclovir_Li2020v2_model_ii_the_simplest_wt_based_exponent.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ganciclovir_Li2020v2_model_iii_the_simplest_bsa_based_expone&quot;,&quot;label&quot;:&quot;Li_2020_2_model_iii_the_simplest_bsa_based_exponent_model&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ganciclovir/Ganciclovir_Li2020v2_model_iii_the_simplest_bsa_based_expone.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ganciclovir_Li2020v2_model_iv_the_maturation_model&quot;,&quot;label&quot;:&quot;Li_2020_2_model_iv_the_maturation_model&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ganciclovir/Ganciclovir_Li2020v2_model_iv_the_maturation_model.md&quot;,&quot;status&quot;:&quot;reviewed \u2014 candidate&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false}]"></div>
+
+<div class="pk-tab-mark" data-tab="Information"></div>
+
+# ganciclovir — `Ganciclovir_Li2020v2_model_vi_the_age_dependent_exponent_mod`
+
+> ## <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--red" title="re-read by qwen3.8-27b (not confirmed, agreement 0.333). Primary extraction retained.">cross-check: disputed</span>
+
+<details class="legend">
+<summary>Status and cross-check definitions</summary>
+<table><thead><tr><th>Badge</th><th>Definition</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>Human-authored reference record or exemplar.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>Accepted extraction; applicable closed-form checks passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>Generated-model predictions agree with reported reference values; not human-verified.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>Replication accepted with unresolved advisory checks.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>Incomplete, inconsistent, or implausible extraction; values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>Model withheld because a core parameter uses a library default.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>Unaccepted record; displayed values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>Model generation pending or unavailable; not a validation verdict.</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>Review predates the current extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>All responding readers agree on all compared fields; fractions indicate agreeing/total readers.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>At least one non-structural discrepancy or incomplete reader agreement.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>At least one structural-parameter discrepancy; primary extraction retained pending review.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>Non-human or in-vitro evidence; parameters and simulations describe the stated experimental system.</td></tr></tbody></table>
+<p><small><b>Status</b> reports validation and review outcomes; <b>cross-check</b> reports agreement between independent extractions. Agreement does not establish plausibility, model validity, or clinical applicability.</small></p>
+</details>
+
+**Model:** No model was generated from this record.
+
+### Reviewer guidance
+
+**R1 and ki0 have no unit.**
+
+Without a unit the value cannot be converted, so the model cannot use it. A reported unit could not be converted (R1 and ki0), so that value has no SI equivalent. Extracted — ganciclovir: CL 5.62 L/h, V 13.8 L, R1 1.42 SE%, ki0 0.35 SE%.
+
+A second, independent reading of the paper (`qwen3.8-27b`) disagrees on the value of k0: this record has 1.42, the second reading none; it also differs on 7 more fields. That field shapes the model, so the record is marked disputed.
+
+<sub>reviewed by rule template (no LLM)</sub>
+
+## Citation
+Li S et al., Population Pharmacokinetics and Dose Op…, Frontiers in pharmacology (2020)
+  ·  DOI: [10.3389/fphar.2020.614164](https://doi.org/10.3389/fphar.2020.614164)
+
+<div class="pk-model-meta" hidden drug="ganciclovir" model-id="Ganciclovir_Li2020v2_model_vi_the_age_dependent_exponent_mod" status="needs_review" stale="false" population="critically ill children with cytomegalovirus infection" measured-compound="ganciclovir" parameterization="mechanistic" topology="1C"></div>
+
+**Model structure:** 1-compartment; no model was built for this record.  
+**Parameters:** 4 extracted.
+
+**Parameterization:** mechanistic.
+
+## Parameters
+> ⚠️ This record is not accepted (current status `needs_review`) — the values below are the extraction as recorded, **not verified**; see the reviewer guidance above for what failed. Any model or simulator on the other tabs runs on these numbers.
+
+| label (paper) | Q-code · name | value | unit | value_si | unit_canonical | RSE% | link | source | covariates | IIV |
+|---|---|---|---|---|---|---|---|---|---|---|
+| θCL (SE%) | `Q22` · CL | 5.62 | L/h | 1.5611111111111112e-06 | L/h | not captured | llm_confirmed (0.6) | Li_2020_2_table_3:row3:col6 | — | not captured |
+| θVd (SE%) | `Q61` · V | 13.79 | L | 0.01379 | L | not captured | llm_confirmed (0.6) | Li_2020_2_table_3:row4:col6 | — | not captured |
+| k0 (SE%) | `Q307` · R1 | 1.42 | SE% | not captured | [s] · [e%] | not captured | exact (1.0) | Li_2020_2_table_3:row10:col6 | — | not captured |
+| k50 (SE%) | `Q373` · ki0 | 0.35 | SE% | not captured | [s] · [e%] | not captured | exact (1.0) | Li_2020_2_table_3:row12:col6 | — | not captured |
+
+<details class="legend">
+<summary>Parameter definitions</summary>
+<table><thead><tr><th>Field</th><th>Definition</th></tr></thead><tbody><tr><td><code>label (paper)</code></td><td>Verbatim source label (label_verbatim).</td></tr><tr><td><code>Q-code · name</code></td><td>Matched ontology identifier and parameter name; e.g. Q22: clearance, Q27: CL/F, Q49: ka.</td></tr><tr><td><code>value</code></td><td>Reported parameter estimate.</td></tr><tr><td><code>unit</code></td><td>Verbatim source unit (unit_verbatim).</td></tr><tr><td><code>value_si</code></td><td>Normalised estimate; absent when unit conversion is unavailable.</td></tr><tr><td><code>unit_canonical</code></td><td>Canonical unit associated with the parameter's Q-code.</td></tr><tr><td><code>RSE%</code></td><td>Reported relative standard error (%).</td></tr><tr><td><code>link</code></td><td>Ontology-mapping method and confidence. exact/boundary/fuzzy/tv_prefix/caption_compartment/special_case: deterministic; llm/llm_confirmed/llm_corrected: LLM-assisted; review/review_gapfill: secondary-review source; boundary_relink: corrected mapping.</td></tr><tr><td><code>source</code></td><td>Source location: colN (table column), other_prose (text), review (secondary source), or pgx (PGx record).</td></tr><tr><td><code>covariates</code></td><td>Parameter-specific covariate effects.</td></tr><tr><td><code>IIV</code></td><td>Reported interindividual variability.</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>not captured</code></td><td>Not recorded; not equivalent to zero.</td></tr><tr><td><code>—</code></td><td>Not applicable or not displayed.</td></tr><tr><td><code>not verified</code></td><td>Record not accepted; displayed estimates remain unverified.</td></tr></tbody></table>
+</details>
+
+### Unresolved rows _(no Q-code or no value — not parameters)_
+| label (paper) | Q-code | value | link |
+|---|---|---|---|
+| MF = 1/[1+(Age/TM50)−γ] | Q900 | not captured | llm |
+| k1=k0−kmax×WTγ/(k50γ+WTγ) or k1=k0−kmax×Ageγ/(k50γ+Ageγ) or k1 = k0−kmax×BSAγ/(k50γ+BSAγ) | Q319 | not captured | llm_corrected |
+
+## Departures & gaps
+
+**Interpretation flags:**
+- dropped unlinked row (NIL): 'OFV' — extend the ontology if this is a real PK parameter (source ['Li_2020_2_table_3:row0:col6'])
+- dropped unlinked row (NIL): 'AIC' — extend the ontology if this is a real PK parameter (source ['Li_2020_2_table_3:row1:col6'])
+- dropped unlinked row (NIL): 'BIC' — extend the ontology if this is a real PK parameter (source ['Li_2020_2_table_3:row2:col6'])
+- unit_dimension_unknown: 'SE%' (CL)
+- unit_dimension_unknown: 'SE%' (V)
+- unit_dimension_unknown: 'k50γ+BSAγ' (allometric_exponent)
+- unit_dimension_unknown: 'SE%' (R1)
+- unit_dimension_unknown: 'SE%' (equation variable)
+- dropped duplicate Q900 ('kmax (SE%)', value '0.95') — already have one for this compound
+- unit_dimension_unknown: 'SE%' (ki0)
+- dropped value-less row: 'θ1'
+- dropped value-less row: 'θ2'
+- dropped value-less row: 'θ3'
+- implicit units: 'θCL (SE%)' → L/h (from the paper text: 'The paper states: “The typical value of Vd and CL were 11.35 and 5.23 L/h, respectively.” The parameter is θCL.')
+- implicit units: 'θVd (SE%)' → L (from the paper text: 'The paper states: “the typical population parameter estimates of apparent volume of distribution and apparent clearance ')
+- implicit units: 'k0 (SE%)' — the LLM proposed 'dimensionless', whose dimension does not fit Q307; left unset
+- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=ganciclovir
+- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
+- status held at route_to_review — not promoted
+- population split: 'model vi: the age-dependent exponent model' subgroup of Li_2020_2 (paper reports 8 populations: final model, model i: the 3/4 allometric model, model ii: the simplest wt-based exponent model, model iii: the simplest bsa-based exponent model, model iv: the maturation model, model v: the wt-dependent exponent model, model vi: the age-dependent exponent model, model vii: the bsa-dependent exponent model)
+- skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
+- skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
+
+**Extraction notes:**
+- companion parameter table 3 transcribed (66 record(s))
+- LLM selected parameter table(s) 3
+- dropped sensitivity-analysis table(s) 5 from the LLM selection — perturbations of a model, not a model
+
+## Validation
+
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
+Primary extraction: `gpt-6-luna`; retained regardless of cross-check verdict.
+
+| second reader | verdict | agreement | disagreements |
+|---|---|---|---|
+| `qwen3.8-27b` | not confirmed | 0.333 (4/12 fields) | 8 |
+
+<details><summary>8 field discrepancies</summary>
+
+| second reader | field | first reading | second reading | agreement |
+|---|---|---|---|---|
+| `qwen3.8-27b` | `parameters[k0]` | 1.42 | not captured | only_one_extracted |
+| `qwen3.8-27b` | `parameters[k1=k0-kmax×wtγ/(k50γ+wtγ) or k1=k0-kmax×ageγ/(k50γ+ageγ) or k1 = k0-kmax×bsaγ/]` | not captured | not captured | only_one_extracted |
+| `qwen3.8-27b` | `parameters[k50]` | 0.35 | not captured | only_one_extracted |
+| `qwen3.8-27b` | `parameters[mf = 1/[1+(age/tm50)-γ]]` | not captured | not captured | only_one_extracted |
+| `qwen3.8-27b` | `parameters[θ1]` | not captured | -1.25 | only_one_extracted |
+| `qwen3.8-27b` | `parameters[θ2]` | not captured | 5.43 | only_one_extracted |
+| `qwen3.8-27b` | `parameters[θcl].value` | 5.62 | -1.15 | mismatch |
+| `qwen3.8-27b` | `parameters[θvd].value` | 13.79 | -0.79 | mismatch |
+
+</details>
+
+<details class="legend">
+<summary>Cross-check definitions</summary>
+<table><thead><tr><th>Field</th><th>Definition</th></tr></thead><tbody><tr><td><code>second reader</code></td><td>Additional extraction model; the default uses a different model family. Multiple readers are supported.</td></tr><tr><td><code>agreement</code></td><td>Proportion of compared fields in agreement.</td></tr><tr><td><code>verdict</code></td><td>confirmed: full agreement; partly confirmed: non-structural discrepancy; not confirmed: structural discrepancy; primary re-run: hinted retry after an empty primary extraction.</td></tr><tr><td><code>combined</code></td><td>Confirmed only when all responding readers agree; a structural discrepancy makes the result disputed.</td></tr><tr><td><code>kept</code></td><td>Primary extraction retained; discrepancies require review rather than automatic replacement.</td></tr></tbody></table>
+</details>
+
+
+**Scholar closed-form checks:**
+
+| check | status | expected | obtained | ratio | tol | source |
+|---|---|---|---|---|---|---|
+| C0_has_structural_params | pass | not captured | 4 | not captured | not captured | not captured |
+| C0b_disposition_core | pass | not captured | not captured | not captured | not captured | not captured |
+| C0c_disposition_complete | pass | not captured | not captured | not captured | not captured | not captured |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] | not captured | not captured | not captured | ['Li_2020_2_table_3:row3:col6'] |
+| C5_dimension_Q61 | pass | [length] ** 3 | not captured | not captured | not captured | ['Li_2020_2_table_3:row4:col6'] |
+| C5_unit_missing_Q307 | fail | [mass] / [time] | SE% | not captured | not captured | ['Li_2020_2_table_3:row10:col6'] |
+| C5_unit_missing_Q373 | fail | 1 / [time] | SE% | not captured | not captured | ['Li_2020_2_table_3:row12:col6'] |
+| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 5.62 | not captured | not captured | ['Li_2020_2_table_3:row3:col6'] |
+| C8_topology | pass | not captured | not captured | not captured | not captured | not captured |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 5.62 L/h | not captured | not captured | ['Li_2020_2_table_3:row3:col6'] |
+| C9_phys_window_Q61 | pass | volume within physiological range | 13.8 L | not captured | not captured | ['Li_2020_2_table_3:row4:col6'] |
+
+<details class="legend">
+<summary>Validation definitions</summary>
+<table><thead><tr><th>Field</th><th>Definition</th></tr></thead><tbody><tr><td><code>check</code></td><td>Validation identifier. C0: structural parameters; C0b: volume or clearance/elimination; C0c: both; C1: half-life consistency; C2: covariate-effect plausibility; C3: clearance–dose–AUC consistency; C4: analytic AUC; C5: dimensional consistency.</td></tr><tr><td><code>status</code></td><td>pass, fail, or skipped. Skipped checks lack required inputs and provide no validation evidence.</td></tr><tr><td><code>expected</code></td><td>Source- or ontology-derived reference value.</td></tr><tr><td><code>obtained</code></td><td>Value derived from the extracted record or simulation.</td></tr><tr><td><code>ratio</code></td><td>Obtained/reference value.</td></tr><tr><td><code>tol</code></td><td>Acceptance tolerance.</td></tr><tr><td><code>source</code></td><td>Reference-value provenance.</td></tr><tr><td><code>scenario</code></td><td>Evaluated covariate scenario (reviewer checks).</td></tr><tr><td><code>note</code></td><td>Evaluation or exclusion rationale.</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>not captured</code></td><td>Not recorded; not equivalent to zero.</td></tr><tr><td><code>—</code></td><td>Not applicable or not displayed.</td></tr><tr><td><code>not verified</code></td><td>Record not accepted; displayed estimates remain unverified.</td></tr></tbody></table>
+</details>
+
+## Raw artifacts
+
+- scholar stages: `../../..//media/tomas/Seagate Backup Plus Drive/Pharmacolibrary/knowledgebase/drugs/drug_ganciclovir/papers/_screenv2.yaml`, `_locatev2.yaml`, `_transcribev2.yaml`, `_interpretv2.yaml`, `_validatev2.yaml`, `_reviewv2.yaml` (keys `Li_2020_2` / `Li_2020_2::model_vi_the_age_dependent_exponent_model`)
+
+
+<div class="pk-tab-mark" data-tab="Models"></div>
+
+## Model downloads
+
+<div class="pk-models-grid"><div class="pk-models-table">
+<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">unavailable</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">unavailable</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><span class="pk-missing">unavailable</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">unavailable</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><span class="pk-missing">unavailable</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><span class="pk-missing">unavailable</span></td></tr>
+</tbody></table>
+<p>No model archives available.</p>
+</div></div>
+
+<div class="pk-tab-mark" data-tab="Simulation"></div>
+
+_Browser simulation unavailable: no shared WebAssembly template. The **Models** tab provides the record-specific FMI archive._
+
+<div class="pk-tab-end"></div>
+
+---
+<sub>Generated by `docs.py` (scholarv2) · extracted 2026-10-07 17:42 UTC</sub>
