@@ -2,7 +2,7 @@
 - [Index](/)
 - [Ask the data](/query)
 - [Sites & interactions](/sites)
-- [How it is made](/pipeline)
+- [About this site](/pipeline)
 - [Extraction ledger](/ledger)
 - [Data & downloads](/data)
 - <span class="pk-sb-legend">(popPK/PD/PGx) extracted records, rejected ones not counted</span>
@@ -6341,6 +6341,21 @@
   - [Taspoglutide <sub>(0/0/0)</sub>](drugs/drug_taspoglutide/)
   - [Temsavir <sub>(0/2/0)</sub>](drugs/drug_temsavir/)
   - [Zidebactam <sub>(0/0/0)</sub>](drugs/drug_zidebactam/)
+- **toxins**
+  - [Arsenic <sub>(0/0/2)</sub>](drugs/toxin_arsenic/)
+  - [Cadmium <sub>(6/1/0)</sub>](drugs/toxin_cadmium/)
+  - [Chromium <sub>(0/0/0)</sub>](drugs/toxin_chromium/)
+  - [Nickel <sub>(4/0/0)</sub>](drugs/toxin_nickel/)
+  - [Lead <sub>(4/0/1)</sub>](drugs/toxin_lead/)
+  - [1,1,2-Trichloroethane <sub>(0/0/0)</sub>](drugs/toxin_112_trichloroethane/)
+  - [1,1-Dichloroethene <sub>(0/0/0)</sub>](drugs/toxin_11_dichloroethene/)
+  - [1,2,6,7-Tetrachlorodibenzo-p-dioxin <sub>(0/0/0)</sub>](drugs/toxin_1267_tetrachlorodibenzo_p_dioxin/)
+  - [2,2,4-Trimethylpentane <sub>(0/0/0)</sub>](drugs/toxin_224_trimethylpentane/)
+  - [2,3,7,8-Tetrachlorodibenzo-p-dioxin <sub>(0/0/0)</sub>](drugs/toxin_2378_tetrachlorodibenzo_p_dioxin/)
+  - [2,4-Dinitrotoluene <sub>(0/1/0)</sub>](drugs/toxin_24_dinitrotoluene/)
+  - [4,4'-Methylenedianiline <sub>(0/0/0)</sub>](drugs/toxin_44_methylenedianiline/)
+  - [Acetonitrile <sub>(0/0/0)</sub>](drugs/toxin_acetonitrile/)
+  - [Americium <sub>(0/0/0)</sub>](drugs/toxin_americium/)
 - **Special groups**
   - **Benchmark drugs**
     - [allopurinol <sub>(6/9/23)</sub>](drugs/drug_allopurinol/)
@@ -6425,8 +6440,16 @@
     - [Taniborbactam <sub>(2/0/0)</sub>](drugs/drug_taniborbactam/)
     - [Temsavir <sub>(0/2/0)</sub>](drugs/drug_temsavir/)
     - [Zidebactam <sub>(0/0/0)</sub>](drugs/drug_zidebactam/)
+  - **Oncology drugs (adverse reactions)**
+    - [bleomycin <sub>(12/0/1)</sub>](drugs/drug_bleomycin/)
+    - [carboplatin <sub>(14/24/0)</sub>](drugs/drug_carboplatin/)
+    - [cetuximab <sub>(12/0/0)</sub>](drugs/drug_cetuximab/)
+    - [cyclophosphamide <sub>(9/1/2)</sub>](drugs/drug_cyclophosphamide/)
+    - [doxorubicin <sub>(11/10/0)</sub>](drugs/drug_doxorubicin/)
+    - [fluorouracil <sub>(13/5/39)</sub>](drugs/drug_fluorouracil/)
+    - [tamoxifen <sub>(2/3/1)</sub>](drugs/drug_tamoxifen/)
   - **Selected toxins**
-    - 2378 tetrachlorodibenzo p dioxin <sub>(0/0/0)</sub>
+    - [2,3,7,8-Tetrachlorodibenzo-p-dioxin <sub>(0/0/0)</sub>](drugs/toxin_2378_tetrachlorodibenzo_p_dioxin/)
     - benzene <sub>(0/0/0)</sub>
     - bisphenol a <sub>(0/0/0)</sub>
     - chloroform <sub>(0/0/0)</sub>

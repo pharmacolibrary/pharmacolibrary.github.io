@@ -163651,5 +163651,675 @@
     0
    ]
   }
+ },
+ "toxin_112_trichloroethane": {
+  "atc_codes": [],
+  "best_status": "rejected",
+  "counts": {
+   "pd": 0,
+   "pgx": 0,
+   "pk": 0
+  },
+  "curated": 0,
+  "details": [],
+  "dir": "toxin_112_trichloroethane",
+  "extracted": 0,
+  "last_change": null,
+  "name": "1,1,2-Trichloroethane",
+  "needs_review": 0,
+  "records": 0,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "112_trichloroethane",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    1,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_11_dichloroethene": {
+  "atc_codes": [],
+  "best_status": "rejected",
+  "counts": {
+   "pd": 0,
+   "pgx": 0,
+   "pk": 0
+  },
+  "curated": 0,
+  "details": [],
+  "dir": "toxin_11_dichloroethene",
+  "extracted": 0,
+  "last_change": null,
+  "name": "1,1-Dichloroethene",
+  "needs_review": 0,
+  "records": 0,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "11_dichloroethene",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    1,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_1267_tetrachlorodibenzo_p_dioxin": {
+  "atc_codes": [],
+  "best_status": null,
+  "counts": {
+   "pd": 0,
+   "pgx": 0,
+   "pk": 0
+  },
+  "curated": 0,
+  "details": [],
+  "dir": "toxin_1267_tetrachlorodibenzo_p_dioxin",
+  "extracted": 0,
+  "last_change": null,
+  "name": "1,2,6,7-Tetrachlorodibenzo-p-dioxin",
+  "needs_review": 0,
+  "records": 0,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "1267_tetrachlorodibenzo_p_dioxin",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    0,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_224_trimethylpentane": {
+  "atc_codes": [],
+  "best_status": null,
+  "counts": {
+   "pd": 0,
+   "pgx": 0,
+   "pk": 0
+  },
+  "curated": 0,
+  "details": [],
+  "dir": "toxin_224_trimethylpentane",
+  "extracted": 0,
+  "last_change": null,
+  "name": "2,2,4-Trimethylpentane",
+  "needs_review": 0,
+  "records": 0,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "224_trimethylpentane",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    0,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_2378_tetrachlorodibenzo_p_dioxin": {
+  "atc_codes": [],
+  "best_status": "rejected",
+  "counts": {
+   "pd": 0,
+   "pgx": 0,
+   "pk": 0
+  },
+  "curated": 0,
+  "details": [
+   {
+    "internal": "rejected",
+    "label": "Weber_1993 \u00b7 male Sprague-Dawley rats",
+    "model_id": "D_2378TetrachlorodibenzoPDioxin_Weber1993_reference",
+    "stale": false,
+    "status": "rejected",
+    "xc": "unchecked"
+   }
+  ],
+  "dir": "toxin_2378_tetrachlorodibenzo_p_dioxin",
+  "extracted": 0,
+  "last_change": "2026-09-11T09:11:05.743338+00:00",
+  "name": "2,3,7,8-Tetrachlorodibenzo-p-dioxin",
+  "needs_review": 0,
+  "records": 1,
+  "rejected": 1,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "2378_tetrachlorodibenzo_p_dioxin",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    0,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    0,
+    1,
+    0
+   ]
+  }
+ },
+ "toxin_24_dinitrotoluene": {
+  "atc_codes": [],
+  "best_status": "not_simulated",
+  "counts": {
+   "pd": 1,
+   "pgx": 0,
+   "pk": 0
+  },
+  "curated": 0,
+  "details": [],
+  "dir": "toxin_24_dinitrotoluene",
+  "extracted": 0,
+  "last_change": null,
+  "name": "2,4-Dinitrotoluene",
+  "needs_review": 0,
+  "records": 0,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "24_dinitrotoluene",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    1,
+    0,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_44_methylenedianiline": {
+  "atc_codes": [],
+  "best_status": null,
+  "counts": {
+   "pd": 0,
+   "pgx": 0,
+   "pk": 0
+  },
+  "curated": 0,
+  "details": [],
+  "dir": "toxin_44_methylenedianiline",
+  "extracted": 0,
+  "last_change": null,
+  "name": "4,4'-Methylenedianiline",
+  "needs_review": 0,
+  "records": 0,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "44_methylenedianiline",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    0,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_acetonitrile": {
+  "atc_codes": [],
+  "best_status": null,
+  "counts": {
+   "pd": 0,
+   "pgx": 0,
+   "pk": 0
+  },
+  "curated": 0,
+  "details": [],
+  "dir": "toxin_acetonitrile",
+  "extracted": 0,
+  "last_change": null,
+  "name": "Acetonitrile",
+  "needs_review": 0,
+  "records": 0,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "acetonitrile",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    0,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_americium": {
+  "atc_codes": [],
+  "best_status": null,
+  "counts": {
+   "pd": 0,
+   "pgx": 0,
+   "pk": 0
+  },
+  "curated": 0,
+  "details": [],
+  "dir": "toxin_americium",
+  "extracted": 0,
+  "last_change": null,
+  "name": "Americium",
+  "needs_review": 0,
+  "records": 0,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "americium",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    0,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_arsenic": {
+  "atc_codes": [],
+  "best_status": "not_simulated",
+  "counts": {
+   "pd": 0,
+   "pgx": 2,
+   "pk": 0
+  },
+  "curated": 0,
+  "details": [],
+  "dir": "toxin_arsenic",
+  "extracted": 0,
+  "last_change": null,
+  "name": "Arsenic",
+  "needs_review": 0,
+  "records": 0,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "arsenic",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    1,
+    0
+   ],
+   "pgx": [
+    2,
+    0,
+    8
+   ],
+   "pk": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_cadmium": {
+  "atc_codes": [],
+  "best_status": "not_simulated",
+  "counts": {
+   "pd": 1,
+   "pgx": 0,
+   "pk": 6
+  },
+  "curated": 0,
+  "details": [
+   {
+    "internal": "not_modelled",
+    "label": "Ekobena_2025 \u00b7 review reference",
+    "model_id": "Cadmium_Ekobena2025_reference",
+    "stale": false,
+    "status": "not_simulated",
+    "xc": "unchecked"
+   },
+   {
+    "internal": "not_modelled",
+    "label": "Jia_2026 \u00b7 review reference",
+    "model_id": "Cadmium_Jia2026_reference",
+    "stale": false,
+    "status": "not_simulated",
+    "xc": "unchecked"
+   },
+   {
+    "internal": "not_modelled",
+    "label": "Marques_2026 \u00b7 review reference",
+    "model_id": "Cadmium_Marques2026_reference",
+    "stale": false,
+    "status": "not_simulated",
+    "xc": "unchecked"
+   },
+   {
+    "internal": "not_modelled",
+    "label": "Muthukrishnan_2025 \u00b7 review reference",
+    "model_id": "Cadmium_Muthukrishnan2025_reference",
+    "stale": false,
+    "status": "not_simulated",
+    "xc": "unchecked"
+   },
+   {
+    "internal": "not_modelled",
+    "label": "Sunn\u00e5ker_2026 \u00b7 review reference",
+    "model_id": "Cadmium_Sunnker2026_reference",
+    "stale": false,
+    "status": "not_simulated",
+    "xc": "unchecked"
+   },
+   {
+    "internal": "not_modelled",
+    "label": "Zhong_2024 \u00b7 six bivalve species (Perna viridis, Mytilus unguiculatus, Mytilus galloprovincialis, Magallana gigas, Magallana hongkongensis, Magallana angulata)",
+    "model_id": "Cadmium_Zhong2024_reference",
+    "stale": false,
+    "status": "not_simulated",
+    "xc": "unchecked"
+   }
+  ],
+  "dir": "toxin_cadmium",
+  "extracted": 0,
+  "last_change": "2026-09-11T09:11:05.793320+00:00",
+  "name": "Cadmium",
+  "needs_review": 0,
+  "records": 6,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 6,
+  "slug": "cadmium",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    1,
+    1,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    6,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_chromium": {
+  "atc_codes": [],
+  "best_status": null,
+  "counts": {
+   "pd": 0,
+   "pgx": 0,
+   "pk": 0
+  },
+  "curated": 0,
+  "details": [],
+  "dir": "toxin_chromium",
+  "extracted": 0,
+  "last_change": null,
+  "name": "Chromium",
+  "needs_review": 0,
+  "records": 0,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "chromium",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    0,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    0,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_lead": {
+  "atc_codes": [],
+  "best_status": "not_simulated",
+  "counts": {
+   "pd": 0,
+   "pgx": 1,
+   "pk": 4
+  },
+  "curated": 0,
+  "details": [
+   {
+    "internal": "needs_review",
+    "label": "Dede_2017 \u00b7 exposure",
+    "model_id": "Lead_Dede2017_exposure",
+    "stale": false,
+    "status": "needs_review",
+    "xc": "unchecked"
+   },
+   {
+    "internal": "needs_review",
+    "label": "Dede_2017 \u00b7 exposure::adult humans",
+    "model_id": "Lead_Dede2017_exposure_adult_humans",
+    "stale": false,
+    "status": "needs_review",
+    "xc": "unchecked"
+   },
+   {
+    "internal": "needs_review",
+    "label": "Dede_2017 \u00b7 optimal",
+    "model_id": "Lead_Dede2017_optimal",
+    "stale": false,
+    "status": "needs_review",
+    "xc": "unchecked"
+   },
+   {
+    "internal": "needs_review",
+    "label": "Dede_2017 \u00b7 optimal::adult humans",
+    "model_id": "Lead_Dede2017_optimal_adult_humans",
+    "stale": false,
+    "status": "needs_review",
+    "xc": "unchecked"
+   }
+  ],
+  "dir": "toxin_lead",
+  "extracted": 0,
+  "last_change": "2026-09-11T09:11:05.823806+00:00",
+  "name": "Lead",
+  "needs_review": 4,
+  "records": 4,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 0,
+  "slug": "lead",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    0,
+    0
+   ],
+   "pgx": [
+    1,
+    2,
+    8
+   ],
+   "pk": [
+    4,
+    0,
+    0
+   ]
+  }
+ },
+ "toxin_nickel": {
+  "atc_codes": [],
+  "best_status": "not_simulated",
+  "counts": {
+   "pd": 0,
+   "pgx": 0,
+   "pk": 4
+  },
+  "curated": 0,
+  "details": [
+   {
+    "internal": "not_modelled",
+    "label": "Jia_2026 \u00b7 review reference",
+    "model_id": "Nickel_Jia2026_reference",
+    "stale": false,
+    "status": "not_simulated",
+    "xc": "unchecked"
+   },
+   {
+    "internal": "not_modelled",
+    "label": "Kwack_2026 \u00b7 review reference",
+    "model_id": "Nickel_Kwack2026_reference",
+    "stale": false,
+    "status": "not_simulated",
+    "xc": "unchecked"
+   },
+   {
+    "internal": "not_modelled",
+    "label": "Zhao_2017 \u00b7 rat and occupational population",
+    "model_id": "Nickel_Zhao2017_reference",
+    "stale": false,
+    "status": "not_simulated",
+    "xc": "unchecked"
+   },
+   {
+    "internal": "not_modelled",
+    "label": "van_2026 \u00b7 review reference",
+    "model_id": "Nickel_van2026_reference",
+    "stale": false,
+    "status": "not_simulated",
+    "xc": "unchecked"
+   }
+  ],
+  "dir": "toxin_nickel",
+  "extracted": 0,
+  "last_change": "2026-09-11T09:11:05.864824+00:00",
+  "name": "Nickel",
+  "needs_review": 0,
+  "records": 4,
+  "rejected": 0,
+  "rendered": true,
+  "simulatable": 4,
+  "slug": "nickel",
+  "stale": 0,
+  "tally": {
+   "pd": [
+    0,
+    0,
+    0
+   ],
+   "pgx": [
+    0,
+    0,
+    0
+   ],
+   "pk": [
+    4,
+    0,
+    0
+   ]
+  }
  }
 }
