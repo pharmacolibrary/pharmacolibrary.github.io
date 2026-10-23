@@ -14,21 +14,39 @@ Zinc acetate is a zinc salt used to supply zinc, for example in Wilson's disease
 
 <small>Summary written by `glm-5.3-flash` from [Wikidata Q204639](https://www.wikidata.org/wiki/Q204639) and the WHO ATC classification; not checked by a person.</small>
 
+## popPK records
+
+_not available_
+
+## ADME sites
+
+Tissue mappings from DrugBank molecular actors and paper-derived PGx genes. Compare drugs in [Sites & interactions](sites?drugs=zinc_acetate).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| absorption | small intestine | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+| distribution | blood | `ORM2` unknown | DrugBank actor |
+| metabolism | small intestine | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+| excretion | bile duct | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+| excretion | kidney | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+| excretion | skin | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+| excretion | small intestine | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+
+<sub>Actors without a tissue in the table: A1BG (unknown), A2M (unknown), ADH1C (target), AGT (unknown), AHSG (unknown), ALDOA (unknown), APCS (unknown), APLP1 (unknown), APLP2 (unknown), APOA1 (unknown), APOA2 (unknown), APOA4 (unknown), APOBR (unknown), APOE (unknown), APOL1 (unknown), APP (unknown), ASPA (unknown), BDKRB1 (unknown), BRCC3 (unknown), C1QB (unknown), C1QC (unknown), C1R (unknown), C1S (unknown), C3 (unknown), C4B (unknown), C4BPA (unknown), C4BPB (unknown), C5 (unknown), C8A (unknown), C8B (unknown), C8G (unknown), CA1 (target), CCS (unknown), CFB (unknown), CFH (unknown), CFI (unknown), CLU (unknown), CP (unknown), CPE (inhibitor), CPE (target), CPN1 (unknown), CPN2 (unknown), DAND5 (unknown), DCD (unknown), DSP (unknown), EEF1A1 (unknown), ENO1 (unknown), ESR1 (unknown), F12 (unknown), F13B (unknown), F2 (unknown), FCN3 (unknown), FGA (unknown), FN1 (unknown), GAPDHS (unknown), GLRA1 (unknown), GSN (unknown), HBA1 (unknown), HBB (unknown), HDAC1 (unknown), HDAC4 (unknown), HDAC8 (unknown), HPR (unknown), HRNR (unknown), IDE (target), IGFALS (unknown), IGHA1 (unknown), IGHM (unknown), IGKV1-17 (unknown), IGKV3-20 (unknown), IGLV3-21 (unknown), IL3 (unknown), INS (unknown), ITIH1 (unknown), ITIH2 (unknown), ITIH3 (unknown), ITIH4 (unknown), JCHAIN (unknown), JUP (unknown), KLKB1 (unknown), KNG1 (unknown), KRT1 (unknown), KRT10 (unknown), KRT14 (unknown), KRT16 (unknown), KRT2 (unknown), KRT5 (unknown), KRT6A (unknown), KRT9 (unknown), MDM2 (unknown), MGMT (unknown), MMP9 (unknown), MPG (unknown), MT1A (unknown), MT2A (unknown), MT3 (unknown), NME1 (unknown), P4HB (unknown), PARP1 (unknown), PDCD6 (unknown), PDIA3 (unknown), PGLYRP2 (unknown), PON1 (unknown), PRDX1 (unknown), PSPH (unknown), PZP (unknown), S100A2 (unknown), S100A7 (unknown), S100A8 (unknown), S100A9 (unknown), SELENOP (unknown), SEMG1 (unknown), SERPINA1 (unknown), SERPINA3 (unknown), SERPINA4 (unknown), SERPINA6 (unknown), SERPIND1 (unknown), SHBG (unknown), SIVA1 (unknown), SOD1 (target), SOD1 (unknown), TF (unknown), TP53 (unknown), TP73 (unknown), TPI1 (unknown), TTR (unknown), TUFM (unknown), UTRN (unknown), VTN (unknown).</sub>
+
+<details class="legend">
+<summary>Status and cross-check definitions</summary>
+<table><thead><tr><th>Badge</th><th>Definition</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">Curated (human-checked)</span></td><td>Authored or checked by a person against the paper.</td></tr><tr><td><span class="pk-badge pk-badge--green">Reproduces paper</span></td><td>The model built from the extracted parameters reproduces the paper's reported reference values; not human-verified.</td></tr><tr><td><span class="pk-badge pk-badge--green">Reproduces with caveats</span></td><td>Reproduces the paper's reference values, but an advisory check is open (for example, covariate scenarios not evaluated).</td></tr><tr><td><span class="pk-badge pk-badge--neutral">Not simulated</span></td><td>Extracted and checked against closed-form rules, but no simulation has compared it with the paper yet. Not a verdict.</td></tr><tr><td><span class="pk-badge pk-badge--orange">Needs review</span></td><td>Incomplete, inconsistent or implausible extraction, or a failed replication; the values are unverified.</td></tr><tr><td><span class="pk-badge pk-badge--red">Rejected</span></td><td>Not accepted; the values are shown for inspection only.</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>Reviewed before the paper was last screened; a new review is pending, so the status comes from the automatic checks.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>All responding readers agree on all compared fields; fractions indicate agreeing/total readers.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>At least one non-structural discrepancy or incomplete reader agreement.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>At least one structural-parameter discrepancy; primary extraction retained pending review.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>Non-human or in-vitro evidence; parameters and simulations describe the stated experimental system.</td></tr></tbody></table>
+<p><small><b>Status</b> reports validation and review outcomes; <b>cross-check</b> reports agreement between independent extractions. Agreement does not establish plausibility, model validity, or clinical applicability.</small></p>
+</details>
+
+<details class="pk-pipeline"><summary>Pipeline details</summary>
+
 ## Extraction summary
 
 | extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
 |---|---|---|---|---|---|---|---|---|---|---|
 | 2026-10-05 12:20 | 1:20 | 0/0/0 | 0/0/0 | 0/0/0 | 51,574/1,200 | ollama / qwen3.8:27b-mtp-q8_0 | 2 | 0/5 | 2/0 | 0 |
-
-## popPK records
-
-_not available_
-
-<details class="legend">
-<summary>Status and cross-check definitions</summary>
-<table><thead><tr><th>Badge</th><th>Definition</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>Human-authored reference record or exemplar.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>Accepted extraction; applicable closed-form checks passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>Generated-model predictions agree with reported reference values; not human-verified.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>Replication accepted with unresolved advisory checks.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>Incomplete, inconsistent, or implausible extraction; values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>Model withheld because a core parameter uses a library default.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>Unaccepted record; displayed values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>Model generation pending or unavailable; not a validation verdict.</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>Review predates the current extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>All responding readers agree on all compared fields; fractions indicate agreeing/total readers.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>At least one non-structural discrepancy or incomplete reader agreement.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>At least one structural-parameter discrepancy; primary extraction retained pending review.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>Non-human or in-vitro evidence; parameters and simulations describe the stated experimental system.</td></tr></tbody></table>
-<p><small><b>Status</b> reports validation and review outcomes; <b>cross-check</b> reports agreement between independent extractions. Agreement does not establish plausibility, model validity, or clinical applicability.</small></p>
-</details>
 
 ## Coverage
 
@@ -106,5 +124,9 @@ _1 abstract-screened relevant papers lack full text. Retrieve via the DOI, save 
 | popPK | Zhang_2012 | irrelevant | 0 | 0 | The paper describes the supramolecular chemistry and photophysical properties of zinc acetate complexes with artificial peptides, not pharmacokinetics. |
 | PD | Zhang_2012 | not_relevant | 0 | 0 | The paper describes cooperative zinc binding and fluorescence titrations in an artificial peptide, not a pharmacodynamic or exposure/dose-response relationship for zinc acetate, and provides no extractable Emax, EC50, slope, or analogous PD parameters. |
 
+
+</details>
+
 ---
-<sub>Generated by `docs.py` (scholarv2)</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions.</sub>  
+<sub>Generated by `docs.py` (scholarv2, release v26.09)</sub>

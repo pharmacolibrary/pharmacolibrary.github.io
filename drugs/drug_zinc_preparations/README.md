@@ -22,42 +22,68 @@ Zinc preparations are used as a topical treatment for haemorrhoids and anal fiss
 |---|---|---|---|---|---|---|
 | zinc (zinc_preparations) | parent | 65.409 | Zn | DrugBank | [23994](https://pubchem.ncbi.nlm.nih.gov/compound/23994) | Vale_2014 |
 
-## Extraction summary
+## Parameters across studies
 
-| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
-|---|---|---|---|---|---|---|---|---|---|---|
-| 2026-10-07 14:41 | 14:53 | 0/0/1 | 0/1/0 | 0/0/1 | 486,989/16,784 | einfracz / qwen3.8-27b | 87 | 28/54 | 77/10 | 0 |
+| parameter | as named | value | unit | as reported | population | n | species | status | record |
+|---|---|---|---|---|---|---|---|---|---|
+| CL | CL | 0.2961 ‡ | L/h | 4.23 ml/kg/h | healthy children | &gt;=40 | human | <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--stale">stale</span> | [Vale_2014_reference](drugs/drug_zinc_preparations/ZincPreparations_Vale2014_reference.md) |
+
+<sub>Values are converted from the record's SI value to one unit per parameter. ‡ given per kg in the paper; shown for a 70 kg adult. Rejected records are left out.</sub>
 
 ## popPK records
 
 | status | detail | model | model structure | params | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--orange">needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss-120b (partly confirmed, agreement 0.667), gpt-oss:120b (partly confirmed, agreement 0.8). Primary extraction retained.">cross-check: partial 0/2</span><br><sub>STALE — current validate: needs_review</sub><br><sub>blocking: disposition incomplete — only clearance/elimination extracted — the engineer ne…</sub><br><sub>route_to: `human_review`</sub> | [Vale_2014_reference](drugs/drug_zinc_preparations/ZincPreparations_Vale2014_reference.md) | — | 1-compartment (no model) | 1 | Vale SH et al., Zinc pharmacokinetic parameters in the…, European journal of clinica… (2014) | [10.1038/ejcn.2013.250](https://doi.org/10.1038/ejcn.2013.250) |
+| <span class="pk-rf" hidden data-species="human" data-age="paediatric" data-status="Needs review" data-sim="no"></span><span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--stale">stale</span><br><sub>stale — current check: Needs review</sub><br><sub>blocking: disposition incomplete — only clearance/elimination extracted — the engineer ne…</sub> | [Vale_2014_reference](drugs/drug_zinc_preparations/ZincPreparations_Vale2014_reference.md) | — | 1-compartment (no model) | 1 | Vale SH et al., Zinc pharmacokinetic parameters in the…, European journal of clinica… (2014) | [10.1038/ejcn.2013.250](https://doi.org/10.1038/ejcn.2013.250) |
 
 ## Pharmacodynamics (PD)
 
 | status | detail | about | model | citation | doi |
 |---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--red">rejected</span> <span class="pk-badge pk-badge--orange" title="re-read by einfracz:gpt-oss-120b (?, agreement 0.0). Primary extraction retained.">cross-check: partial</span> <span class="pk-badge pk-badge--species" title="Animal study (rat), not measured in people (from the LLM relevance screen, p(non-human) 1.00).">rat</span> | [Ma_1993_GABA_induced_chloride_current](drugs/drug_zinc_preparations/pd_Ma_1993_GABA_induced_chloride_current.md) | GABA-induced chloride current ← Zinc (Zn2+) · direct Emax (saturable) effect | — | Ma JY et al., Differential modulation of GABAA recept…, Brain research (1993) | [10.1016/0006-8993(93)91510-y](https://doi.org/10.1016/0006-8993(93)91510-y) |
+| <span class="pk-badge pk-badge--red">Rejected</span> <span class="pk-badge pk-badge--species" title="Animal study (rat), not measured in people (from the LLM relevance screen, p(non-human) 1.00).">rat</span> | [Ma_1993_GABA_induced_chloride_current](drugs/drug_zinc_preparations/pd_Ma_1993_GABA_induced_chloride_current.md) | GABA-induced chloride current ← Zinc (Zn2+) · direct Emax (saturable) effect | — | Ma JY et al., Differential modulation of GABAA recept…, Brain research (1993) | [10.1016/0006-8993(93)91510-y](https://doi.org/10.1016/0006-8993(93)91510-y) |
 
 ## Pharmacogenomics (PGx)
 
 | status | gene | affects | mechanism | detail | citation | doi |
 |---|---|---|---|---|---|---|
-| <span class="pk-badge pk-badge--neutral" title="Gene–drug association without a quantitative parameter effect.">qualitative</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss-120b (confirmed, agreement 1.0), gpt-oss:120b (confirmed, agreement 1.0). Primary extraction retained.">cross-checked ✓ 2/2</span> | **miR-146a** | `Q100` — no parameter target — an association/risk finding, not a parameter shift | target | [Li_2023](drugs/drug_zinc_preparations/pgx_Li_2023_miR_146a_Q100.md) | Li Y et al., Effect of miR-146a polymorphism on lipo…, Cellular and molecular biol… (2023) | [10.14715/cmb/2023.69.12.7](https://doi.org/10.14715/cmb/2023.69.12.7) |
+| <span class="pk-badge pk-badge--neutral" title="Gene–drug association without a quantitative parameter effect.">qualitative</span> | **miR-146a** | `Q100` — no parameter target — an association/risk finding, not a parameter shift | target | [Li_2023](drugs/drug_zinc_preparations/pgx_Li_2023_miR_146a_Q100.md) | Li Y et al., Effect of miR-146a polymorphism on lipo…, Cellular and molecular biol… (2023) | [10.14715/cmb/2023.69.12.7](https://doi.org/10.14715/cmb/2023.69.12.7) |
 
 <details class="pk-legend"><summary>PGx evidence and model availability</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>Phenotype/genotype-specific effect on a named model parameter (θ).</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>Gene–drug association without a quantitative parameter effect.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>CPIC/DPWG-derived estimate, not a primary-paper estimate.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>Adverse-reaction risk allele; no quantitative PK/PD parameter effect.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>Phenotype-specific browser simulation and downloadable PGx model available.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>PGx model available; browser simulation unavailable.</td></tr></tbody></table></details>
 
 <details class="legend">
 <summary>PGx field definitions</summary>
-<table><thead><tr><th>Field</th><th>Definition</th></tr></thead><tbody><tr><td><code>gene</code></td><td>Associated gene; papers with multiple genes contribute multiple records.</td></tr><tr><td><code>affects</code></td><td>Target PK/PD parameter (Q-code and name); θ scales its baseline value. Q100 denotes a non-parameter association; safety denotes adverse-reaction risk. PA identifiers indicate ClinPGx/PharmGKB guideline-derived records.</td></tr><tr><td><code>mechanism</code></td><td>Metabolism, transport, target, formation, safety_allele, or unknown.</td></tr><tr><td><code>detail</code></td><td>Source-paper identifier and full-record link.</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>not captured</code></td><td>Not recorded; not equivalent to zero.</td></tr><tr><td><code>—</code></td><td>Not applicable or not displayed.</td></tr><tr><td><code>not verified</code></td><td>Record not accepted; displayed estimates remain unverified.</td></tr></tbody></table>
+<table><thead><tr><th>Field</th><th>Definition</th></tr></thead><tbody><tr><td><code>gene</code></td><td>Associated gene; papers with multiple genes contribute multiple records.</td></tr><tr><td><code>affects</code></td><td>Target PK/PD parameter (Q-code and name); θ scales its baseline value. Q100 denotes a non-parameter association; safety denotes adverse-reaction risk. PA identifiers indicate ClinPGx/PharmGKB guideline-derived records.</td></tr><tr><td><code>mechanism</code></td><td>Metabolism, transport, target, formation, safety_allele, or unknown.</td></tr><tr><td><code>detail</code></td><td>Source-paper identifier and full-record link.</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>(empty cell)</code></td><td>Not recorded; not equivalent to zero. A column empty in every row is not shown.</td></tr><tr><td><code>—</code></td><td>Not applicable or not displayed.</td></tr><tr><td><code>not verified</code></td><td>Record not accepted; displayed estimates remain unverified.</td></tr></tbody></table>
 </details>
+
+## ADME sites
+
+Tissue mappings from DrugBank molecular actors and paper-derived PGx genes. Compare drugs in [Sites & interactions](sites?drugs=zinc_preparations).
+
+| process | tissue | actors (role) | evidence |
+|---|---|---|---|
+| absorption | small intestine | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+| distribution | blood | `ORM2` unknown | DrugBank actor |
+| metabolism | small intestine | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+| excretion | bile duct | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+| excretion | kidney | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+| excretion | skin | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+| excretion | small intestine | <sub>named in DrugBank's ADME text</sub> | DrugBank ADME |
+
+<sub>Actors without a tissue in the table: A1BG (unknown), A2M (unknown), AGT (unknown), AHSG (unknown), ALDOA (unknown), APCS (unknown), APLP1 (cofactor), APLP2 (cofactor), APOA1 (unknown), APOA2 (unknown), APOA4 (unknown), APOBR (unknown), APOE (unknown), APOL1 (unknown), APP (cofactor), ASPA (cofactor), BDKRB1 (unknown), BRCC3 (unknown), C1QB (unknown), C1QC (unknown), C1R (unknown), C1S (unknown), C3 (unknown), C4B (unknown), C4BPA (unknown), C4BPB (unknown), C5 (unknown), C8A (unknown), C8B (unknown), C8G (unknown), CA1 (substrate), CCS (unknown), CFB (unknown), CFH (unknown), CFI (unknown), CLU (unknown), CP (unknown), CPN1 (unknown), CPN2 (unknown), DAND5 (cofactor), DCD (unknown), DSP (unknown), EEF1A1 (unknown), ENO1 (unknown), ESR1 (cofactor), F12 (unknown), F13B (unknown), F2 (unknown), FCN3 (unknown), FGA (unknown), FN1 (unknown), GAPDHS (unknown), GLRA1 (unknown), GSN (unknown), HBA1 (unknown), HBB (unknown), HDAC1 (cofactor), HDAC4 (cofactor), HDAC8 (cofactor), HPR (unknown), HRNR (unknown), IGFALS (unknown), IGHA1 (unknown), IGHM (unknown), IGKV1-17 (unknown), IGKV3-20 (unknown), IGLV3-21 (unknown), IL3 (unknown), INS (unknown), ITIH1 (unknown), ITIH2 (unknown), ITIH3 (unknown), ITIH4 (unknown), JCHAIN (unknown), JUP (unknown), KLKB1 (unknown), KNG1 (unknown), KRT1 (unknown), KRT10 (unknown), KRT14 (unknown), KRT16 (unknown), KRT2 (unknown), KRT5 (unknown), KRT6A (unknown), KRT9 (unknown), MDM2 (unknown), MGMT (unknown), MIR-146A (target), MMP9 (unknown), MPG (unknown), MT1A (unknown), MT2A (unknown), MT3 (unknown), NME1 (unknown), P4HB (unknown), PARP1 (unknown), PDCD6 (unknown), PDIA3 (unknown), PGLYRP2 (unknown), PON1 (unknown), PRDX1 (unknown), PSPH (unknown), PZP (unknown), S100A2 (unknown), S100A7 (unknown), S100A8 (unknown), S100A9 (unknown), SELENOP (unknown), SEMG1 (unknown), SERPINA1 (unknown), SERPINA3 (unknown), SERPINA4 (unknown), SERPINA6 (unknown), SERPIND1 (unknown), SHBG (unknown), SIVA1 (unknown), SOD1 (unknown), TF (unknown), TP53 (unknown), TP73 (cofactor), TPI1 (unknown), TTR (unknown), TUFM (unknown), UTRN (unknown), VTN (unknown).</sub>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
-<table><thead><tr><th>Badge</th><th>Definition</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">curated</span></td><td>Human-authored reference record or exemplar.</td></tr><tr><td><span class="pk-badge pk-badge--green">extracted</span></td><td>Accepted extraction; applicable closed-form checks passed.</td></tr><tr><td><span class="pk-badge pk-badge--green">reviewed — candidate</span></td><td>Generated-model predictions agree with reported reference values; not human-verified.</td></tr><tr><td><span class="pk-badge pk-badge--green">accepted (caveats)</span></td><td>Replication accepted with unresolved advisory checks.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>Incomplete, inconsistent, or implausible extraction; values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--orange">built, not shipped</span></td><td>Model withheld because a core parameter uses a library default.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>Unaccepted record; displayed values remain unverified.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">not modelled</span></td><td>Model generation pending or unavailable; not a validation verdict.</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>Review predates the current extraction.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>All responding readers agree on all compared fields; fractions indicate agreeing/total readers.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>At least one non-structural discrepancy or incomplete reader agreement.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>At least one structural-parameter discrepancy; primary extraction retained pending review.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>Non-human or in-vitro evidence; parameters and simulations describe the stated experimental system.</td></tr></tbody></table>
+<table><thead><tr><th>Badge</th><th>Definition</th></tr></thead><tbody><tr><td><span class="pk-badge pk-badge--green">Curated (human-checked)</span></td><td>Authored or checked by a person against the paper.</td></tr><tr><td><span class="pk-badge pk-badge--green">Reproduces paper</span></td><td>The model built from the extracted parameters reproduces the paper's reported reference values; not human-verified.</td></tr><tr><td><span class="pk-badge pk-badge--green">Reproduces with caveats</span></td><td>Reproduces the paper's reference values, but an advisory check is open (for example, covariate scenarios not evaluated).</td></tr><tr><td><span class="pk-badge pk-badge--neutral">Not simulated</span></td><td>Extracted and checked against closed-form rules, but no simulation has compared it with the paper yet. Not a verdict.</td></tr><tr><td><span class="pk-badge pk-badge--orange">Needs review</span></td><td>Incomplete, inconsistent or implausible extraction, or a failed replication; the values are unverified.</td></tr><tr><td><span class="pk-badge pk-badge--red">Rejected</span></td><td>Not accepted; the values are shown for inspection only.</td></tr><tr><td><span class="pk-badge pk-badge--stale">stale</span></td><td>Reviewed before the paper was last screened; a new review is pending, so the status comes from the automatic checks.</td></tr><tr><td><span class="pk-badge pk-badge--green">cross-checked ✓</span></td><td>All responding readers agree on all compared fields; fractions indicate agreeing/total readers.</td></tr><tr><td><span class="pk-badge pk-badge--orange">cross-check: partial</span></td><td>At least one non-structural discrepancy or incomplete reader agreement.</td></tr><tr><td><span class="pk-badge pk-badge--red">cross-check: disputed</span></td><td>At least one structural-parameter discrepancy; primary extraction retained pending review.</td></tr><tr><td><span class="pk-badge pk-badge--species">rat</span></td><td>Non-human or in-vitro evidence; parameters and simulations describe the stated experimental system.</td></tr></tbody></table>
 <p><small><b>Status</b> reports validation and review outcomes; <b>cross-check</b> reports agreement between independent extractions. Agreement does not establish plausibility, model validity, or clinical applicability.</small></p>
 </details>
+
+<details class="pk-pipeline"><summary>Pipeline details</summary>
+
+## Extraction summary
+
+| extracted at | time | popPK e/r/o | PD e/r/o (paper) | PGx e/r/o | tokens in/out | LLM | papers | GROBID/JATS | OA/non-OA | NONMEM |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2026-10-07 14:41 | 14:53 | 1/0/0 | 0/1/0 | 0/0/1 | 486,989/16,784 | einfracz / qwen3.8-27b | 87 | 28/54 | 77/10 | 0 |
 
 ## Coverage
 
@@ -126,7 +152,7 @@ _35 abstract-screened relevant papers lack full text. Retrieve via the DOI, save
 | PGx | Ashraf_2026 | not_relevant | 0 | 0 | The paper reviews the effects of nanoparticles on plant thermotolerance and does not address human pharmacogenomics or the PK/PD of zinc preparations in humans. |
 | PGx | Astrin_1987 | not_relevant | 0 | 0 | The paper discusses lead toxicity and ALAD polymorphism, but does not report pharmacogenomic effects on the PK or PD of zinc preparations. |
 | PGx | Aurongzeb_2024 | not_relevant | 0 | 0 | The paper discusses the genome of Naegleria fowleri and virtual screening of compounds, but does not report any pharmacogenomic effects on PK or PD parameters for zinc preparations or any other drug. |
-| PGx | Awh_2013 | not_relevant | 0 | 0 | not captured |
+| PGx | Awh_2013 | not_relevant | 0 | 0 |  |
 | PGx | Babić_2021 | not_relevant | 0 | 0 | The study analyzes the association between APOE genotype and plasma/CSF zinc levels in Alzheimer's disease patients, rather than the pharmacokinetics or pharmacodynamics of zinc as a therapeutic agent. |
 | PGx | Bakri_2023 | not_relevant | 0 | 0 | The paper discusses zinc homeostasis in epilepsy and its relationship with antiepileptic drug response, not a pharmacogenomic effect on the PK/PD of zinc preparations. |
 | popPK | Balogh_2025 | irrelevant | 0 | 0 | This is an ecotoxicology study measuring toxicity effects (LC50/EC50) of zinc on sea stars, not a pharmacokinetic study reporting disposition parameters like clearance or volume. |
@@ -365,5 +391,9 @@ _35 abstract-screened relevant papers lack full text. Retrieve via the DOI, save
 | PGx | Ziegler_2025 | not_relevant | 0 | 0 | The paper concerns oral insulin and reports an interaction with INS genotype on the efficacy of disease prevention (autoantibody development), not on the pharmacokinetic or pharmacodynamic parameters of zinc preparations. |
 | PD | van_1993 | not_relevant | 4 | 2 | The paper reports a significant correlation (dose-response) between urinary cadmium and renal markers (NAG, protein) in a small cohort, but it does not provide specific numeric regression coefficients, slopes, or curve parameters in the text, making quantitative PD parameters non-extractable. |
 
+
+</details>
+
 ---
-<sub>Generated by `docs.py` (scholarv2) · newest extraction 2026-10-07 14:28 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions.</sub>  
+<sub>Generated by `docs.py` (scholarv2, release v26.09) · newest extraction 2026-10-07 14:28 UTC</sub>
