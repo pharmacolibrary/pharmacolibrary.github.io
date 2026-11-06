@@ -1,15 +1,13 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N05B&quot;,&quot;href&quot;:&quot;atc/N05B.md&quot;},{&quot;label&quot;:&quot;diazepam&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/&quot;},{&quot;label&quot;:&quot;Huang_2025_2 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Diazepam_Cavallaro2026_reference&quot;,&quot;label&quot;:&quot;Cavallaro_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/Diazepam_Cavallaro2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Diazepam_Helfer2026_reference&quot;,&quot;label&quot;:&quot;Helfer_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/Diazepam_Helfer2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Diazepam_Huang2025v2_reference&quot;,&quot;label&quot;:&quot;Huang_2025_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/Diazepam_Huang2025v2_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Diazepam_Wang2022_reference&quot;,&quot;label&quot;:&quot;Wang_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/Diazepam_Wang2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Diazepam_Cavallaro2026_reference&quot;,&quot;label&quot;:&quot;Cavallaro_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/Diazepam_Cavallaro2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Diazepam_Greenblatt1989_reference&quot;,&quot;label&quot;:&quot;Greenblatt_1989_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/Diazepam_Greenblatt1989_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Diazepam_Huang2025v2_reference&quot;,&quot;label&quot;:&quot;Huang_2025_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/Diazepam_Huang2025v2_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Diazepam_Jahn2018_reference&quot;,&quot;label&quot;:&quot;Jahn_2018_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/Diazepam_Jahn2018_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Diazepam_Norman1997_reference&quot;,&quot;label&quot;:&quot;Norman_1997_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/Diazepam_Norman1997_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Diazepam_Wang2020_reference&quot;,&quot;label&quot;:&quot;Wang_2020_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/Diazepam_Wang2020_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Diazepam_Wang2022_reference&quot;,&quot;label&quot;:&quot;Wang_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/Diazepam_Wang2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Visser_2003_EEG&quot;,&quot;label&quot;:&quot;Visser_2003 \u00b7 EEG&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/pd_Visser_2003_EEG.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Greenblatt_1989_13_30_Hz_EEG&quot;,&quot;label&quot;:&quot;Greenblatt_1989 \u00b7 % 13-30 Hz EEG&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_diazepam/pd_Greenblatt_1989_13_30_Hz_EEG.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # diazepam — `Diazepam_Huang2025v2_reference`
 
-> ## <span class="pk-badge pk-badge--orange">Needs review</span>
+> ## <span class="pk-badge pk-badge--green">Reproduces paper</span>
 
-> The diazepam intercompartmental clearance back to the central compartment lacks an explicit estimate, so a library placeholder would have been used.
-
-<div class="pk-model-meta" hidden drug="diazepam" model-id="Diazepam_Huang2025v2_reference" status="needs_review" stale="false" population="" measured-compound="diazepam" parameterization="mechanistic" topology="2C"></div>
+<div class="pk-model-meta" hidden drug="diazepam" model-id="Diazepam_Huang2025v2_reference" status="curated_candidate" stale="false" population="" measured-compound="diazepam" parameterization="mechanistic" topology="1C"></div>
 
 ## Citation
 Huang Z, Fidler M, Lan M, Cheng lL, Kloprogge F, Standing JF. An automated pipeline to generate initial estimates for population pharmacokinetic models (2025).
@@ -21,25 +19,22 @@ Huang Z, Fidler M, Lan M, Cheng lL, Kloprogge F, Standing JF. An automated pipel
 
 ## Model
 
-**Structure:** 2-compartment, IV mammillary model — template `PK_2C`.  
+**Structure:** 1-compartment, IV mammillary model — template `PK_1C`.  
 **Parameterization:** mechanistic.  
-**Parameters:** 3 extracted.  
+**Parameters:** 2 extracted.  
 **Availability:** Model and browser simulation available in **Models** and **Simulation**.
 
 <figure class="pk-models-diagram"><img src="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference.svg" alt="Diazepam_Huang2025v2_reference diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure>
 
 ## Parameters
-> ⚠️ Status "Needs review": these are the values as extracted, **not verified**. Any model or simulator on the other tabs runs on these numbers.
-
 | label | parameter | value | unit |
 |---|---|---|---|
-| Final re-estimates of CL ranged from | CL | 3.9 | L/h |
-| of V d ranged from | V | 66.81 | L |
-| to | Q | 4.01 | L/h |
+| CL | CL | 3.9 | L/h |
+| V d | V | 66.81 | L |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss-120b (partly confirmed, agreement 0.667). Primary extraction retained.">cross-check: partial</span>
+**Status and checks:** <span class="pk-badge pk-badge--green">Reproduces paper</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.5). Primary extraction retained.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -49,21 +44,18 @@ Huang Z, Fidler M, Lan M, Cheng lL, Kloprogge F, Standing JF. An automated pipel
 
 ### Reviewer guidance
 
-**The diazepam intercompartmental clearance back to the central compartment lacks an explicit estimate, so a library placeholder would have been used.**
+**Every check that could be run on this record passed.**
 
-The record includes the forward clearance of 4.01 L/h but omits the reverse rate constant. Because the source is a secondary review, the reported values are ranges rather than fitted estimates from primary data. This missing parameter prevents complete definition of the intercompartmental transfer in the two-compartment structure. Extracted — diazepam: CL 3.9 L/h, V 66.8 L, Q 4.01 L/h.
+A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the value of CL: this record has 3.9, the second reading 4; it also differs on 1 more field. That field shapes the model, so the record is marked disputed.
 
-A second, independent reading of the paper (`gpt-oss-120b`) disagrees on parameter Q44: this record has none, the second reading 13.0; it also differs on 1 more field. That field does not shape the model.
-
-<sub>reviewed by qwen3.8-27b</sub>
+<sub>reviewed by rule template (no LLM)</sub>
 
 ### All parameter columns
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_si | unit_canonical | link | source |
 |---|---|---|---|---|---|---|---|---|
-| Final re-estimates of CL ranged from | `Q22` · CL | 3.9 | L/h | 1.083e-06 | m3/s | L/h | review (0.7) | Huang_2025_2:review |
-| of V d ranged from | `Q61` · V | 66.81 | L | 0.06681 | m3 | L | review (0.7) | Huang_2025_2:review |
-| to | `Q30` · Q | 4.01 | L/h | 1.114e-06 | m3/s | L/h | review (0.7) | Huang_2025_2:review |
+| CL | `Q22` · CL | 3.9 | L/h | 1.083e-06 | m3/s | L/h | review (0.7) | Huang_2025_2:review |
+| V d | `Q61` · V | 66.81 | L | 0.06681 | m3 | L | review (0.7) | Huang_2025_2:review |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
@@ -72,28 +64,25 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on paramet
 
 ## Departures & gaps
 
-**Deviations:**
-- `defaulted_parameters`: ['k21']
-
 **Interpretation flags:**
 - built from REVIEW reference values (Huang_2025_2) — secondary source
 - volume reported by review
 
 ## Validation
 
-**Cross-check (independent readings):** <span class="pk-badge pk-badge--orange">cross-check: partial</span>  
-Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
+Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss-120b` | partly confirmed | 0.667 (4/6 fields) | 2 |
+| `gpt-oss-120b` | not confirmed | 0.5 (2/4 fields) | 2 |
 
 <details><summary>2 field discrepancies</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss-120b` | `values[Q44]` |  | 13.0 | only_one_extracted |
-| `gpt-oss-120b` | `values[Q58]` |  | 0.2 | only_one_extracted |
+| `gpt-oss-120b` | `values[Q22]` | 3.9 | 4 | mismatch |
+| `gpt-oss-120b` | `values[Q61]` | 66.81 | 70 | mismatch |
 
 </details>
 
@@ -107,11 +96,10 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 
 | check | status | expected | obtained | source |
 |---|---|---|---|---|
-| C0_has_structural_params | pass |  | 3 |  |
+| C0_has_structural_params | pass |  | 2 |  |
 | C0b_disposition_core | pass |  |  |  |
 | C0c_disposition_complete | pass |  |  |  |
 | C5_dimension_Q22 | pass | [length] ** 3 / [time] |  | ['Huang_2025_2:review'] |
-| C5_dimension_Q30 | pass | [length] ** 3 / [time] |  | ['Huang_2025_2:review'] |
 | C5_dimension_Q61 | pass | [length] ** 3 |  | ['Huang_2025_2:review'] |
 | C6_cl_magnitude | pass | &lt;= 90.0 L/h | 3.9 | ['Huang_2025_2:review'] |
 | C8_topology | pass |  |  |  |
@@ -125,9 +113,9 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 | T0_analyte_identity | pass |  |  | V/CL labels are the drug's (or a metabolite's), no biomarker signal |
 | T2_covariates | skipped |  |  | no covariate effects in record |
 | T3_output_variable | pass | C_central (measured=diazepam) | central.C | output must be the measured/analyte compartment |
-| T3_param_coverage | pass | 3 scholar param(s) emitted or defaulted | 3 covered | all structural parameters accounted for |
-| T3_topology_template | pass | 2C → PK_2C* | PK_2C | engineer template must match the scholar topology |
-| T6_deviations | fail |  | defaulted_parameters: not acceptable | LLM adjudication → deterministic rule |
+| T3_param_coverage | pass | 2 scholar param(s) emitted or defaulted | 2 covered | all structural parameters accounted for |
+| T3_topology_template | pass | 1C → PK_1C* | PK_1C | engineer template must match the scholar topology |
+| T6_deviations | pass |  |  | no engineer deviations to adjudicate |
 
 <details class="legend">
 <summary>Validation definitions</summary>
@@ -143,15 +131,15 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_modelica.zip" download>Diazepam_Huang2025v2_reference_modelica.zip</a> <span class="pk-size">(3.8 kB)</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_fmi.zip" download>Diazepam_Huang2025v2_reference_fmi.zip</a> <span class="pk-size">(4.2 kB)</span><br><a href="models/fmu/PK_2C.fmu" download>PK_2C.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
-<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_matlab.zip" download>Diazepam_Huang2025v2_reference_matlab.zip</a> <span class="pk-size">(3.4 kB)</span></td></tr>
-<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_matlab_simbio.zip" download>Diazepam_Huang2025v2_reference_matlab_simbio.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
-<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_sbml.zip" download>Diazepam_Huang2025v2_reference_sbml.zip</a> <span class="pk-size">(2.5 kB)</span></td></tr>
-<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_cellml.zip" download>Diazepam_Huang2025v2_reference_cellml.zip</a> <span class="pk-size">(3.0 kB)</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_modelica.zip" download>Diazepam_Huang2025v2_reference_modelica.zip</a> <span class="pk-size">(3.5 kB)</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_fmi.zip" download>Diazepam_Huang2025v2_reference_fmi.zip</a> <span class="pk-size">(4.1 kB)</span><br><a href="models/fmu/PK_1C.fmu" download>PK_1C.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_matlab.zip" download>Diazepam_Huang2025v2_reference_matlab.zip</a> <span class="pk-size">(3.3 kB)</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_matlab_simbio.zip" download>Diazepam_Huang2025v2_reference_matlab_simbio.zip</a> <span class="pk-size">(3.0 kB)</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_sbml.zip" download>Diazepam_Huang2025v2_reference_sbml.zip</a> <span class="pk-size">(2.4 kB)</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_cellml.zip" download>Diazepam_Huang2025v2_reference_cellml.zip</a> <span class="pk-size">(2.9 kB)</span></td></tr>
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
-<p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PK_2C.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
+<p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PK_1C.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
 </div></div>
 
 ## Model interface
@@ -167,13 +155,12 @@ The parameters this record sets on the template, in the template's SI units, and
 | input | dosing | `adminMass` | 1e-05 | kg |
 | input | model | `Cl` | 1.083e-06 | m3/s |
 | input | model | `VdPerKg` | 0.0009544 | m3/kg |
-| input | model | `k12` | 1.667e-05 | 1/s |
 | input | subject | `weight` | 70 | kg |
 | output | concentration | `central.C` |  | kg/m3 |
 
 ## Tested with
 
-- Template `Pharmacolibrary.Pharmacokinetic.Models.PK_2C`, compiled by OpenModelica Compiler OpenModelica 1.26.7~1-g2b913cc.
+- Template `Pharmacolibrary.Pharmacokinetic.Models.PK_1C`, compiled by OpenModelica Compiler OpenModelica 1.26.7~1-g2b913cc.
 - Reference peak computed with FMPy from the compiled FMU; the Simulation tab re-runs the same FMU in the browser and compares its peak with it.
 - No automated comparison across the download formats runs for this template yet; the FMI archive is the reference implementation.
 
@@ -181,13 +168,12 @@ The parameters this record sets on the template, in the template's SI units, and
 
 **Source paper** (the parameters are its): Huang Z, Fidler M, Lan M, Cheng lL, Kloprogge F, Standing JF. An automated pipeline to generate initial estimates for population pharmacokinetic models (2025). [doi:10.21203/rs.3.rs-5806446/v1](https://doi.org/10.21203/rs.3.rs-5806446/v1)
 
-**This record:** Pharmacolibrary v26.09, model `Diazepam_Huang2025v2_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_diazepam/Diazepam_Huang2025v2_reference>
+**This record:** Pharmacolibrary, model `Diazepam_Huang2025v2_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_diazepam/Diazepam_Huang2025v2_reference>
 
 ```bibtex
 @misc{pharmacolibrary_DiazepamHuang2025v2reference,
   title  = {{Pharmacolibrary model Diazepam_Huang2025v2_reference}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_diazepam/Diazepam_Huang2025v2_reference},
   note   = {Parameters from doi:10.21203/rs.3.rs-5806446/v1},
 }
@@ -199,12 +185,12 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 
 **Administration: intravenous** — 10 mg infusion over 10 min, single dose. _The paper's dose was not captured; the default is the WHO ATC DDD 10 mg parenteral (N05BA01) (defined daily dose)._
 
-<dbs-fmusim paramsurl="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_params.json" metaurl="assets/fmu/PK_2C.vr.json" wasmurl="assets/fmu/PK_2C.js" controlsurl="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_sim_controls.json"></dbs-fmusim>
+<dbs-fmusim paramsurl="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_params.json" metaurl="assets/fmu/PK_1C.vr.json" wasmurl="assets/fmu/PK_1C.js" controlsurl="drugs/drug_diazepam/Diazepam_Huang2025v2_reference/Diazepam_Huang2025v2_reference_sim_controls.json"></dbs-fmusim>
 
-<sub>WebAssembly simulation using extracted parameters. The reference check compares the browser peak with the recorded FMPy result and is disabled after parameter edits. Template `PK_2C` · parameters `Diazepam_Huang2025v2_reference_params.json` · controls `Diazepam_Huang2025v2_reference_sim_controls.json`. *Simulator value* denotes a template default, not an extracted estimate.</sub>
+<sub>WebAssembly simulation using extracted parameters. The reference check compares the browser peak with the recorded FMPy result and is disabled after parameter edits. Template `PK_1C` · parameters `Diazepam_Huang2025v2_reference_params.json` · controls `Diazepam_Huang2025v2_reference_sim_controls.json`. *Simulator value* denotes a template default, not an extracted estimate.</sub>
 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bdiazepam%5D%20Diazepam_Huang2025v2_reference&body=Drug%3A%20diazepam%0ARecord%3A%20Diazepam_Huang2025v2_reference%0APaper%3A%20Huang_2025_2%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_diazepam/Diazepam_Huang2025v2_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 14:14 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bdiazepam%5D%20Diazepam_Huang2025v2_reference&body=Drug%3A%20diazepam%0ARecord%3A%20Diazepam_Huang2025v2_reference%0APaper%3A%20Huang_2025_2%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_diazepam/Diazepam_Huang2025v2_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 21:18 UTC</sub>

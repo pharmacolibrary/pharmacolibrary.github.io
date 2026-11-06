@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B01A&quot;,&quot;href&quot;:&quot;atc/B01A.md&quot;},{&quot;label&quot;:&quot;warfarin&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/&quot;},{&quot;label&quot;:&quot;Kwack_2026 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Warfarin_Sridharan2021_reference&quot;,&quot;label&quot;:&quot;Sridharan_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Sridharan2021_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Kwack2026_reference&quot;,&quot;label&quot;:&quot;Kwack_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Kwack2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Warfarin_Zhu2017_reference&quot;,&quot;label&quot;:&quot;Zhu_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Zhu2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Aoyama_2022_INR&quot;,&quot;label&quot;:&quot;Aoyama_2022 \u00b7 INR&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/pd_Aoyama_2022_INR.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hirai_2024_PT_INR&quot;,&quot;label&quot;:&quot;Hirai_2024 \u00b7 PT-INR&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/pd_Hirai_2024_PT_INR.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Warfarin_Davies2010_reference&quot;,&quot;label&quot;:&quot;Davies_2010_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Davies2010_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Ferrari2017_reference&quot;,&quot;label&quot;:&quot;Ferrari_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Ferrari2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Gomeni2026_reference&quot;,&quot;label&quot;:&quot;Gomeni_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Gomeni2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Kwack2026_reference&quot;,&quot;label&quot;:&quot;Kwack_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Kwack2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Warfarin_Ooi2017_reference&quot;,&quot;label&quot;:&quot;Ooi_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Ooi2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Zhu2017_reference&quot;,&quot;label&quot;:&quot;Zhu_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Zhu2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Aoyama_2022_INR&quot;,&quot;label&quot;:&quot;Aoyama_2022 \u00b7 INR&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/pd_Aoyama_2022_INR.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Sasaki_2009_INR&quot;,&quot;label&quot;:&quot;Sasaki_2009 \u00b7 INR&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/pd_Sasaki_2009_INR.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -7,7 +7,7 @@
 
 > ## <span class="pk-badge pk-badge--orange">Needs review</span>
 
-> Warfarin bioavailability was left at library defaults, lacking explicit values from the Kwack review reference.
+> Warfarin bioavailability used a library placeholder instead of a paper value, and the absorption rate constant disagrees with a second reader's extraction.
 
 <div class="pk-model-meta" hidden drug="warfarin" model-id="Warfarin_Kwack2026_reference" status="needs_review" stale="false" population="" measured-compound="warfarin" parameterization="mechanistic" topology="1C"></div>
 
@@ -35,12 +35,12 @@ Kwack H, Kong H, Lim J, Zhang BT, Hahn J, Chang MJ. PKGPT: Expert-Orchestrated R
 |---|---|---|---|
 | CL (L/h) | CL | 0.135 | L/h |
 | V (L) | V | 7.86 | L |
-| Ka (h−1) | kabs | 1.15 | h−1 |
 | ALAG (h) | tlag | 0.825 | h |
+| Ka (h−1) | kabs | 1.15 | h−1 |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.154). Primary extraction retained.">cross-check: disputed</span>
+**Status and checks:** <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.167). Primary extraction retained.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -50,11 +50,11 @@ Kwack H, Kong H, Lim J, Zhang BT, Hahn J, Chang MJ. PKGPT: Expert-Orchestrated R
 
 ### Reviewer guidance
 
-**Warfarin bioavailability was left at library defaults, lacking explicit values from the Kwack review reference.**
+**Warfarin bioavailability used a library placeholder instead of a paper value, and the absorption rate constant disagrees with a second reader's extraction.**
 
-The record lists clearance, volume, absorption rate, and lag time but omits bioavailability. A library placeholder was therefore used for the bioavailability parameter. This unreported parameter deviation means the simulated profile relies on assumptions not supported by the paper. Extracted — warfarin: CL 0.135 L/h, V 7.86 L, kabs 1.15 h−1, tlag 0.825 h.
+The record contains no explicit bioavailability estimate, so a library placeholder was used instead of a value derived from this paper. The second reader identifies the absorption rate constant as 0.545 h−1, contradicting the recorded 1.15 h−1, and disputes the clearance of 0.135 L/h. Because the source is a review, these summary statistics stand in for a fitted model, making the default assumptions problematic. Extracted — warfarin: CL 0.135 L/h, V 7.86 L, tlag 0.825 h, kabs 1.15 h−1.
 
-A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the value of CL: this record has 0.135, the second reading 0.133; it also differs on 10 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the value of CL: this record has 0.135, the second reading 0.133; it also differs on 9 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by qwen3.8-27b</sub>
 
@@ -64,8 +64,8 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the val
 |---|---|---|---|---|---|---|---|---|
 | CL (L/h) | `Q22` · CL | 0.135 | L/h | 3.75e-08 | m3/s | L/h | review (0.7) | Kwack_2026:review |
 | V (L) | `Q61` · V | 7.86 | L | 0.00786 | m3 | L | review (0.7) | Kwack_2026:review |
-| Ka (h−1) | `Q49` · kabs | 1.15 | h−1 | 0.0003194 | 1/s | 1/h | review (0.7) | Kwack_2026:review |
 | ALAG (h) | `Q83` · tlag | 0.825 | h | 2970 | s | h | review (0.7) | Kwack_2026:review |
+| Ka (h−1) | `Q49` · kabs | 1.15 | h−1 | 0.0003194 | 1/s | 1/h | review (0.7) | Kwack_2026:review |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
@@ -84,13 +84,13 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the val
 ## Validation
 
 **Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
-Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check verdict.
+Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss-120b` | not confirmed | 0.154 (2/13 fields) | 11 |
+| `gpt-oss-120b` | not confirmed | 0.167 (2/12 fields) | 10 |
 
-<details><summary>11 field discrepancies</summary>
+<details><summary>10 field discrepancies</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
@@ -98,7 +98,6 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 | `gpt-oss-120b` | `values[Q22]` | 0.135 | 0.133 | mismatch |
 | `gpt-oss-120b` | `values[Q30]` |  | 6.85 | only_one_extracted |
 | `gpt-oss-120b` | `values[Q312]` |  | 0.519 | only_one_extracted |
-| `gpt-oss-120b` | `values[Q318]` |  | 42.8 | only_one_extracted |
 | `gpt-oss-120b` | `values[Q352]` |  | 7.86 | only_one_extracted |
 | `gpt-oss-120b` | `values[Q354]` |  | 0.135 | only_one_extracted |
 | `gpt-oss-120b` | `values[Q49]` | 1.15 | 0.545 | mismatch |
@@ -194,13 +193,12 @@ The parameters this record sets on the template, in the template's SI units, and
 
 **Source paper** (the parameters are its): Kwack H, Kong H, Lim J, Zhang BT, Hahn J, Chang MJ. PKGPT: Expert-Orchestrated Recursive LLM Agent for Automated NONMEM PopPK Modeling with Human Benchmarking. Pharmaceutics 18(4) (2026). [doi:10.3390/pharmaceutics18040501](https://doi.org/10.3390/pharmaceutics18040501)
 
-**This record:** Pharmacolibrary v26.09, model `Warfarin_Kwack2026_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_warfarin/Warfarin_Kwack2026_reference>
+**This record:** Pharmacolibrary, model `Warfarin_Kwack2026_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_warfarin/Warfarin_Kwack2026_reference>
 
 ```bibtex
 @misc{pharmacolibrary_WarfarinKwack2026reference,
   title  = {{Pharmacolibrary model Warfarin_Kwack2026_reference}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_warfarin/Warfarin_Kwack2026_reference},
   note   = {Parameters from doi:10.3390/pharmaceutics18040501},
 }
@@ -219,5 +217,5 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bwarfarin%5D%20Warfarin_Kwack2026_reference&body=Drug%3A%20warfarin%0ARecord%3A%20Warfarin_Kwack2026_reference%0APaper%3A%20Kwack_2026%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_warfarin/Warfarin_Kwack2026_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 08:59 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bwarfarin%5D%20Warfarin_Kwack2026_reference&body=Drug%3A%20warfarin%0ARecord%3A%20Warfarin_Kwack2026_reference%0APaper%3A%20Kwack_2026%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_warfarin/Warfarin_Kwack2026_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-04 14:56 UTC</sub>

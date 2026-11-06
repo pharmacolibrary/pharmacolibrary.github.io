@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;J01M&quot;,&quot;href&quot;:&quot;atc/J01M.md&quot;},{&quot;label&quot;:&quot;ciprofloxacin&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/&quot;},{&quot;label&quot;:&quot;Zhu_2026 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ciprofloxacin_Dowling1995_reference&quot;,&quot;label&quot;:&quot;Dowling_1995_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Dowling1995_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Haefliger2025_reference&quot;,&quot;label&quot;:&quot;Haefliger_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Haefliger2025_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Zhu2026_reference&quot;,&quot;label&quot;:&quot;Zhu_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Zhu2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Ciprofloxacin_Alihodzic2022_reference&quot;,&quot;label&quot;:&quot;Alihodzic_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Alihodzic2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Alonso2021_reference&quot;,&quot;label&quot;:&quot;Alonso_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Alonso2021_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Forrest1993_reference&quot;,&quot;label&quot;:&quot;Forrest_1993_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Forrest1993_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Garg2024_reference&quot;,&quot;label&quot;:&quot;Garg_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Garg2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Guo2022_reference&quot;,&quot;label&quot;:&quot;Guo_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Guo2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ciprofloxacin_BalbasMartinez2019_reference&quot;,&quot;label&quot;:&quot;Balbas-Martinez_2019_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_BalbasMartinez2019_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Guo2022_reference&quot;,&quot;label&quot;:&quot;Guo_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Guo2022_reference.md&quot;,&quot;status&quot;:&quot;Not simulated \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Zhu2026_reference&quot;,&quot;label&quot;:&quot;Zhu_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Zhu2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Ciprofloxacin_Abdulla2020_reference&quot;,&quot;label&quot;:&quot;Abdulla_2020_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Abdulla2020_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Alihodzic2022_base&quot;,&quot;label&quot;:&quot;Alihodzic_2022_base&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Alihodzic2022_base.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Alihodzic2022_final&quot;,&quot;label&quot;:&quot;Alihodzic_2022_final&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Alihodzic2022_final.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Breilh2001_reference&quot;,&quot;label&quot;:&quot;Breilh_2001_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Breilh2001_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Conil2008_basic_model_mean_s_d&quot;,&quot;label&quot;:&quot;Conil_2008_basic_model_mean_s_d&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Conil2008_basic_model_mean_s_d.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Conil2008_final&quot;,&quot;label&quot;:&quot;Conil_2008_final&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Conil2008_final.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_El2026_reference&quot;,&quot;label&quot;:&quot;El_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_El2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Garg2024_reference&quot;,&quot;label&quot;:&quot;Garg_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Garg2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Guo2022_base&quot;,&quot;label&quot;:&quot;Guo_2022_base&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Guo2022_base.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Guo2022_final&quot;,&quot;label&quot;:&quot;Guo_2022_final&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Guo2022_final.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Hirt2021_building_dataset&quot;,&quot;label&quot;:&quot;Hirt_2021_building_dataset&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Hirt2021_building_dataset.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Hirt2021_building_validation&quot;,&quot;label&quot;:&quot;Hirt_2021_building_validation&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Hirt2021_building_validation.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Montgomery2001_reference&quot;,&quot;label&quot;:&quot;Montgomery_2001_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Montgomery2001_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Papich2017_reference&quot;,&quot;label&quot;:&quot;Papich_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Saleem2021_reference&quot;,&quot;label&quot;:&quot;Saleem_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Saleem2021_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Dowling1995_reference&quot;,&quot;label&quot;:&quot;Dowling_1995_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Dowling1995_reference.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Santavy2023_reference&quot;,&quot;label&quot;:&quot;Santavy_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Santavy2023_reference.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Zhu_2026_BIS&quot;,&quot;label&quot;:&quot;Zhu_2026 \u00b7 BIS&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Zhu_2026_BIS.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Campion_2005_R&quot;,&quot;label&quot;:&quot;Campion_2005 \u00b7 R&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Campion_2005_R.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Campion_2005_S&quot;,&quot;label&quot;:&quot;Campion_2005 \u00b7 S&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Campion_2005_S.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hoogeterp_1989_EN&quot;,&quot;label&quot;:&quot;Hoogeterp_1989 \u00b7 EN&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Hoogeterp_1989_EN.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hoogeterp_1989_EN_2&quot;,&quot;label&quot;:&quot;Hoogeterp_1989 \u00b7 EN&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Hoogeterp_1989_EN_2.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Sadouki_2025_CFU&quot;,&quot;label&quot;:&quot;Sadouki_2025 \u00b7 CFU&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Sadouki_2025_CFU.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction&quot;,&quot;label&quot;:&quot;Xiao_2018 \u00b7 in vivo effectiveness (bacteria loading reduction)&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction_2&quot;,&quot;label&quot;:&quot;Xiao_2018 \u00b7 in vivo effectiveness (bacteria loading reduction)&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction_2.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction_3&quot;,&quot;label&quot;:&quot;Xiao_2018 \u00b7 in vivo effectiveness (bacteria loading reduction)&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction_3.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Zhao_2024_k_CIP&quot;,&quot;label&quot;:&quot;Zhao_2024 \u00b7 k_CIP&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Zhao_2024_k_CIP.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -29,14 +29,14 @@ Zhu J, He J, Zhong B, Cao Y, Zhang X, Xu B. From pharmacokinetics to precision d
 ## Parameters
 | label | parameter | value | unit |
 |---|---|---|---|
-| CL (L·min-1) | CL | 1.01 | L·min-1 |
-| V1 (L) | V1 | 2.95 | L |
-| V2 (L) | V2 | 45.15 | L |
-| Q2 (L·min-1) | Q | 0.76 | L·min-1 |
+| CL (L·min-1) | CL | 0.98 | L·min-1 |
+| V1 (L) | V1 | 2.78 | L |
+| V2 (L) | V2 | 42.8 | L |
+| Q2 (L·min-1) | Q | 0.73 | L·min-1 |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--green">Reproduces paper</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss-120b (partly confirmed, agreement 0.533). Primary extraction retained.">cross-check: partial</span>
+**Status and checks:** <span class="pk-badge pk-badge--green">Reproduces paper</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.167). Primary extraction retained.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -48,7 +48,7 @@ Zhu J, He J, Zhong B, Cao Y, Zhang X, Xu B. From pharmacokinetics to precision d
 
 **Every check that could be run on this record passed.**
 
-A second, independent reading of the paper (`gpt-oss-120b`) disagrees on parameter Q312: this record has 0.11, the second reading none; it also differs on 6 more fields. That field does not shape the model.
+A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the value of CL: this record has 0.98, the second reading 1.01; it also differs on 9 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
@@ -56,10 +56,10 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on paramet
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_si | unit_canonical | link | source |
 |---|---|---|---|---|---|---|---|---|
-| CL (L·min-1) | `Q22` · CL | 1.01 | L·min-1 | 1.683e-05 | m3/s | L/h | review (0.7) | Zhu_2026:review |
-| V1 (L) | `Q63` · V1 | 2.95 | L | 0.00295 | m3 | L | review (0.7) | Zhu_2026:review |
-| V2 (L) | `Q64` · V2 | 45.15 | L | 0.04515 | m3 | L | review (0.7) | Zhu_2026:review |
-| Q2 (L·min-1) | `Q30` · Q | 0.76 | L·min-1 | 1.267e-05 | m3/s | L/h | review (0.7) | Zhu_2026:review |
+| CL (L·min-1) | `Q22` · CL | 0.98 | L·min-1 | 1.633e-05 | m3/s | L/h | review (0.7) | Zhu_2026:review |
+| V1 (L) | `Q63` · V1 | 2.78 | L | 0.00278 | m3 | L | review (0.7) | Zhu_2026:review |
+| V2 (L) | `Q64` · V2 | 42.8 | L | 0.0428 | m3 | L | review (0.7) | Zhu_2026:review |
+| Q2 (L·min-1) | `Q30` · Q | 0.73 | L·min-1 | 1.217e-05 | m3/s | L/h | review (0.7) | Zhu_2026:review |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
@@ -74,24 +74,27 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on paramet
 
 ## Validation
 
-**Cross-check (independent readings):** <span class="pk-badge pk-badge--orange">cross-check: partial</span>  
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
 Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss-120b` | partly confirmed | 0.533 (8/15 fields) | 7 |
+| `gpt-oss-120b` | not confirmed | 0.167 (2/12 fields) | 10 |
 
-<details><summary>7 field discrepancies</summary>
+<details><summary>10 field discrepancies</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss-120b` | `values[Q312]` | 0.11 |  | only_one_extracted |
-| `gpt-oss-120b` | `values[Q315]` | 0.26 |  | only_one_extracted |
+| `gpt-oss-120b` | `values[Q22]` | 0.98 | 1.01 | mismatch |
+| `gpt-oss-120b` | `values[Q308]` |  | 0.66 | only_one_extracted |
+| `gpt-oss-120b` | `values[Q30]` | 0.73 | 0.76 | mismatch |
 | `gpt-oss-120b` | `values[Q320]` |  | 45.77 | only_one_extracted |
 | `gpt-oss-120b` | `values[Q321]` |  | 233.91 | only_one_extracted |
-| `gpt-oss-120b` | `values[Q325]` |  | 3.00 | only_one_extracted |
 | `gpt-oss-120b` | `values[Q326]` |  | 1.09 | only_one_extracted |
-| `gpt-oss-120b` | `values[Q99]` | 0.03 |  | only_one_extracted |
+| `gpt-oss-120b` | `values[Q343]` |  | 3.0 | only_one_extracted |
+| `gpt-oss-120b` | `values[Q63]` | 2.78 | 2.95 | mismatch |
+| `gpt-oss-120b` | `values[Q64]` | 42.8 | 45.15 | mismatch |
+| `gpt-oss-120b` | `values[Q77]` | 75.26 | 76.79 | mismatch |
 
 </details>
 
@@ -112,11 +115,11 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 | C5_dimension_Q30 | pass | [length] ** 3 / [time] |  | ['Zhu_2026:review'] |
 | C5_dimension_Q63 | pass | [length] ** 3 |  | ['Zhu_2026:review'] |
 | C5_dimension_Q64 | pass | [length] ** 3 |  | ['Zhu_2026:review'] |
-| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 1.01 | ['Zhu_2026:review'] |
+| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 0.98 | ['Zhu_2026:review'] |
 | C8_topology | pass |  |  |  |
-| C9_phys_window_Q22 | pass | clearance within physiological range | 60.6 L/h | ['Zhu_2026:review'] |
-| C9_phys_window_Q63 | pass | volume within physiological range | 2.95 L | ['Zhu_2026:review'] |
-| C9_phys_window_Q64 | pass | volume within physiological range | 45.2 L | ['Zhu_2026:review'] |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 58.8 L/h | ['Zhu_2026:review'] |
+| C9_phys_window_Q63 | pass | volume within physiological range | 2.78 L | ['Zhu_2026:review'] |
+| C9_phys_window_Q64 | pass | volume within physiological range | 42.8 L | ['Zhu_2026:review'] |
 
 **Reviewer per-scenario checks:**
 
@@ -165,10 +168,10 @@ The parameters this record sets on the template, in the template's SI units, and
 | input | dosing | `adminCount` | 1 | 1 |
 | input | dosing | `adminDuration` | 600 | s |
 | input | dosing | `adminMass` | 0.0008 | kg |
-| input | model | `Cl` | 1.683e-05 | m3/s |
-| input | model | `VdPerKg` | 4.214e-05 | m3/kg |
-| input | model | `k12` | 0.004294 | 1/s |
-| input | model | `k21` | 0.0002805 | 1/s |
+| input | model | `Cl` | 1.633e-05 | m3/s |
+| input | model | `VdPerKg` | 3.971e-05 | m3/kg |
+| input | model | `k12` | 0.004376 | 1/s |
+| input | model | `k21` | 0.0002843 | 1/s |
 | input | subject | `weight` | 70 | kg |
 | output | concentration | `central.C` |  | kg/m3 |
 
@@ -182,13 +185,12 @@ The parameters this record sets on the template, in the template's SI units, and
 
 **Source paper** (the parameters are its): Zhu J, He J, Zhong B, Cao Y, Zhang X, Xu B. From pharmacokinetics to precision dosing: optimizing continuous infusion regimens of ciprofol for elderly patients. Frontiers in pharmacology 17:1764590 (2026). [doi:10.3389/fphar.2026.1764590](https://doi.org/10.3389/fphar.2026.1764590)
 
-**This record:** Pharmacolibrary v26.09, model `Ciprofloxacin_Zhu2026_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_ciprofloxacin/Ciprofloxacin_Zhu2026_reference>
+**This record:** Pharmacolibrary, model `Ciprofloxacin_Zhu2026_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_ciprofloxacin/Ciprofloxacin_Zhu2026_reference>
 
 ```bibtex
 @misc{pharmacolibrary_CiprofloxacinZhu2026reference,
   title  = {{Pharmacolibrary model Ciprofloxacin_Zhu2026_reference}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_ciprofloxacin/Ciprofloxacin_Zhu2026_reference},
   note   = {Parameters from doi:10.3389/fphar.2026.1764590},
 }
@@ -207,5 +209,5 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bciprofloxacin%5D%20Ciprofloxacin_Zhu2026_reference&body=Drug%3A%20ciprofloxacin%0ARecord%3A%20Ciprofloxacin_Zhu2026_reference%0APaper%3A%20Zhu_2026%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_ciprofloxacin/Ciprofloxacin_Zhu2026_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 12:58 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bciprofloxacin%5D%20Ciprofloxacin_Zhu2026_reference&body=Drug%3A%20ciprofloxacin%0ARecord%3A%20Ciprofloxacin_Zhu2026_reference%0APaper%3A%20Zhu_2026%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_ciprofloxacin/Ciprofloxacin_Zhu2026_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 16:50 UTC</sub>

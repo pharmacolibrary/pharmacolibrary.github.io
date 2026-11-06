@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C02C&quot;,&quot;href&quot;:&quot;atc/C02C.md&quot;},{&quot;label&quot;:&quot;doxazosin&quot;,&quot;href&quot;:&quot;drugs/drug_doxazosin/&quot;},{&quot;label&quot;:&quot;Chrisp_1990 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Doxazosin_Chrisp1990_reference&quot;,&quot;label&quot;:&quot;Chrisp_1990_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_doxazosin/Doxazosin_Chrisp1990_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Doxazosin_Young1988_reference&quot;,&quot;label&quot;:&quot;Young_1988_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_doxazosin/Doxazosin_Young1988_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Doxazosin_unknown2023_reference&quot;,&quot;label&quot;:&quot;unknown_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_doxazosin/Doxazosin_unknown2023_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Doxazosin_Chrisp1990_reference&quot;,&quot;label&quot;:&quot;Chrisp_1990_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_doxazosin/Doxazosin_Chrisp1990_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Doxazosin_Young1988_reference&quot;,&quot;label&quot;:&quot;Young_1988_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_doxazosin/Doxazosin_Young1988_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Doxazosin_unknown2023_reference&quot;,&quot;label&quot;:&quot;unknown_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_doxazosin/Doxazosin_unknown2023_reference.md&quot;,&quot;status&quot;:&quot;Not simulated \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -36,7 +36,7 @@ Chrisp P, Goa KL. Dilevalol. A review of its pharmacodynamic and pharmacokinetic
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--green">Reproduces paper</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.571). Primary extraction retained.">cross-check: disputed</span>
+**Status and checks:** <span class="pk-badge pk-badge--green">Reproduces paper</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.231). Primary extraction retained.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -48,7 +48,7 @@ Chrisp P, Goa KL. Dilevalol. A review of its pharmacodynamic and pharmacokinetic
 
 **Every check that could be run on this record passed.**
 
-A second, independent reading of the paper (`gpt-oss-120b`) disagrees on parameter Q17: this record has 243, the second reading none; it also differs on 5 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss-120b`) disagrees on parameter Q17: this record has 243, the second reading 243; it also differs on 9 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
@@ -73,22 +73,26 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on paramet
 ## Validation
 
 **Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
-Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check verdict.
+Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss-120b` | not confirmed | 0.571 (8/14 fields) | 6 |
+| `gpt-oss-120b` | not confirmed | 0.231 (3/13 fields) | 10 |
 
-<details><summary>6 field discrepancies</summary>
+<details><summary>10 field discrepancies</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss-120b` | `values[Q17]` | 243 |  | only_one_extracted |
-| `gpt-oss-120b` | `values[Q19]` | 1465 | 77.2 | mismatch |
+| `gpt-oss-120b` | `values[Q17]` | 243 | 243 | mismatch |
+| `gpt-oss-120b` | `values[Q19]` | 54.2 | 54.2 | mismatch |
+| `gpt-oss-120b` | `values[Q322]` |  | 7.5 | only_one_extracted |
+| `gpt-oss-120b` | `values[Q32]` | 61.5 | 220 | mismatch |
+| `gpt-oss-120b` | `values[Q40]` |  | 30 | only_one_extracted |
 | `gpt-oss-120b` | `values[Q44]` |  | 1.25 | only_one_extracted |
-| `gpt-oss-120b` | `values[Q53]` |  | 48 | only_one_extracted |
-| `gpt-oss-120b` | `values[Q56]` |  | 50 | only_one_extracted |
-| `gpt-oss-120b` | `values[Q88]` |  | 243 | only_one_extracted |
+| `gpt-oss-120b` | `values[Q46]` |  | 75 | only_one_extracted |
+| `gpt-oss-120b` | `values[Q57]` |  | 8 | only_one_extracted |
+| `gpt-oss-120b` | `values[Q61]` |  | 25 | only_one_extracted |
+| `gpt-oss-120b` | `values[Q76]` | 25 | 24.6 | mismatch |
 
 </details>
 
@@ -174,13 +178,12 @@ The parameters this record sets on the template, in the template's SI units, and
 
 **Source paper** (the parameters are its): Chrisp P, Goa KL. Dilevalol. A review of its pharmacodynamic and pharmacokinetic properties, and therapeutic potential in hypertension. Drugs 39(2):234–263 (1990). [doi:10.2165/00003495-199039020-00007](https://doi.org/10.2165/00003495-199039020-00007)
 
-**This record:** Pharmacolibrary v26.09, model `Doxazosin_Chrisp1990_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_doxazosin/Doxazosin_Chrisp1990_reference>
+**This record:** Pharmacolibrary, model `Doxazosin_Chrisp1990_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_doxazosin/Doxazosin_Chrisp1990_reference>
 
 ```bibtex
 @misc{pharmacolibrary_DoxazosinChrisp1990reference,
   title  = {{Pharmacolibrary model Doxazosin_Chrisp1990_reference}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_doxazosin/Doxazosin_Chrisp1990_reference},
   note   = {Parameters from doi:10.2165/00003495-199039020-00007},
 }
@@ -199,5 +202,5 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bdoxazosin%5D%20Doxazosin_Chrisp1990_reference&body=Drug%3A%20doxazosin%0ARecord%3A%20Doxazosin_Chrisp1990_reference%0APaper%3A%20Chrisp_1990%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_doxazosin/Doxazosin_Chrisp1990_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-09-27 13:37 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bdoxazosin%5D%20Doxazosin_Chrisp1990_reference&body=Drug%3A%20doxazosin%0ARecord%3A%20Doxazosin_Chrisp1990_reference%0APaper%3A%20Chrisp_1990%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_doxazosin/Doxazosin_Chrisp1990_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-09-27 13:37 UTC</sub>

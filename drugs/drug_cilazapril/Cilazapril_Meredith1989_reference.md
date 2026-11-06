@@ -1,14 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C09A&quot;,&quot;href&quot;:&quot;atc/C09A.md&quot;},{&quot;label&quot;:&quot;cilazapril&quot;,&quot;href&quot;:&quot;drugs/drug_cilazapril/&quot;},{&quot;label&quot;:&quot;Meredith_1989 \u00b7 reference&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Cilazapril_Song2002_reference&quot;,&quot;label&quot;:&quot;Song_2002_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_cilazapril/Cilazapril_Song2002_reference.md&quot;,&quot;status&quot;:&quot;Not simulated \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Cilazapril_Wright2025_reference&quot;,&quot;label&quot;:&quot;Wright_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_cilazapril/Cilazapril_Wright2025_reference.md&quot;,&quot;status&quot;:&quot;Not simulated \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # cilazapril — `Cilazapril_Meredith1989_reference`
 
-> ## <span class="pk-badge pk-badge--orange">Needs review</span>
+> ## <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--stale">stale</span>
 
-> CL/F, V/F and CL have no unit.
+> This record was reviewed on 2026-11-03 07:57 UTC (Needs review), but the paper was screened again on 2026-11-03 11:10 UTC, so that review may no longer match the record. Until it is reviewed again, the status shown comes from the automatic checks. CL/F, V/F and CL have no unit.
 
-<div class="pk-model-meta" hidden drug="cilazapril" model-id="Cilazapril_Meredith1989_reference" status="needs_review" stale="false" population="patients with essential hypertension" measured-compound="cilazaprilat" parameterization="apparent" topology="1C"></div>
+<div class="pk-model-meta" hidden drug="cilazapril" model-id="Cilazapril_Meredith1989_reference" status="needs_review" stale="true" population="patients with essential hypertension" measured-compound="cilazaprilat" parameterization="apparent" topology="1C"></div>
 
 ## Citation
 Meredith PA, Elliott HL, Reid JL, Francis RJ. The pharmacokinetics and angiotensin converting enzyme inhibition dynamics of cilazapril in essential hypertension. British journal of clinical pharmacology 27 Suppl 2(Suppl 2):263S–266S (1989).
@@ -26,7 +27,7 @@ Meredith PA, Elliott HL, Reid JL, Francis RJ. The pharmacokinetics and angiotens
 
 **Structure:** 1-compartment; no model was built for this record.  
 **Parameterization:** CL/F, V/F — apparent, F unknown (apparent — bioavailability not identifiable).  
-**Parameters:** 5 extracted.  
+**Parameters:** 4 extracted.  
 **Availability:** No model was generated from this record.
 
 ## Parameters
@@ -37,12 +38,11 @@ Meredith PA, Elliott HL, Reid JL, Francis RJ. The pharmacokinetics and angiotens
 | Apparent clearance | CL/F | 0.4 |  |
 | Apparent volume of distribution | V/F | 31 | 1 |
 | free drug clearance | CL | 15 | 1 h-1 |
-| Ka | kabs | 0.319 | h–1 |
-| LAG | tlag | 2.0 | h |
+| Ego-onset ( h) | tlag | 1.2 | h |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.2). Primary extraction retained.">cross-check: disputed</span>
+**Status and checks:** <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--stale">stale</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.2). Primary extraction retained.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -54,7 +54,7 @@ Meredith PA, Elliott HL, Reid JL, Francis RJ. The pharmacokinetics and angiotens
 
 **CL/F, V/F and CL have no unit.**
 
-Without a unit the value cannot be converted, so the model cannot use it. A reported unit could not be converted (V/F and CL), so that value has no SI equivalent. None of the extracted parameters is cilazapril's own; they describe cilazaprilat. Extracted — cilazaprilat: CL/F 0.4, V/F 31 1, CL 15 1 h-1, kabs 0.319 h–1, tlag 2 h.
+Without a unit the value cannot be converted, so the model cannot use it. A reported unit could not be converted (V/F and CL), so that value has no SI equivalent. None of the extracted parameters is cilazapril's own; they describe cilazaprilat. Extracted — cilazaprilat: CL/F 0.4, V/F 31 1, CL 15 1 h-1.
 
 A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the links between molecules: this record has none, the second reading cilazapril → cilazaprilat (metabolism); it also differs on 7 more fields. That field shapes the model, so the record is marked disputed.
 
@@ -67,8 +67,7 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the lin
 | Apparent clearance | `Q27` · CL/F | 0.4 |  |  |  | L/h | exact (1) | Meredith_1989:other_prose |
 | Apparent volume of distribution | `Q76` · V/F | 31 | 1 |  |  | 1 | exact (1) | Meredith_1989:other_prose |
 | free drug clearance | `Q22` · CL | 15 | 1 h-1 |  |  | 1 h-1 | boundary (0.8) | Meredith_1989:other_prose |
-| Ka | `Q49` · kabs | 0.319 | h–1 | 8.861e-05 | 1/s | 1/h | review_gapfill (0.7) | Kim_2017:review |
-| LAG | `Q83` · tlag | 2.0 | h | 7200 | s | h | review_gapfill (0.7) | Kim_2017:review |
+| Ego-onset ( h) | `Q83` · tlag | 1.2 | h | 4320 | s | h | review_gapfill (0.7) | Massarella_1989:review |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
@@ -89,8 +88,7 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the lin
 - status held at "Needs review" — not promoted
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
-- gap-filled Q49 (kabs) from Kim_2017's review values (primary lacked it)
-- gap-filled Q83 (tlag) from Kim_2017's review values (primary lacked it)
+- gap-filled Q83 (tlag) from Massarella_1989's review values (primary lacked it)
 
 **Extraction notes:**
 - unparsed cell tab_1:row5:col2 = '3.59 ± 1.53 2.58 ± 0.87 0.055 ± 0.048 0.026 ± 0.014 99.1 ± 0.3 28.9 ± 8.7'
@@ -130,18 +128,18 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 
 **Scholar closed-form checks:**
 
-| check | status | expected | obtained | source |
-|---|---|---|---|---|
-| C0_has_structural_params | pass |  | 3 |  |
-| C0b_disposition_core | pass |  |  |  |
-| C0c_disposition_complete | pass |  |  |  |
-| C5_dimension_Q49 | pass | 1 / [time] |  | ['Kim_2017:review'] |
-| C5_dimension_Q83 | pass | [time] |  | ['Kim_2017:review'] |
-| C5_unit_missing_Q22 | fail | [length] ** 3 / [time] | 1 h-1 | ['Meredith_1989:other_prose'] |
-| C5_unit_missing_Q27 | fail | [length] ** 3 / [time] |  | ['Meredith_1989:other_prose'] |
-| C5_unit_missing_Q76 | fail | [length] ** 3 | 1 | ['Meredith_1989:other_prose'] |
-| C7_apparent_coherence | pass |  |  |  |
-| C8_topology | pass |  |  |  |
+| check | status | expected | obtained | ratio | tol | source |
+|---|---|---|---|---|---|---|
+| C0_has_structural_params | pass |  | 3 |  |  |  |
+| C0b_disposition_core | pass |  |  |  |  |  |
+| C0c_disposition_complete | pass |  |  |  |  |  |
+| C1_half_life_beta | pass | 1.5 | 1.433 | 0.9553 | 0.25 | reported t½β |
+| C5_dimension_Q83 | pass | [time] |  |  |  | ['Massarella_1989:review'] |
+| C5_unit_missing_Q22 | fail | [length] ** 3 / [time] | 1 h-1 |  |  | ['Meredith_1989:other_prose'] |
+| C5_unit_missing_Q27 | fail | [length] ** 3 / [time] |  |  |  | ['Meredith_1989:other_prose'] |
+| C5_unit_missing_Q76 | fail | [length] ** 3 | 1 |  |  | ['Meredith_1989:other_prose'] |
+| C7_apparent_coherence | pass |  |  |  |  |  |
+| C8_topology | pass |  |  |  |  |  |
 
 <details class="legend">
 <summary>Validation definitions</summary>
@@ -174,5 +172,5 @@ _Browser simulation unavailable: no shared WebAssembly template. The **Models** 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bcilazapril%5D%20Cilazapril_Meredith1989_reference&body=Drug%3A%20cilazapril%0ARecord%3A%20Cilazapril_Meredith1989_reference%0APaper%3A%20Meredith_1989%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_cilazapril/Cilazapril_Meredith1989_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 10:03 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bcilazapril%5D%20Cilazapril_Meredith1989_reference&body=Drug%3A%20cilazapril%0ARecord%3A%20Cilazapril_Meredith1989_reference%0APaper%3A%20Meredith_1989%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_cilazapril/Cilazapril_Meredith1989_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 11:10 UTC</sub>

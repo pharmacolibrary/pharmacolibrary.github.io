@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C03X&quot;,&quot;href&quot;:&quot;atc/C03X.md&quot;},{&quot;label&quot;:&quot;tolvaptan&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/&quot;},{&quot;label&quot;:&quot;Lanke_2019 \u00b7 final&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tolvaptan_Bhatt2014_reference&quot;,&quot;label&quot;:&quot;Bhatt_2014_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Bhatt2014_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Lanke2019_base&quot;,&quot;label&quot;:&quot;Lanke_2019_base&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Lanke2019_base.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Lanke2019_final&quot;,&quot;label&quot;:&quot;Lanke_2019_final&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Tolvaptan_Plosker2010_reference&quot;,&quot;label&quot;:&quot;Plosker_2010_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Plosker2010_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Shoaf2017_reference&quot;,&quot;label&quot;:&quot;Shoaf_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Shoaf2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Van2013_reference&quot;,&quot;label&quot;:&quot;Van_2013_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Van2013_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tolvaptan_Plosker2010_reference&quot;,&quot;label&quot;:&quot;Plosker_2010_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Plosker2010_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Lanke2019_base&quot;,&quot;label&quot;:&quot;Lanke_2019_base&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Lanke2019_base.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Lanke2019_final&quot;,&quot;label&quot;:&quot;Lanke_2019_final&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Tolvaptan_Shoaf2017_reference&quot;,&quot;label&quot;:&quot;Shoaf_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Shoaf2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Van2013_reference&quot;,&quot;label&quot;:&quot;Van_2013_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Van2013_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -7,7 +7,7 @@
 
 > ## <span class="pk-badge pk-badge--orange" title="covariates_not_exercised: Reference-individual predictions reproduce the source; covariate scenarios were not evaluated.">Needs review</span>
 
-> Tolvaptan's zero-order absorption duration of 0.58 hours was flagged as not acceptable, preventing publication.
+> Tolvaptan model was held back because weight exponents for volume and clearance were misassigned, and the absorption lag time was never estimated.
 
 <div class="pk-model-meta" hidden drug="tolvaptan" model-id="Tolvaptan_Lanke2019_final" status="needs_review" stale="false" population="adults with autosomal dominant polycystic kidney disease" measured-compound="tolvaptan" parameterization="apparent" topology="1C"></div>
 
@@ -17,7 +17,7 @@ Lanke S, Shoaf SE. Population Pharmacokinetic Analyses and Model Validation of T
 
 ## Population and dosing
 
-**Population:** adults with autosomal dominant polycystic kidney disease · condition autosomal dominant polycystic kidney disease · age group adult · n = 1091.
+**Population:** adults with autosomal dominant polycystic kidney disease · age group adult · n = condition.
 
 **Dosing:** 15, 30, 45, 60, 90, 120 mg, oral, multiple, every 12 h.
 
@@ -36,10 +36,10 @@ Lanke S, Shoaf SE. Population Pharmacokinetic Analyses and Model Validation of T
 | label | parameter | value | unit | IIV |
 |---|---|---|---|---|
 | CL/F (L/h) | CL/F | 12.6 | L/h | 0.40 (6.3% RSE) |
-| power_coefficient_egfr_on_cl_f | power_coefficient_egfr_on_cl_f | 0.52 |  |  |
 | Vd/F (L) | V/F | 110 | L | 0.49 (13.1% RSE) |
 | power_coefficient_wt_on_vd_f | power_coefficient_wt_on_vd_f | 0.23 |  |  |
 | D1 (h) | D1 | 0.58 | h | 5.67 (12.7% RSE) |
+| theta_cl_f_egfr_power | theta_cl_f_egfr_power | 0.52 |  |  |
 | theta_q319_wt_power | theta_q319_wt_power | -0.53 |  |  |
 | k a (h -1 ) | kabs | 1.34 | h -1 |  |
 
@@ -49,7 +49,7 @@ Lanke S, Shoaf SE. Population Pharmacokinetic Analyses and Model Validation of T
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--orange" title="covariates_not_exercised: Reference-individual predictions reproduce the source; covariate scenarios were not evaluated.">Needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.133), gpt-5.6-luna (not confirmed, agreement 0.571). Primary extraction retained.">cross-check: disputed 0/2</span>
+**Status and checks:** <span class="pk-badge pk-badge--orange" title="covariates_not_exercised: Reference-individual predictions reproduce the source; covariate scenarios were not evaluated.">Needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.643). Primary extraction retained.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -59,11 +59,11 @@ Lanke S, Shoaf SE. Population Pharmacokinetic Analyses and Model Validation of T
 
 ### Reviewer guidance
 
-**Tolvaptan's zero-order absorption duration of 0.58 hours was flagged as not acceptable, preventing publication.**
+**Tolvaptan model was held back because weight exponents for volume and clearance were misassigned, and the absorption lag time was never estimated.**
 
-The recorded duration of the zero-order input for tolvaptan, D1, is 0.58 hours. This specific value was adjudicated as not acceptable by a review rule. Additionally, the model contains covariate effects for eGFR and weight, but these scenarios were not simulated during the review. Extracted — tolvaptan: CL/F 12.6 L/h, V/F 110 L, D1 0.58 h, kabs 1.34 h -1.
+The record assigns a weight exponent of 0.23 to volume and -0.53 to a transfer rate, but the second reader identifies 0.23 as the volume exponent and -0.53 as the clearance exponent. The lag time for absorption was not provided, so no value was extracted. The model builder also assumed full bioavailability without explicit data support. Extracted — tolvaptan: CL/F 12.6 L/h, V/F 110 L, D1 0.58 h, kabs 1.34 h -1.
 
-A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which compound was dosed: this record has tolvaptan, the second reading unknown; it also differs on 12 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the value of power_coefficient_wt_on_vd_f: this record has 0.23, the second reading none; it also differs on 4 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by qwen3.8-27b</sub>
 
@@ -72,10 +72,10 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which c
 | label (paper) | Q-code · name | value | unit | value_si | unit_si | unit_canonical | link | source | IIV |
 |---|---|---|---|---|---|---|---|---|---|
 | CL/F (L/h) | `Q27` · CL/F | 12.6 | L/h | 3.5e-06 | m3/s | l/h | exact (1) | jcph1370-tbl-0003:row2:col2 | 0.40 (6.3% RSE) |
-| power_coefficient_egfr_on_cl_f | `Q900` · power_coefficient_egfr_on_cl_f | 0.52 |  |  |  |  |  | jcph1370-tbl-0003:row3:col2 |  |
 | Vd/F (L) | `Q76` · V/F | 110 | L | 0.11 | m3 | l | exact (1) | jcph1370-tbl-0003:row6:col2 | 0.49 (13.1% RSE) |
 | power_coefficient_wt_on_vd_f | `Q900` · power_coefficient_wt_on_vd_f | 0.23 |  |  |  |  |  | jcph1370-tbl-0003:row7:col2 |  |
 | D1 (h) | `Q310` · D1 | 0.58 | h | 2088 | s | h | exact (1) | jcph1370-tbl-0003:row8:col2 | 5.67 (12.7% RSE) |
+| theta_cl_f_egfr_power | `Q900` · theta_cl_f_egfr_power | 0.52 |  |  |  |  |  | jcph1370-tbl-0003:row3:col2 |  |
 | theta_q319_wt_power | `Q900` · theta_q319_wt_power | -0.53 |  |  |  |  |  | jcph1370-tbl-0003:row4:col2 |  |
 | k a (h -1 ) | `Q49` · kabs | 1.34 | h -1 | 0.0003722 | 1/s | 1/h | review_gapfill (0.7) | Van_2013_2:review |  |
 
@@ -101,14 +101,12 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which c
 - table section iiv: 'Dosemax' routed out of structural estimates ('Interindividual variability Mean (CV)')
 - table section residual_error: 'Additive' routed out of structural estimates ('Residual variability Mean (%CV) …')
 - table section residual_error: 'Proportional' routed out of structural estimates ('Residual variability Mean (%CV) …')
-- covariate level 'Power coefficient eGFR on CL/F' → Q900:power_coefficient_egfr_on_cl_f = 0.52 (power on Q27)
-- dropped duplicate Q27 ('Fractional change of CL/F with Inha', value '-0.23') — already have one for this compound
+- dropped unlinked row (NIL): 'Fractional change of CL/F with Inha' — extend the ontology if this is a real PK parameter (source ['jcph1370-tbl-0003:row5:col2'])
 - covariate level 'Power coefficient WT on Vd/F' → Q900:power_coefficient_wt_on_vd_f = 0.23 (power on Q27)
 - dropped unlinked row (NIL): 'Dose50 (mg)' — extend the ontology if this is a real PK parameter (source ['jcph1370-tbl-0003:row9:col2'])
 - dropped unlinked row (NIL): 'Dosemax (mg)' — extend the ontology if this is a real PK parameter (source ['jcph1370-tbl-0003:row10:col2'])
 - covariate effect for Q319 has no base parameter row (kept as unattached equation-variable)
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=tolvaptan
-- structure disagreement: deterministic 1C vs LLM 3C — review compartment count
 - model-stage split: 'final model estimates mean (%rse)' is the final model of Lanke_2019 (paper reports 2 stages: base model estimates mean %rse, final model estimates mean (%rse)); same population, different model-building step
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
@@ -119,37 +117,22 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which c
 
 ## Validation
 
-**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  ·  0 of 2 readers agree  
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
 Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss-120b` | not confirmed | 0.133 (2/15 fields) | 13 |
-| `gpt-5.6-luna` | not confirmed | 0.571 (8/14 fields) | 6 |
+| `gpt-oss-120b` | not confirmed | 0.643 (9/14 fields) | 5 |
 
-<details><summary>19 field discrepancies</summary>
+<details><summary>5 field discrepancies</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-5.6-luna` | `parameters[cl/f].covariate_forms` | [] | ['power'] | mismatch |
-| `gpt-5.6-luna` | `parameters[k a]` | 1.34 |  | only_one_extracted |
-| `gpt-5.6-luna` | `parameters[theta_cl_f_egfr_power]` |  | 0.54 | only_one_extracted |
-| `gpt-5.6-luna` | `parameters[theta_q319_egfr_power]` | 0.54 |  | only_one_extracted |
-| `gpt-5.6-luna` | `parameters[theta_v_f_wt_power]` |  | 0.44 | only_one_extracted |
-| `gpt-5.6-luna` | `parameters[vd/f].covariate_forms` | [] | ['power'] | mismatch |
-| `gpt-oss-120b` | `parameters[cl/f]` | 13.4 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[cl/f]` |  | 13.4 | only_one_extracted |
-| `gpt-oss-120b` | `parameters[d1]` | 0.78 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[d1]` |  | 0.78 | only_one_extracted |
-| `gpt-oss-120b` | `parameters[k a]` | 1.34 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[theta_q319_egfr_power]` | 0.54 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[theta_q319_wt_power]` | -0.35 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[theta_q319_wt_power]` |  | -0.35 | only_one_extracted |
-| `gpt-oss-120b` | `parameters[theta_v_f_wt_power]` |  | 0.44 | only_one_extracted |
-| `gpt-oss-120b` | `parameters[vd/f]` | 120 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[vd/f]` |  | 120 | only_one_extracted |
-| `gpt-oss-120b` | `screen.dose_compound` | tolvaptan | unknown | mismatch |
-| `gpt-oss-120b` | `screen.primary_analyte` | tolvaptan | unknown | mismatch |
+| `gpt-oss-120b` | `parameters[power_coefficient_wt_on_vd_f]` | 0.23 |  | only_one_extracted |
+| `gpt-oss-120b` | `parameters[theta_cl_f_wt_power]` |  | -0.53 | only_one_extracted |
+| `gpt-oss-120b` | `parameters[theta_q319_wt_power]` | -0.53 |  | only_one_extracted |
+| `gpt-oss-120b` | `parameters[theta_v_f_wt_power]` |  | 0.23 | only_one_extracted |
+| `gpt-oss-120b` | `parameters[vd/f].covariate_forms` | [] | ['power'] | mismatch |
 
 </details>
 
@@ -186,12 +169,10 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 | T3_output_variable |  | pass | C_central (measured=tolvaptan) | central.C | output must be the measured/analyte compartment |
 | T3_param_coverage |  | pass | 3 scholar param(s) emitted or defaulted | 3 covered | all structural parameters accounted for |
 | T3_topology_template |  | pass | 1C → PK_1C* | PK_1C_enteral | engineer template must match the scholar topology |
-| T6_deviations |  | fail |  | D1: not acceptable | LLM adjudication → deterministic rule |
-| T1_cmax | reference | skipped | 3.5 | 0.0001083 | unresolved concentration unit (exp '-fold', sim 'kg/m3') |
-| T1_cmax | reference | skipped | 0.17 | 0.0001083 | unresolved concentration unit (exp 'respective value for Cmax', sim 'kg/m3') |
-| T1_cmax | reference | skipped | 0.13 | 0.0001083 | unresolved concentration unit (exp 'respective value for AUC', sim 'kg/m3') |
-| T1_cmax | reference | skipped | 15 | 0.0001083 | unresolved concentration unit (exp '%', sim 'kg/m3') |
-| T1_cmax | reference | skipped | 96 | 0.0001083 | unresolved concentration unit (exp '%', sim 'kg/m3') |
+| T6_deviations |  | fail |  | dev-1: not acceptable; dev-2: not acceptable | LLM adjudication → deterministic rule |
+| T1_cmax | reference | skipped | 3.5 | 0.0001083 | unresolved concentration unit (exp 'fold', sim 'kg/m3') |
+| T1_cmax | reference | skipped | 0.17 | 0.0001083 | unresolved concentration unit (exp 'null', sim 'kg/m3') |
+| T1_cmax | reference | skipped | 15 | 0.0001083 | unresolved concentration unit (exp '', sim 'kg/m3') |
 
 <details class="legend">
 <summary>Validation definitions</summary>
@@ -207,7 +188,7 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final/Tolvaptan_Lanke2019_final_modelica.zip" download>Tolvaptan_Lanke2019_final_modelica.zip</a> <span class="pk-size">(5.0 kB)</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final/Tolvaptan_Lanke2019_final_modelica.zip" download>Tolvaptan_Lanke2019_final_modelica.zip</a> <span class="pk-size">(4.9 kB)</span></td></tr>
 <tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final/Tolvaptan_Lanke2019_final_fmi.zip" download>Tolvaptan_Lanke2019_final_fmi.zip</a> <span class="pk-size">(4.2 kB)</span><br><a href="models/fmu/PK_1C_enteral.fmu" download>PK_1C_enteral.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final/Tolvaptan_Lanke2019_final_matlab.zip" download>Tolvaptan_Lanke2019_final_matlab.zip</a> <span class="pk-size">(3.3 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final/Tolvaptan_Lanke2019_final_matlab_simbio.zip" download>Tolvaptan_Lanke2019_final_matlab_simbio.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
@@ -246,13 +227,12 @@ The parameters this record sets on the template, in the template's SI units, and
 
 **Source paper** (the parameters are its): Lanke S, Shoaf SE. Population Pharmacokinetic Analyses and Model Validation of Tolvaptan in Subjects With Autosomal Dominant Polycystic Kidney Disease. Journal of clinical pharmacology 59(5):763–770 (2019). [doi:10.1002/jcph.1370](https://doi.org/10.1002/jcph.1370)
 
-**This record:** Pharmacolibrary v26.09, model `Tolvaptan_Lanke2019_final`. <https://pharmacolibrary.github.io/#/drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final>
+**This record:** Pharmacolibrary, model `Tolvaptan_Lanke2019_final`. <https://pharmacolibrary.github.io/#/drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final>
 
 ```bibtex
 @misc{pharmacolibrary_TolvaptanLanke2019final,
   title  = {{Pharmacolibrary model Tolvaptan_Lanke2019_final}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final},
   note   = {Parameters from doi:10.1002/jcph.1370},
 }
@@ -271,5 +251,5 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Btolvaptan%5D%20Tolvaptan_Lanke2019_final&body=Drug%3A%20tolvaptan%0ARecord%3A%20Tolvaptan_Lanke2019_final%0APaper%3A%20Lanke_2019%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-20 18:54 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Btolvaptan%5D%20Tolvaptan_Lanke2019_final&body=Drug%3A%20tolvaptan%0ARecord%3A%20Tolvaptan_Lanke2019_final%0APaper%3A%20Lanke_2019%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 18:52 UTC</sub>

@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;D11A&quot;,&quot;href&quot;:&quot;atc/D11A.md&quot;},{&quot;label&quot;:&quot;diclofenac&quot;,&quot;href&quot;:&quot;drugs/drug_diclofenac/&quot;},{&quot;label&quot;:&quot;Rahal_2008 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Diclofenac_Lucas2016_reference&quot;,&quot;label&quot;:&quot;Lucas_2016_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diclofenac/Diclofenac_Lucas2016_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Diclofenac_Yuan2017_reference&quot;,&quot;label&quot;:&quot;Yuan_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diclofenac/Diclofenac_Yuan2017_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hannam_2014_VAS&quot;,&quot;label&quot;:&quot;Hannam_2014 \u00b7 VAS&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_diclofenac/pd_Hannam_2014_VAS.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Diclofenac_RodriguezCruz2021_reference&quot;,&quot;label&quot;:&quot;Rodriguez-Cruz_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diclofenac/Diclofenac_RodriguezCruz2021_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Diclofenac_Yuan2017_reference&quot;,&quot;label&quot;:&quot;Yuan_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diclofenac/Diclofenac_Yuan2017_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Diclofenac_Standing2008_reference&quot;,&quot;label&quot;:&quot;Standing_2008_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_diclofenac/Diclofenac_Standing2008_reference.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hannam_2014_VAS&quot;,&quot;label&quot;:&quot;Hannam_2014 \u00b7 VAS&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_diclofenac/pd_Hannam_2014_VAS.md&quot;,&quot;status&quot;:&quot;Not simulated&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Perez_1995_relaxation&quot;,&quot;label&quot;:&quot;Perez_1995 \u00b7 relaxation&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_diclofenac/pd_Perez_1995_relaxation.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -25,7 +25,7 @@ Rahal A, Kumar A, Ahmad AH, Malik JK. Pharmacokinetics of diclofenac and its int
 
 **Structure:** 1-compartment; no model was built for this record.  
 **Parameterization:** mechanistic.  
-**Parameters:** 5 extracted.  
+**Parameters:** 7 extracted.  
 **Availability:** No model was generated from this record.
 
 ## Parameters
@@ -38,6 +38,8 @@ Rahal A, Kumar A, Ahmad AH, Malik JK. Pharmacokinetics of diclofenac and its int
 | Vd(area) | V | 0.14 | Lkg(-1) |
 | MRT | MRT | 1.36 | h |
 | Cl(B) | CL | 0.1 | Lkg(-1)h(-1) |
+| k a (h À1 ) | kabs | 0.94 | h À1 |
+| Lag time 1 | tlag | 0.0 | h |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
@@ -53,7 +55,7 @@ Rahal A, Kumar A, Ahmad AH, Malik JK. Pharmacokinetics of diclofenac and its int
 
 **AUC and CL have no unit.**
 
-Without a unit the value cannot be converted, so the model cannot use it. Only the abstract was available, so reported summary statistics stand in for a fitted model. Extracted — diclofenac: t1/2β 1.03 h, AUC 12.2 microg h ml(-1), V 0.14 Lkg(-1), MRT 1.36 h, CL 0.1 Lkg(-1)h(-1).
+Without a unit the value cannot be converted, so the model cannot use it. Only the abstract was available, so reported summary statistics stand in for a fitted model. Extracted — diclofenac: t1/2β 1.03 h, AUC 12.2 microg h ml(-1), V 0.14 Lkg(-1), MRT 1.36 h, CL 0.1 Lkg(-1)h(-1), kabs 0.94 h À1, tlag 0 h.
 
 A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which compound was dosed: this record has diclofenac, the second reading unknown; it also differs on 11 more fields. That field shapes the model, so the record is marked disputed.
 
@@ -68,6 +70,8 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which c
 | Vd(area) | `Q61` · V | 0.14 | Lkg(-1) | 0.0098 | m3 | l/kg | exact (1) | Rahal_2008:abstract, Rahal_2008:abstract |
 | MRT | `Q53` · MRT | 1.36 | h | 4896 | s | h | exact (1) | Rahal_2008:abstract |
 | Cl(B) | `Q22` · CL | 0.1 | Lkg(-1)h(-1) |  |  | (h·l)/kg | exact (1) | Rahal_2008:abstract, Rahal_2008:abstract |
+| k a (h À1 ) | `Q49` · kabs | 0.94 | h À1 | 0.0002611 | 1/s | 1/h | review_gapfill (0.7) | Kim_2016:review |
+| Lag time 1 | `Q83` · tlag | 0.0 | h | 0 | s | h | review_gapfill (0.7) | Idkaidek_1998:review |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
@@ -86,6 +90,8 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which c
 - abstract-only: no full text was available, so these values were read from the abstract's prose — reported summary statistics, not a fitted model
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
+- gap-filled Q49 (kabs) from Kim_2016's review values (primary lacked it)
+- gap-filled Q83 (tlag) from Idkaidek_1998's review values (primary lacked it)
 
 **Extraction notes:**
 - no GROBID TEI available — transcribed from abstract in Rahal_2008_metadata.yaml (9 record(s)); values are summary statistics, not a fitted model
@@ -131,9 +137,11 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 | C0_has_structural_params | pass |  | 5 |  |
 | C0b_disposition_core | pass |  |  |  |
 | C0c_disposition_complete | pass |  |  |  |
+| C5_dimension_Q49 | pass | 1 / [time] |  | ['Kim_2016:review'] |
 | C5_dimension_Q53 | pass | [time] |  | ['Rahal_2008:abstract'] |
 | C5_dimension_Q60 | pass | [time] |  | ['Rahal_2008:abstract', 'Rahal_2008:abstract'] |
 | C5_dimension_Q61 | pass | [length] ** 3 |  | ['Rahal_2008:abstract', 'Rahal_2008:abstract'] |
+| C5_dimension_Q83 | pass | [time] |  | ['Idkaidek_1998:review'] |
 | C5_unit_missing_Q22 | fail | [length] ** 3 / [time] | Lkg(-1)h(-1) | ['Rahal_2008:abstract', 'Rahal_2008:abstract'] |
 | C5_unit_missing_Q88 | fail | [mass] * [time] / [length] ** 3 | microg h ml(-1) | ['Rahal_2008:abstract', 'Rahal_2008:abstract'] |
 | C6_cl_magnitude | pass | &lt;= 90.0 L/h | 0.1 | ['Rahal_2008:abstract', 'Rahal_2008:abstract'] |
@@ -171,5 +179,5 @@ _Browser simulation unavailable: no shared WebAssembly template. The **Models** 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bdiclofenac%5D%20Diclofenac_Rahal2008_reference&body=Drug%3A%20diclofenac%0ARecord%3A%20Diclofenac_Rahal2008_reference%0APaper%3A%20Rahal_2008%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_diclofenac/Diclofenac_Rahal2008_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 13:55 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bdiclofenac%5D%20Diclofenac_Rahal2008_reference&body=Drug%3A%20diclofenac%0ARecord%3A%20Diclofenac_Rahal2008_reference%0APaper%3A%20Rahal_2008%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_diclofenac/Diclofenac_Rahal2008_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 22:50 UTC</sub>

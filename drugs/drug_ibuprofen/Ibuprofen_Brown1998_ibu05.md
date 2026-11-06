@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01E&quot;,&quot;href&quot;:&quot;atc/C01E.md&quot;},{&quot;label&quot;:&quot;ibuprofen&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/&quot;},{&quot;label&quot;:&quot;Brown_1998 \u00b7 ibu05&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ibuprofen_Clissold1987_reference&quot;,&quot;label&quot;:&quot;Clissold_1987_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Clissold1987_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Knihinicki1990_reference&quot;,&quot;label&quot;:&quot;Knihinicki_1990_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Knihinicki1990_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Todd1986_reference&quot;,&quot;label&quot;:&quot;Todd_1986_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Todd1986_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_DeGraves1993v2_reference&quot;,&quot;label&quot;:&quot;DeGraves_1993_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Trocniz2000_reference&quot;,&quot;label&quot;:&quot;Troc\u00f3niz_2000_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Trocniz2000_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hannam_2018_PPPM&quot;,&quot;label&quot;:&quot;Hannam_2018 \u00b7 PPPM&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/pd_Hannam_2018_PPPM.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ibuprofen_Aranda1997_reference&quot;,&quot;label&quot;:&quot;Aranda_1997_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Aranda1997_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Bouazza2021_reference&quot;,&quot;label&quot;:&quot;Bouazza_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Bouazza2021_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Clissold1987_reference&quot;,&quot;label&quot;:&quot;Clissold_1987_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Clissold1987_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_DeGraves1993v2_reference&quot;,&quot;label&quot;:&quot;DeGraves_1993_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Gonzalez1987_reference&quot;,&quot;label&quot;:&quot;Gonzalez_1987_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Gonzalez1987_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Knihinicki1990_reference&quot;,&quot;label&quot;:&quot;Knihinicki_1990_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Knihinicki1990_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Todd1986_reference&quot;,&quot;label&quot;:&quot;Todd_1986_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Todd1986_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Li2012_ibu_eff_400_mg&quot;,&quot;label&quot;:&quot;Li_2012_ibu_eff_400_mg&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Li2012_ibu_eff_400_mg.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Li2012_std_ibu_400_mg&quot;,&quot;label&quot;:&quot;Li_2012_std_ibu_400_mg&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Li2012_std_ibu_400_mg.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Trocniz2000_reference&quot;,&quot;label&quot;:&quot;Troc\u00f3niz_2000_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Trocniz2000_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Brown1998_ibu05&quot;,&quot;label&quot;:&quot;Brown_1998_ibu05&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Brown1998_ibu05.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Ibuprofen_Brown1998_ibu10&quot;,&quot;label&quot;:&quot;Brown_1998_ibu10&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Brown1998_ibu10.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hannam_2018_PPPM&quot;,&quot;label&quot;:&quot;Hannam_2018 \u00b7 PPPM&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/pd_Hannam_2018_PPPM.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -7,9 +7,9 @@
 
 > ## <span class="pk-badge pk-badge--red">Rejected</span>
 
-> The ibuprofen record was rejected because the model structure lacks defined dose links, leaving the system without a path from administration to the drug.
+> The ibuprofen model record was rejected because it lacks any defined anatomical compartments or dose-to-compartment links, making the structure unreachable.
 
-<div class="pk-model-meta" hidden drug="ibuprofen" model-id="Ibuprofen_Brown1998_ibu05" status="rejected" stale="false" population="febrile children" measured-compound="ibuprofen" parameterization="apparent" topology="general_linear"></div>
+<div class="pk-model-meta" hidden drug="ibuprofen" model-id="Ibuprofen_Brown1998_ibu05" status="rejected" stale="false" population="febrile children" measured-compound="ibuprofen" parameterization="apparent" topology="1C"></div>
 
 ## Citation
 Brown RD, Kearns GL, Wilson JT. Integrated pharmacokinetic-pharmacodynamic model for acetaminophen, ibuprofen, and placebo antipyresis in children. Journal of pharmacokinetics and biopharmaceutics 26(5):559–579 (1998).
@@ -17,16 +17,18 @@ Brown RD, Kearns GL, Wilson JT. Integrated pharmacokinetic-pharmacodynamic model
 
 ## Population and dosing
 
-**Population:** febrile children · condition febrile · age group child · n = 178.
+**Population:** febrile children · condition fever · age group child · n = 102.
 
 **Dosing:** 350, 700, 875 mg, oral, single.
 
 ## Model
 
-**Structure:** general linear; no model was built for this record.  
+**Structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
 **Parameterization:** CL/F, V/F — apparent, F unknown (apparent — bioavailability not identifiable).  
 **Parameters:** 7 extracted.  
-**Availability:** No model was generated from this record.
+**Availability:** Model and browser simulation available in **Models** and **Simulation**.
+
+<figure class="pk-models-diagram"><img src="drugs/drug_ibuprofen/Ibuprofen_Brown1998_ibu05/Ibuprofen_Brown1998_ibu05.svg" alt="Ibuprofen_Brown1998_ibu05 diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure>
 
 ## Parameters
 > ⚠️ Status "Rejected": these are the values as extracted, **not verified**. Any model or simulator on the other tabs runs on these numbers.
@@ -37,7 +39,6 @@ Brown RD, Kearns GL, Wilson JT. Integrated pharmacokinetic-pharmacodynamic model
 | ka (hr⁻¹) x̄ | kabs | 7.75 | hr⁻¹ |
 | β (hr⁻¹) x̄ | kel | 0.57 | hr⁻¹ |
 | T1/2 (hr) x̄ | t1/2z | 1.44 | hr |
-| Total n | equation variable | 28 |  |
 | AUC0→∞ (μg/ml*hr) x̄ | AUC∞ | 71.05 | μg/ml*hr |
 | Va/F (L/kg) x̄ | V/F | 0.16 | L/kg |
 | Clp/F (L/kg/hr) x̄ | CL/F | 0.08 | L/kg/hr |
@@ -54,9 +55,9 @@ Brown RD, Kearns GL, Wilson JT. Integrated pharmacokinetic-pharmacodynamic model
 
 ### Reviewer guidance
 
-**The ibuprofen record was rejected because the model structure lacks defined dose links, leaving the system without a path from administration to the drug.**
+**The ibuprofen model record was rejected because it lacks any defined anatomical compartments or dose-to-compartment links, making the structure unreachable.**
 
-The model links list is empty or undefined, resulting in an unreachable compartment where the drug has no origin from the dose. Additionally, a reported unit could not be converted to SI, preventing a parameter from being processed with a standard value. Extracted — ibuprofen: tlag 0.31 hr, kabs 7.75 hr⁻¹, kel 0.57 hr⁻¹, t1/2z 1.44 hr, AUC∞ 71 μg/ml*hr, V/F 0.16 L/kg, CL/F 0.08 L/kg/hr.
+The model's link list is empty, meaning no dose is connected to any compartment, which renders the structure orphaned. This absence of connections prevents the calculation of standard pharmacokinetic parameters despite the presence of absorption and elimination rate values. A second reader also noted inconsistencies in the identified compounds, suggesting the paper might involve acetaminophen alongside ibuprofen, and questioned the inclusion of a sample size parameter as a model variable. Extracted — ibuprofen: tlag 0.31 hr, kabs 7.75 hr⁻¹, kel 0.57 hr⁻¹, t1/2z 1.44 hr, AUC∞ 71 μg/ml*hr, V/F 0.16 L/kg, CL/F 0.08 L/kg/hr.
 
 A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the links between molecules: this record has none → none (none), the second reading none; it also differs on 1 more field. That field shapes the model, so the record is marked disputed.
 
@@ -69,10 +70,9 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the lin
 | tlag (hr) x̄ | `Q83` · tlag | 0.31 | hr | 1116 | s | h | exact (1) | Brown_1998_table_3:row0:col2 |
 | ka (hr⁻¹) x̄ | `Q49` · kabs | 7.75 | hr⁻¹ | 0.002153 | 1/s | 1/h | exact (1) | Brown_1998_table_3:row2:col2 |
 | β (hr⁻¹) x̄ | `Q47` · kel | 0.57 | hr⁻¹ | 0.0001583 | 1/s | 1/h | exact (1) | Brown_1998_table_3:row4:col2 |
-| T1/2 (hr) x̄ | `Q57` · t1/2z | 1.44 | hr | 5184 | s | h | exact (1) | Brown_1998_table_3:row6:col2 |
-| Total n | `Q900` · equation variable | 28 |  |  |  |  | llm (0.6) | Brown_1998_table_3:row8:col2, Brown_1998_table_4:row6:col2 |
-| AUC0→∞ (μg/ml*hr) x̄ | `Q17` · AUC∞ | 71.05 | μg/ml*hr |  |  | µg/(h·ml) | exact (1) | Brown_1998_table_4:row0:col2 |
-| Va/F (L/kg) x̄ | `Q76` · V/F | 0.16 | L/kg | 0.0112 | m3 | l/kg | llm (0.6) | Brown_1998_table_4:row2:col2 |
+| T1/2 (hr) x̄ | `Q57` · t1/2z | 1.44 | hr | 5184 | s | h | half_life_rule (0.95) | Brown_1998_table_3:row6:col2 |
+| AUC0→∞ (μg/ml*hr) x̄ | `Q17` · AUC∞ | 71.05 | μg/ml*hr | 255.8 | kg*s/m3 | µg/(h·ml) | exact (1) | Brown_1998_table_4:row0:col2 |
+| Va/F (L/kg) x̄ | `Q76` · V/F | 0.16 | L/kg | 0.0112 | m3 | l/kg | exact (1) | Brown_1998_table_4:row2:col2 |
 | Clp/F (L/kg/hr) x̄ | `Q27` · CL/F | 0.08 | L/kg/hr | 1.556e-06 | m3/s | l/(h·kg) | special_case (0.95) | Brown_1998_table_4:row4:col2 |
 
 <details class="legend">
@@ -82,20 +82,21 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the lin
 
 ## Departures & gaps
 
+**Deviations:**
+- `defaulted_parameters`: ['Tlag']
+- `apparent_assumption`: F=1, Fm=1, no molar correction (parameterization=apparent)
+
 **Interpretation flags:**
 - dropped unlinked row (NIL): 'tlag (hr) SE' — extend the ontology if this is a real PK parameter (source ['Brown_1998_table_3:row1:col2'])
 - dropped unlinked row (NIL): 'ka (hr⁻¹) SE' — extend the ontology if this is a real PK parameter (source ['Brown_1998_table_3:row3:col2'])
 - dropped unlinked row (NIL): 'β (hr⁻¹) SE' — extend the ontology if this is a real PK parameter (source ['Brown_1998_table_3:row5:col2'])
 - dropped unlinked row (NIL): 'T1/2 (hr) SE' — extend the ontology if this is a real PK parameter (source ['Brown_1998_table_3:row7:col2'])
+- dropped unlinked row (NIL): 'Total n' — extend the ontology if this is a real PK parameter (source ['Brown_1998_table_3:row8:col2', 'Brown_1998_table_4:row6:col2'])
 - dropped unlinked row (NIL): 'AUC0→∞ (μg/ml*hr) SE' — extend the ontology if this is a real PK parameter (source ['Brown_1998_table_4:row1:col2'])
 - dropped unlinked row (NIL): 'Va/F (L/kg) SE' — extend the ontology if this is a real PK parameter (source ['Brown_1998_table_4:row3:col2'])
 - dropped unlinked row (NIL): 'Clp/F (L/kg/hr) SE' — extend the ontology if this is a real PK parameter (source ['Brown_1998_table_4:row5:col2'])
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=ibuprofen
-- topology: transfer parameter unlinked (Q100) — add Kfm/formation-rate/rate-constant to the ontology; routing to review
-- status held at "Needs review" — not promoted
 - population split: 'ibu05' subgroup of Brown_1998 (paper reports 2 populations: ibu05, ibu10)
-- skipped review gap-fill of V2: primary is GENERAL_LINEAR (peripheral family needs ≥2C)
-- skipped review gap-fill of Q: primary's parameterization (rate-constant / ka-only) does not use it
 
 **Extraction notes:**
 - no TEI final-model table id; trying text-pointer table recovery
@@ -147,7 +148,7 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 | C5_dimension_Q76 | pass | [length] ** 3 |  |  |  | ['Brown_1998_table_4:row2:col2'] |
 | C5_dimension_Q83 | pass | [time] |  |  |  | ['Brown_1998_table_3:row0:col2'] |
 | C7_apparent_coherence | pass |  |  |  |  |  |
-| C8_topology | fail | ontology-linked transfer parameter on every edge | ['none'] |  |  |  |
+| C8_topology | pass |  |  |  |  |  |
 | C9_phys_window_Q27 | pass | clearance within physiological range | 5.6 L/h |  |  | ['Brown_1998_table_4:row4:col2'] |
 | C9_phys_window_Q76 | pass | volume within physiological range | 11.2 L |  |  | ['Brown_1998_table_4:row2:col2'] |
 
@@ -167,10 +168,14 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-_Browser simulation unavailable: no shared WebAssembly template. The **Models** tab provides the record-specific FMI archive._
+**Administration: oral** — 350 mg, single dose, first-order absorption (ka 7.75 /h, F 1). Doses in the paper: 350, 700, 875 mg.
+
+<dbs-fmusim paramsurl="drugs/drug_ibuprofen/Ibuprofen_Brown1998_ibu05/Ibuprofen_Brown1998_ibu05_params.json" metaurl="assets/fmu/PK_1C_enteral.vr.json" wasmurl="assets/fmu/PK_1C_enteral.js" controlsurl="drugs/drug_ibuprofen/Ibuprofen_Brown1998_ibu05/Ibuprofen_Brown1998_ibu05_sim_controls.json"></dbs-fmusim>
+
+<sub>WebAssembly simulation using extracted parameters. The reference check compares the browser peak with the recorded FMPy result and is disabled after parameter edits. Template `PK_1C_enteral` · parameters `Ibuprofen_Brown1998_ibu05_params.json` · controls `Ibuprofen_Brown1998_ibu05_sim_controls.json`. *Simulator value* denotes a template default, not an extracted estimate.</sub>
 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bibuprofen%5D%20Ibuprofen_Brown1998_ibu05&body=Drug%3A%20ibuprofen%0ARecord%3A%20Ibuprofen_Brown1998_ibu05%0APaper%3A%20Brown_1998%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_ibuprofen/Ibuprofen_Brown1998_ibu05%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-20 17:41 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bibuprofen%5D%20Ibuprofen_Brown1998_ibu05&body=Drug%3A%20ibuprofen%0ARecord%3A%20Ibuprofen_Brown1998_ibu05%0APaper%3A%20Brown_1998%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_ibuprofen/Ibuprofen_Brown1998_ibu05%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 11:21 UTC</sub>

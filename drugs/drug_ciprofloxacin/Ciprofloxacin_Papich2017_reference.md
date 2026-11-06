@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;J01M&quot;,&quot;href&quot;:&quot;atc/J01M.md&quot;},{&quot;label&quot;:&quot;ciprofloxacin&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/&quot;},{&quot;label&quot;:&quot;Papich_2017 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ciprofloxacin_Dowling1995_reference&quot;,&quot;label&quot;:&quot;Dowling_1995_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Dowling1995_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Haefliger2025_reference&quot;,&quot;label&quot;:&quot;Haefliger_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Haefliger2025_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Zhu2026_reference&quot;,&quot;label&quot;:&quot;Zhu_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Zhu2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Alihodzic2022_reference&quot;,&quot;label&quot;:&quot;Alihodzic_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Alihodzic2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Alonso2021_reference&quot;,&quot;label&quot;:&quot;Alonso_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Alonso2021_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Forrest1993_reference&quot;,&quot;label&quot;:&quot;Forrest_1993_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Forrest1993_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Garg2024_reference&quot;,&quot;label&quot;:&quot;Garg_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Garg2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Guo2022_reference&quot;,&quot;label&quot;:&quot;Guo_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Guo2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ciprofloxacin_BalbasMartinez2019_reference&quot;,&quot;label&quot;:&quot;Balbas-Martinez_2019_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_BalbasMartinez2019_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Guo2022_reference&quot;,&quot;label&quot;:&quot;Guo_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Guo2022_reference.md&quot;,&quot;status&quot;:&quot;Not simulated \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Zhu2026_reference&quot;,&quot;label&quot;:&quot;Zhu_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Zhu2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Abdulla2020_reference&quot;,&quot;label&quot;:&quot;Abdulla_2020_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Abdulla2020_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Alihodzic2022_base&quot;,&quot;label&quot;:&quot;Alihodzic_2022_base&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Alihodzic2022_base.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Alihodzic2022_final&quot;,&quot;label&quot;:&quot;Alihodzic_2022_final&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Alihodzic2022_final.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Breilh2001_reference&quot;,&quot;label&quot;:&quot;Breilh_2001_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Breilh2001_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Conil2008_basic_model_mean_s_d&quot;,&quot;label&quot;:&quot;Conil_2008_basic_model_mean_s_d&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Conil2008_basic_model_mean_s_d.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Conil2008_final&quot;,&quot;label&quot;:&quot;Conil_2008_final&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Conil2008_final.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_El2026_reference&quot;,&quot;label&quot;:&quot;El_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_El2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Garg2024_reference&quot;,&quot;label&quot;:&quot;Garg_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Garg2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Guo2022_base&quot;,&quot;label&quot;:&quot;Guo_2022_base&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Guo2022_base.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Guo2022_final&quot;,&quot;label&quot;:&quot;Guo_2022_final&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Guo2022_final.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Hirt2021_building_dataset&quot;,&quot;label&quot;:&quot;Hirt_2021_building_dataset&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Hirt2021_building_dataset.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Hirt2021_building_validation&quot;,&quot;label&quot;:&quot;Hirt_2021_building_validation&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Hirt2021_building_validation.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Montgomery2001_reference&quot;,&quot;label&quot;:&quot;Montgomery_2001_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Montgomery2001_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Papich2017_reference&quot;,&quot;label&quot;:&quot;Papich_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Ciprofloxacin_Saleem2021_reference&quot;,&quot;label&quot;:&quot;Saleem_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Saleem2021_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Dowling1995_reference&quot;,&quot;label&quot;:&quot;Dowling_1995_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Dowling1995_reference.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ciprofloxacin_Santavy2023_reference&quot;,&quot;label&quot;:&quot;Santavy_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/Ciprofloxacin_Santavy2023_reference.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Zhu_2026_BIS&quot;,&quot;label&quot;:&quot;Zhu_2026 \u00b7 BIS&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Zhu_2026_BIS.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Campion_2005_R&quot;,&quot;label&quot;:&quot;Campion_2005 \u00b7 R&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Campion_2005_R.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Campion_2005_S&quot;,&quot;label&quot;:&quot;Campion_2005 \u00b7 S&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Campion_2005_S.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hoogeterp_1989_EN&quot;,&quot;label&quot;:&quot;Hoogeterp_1989 \u00b7 EN&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Hoogeterp_1989_EN.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hoogeterp_1989_EN_2&quot;,&quot;label&quot;:&quot;Hoogeterp_1989 \u00b7 EN&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Hoogeterp_1989_EN_2.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Sadouki_2025_CFU&quot;,&quot;label&quot;:&quot;Sadouki_2025 \u00b7 CFU&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Sadouki_2025_CFU.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction&quot;,&quot;label&quot;:&quot;Xiao_2018 \u00b7 in vivo effectiveness (bacteria loading reduction)&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction_2&quot;,&quot;label&quot;:&quot;Xiao_2018 \u00b7 in vivo effectiveness (bacteria loading reduction)&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction_2.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction_3&quot;,&quot;label&quot;:&quot;Xiao_2018 \u00b7 in vivo effectiveness (bacteria loading reduction)&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Xiao_2018_in_vivo_effectiveness_bacteria_loading_reduction_3.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Zhao_2024_k_CIP&quot;,&quot;label&quot;:&quot;Zhao_2024 \u00b7 k_CIP&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ciprofloxacin/pd_Zhao_2024_k_CIP.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -17,7 +17,7 @@ Papich MG. Ciprofloxacin Pharmacokinetics in Clinical Canine Patients. Journal o
 
 ## Population and dosing
 
-**Population:** clinical canine patients · condition clinical bacterial infections · n = : 34.
+**Population:** clinical canine patients · condition bacterial infections · age group adult · n = $34.
 
 **Dosing:** 1645 mg, oral, multiple, every 24 h.
 
@@ -25,10 +25,12 @@ Papich MG. Ciprofloxacin Pharmacokinetics in Clinical Canine Patients. Journal o
 
 ## Model
 
-**Structure:** 2-compartment; no model was built for this record.  
+**Structure:** 1-compartment, oral mammillary model — template `PK_1C_enteral`.  
 **Parameterization:** CL/F, V/F — apparent, F unknown (apparent — bioavailability not identifiable).  
 **Parameters:** 10 extracted.  
-**Availability:** No model was generated from this record.
+**Availability:** Model and browser simulation available in **Models** and **Simulation**.
+
+<figure class="pk-models-diagram"><img src="drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference/Ciprofloxacin_Papich2017_reference.svg" alt="Ciprofloxacin_Papich2017_reference diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure>
 
 ## Parameters
 > ⚠️ Status "Needs review": these are the values as extracted, **not verified**. Any model or simulator on the other tabs runs on these numbers.
@@ -44,11 +46,11 @@ Papich MG. Ciprofloxacin Pharmacokinetics in Clinical Canine Patients. Journal o
 | C MAX | Cmax | 1.19 | μg/mL |
 | CL/F | CL/F | 1.71 | L/kg/h |
 | K a T 1/2 | t1/2ka | 1.78 | hour |
-| K e T 1/2 | t1/2β | 4.35 | hour |
+| K e T 1/2 | t1/2z | 4.35 | hour |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.96). Primary extraction retained.">cross-check: disputed</span> <span class="pk-badge pk-badge--species" title="Animal study (dog), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">dog</span>
+**Status and checks:** <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--green" title="re-read by gpt-oss-120b (confirmed, agreement 1.0). Primary extraction retained.">cross-checked ✓</span> <span class="pk-badge pk-badge--species" title="Animal study (dog), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">dog</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -62,7 +64,7 @@ Papich MG. Ciprofloxacin Pharmacokinetics in Clinical Canine Patients. Journal o
 
 Without a unit the value cannot be converted, so the model cannot use it. A reported unit could not be converted (AUC and Cmax), so that value has no SI equivalent. Extracted — ciprofloxacin: kabs 0.39 1/h, V/F 10.7 L/kg, kel 0.16 1/h, V 0.55, tmax 3.88 hour, AUC 13.8 μg·h/mL, Cmax 1.19 μg/mL, CL/F 1.71 L/kg/h, … (+2).
 
-A second, independent reading of the paper (`gpt-oss-120b`) disagrees on `parameters[dvdweight].parameter_id`: this record has Q319, the second reading Q61. That field shapes the model, so the record is marked disputed.
+Independently confirmed by `gpt-oss-120b`.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
@@ -79,7 +81,7 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on `parame
 | C MAX | `Q32` · Cmax | 1.19 | μg/mL |  |  | µg/ml | space_fold (0.95) | jvim14788-tbl-0002:row7:col1, jvim14788-tbl-0002:row7:col3 |
 | CL/F | `Q27` · CL/F | 1.71 | L/kg/h | 3.325e-05 | m3/s | l/(h·kg) | exact (1) | jvim14788-tbl-0002:row8:col1, jvim14788-tbl-0002:row8:col3 |
 | K a T 1/2 | `Q95` · t1/2ka | 1.78 | hour | 6408 | s | h | llm (0.6) | jvim14788-tbl-0002:row9:col1, jvim14788-tbl-0002:row9:col3 |
-| K e T 1/2 | `Q60` · t1/2β | 4.35 | hour | 1.566e+04 | s | h | llm (0.6) | jvim14788-tbl-0002:row10:col1, jvim14788-tbl-0002:row10:col3 |
+| K e T 1/2 | `Q57` · t1/2z | 4.35 | hour | 1.566e+04 | s | h | llm (0.6) | jvim14788-tbl-0002:row10:col1, jvim14788-tbl-0002:row10:col3 |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
@@ -88,11 +90,26 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on `parame
 
 ## Departures & gaps
 
+**Deviations:**
+- `defaulted_parameters`: ['Tlag']
+- `apparent_assumption`: F=1, Fm=1, no molar correction (parameterization=apparent)
+
 **Interpretation flags:**
 - apparent-ness (ontology-grounded): parameterization=apparent, measured_compound=ciprofloxacin
 - structure disagreement: deterministic 2C vs LLM 1C — review compartment count
 - skipped review gap-fill of Q: primary's parameterization (rate-constant / ka-only) does not use it
 - skipped review gap-fill of TLAG: primary's parameterization (rate-constant / ka-only) does not use it
+- column 'units' classified 'other' by the LLM but kept: the deterministic diagnostic-column test disagrees (a stratum column is a value column, not a statistic)
+- implicit units: 'θ K a' → 1/h (from the popPK convention: 'Ka is a first-order absorption rate constant. The value 0.39 is consistent with a rate constant in 1/h (half-life ~1.78h')
+- implicit units: 'θ V/F' → L (from the popPK convention: 'V/F is volume of distribution. The value 10.70 for a ~23kg dog is consistent with liters. No unit stated in table or tex')
+- implicit units: 'θ K e' → 1/h (from the popPK convention: 'Ke is a first-order elimination rate constant. The value 0.16 is consistent with a rate constant in 1/h (half-life 4.35h')
+- implicit units: 'T MAX' → h (from the popPK convention: 'TMAX is time to peak concentration. The value 3.88 is consistent with hours. No unit stated in table or text.')
+- implicit units: 'AUC' → µg·h/mL (from the paper text: "Text states: 'AUC... were 4.35 hours, 13.82 µg·h/mL'.")
+- implicit units: 'C MAX' → µg/mL (from the paper text: "Text states: 'C MAX... were... 1.19 µg/mL'.")
+- implicit units: 'CL/F' → L/h (from the popPK convention: 'CL/F is clearance. The value 1.71 is consistent with L/h. No unit stated in table or text.')
+- implicit units: 'K a T 1/2' → h (from the popPK convention: 'Ka T1/2 is a half-life (time). The value 1.78 is consistent with hours. No unit stated in table or text.')
+- implicit units: 'K e T 1/2' → h (from the paper text: "Text states: 'population estimate for elimination T 1/2... were 4.35 hours'.")
+- skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 
 **Extraction notes:**
 - table jvim14788-tbl-0002: missing_unit_binding
@@ -100,20 +117,14 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on `parame
 
 ## Validation
 
-**Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
-Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--green">cross-checked ✓</span>  
+Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss-120b` | not confirmed | 0.96 (24/25 fields) | 1 |
+| `gpt-oss-120b` | confirmed | 1.0 (14/14 fields) | none |
 
-<details><summary>1 field discrepancy</summary>
-
-| second reader | field | first reading | second reading | agreement |
-|---|---|---|---|---|
-| `gpt-oss-120b` | `parameters[dvdweight].parameter_id` | Q319 | Q61 | mismatch |
-
-</details>
+_All readers agree on the compared fields of this record._
 
 <details class="legend">
 <summary>Cross-check definitions</summary>
@@ -133,7 +144,7 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 | C5_dimension_Q47 | pass | 1 / [time] |  | ['jvim14788-tbl-0002:row3:col1', 'jvim14788-tbl-0002:row3:col3'] |
 | C5_dimension_Q49 | pass | 1 / [time] |  | ['jvim14788-tbl-0002:row1:col1', 'jvim14788-tbl-0002:row1:col3'] |
 | C5_dimension_Q56 | pass | [time] |  | ['jvim14788-tbl-0002:row5:col1', 'jvim14788-tbl-0002:row5:col3'] |
-| C5_dimension_Q60 | pass | [time] |  | ['jvim14788-tbl-0002:row10:col1', 'jvim14788-tbl-0002:row10:col3'] |
+| C5_dimension_Q57 | pass | [time] |  | ['jvim14788-tbl-0002:row10:col1', 'jvim14788-tbl-0002:row10:col3'] |
 | C5_dimension_Q76 | pass | [length] ** 3 |  | ['jvim14788-tbl-0002:row2:col1', 'jvim14788-tbl-0002:row2:col3'] |
 | C5_dimension_Q88 | pass | [mass] * [time] / [length] ** 3 |  | ['jvim14788-tbl-0002:row6:col1', 'jvim14788-tbl-0002:row6:col3'] |
 | C5_dimension_Q95 | pass | [time] |  | ['jvim14788-tbl-0002:row9:col1', 'jvim14788-tbl-0002:row9:col3'] |
@@ -158,26 +169,50 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
 <tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference/Ciprofloxacin_Papich2017_reference_modelica.zip" download>Ciprofloxacin_Papich2017_reference_modelica.zip</a> <span class="pk-size">(5.1 kB)</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><a href="drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference/Ciprofloxacin_Papich2017_reference_fmi.zip" download>Ciprofloxacin_Papich2017_reference_fmi.zip</a> <span class="pk-size">(4.3 kB)</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference/Ciprofloxacin_Papich2017_reference_fmi.zip" download>Ciprofloxacin_Papich2017_reference_fmi.zip</a> <span class="pk-size">(4.3 kB)</span><br><a href="models/fmu/PK_1C_enteral.fmu" download>PK_1C_enteral.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference/Ciprofloxacin_Papich2017_reference_matlab.zip" download>Ciprofloxacin_Papich2017_reference_matlab.zip</a> <span class="pk-size">(3.4 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference/Ciprofloxacin_Papich2017_reference_matlab_simbio.zip" download>Ciprofloxacin_Papich2017_reference_matlab_simbio.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
 <tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference/Ciprofloxacin_Papich2017_reference_sbml.zip" download>Ciprofloxacin_Papich2017_reference_sbml.zip</a> <span class="pk-size">(2.6 kB)</span></td></tr>
 <tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference/Ciprofloxacin_Papich2017_reference_cellml.zip" download>Ciprofloxacin_Papich2017_reference_cellml.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
+<p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PK_1C_enteral.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
 </div></div>
+
+## Model interface
+
+The parameters this record sets on the template, in the template's SI units, and the outputs the simulator reads.
+
+| direction | role | name | value | unit (SI) |
+|---|---|---|---|---|
+| input | compound | `MM` | 0.3313 | kg/mol |
+| input | dosing | `F` | 1 | 1 |
+| input | dosing | `Tlag` | 0 | s |
+| input | dosing | `adminCount` | 1 | 1 |
+| input | dosing | `adminDuration` | 600 | s |
+| input | dosing | `adminMass` | 0.001645 | kg |
+| input | model | `Cl` | 4.75e-07 | m3/s |
+| input | model | `VdPerKg` | 0.0001529 | m3/kg |
+| input | model | `ka` | 0.0001083 | 1/s |
+| input | subject | `weight` | 70 | kg |
+| output | concentration | `C_central` |  | kg/m3 |
+
+## Tested with
+
+- Template `Pharmacolibrary.Pharmacokinetic.Models.PK_1C_enteral`, compiled by OpenModelica Compiler OpenModelica 1.26.7~1-g2b913cc.
+- Reference peak computed with FMPy from the compiled FMU; the Simulation tab re-runs the same FMU in the browser and compares its peak with it.
+- No automated comparison across the download formats runs for this template yet; the FMI archive is the reference implementation.
 
 ## How to cite
 
 **Source paper** (the parameters are its): Papich MG. Ciprofloxacin Pharmacokinetics in Clinical Canine Patients. Journal of veterinary internal medicine 31(5):1508–1513 (2017). [doi:10.1111/jvim.14788](https://doi.org/10.1111/jvim.14788)
 
-**This record:** Pharmacolibrary v26.09, model `Ciprofloxacin_Papich2017_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference>
+**This record:** Pharmacolibrary, model `Ciprofloxacin_Papich2017_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference>
 
 ```bibtex
 @misc{pharmacolibrary_CiprofloxacinPapich2017reference,
   title  = {{Pharmacolibrary model Ciprofloxacin_Papich2017_reference}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference},
   note   = {Parameters from doi:10.1111/jvim.14788},
 }
@@ -187,10 +222,14 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-_Browser simulation unavailable: no shared WebAssembly template. The **Models** tab provides the record-specific FMI archive._
+**Administration: oral** — 1645 mg, single dose, first-order absorption (ka 0.39 /h, F 1). Dose in the paper: 1645 mg.
+
+<dbs-fmusim paramsurl="drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference/Ciprofloxacin_Papich2017_reference_params.json" metaurl="assets/fmu/PK_1C_enteral.vr.json" wasmurl="assets/fmu/PK_1C_enteral.js" controlsurl="drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference/Ciprofloxacin_Papich2017_reference_sim_controls.json"></dbs-fmusim>
+
+<sub>WebAssembly simulation using extracted parameters. The reference check compares the browser peak with the recorded FMPy result and is disabled after parameter edits. Template `PK_1C_enteral` · parameters `Ciprofloxacin_Papich2017_reference_params.json` · controls `Ciprofloxacin_Papich2017_reference_sim_controls.json`. *Simulator value* denotes a template default, not an extracted estimate.</sub>
 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bciprofloxacin%5D%20Ciprofloxacin_Papich2017_reference&body=Drug%3A%20ciprofloxacin%0ARecord%3A%20Ciprofloxacin_Papich2017_reference%0APaper%3A%20Papich_2017%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 12:59 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bciprofloxacin%5D%20Ciprofloxacin_Papich2017_reference&body=Drug%3A%20ciprofloxacin%0ARecord%3A%20Ciprofloxacin_Papich2017_reference%0APaper%3A%20Papich_2017%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_ciprofloxacin/Ciprofloxacin_Papich2017_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 16:53 UTC</sub>

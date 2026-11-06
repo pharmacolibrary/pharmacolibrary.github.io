@@ -1,8 +1,8 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;R03A&quot;,&quot;href&quot;:&quot;atc/R03A.md&quot;},{&quot;label&quot;:&quot;salbutamol&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/&quot;},{&quot;label&quot;:&quot;Walsh_2023 \u00b7 PD Paediatric Asthma Severity Score (PASS)&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Salbutamol_Bisaso2026_reference&quot;,&quot;label&quot;:&quot;Bisaso_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Bisaso2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Marques2024_geometric_mean&quot;,&quot;label&quot;:&quot;Marques_2024_geometric_mean&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024_geometric_mean.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Marques2024v2_reference&quot;,&quot;label&quot;:&quot;Marques_2024_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024v2_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Walsh2023_reference&quot;,&quot;label&quot;:&quot;Walsh_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Walsh2023_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Salbutamol_Walsh2023_fixed_effects&quot;,&quot;label&quot;:&quot;Walsh_2023_fixed_effects&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Walsh2023_fixed_effects.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Bisaso2026_reference&quot;,&quot;label&quot;:&quot;Bisaso_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Bisaso2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Courlet2022_reference&quot;,&quot;label&quot;:&quot;Courlet_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Courlet2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Marques2024_reference&quot;,&quot;label&quot;:&quot;Marques_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Marques2024v2_reference&quot;,&quot;label&quot;:&quot;Marques_2024_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024v2_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Walsh2023_random_effects&quot;,&quot;label&quot;:&quot;Walsh_2023_random_effects&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Walsh2023_random_effects.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Walsh_2023_PASS&quot;,&quot;label&quot;:&quot;Walsh_2023 \u00b7 PASS&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Walsh_2023_PASS.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;pd_Walsh_2023_glucose&quot;,&quot;label&quot;:&quot;Walsh_2023 \u00b7 glucose&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Walsh_2023_glucose.md&quot;,&quot;status&quot;:&quot;Reproduces with caveats&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Walsh_2023_tachycardia&quot;,&quot;label&quot;:&quot;Walsh_2023 \u00b7 tachycardia&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Walsh_2023_tachycardia.md&quot;,&quot;status&quot;:&quot;Reproduces with caveats&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Boger_2019_FEV1&quot;,&quot;label&quot;:&quot;Boger_2019 \u00b7 FEV1&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Boger_2019_FEV1.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Venkatasubramanian_2020_TPR&quot;,&quot;label&quot;:&quot;Venkatasubramanian_2020 \u00b7 TPR&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Venkatasubramanian_2020_TPR.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Cullum_2023_Emax&quot;,&quot;label&quot;:&quot;Cullum_2023 \u00b7 Emax&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Cullum_2023_Emax.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Cullum_2023_IRmax&quot;,&quot;label&quot;:&quot;Cullum_2023 \u00b7 IRmax&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Cullum_2023_IRmax.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 <div class="pk-tab-mark" data-tab="Information"></div>
 
-# Paediatric Asthma Severity Score (PASS) — PD  <span class="pk-badge pk-badge--green">Reproduces paper</span> <span class="pk-badge pk-badge--red" title="re-read by einfracz:gpt-oss-120b (not confirmed, agreement 0.625). Primary extraction retained.">cross-check: disputed</span>
+# Paediatric Asthma Severity Score (PASS) — PD  <span class="pk-badge pk-badge--green">Reproduces paper</span> <span class="pk-badge pk-badge--red" title="re-read by einfracz:gpt-oss-120b (not confirmed, agreement 0.375). Primary extraction retained.">cross-check: disputed</span>
 
 <details class="pk-legend"><summary>PGx evidence and model availability</summary><table><tbody><tr><td><span class="pk-badge pk-badge--green">quantitative</span></td><td>Phenotype/genotype-specific effect on a named model parameter (θ).</td></tr><tr><td><span class="pk-badge pk-badge--neutral">qualitative</span></td><td>Gene–drug association without a quantitative parameter effect.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">guideline estimate</span></td><td>CPIC/DPWG-derived estimate, not a primary-paper estimate.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">safety allele</span></td><td>Adverse-reaction risk allele; no quantitative PK/PD parameter effect.</td></tr><tr><td><span class="pk-badge pk-badge--orange">needs review</span></td><td>the extraction is incomplete or inconsistent.</td></tr><tr><td><span class="pk-badge pk-badge--red">rejected</span></td><td>not accepted.</td></tr><tr><td><span class="pk-badge pk-badge--green">▶ simulatable</span></td><td>Phenotype-specific browser simulation and downloadable PGx model available.</td></tr><tr><td><span class="pk-badge pk-badge--neutral">model only</span></td><td>PGx model available; browser simulation unavailable.</td></tr></tbody></table></details>
 
@@ -16,7 +16,7 @@
 
 **As extracted:** Salbutamol (concentrations from this paper's PK model) drives Paediatric Asthma Severity Score (PASS) (in fraction of PASS-score [0-9]): direct sigmoid Emax (Hill) effect.
 
-**Model:** Model available in **Models**; browser simulation unavailable.
+**Model:** Model and browser simulation available in **Models** and **Simulation**.
 
 > Salbutamol plasma concentrations (ng/ml) were linked to the Paediatric Asthma Severity Score (PASS, fraction of 0–9 scale) in a sequential PKPD model, with a sigmoid Emax relationship in which salbutamol inhibits (reduces) the PASS score from a baseline E0 of 0.381 by a maximum EMAX of 0.25; EC50 was fixed to a literature-based FEV1 estimate of 1.15 ng/ml and the Hill slope to 3.2, as neither could be reliably estimated. The paper states current dosing achieves concentrations above the 90% maximal effect, with an infusion of 0.5 µg/kg/min achieving &gt;90% maximal bronchodilation.
 >
@@ -26,7 +26,7 @@
 - **model family:** `sigmoid_emax`
 - **driver:** `pk_record`
 - **tier:** population
-- **effect:** inhibition/unknown
+- **effect:** inhibition/proportional
 
 ## Citation
 Walsh S et al., Optimising intravenous salbutamol in ch…, Archives of disease in chil… (2023)
@@ -37,7 +37,7 @@ Walsh S et al., Optimising intravenous salbutamol in ch…, Archives of disease 
 |---|---|---|---|---|---|---|
 | PD (effect) | E0 | `Q324` ·  | 0.381 | fraction of PASS-score [0-9] | llm | Walsh_2023:pdv3 |
 | PD (effect) | EMAX | `Q323` ·  | 0.25 | fraction of PASS-score [0-9] | llm | Walsh_2023:pdv3 |
-| PD (effect) | EC50 | `Q322` ·  | 1.15 | ng/ml | llm | Walsh_2023:pdv3 |
+| PD (effect) | EC50 | `Q321` ·  | 1.15 | ng/ml | llm | Walsh_2023:pdv3 |
 | PD (effect) | HILL | `Q325` ·  | 3.2 |  | llm | Walsh_2023:pdv3 |
 
 <details class="legend">
@@ -78,19 +78,21 @@ Verdict <span class="pk-badge pk-badge--green">Reproduces paper</span>
 
 
 **Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
-Primary extraction: `ollama:glm-5.3-flash`; retained regardless of cross-check verdict.
+Primary extraction: `einfracz:qwen3.8-27b`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `einfracz:gpt-oss-120b` | not confirmed | 0.625 (5/8 fields) | 3 |
+| `einfracz:gpt-oss-120b` | not confirmed | 0.375 (3/8 fields) | 5 |
 
-<details><summary>3 field discrepancies</summary>
+<details><summary>5 field discrepancies</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
 | `einfracz:gpt-oss-120b` | `effect_form` | proportional | additive | mismatch |
-| `einfracz:gpt-oss-120b` | `parameters[Q321].value` | 1.15 (fixed) | 1.15 | mismatch |
-| `einfracz:gpt-oss-120b` | `parameters[Q325].value` | 3.2 (fixed) | 3.2 | mismatch |
+| `einfracz:gpt-oss-120b` | `parameters[Q321]` | 1.15 |  | only_one_extracted |
+| `einfracz:gpt-oss-120b` | `parameters[Q323].value` | 0.25 | unit | mismatch |
+| `einfracz:gpt-oss-120b` | `parameters[Q324].value` | 0.381 | unit | mismatch |
+| `einfracz:gpt-oss-120b` | `parameters[Q325]` | 3.2 |  | only_one_extracted |
 
 </details>
 
@@ -107,24 +109,42 @@ Primary extraction: `ollama:glm-5.3-flash`; retained regardless of cross-check v
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
 <tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_salbutamol/Salbutamol_Walsh2023_PD_pass/Salbutamol_Walsh2023_PD_pass_modelica.zip" download>Salbutamol_Walsh2023_PD_pass_modelica.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">unavailable</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_salbutamol/Salbutamol_Walsh2023_PD_pass/Salbutamol_Walsh2023_PD_pass_fmi.zip" download>Salbutamol_Walsh2023_PD_pass_fmi.zip</a> <span class="pk-size">(4.6 kB)</span><br><a href="models/fmu/PD_SigmoidEmaxSweep.fmu" download>PD_SigmoidEmaxSweep.fmu</a> <span class="pk-size">(1.2 MB, shared)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_salbutamol/Salbutamol_Walsh2023_PD_pass/Salbutamol_Walsh2023_PD_pass_matlab.zip" download>Salbutamol_Walsh2023_PD_pass_matlab.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">unavailable</span></td></tr>
 <tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_salbutamol/Salbutamol_Walsh2023_PD_pass/Salbutamol_Walsh2023_PD_pass_sbml.zip" download>Salbutamol_Walsh2023_PD_pass_sbml.zip</a> <span class="pk-size">(2.6 kB)</span></td></tr>
 <tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_salbutamol/Salbutamol_Walsh2023_PD_pass/Salbutamol_Walsh2023_PD_pass_cellml.zip" download>Salbutamol_Walsh2023_PD_pass_cellml.zip</a> <span class="pk-size">(2.5 kB)</span></td></tr>
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
+<p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PD_SigmoidEmaxSweep.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
 </div></div>
+
+## Model interface
+
+The parameters this record sets on the template, in the template's SI units, and the outputs the simulator reads.
+
+| direction | role | name | value | unit (SI) |
+|---|---|---|---|---|
+| input | model | `E0` | 0.381 |  |
+| input | model | `EC50` | 1.15e-06 |  |
+| input | model | `Emax` | -0.25 |  |
+| input | model | `exposure_per_s` | 1e-06 |  |
+| input | model | `gamma` | 3.2 |  |
+| output | concentration | `response` |  | kg/m3 |
+
+## Tested with
+
+- Template `Pharmacolibrary.Pharmacodynamic.SigmoidEmaxSweep`, compiled by OpenModelica Compiler OpenModelica 1.26.7~1-g2b913cc.
+- No automated comparison across the download formats runs for this template yet; the FMI archive is the reference implementation.
 
 ## How to cite
 
-**This record:** Pharmacolibrary v26.09, model `Salbutamol_Walsh2023_PD_pass`. <https://pharmacolibrary.github.io/#/drugs/drug_salbutamol/Salbutamol_Walsh2023_PD_pass>
+**This record:** Pharmacolibrary, model `Salbutamol_Walsh2023_PD_pass`. <https://pharmacolibrary.github.io/#/drugs/drug_salbutamol/Salbutamol_Walsh2023_PD_pass>
 
 ```bibtex
 @misc{pharmacolibrary_SalbutamolWalsh2023PDpass,
   title  = {{Pharmacolibrary model Salbutamol_Walsh2023_PD_pass}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_salbutamol/Salbutamol_Walsh2023_PD_pass},
 }
 ```
@@ -133,10 +153,12 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-_Browser simulation unavailable: no shared WebAssembly template. The **Models** tab provides the record-specific FMI archive._
+<dbs-fmusim paramsurl="drugs/drug_salbutamol/Salbutamol_Walsh2023_PD_pass/Salbutamol_Walsh2023_PD_pass_params.json" metaurl="assets/fmu/PD_SigmoidEmaxSweep.vr.json" wasmurl="assets/fmu/PD_SigmoidEmaxSweep.js" controlsurl="drugs/drug_salbutamol/Salbutamol_Walsh2023_PD_pass/Salbutamol_Walsh2023_PD_pass_sim_controls.json"></dbs-fmusim>
+
+<sub>WebAssembly simulation using extracted parameters. The reference check compares the browser peak with the recorded FMPy result and is disabled after parameter edits. Template `PD_SigmoidEmaxSweep` · parameters `Salbutamol_Walsh2023_PD_pass_params.json` · controls `Salbutamol_Walsh2023_PD_pass_sim_controls.json`. *Simulator value* denotes a template default, not an extracted estimate.</sub>
 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bsalbutamol%5D%20pd_Walsh_2023_PASS&body=Drug%3A%20salbutamol%0ARecord%3A%20pd_Walsh_2023_PASS%0APaper%3A%20Walsh_2023%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_salbutamol/pd_Walsh_2023_PASS%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bsalbutamol%5D%20pd_Walsh_2023_PASS&body=Drug%3A%20salbutamol%0ARecord%3A%20pd_Walsh_2023_PASS%0APaper%3A%20Walsh_2023%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_salbutamol/pd_Walsh_2023_PASS%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
 <sub>← back to [salbutamol](drugs/drug_salbutamol/)</sub>

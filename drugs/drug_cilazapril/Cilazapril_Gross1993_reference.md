@@ -1,4 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C09A&quot;,&quot;href&quot;:&quot;atc/C09A.md&quot;},{&quot;label&quot;:&quot;cilazapril&quot;,&quot;href&quot;:&quot;drugs/drug_cilazapril/&quot;},{&quot;label&quot;:&quot;Gross_1993 \u00b7 reference&quot;}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Cilazapril_Song2002_reference&quot;,&quot;label&quot;:&quot;Song_2002_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_cilazapril/Cilazapril_Song2002_reference.md&quot;,&quot;status&quot;:&quot;Not simulated \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Cilazapril_Wright2025_reference&quot;,&quot;label&quot;:&quot;Wright_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_cilazapril/Cilazapril_Wright2025_reference.md&quot;,&quot;status&quot;:&quot;Not simulated \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--neutral&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -6,7 +7,7 @@
 
 > ## <span class="pk-badge pk-badge--red">Rejected</span>
 
-> Cilazapril's metabolism to cilazaprilat is unlinked, and abstract-only values lack mechanistic depth.
+> The model was rejected because the metabolite cilazaprilat is an orphan compartment with no dose path, and the abstract-only source lacks fitted parameters.
 
 <div class="pk-model-meta" hidden drug="cilazapril" model-id="Cilazapril_Gross1993_reference" status="rejected" stale="false" population="healthy volunteers and patients with compensated cirrhosis" measured-compound="cilazapril" parameterization="mechanistic" topology="general_linear"></div>
 
@@ -32,8 +33,8 @@ Gross V, Treher E, Haag K, Neis W, Wiegand U, Schölmerich J. Angiotensin-conver
 |---|---|---|---|
 | 7.8 +/- 6.0 l/h vs. | CL | 7.8 | l/h |
 | 1st phase: 2.5 +/- 0.8 h vs. | t1/2α | 2.5 | h |
-| Ka | kabs | 0.319 | h–1 |
-| LAG | tlag | 2.0 | h |
+| Vd (L) | V | 1.79 | L |
+| Ego-onset ( h) | tlag | 1.2 | h |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
@@ -47,9 +48,9 @@ Gross V, Treher E, Haag K, Neis W, Wiegand U, Schölmerich J. Angiotensin-conver
 
 ### Reviewer guidance
 
-**Cilazapril's metabolism to cilazaprilat is unlinked, and abstract-only values lack mechanistic depth.**
+**The model was rejected because the metabolite cilazaprilat is an orphan compartment with no dose path, and the abstract-only source lacks fitted parameters.**
 
-The record defines a hydrolysis path from cilazapril to cilazaprilat but assigns no link parameter, leaving the metabolite compartment unreachable. Because the data is abstract-only, the reported clearance of 7.8 l/h stands in for a fitted model rather than a mechanistic estimate. A second reader disagreed on the mechanistic parameterization and disputed several parameter values like the absorption rate constant. Extracted — cilazapril: CL 7.8 l/h, t1/2α 2.5 h, kabs 0.319 h–1, tlag 2 h.
+The record was built from the abstract alone, so reported summary statistics like the 7.8 l/h clearance stood in for a fitted model. The hydrolysis link from cilazapril to cilazaprilat was disputed, leaving the metabolite compartment unreachable from the dose. Additionally, the volume of distribution label references benazepril, a different drug, indicating incorrect extraction. Extracted — cilazapril: CL 7.8 l/h, t1/2α 2.5 h, V 97 L.
 
 A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the links between molecules: this record has cilazapril → cilazaprilat (hydrolysis), the second reading none; it also differs on 8 more fields. That field shapes the model, so the record is marked disputed.
 
@@ -61,8 +62,8 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the lin
 |---|---|---|---|---|---|---|---|---|
 | 7.8 +/- 6.0 l/h vs. | `Q22` · CL | 7.8 | l/h | 2.167e-06 | m3/s | l/h | llm (0.6) | Gross_1993:abstract |
 | 1st phase: 2.5 +/- 0.8 h vs. | `Q59` · t1/2α | 2.5 | h | 9000 | s | h | llm (0.6) | Gross_1993:abstract |
-| Ka | `Q49` · kabs | 0.319 | h–1 | 8.861e-05 | 1/s | 1/h | review_gapfill (0.7) | Kim_2017:review |
-| LAG | `Q83` · tlag | 2.0 | h | 7200 | s | h | review_gapfill (0.7) | Kim_2017:review |
+| Vd (L) | `Q61` · V | 1.79 | L | 0.00179 | m3 | L | review_gapfill (0.7) | Song_2002:review |
+| Ego-onset ( h) | `Q83` · tlag | 1.2 | h | 4320 | s | h | review_gapfill (0.7) | Massarella_1989:review |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
@@ -77,10 +78,10 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the lin
 - topology: transfer parameter unlinked (Q100) — add Kfm/formation-rate/rate-constant to the ontology; routing to review
 - status held at "Needs review" — not promoted
 - abstract-only: no full text was available, so these values were read from the abstract's prose — reported summary statistics, not a fitted model
+- gap-filled Q61 (V) from Song_2002's review values (primary lacked it)
 - skipped review gap-fill of V2: primary is GENERAL_LINEAR (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is GENERAL_LINEAR (peripheral family needs ≥2C)
-- gap-filled Q49 (kabs) from Kim_2017's review values (primary lacked it)
-- gap-filled Q83 (tlag) from Kim_2017's review values (primary lacked it)
+- gap-filled Q83 (tlag) from Massarella_1989's review values (primary lacked it)
 
 **Extraction notes:**
 - no GROBID TEI available — transcribed from abstract in Gross_1993_metadata.yaml (3 record(s)); values are summary statistics, not a fitted model
@@ -124,12 +125,13 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 | C0b_disposition_core | pass |  |  |  |
 | C0c_disposition_complete | fail |  |  |  |
 | C5_dimension_Q22 | pass | [length] ** 3 / [time] |  | ['Gross_1993:abstract'] |
-| C5_dimension_Q49 | pass | 1 / [time] |  | ['Kim_2017:review'] |
 | C5_dimension_Q59 | pass | [time] |  | ['Gross_1993:abstract'] |
-| C5_dimension_Q83 | pass | [time] |  | ['Kim_2017:review'] |
+| C5_dimension_Q61 | pass | [length] ** 3 |  | ['Song_2002:review'] |
+| C5_dimension_Q83 | pass | [time] |  | ['Massarella_1989:review'] |
 | C6_cl_magnitude | pass | &lt;= 90.0 L/h | 7.8 | ['Gross_1993:abstract'] |
 | C8_topology | fail | ontology-linked transfer parameter on every edge | ['none'] |  |
 | C9_phys_window_Q22 | pass | clearance within physiological range | 7.8 L/h | ['Gross_1993:abstract'] |
+| C9_phys_window_Q61 | pass | volume within physiological range | 1.79 L | ['Song_2002:review'] |
 
 <details class="legend">
 <summary>Validation definitions</summary>
@@ -152,5 +154,5 @@ _Browser simulation unavailable: no shared WebAssembly template. The **Models** 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bcilazapril%5D%20Cilazapril_Gross1993_reference&body=Drug%3A%20cilazapril%0ARecord%3A%20Cilazapril_Gross1993_reference%0APaper%3A%20Gross_1993%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_cilazapril/Cilazapril_Gross1993_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 10:03 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bcilazapril%5D%20Cilazapril_Gross1993_reference&body=Drug%3A%20cilazapril%0ARecord%3A%20Cilazapril_Gross1993_reference%0APaper%3A%20Gross_1993%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_cilazapril/Cilazapril_Gross1993_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 07:21 UTC</sub>

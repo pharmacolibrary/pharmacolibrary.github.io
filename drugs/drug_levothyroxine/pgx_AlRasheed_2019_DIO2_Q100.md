@@ -13,7 +13,7 @@
 - **what it is:** qualitative — Gene–drug association without a quantitative parameter effect.
 - **source:** this paper, `AlRasheed_2019` — [doi](https://doi.org/10.1016/j.jsps.2019.05.005)
 - **gene:** DIO2
-- **mechanism:** metabolism — the gene's enzyme clears the drug
+- **mechanism:** formation — the gene's enzyme forms an active metabolite
 - **applies to:** pharmacokinetics (exposure)
 - **parameter it changes:** NIL (`Q100`)
 - **effect:** not quantified
@@ -22,7 +22,6 @@
 ### Notes from the extraction
 
 - association-only evidence (no extracted θ) — not a covariate
-- relevance flagged quantitative but no per-genotype θ table reached
 - genotype→phenotype map unresolved (no paper/CPIC/genotype mapping)
 - reference category (θ=0) not captured — must not be inferred
 
@@ -42,8 +41,8 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss-120b` | `applies_to` | pd |  | mismatch |
-| `gpt-oss-120b` | `mechanism` | target |  | mismatch |
+| `gpt-oss-120b` | `applies_to` | pk |  | mismatch |
+| `gpt-oss-120b` | `mechanism` | formation |  | mismatch |
 | `gpt-oss-120b` | `target_parameter_id` | Q100 |  | mismatch |
 
 </details>
@@ -77,5 +76,5 @@ _Browser simulation unavailable: no shared WebAssembly template. The **Models** 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Blevothyroxine%5D%20pgx_AlRasheed_2019_DIO2_Q100&body=Drug%3A%20levothyroxine%0ARecord%3A%20pgx_AlRasheed_2019_DIO2_Q100%0APaper%3A%20AlRasheed_2019%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_levothyroxine/pgx_AlRasheed_2019_DIO2_Q100%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Blevothyroxine%5D%20pgx_AlRasheed_2019_DIO2_Q100&body=Drug%3A%20levothyroxine%0ARecord%3A%20pgx_AlRasheed_2019_DIO2_Q100%0APaper%3A%20AlRasheed_2019%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_levothyroxine/pgx_AlRasheed_2019_DIO2_Q100%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
 <sub>← back to [Levothyroxine](drugs/drug_levothyroxine/)</sub>

@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N06A&quot;,&quot;href&quot;:&quot;atc/N06A.md&quot;},{&quot;label&quot;:&quot;venlafaxine&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/&quot;},{&quot;label&quot;:&quot;Chen_2025 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Venlafaxine_Yan2026_reference&quot;,&quot;label&quot;:&quot;Yan_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Yan2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Venlafaxine_Chen2025_reference&quot;,&quot;label&quot;:&quot;Chen_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Chen2025_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Venlafaxine_Liu2022_reference&quot;,&quot;label&quot;:&quot;Liu_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Liu2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Venlafaxine_Yan2026_reference&quot;,&quot;label&quot;:&quot;Yan_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Yan2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Venlafaxine_Chen2025_reference&quot;,&quot;label&quot;:&quot;Chen_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Chen2025_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Venlafaxine_Liu2022_reference&quot;,&quot;label&quot;:&quot;Liu_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Liu2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Venlafaxine_Wang2022_reference&quot;,&quot;label&quot;:&quot;Wang_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Wang2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Maringwa_2025_HAMD&quot;,&quot;label&quot;:&quot;Maringwa_2025 \u00b7 HAMD&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/pd_Maringwa_2025_HAMD.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -183,13 +183,12 @@ The parameters this record sets on the template, in the template's SI units, and
 
 **Source paper** (the parameters are its): Chen X, Zhang Y, Yin D, Jin YW, He SM, Zhang C et al. Drug-Drug Interactions and Initial Dosage Optimization of Quetiapine in Patients with Depression: A Real-World Study. Drug design, development and therapy 19:8051-8067 (2025). [doi:10.2147/dddt.s538856](https://doi.org/10.2147/dddt.s538856)
 
-**This record:** Pharmacolibrary v26.09, model `Venlafaxine_Chen2025_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_venlafaxine/Venlafaxine_Chen2025_reference>
+**This record:** Pharmacolibrary, model `Venlafaxine_Chen2025_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_venlafaxine/Venlafaxine_Chen2025_reference>
 
 ```bibtex
 @misc{pharmacolibrary_VenlafaxineChen2025reference,
   title  = {{Pharmacolibrary model Venlafaxine_Chen2025_reference}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_venlafaxine/Venlafaxine_Chen2025_reference},
   note   = {Parameters from doi:10.2147/dddt.s538856},
 }
@@ -208,5 +207,5 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bvenlafaxine%5D%20Venlafaxine_Chen2025_reference&body=Drug%3A%20venlafaxine%0ARecord%3A%20Venlafaxine_Chen2025_reference%0APaper%3A%20Chen_2025%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_venlafaxine/Venlafaxine_Chen2025_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 12:13 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bvenlafaxine%5D%20Venlafaxine_Chen2025_reference&body=Drug%3A%20venlafaxine%0ARecord%3A%20Venlafaxine_Chen2025_reference%0APaper%3A%20Chen_2025%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_venlafaxine/Venlafaxine_Chen2025_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-10-22 12:13 UTC</sub>

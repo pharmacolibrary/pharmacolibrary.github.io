@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;L01B&quot;,&quot;href&quot;:&quot;atc/L01B.md&quot;},{&quot;label&quot;:&quot;methotrexate&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/&quot;},{&quot;label&quot;:&quot;Yu_2025 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Methotrexate_Pan2026_reference&quot;,&quot;label&quot;:&quot;Pan_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Pan2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Pignon1994_reference&quot;,&quot;label&quot;:&quot;Pignon_1994_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Pignon1994_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Tan2024_reference&quot;,&quot;label&quot;:&quot;Tan_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Tan2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Wei2025_reference&quot;,&quot;label&quot;:&quot;Wei_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Wei2025_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Yu2025_reference&quot;,&quot;label&quot;:&quot;Yu_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Yu2025_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Methotrexate_van2024_reference&quot;,&quot;label&quot;:&quot;van_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_van2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Methotrexate_Faltaos2006_reference&quot;,&quot;label&quot;:&quot;Faltaos_2006_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Faltaos2006_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Gao2021_reference&quot;,&quot;label&quot;:&quot;Gao_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Gao2021_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Mei2018_reference&quot;,&quot;label&quot;:&quot;Mei_2018_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Mei2018_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Olivo2024_reference&quot;,&quot;label&quot;:&quot;Olivo_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Olivo2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Pan2026_reference&quot;,&quot;label&quot;:&quot;Pan_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Pan2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Pignon1994_reference&quot;,&quot;label&quot;:&quot;Pignon_1994_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Pignon1994_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Tan2024_reference&quot;,&quot;label&quot;:&quot;Tan_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Tan2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Taylor2026_reference&quot;,&quot;label&quot;:&quot;Taylor_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Taylor2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Wei2025_reference&quot;,&quot;label&quot;:&quot;Wei_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Wei2025_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Yu2025_reference&quot;,&quot;label&quot;:&quot;Yu_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Yu2025_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Methotrexate_Zang2019_reference&quot;,&quot;label&quot;:&quot;Zang_2019_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Zang2019_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Zhan2022_reference&quot;,&quot;label&quot;:&quot;Zhan_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Zhan2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_van2024_reference&quot;,&quot;label&quot;:&quot;van_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_van2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Iven1985_12_mg_kg&quot;,&quot;label&quot;:&quot;Iven_1985_12_mg_kg&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Iven1985_12_mg_kg.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Iven1985_1_33_mg_kg&quot;,&quot;label&quot;:&quot;Iven_1985_1_33_mg_kg&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Iven1985_1_33_mg_kg.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Methotrexate_Iven1985_4_mg_kg&quot;,&quot;label&quot;:&quot;Iven_1985_4_mg_kg&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/Methotrexate_Iven1985_4_mg_kg.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Lobo_2003_Nadir_body_weight_loss&quot;,&quot;label&quot;:&quot;Lobo_2003 \u00b7 % Nadir body weight loss&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_methotrexate/pd_Lobo_2003_Nadir_body_weight_loss.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -7,7 +7,7 @@
 
 > ## <span class="pk-badge pk-badge--orange" title="covariates_not_exercised: Reference-individual predictions reproduce the source; covariate scenarios were not evaluated.">Needs review</span>
 
-> The methotrexate record was refused because the bioavailability F was not estimated from the paper, leaving its default value unsupported.
+> Bioavailability for methotrexate was left at library defaults, and second readers disagreed on all parameter values.
 
 <div class="pk-model-meta" hidden drug="methotrexate" model-id="Methotrexate_Yu2025_reference" status="needs_review" stale="false" population="pediatric patients with acute lymphoblastic leukemia" measured-compound="methotrexate" parameterization="mechanistic" topology="2C"></div>
 
@@ -17,15 +17,15 @@ Yu B, Wan Y, Mei K, Zhan D, Tang Q, Hu X et al. Population Pharmacokinetics and 
 
 ## Population and dosing
 
-**Population:** pediatric patients with acute lymphoblastic leukemia · condition acute lymphoblastic leukemia · age group child · n = &gt;=214.
+**Population:** pediatric patients with acute lymphoblastic leukemia · condition acute lymphoblastic leukemia · age group child · n = —.
 
-**Dosing:** 3, 5 g/m², iv, single.
+**Dosing:** 3, 5 g/m², iv, multiple.
 
 ## Model
 
 **Structure:** 2-compartment, oral mammillary model — template `PK_2C_enteral`.  
 **Parameterization:** mechanistic.  
-**Parameters:** 6 extracted.  
+**Parameters:** 7 extracted.  
 **Availability:** Model and browser simulation available in **Models** and **Simulation**.
 
 <figure class="pk-models-diagram"><img src="drugs/drug_methotrexate/Methotrexate_Yu2025_reference/Methotrexate_Yu2025_reference.svg" alt="Methotrexate_Yu2025_reference diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure>
@@ -39,11 +39,11 @@ Yu B, Wan Y, Mei K, Zhan D, Tang Q, Hu X et al. Population Pharmacokinetics and 
 | θQ (L/h) | Q | 0.149 | L/h | 5 |
 | θV1 (L) | V1 | 15.90 | L | 4 |
 | θV2 (L) | V2 | 7.23 | L | 9 |
+| θBSA | allometric_exponent | 1.10 |  | 10 |
+| θWT | equation variable | 0.45 |  | 11 |
 | θGFR | θGFR | 0.537 |  |  |
-| θBSA | θBSA | 1.1 |  |  |
-| θWT | θWT | 0.45 |  |  |
 | θBUN | θBUN | -0.0823 |  |  |
-| absorption rate ka6MP | kabs | 21.07 | 1/day |  |
+| ka (/day) | kabs | 0.268 | /day |  |
 | t lag,oral | tlag | 0.36 | hour |  |
 
 ## Caveats
@@ -52,7 +52,7 @@ Yu B, Wan Y, Mei K, Zhan D, Tang Q, Hu X et al. Population Pharmacokinetics and 
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--orange" title="covariates_not_exercised: Reference-individual predictions reproduce the source; covariate scenarios were not evaluated.">Needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.733). Primary extraction retained.">cross-check: disputed</span>
+**Status and checks:** <span class="pk-badge pk-badge--orange" title="covariates_not_exercised: Reference-individual predictions reproduce the source; covariate scenarios were not evaluated.">Needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.842). Primary extraction retained.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -62,11 +62,11 @@ Yu B, Wan Y, Mei K, Zhan D, Tang Q, Hu X et al. Population Pharmacokinetics and 
 
 ### Reviewer guidance
 
-**The methotrexate record was refused because the bioavailability F was not estimated from the paper, leaving its default value unsupported.**
+**Bioavailability for methotrexate was left at library defaults, and second readers disagreed on all parameter values.**
 
-The parameter F was defaulted rather than extracted from the Yu_2025 paper for pediatric acute lymphoblastic leukemia. The model defines GFR, BSA, and weight covariates, but only the reference individual was simulated. Consequently, the covariate effects were not exercised to validate the model structure. Extracted — methotrexate: CL 4.46 L/h, Q 0.149 L/h, V1 15.9 L, V2 7.23 L, kabs 21.1 1/day, tlag 0.36 hour.
+The model builder replaced the unreported bioavailability fraction with a generic placeholder rather than an estimate from the study. Second readers found discrepancies in every extracted parameter, including clearance, volumes, and covariate coefficients. Extracted — methotrexate: CL 4.46 L/h, Q 0.149 L/h, V1 15.9 L, V2 7.23 L, allometric_exponent 1.1, kabs 0.268 /day, tlag 0.36 hour.
 
-A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the value of ka: this record has 0.268, the second reading none; it also differs on 3 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss-120b`) disagrees on `parameters[θgfr].parameter_id`: this record has Q900, the second reading Q41; it also differs on 2 more fields. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by qwen3.8-27b</sub>
 
@@ -78,11 +78,11 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the val
 | θQ (L/h) | `Q30` · Q | 0.149 | L/h | 4.139e-08 | m3/s | l/h | 5 | llm (0.6) | t0002:row4:col1 |
 | θV1 (L) | `Q63` · V1 | 15.90 | L | 0.0159 | m3 | l | 4 | llm_confirmed (0.6) | t0002:row5:col1 |
 | θV2 (L) | `Q64` · V2 | 7.23 | L | 0.00723 | m3 | l | 9 | llm_confirmed (0.6) | t0002:row6:col1 |
+| θBSA | `Q319` · allometric_exponent | 1.10 |  |  |  |  | 10 | llm (0.6) | t0002:row8:col1 |
+| θWT | `Q900` · equation variable | 0.45 |  |  |  |  | 11 | llm (0.6) | t0002:row9:col1 |
 | θGFR | `Q900` · θGFR | 0.537 |  |  |  |  |  |  |  |
-| θBSA | `Q900` · θBSA | 1.1 |  |  |  |  |  |  |  |
-| θWT | `Q900` · θWT | 0.45 |  |  |  |  |  |  |  |
 | θBUN | `Q900` · θBUN | -0.0823 |  |  |  |  |  |  |  |
-| absorption rate ka6MP | `Q49` · kabs | 21.07 | 1/day | 0.0002439 | 1/s | 1/h |  | review_gapfill (0.7) | Gebhard_2023:review |
+| ka (/day) | `Q49` · kabs | 0.268 | /day | 3.102e-06 | 1/s | 1/h |  | review_gapfill (0.7) | Pan_2026:review |
 | t lag,oral | `Q83` · tlag | 0.36 | hour | 1296 | s | h |  | review_gapfill (0.7) | Tan_2024:review |
 
 <details class="legend">
@@ -96,25 +96,14 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the val
 - `defaulted_parameters`: ['F']
 
 **Interpretation flags:**
-- dropped duplicate Q22 ('θCL age ≤1 (L/h)', value '1.69') — already have one for this compound
+- routed 'θCL age ≤1 (L/h)' → Q314 (omega_cov) to covariance — variability estimate, not a structural parameter
 - kept covariate coefficient θGFR=0.537 (covariate GFR) — not an ontology parameter
-- kept covariate coefficient θBSA=1.10 (covariate BSA) — not an ontology parameter
-- kept covariate coefficient θWT=0.45 (covariate WT) — not an ontology parameter
 - kept covariate coefficient θBUN=-0.0823 (covariate BUN) — not an ontology parameter
 - routed 'Interindividual variability ωCL (%)' → Q312 (IIV) to iiv — variability estimate, not a structural parameter
 - routed 'Interindividual variability ωQ (%)' → Q312 (IIV) to iiv — variability estimate, not a structural parameter
 - routed 'Interindividual variability ωV2 (%)' → Q312 (IIV) to iiv — variability estimate, not a structural parameter
-- dropped value-less row: 'NONMEM'
-- dropped value-less row: 'CL'
-- dropped value-less row: 'V1'
-- dropped value-less row: 'V2'
-- dropped value-less row: 'Q'
-- dropped value-less row: 'GFR'
-- dropped value-less row: 'BSA'
-- dropped value-less row: 'WT'
-- dropped value-less row: 'BUN'
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=methotrexate
-- gap-filled Q49 (kabs) from Gebhard_2023's review values (primary lacked it)
+- gap-filled Q49 (kabs) from Pan_2026's review values (primary lacked it)
 - gap-filled Q83 (tlag) from Tan_2024's review values (primary lacked it)
 
 **Extraction notes:**
@@ -123,20 +112,19 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the val
 ## Validation
 
 **Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
-Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
+Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss-120b` | not confirmed | 0.733 (11/15 fields) | 4 |
+| `gpt-oss-120b` | not confirmed | 0.842 (16/19 fields) | 3 |
 
-<details><summary>4 field discrepancies</summary>
+<details><summary>3 field discrepancies</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss-120b` | `parameters[ka]` | 0.268 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[t lag,oral]` | 0.36 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[θbsa].parameter_id` | Q900 | Q319 | mismatch |
-| `gpt-oss-120b` | `parameters[θwt]` | 0.35 |  | only_one_extracted |
+| `gpt-oss-120b` | `parameters[θgfr].parameter_id` | Q900 | Q41 | mismatch |
+| `gpt-oss-120b` | `parameters[θgfr].rse_percent` |  | 6 | mismatch |
+| `gpt-oss-120b` | `parameters[θwt]` | 0.45 |  | only_one_extracted |
 
 </details>
 
@@ -150,12 +138,12 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 | check | status | expected | obtained | source |
 |---|---|---|---|---|
-| C0_has_structural_params | pass |  | 4 |  |
+| C0_has_structural_params | pass |  | 5 |  |
 | C0b_disposition_core | pass |  |  |  |
 | C0c_disposition_complete | pass |  |  |  |
 | C5_dimension_Q22 | pass | [length] ** 3 / [time] |  | ['t0002:row2:col1'] |
 | C5_dimension_Q30 | pass | [length] ** 3 / [time] |  | ['t0002:row4:col1'] |
-| C5_dimension_Q49 | pass | 1 / [time] |  | ['Gebhard_2023:review'] |
+| C5_dimension_Q49 | pass | 1 / [time] |  | ['Pan_2026:review'] |
 | C5_dimension_Q63 | pass | [length] ** 3 |  | ['t0002:row5:col1'] |
 | C5_dimension_Q64 | pass | [length] ** 3 |  | ['t0002:row6:col1'] |
 | C5_dimension_Q83 | pass | [time] |  | ['Tan_2024:review'] |
@@ -174,7 +162,7 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 | T3_output_variable |  | pass | C_central (measured=methotrexate) | central.C | output must be the measured/analyte compartment |
 | T3_param_coverage |  | pass | 6 scholar param(s) emitted or defaulted | 6 covered | all structural parameters accounted for |
 | T3_topology_template |  | pass | 2C → PK_2C* | PK_2C_enteral | engineer template must match the scholar topology |
-| T6_deviations |  | fail |  | deviation_id=defaulted_parameters: not acceptable; defaulted_parameters: not acceptable | LLM adjudication → deterministic rule |
+| T6_deviations |  | fail |  | deviated_parameters: not acceptable; defaulted_parameters: not acceptable | LLM adjudication → deterministic rule |
 
 <details class="legend">
 <summary>Validation definitions</summary>
@@ -190,7 +178,7 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_methotrexate/Methotrexate_Yu2025_reference/Methotrexate_Yu2025_reference_modelica.zip" download>Methotrexate_Yu2025_reference_modelica.zip</a> <span class="pk-size">(4.5 kB)</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_methotrexate/Methotrexate_Yu2025_reference/Methotrexate_Yu2025_reference_modelica.zip" download>Methotrexate_Yu2025_reference_modelica.zip</a> <span class="pk-size">(4.4 kB)</span></td></tr>
 <tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_methotrexate/Methotrexate_Yu2025_reference/Methotrexate_Yu2025_reference_fmi.zip" download>Methotrexate_Yu2025_reference_fmi.zip</a> <span class="pk-size">(4.2 kB)</span><br><a href="models/fmu/PK_2C_enteral.fmu" download>PK_2C_enteral.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_methotrexate/Methotrexate_Yu2025_reference/Methotrexate_Yu2025_reference_matlab.zip" download>Methotrexate_Yu2025_reference_matlab.zip</a> <span class="pk-size">(3.4 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_methotrexate/Methotrexate_Yu2025_reference/Methotrexate_Yu2025_reference_matlab_simbio.zip" download>Methotrexate_Yu2025_reference_matlab_simbio.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
@@ -217,7 +205,7 @@ The parameters this record sets on the template, in the template's SI units, and
 | input | model | `VdPerKg` | 0.0002271 | m3/kg |
 | input | model | `k12` | 2.603e-06 | 1/s |
 | input | model | `k21` | 5.725e-06 | 1/s |
-| input | model | `ka` | 0.0002439 | 1/s |
+| input | model | `ka` | 3.102e-06 | 1/s |
 | input | subject | `weight` | 70 | kg |
 | output | concentration | `central.C` |  | kg/m3 |
 
@@ -231,13 +219,12 @@ The parameters this record sets on the template, in the template's SI units, and
 
 **Source paper** (the parameters are its): Yu B, Wan Y, Mei K, Zhan D, Tang Q, Hu X et al. Population Pharmacokinetics and Covariate Analysis of Methotrexate in Pediatric Acute Lymphoblastic Leukemia. Drug design, development and therapy 19:8475–8488 (2025). [doi:10.2147/DDDT.S545368](https://doi.org/10.2147/DDDT.S545368)
 
-**This record:** Pharmacolibrary v26.09, model `Methotrexate_Yu2025_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_methotrexate/Methotrexate_Yu2025_reference>
+**This record:** Pharmacolibrary, model `Methotrexate_Yu2025_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_methotrexate/Methotrexate_Yu2025_reference>
 
 ```bibtex
 @misc{pharmacolibrary_MethotrexateYu2025reference,
   title  = {{Pharmacolibrary model Methotrexate_Yu2025_reference}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_methotrexate/Methotrexate_Yu2025_reference},
   note   = {Parameters from doi:10.2147/DDDT.S545368},
 }
@@ -247,7 +234,7 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-**Administration: oral** — 2.5 mg, single dose, first-order absorption (ka 0.878 /h, lag 21.6 min, F 0.9). _The paper's dose was not captured; the default is the WHO ATC DDD 2.5 mg oral (L04AX03) (defined daily dose)._
+**Administration: oral** — 2.5 mg, single dose, first-order absorption (ka 0.0112 /h, lag 21.6 min, F 0.9). _The paper's dose was not captured; the default is the WHO ATC DDD 2.5 mg oral (L04AX03) (defined daily dose)._
 
 <dbs-fmusim paramsurl="drugs/drug_methotrexate/Methotrexate_Yu2025_reference/Methotrexate_Yu2025_reference_params.json" metaurl="assets/fmu/PK_2C_enteral.vr.json" wasmurl="assets/fmu/PK_2C_enteral.js" controlsurl="drugs/drug_methotrexate/Methotrexate_Yu2025_reference/Methotrexate_Yu2025_reference_sim_controls.json"></dbs-fmusim>
 
@@ -256,5 +243,5 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bmethotrexate%5D%20Methotrexate_Yu2025_reference&body=Drug%3A%20methotrexate%0ARecord%3A%20Methotrexate_Yu2025_reference%0APaper%3A%20Yu_2025%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_methotrexate/Methotrexate_Yu2025_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 13:27 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bmethotrexate%5D%20Methotrexate_Yu2025_reference&body=Drug%3A%20methotrexate%0ARecord%3A%20Methotrexate_Yu2025_reference%0APaper%3A%20Yu_2025%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_methotrexate/Methotrexate_Yu2025_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-04 02:28 UTC</sub>

@@ -34,18 +34,9 @@ Metamizole (dipyrone) is a pyrazolone painkiller and fever reducer used to treat
 
 ## Parameters across studies
 
-| parameter | as named | value | unit | as reported | population | species | status | record |
-|---|---|---|---|---|---|---|---|---|
-| CL | CL | 0.46 | L/h | 0.46 L/h | review reference | human | <span class="pk-badge pk-badge--orange">Needs review</span> | [Ekobena_2025_reference](drugs/drug_metamizole_sodium/MetamizoleSodium_Ekobena2025_reference.md) |
-| CL | CL/F | 0.314 | L/h | 0.314 L/h | review reference | human | <span class="pk-badge pk-badge--orange">Needs review</span> | [Stoschus_2025_reference](drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference.md) |
-| V | V | 10.9 | L | 10.9 L | review reference | human | <span class="pk-badge pk-badge--orange">Needs review</span> | [Ekobena_2025_reference](drugs/drug_metamizole_sodium/MetamizoleSodium_Ekobena2025_reference.md) |
-| V | V | 34.3 | L | 34.3 L | review reference | human | <span class="pk-badge pk-badge--orange">Needs review</span> | [Stoschus_2025_reference](drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference.md) |
-| ka | kabs | 0.64 | 1/h | 0.64 h−1 | review reference | human | <span class="pk-badge pk-badge--orange">Needs review</span> | [Ekobena_2025_reference](drugs/drug_metamizole_sodium/MetamizoleSodium_Ekobena2025_reference.md) |
-| ka | kabs | 1.9 | 1/h | 1.9 h−1 | review reference | human | <span class="pk-badge pk-badge--orange">Needs review</span> | [Stoschus_2025_reference](drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference.md) |
-
-<sub>Values are converted from the record's SI value to one unit per parameter. Rejected records are left out.</sub>
-
 <div class="pk-forest-row"><svg class="pk-forest" xmlns="http://www.w3.org/2000/svg" width="560" height="80" viewBox="0 0 560 80" role="img" aria-label="CL across studies"><text x="190" y="14" font-size="12" font-weight="600">CL (L/h, log scale)</text><line x1="190.0" y1="18" x2="190.0" y2="58" stroke="#ddd"/><text x="190.0" y="72" font-size="10" text-anchor="middle">0.1</text><line x1="540.0" y1="18" x2="540.0" y2="58" stroke="#ddd"/><text x="540.0" y="72" font-size="10" text-anchor="middle">1</text><text x="184" y="34.0" font-size="11" text-anchor="end">Ekobena_2025 · CL</text><circle cx="422.0" cy="30.0" r="4" fill="#ef6c00"><title>Ekobena_2025 · CL: 0.46 L/h</title></circle><text x="184" y="50.0" font-size="11" text-anchor="end">Stoschus_2025 · CL/F</text><circle cx="363.9" cy="46.0" r="4" fill="#ef6c00"><title>Stoschus_2025 · CL/F: 0.314 L/h</title></circle></svg><svg class="pk-forest" xmlns="http://www.w3.org/2000/svg" width="560" height="80" viewBox="0 0 560 80" role="img" aria-label="V across studies"><text x="190" y="14" font-size="12" font-weight="600">V (L, log scale)</text><line x1="190.0" y1="18" x2="190.0" y2="58" stroke="#ddd"/><text x="190.0" y="72" font-size="10" text-anchor="middle">10</text><line x1="540.0" y1="18" x2="540.0" y2="58" stroke="#ddd"/><text x="540.0" y="72" font-size="10" text-anchor="middle">100</text><text x="184" y="34.0" font-size="11" text-anchor="end">Ekobena_2025 · V</text><circle cx="203.1" cy="30.0" r="4" fill="#ef6c00"><title>Ekobena_2025 · V: 10.9 L</title></circle><text x="184" y="50.0" font-size="11" text-anchor="end">Stoschus_2025 · V</text><circle cx="377.4" cy="46.0" r="4" fill="#ef6c00"><title>Stoschus_2025 · V: 34.3 L</title></circle></svg></div>
+
+<sub>One dot per record, coloured by status; values converted from the record's SI value to one unit per parameter. Rejected records are left out.</sub>
 
 ## popPK records
 
@@ -55,7 +46,7 @@ Metamizole (dipyrone) is a pyrazolone painkiller and fever reducer used to treat
 | <span class="pk-rf" hidden data-species="human" data-age="unknown" data-status="Needs review" data-sim="yes"></span><span class="pk-badge pk-badge--orange">Needs review</span><br><sub>blocking: T6_deviations</sub> | [Stoschus_2025_reference](drugs/drug_metamizole_sodium/MetamizoleSodium_Stoschus2025_reference.md) | ▶ model + simulator | 1-compartment, oral | 3 | Stoschus M et al., Optimizing phenobarbital dosing in crit…, Epilepsia (2025) | [10.1111/epi.18517](https://doi.org/10.1111/epi.18517) |
 | <span class="pk-rf" hidden data-species="human" data-age="adult" data-status="Rejected" data-sim="no"></span><span class="pk-badge pk-badge--red">Rejected</span><br><sub>blocking: C5 dimension mismatch on a structural parameter</sub><br><sub>blocking: C8 unreachable/orphan compartment or unlinked metabolite</sub> | [Blaser_2021_metamizole](drugs/drug_metamizole_sodium/MetamizoleSodium_Blaser2021_metamizole.md) | — | general linear (no model) | 15 | Blaser LS et al., Comparative Effects of Metamizole (Dipy…, Frontiers in pharmacology (2021) | [10.3389/fphar.2021.620635](https://doi.org/10.3389/fphar.2021.620635) |
 | <span class="pk-rf" hidden data-species="human" data-age="adult" data-status="Rejected" data-sim="no"></span><span class="pk-badge pk-badge--red">Rejected</span><br><sub>blocking: C5 dimension mismatch on a structural parameter</sub><br><sub>blocking: C8 unreachable/orphan compartment or unlinked metabolite</sub> | [↳ naproxen](drugs/drug_metamizole_sodium/MetamizoleSodium_Blaser2021_naproxen.md) | — | general linear (no model) | 8 |  |  |
-| <span class="pk-rf" hidden data-species="human" data-age="adult" data-status="Rejected" data-sim="no"></span><span class="pk-badge pk-badge--red">Rejected</span><br><sub>blocking: no distribution volume and no clearance/elimination — not a compartmental popPK…</sub><br><sub>blocking: C8 unreachable/orphan compartment or unlinked metabolite</sub> | [↳ reference](drugs/drug_metamizole_sodium/MetamizoleSodium_Blaser2021_reference.md) | — | general linear (no model) | 8 |  |  |
+| <span class="pk-rf" hidden data-species="human" data-age="adult" data-status="Rejected" data-sim="no"></span><span class="pk-badge pk-badge--red">Rejected</span> <span class="pk-badge pk-badge--stale">stale</span><br><sub>stale — current check: Rejected</sub><br><sub>blocking: C5 dimension mismatch on a structural parameter</sub><br><sub>blocking: C8 unreachable/orphan compartment or unlinked metabolite</sub> | [↳ reference](drugs/drug_metamizole_sodium/MetamizoleSodium_Blaser2021_reference.md) | — | general linear (no model) | 8 |  |  |
 | <span class="pk-rf" hidden data-species="human" data-age="adult" data-status="Rejected" data-sim="no"></span><span class="pk-badge pk-badge--red">Rejected</span><br><sub>blocking: missing key parameters — none reported by this paper</sub> | [Wehrfritz_2026_reference](drugs/drug_metamizole_sodium/MetamizoleSodium_Wehrfritz2026_reference.md) | — | general linear (no model) | 0 | Wehrfritz A et al., A clinical case and pharmacokinetic ana…, SAGE open medical case repo… (2026) | [10.1177/2050313X261439208](https://doi.org/10.1177/2050313X261439208) |
 | <span class="pk-rf" hidden data-species="human" data-age="mixed" data-status="Rejected" data-sim="no"></span><span class="pk-badge pk-badge--red">Rejected</span><br><sub>blocking: no distribution volume and no clearance/elimination — not a compartmental popPK…</sub><br><sub>blocking: C5 dimension mismatch on a structural parameter</sub> | [Ziesenitz_2019_reference](drugs/drug_metamizole_sodium/MetamizoleSodium_Ziesenitz2019_reference.md) | — | 1-compartment (no model) | 1 | Ziesenitz VC et al., Dose evaluation of intravenous metamizo…, European journal of clinica… (2019) | [10.1007/s00228-019-02720-2](https://doi.org/10.1007/s00228-019-02720-2) |
 
@@ -111,7 +102,7 @@ Tissue mappings from DrugBank molecular actors and paper-derived PGx genes. Comp
 
 - **PubMed hits:** 150 matched, 106 returned
 - **screened:** 5  ·  **relevant:** 4
-- **records:** 7  ·  extracted 0  ·  needs review 2  ·  rejected 5  ·  stale 0
+- **records:** 7  ·  extracted 0  ·  needs review 2  ·  rejected 5  ·  stale 1
 - **scholar-agent fallback query used:** True
 
 ## Full-text requests
@@ -249,5 +240,5 @@ _9 abstract-screened relevant papers lack full text. Retrieve via the DOI, save 
 </details>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this page](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bmetamizole_sodium%5D&body=Drug%3A%20metamizole_sodium%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_metamizole_sodium/%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · newest extraction 2026-10-22 11:57 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this page](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bmetamizole_sodium%5D&body=Drug%3A%20metamizole_sodium%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_metamizole_sodium/%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · newest extraction 2026-10-22 11:57 UTC</sub>

@@ -13,8 +13,8 @@
 - **what it is:** qualitative — Gene–drug association without a quantitative parameter effect.
 - **source:** this paper, `AlEjielat_2023` — [doi](https://doi.org/10.1186/s12902-023-01425-z)
 - **gene:** RXRA
-- **mechanism:** target — the gene's product is what the drug acts on
-- **applies to:** pharmacodynamics (response)
+- **mechanism:** not stated in the paper
+- **applies to:** not stated in the paper
 - **parameter it changes:** NIL (`Q100`)
 - **effect:** not quantified
 - **phenotype groups:** the paper's genotype groups were not mapped to standard phenotypes
@@ -42,8 +42,8 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss-120b` | `applies_to` | pd |  | mismatch |
-| `gpt-oss-120b` | `mechanism` | target |  | mismatch |
+| `gpt-oss-120b` | `applies_to` | unknown |  | mismatch |
+| `gpt-oss-120b` | `mechanism` | unknown |  | mismatch |
 | `gpt-oss-120b` | `target_parameter_id` | Q100 |  | mismatch |
 
 </details>
@@ -77,5 +77,5 @@ _Browser simulation unavailable: no shared WebAssembly template. The **Models** 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Blevothyroxine%5D%20pgx_AlEjielat_2023_RXRA_Q100&body=Drug%3A%20levothyroxine%0ARecord%3A%20pgx_AlEjielat_2023_RXRA_Q100%0APaper%3A%20AlEjielat_2023%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_levothyroxine/pgx_AlEjielat_2023_RXRA_Q100%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Blevothyroxine%5D%20pgx_AlEjielat_2023_RXRA_Q100&body=Drug%3A%20levothyroxine%0ARecord%3A%20pgx_AlEjielat_2023_RXRA_Q100%0APaper%3A%20AlEjielat_2023%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_levothyroxine/pgx_AlEjielat_2023_RXRA_Q100%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
 <sub>← back to [Levothyroxine](drugs/drug_levothyroxine/)</sub>

@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A10B&quot;,&quot;href&quot;:&quot;atc/A10B.md&quot;},{&quot;label&quot;:&quot;glimepiride&quot;,&quot;href&quot;:&quot;drugs/drug_glimepiride/&quot;},{&quot;label&quot;:&quot;Yoo_2020_2 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Glimepiride_Yoo2020v2_reference&quot;,&quot;label&quot;:&quot;Yoo_2020_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_glimepiride/Glimepiride_Yoo2020v2_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Glimepiride_Yoo2020v2_reference&quot;,&quot;label&quot;:&quot;Yoo_2020_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_glimepiride/Glimepiride_Yoo2020v2_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;pd_Mele_2014_KATP_channel_current_in_EDL&quot;,&quot;label&quot;:&quot;Mele_2014 \u00b7 KATP channel current in EDL&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_glimepiride/pd_Mele_2014_KATP_channel_current_in_EDL.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Mele_2014_KATP_channel_current_in_FDB&quot;,&quot;label&quot;:&quot;Mele_2014 \u00b7 KATP channel current in FDB&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_glimepiride/pd_Mele_2014_KATP_channel_current_in_FDB.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Mele_2014_KATP_channel_current_in_SOL&quot;,&quot;label&quot;:&quot;Mele_2014 \u00b7 KATP channel current in SOL&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_glimepiride/pd_Mele_2014_KATP_channel_current_in_SOL.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Mele_2014_protein_content_muscle_weight_in_EDL&quot;,&quot;label&quot;:&quot;Mele_2014 \u00b7 protein content/muscle weight in EDL&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_glimepiride/pd_Mele_2014_protein_content_muscle_weight_in_EDL.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Mele_2014_protein_content_muscle_weight_in_FDB&quot;,&quot;label&quot;:&quot;Mele_2014 \u00b7 protein content/muscle weight in FDB&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_glimepiride/pd_Mele_2014_protein_content_muscle_weight_in_FDB.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -190,13 +190,12 @@ The parameters this record sets on the template, in the template's SI units, and
 
 **Source paper** (the parameters are its): Yoo H, Kim Y, Jang IJ, Yu KS, Lee S. Pharmacokinetic/Pharmacodynamic Interactions Between Evogliptin and Glimepiride in Healthy Male Subjects. Drug design, development and therapy 14:5179–5187 (2020). [doi:10.2147/DDDT.S275343](https://doi.org/10.2147/DDDT.S275343)
 
-**This record:** Pharmacolibrary v26.09, model `Glimepiride_Yoo2020v2_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_glimepiride/Glimepiride_Yoo2020v2_reference>
+**This record:** Pharmacolibrary, model `Glimepiride_Yoo2020v2_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_glimepiride/Glimepiride_Yoo2020v2_reference>
 
 ```bibtex
 @misc{pharmacolibrary_GlimepirideYoo2020v2reference,
   title  = {{Pharmacolibrary model Glimepiride_Yoo2020v2_reference}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_glimepiride/Glimepiride_Yoo2020v2_reference},
   note   = {Parameters from doi:10.2147/DDDT.S275343},
 }
@@ -215,5 +214,5 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bglimepiride%5D%20Glimepiride_Yoo2020v2_reference&body=Drug%3A%20glimepiride%0ARecord%3A%20Glimepiride_Yoo2020v2_reference%0APaper%3A%20Yoo_2020_2%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_glimepiride/Glimepiride_Yoo2020v2_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 14:17 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bglimepiride%5D%20Glimepiride_Yoo2020v2_reference&body=Drug%3A%20glimepiride%0ARecord%3A%20Glimepiride_Yoo2020v2_reference%0APaper%3A%20Yoo_2020_2%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_glimepiride/Glimepiride_Yoo2020v2_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-10-22 14:17 UTC</sub>

@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;N06A&quot;,&quot;href&quot;:&quot;atc/N06A.md&quot;},{&quot;label&quot;:&quot;venlafaxine&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/&quot;},{&quot;label&quot;:&quot;Maringwa_2025 \u00b7 PD Change from baseline in the Hamilton Depression Rating (HAMD) scale&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Venlafaxine_Yan2026_reference&quot;,&quot;label&quot;:&quot;Yan_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Yan2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Venlafaxine_Chen2025_reference&quot;,&quot;label&quot;:&quot;Chen_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Chen2025_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Venlafaxine_Liu2022_reference&quot;,&quot;label&quot;:&quot;Liu_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Liu2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Venlafaxine_Yan2026_reference&quot;,&quot;label&quot;:&quot;Yan_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Yan2026_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Venlafaxine_Chen2025_reference&quot;,&quot;label&quot;:&quot;Chen_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Chen2025_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Venlafaxine_Liu2022_reference&quot;,&quot;label&quot;:&quot;Liu_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Liu2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Venlafaxine_Wang2022_reference&quot;,&quot;label&quot;:&quot;Wang_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/Venlafaxine_Wang2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Maringwa_2025_HAMD&quot;,&quot;label&quot;:&quot;Maringwa_2025 \u00b7 HAMD&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_venlafaxine/pd_Maringwa_2025_HAMD.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true}]"></div>
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # Change from baseline in the Hamilton Depression Rating (HAMD) scale — PD  <span class="pk-badge pk-badge--orange">Needs review</span>
@@ -16,7 +16,7 @@
 
 **As extracted:** Venlafaxine (the dose) drives Change from baseline in the Hamilton Depression Rating (HAMD) scale: direct Emax (saturable) effect.
 
-**Model:** Model available in **Models**; browser simulation unavailable.
+**Model:** Model and browser simulation available in **Models** and **Simulation**.
 
 - **paper:** `Maringwa_2025`
 - **model family:** `emax`
@@ -84,24 +84,42 @@ Advisory:
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
 <tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_venlafaxine/Venlafaxine_Maringwa2025_PD_hamd/Venlafaxine_Maringwa2025_PD_hamd_modelica.zip" download>Venlafaxine_Maringwa2025_PD_hamd_modelica.zip</a> <span class="pk-size">(3.3 kB)</span></td></tr>
-<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">unavailable</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_venlafaxine/Venlafaxine_Maringwa2025_PD_hamd/Venlafaxine_Maringwa2025_PD_hamd_fmi.zip" download>Venlafaxine_Maringwa2025_PD_hamd_fmi.zip</a> <span class="pk-size">(4.6 kB)</span><br><a href="models/fmu/PD_SigmoidEmaxSweep.fmu" download>PD_SigmoidEmaxSweep.fmu</a> <span class="pk-size">(1.2 MB, shared)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_venlafaxine/Venlafaxine_Maringwa2025_PD_hamd/Venlafaxine_Maringwa2025_PD_hamd_matlab.zip" download>Venlafaxine_Maringwa2025_PD_hamd_matlab.zip</a> <span class="pk-size">(3.2 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">unavailable</span></td></tr>
 <tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_venlafaxine/Venlafaxine_Maringwa2025_PD_hamd/Venlafaxine_Maringwa2025_PD_hamd_sbml.zip" download>Venlafaxine_Maringwa2025_PD_hamd_sbml.zip</a> <span class="pk-size">(2.6 kB)</span></td></tr>
 <tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_venlafaxine/Venlafaxine_Maringwa2025_PD_hamd/Venlafaxine_Maringwa2025_PD_hamd_cellml.zip" download>Venlafaxine_Maringwa2025_PD_hamd_cellml.zip</a> <span class="pk-size">(2.6 kB)</span></td></tr>
 </tbody></table>
 <p>Archives contain model source, a simulation script, and execution instructions.</p>
+<p><b>FMI requires two downloads:</b> the record-specific parameters/driver archive and the shared <code>PD_SigmoidEmaxSweep.fmu</code>. Place the FMU beside the script or specify <code>--fmu PATH</code>.</p>
 </div></div>
+
+## Model interface
+
+The parameters this record sets on the template, in the template's SI units, and the outputs the simulator reads.
+
+| direction | role | name | value | unit (SI) |
+|---|---|---|---|---|
+| input | model | `E0` | 0 |  |
+| input | model | `EC50` | 3.368e-10 |  |
+| input | model | `Emax` | -1.75 |  |
+| input | model | `exposure_per_s` | 1.157e-11 |  |
+| input | model | `gamma` | 1 |  |
+| output | concentration | `response` |  | kg/m3 |
+
+## Tested with
+
+- Template `Pharmacolibrary.Pharmacodynamic.SigmoidEmaxSweep`, compiled by OpenModelica Compiler OpenModelica 1.26.7~1-g2b913cc.
+- No automated comparison across the download formats runs for this template yet; the FMI archive is the reference implementation.
 
 ## How to cite
 
-**This record:** Pharmacolibrary v26.09, model `Venlafaxine_Maringwa2025_PD_hamd`. <https://pharmacolibrary.github.io/#/drugs/drug_venlafaxine/Venlafaxine_Maringwa2025_PD_hamd>
+**This record:** Pharmacolibrary, model `Venlafaxine_Maringwa2025_PD_hamd`. <https://pharmacolibrary.github.io/#/drugs/drug_venlafaxine/Venlafaxine_Maringwa2025_PD_hamd>
 
 ```bibtex
 @misc{pharmacolibrary_VenlafaxineMaringwa2025PDhamd,
   title  = {{Pharmacolibrary model Venlafaxine_Maringwa2025_PD_hamd}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_venlafaxine/Venlafaxine_Maringwa2025_PD_hamd},
 }
 ```
@@ -110,10 +128,12 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
-_Browser simulation unavailable: no shared WebAssembly template. The **Models** tab provides the record-specific FMI archive._
+<dbs-fmusim paramsurl="drugs/drug_venlafaxine/Venlafaxine_Maringwa2025_PD_hamd/Venlafaxine_Maringwa2025_PD_hamd_params.json" metaurl="assets/fmu/PD_SigmoidEmaxSweep.vr.json" wasmurl="assets/fmu/PD_SigmoidEmaxSweep.js" controlsurl="drugs/drug_venlafaxine/Venlafaxine_Maringwa2025_PD_hamd/Venlafaxine_Maringwa2025_PD_hamd_sim_controls.json"></dbs-fmusim>
+
+<sub>WebAssembly simulation using extracted parameters. The reference check compares the browser peak with the recorded FMPy result and is disabled after parameter edits. Template `PD_SigmoidEmaxSweep` · parameters `Venlafaxine_Maringwa2025_PD_hamd_params.json` · controls `Venlafaxine_Maringwa2025_PD_hamd_sim_controls.json`. *Simulator value* denotes a template default, not an extracted estimate.</sub>
 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bvenlafaxine%5D%20pd_Maringwa_2025_HAMD&body=Drug%3A%20venlafaxine%0ARecord%3A%20pd_Maringwa_2025_HAMD%0APaper%3A%20Maringwa_2025%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_venlafaxine/pd_Maringwa_2025_HAMD%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bvenlafaxine%5D%20pd_Maringwa_2025_HAMD&body=Drug%3A%20venlafaxine%0ARecord%3A%20pd_Maringwa_2025_HAMD%0APaper%3A%20Maringwa_2025%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_venlafaxine/pd_Maringwa_2025_HAMD%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
 <sub>← back to [venlafaxine](drugs/drug_venlafaxine/)</sub>

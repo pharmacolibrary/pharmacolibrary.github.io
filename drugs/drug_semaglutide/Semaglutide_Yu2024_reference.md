@@ -1,13 +1,15 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;A10B&quot;,&quot;href&quot;:&quot;atc/A10B.md&quot;},{&quot;label&quot;:&quot;semaglutide&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/&quot;},{&quot;label&quot;:&quot;Yu_2024 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Semaglutide_Langeskov2022_reference&quot;,&quot;label&quot;:&quot;Langeskov_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Langeskov2022_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Semaglutide_Yu2024_reference&quot;,&quot;label&quot;:&quot;Yu_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Yu2024_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Semaglutide_Carlsson2018_base&quot;,&quot;label&quot;:&quot;Carlsson_2018_base&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Carlsson2018_base.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Semaglutide_Carlsson2018_full&quot;,&quot;label&quot;:&quot;Carlsson_2018_full&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Carlsson2018_full.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Semaglutide_Min2025_reference&quot;,&quot;label&quot;:&quot;Min_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Min2025_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Semaglutide_Carlsson2018_base&quot;,&quot;label&quot;:&quot;Carlsson_2018_base&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Carlsson2018_base.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Semaglutide_Carlsson2018_full&quot;,&quot;label&quot;:&quot;Carlsson_2018_full&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Carlsson2018_full.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Semaglutide_Guo2023_reference&quot;,&quot;label&quot;:&quot;Guo_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Guo2023_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Semaglutide_Jensen2017_reference&quot;,&quot;label&quot;:&quot;Jensen_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Jensen2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Semaglutide_Langeskov2022_reference&quot;,&quot;label&quot;:&quot;Langeskov_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Langeskov2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Semaglutide_Min2025_reference&quot;,&quot;label&quot;:&quot;Min_2025_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Min2025_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Semaglutide_Overgaard2021_healthy_subjects&quot;,&quot;label&quot;:&quot;Overgaard_2021_healthy_subjects&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Overgaard2021_healthy_subjects.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Semaglutide_Overgaard2021_subjects_with_t2d&quot;,&quot;label&quot;:&quot;Overgaard_2021_subjects_with_t2d&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Overgaard2021_subjects_with_t2d.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Semaglutide_Yu2024_reference&quot;,&quot;label&quot;:&quot;Yu_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Yu2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Semaglutide_Overgaard2019_estimate&quot;,&quot;label&quot;:&quot;Overgaard_2019_estimate&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/Semaglutide_Overgaard2019_estimate.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Guo_2025_weight_reduction&quot;,&quot;label&quot;:&quot;Guo_2025 \u00b7 weight reduction&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_semaglutide/pd_Guo_2025_weight_reduction.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # semaglutide — `Semaglutide_Yu2024_reference`
 
-> ## <span class="pk-badge pk-badge--green">Reproduces paper</span>
+> ## <span class="pk-badge pk-badge--orange">Needs review</span>
 
-<div class="pk-model-meta" hidden drug="semaglutide" model-id="Semaglutide_Yu2024_reference" status="curated_candidate" stale="false" population="" measured-compound="semaglutide" parameterization="apparent" topology="1C"></div>
+> The record for semaglutide was held back because the lag time was defaulted to a placeholder rather than an extracted value.
+
+<div class="pk-model-meta" hidden drug="semaglutide" model-id="Semaglutide_Yu2024_reference" status="needs_review" stale="false" population="" measured-compound="semaglutide" parameterization="apparent" topology="1C"></div>
 
 ## Citation
 Yu H, Ueckert S, Zhou L, Cheng J, Robertson D, Hansen L et al. Exposure-response modeling for nausea incidence for cotadutide using a Markov modeling approach. CPT: pharmacometrics & systems pharmacology 13(9):1582-1594 (2024).
@@ -27,15 +29,17 @@ Yu H, Ueckert S, Zhou L, Cheng J, Robertson D, Hansen L et al. Exposure-response
 <figure class="pk-models-diagram"><img src="drugs/drug_semaglutide/Semaglutide_Yu2024_reference/Semaglutide_Yu2024_reference.svg" alt="Semaglutide_Yu2024_reference diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure>
 
 ## Parameters
+> ⚠️ Status "Needs review": these are the values as extracted, **not verified**. Any model or simulator on the other tabs runs on these numbers.
+
 | label | parameter | value | unit |
 |---|---|---|---|
-| mean values for cotadutide apparent clearance (CL/F) | CL/F | 1.05 | L/h |
-| apparent volume of distribution (V/F) | V/F | 20.0 | L |
-| absorption rate constant (Ka) | kabs | 0.38 | h−1 |
+| cotadutide apparent clearance (CL/F) | CL/F | 1.05 | L/h |
+| cotadutide apparent volume of distribution (V/F) | V/F | 20.0 | L |
+| cotadutide absorption rate constant (Ka) | kabs | 0.38 | h−1 |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--green">Reproduces paper</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss-120b (partly confirmed, agreement 0.75). Primary extraction retained.">cross-check: partial</span>
+**Status and checks:** <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss-120b (partly confirmed, agreement 0.857). Primary extraction retained.">cross-check: partial</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -45,19 +49,21 @@ Yu H, Ueckert S, Zhou L, Cheng J, Robertson D, Hansen L et al. Exposure-response
 
 ### Reviewer guidance
 
-**Every check that could be run on this record passed.**
+**The record for semaglutide was held back because the lag time was defaulted to a placeholder rather than an extracted value.**
 
-A second, independent reading of the paper (`gpt-oss-120b`) disagrees on parameter Q36: this record has 6148, the second reading none; it also differs on 1 more field. That field does not shape the model.
+The model builder substituted a default for the lag time instead of extracting an explicit estimate from the paper. Additionally, the model relies on an assumption of complete bioavailability for the apparent parameters. These deviations from the source data render the record unacceptable for publication. Extracted — semaglutide: CL/F 1.05 L/h, V/F 20 L, kabs 0.38 h−1.
 
-<sub>reviewed by rule template (no LLM)</sub>
+A second, independent reading of the paper (`gpt-oss-120b`) disagrees on parameter Q364: this record has none, the second reading 300. That field does not shape the model.
+
+<sub>reviewed by qwen3.8-27b</sub>
 
 ### All parameter columns
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_si | unit_canonical | link | source |
 |---|---|---|---|---|---|---|---|---|
-| mean values for cotadutide apparent clearance (CL/F) | `Q27` · CL/F | 1.05 | L/h | 2.917e-07 | m3/s | L/h | review (0.7) | Yu_2024:review |
-| apparent volume of distribution (V/F) | `Q76` · V/F | 20.0 | L | 0.02 | m3 | L | review (0.7) | Yu_2024:review |
-| absorption rate constant (Ka) | `Q49` · kabs | 0.38 | h−1 | 0.0001056 | 1/s | 1/h | review (0.7) | Yu_2024:review |
+| cotadutide apparent clearance (CL/F) | `Q27` · CL/F | 1.05 | L/h | 2.917e-07 | m3/s | L/h | review (0.7) | Yu_2024:review |
+| cotadutide apparent volume of distribution (V/F) | `Q76` · V/F | 20.0 | L | 0.02 | m3 | L | review (0.7) | Yu_2024:review |
+| cotadutide absorption rate constant (Ka) | `Q49` · kabs | 0.38 | h−1 | 0.0001056 | 1/s | 1/h | review (0.7) | Yu_2024:review |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
@@ -77,18 +83,17 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on paramet
 ## Validation
 
 **Cross-check (independent readings):** <span class="pk-badge pk-badge--orange">cross-check: partial</span>  
-Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check verdict.
+Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss-120b` | partly confirmed | 0.75 (6/8 fields) | 2 |
+| `gpt-oss-120b` | partly confirmed | 0.857 (6/7 fields) | 1 |
 
-<details><summary>2 field discrepancies</summary>
+<details><summary>1 field discrepancy</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss-120b` | `values[Q36]` | 6148 |  | only_one_extracted |
-| `gpt-oss-120b` | `values[Q56]` | 24 |  | only_one_extracted |
+| `gpt-oss-120b` | `values[Q364]` |  | 300 | only_one_extracted |
 
 </details>
 
@@ -123,7 +128,7 @@ Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check v
 | T3_output_variable | pass | C_central (measured=semaglutide) | central.C | output must be the measured/analyte compartment |
 | T3_param_coverage | pass | 3 scholar param(s) emitted or defaulted | 3 covered | all structural parameters accounted for |
 | T3_topology_template | pass | 1C → PK_1C* | PK_1C_enteral | engineer template must match the scholar topology |
-| T6_deviations | pass |  | all deviations documented+quantified | LLM adjudication → deterministic rule |
+| T6_deviations | fail |  | deviation_id=defaulted_parameters: not acceptable; deviation_id=apparent_assumption: not acceptable | LLM adjudication → deterministic rule |
 
 <details class="legend">
 <summary>Validation definitions</summary>
@@ -178,13 +183,12 @@ The parameters this record sets on the template, in the template's SI units, and
 
 **Source paper** (the parameters are its): Yu H, Ueckert S, Zhou L, Cheng J, Robertson D, Hansen L et al. Exposure-response modeling for nausea incidence for cotadutide using a Markov modeling approach. CPT: pharmacometrics & systems pharmacology 13(9):1582-1594 (2024). [doi:10.1002/psp4.13194](https://doi.org/10.1002/psp4.13194)
 
-**This record:** Pharmacolibrary v26.09, model `Semaglutide_Yu2024_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_semaglutide/Semaglutide_Yu2024_reference>
+**This record:** Pharmacolibrary, model `Semaglutide_Yu2024_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_semaglutide/Semaglutide_Yu2024_reference>
 
 ```bibtex
 @misc{pharmacolibrary_SemaglutideYu2024reference,
   title  = {{Pharmacolibrary model Semaglutide_Yu2024_reference}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_semaglutide/Semaglutide_Yu2024_reference},
   note   = {Parameters from doi:10.1002/psp4.13194},
 }
@@ -203,5 +207,5 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bsemaglutide%5D%20Semaglutide_Yu2024_reference&body=Drug%3A%20semaglutide%0ARecord%3A%20Semaglutide_Yu2024_reference%0APaper%3A%20Yu_2024%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_semaglutide/Semaglutide_Yu2024_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-20 18:33 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bsemaglutide%5D%20Semaglutide_Yu2024_reference&body=Drug%3A%20semaglutide%0ARecord%3A%20Semaglutide_Yu2024_reference%0APaper%3A%20Yu_2024%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_semaglutide/Semaglutide_Yu2024_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 16:52 UTC</sub>

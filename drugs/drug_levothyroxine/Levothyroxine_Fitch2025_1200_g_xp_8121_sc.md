@@ -17,9 +17,9 @@ Fitch R, Mould DR, Conoscenti V, Huang R, Harper D. Phase 1 Study Evaluating the
 
 ## Population and dosing
 
-**Population:** healthy adults · condition healthy · age group adult · n = # number of subjects in the analysis (a plain integer), or unknown.
+**Population:** healthy adults · condition healthy · age group adult.
 
-**Dosing:** 0.6, 1.2, 1.5 mg, sc, single.
+**Dosing:** 0.6, 1.2, 1.5 mg, subcutaneous, single.
 
 ## Model
 
@@ -33,11 +33,11 @@ Fitch R, Mould DR, Conoscenti V, Huang R, Harper D. Phase 1 Study Evaluating the
 
 | label | parameter | value | unit |
 |---|---|---|---|
-| SD | equation variable | 12.4 |  |
+| Mean | equation variable | 37.1 | ng/mL |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--red">Rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.4). Primary extraction retained.">cross-check: disputed</span>
+**Status and checks:** <span class="pk-badge pk-badge--red">Rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.667). Primary extraction retained.">cross-check: disputed</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -49,21 +49,21 @@ Fitch R, Mould DR, Conoscenti V, Huang R, Harper D. Phase 1 Study Evaluating the
 
 **The paper reports none of the model's key parameters.**
 
-No clearance, volume or rate constant of the model is reported in it. No parameter values were extracted.
+No clearance, volume or rate constant of the model is reported in it. A reported unit could not be converted (equation variable), so that value has no SI equivalent. No parameter values were extracted.
 
-A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which compound was dosed: this record has levothyroxine, the second reading XP-8121 (levothyroxine for subcutaneous administration); it also differs on 2 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which compound was dosed: this record has levothyroxine, the second reading levothyroxine (XP-8121); it also differs on 1 more field. That field shapes the model, so the record is marked disputed.
 
 <sub>reviewed by rule template (no LLM)</sub>
 
 ### All parameter columns
 
-| label (paper) | Q-code · name | value | unit | link | source |
-|---|---|---|---|---|---|
-| SD | `Q900` · equation variable | 12.4 |  | llm (0.6) | Fitch_2025_table_2:row3:col3, Fitch_2025_table_2:row7:col3, Fitch_2025_table_2:row11:col3, Fitch_2025_table_2:row16:col3, Fitch_2025_table_2:row20:col3, Fitch_2025_table_2:row24:col3 |
+| label (paper) | Q-code · name | value | unit | unit_canonical | link | source |
+|---|---|---|---|---|---|---|
+| Mean | `Q900` · equation variable | 37.1 | ng/mL | ng/ml | llm (0.6) | Fitch_2025_table_2:row2:col3, Fitch_2025_table_2:row6:col3, Fitch_2025_table_2:row10:col3, Fitch_2025_table_2:row15:col3, Fitch_2025_table_2:row19:col3, Fitch_2025_table_2:row23:col3 |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
-<table><thead><tr><th>Field</th><th>Definition</th></tr></thead><tbody><tr><td><code>label (paper)</code></td><td>Verbatim source label (label_verbatim).</td></tr><tr><td><code>Q-code · name</code></td><td>Matched ontology identifier and parameter name; e.g. Q22: clearance, Q27: CL/F, Q49: ka.</td></tr><tr><td><code>value</code></td><td>Reported parameter estimate.</td></tr><tr><td><code>unit</code></td><td>Verbatim source unit (unit_verbatim).</td></tr><tr><td><code>link</code></td><td>Ontology-mapping method and confidence. exact/boundary/fuzzy/tv_prefix/caption_compartment/special_case: deterministic; llm/llm_confirmed/llm_corrected: LLM-assisted; review/review_gapfill: secondary-review source; boundary_relink: corrected mapping.</td></tr><tr><td><code>source</code></td><td>Source location: colN (table column), other_prose (text), review (secondary source), or pgx (PGx record).</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>(empty cell)</code></td><td>Not recorded; not equivalent to zero. A column empty in every row is not shown.</td></tr><tr><td><code>—</code></td><td>Not applicable or not displayed.</td></tr><tr><td><code>not verified</code></td><td>Record not accepted; displayed estimates remain unverified.</td></tr></tbody></table>
+<table><thead><tr><th>Field</th><th>Definition</th></tr></thead><tbody><tr><td><code>label (paper)</code></td><td>Verbatim source label (label_verbatim).</td></tr><tr><td><code>Q-code · name</code></td><td>Matched ontology identifier and parameter name; e.g. Q22: clearance, Q27: CL/F, Q49: ka.</td></tr><tr><td><code>value</code></td><td>Reported parameter estimate.</td></tr><tr><td><code>unit</code></td><td>Verbatim source unit (unit_verbatim).</td></tr><tr><td><code>unit_canonical</code></td><td>Canonical unit associated with the parameter's Q-code.</td></tr><tr><td><code>link</code></td><td>Ontology-mapping method and confidence. exact/boundary/fuzzy/tv_prefix/caption_compartment/special_case: deterministic; llm/llm_confirmed/llm_corrected: LLM-assisted; review/review_gapfill: secondary-review source; boundary_relink: corrected mapping.</td></tr><tr><td><code>source</code></td><td>Source location: colN (table column), other_prose (text), review (secondary source), or pgx (PGx record).</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>(empty cell)</code></td><td>Not recorded; not equivalent to zero. A column empty in every row is not shown.</td></tr><tr><td><code>—</code></td><td>Not applicable or not displayed.</td></tr><tr><td><code>not verified</code></td><td>Record not accepted; displayed estimates remain unverified.</td></tr></tbody></table>
 </details>
 
 ### Unresolved rows _(no Q-code or no value — not parameters)_
@@ -75,7 +75,7 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which c
 ## Departures & gaps
 
 **Interpretation flags:**
-- dropped unlinked row (NIL): 'Mean' — extend the ontology if this is a real PK parameter (source ['Fitch_2025_table_2:row2:col3', 'Fitch_2025_table_2:row6:col3', 'Fitch_2025_table_2:row10:col3', 'Fitch_2025_table_2:row15:col3', 'Fitch_2025_table_2:row19:col3', 'Fitch_2025_table_2:row23:col3'])
+- dropped unlinked row (NIL): 'SD' — extend the ontology if this is a real PK parameter (source ['Fitch_2025_table_2:row3:col3', 'Fitch_2025_table_2:row7:col3', 'Fitch_2025_table_2:row11:col3', 'Fitch_2025_table_2:row16:col3', 'Fitch_2025_table_2:row20:col3', 'Fitch_2025_table_2:row24:col3'])
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=levothyroxine
 - population split: '1200 μg xp‐8121 sc' subgroup of Fitch_2025 (paper reports 4 populations: 1200 μg xp‐8121 sc, 1500 μg xp‐8121 sc, 600 μg oral lt4, 600 μg xp‐8121 sc)
 - review gap-fill skipped: this record carries no value of its own, and a model assembled entirely from other papers is not this paper's model
@@ -89,19 +89,18 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which c
 ## Validation
 
 **Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
-Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
+Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss-120b` | not confirmed | 0.4 (2/5 fields) | 3 |
+| `gpt-oss-120b` | not confirmed | 0.667 (4/6 fields) | 2 |
 
-<details><summary>3 field discrepancies</summary>
+<details><summary>2 field discrepancies</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `gpt-oss-120b` | `model.links` | [] | [['levothyroxine', 'triiodothyronine', 'metabolism']] | mismatch |
-| `gpt-oss-120b` | `screen.dose_compound` | levothyroxine | XP-8121 (levothyroxine for subcutaneous administration) | mismatch |
-| `gpt-oss-120b` | `screen.primary_analyte` | levothyroxine | levothyroxine (plasma T4) | mismatch |
+| `gpt-oss-120b` | `parameters[mean]` | 37.1 |  | only_one_extracted |
+| `gpt-oss-120b` | `screen.dose_compound` | levothyroxine | levothyroxine (XP-8121) | mismatch |
 
 </details>
 
@@ -141,5 +140,5 @@ _Browser simulation unavailable: no shared WebAssembly template. The **Models** 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Blevothyroxine%5D%20Levothyroxine_Fitch2025_1200_g_xp_8121_sc&body=Drug%3A%20levothyroxine%0ARecord%3A%20Levothyroxine_Fitch2025_1200_g_xp_8121_sc%0APaper%3A%20Fitch_2025%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_levothyroxine/Levothyroxine_Fitch2025_1200_g_xp_8121_sc%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 12:13 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Blevothyroxine%5D%20Levothyroxine_Fitch2025_1200_g_xp_8121_sc&body=Drug%3A%20levothyroxine%0ARecord%3A%20Levothyroxine_Fitch2025_1200_g_xp_8121_sc%0APaper%3A%20Fitch_2025%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_levothyroxine/Levothyroxine_Fitch2025_1200_g_xp_8121_sc%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-04 00:26 UTC</sub>

@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;R03A&quot;,&quot;href&quot;:&quot;atc/R03A.md&quot;},{&quot;label&quot;:&quot;salbutamol&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/&quot;},{&quot;label&quot;:&quot;Valenzuela_2006 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Salbutamol_Bisaso2026_reference&quot;,&quot;label&quot;:&quot;Bisaso_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Bisaso2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Marques2024_geometric_mean&quot;,&quot;label&quot;:&quot;Marques_2024_geometric_mean&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024_geometric_mean.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Marques2024v2_reference&quot;,&quot;label&quot;:&quot;Marques_2024_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024v2_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Walsh2023_reference&quot;,&quot;label&quot;:&quot;Walsh_2023_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Walsh2023_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Salbutamol_Walsh2023_fixed_effects&quot;,&quot;label&quot;:&quot;Walsh_2023_fixed_effects&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Walsh2023_fixed_effects.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Bisaso2026_reference&quot;,&quot;label&quot;:&quot;Bisaso_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Bisaso2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Courlet2022_reference&quot;,&quot;label&quot;:&quot;Courlet_2022_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Courlet2022_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Marques2024_reference&quot;,&quot;label&quot;:&quot;Marques_2024_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024_reference.md&quot;,&quot;status&quot;:&quot;Needs review \u00b7 stale&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Marques2024v2_reference&quot;,&quot;label&quot;:&quot;Marques_2024_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Marques2024v2_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Salbutamol_Walsh2023_random_effects&quot;,&quot;label&quot;:&quot;Walsh_2023_random_effects&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/Salbutamol_Walsh2023_random_effects.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Walsh_2023_PASS&quot;,&quot;label&quot;:&quot;Walsh_2023 \u00b7 PASS&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Walsh_2023_PASS.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Walsh_2023_glucose&quot;,&quot;label&quot;:&quot;Walsh_2023 \u00b7 glucose&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Walsh_2023_glucose.md&quot;,&quot;status&quot;:&quot;Reproduces with caveats&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Walsh_2023_tachycardia&quot;,&quot;label&quot;:&quot;Walsh_2023 \u00b7 tachycardia&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Walsh_2023_tachycardia.md&quot;,&quot;status&quot;:&quot;Reproduces with caveats&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Boger_2019_FEV1&quot;,&quot;label&quot;:&quot;Boger_2019 \u00b7 FEV1&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Boger_2019_FEV1.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Venkatasubramanian_2020_TPR&quot;,&quot;label&quot;:&quot;Venkatasubramanian_2020 \u00b7 TPR&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Venkatasubramanian_2020_TPR.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Cullum_2023_Emax&quot;,&quot;label&quot;:&quot;Cullum_2023 \u00b7 Emax&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Cullum_2023_Emax.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Cullum_2023_IRmax&quot;,&quot;label&quot;:&quot;Cullum_2023 \u00b7 IRmax&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_salbutamol/pd_Cullum_2023_IRmax.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -7,7 +7,7 @@
 
 > ## <span class="pk-badge pk-badge--red">Rejected</span> <span class="pk-badge pk-badge--species" title="Animal study (rat), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">rat</span>
 
-> Salbutamol sulphate clearance of 78.0 L/h is dimensionally incompatible with the rat intestinal model's scale.
+> Salbutamol's clearance of 46.77 L/h causes a dimension mismatch, and abstract-only sourcing left model parameters unfitted.
 
 <div class="pk-model-meta" hidden drug="salbutamol" model-id="Salbutamol_Valenzuela2006_reference" status="rejected" stale="false" population="rat small intestine (in situ)" measured-compound="salbutamol sulphate" parameterization="mechanistic" topology="1C"></div>
 
@@ -25,7 +25,7 @@ Valenzuela B, López-Pintor E, Pérez-Ruixo JJ, Nácher A, Martín-Villodre A, C
 
 **Structure:** 1-compartment; no model was built for this record.  
 **Parameterization:** mechanistic.  
-**Parameters:** 4 extracted.  
+**Parameters:** 5 extracted.  
 **Availability:** No model was generated from this record.
 
 ## Parameters
@@ -36,7 +36,8 @@ Valenzuela B, López-Pintor E, Pérez-Ruixo JJ, Nácher A, Martín-Villodre A, C
 | ka | kabs | 0.636 | h(-1) |
 | VMax | Vmax | 0.726 | mM/h |
 | Km | Km | 0.54 | mM |
-| Cl | CL | 78.0 | L/h |
+| CL | CL | 46.77 | L/h |
+| Volume of distribution | V | 211.0 | L |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
@@ -50,9 +51,9 @@ Valenzuela B, López-Pintor E, Pérez-Ruixo JJ, Nácher A, Martín-Villodre A, C
 
 ### Reviewer guidance
 
-**Salbutamol sulphate clearance of 78.0 L/h is dimensionally incompatible with the rat intestinal model's scale.**
+**Salbutamol's clearance of 46.77 L/h causes a dimension mismatch, and abstract-only sourcing left model parameters unfitted.**
 
-The record was built from the abstract alone, so reported summary statistics stand in for a fitted model. The total clearance value of 78.0 L/h triggered a dimension mismatch finding on a structural parameter. Additionally, there is a discrepancy regarding the Km value, where one reader recorded 0.54 mM and another recorded 0.357. Extracted — salbutamol: kabs 0.636 h(-1), Vmax 0.726 mM/h, Km 0.54 mM, CL 78 L/h.
+The total clearance value of 46.77 L/h was flagged for a structural dimension error. The record relies solely on abstract summary statistics rather than fitted model parameters. A second reader disagreed on extracted values for Km and clearance. Extracted — salbutamol: kabs 0.636 h(-1), Vmax 0.726 mM/h, Km 0.54 mM, CL 46.8 L/h, V 211 L.
 
 A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the value of cl: this record has 28.0, the second reading none; it also differs on 1 more field. That field does not shape the model.
 
@@ -65,7 +66,8 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the val
 | ka | `Q49` · kabs | 0.636 | h(-1) | 0.0001767 | 1/s | 1/h | exact (1) | Valenzuela_2006:abstract |
 | VMax | `Q66` · Vmax | 0.726 | mM/h |  |  | mM/h | special_case (0.95) | Valenzuela_2006:abstract |
 | Km | `Q1` · Km | 0.54 | mM |  |  | mM | exact (1) | Valenzuela_2006:abstract |
-| Cl | `Q22` · CL | 78.0 | L/h | 2.167e-05 | m3/s | L/h | review_gapfill (0.7) | Marques_2024:review |
+| CL | `Q22` · CL | 46.77 | L/h | 1.299e-05 | m3/s | L/h | review_gapfill (0.7) | Boger_2019:review |
+| Volume of distribution | `Q61` · V | 211.0 | L | 0.211 | m3 | L | review_gapfill (0.7) | Wen_2026:review |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
@@ -85,7 +87,8 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the val
 - held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - status held at "Needs review" — not promoted
 - abstract-only: no full text was available, so these values were read from the abstract's prose — reported summary statistics, not a fitted model
-- gap-filled Q22 (CL) from Marques_2024's review values (primary lacked it)
+- gap-filled Q22 (CL) from Boger_2019's review values (primary lacked it)
+- gap-filled Q61 (V) from Wen_2026's review values (primary lacked it)
 - skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
 - skipped review gap-fill of TLAG: primary's parameterization (rate-constant / ka-only) does not use it
@@ -124,12 +127,14 @@ Primary extraction: `glm-5.3-flash`; retained regardless of cross-check verdict.
 | C0_has_structural_params | pass |  | 3 |  |
 | C0c_disposition_complete | fail |  |  |  |
 | C5_dimension_Q1 | fail | [length] | mM | ['Valenzuela_2006:abstract'] |
-| C5_dimension_Q22 | pass | [length] ** 3 / [time] |  | ['Marques_2024:review'] |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] |  | ['Boger_2019:review'] |
 | C5_dimension_Q49 | pass | 1 / [time] |  | ['Valenzuela_2006:abstract'] |
+| C5_dimension_Q61 | pass | [length] ** 3 |  | ['Wen_2026:review'] |
 | C5_dimension_Q66 | fail | [length] / [time] | mM/h | ['Valenzuela_2006:abstract'] |
-| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 78 | ['Marques_2024:review'] |
+| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 46.77 | ['Boger_2019:review'] |
 | C8_topology | pass |  |  |  |
-| C9_phys_window_Q22 | pass | clearance within physiological range | 78 L/h | ['Marques_2024:review'] |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 46.8 L/h | ['Boger_2019:review'] |
+| C9_phys_window_Q61 | pass | volume within physiological range | 211 L | ['Wen_2026:review'] |
 
 <details class="legend">
 <summary>Validation definitions</summary>
@@ -152,5 +157,5 @@ _Browser simulation unavailable: no shared WebAssembly template. The **Models** 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bsalbutamol%5D%20Salbutamol_Valenzuela2006_reference&body=Drug%3A%20salbutamol%0ARecord%3A%20Salbutamol_Valenzuela2006_reference%0APaper%3A%20Valenzuela_2006%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_salbutamol/Salbutamol_Valenzuela2006_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-22 14:34 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bsalbutamol%5D%20Salbutamol_Valenzuela2006_reference&body=Drug%3A%20salbutamol%0ARecord%3A%20Salbutamol_Valenzuela2006_reference%0APaper%3A%20Valenzuela_2006%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_salbutamol/Salbutamol_Valenzuela2006_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-04 09:01 UTC</sub>

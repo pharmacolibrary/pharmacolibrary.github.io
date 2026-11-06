@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C03X&quot;,&quot;href&quot;:&quot;atc/C03X.md&quot;},{&quot;label&quot;:&quot;tolvaptan&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/&quot;},{&quot;label&quot;:&quot;Castro-Su\u00e1rez_2020 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tolvaptan_Bhatt2014_reference&quot;,&quot;label&quot;:&quot;Bhatt_2014_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Bhatt2014_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Lanke2019_base&quot;,&quot;label&quot;:&quot;Lanke_2019_base&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Lanke2019_base.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Lanke2019_final&quot;,&quot;label&quot;:&quot;Lanke_2019_final&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Plosker2010_reference&quot;,&quot;label&quot;:&quot;Plosker_2010_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Plosker2010_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Shoaf2017_reference&quot;,&quot;label&quot;:&quot;Shoaf_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Shoaf2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Van2013_reference&quot;,&quot;label&quot;:&quot;Van_2013_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Van2013_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Tolvaptan_Plosker2010_reference&quot;,&quot;label&quot;:&quot;Plosker_2010_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Plosker2010_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Lanke2019_base&quot;,&quot;label&quot;:&quot;Lanke_2019_base&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Lanke2019_base.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Lanke2019_final&quot;,&quot;label&quot;:&quot;Lanke_2019_final&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Lanke2019_final.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Shoaf2017_reference&quot;,&quot;label&quot;:&quot;Shoaf_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Shoaf2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Tolvaptan_Van2013_reference&quot;,&quot;label&quot;:&quot;Van_2013_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_tolvaptan/Tolvaptan_Van2013_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
@@ -7,7 +7,7 @@
 
 > ## <span class="pk-badge pk-badge--red">Rejected</span>
 
-> Tolvaptan's peripheral compartment volume of distribution was rejected because that compartment was unreachable from the dose.
+> The model was rejected because the record's 2-compartment structure is topologically incomplete, leaving a compartment or metabolite without a path from the dose.
 
 <div class="pk-model-meta" hidden drug="tolvaptan" model-id="Tolvaptan_CastroSurez2020_reference" status="rejected" stale="false" population="" measured-compound="tolvaptan" parameterization="mechanistic" topology="2C"></div>
 
@@ -31,13 +31,13 @@ Castro-Suárez N, Trame MN, Ramos-Suzarte M, Dávalos JM, Bacallao-Mendez RA, Ma
 
 | label | parameter | value | unit |
 |---|---|---|---|
-| Clearance of nimotuzumab from the central compartment was faster in patients with ADPKD | CL | 9.64 | L/h |
-| central compartment volume (V 1 ) | V1 | 2.63 | L |
+| Clearance of nimotuzumab from the central compartment ... ADPKD | CL | 9.64 | L/h |
+| nimotuzumab distributes into a central compartment volume (V 1 ) ... median body weight of 65 kg | V1 | 2.63 | L |
 | peripheral volume of distribution | V2 | 9.92 | L |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--red">Rejected</span>
+**Status and checks:** <span class="pk-badge pk-badge--red">Rejected</span> <span class="pk-badge pk-badge--orange" title="re-read by gpt-oss-120b (partly confirmed, agreement 0.5). Primary extraction retained.">cross-check: partial</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -47,9 +47,11 @@ Castro-Suárez N, Trame MN, Ramos-Suzarte M, Dávalos JM, Bacallao-Mendez RA, Ma
 
 ### Reviewer guidance
 
-**Tolvaptan's peripheral compartment volume of distribution was rejected because that compartment was unreachable from the dose.**
+**The model was rejected because the record's 2-compartment structure is topologically incomplete, leaving a compartment or metabolite without a path from the dose.**
 
-The record describes a two-compartment model for tolvaptan with a central volume of 2.63 L and a peripheral volume of 9.92 L. A structural integrity check failed, identifying that the peripheral compartment has no path from the administration site. Consequently, the peripheral volume parameter represents an orphan compartment that cannot be populated by the drug. Extracted — tolvaptan: CL 9.64 L/h, V1 2.63 L, V2 9.92 L.
+The extracted parameters describe a two-compartment model with a central volume of 2.63 L and a peripheral volume of 9.92 L, yet the review found a structural defect where one part is unreachable or unlinked from the dose. Although the second reader disputed the extracted values for the peripheral volume and an additional parameter, the primary reason for refusal was this topological inconsistency rather than the specific parameter values. Extracted — tolvaptan: CL 9.64 L/h, V1 2.63 L, V2 9.92 L.
+
+A second, independent reading of the paper (`gpt-oss-120b`) disagrees on the value of CL: this record has 9.64, the second reading none; it also differs on 2 more fields. That field does not shape the model.
 
 <sub>reviewed by qwen3.8-27b</sub>
 
@@ -57,8 +59,8 @@ The record describes a two-compartment model for tolvaptan with a central volume
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_si | unit_canonical | link | source |
 |---|---|---|---|---|---|---|---|---|
-| Clearance of nimotuzumab from the central compartment was faster in patients with ADPKD | `Q22` · CL | 9.64 | L/h | 2.678e-06 | m3/s | L/h | review (0.7) | Castro-Suárez_2020:review |
-| central compartment volume (V 1 ) | `Q63` · V1 | 2.63 | L | 0.00263 | m3 | L | review (0.7) | Castro-Suárez_2020:review |
+| Clearance of nimotuzumab from the central compartment ... ADPKD | `Q22` · CL | 9.64 | L/h | 2.678e-06 | m3/s | L/h | review (0.7) | Castro-Suárez_2020:review |
+| nimotuzumab distributes into a central compartment volume (V 1 ) ... median body weight of 65 kg | `Q63` · V1 | 2.63 | L | 0.00263 | m3 | L | review (0.7) | Castro-Suárez_2020:review |
 | peripheral volume of distribution | `Q64` · V2 | 9.92 | L | 0.00992 | m3 | L | review (0.7) | Castro-Suárez_2020:review |
 
 <details class="legend">
@@ -73,6 +75,29 @@ The record describes a two-compartment model for tolvaptan with a central volume
 - volume reported by review
 
 ## Validation
+
+**Cross-check (independent readings):** <span class="pk-badge pk-badge--orange">cross-check: partial</span>  
+Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
+
+| second reader | verdict | agreement | disagreements |
+|---|---|---|---|
+| `gpt-oss-120b` | partly confirmed | 0.5 (3/6 fields) | 3 |
+
+<details><summary>3 field discrepancies</summary>
+
+| second reader | field | first reading | second reading | agreement |
+|---|---|---|---|---|
+| `gpt-oss-120b` | `values[Q22]` | 9.64 |  | only_one_extracted |
+| `gpt-oss-120b` | `values[Q64]` | 9.92 |  | only_one_extracted |
+| `gpt-oss-120b` | `values[Q79]` |  | 0.21 | only_one_extracted |
+
+</details>
+
+<details class="legend">
+<summary>Cross-check definitions</summary>
+<table><thead><tr><th>Field</th><th>Definition</th></tr></thead><tbody><tr><td><code>second reader</code></td><td>Additional extraction model; the default uses a different model family. Multiple readers are supported.</td></tr><tr><td><code>agreement</code></td><td>Proportion of compared fields in agreement.</td></tr><tr><td><code>verdict</code></td><td>confirmed: full agreement; partly confirmed: non-structural discrepancy; not confirmed: structural discrepancy; primary re-run: hinted retry after an empty primary extraction.</td></tr><tr><td><code>combined</code></td><td>Confirmed only when all responding readers agree; a structural discrepancy makes the result disputed.</td></tr><tr><td><code>kept</code></td><td>Primary extraction retained; discrepancies require review rather than automatic replacement.</td></tr></tbody></table>
+</details>
+
 
 **Scholar closed-form checks:**
 
@@ -111,5 +136,5 @@ _Browser simulation unavailable: no shared WebAssembly template. The **Models** 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Btolvaptan%5D%20Tolvaptan_CastroSurez2020_reference&body=Drug%3A%20tolvaptan%0ARecord%3A%20Tolvaptan_CastroSurez2020_reference%0APaper%3A%20Castro-Su%C3%A1rez_2020%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_tolvaptan/Tolvaptan_CastroSurez2020_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-20 18:50 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Btolvaptan%5D%20Tolvaptan_CastroSurez2020_reference&body=Drug%3A%20tolvaptan%0ARecord%3A%20Tolvaptan_CastroSurez2020_reference%0APaper%3A%20Castro-Su%C3%A1rez_2020%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_tolvaptan/Tolvaptan_CastroSurez2020_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 18:43 UTC</sub>

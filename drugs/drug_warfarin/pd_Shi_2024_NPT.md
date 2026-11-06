@@ -1,5 +1,5 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;B01A&quot;,&quot;href&quot;:&quot;atc/B01A.md&quot;},{&quot;label&quot;:&quot;warfarin&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/&quot;},{&quot;label&quot;:&quot;Shi_2024 \u00b7 PD normal prothrombin&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Warfarin_Sridharan2021_reference&quot;,&quot;label&quot;:&quot;Sridharan_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Sridharan2021_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Kwack2026_reference&quot;,&quot;label&quot;:&quot;Kwack_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Kwack2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Zhu2017_reference&quot;,&quot;label&quot;:&quot;Zhu_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Zhu2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Aoyama_2022_INR&quot;,&quot;label&quot;:&quot;Aoyama_2022 \u00b7 INR&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/pd_Aoyama_2022_INR.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hirai_2024_PT_INR&quot;,&quot;label&quot;:&quot;Hirai_2024 \u00b7 PT-INR&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/pd_Hirai_2024_PT_INR.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Warfarin_Davies2010_reference&quot;,&quot;label&quot;:&quot;Davies_2010_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Davies2010_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Ferrari2017_reference&quot;,&quot;label&quot;:&quot;Ferrari_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Ferrari2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Gomeni2026_reference&quot;,&quot;label&quot;:&quot;Gomeni_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Gomeni2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Kwack2026_reference&quot;,&quot;label&quot;:&quot;Kwack_2026_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Kwack2026_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Ooi2017_reference&quot;,&quot;label&quot;:&quot;Ooi_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Ooi2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Warfarin_Zhu2017_reference&quot;,&quot;label&quot;:&quot;Zhu_2017_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/Warfarin_Zhu2017_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Aoyama_2022_INR&quot;,&quot;label&quot;:&quot;Aoyama_2022 \u00b7 INR&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/pd_Aoyama_2022_INR.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Sasaki_2009_INR&quot;,&quot;label&quot;:&quot;Sasaki_2009 \u00b7 INR&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_warfarin/pd_Sasaki_2009_INR.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # normal prothrombin — PD  <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--red" title="re-read by einfracz:gpt-oss-120b (not confirmed, agreement 0.857). Primary extraction retained.">cross-check: disputed</span>
@@ -26,7 +26,7 @@
 - **model family:** `indirect_response_i`
 - **driver:** `cited_pk`
 - **tier:** population
-- **effect:** inhibition/unknown
+- **effect:** inhibition/proportional
 
 ## Citation
 Shi K et al., Comparative performance of pharmacogene…, Pharmacogenetics and genomi… (2024)
@@ -37,7 +37,7 @@ Shi K et al., Comparative performance of pharmacogene…, Pharmacogenetics and g
 |---|---|---|---|---|---|---|
 | PD (effect) | IC50 | `Q322` ·  | 0.0725 | mg/L | llm | Shi_2024:pdv3 |
 | PD (effect) | Kout | `Q328` ·  | 0.0136 | 1/h | llm | Shi_2024:pdv3 |
-| PD (effect) | IMax | `Q323` ·  | 1.0 |  | review_gapfill | Shi_2024:review |
+| PD (effect) | NPT0 | `Q324` ·  | 119 | mg/l | llm | Shi_2024:pdv3 |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
@@ -51,16 +51,16 @@ Shi K et al., Comparative performance of pharmacogene…, Pharmacogenetics and g
 
 | parameter | value (paper units) | SI |
 |---|---|---|
-| E0 | 0 | — |
+| E0 | 119 mg/l | 0.119 kg/m3 |
 | Emax | 1 | — |
 | EC50 | 0.0725 mg/L | 7.25e-05 kg/m3 |
 | gamma | 1 | — |
 
-Closed-form check points (response, SI): `at_0` = 0, `at_EC50` = 0, `at_inf` = 0
+Closed-form check points (response, SI): `at_0` = 0.119, `at_EC50` = 0.0595, `at_inf` = 0
 
 Deviations:
 
-- `defaulted_parameters` — E0, gamma
+- `defaulted_parameters` — Emax, gamma
 
 ## Review
 
@@ -71,17 +71,17 @@ Verdict <span class="pk-badge pk-badge--orange">Needs review</span> · route to 
 | `T0_driver` | pass | driver is the drug, a synonym or one of its metabolites (or unnamed) |
 | `T1_closed_form` | pass | engineer's check points reproduced from the bound parameters |
 | `T1b_fmu` | skipped | template FMU / fmpy not available — advisory only |
-| `T2_direction` | skipped | effect_direction 'inhibition' |
+| `T2_direction` | pass | the response falls, as IDR-I predicts |
 | `T3_plausibility` | pass | EC50, gamma, Imax and baseline in range |
-| `T4_defaults` | fail | a core parameter took a library default: E0 |
+| `T4_defaults` | fail | a core parameter took a library default: Emax |
 
 Advisory:
 
-- defaulted: E0 — a row the paper has and the record lacks
+- defaulted: Emax — a row the paper has and the record lacks
 
 
 **Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  
-Primary extraction: `ollama:qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check verdict.
+Primary extraction: `einfracz:qwen3.8-27b`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
@@ -91,7 +91,7 @@ Primary extraction: `ollama:qwen3.8:27b-mtp-q8_0`; retained regardless of cross-
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
-| `einfracz:gpt-oss-120b` | `parameters[Q323]` |  | 1.0 | only_one_extracted |
+| `einfracz:gpt-oss-120b` | `parameters[Q324]` | 119 |  | only_one_extracted |
 
 </details>
 
@@ -107,9 +107,9 @@ Primary extraction: `ollama:qwen3.8:27b-mtp-q8_0`; retained regardless of cross-
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_warfarin/Warfarin_Shi2024_PD_npt/Warfarin_Shi2024_PD_npt_modelica.zip" download>Warfarin_Shi2024_PD_npt_modelica.zip</a> <span class="pk-size">(3.0 kB)</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_warfarin/Warfarin_Shi2024_PD_npt/Warfarin_Shi2024_PD_npt_modelica.zip" download>Warfarin_Shi2024_PD_npt_modelica.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
 <tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">unavailable</span></td></tr>
-<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_warfarin/Warfarin_Shi2024_PD_npt/Warfarin_Shi2024_PD_npt_matlab.zip" download>Warfarin_Shi2024_PD_npt_matlab.zip</a> <span class="pk-size">(3.0 kB)</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_warfarin/Warfarin_Shi2024_PD_npt/Warfarin_Shi2024_PD_npt_matlab.zip" download>Warfarin_Shi2024_PD_npt_matlab.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><span class="pk-missing">unavailable</span></td></tr>
 <tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_warfarin/Warfarin_Shi2024_PD_npt/Warfarin_Shi2024_PD_npt_sbml.zip" download>Warfarin_Shi2024_PD_npt_sbml.zip</a> <span class="pk-size">(2.5 kB)</span></td></tr>
 <tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_warfarin/Warfarin_Shi2024_PD_npt/Warfarin_Shi2024_PD_npt_cellml.zip" download>Warfarin_Shi2024_PD_npt_cellml.zip</a> <span class="pk-size">(2.4 kB)</span></td></tr>
@@ -119,13 +119,12 @@ Primary extraction: `ollama:qwen3.8:27b-mtp-q8_0`; retained regardless of cross-
 
 ## How to cite
 
-**This record:** Pharmacolibrary v26.09, model `Warfarin_Shi2024_PD_npt`. <https://pharmacolibrary.github.io/#/drugs/drug_warfarin/Warfarin_Shi2024_PD_npt>
+**This record:** Pharmacolibrary, model `Warfarin_Shi2024_PD_npt`. <https://pharmacolibrary.github.io/#/drugs/drug_warfarin/Warfarin_Shi2024_PD_npt>
 
 ```bibtex
 @misc{pharmacolibrary_WarfarinShi2024PDnpt,
   title  = {{Pharmacolibrary model Warfarin_Shi2024_PD_npt}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_warfarin/Warfarin_Shi2024_PD_npt},
 }
 ```
@@ -139,5 +138,5 @@ _Browser simulation unavailable: no shared WebAssembly template. The **Models** 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bwarfarin%5D%20pd_Shi_2024_NPT&body=Drug%3A%20warfarin%0ARecord%3A%20pd_Shi_2024_NPT%0APaper%3A%20Shi_2024%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_warfarin/pd_Shi_2024_NPT%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bwarfarin%5D%20pd_Shi_2024_NPT&body=Drug%3A%20warfarin%0ARecord%3A%20pd_Shi_2024_NPT%0APaper%3A%20Shi_2024%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_warfarin/pd_Shi_2024_NPT%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
 <sub>← back to [warfarin](drugs/drug_warfarin/)</sub>

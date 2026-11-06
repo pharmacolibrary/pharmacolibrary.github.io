@@ -1,46 +1,53 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01E&quot;,&quot;href&quot;:&quot;atc/C01E.md&quot;},{&quot;label&quot;:&quot;ibuprofen&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/&quot;},{&quot;label&quot;:&quot;Morse_2022 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ibuprofen_Clissold1987_reference&quot;,&quot;label&quot;:&quot;Clissold_1987_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Clissold1987_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Knihinicki1990_reference&quot;,&quot;label&quot;:&quot;Knihinicki_1990_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Knihinicki1990_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Todd1986_reference&quot;,&quot;label&quot;:&quot;Todd_1986_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Todd1986_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_DeGraves1993v2_reference&quot;,&quot;label&quot;:&quot;DeGraves_1993_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Trocniz2000_reference&quot;,&quot;label&quot;:&quot;Troc\u00f3niz_2000_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Trocniz2000_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hannam_2018_PPPM&quot;,&quot;label&quot;:&quot;Hannam_2018 \u00b7 PPPM&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/pd_Hannam_2018_PPPM.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ibuprofen_Aranda1997_reference&quot;,&quot;label&quot;:&quot;Aranda_1997_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Aranda1997_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Bouazza2021_reference&quot;,&quot;label&quot;:&quot;Bouazza_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Bouazza2021_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Clissold1987_reference&quot;,&quot;label&quot;:&quot;Clissold_1987_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Clissold1987_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_DeGraves1993v2_reference&quot;,&quot;label&quot;:&quot;DeGraves_1993_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Gonzalez1987_reference&quot;,&quot;label&quot;:&quot;Gonzalez_1987_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Gonzalez1987_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Knihinicki1990_reference&quot;,&quot;label&quot;:&quot;Knihinicki_1990_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Knihinicki1990_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Todd1986_reference&quot;,&quot;label&quot;:&quot;Todd_1986_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Todd1986_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Li2012_ibu_eff_400_mg&quot;,&quot;label&quot;:&quot;Li_2012_ibu_eff_400_mg&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Li2012_ibu_eff_400_mg.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Li2012_std_ibu_400_mg&quot;,&quot;label&quot;:&quot;Li_2012_std_ibu_400_mg&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Li2012_std_ibu_400_mg.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Trocniz2000_reference&quot;,&quot;label&quot;:&quot;Troc\u00f3niz_2000_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Trocniz2000_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Brown1998_ibu05&quot;,&quot;label&quot;:&quot;Brown_1998_ibu05&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Brown1998_ibu05.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Brown1998_ibu10&quot;,&quot;label&quot;:&quot;Brown_1998_ibu10&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Brown1998_ibu10.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hannam_2018_PPPM&quot;,&quot;label&quot;:&quot;Hannam_2018 \u00b7 PPPM&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/pd_Hannam_2018_PPPM.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # ibuprofen — `Ibuprofen_Morse2022_reference`
 
-> ## <span class="pk-badge pk-badge--red">Rejected</span>
+> ## <span class="pk-badge pk-badge--orange" title="covariates_not_exercised: Reference-individual predictions reproduce the source; covariate scenarios were not evaluated.">Needs review</span>
 
-> The record is rejected because the volume of distribution is 22.37 ml, an implausible magnitude indicating a unit or scale extraction error.
+> Ibuprofen clearance, volume, bioavailability, lag time, and intercompartmental clearance lacked extracted values, causing the model to use library placeholders.
 
-<div class="pk-model-meta" hidden drug="ibuprofen" model-id="Ibuprofen_Morse2022_reference" status="rejected" stale="false" population="healthy adults" measured-compound="acetaminophen, ibuprofen" parameterization="mechanistic" topology="1C"></div>
+<div class="pk-model-meta" hidden drug="ibuprofen" model-id="Ibuprofen_Morse2022_reference" status="model_quarantined" stale="false" population="healthy adults" measured-compound="acetaminophen and ibuprofen" parameterization="mechanistic" topology="2C"></div>
 
 ## Citation
-JamesDMorse 0000-0001-7500-0062 Department of Pharmacology and Clinical Pharmacology University of Auckland Park Road 1023 Auckland New Zealand Department of Pharmacology and Clinical Pharmacology University of Auckland Park Road 1023 Auckland New Zealand, IoanaStanescu AFT Pharmaceuticals Limited Auckland New Zealand AFT Pharmaceuticals Limited Auckland New Zealand, HartleyCAtkinson AFT Pharmaceuticals Limited Auckland New Zealand AFT Pharmaceuticals Limited Auckland New Zealand, BrianJAnderson briana@adhb.govt.nz 0000-0002-2826-3019 Department of Anaesthesiology University of Auckland Park Road 1023 Auckland New Zealand Department of Anaesthesia Auckland Children's Hospital Park Road Private Bag 92024 Auckland New Zealand Department of Anaesthesiology University of Auckland Park Road 1023 Auckland New Zealand Department of Anaesthesia Auckland Children's Hospital Park Road Private Bag 92024 Auckland New Zealand. Population Pharmacokinetic Modelling of Acetaminophen and Ibuprofen: the Influence of Body Composition, Formulation and Feeding in Healthy Adult Volunteers (2022).
+Morse JD, Stanescu I, Atkinson HC, Anderson BJ. Population Pharmacokinetic Modelling of Acetaminophen and Ibuprofen: the Influence of Body Composition, Formulation and Feeding in Healthy Adult Volunteers. European journal of drug metabolism and pharmacokinetics 47(4):497–507 (2022).
   ·  DOI: [10.1007/s13318-022-00766-9](https://doi.org/10.1007/s13318-022-00766-9)
 
 ## Population and dosing
 
-**Population:** healthy adults · condition healthy · age group adult · n = 116.
+**Population:** healthy adults · condition healthy · age group adult.
 
-**Dosing:** 325, 500, 1000 mg, iv, oral, single.
+**Dosing:** 400, 500, 1000 mg, iv, single.
 
 ## Model
 
-**Structure:** 1-compartment; no model was built for this record.  
+**Structure:** 2-compartment, oral mammillary model — template `PK_2C_enteral`.  
 **Parameterization:** mechanistic.  
-**Parameters:** 4 extracted.  
-**Availability:** No model was generated from this record.
+**Parameters:** 7 extracted, plus 2 covariate effects.  
+**Availability:** Model withheld: a core parameter is unspecified.
 
 ## Parameters
-> ⚠️ Status "Rejected": these are the values as extracted, **not verified**. Any model or simulator on the other tabs runs on these numbers.
+> ⚠️ Status "Needs review": these are the values as extracted, **not verified**. Any model or simulator on the other tabs runs on these numbers.
 
 | label | parameter | value | unit |
 |---|---|---|---|
-| factor for fat (FFAT) on CL | CL | 0.816 |  |
-| lag time on the tablet formulation increased ... under fed conditions | tlag | 4.6 | fold |
-| V,, ml | V | 22.37 | ml |
-| first-order absorption rate constant (k a) | kabs | 1.1 | h -1 |
+| CL (L/h/70 kg) | CL | 24.0 | L/h/70 kg |
+| Q2 (L/h/70 kg) | Q | 43.5 | L/h/70 kg |
+| V1 (L/70 kg) | V1 | 43.7 | L/70 kg |
+| V2 (L/70 kg) | V2 | 29.7 | L/70 kg |
+| T1/2 ABS (min) | t1/2ka | 11.5 | min |
+| TLAG (min) | tlag | 5.30 | min |
+| F_FAST_LAG (Suspension) | n_transit | 0.743 | Suspension |
+
+## Caveats
+
+- Reference-individual predictions reproduce the source; covariate scenarios were not evaluated.
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--red">Rejected</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.222), gpt-5.6-luna (not confirmed, agreement 0.25). Primary extraction retained.">cross-check: disputed 0/2</span>
+**Status and checks:** <span class="pk-badge pk-badge--orange" title="covariates_not_exercised: Reference-individual predictions reproduce the source; covariate scenarios were not evaluated.">Needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.222), gpt-5.6-luna (not confirmed, agreement 0.25). Primary extraction retained.">cross-check: disputed 0/2</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -50,9 +57,9 @@ JamesDMorse 0000-0001-7500-0062 Department of Pharmacology and Clinical Pharmaco
 
 ### Reviewer guidance
 
-**The record is rejected because the volume of distribution is 22.37 ml, an implausible magnitude indicating a unit or scale extraction error.**
+**Ibuprofen clearance, volume, bioavailability, lag time, and intercompartmental clearance lacked extracted values, causing the model to use library placeholders.**
 
-The volume of distribution parameter is assigned the value 22.37 with the unit 'ml', which is physically impossible for a systemic volume metric in healthy adults. The record indicates that a reported unit could not be converted to standard SI units, preventing the establishment of the correct scale. The second reader identified that the parameter fields were null, confirming that no valid numerical values were extracted for the pharmacokinetic parameters. Extracted — acetaminophen, ibuprofen: CL 0.816, tlag 4.6 fold, V 22.4 ml, kabs 1.1 h -1.
+Five core pharmacokinetic parameters for ibuprofen were left at default library values because no specific estimates were provided in the record. Additionally, the defined covariate effects on absorption were not simulated, meaning the model only represented a reference individual. Consequently, the model was quarantined because it relied on invented defaults rather than explicit study-derived data for its primary structural components. Extracted — ibuprofen: CL 24 L/h/70 kg, Q 43.5 L/h/70 kg, V1 43.7 L/70 kg, V2 29.7 L/70 kg, t1/2ka 11.5 min, tlag 5.3 min, n_transit 0.743 Suspension.
 
 A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which compound was dosed: this record has acetaminophen, ibuprofen, the second reading acetaminophen and ibuprofen; it also differs on 6 more fields. That field shapes the model, so the record is marked disputed.
 
@@ -62,28 +69,61 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which c
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_si | unit_canonical | link | source |
 |---|---|---|---|---|---|---|---|---|
-| factor for fat (FFAT) on CL | `Q22` · CL | 0.816 |  |  |  | L/h | boundary (0.8) | Morse_2022:results_prose |
-| lag time on the tablet formulation increased ... under fed conditions | `Q83` · tlag | 4.6 | fold |  |  | fold | boundary (0.8) | Morse_2022:results_prose |
-| V,, ml | `Q61` · V | 22.37 | ml | 2.237e-05 | m3 | L | review_gapfill (0.7) | Askholt_1985:review |
-| first-order absorption rate constant (k a) | `Q49` · kabs | 1.1 | h -1 | 0.0003056 | 1/s | 1/h | review_gapfill (0.7) | Hong_2008:review |
+| CL (L/h/70 kg) | `Q22` · CL | 24.0 | L/h/70 kg | 6.667e-06 | m3/s | l/(h·70kg) | exact (1) | Tab3:row1:col1, Tab3:row1:col4, Tab3:row1:col5, Morse_2022_table_2:row0:col1, Morse_2022_table_2:row0:col4, Morse_2022_table_2:row0:col5 |
+| Q2 (L/h/70 kg) | `Q30` · Q | 43.5 | L/h/70 kg | 1.208e-05 | m3/s | l/(h·70kg) | special_case (0.95) | Tab3:row2:col1, Tab3:row2:col4, Tab3:row2:col5, Morse_2022_table_2:row1:col1, Morse_2022_table_2:row1:col4, Morse_2022_table_2:row1:col5 |
+| V1 (L/70 kg) | `Q63` · V1 | 43.7 | L/70 kg | 0.0437 | m3 | l/70kg | exact (1) | Tab3:row3:col1, Tab3:row3:col4, Tab3:row3:col5, Morse_2022_table_2:row2:col1, Morse_2022_table_2:row2:col4, Morse_2022_table_2:row2:col5 |
+| V2 (L/70 kg) | `Q64` · V2 | 29.7 | L/70 kg | 0.0297 | m3 | l/70kg | exact (1) | Tab3:row4:col1, Tab3:row4:col4, Tab3:row4:col5, Morse_2022_table_2:row3:col1, Morse_2022_table_2:row3:col4, Morse_2022_table_2:row3:col5 |
+| T1/2 ABS (min) | `Q95` · t1/2ka | 11.5 | min | 690 | s | min | half_life_rule (0.95) | Tab3:row8:col1, Tab3:row8:col4, Tab3:row8:col5, Morse_2022_table_2:row7:col1, Morse_2022_table_2:row7:col4, Morse_2022_table_2:row7:col5 |
+| TLAG (min) | `Q83` · tlag | 5.30 | min | 318 | s | min | exact (1) | Tab3:row9:col1, Tab3:row9:col4, Tab3:row9:col5, Morse_2022_table_2:row8:col1, Morse_2022_table_2:row8:col4, Morse_2022_table_2:row8:col5 |
+| F_FAST_LAG (Suspension) | `Q311` · n_transit | 0.743 | Suspension |  |  | s·uspension | llm (0.6) | Tab3:row13:col1, Morse_2022_table_2:row12:col1 |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
 <table><thead><tr><th>Field</th><th>Definition</th></tr></thead><tbody><tr><td><code>label (paper)</code></td><td>Verbatim source label (label_verbatim).</td></tr><tr><td><code>Q-code · name</code></td><td>Matched ontology identifier and parameter name; e.g. Q22: clearance, Q27: CL/F, Q49: ka.</td></tr><tr><td><code>value</code></td><td>Reported parameter estimate.</td></tr><tr><td><code>unit</code></td><td>Verbatim source unit (unit_verbatim).</td></tr><tr><td><code>value_si</code></td><td>Normalised estimate in SI base units, 4 significant figures; absent when unit conversion is unavailable.</td></tr><tr><td><code>unit_si</code></td><td>SI unit of value_si (m3/s for a clearance, m3 for a volume, 1/s for a rate constant, s for a time).</td></tr><tr><td><code>unit_canonical</code></td><td>Canonical unit associated with the parameter's Q-code.</td></tr><tr><td><code>link</code></td><td>Ontology-mapping method and confidence. exact/boundary/fuzzy/tv_prefix/caption_compartment/special_case: deterministic; llm/llm_confirmed/llm_corrected: LLM-assisted; review/review_gapfill: secondary-review source; boundary_relink: corrected mapping.</td></tr><tr><td><code>source</code></td><td>Source location: colN (table column), other_prose (text), review (secondary source), or pgx (PGx record).</td></tr><tr><th colspan="2" style="text-align:left;padding-top:10px">placeholders</th></tr><tr><td><code>(empty cell)</code></td><td>Not recorded; not equivalent to zero. A column empty in every row is not shown.</td></tr><tr><td><code>—</code></td><td>Not applicable or not displayed.</td></tr><tr><td><code>not verified</code></td><td>Record not accepted; displayed estimates remain unverified.</td></tr></tbody></table>
 </details>
 
+### Unresolved rows _(no Q-code or no value — not parameters)_
+
+| label (paper) | Q-code |
+|---|---|
+| theta_t1_2ka_fasted | Q900 |
+| theta_t1_2ka_fed | Q900 |
+
 ## Departures & gaps
 
 **Interpretation flags:**
-- salvaged Q22 ('factor for fat (FFAT) on CL'=0.816) from results prose — parameter table was unreadable
-- salvaged Q83 ('lag time on the tablet formulation increased ... under fed conditions'=4.6) from results prose — parameter table was unreadable
-- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=acetaminophen, ibuprofen
+- dropped unlinked row (NIL): 'FFATCL' — extend the ontology if this is a real PK parameter (source ['Tab3:row5:col1', 'Morse_2022_table_2:row4:col1'])
+- dropped unlinked row (NIL): 'FIBU' — extend the ontology if this is a real PK parameter (source ['Tab3:row7:col1', 'Tab3:row7:col4', 'Tab3:row7:col5'])
+- dropped unlinked row (NIL): 'F_FAST_TABS (Suspension)' — extend the ontology if this is a real PK parameter (source ['Tab3:row11:col1', 'Morse_2022_table_2:row10:col1'])
+- dropped unlinked row (NIL): 'F_FAST_TABS (Sachet)' — extend the ontology if this is a real PK parameter (source ['Tab3:row12:col1', 'Morse_2022_table_2:row11:col1'])
+- unit_dimension_unknown: 'Suspension' (n_transit)
+- dropped unlinked row (NIL): 'F_FST_LAG (Sachet)' — extend the ontology if this is a real PK parameter (source ['Tab3:row14:col1', 'Morse_2022_table_2:row13:col1'])
+- dropped unlinked row (NIL): 'F_FED_TABS (Tablet)' — extend the ontology if this is a real PK parameter (source ['Tab3:row16:col1', 'Morse_2022_table_2:row15:col1'])
+- dropped unlinked row (NIL): 'F_FED_TABS (Suspension)' — extend the ontology if this is a real PK parameter (source ['Tab3:row17:col1', 'Morse_2022_table_2:row16:col1'])
+- dropped unlinked row (NIL): 'F_FED_TABS (Sachet)' — extend the ontology if this is a real PK parameter (source ['Tab3:row18:col1', 'Morse_2022_table_2:row17:col1'])
+- unit_dimension_unknown: 'Tablet' (n_transit)
+- dropped duplicate Q311 ('F_FED_LAG (Tablet)', value '4.63') — already have one for this compound
+- dropped unlinked row (NIL): 'F_FED_LAG (Suspension)' — extend the ontology if this is a real PK parameter (source ['Tab3:row20:col1', 'Morse_2022_table_2:row19:col1'])
+- unit_dimension_unknown: 'Sachet' (n_transit)
+- dropped duplicate Q311 ('F_FED_LAG (Sachet)', value '2.10') — already have one for this compound
+- dropped unlinked row (NIL): 'FFATV' — extend the ontology if this is a real PK parameter (source ['Morse_2022_table_2:row5:col1'])
+- dropped unlinked row (NIL): 'FPARA' — extend the ontology if this is a real PK parameter (source ['Morse_2022_table_2:row6:col1', 'Morse_2022_table_2:row6:col4', 'Morse_2022_table_2:row6:col5'])
+- apparent-by-design (ADVISORY, codes unchanged): extravascular dosing with no identifiable F, so these reported disposition parameters are likely apparent unless the model puts first-pass in its structure — Q22 (CL (L/h/70 kg)); Q30 (Q2 (L/h/70 kg)); Q63 (V1 (L/70 kg)); Q64 (V2 (L/70 kg))
+- apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=acetaminophen and ibuprofen
 - held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
 - status held at "Needs review" — not promoted
-- gap-filled Q61 (V) from Askholt_1985's review values (primary lacked it)
-- skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
-- skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
-- gap-filled Q49 (kabs) from Hong_2008's review values (primary lacked it)
+- molar mass: none of 1 PubChem candidate(s) is 'acetaminophen and ibuprofen' (LLM) — left in mass units
+- molar mass: none found for 'acetaminophen and ibuprofen' — its concentrations stay mass-only
+
+**Extraction notes:**
+- table Tab3: unbound_uncertainty
+- table Tab3: ragged_grid
+- table Tab3: unparsed_numeric_cell
+- table Morse_2022_table_2: unbound_uncertainty
+- table Morse_2022_table_2: ragged_grid
+- table Morse_2022_table_2: unparsed_numeric_cell
+- companion parameter table 2 transcribed (67 record(s), model stage 'final')
+- LLM selected parameter table(s) 2, 3
 
 ## Validation
 
@@ -125,16 +165,41 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 | check | status | expected | obtained | source |
 |---|---|---|---|---|
-| C0_has_structural_params | pass |  | 2 |  |
+| C0_has_structural_params | pass |  | 7 |  |
 | C0b_disposition_core | pass |  |  |  |
-| C0c_disposition_complete | fail |  |  |  |
-| C5_dimension_Q49 | pass | 1 / [time] |  | ['Hong_2008:review'] |
-| C5_dimension_Q61 | pass | [length] ** 3 |  | ['Askholt_1985:review'] |
-| C5_unit_missing_Q22 | fail | [length] ** 3 / [time] |  | ['Morse_2022:results_prose'] |
-| C5_unit_missing_Q83 | fail | [time] | fold | ['Morse_2022:results_prose'] |
-| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 0.816 | ['Morse_2022:results_prose'] |
+| C0c_disposition_complete | pass |  |  |  |
+| C2_reference | pass |  |  |  |
+| C5_dimension_Q22 | pass | [length] ** 3 / [time] |  | ['Tab3:row1:col1', 'Tab3:row1:col4', 'Tab3:row1:col5', 'Morse_2022_table_2:row0:col1', 'Morse_2022_table_2:row0:col4', 'Morse_2022_table_2:row0:col5'] |
+| C5_dimension_Q30 | pass | [length] ** 3 / [time] |  | ['Tab3:row2:col1', 'Tab3:row2:col4', 'Tab3:row2:col5', 'Morse_2022_table_2:row1:col1', 'Morse_2022_table_2:row1:col4', 'Morse_2022_table_2:row1:col5'] |
+| C5_dimension_Q63 | pass | [length] ** 3 |  | ['Tab3:row3:col1', 'Tab3:row3:col4', 'Tab3:row3:col5', 'Morse_2022_table_2:row2:col1', 'Morse_2022_table_2:row2:col4', 'Morse_2022_table_2:row2:col5'] |
+| C5_dimension_Q64 | pass | [length] ** 3 |  | ['Tab3:row4:col1', 'Tab3:row4:col4', 'Tab3:row4:col5', 'Morse_2022_table_2:row3:col1', 'Morse_2022_table_2:row3:col4', 'Morse_2022_table_2:row3:col5'] |
+| C5_dimension_Q83 | pass | [time] |  | ['Tab3:row9:col1', 'Tab3:row9:col4', 'Tab3:row9:col5', 'Morse_2022_table_2:row8:col1', 'Morse_2022_table_2:row8:col4', 'Morse_2022_table_2:row8:col5'] |
+| C5_dimension_Q95 | pass | [time] |  | ['Tab3:row8:col1', 'Tab3:row8:col4', 'Tab3:row8:col5', 'Morse_2022_table_2:row7:col1', 'Morse_2022_table_2:row7:col4', 'Morse_2022_table_2:row7:col5'] |
+| C6_cl_magnitude | pass | &lt;= 90.0 L/h | 24 | ['Tab3:row1:col1', 'Tab3:row1:col4', 'Tab3:row1:col5', 'Morse_2022_table_2:row0:col1', 'Morse_2022_table_2:row0:col4', 'Morse_2022_table_2:row0:col5'] |
 | C8_topology | pass |  |  |  |
-| C9_phys_window_Q61 | fail | volume within physiological range | 0.0224 L | ['Askholt_1985:review'] |
+| C9_phys_window_Q22 | pass | clearance within physiological range | 24 L/h | ['Tab3:row1:col1', 'Tab3:row1:col4', 'Tab3:row1:col5', 'Morse_2022_table_2:row0:col1', 'Morse_2022_table_2:row0:col4', 'Morse_2022_table_2:row0:col5'] |
+| C9_phys_window_Q63 | pass | volume within physiological range | 43.7 L | ['Tab3:row3:col1', 'Tab3:row3:col4', 'Tab3:row3:col5', 'Morse_2022_table_2:row2:col1', 'Morse_2022_table_2:row2:col4', 'Morse_2022_table_2:row2:col5'] |
+| C9_phys_window_Q64 | pass | volume within physiological range | 29.7 L | ['Tab3:row4:col1', 'Tab3:row4:col4', 'Tab3:row4:col5', 'Morse_2022_table_2:row3:col1', 'Morse_2022_table_2:row3:col4', 'Morse_2022_table_2:row3:col5'] |
+
+**Reviewer per-scenario checks:**
+
+| check | scenario | status | expected | obtained | note |
+|---|---|---|---|---|---|
+| T2_covariates_not_exercised | (all) | fail |  |  | record has covariate_effects but the engineer simulated only the reference individual — covariate scenarios were not exercised |
+| T0_analyte_identity |  | pass |  |  | V/CL labels are the drug's (or a metabolite's), no biomarker signal |
+| T3_param_coverage |  | pass | 5 scholar param(s) emitted or defaulted | 5 covered | all structural parameters accounted for |
+| T3_topology_template |  | pass | 2C → PK_2C* | PK_2C_enteral | engineer template must match the scholar topology |
+| T6_deviations |  | fail |  | defaulted_parameters: not acceptable | LLM adjudication → deterministic rule |
+| T1_t_half_terminal | reference | skipped | 11.5 |  | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 11.5 |  | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 11 |  | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 85.6 |  | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 3.2 |  | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 26.7 |  | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 26.9 |  | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 26.6 |  | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 78.7 |  | no simulated metric for this quantity (single reference sim) |
+| T1_t_half_terminal | reference | skipped | 7.4 |  | no simulated metric for this quantity (single reference sim) |
 
 <details class="legend">
 <summary>Validation definitions</summary>
@@ -146,9 +211,36 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 <div class="pk-tab-mark" data-tab="Models"></div>
 
-## Models
+## Model downloads
 
-<p>Downloads unavailable: the record is <b>rejected</b>. Previously generated model archives are removed.</p>
+<div class="pk-models-grid"><div class="pk-models-table">
+<table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><span class="pk-missing">unavailable</span></td></tr>
+<tr><td><b>FMI 2.0 (FMU)</b></td><td><code>.fmu</code> + fmpy driver</td><td><span class="pk-missing">unavailable</span></td></tr>
+<tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_ibuprofen/Ibuprofen_Morse2022_reference/Ibuprofen_Morse2022_reference_matlab.zip" download>Ibuprofen_Morse2022_reference_matlab.zip</a> <span class="pk-size">(3.3 kB)</span></td></tr>
+<tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_ibuprofen/Ibuprofen_Morse2022_reference/Ibuprofen_Morse2022_reference_matlab_simbio.zip" download>Ibuprofen_Morse2022_reference_matlab_simbio.zip</a> <span class="pk-size">(3.0 kB)</span></td></tr>
+<tr><td><b>SBML</b></td><td><code>.xml</code> (L3V2) + Python driver</td><td><a href="drugs/drug_ibuprofen/Ibuprofen_Morse2022_reference/Ibuprofen_Morse2022_reference_sbml.zip" download>Ibuprofen_Morse2022_reference_sbml.zip</a> <span class="pk-size">(2.5 kB)</span></td></tr>
+<tr><td><b>CellML</b></td><td><code>.cellml</code> + Python driver</td><td><a href="drugs/drug_ibuprofen/Ibuprofen_Morse2022_reference/Ibuprofen_Morse2022_reference_cellml.zip" download>Ibuprofen_Morse2022_reference_cellml.zip</a> <span class="pk-size">(3.0 kB)</span></td></tr>
+</tbody></table>
+<p>Archives contain model source, a simulation script, and execution instructions.</p>
+</div></div>
+
+## How to cite
+
+**Source paper** (the parameters are its): Morse JD, Stanescu I, Atkinson HC, Anderson BJ. Population Pharmacokinetic Modelling of Acetaminophen and Ibuprofen: the Influence of Body Composition, Formulation and Feeding in Healthy Adult Volunteers. European journal of drug metabolism and pharmacokinetics 47(4):497–507 (2022). [doi:10.1007/s13318-022-00766-9](https://doi.org/10.1007/s13318-022-00766-9)
+
+**This record:** Pharmacolibrary, model `Ibuprofen_Morse2022_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_ibuprofen/Ibuprofen_Morse2022_reference>
+
+```bibtex
+@misc{pharmacolibrary_IbuprofenMorse2022reference,
+  title  = {{Pharmacolibrary model Ibuprofen_Morse2022_reference}},
+  author = {{Pharmacolibrary}},
+  url    = {https://pharmacolibrary.github.io/#/drugs/drug_ibuprofen/Ibuprofen_Morse2022_reference},
+  note   = {Parameters from doi:10.1007/s13318-022-00766-9},
+}
+```
+
+Licence of the model files: not set yet. The parameter values belong to the cited paper.
 
 <div class="pk-tab-mark" data-tab="Simulation"></div>
 
@@ -157,5 +249,5 @@ _Browser simulation unavailable: no shared WebAssembly template. The **Models** 
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bibuprofen%5D%20Ibuprofen_Morse2022_reference&body=Drug%3A%20ibuprofen%0ARecord%3A%20Ibuprofen_Morse2022_reference%0APaper%3A%20Morse_2022%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_ibuprofen/Ibuprofen_Morse2022_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-07-15 06:33 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bibuprofen%5D%20Ibuprofen_Morse2022_reference&body=Drug%3A%20ibuprofen%0ARecord%3A%20Ibuprofen_Morse2022_reference%0APaper%3A%20Morse_2022%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_ibuprofen/Ibuprofen_Morse2022_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 11:27 UTC</sub>

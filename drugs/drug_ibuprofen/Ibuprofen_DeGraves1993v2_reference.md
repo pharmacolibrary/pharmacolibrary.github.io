@@ -1,22 +1,20 @@
 <div class="pk-crumbs" data-crumbs="[{&quot;label&quot;:&quot;Drugs&quot;,&quot;href&quot;:&quot;README.md&quot;},{&quot;label&quot;:&quot;C01E&quot;,&quot;href&quot;:&quot;atc/C01E.md&quot;},{&quot;label&quot;:&quot;ibuprofen&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/&quot;},{&quot;label&quot;:&quot;DeGraves_1993_2 \u00b7 reference&quot;}]"></div>
-<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ibuprofen_Clissold1987_reference&quot;,&quot;label&quot;:&quot;Clissold_1987_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Clissold1987_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Knihinicki1990_reference&quot;,&quot;label&quot;:&quot;Knihinicki_1990_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Knihinicki1990_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Todd1986_reference&quot;,&quot;label&quot;:&quot;Todd_1986_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Todd1986_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_DeGraves1993v2_reference&quot;,&quot;label&quot;:&quot;DeGraves_1993_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Ibuprofen_Trocniz2000_reference&quot;,&quot;label&quot;:&quot;Troc\u00f3niz_2000_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Trocniz2000_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hannam_2018_PPPM&quot;,&quot;label&quot;:&quot;Hannam_2018 \u00b7 PPPM&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/pd_Hannam_2018_PPPM.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
+<div class="pk-recnav" data-items="[{&quot;id&quot;:&quot;Ibuprofen_Aranda1997_reference&quot;,&quot;label&quot;:&quot;Aranda_1997_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Aranda1997_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Bouazza2021_reference&quot;,&quot;label&quot;:&quot;Bouazza_2021_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Bouazza2021_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Clissold1987_reference&quot;,&quot;label&quot;:&quot;Clissold_1987_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Clissold1987_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_DeGraves1993v2_reference&quot;,&quot;label&quot;:&quot;DeGraves_1993_2_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:true},{&quot;id&quot;:&quot;Ibuprofen_Gonzalez1987_reference&quot;,&quot;label&quot;:&quot;Gonzalez_1987_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Gonzalez1987_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Knihinicki1990_reference&quot;,&quot;label&quot;:&quot;Knihinicki_1990_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Knihinicki1990_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Todd1986_reference&quot;,&quot;label&quot;:&quot;Todd_1986_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Todd1986_reference.md&quot;,&quot;status&quot;:&quot;Reproduces paper&quot;,&quot;css&quot;:&quot;pk-badge--green&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Li2012_ibu_eff_400_mg&quot;,&quot;label&quot;:&quot;Li_2012_ibu_eff_400_mg&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Li2012_ibu_eff_400_mg.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Li2012_std_ibu_400_mg&quot;,&quot;label&quot;:&quot;Li_2012_std_ibu_400_mg&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Li2012_std_ibu_400_mg.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Trocniz2000_reference&quot;,&quot;label&quot;:&quot;Troc\u00f3niz_2000_reference&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Trocniz2000_reference.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Brown1998_ibu05&quot;,&quot;label&quot;:&quot;Brown_1998_ibu05&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Brown1998_ibu05.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;Ibuprofen_Brown1998_ibu10&quot;,&quot;label&quot;:&quot;Brown_1998_ibu10&quot;,&quot;group&quot;:&quot;popPK&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/Ibuprofen_Brown1998_ibu10.md&quot;,&quot;status&quot;:&quot;Rejected&quot;,&quot;css&quot;:&quot;pk-badge--red&quot;,&quot;here&quot;:false},{&quot;id&quot;:&quot;pd_Hannam_2018_PPPM&quot;,&quot;label&quot;:&quot;Hannam_2018 \u00b7 PPPM&quot;,&quot;group&quot;:&quot;PD&quot;,&quot;href&quot;:&quot;drugs/drug_ibuprofen/pd_Hannam_2018_PPPM.md&quot;,&quot;status&quot;:&quot;Needs review&quot;,&quot;css&quot;:&quot;pk-badge--orange&quot;,&quot;here&quot;:false}]"></div>
 
 <div class="pk-tab-mark" data-tab="Information"></div>
 
 # ibuprofen — `Ibuprofen_DeGraves1993v2_reference`
 
-> ## <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--species" title="Animal study (cattle), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">cattle</span>
+> ## <span class="pk-badge pk-badge--green">Reproduces paper</span> <span class="pk-badge pk-badge--species" title="Animal study (cattle), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">cattle</span>
 
-> The record was held because the steady-state volume of distribution (0.14 L/kg) was used as a substitute for the central compartment volume in a one-compartment model.
-
-<div class="pk-model-meta" hidden drug="ibuprofen" model-id="Ibuprofen_DeGraves1993v2_reference" status="needs_review" stale="false" population="lactating dairy cows" measured-compound="ibuprofen" parameterization="mechanistic" topology="1C"></div>
+<div class="pk-model-meta" hidden drug="ibuprofen" model-id="Ibuprofen_DeGraves1993v2_reference" status="curated_candidate" stale="false" population="adult lactating dairy cows" measured-compound="ibuprofen" parameterization="mechanistic" topology="1C"></div>
 
 ## Citation
 DeGraves FJ, Anderson KL, Aucoin DP. Pharmacokinetics of ibuprofen in lactating dairy cows. American journal of veterinary research 54(7):1133–1135 (1993).
 
 ## Population and dosing
 
-**Population:** lactating dairy cows · condition healthy · age group adult · n = 6.
+**Population:** adult lactating dairy cows · condition healthy · age group adult · n = 6.
 
 > **Species: cattle.** This record comes from an animal study (cattle), not from people. The values, the model and its simulation are shown as the paper reports them — they describe that system, not human pharmacology (read from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).
 
@@ -30,18 +28,16 @@ DeGraves FJ, Anderson KL, Aucoin DP. Pharmacokinetics of ibuprofen in lactating 
 <figure class="pk-models-diagram"><img src="drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference/Ibuprofen_DeGraves1993v2_reference.svg" alt="Ibuprofen_DeGraves1993v2_reference diagram"><figcaption>Modelica diagram · Pharmacolibrary · OpenModelica.</figcaption></figure>
 
 ## Parameters
-> ⚠️ Status "Needs review": these are the values as extracted, **not verified**. Any model or simulator on the other tabs runs on these numbers.
-
 | label | parameter | value | unit |
 |---|---|---|---|
 | Harmonic mean volume of distribution at steady state | Vss | 0.14 | L/kg |
 | elimination half-life | t1/2z | 1.55 | hours |
 | total clearance | CL | 86.2 | ml/kg/h |
-| Harmonic mean oral bioavailability | Fab | 99 | % |
+| Harmonic mean oral bioavailability | Fab | 99 |  |
 
 <details class="pk-evidence"><summary>Evidence &amp; review</summary>
 
-**Status and checks:** <span class="pk-badge pk-badge--orange">Needs review</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.188), gpt-5.6-luna (confirmed, agreement 1.0). Primary extraction retained.">cross-check: disputed 1/2</span> <span class="pk-badge pk-badge--species" title="Animal study (cattle), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">cattle</span>
+**Status and checks:** <span class="pk-badge pk-badge--green">Reproduces paper</span> <span class="pk-badge pk-badge--red" title="re-read by gpt-oss-120b (not confirmed, agreement 0.455), gpt-5.6-luna (confirmed, agreement 1.0). Primary extraction retained.">cross-check: disputed 1/2</span> <span class="pk-badge pk-badge--species" title="Animal study (cattle), not measured in people (from an LLM reading of the title and abstract by gpt-6-luna, p(non-human) 1.00).">cattle</span>
 
 <details class="legend">
 <summary>Status and cross-check definitions</summary>
@@ -51,22 +47,22 @@ DeGraves FJ, Anderson KL, Aucoin DP. Pharmacokinetics of ibuprofen in lactating 
 
 ### Reviewer guidance
 
-**The record was held because the steady-state volume of distribution (0.14 L/kg) was used as a substitute for the central compartment volume in a one-compartment model.**
+**Every check that could be run on this record passed.**
 
-The record was derived from the abstract alone, so the reported summary statistics stand in for a fitted model. The model builder substituted the steady-state volume of distribution for the central volume, a deviation that reproduces the terminal half-life of 1.55 hours but fails to capture the early distribution phase. A second reader disagreed on the extraction of the dose compound, primary analyte, and all reported parameter values, including the 86.2 ml/kg/h clearance. Extracted — ibuprofen: Vss 0.14 L/kg, t1/2z 1.55 hours, CL 86.2 ml/kg/h, Fab 99 %.
+Only the abstract was available, so reported summary statistics stand in for a fitted model.
 
-A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which compound was dosed: this record has ibuprofen, the second reading unknown; it also differs on 12 more fields. That field shapes the model, so the record is marked disputed.
+A second, independent reading of the paper (`gpt-oss-120b`) disagrees on bioavailability: this record has 99, the second reading 99%; it also differs on 5 more fields. That field shapes the model, so the record is marked disputed.
 
-<sub>reviewed by qwen3.8-27b</sub>
+<sub>reviewed by rule template (no LLM)</sub>
 
 ### All parameter columns
 
 | label (paper) | Q-code · name | value | unit | value_si | unit_si | unit_canonical | link | source |
 |---|---|---|---|---|---|---|---|---|
 | Harmonic mean volume of distribution at steady state | `Q65` · Vss | 0.14 | L/kg | 0.0098 | m3 | l/kg | llm_corrected (0.6) | DeGraves_1993_2:abstract |
-| elimination half-life | `Q57` · t1/2z | 1.55 | hours | 5580 | s | h | llm (0.6) | DeGraves_1993_2:abstract |
+| elimination half-life | `Q57` · t1/2z | 1.55 | hours | 5580 | s | h | half_life_rule (0.95) | DeGraves_1993_2:abstract |
 | total clearance | `Q22` · CL | 86.2 | ml/kg/h | 1.676e-06 | m3/s | ml/(h·kg) | exact (1) | DeGraves_1993_2:abstract |
-| Harmonic mean oral bioavailability | `Q40` · Fab | 99 | % |  |  |  | llm_confirmed (0.6) | DeGraves_1993_2:abstract |
+| Harmonic mean oral bioavailability | `Q40` · Fab | 99 |  |  |  |  | llm_confirmed (0.6) | DeGraves_1993_2:abstract |
 
 <details class="legend">
 <summary>Parameter definitions</summary>
@@ -80,11 +76,8 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which c
 
 **Interpretation flags:**
 - apparent-ness (ontology-grounded): parameterization=mechanistic, measured_compound=ibuprofen
-- held at status:extracted — NIL link or unit issue (mismatch/unknown/normalisation-failed) present
-- status held at "Needs review" — not promoted
+- structure disagreement: deterministic 1C vs LLM 2C — review compartment count
 - abstract-only: no full text was available, so these values were read from the abstract's prose — reported summary statistics, not a fitted model
-- skipped review gap-fill of V2: primary is 1C (peripheral family needs ≥2C)
-- skipped review gap-fill of Q: primary is 1C (peripheral family needs ≥2C)
 
 **Extraction notes:**
 - no GROBID TEI available — transcribed from abstract in DeGraves_1993_2_metadata.yaml (4 record(s)); values are summary statistics, not a fitted model
@@ -92,30 +85,23 @@ A second, independent reading of the paper (`gpt-oss-120b`) disagrees on which c
 ## Validation
 
 **Cross-check (independent readings):** <span class="pk-badge pk-badge--red">cross-check: disputed</span>  ·  1 of 2 readers agree  
-Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
+Primary extraction: `qwen3.8:27b-mtp-q8_0`; retained regardless of cross-check verdict.
 
 | second reader | verdict | agreement | disagreements |
 |---|---|---|---|
-| `gpt-oss-120b` | not confirmed | 0.188 (3/16 fields) | 13 |
+| `gpt-oss-120b` | not confirmed | 0.455 (5/11 fields) | 6 |
 | `gpt-5.6-luna` | confirmed | 1.0 (9/9 fields) | none |
 
-<details><summary>13 field discrepancies</summary>
+<details><summary>6 field discrepancies</summary>
 
 | second reader | field | first reading | second reading | agreement |
 |---|---|---|---|---|
+| `gpt-oss-120b` | `model.bioavailability.theta` | 99 | 99% | mismatch |
 | `gpt-oss-120b` | `parameters[elimination half-life]` | 1.55 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[elimination half-life]` |  | 1.55 | only_one_extracted |
-| `gpt-oss-120b` | `parameters[first-order absorption rate constant]` | 1.1 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[harmonic mean oral bioavailability]` | 99 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[harmonic mean oral bioavailability]` |  | 99 | only_one_extracted |
-| `gpt-oss-120b` | `parameters[harmonic mean volume of distribution at steady state]` | 0.14 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[harmonic mean volume of distribution at steady state]` |  | 0.14 | only_one_extracted |
-| `gpt-oss-120b` | `parameters[lag time]` | 34.0 |  | only_one_extracted |
+| `gpt-oss-120b` | `parameters[harmonic mean elimination half-life]` |  | 1.55 | only_one_extracted |
+| `gpt-oss-120b` | `parameters[harmonic mean oral bioavailability].value` | 99 | 99% | mismatch |
+| `gpt-oss-120b` | `parameters[harmonic mean total clearance]` |  | 86.2 | only_one_extracted |
 | `gpt-oss-120b` | `parameters[total clearance]` | 86.2 |  | only_one_extracted |
-| `gpt-oss-120b` | `parameters[total clearance]` |  | 86.2 | only_one_extracted |
-| `gpt-oss-120b` | `parameters[vd]` | 0.13 |  | only_one_extracted |
-| `gpt-oss-120b` | `screen.dose_compound` | ibuprofen | unknown | mismatch |
-| `gpt-oss-120b` | `screen.primary_analyte` | ibuprofen | unknown | mismatch |
 
 </details>
 
@@ -147,9 +133,9 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 | T0_analyte_identity | pass |  |  | V/CL labels are the drug's (or a metabolite's), no biomarker signal |
 | T2_covariates | skipped |  |  | no covariate effects in record |
 | T3_output_variable | pass | C_central (measured=ibuprofen) | central.C | output must be the measured/analyte compartment |
-| T3_param_coverage | pass | 1 scholar param(s) emitted or defaulted | 1 covered | all structural parameters accounted for |
-| T3_topology_template | pass | 1C → PK_1C* | PK_1C | engineer template must match the scholar topology |
-| T6_deviations | fail |  | vss_as_v: not acceptable | LLM adjudication → deterministic rule |
+| T3_param_coverage | pass | 4 scholar param(s) emitted or defaulted | 4 covered | all structural parameters accounted for |
+| T3_topology_template | pass | 1C → PK_1C* | PK_1C_enteral | engineer template must match the scholar topology |
+| T6_deviations | pass |  |  | no engineer deviations to adjudicate |
 
 <details class="legend">
 <summary>Validation definitions</summary>
@@ -165,7 +151,7 @@ Primary extraction: `qwen3.8-27b`; retained regardless of cross-check verdict.
 
 <div class="pk-models-grid"><div class="pk-models-table">
 <table class="pk-models"><thead><tr><th>format</th><th>archive contents</th><th>download</th></tr></thead><tbody>
-<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference/Ibuprofen_DeGraves1993v2_reference_modelica.zip" download>Ibuprofen_DeGraves1993v2_reference_modelica.zip</a> <span class="pk-size">(4.2 kB)</span></td></tr>
+<tr><td><b>Modelica</b></td><td><code>.mo</code> + Modelica script</td><td><a href="drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference/Ibuprofen_DeGraves1993v2_reference_modelica.zip" download>Ibuprofen_DeGraves1993v2_reference_modelica.zip</a> <span class="pk-size">(4.0 kB)</span></td></tr>
 <tr><td><b>FMI 2.0 (FMU)</b></td><td>parameters + fmpy driver (FMU below)</td><td><a href="drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference/Ibuprofen_DeGraves1993v2_reference_fmi.zip" download>Ibuprofen_DeGraves1993v2_reference_fmi.zip</a> <span class="pk-size">(4.2 kB)</span><br><a href="models/fmu/PK_1C.fmu" download>PK_1C.fmu</a> <span class="pk-size">(1.3 MB, shared)</span></td></tr>
 <tr><td><b>MATLAB &amp; GNU Octave</b></td><td><code>.m</code> ODE function + driver</td><td><a href="drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference/Ibuprofen_DeGraves1993v2_reference_matlab.zip" download>Ibuprofen_DeGraves1993v2_reference_matlab.zip</a> <span class="pk-size">(3.4 kB)</span></td></tr>
 <tr><td><b>MATLAB (SimBiology)</b></td><td><code>.sbproj</code> + driver</td><td><a href="drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference/Ibuprofen_DeGraves1993v2_reference_matlab_simbio.zip" download>Ibuprofen_DeGraves1993v2_reference_matlab_simbio.zip</a> <span class="pk-size">(3.1 kB)</span></td></tr>
@@ -202,13 +188,12 @@ The parameters this record sets on the template, in the template's SI units, and
 
 **Source paper** (the parameters are its): DeGraves FJ, Anderson KL, Aucoin DP. Pharmacokinetics of ibuprofen in lactating dairy cows. American journal of veterinary research 54(7):1133–1135 (1993).
 
-**This record:** Pharmacolibrary v26.09, model `Ibuprofen_DeGraves1993v2_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference>
+**This record:** Pharmacolibrary, model `Ibuprofen_DeGraves1993v2_reference`. <https://pharmacolibrary.github.io/#/drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference>
 
 ```bibtex
 @misc{pharmacolibrary_IbuprofenDeGraves1993v2reference,
   title  = {{Pharmacolibrary model Ibuprofen_DeGraves1993v2_reference}},
   author = {{Pharmacolibrary}},
-  version = {v26.09},
   url    = {https://pharmacolibrary.github.io/#/drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference},
 }
 ```
@@ -226,5 +211,5 @@ Licence of the model files: not set yet. The parameter values belong to the cite
 <div class="pk-tab-end"></div>
 
 ---
-<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bibuprofen%5D%20Ibuprofen_DeGraves1993v2_reference&body=Drug%3A%20ibuprofen%0ARecord%3A%20Ibuprofen_DeGraves1993v2_reference%0APaper%3A%20DeGraves_1993_2%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference%0ABuild%3A%20v26.09%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
-<sub>Pharmacolibrary v26.09 · extracted 2026-10-20 17:44 UTC</sub>
+<sub>Research data extracted by software from published papers; not clinically validated and not for dosing decisions. [Report a problem with this record](https://github.com/pharmacolibrary/pharmacolibrary.github.io/issues/new?title=%5Bibuprofen%5D%20Ibuprofen_DeGraves1993v2_reference&body=Drug%3A%20ibuprofen%0ARecord%3A%20Ibuprofen_DeGraves1993v2_reference%0APaper%3A%20DeGraves_1993_2%0APage%3A%20https%3A//pharmacolibrary.github.io/%23/drugs/drug_ibuprofen/Ibuprofen_DeGraves1993v2_reference%0ABuild%3A%20scholarv2%0A%0AWhat%20is%20wrong%3A%0A)</sub>  
+<sub>Pharmacolibrary · extracted 2026-11-03 11:27 UTC</sub>
