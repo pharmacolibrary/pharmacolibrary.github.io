@@ -1,0 +1,47 @@
+{
+ "git_commit": "30819e72105c9ebcf822b72b840a77c699700fd4",
+ "git_tag": "v26.11-rc9",
+ "numbers": {
+  "drugs": 1799,
+  "drugs_with_record_rows": 2195,
+  "models": {
+   "by_kind": {
+    "pd": 769,
+    "pgx": 9,
+    "pk": 2136,
+    "quarantined": 270
+   },
+   "drugs_with_models": 867,
+   "generated_modelica": 3184
+  },
+  "papers": 5909,
+  "parameters": {
+   "counted": 26744,
+   "counted_by_website": 26744,
+   "rows": 40508
+  },
+  "pd": {
+   "counted": 6273,
+   "other": 0,
+   "rejected": 1294
+  },
+  "pgx": {
+   "counted": 568,
+   "other": 2760,
+   "rejected": 15
+  },
+  "pk": {
+   "counted": 3515,
+   "other": 3,
+   "rejected": 3136
+  },
+  "record_rows": {
+   "pd": 7567,
+   "pgx": 3344,
+   "pk": 6654
+  },
+  "scope": "drugs"
+ },
+ "snapshot_date": "2026-11-22",
+ "version": "26.11"
+}
